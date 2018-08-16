@@ -11,7 +11,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/sex,-gender-,-and-sexual-orientation-ontology"/>
+    <owl:Ontology rdf:about="https://github.com/Superraptor/GSSO"/>
     
 
 
