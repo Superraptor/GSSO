@@ -1769,6 +1769,7 @@
         <schema:founder>Roger Baldwin</schema:founder>
         <schema:founder>Rose Schneiderman</schema:founder>
         <schema:founder>Walter Nelles</schema:founder>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Civil_Liberties_Union</WIKIPEDIA>
         <acronym xml:lang="en">ACLU</acronym>
         <preferred-name xml:lang="en">American Civil Liberties Union</preferred-name>
     </owl:Class>
@@ -1960,6 +1961,7 @@
         <schema:alternateName xml:lang="en">Balkan sworn virgins</schema:alternateName>
         <preferred-name xml:lang="en">Balkan sworn virgin</preferred-name>
         <shortened-term xml:lang="en">sworn virgin</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A person, born a woman, who adopts a traditional masculine third-gender or transmasculine role in the Balkans, wearing masculine clothing and performing masculine tasks, and traditionally swearing a vow of chastity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -1970,7 +1972,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_awareness"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_event"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_week"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bisexual_Awareness_Week</WIKIPEDIA>
         <preferred-name xml:lang="en">Bisexual Awareness Week</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">BiWeek</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -2107,6 +2111,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_event"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>September 23</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Celebrate_Bisexuality_Day</WIKIPEDIA>
         <preferred-name xml:lang="en">Celebrate Bisexuality Day</preferred-name>
     </owl:Class>
     
@@ -2117,6 +2122,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Cercle_Hermaphroditos">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_advocacy_group"/>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cercle_Hermaphroditos</WIKIPEDIA>
         <preferred-name xml:lang="en">Cercle Hermaphroditos</preferred-name>
     </owl:Class>
     
@@ -2385,6 +2391,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Day_of_Silence">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>April 27</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Day_of_Silence</WIKIPEDIA>
         <preferred-name xml:lang="en">Day of Silence</preferred-name>
     </owl:Class>
     
@@ -2421,6 +2428,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Denim_Day">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>April 25</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Denim_Day</WIKIPEDIA>
         <preferred-name xml:lang="en">Denim Day</preferred-name>
     </owl:Class>
     
@@ -2770,6 +2778,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Human_Rights_Campaign">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_civil_rights_advocacy_group"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_Rights_Campaign</WIKIPEDIA>
         <acronym xml:lang="en">HRC</acronym>
         <preferred-name xml:lang="en">Human Rights Campaign</preferred-name>
     </owl:Class>
@@ -2781,6 +2790,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Human_Rights_Day">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>December 10</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_Rights_Day</WIKIPEDIA>
         <acronym xml:lang="en">HRD</acronym>
         <preferred-name xml:lang="en">Human Rights Day</preferred-name>
     </owl:Class>
@@ -2896,6 +2906,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#International_Day_to_End_Violence_Against_Sex_Workers">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>December 17</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Day_to_End_Violence_Against_Sex_Workers</WIKIPEDIA>
         <preferred-name xml:lang="en">International Day to End Violence Against Sex Workers</preferred-name>
     </owl:Class>
     
@@ -2908,6 +2919,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_event"/>
         <terms:date>March 31</terms:date>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Rachel_Crandall"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Transgender_Day_of_Visibility</WIKIPEDIA>
         <preferred-name xml:lang="en">International Transgender Day of Visibility</preferred-name>
     </owl:Class>
     
@@ -2919,6 +2931,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_event"/>
         <terms:date>October 26</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intersex_Awareness_Day</WIKIPEDIA>
         <preferred-name xml:lang="en">Intersex Awareness Day</preferred-name>
     </owl:Class>
     
@@ -2929,6 +2942,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Intersex_Day_of_Remembrance">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>November 8</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intersex_Day_of_Remembrance</WIKIPEDIA>
         <preferred-name xml:lang="en">Intersex Day of Remembrance</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Intersex Solidarity Day</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -3295,6 +3309,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_civil_rights_advocacy_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_civil_rights"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_rights_advocacy_group"/>
+        <schema:alternateName xml:lang="en">LGBT civil rights advocacy groups</schema:alternateName>
         <preferred-name xml:lang="en">LGBT civil rights advocacy group</preferred-name>
     </owl:Class>
     
@@ -3504,6 +3519,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_social_movement">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminist_movement"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#identity_movement"/>
+        <schema:alternateName xml:lang="en">LGBT social movements</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_social_movements</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT social movement</preferred-name>
     </owl:Class>
     
@@ -3544,6 +3561,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lambda_Legal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_civil_rights_advocacy_group"/>
         <schema:alternateName xml:lang="en">Lambda Legal Defense and Education Fund</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lambda_Legal</WIKIPEDIA>
         <preferred-name xml:lang="en">Lambda Legal</preferred-name>
     </owl:Class>
     
@@ -3770,6 +3788,7 @@
         <schema:founder>Mary White Ovington</schema:founder>
         <schema:founder>Moorfield Storey</schema:founder>
         <schema:founder>W. E. B. Du Bois</schema:founder>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/NAACP</WIKIPEDIA>
         <acronym xml:lang="en">NAACP</acronym>
         <preferred-name xml:lang="en">National Association for the Advancement of Colored People</preferred-name>
     </owl:Class>
@@ -3786,6 +3805,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#National_Coming_Out_Day">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/National_Coming_Out_Day</WIKIPEDIA>
         <acronym xml:lang="en">NCOD</acronym>
         <preferred-name xml:lang="en">National Coming Out Day</preferred-name>
     </owl:Class>
@@ -3798,6 +3818,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>February 12</terms:date>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Lambda_Legal"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/National_Freedom_to_Marry_Day</WIKIPEDIA>
         <preferred-name xml:lang="en">National Freedom to Marry Day</preferred-name>
     </owl:Class>
     
@@ -4504,6 +4525,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_event"/>
         <terms:date>November 20</terms:date>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Gwendolyn_Smith"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_Day_of_Remembrance</WIKIPEDIA>
         <acronym xml:lang="en">TDoR</acronym>
         <preferred-name xml:lang="en">Transgender Day of Remembrance</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">International Transgender Day of Remembrance</oboInOwl1:hasExactSynonym>
@@ -4884,6 +4906,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior_disorder"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#abusive_behavior"/>
         <preferred-name xml:lang="en">abuse</preferred-name>
     </owl:Class>
     
@@ -4911,6 +4934,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#abusive_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <alternative-spelling xml:lang="en">abusive behaviour</alternative-spelling>
         <preferred-name xml:lang="en">abusive behavior</preferred-name>
     </owl:Class>
     
@@ -4930,7 +4955,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#academic">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">academics</schema:alternateName>
+        <former-term xml:lang="en">academick</former-term>
         <preferred-name xml:lang="en">academic</preferred-name>
+        <shortened-term xml:lang="en">acad</shortened-term>
+        <shortened-term xml:lang="en">acad.</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A senior member of an academy, college, or university; a person who attends an academy; a person engaged in scholarly pursuits; one who is academic in practice.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5071,6 +5100,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#activism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_change"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Activism</WIKIPEDIA>
         <preferred-name xml:lang="en">activism</preferred-name>
     </owl:Class>
     
@@ -5083,6 +5113,7 @@
         <schema:alternateName xml:lang="en">activists</schema:alternateName>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#activism"/>
         <preferred-name xml:lang="en">activist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One who is politically active in the role of a citizen; especially, one who campaigns for change.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5257,6 +5288,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#advocacy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#activism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Advocacy</WIKIPEDIA>
         <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#advocate"/>
         <preferred-name xml:lang="en">advocacy</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The process of defending or pleading the cause of another individual or group.</oboInOwl1:hasDefinition>
@@ -5270,6 +5302,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
         <schema:alternateName xml:lang="en">advocacy groups</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Advocacy_group</WIKIPEDIA>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
         <preferred-name xml:lang="en">advocacy group</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">campaign group</oboInOwl1:hasExactSynonym>
@@ -5431,6 +5464,7 @@
         <preferred-name xml:lang="en">agender identity</preferred-name>
         <shortened-term xml:lang="en">agender</shortened-term>
         <shortened-term xml:lang="es">agénero</shortened-term>
+        <shortened-term xml:lang="ru">агендер</shortened-term>
         <oboInOwl1:hasExactSynonym xml:lang="en">genderless</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">genderless identity</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -5743,8 +5777,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anarchist">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">anarchists</schema:alternateName>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#anarchism"/>
         <preferred-name xml:lang="en">anarchist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One who believes in or advocates the absence of hierarchy and authority in most forms (compare anarchism), especially one who works toward the realization of such.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -6065,6 +6101,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anniversary">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#day"/>
+        <schema:alternateName xml:lang="en">anniversaries</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anniversary</WIKIPEDIA>
         <preferred-name xml:lang="en">anniversary</preferred-name>
     </owl:Class>
     
@@ -6161,6 +6199,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anti-rape_movement">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminist_movement"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anti-rape_movement</WIKIPEDIA>
         <preferred-name xml:lang="en">anti-rape movement</preferred-name>
     </owl:Class>
     
@@ -6198,6 +6237,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#antisocial_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anti-social_behaviour</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">anti-social behavior</alternative-spelling>
+        <alternative-spelling xml:lang="en">anti-social behaviour</alternative-spelling>
         <alternative-spelling xml:lang="en">antisocial behaviour</alternative-spelling>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#prosocial_behavior"/>
         <preferred-name xml:lang="en">antisocial behavior</preferred-name>
@@ -6462,6 +6504,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">artists</schema:alternateName>
         <preferred-name xml:lang="en">artist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who creates art.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -6674,6 +6717,8 @@
         <schema:alternateName xml:lang="en">athletes</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Athlete</WIKIPEDIA>
         <preferred-name>athlete</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who actively participates in physical sports, especially with great skill; a sportsperson.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">sportsperson</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">sportsman</oboInOwl1:hasNarrowSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">sportswoman</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
@@ -6800,7 +6845,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#author">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">authors</schema:alternateName>
+        <former-term xml:lang="en">auctor</former-term>
+        <former-term xml:lang="en">authour</former-term>
         <preferred-name xml:lang="en">author</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The originator or creator of a work, especially of a literary composition.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -6952,6 +7000,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#awareness_day">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#day"/>
+        <schema:alternateName xml:lang="en">awareness days</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Awareness_days</WIKIPEDIA>
         <preferred-name xml:lang="en">awareness day</preferred-name>
     </owl:Class>
     
@@ -6961,6 +7011,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#awareness_week">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#week"/>
+        <schema:alternateName xml:lang="en">awareness weeks</schema:alternateName>
         <preferred-name xml:lang="en">awareness week</preferred-name>
     </owl:Class>
     
@@ -7041,7 +7092,9 @@
         <alternative-spelling xml:lang="en">baté</alternative-spelling>
         <alternative-spelling xml:lang="en">boté</alternative-spelling>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#Two_Spirit"/>
+        <preferred-name xml:lang="cro">badé</preferred-name>
         <preferred-name xml:lang="en">badé</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A male-bodied person who dresses and lives as a woman.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -7310,6 +7363,7 @@
         <preferred-name xml:lang="en">bigender identity</preferred-name>
         <shortened-term xml:lang="en">bigender</shortened-term>
         <shortened-term xml:lang="es">bigénero</shortened-term>
+        <shortened-term xml:lang="ru">бигендер</shortened-term>
     </owl:Class>
     
 
@@ -7596,6 +7650,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#birthday">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anniversary"/>
+        <schema:alternateName xml:lang="en">birthdays</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Birthday</WIKIPEDIA>
         <preferred-name xml:lang="en">birthday</preferred-name>
     </owl:Class>
     
@@ -8341,6 +8397,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#castrated_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">castrated people</schema:alternateName>
         <preferred-name xml:lang="en">castrated person</preferred-name>
     </owl:Class>
     
@@ -8372,6 +8429,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#casual_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_relationship"/>
+        <schema:alternateName xml:lang="en">casual relationships</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Casual_dating</WIKIPEDIA>
+        <preferred-name xml:lang="en">casual relationship</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">casual dating</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -8410,7 +8471,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#celibate">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">celibates</schema:alternateName>
         <preferred-name xml:lang="en">celibate</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One who is not married, especially one who has taken a religious vow not to get married, usually because of being a member of a religious community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -8748,6 +8811,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#child_advocacy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Child_advocacy</WIKIPEDIA>
         <preferred-name xml:lang="en">child advocacy</preferred-name>
     </owl:Class>
     
@@ -9122,6 +9186,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <preferred-name xml:lang="de">Cissexismus</preferred-name>
         <preferred-name xml:lang="en">cissexism</preferred-name>
+        <preferred-name xml:lang="fr">cissexisme</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">cisgenderism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">cisnormativity</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">cissexual assumption</oboInOwl1:hasExactSynonym>
@@ -9133,6 +9198,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#civil_awareness_day">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#awareness_day"/>
+        <schema:alternateName xml:lang="en">civil awareness days</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Civil_awareness_days</WIKIPEDIA>
         <preferred-name xml:lang="en">civil awareness day</preferred-name>
     </owl:Class>
     
@@ -9142,6 +9209,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#civil_awareness_week">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#awareness_week"/>
+        <schema:alternateName xml:lang="en">civil awareness weeks</schema:alternateName>
         <preferred-name xml:lang="en">civil awareness week</preferred-name>
     </owl:Class>
     
@@ -9192,6 +9260,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#civil_liberties_advocacy_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy_group"/>
+        <schema:alternateName xml:lang="en">civil liberties advocacy groups</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Civil_liberties_advocacy_groups</WIKIPEDIA>
         <preferred-name xml:lang="en">civil liberties advocacy group</preferred-name>
     </owl:Class>
     
@@ -9211,6 +9281,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#civil_rights_advocacy_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy_group"/>
+        <schema:alternateName xml:lang="en">civil rights advocacy groups</schema:alternateName>
         <preferred-name xml:lang="en">civil rights advocacy group</preferred-name>
     </owl:Class>
     
@@ -9711,6 +9782,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Coming_out</WIKIPEDIA>
         <preferred-name xml:lang="en">coming out</preferred-name>
         <preferred-name xml:lang="es">salir del armario</preferred-name>
+        <preferred-name xml:lang="fr">sortir du placard</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">coming out of the closet</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -9720,6 +9792,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#commemorative_day">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#day"/>
+        <schema:alternateName xml:lang="en">commemorative days</schema:alternateName>
         <preferred-name xml:lang="en">commemorative day</preferred-name>
     </owl:Class>
     
@@ -10151,6 +10224,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#connected_temporal_region">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#temporal_region"/>
+        <schema:alternateName xml:lang="en">connected temporal regions</schema:alternateName>
         <preferred-name xml:lang="en">connected temporal region</preferred-name>
     </owl:Class>
     
@@ -10419,6 +10493,7 @@
         <schema:alternateName xml:lang="en">criminals</schema:alternateName>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#crime"/>
         <preferred-name xml:lang="en">criminal</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who is guilty of a crime, notably breaking the law.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10528,10 +10603,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cross-dresser">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <schema:alternateName xml:lang="en">cross-dressers</schema:alternateName>
         <acronym xml:lang="en">CD</acronym>
+        <alternative-spelling xml:lang="en">crossdresser</alternative-spelling>
         <derogatory-term xml:lang="en">transvestite</derogatory-term>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
         <preferred-name xml:lang="en">cross-dresser</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who wears clothing which society considers appropriate only for members of the opposite sex.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">CDer</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">XD</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">x-dresser</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#cross-dresser"/>
@@ -10802,6 +10883,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#day">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#temporal_interval"/>
+        <schema:alternateName xml:lang="en">days</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Day</WIKIPEDIA>
+        <former-term xml:lang="en">daie</former-term>
+        <former-term xml:lang="en">daye</former-term>
         <preferred-name xml:lang="en">day</preferred-name>
     </owl:Class>
     
@@ -10840,6 +10925,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#death_anniversary">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anniversary"/>
+        <schema:alternateName xml:lang="en">death anniversaries</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Death_anniversary</WIKIPEDIA>
         <preferred-name xml:lang="en">death anniversary</preferred-name>
     </owl:Class>
@@ -11011,6 +11097,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">dentists</schema:alternateName>
         <preferred-name xml:lang="en">dentist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A medical doctor who specializes in dentistry.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11312,6 +11399,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">diplomats</schema:alternateName>
         <preferred-name xml:lang="en">diplomat</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person, such as an ambassador, who is accredited to represent a government officially in its relations with other governments or international organisations.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11598,6 +11686,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#domestic_partnership">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#significant_relationship"/>
+        <schema:alternateName xml:lang="en">domestic partnerships</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Domestic_partnership</WIKIPEDIA>
+        <preferred-name xml:lang="en">domestic partnership</preferred-name>
     </owl:Class>
     
 
@@ -11683,6 +11774,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
         <preferred-name xml:lang="en">drag king</preferred-name>
+        <preferred-name xml:lang="ru">драг кинг</preferred-name>
     </owl:Class>
     
 
@@ -11694,6 +11786,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
         <preferred-name xml:lang="en">drag queen</preferred-name>
+        <preferred-name xml:lang="ru">драг квин</preferred-name>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">female impersonator</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
     
@@ -12001,6 +12094,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#economic_process">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#process"/>
+        <schema:alternateName xml:lang="en">economic processes</schema:alternateName>
         <preferred-name xml:lang="en">economic process</preferred-name>
     </owl:Class>
     
@@ -12414,6 +12508,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">entertainers</schema:alternateName>
         <preferred-name xml:lang="en">entertainer</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who entertains others, esp. as a profession, as a singer, actor, presenter, dancer, musician, magician, comedian, etc.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -12870,6 +12965,7 @@
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5003</DOID>
         <preferred-name xml:lang="en">eunuchism</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A hypogonadism that is characterized by the lack of mature male germ cells and testicular hormones.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">eunuchry</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -13414,6 +13510,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#family_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#family"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_relationship"/>
+        <schema:alternateName xml:lang="en">family relationships</schema:alternateName>
         <preferred-name xml:lang="en">family relationship</preferred-name>
     </owl:Class>
     
@@ -13968,6 +14065,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fictional_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">fictional people</schema:alternateName>
         <preferred-name xml:lang="en">fictional person</preferred-name>
     </owl:Class>
     
@@ -14307,6 +14405,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#friendship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_relationship"/>
+        <schema:alternateName xml:lang="en">friendships</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Friendship</WIKIPEDIA>
+        <preferred-name xml:lang="en">friendship</preferred-name>
     </owl:Class>
     
 
@@ -14586,6 +14687,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_icon">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">gay icons</schema:alternateName>
         <preferred-name xml:lang="en">gay icon</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A gay icon is a public figure (historical or present) who is embraced by many within lesbian, gay, bisexual, and transgender (LGBT) communities.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -14754,7 +14856,9 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender</WIKIPEDIA>
         <preferred-name xml:lang="en">gender</preferred-name>
+        <preferred-name xml:lang="fr">genre</preferred-name>
         <preferred-name xml:lang="es">género</preferred-name>
+        <preferred-name xml:lang="ru">гендер</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">psychologic sex</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">psychological sex</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -14919,6 +15023,7 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">gender binary</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">genderism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="es">géneros binarios</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasNarrowSynonym xml:lang="fr">dualité de genre</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
     
 
@@ -15000,11 +15105,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_health_condition"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <schema:alternateName xml:lang="en">gender dysphorias</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_dysphoria</WIKIPEDIA>
         <acronym xml:lang="en">GD</acronym>
         <historical-term xml:lang="en">gender dysphoria</historical-term>
         <preferred-name xml:lang="es">disforia de género</preferred-name>
+        <preferred-name xml:lang="fr">dysphorie de genre</preferred-name>
         <preferred-name xml:lang="en">gender dysphoria</preferred-name>
+        <preferred-name xml:lang="ru">гендерная дисфория</preferred-name>
         <shortened-term xml:lang="en">dysphoria</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A profound and persistent unhappiness related to one&apos;s physical sex.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -15058,6 +15168,7 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_expression</WIKIPEDIA>
         <preferred-name xml:lang="es">expresión de género</preferred-name>
+        <preferred-name xml:lang="fr">expression de genre</preferred-name>
         <preferred-name xml:lang="en">gender expression</preferred-name>
     </owl:Class>
     
@@ -15083,6 +15194,8 @@
         <preferred-name xml:lang="de">Geschlechtsidentität</preferred-name>
         <preferred-name xml:lang="en">gender identity</preferred-name>
         <preferred-name xml:lang="es">identidad de género</preferred-name>
+        <preferred-name xml:lang="fr">identité de genre</preferred-name>
+        <preferred-name xml:lang="ru">гендерная идентичность</preferred-name>
     </owl:Class>
     
 
@@ -15189,6 +15302,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender_norm -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_norm">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_norm"/>
+        <schema:alternateName xml:lang="en">gender norms</schema:alternateName>
+        <schema:alternateName xml:lang="fr">normes de genre</schema:alternateName>
+        <preferred-name xml:lang="en">gender norm</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_passing -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_passing">
@@ -15261,6 +15385,7 @@
         <coined-by rdf:resource="https://github.com/Superraptor/GSSO#John_Money"/>
         <historical-term xml:lang="en">sex role</historical-term>
         <preferred-name xml:lang="en">gender role</preferred-name>
+        <preferred-name xml:lang="fr">rôle de genre</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">cultural gender</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">social gender</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -15302,6 +15427,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <preferred-name xml:lang="es">espectro de género</preferred-name>
         <preferred-name xml:lang="en">gender spectrum</preferred-name>
+        <preferred-name xml:lang="fr">spectre de genre</preferred-name>
     </owl:Class>
     
 
@@ -15356,6 +15482,7 @@
         <preferred-name xml:lang="en">gender transition</preferred-name>
         <shortened-term xml:lang="es">transición</shortened-term>
         <shortened-term xml:lang="en">transition</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">The process or act of changing from one gender role to another, or of bringing one&apos;s outward appearance in line with one&apos;s internal gender identity.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym xml:lang="en">transitioning</oboInOwl1:hasSynonym>
     </owl:Class>
     
@@ -16519,6 +16646,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_advocacy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Health_advocacy</WIKIPEDIA>
         <preferred-name xml:lang="en">health advocacy</preferred-name>
     </owl:Class>
     
@@ -17086,6 +17214,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#holiday">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#day"/>
+        <schema:alternateName xml:lang="en">holidays</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Holiday</WIKIPEDIA>
         <preferred-name xml:lang="en">holiday</preferred-name>
     </owl:Class>
     
@@ -17107,6 +17237,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homonationalism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_social_movement"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homonationalism</WIKIPEDIA>
         <preferred-name xml:lang="en">homonationalism</preferred-name>
     </owl:Class>
     
@@ -18880,6 +19011,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#interpersonal_attraction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_interaction"/>
+        <schema:alternateName xml:lang="en">interpersonal attractions</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Interpersonal_attraction</WIKIPEDIA>
         <preferred-name xml:lang="en">interpersonal attraction</preferred-name>
     </owl:Class>
     
@@ -18931,6 +19064,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#interpersonal_process">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_process"/>
+        <schema:alternateName xml:lang="en">interpersonal processes</schema:alternateName>
         <preferred-name xml:lang="en">interpersonal process</preferred-name>
     </owl:Class>
     
@@ -18940,6 +19074,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#interpersonal_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_interaction"/>
+        <schema:alternateName xml:lang="en">interpersonal relationships</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Interpersonal_relationship</WIKIPEDIA>
         <preferred-name xml:lang="en">interpersonal relationship</preferred-name>
     </owl:Class>
@@ -19066,6 +19201,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intimate_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_relationship"/>
+        <schema:alternateName xml:lang="en">intimate relationships</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intimate_relationship</WIKIPEDIA>
         <preferred-name xml:lang="en">intimate relationship</preferred-name>
     </owl:Class>
     
@@ -19269,6 +19406,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#journalist">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">journalists</schema:alternateName>
         <preferred-name xml:lang="en">journalist</preferred-name>
     </owl:Class>
     
@@ -19753,6 +19891,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#legal_process">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#process"/>
+        <schema:alternateName xml:lang="en">legal processes</schema:alternateName>
         <preferred-name xml:lang="en">legal process</preferred-name>
     </owl:Class>
     
@@ -20007,6 +20146,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lobbying">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lobbying</WIKIPEDIA>
         <preferred-name xml:lang="en">lobbying</preferred-name>
     </owl:Class>
     
@@ -20443,6 +20583,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#marital_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#significant_relationship"/>
+        <schema:alternateName xml:lang="en">marital relationships</schema:alternateName>
         <preferred-name xml:lang="en">marital relationship</preferred-name>
     </owl:Class>
     
@@ -21742,6 +21883,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#month">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#temporal_interval"/>
+        <schema:alternateName xml:lang="en">months</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Month</WIKIPEDIA>
         <preferred-name xml:lang="en">month</preferred-name>
     </owl:Class>
     
@@ -22597,6 +22740,7 @@
         <oboInOwl1:hasExactSynonym xml:lang="de">nicht-binär</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="de">nichtbinär</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="es">no-binario</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="fr">non-binaire</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">non-binary</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="de">non-binär</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">nonbinary</oboInOwl1:hasExactSynonym>
@@ -23386,6 +23530,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#collective"/>
         <schema:alternateName xml:lang="en">organizations</schema:alternateName>
         <alternative-spelling xml:lang="en">organisation</alternative-spelling>
+        <alternative-spelling xml:lang="en">organisations</alternative-spelling>
         <preferred-name xml:lang="en">organization</preferred-name>
     </owl:Class>
     
@@ -24666,6 +24811,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#photographer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">photographers</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Photographer</WIKIPEDIA>
         <preferred-name xml:lang="en">photographer</preferred-name>
     </owl:Class>
@@ -24929,6 +25075,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#planning">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#process"/>
+        <preferred-name xml:lang="en">planning</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The act of formulating of a course of action, or of drawing up plans.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25865,6 +26013,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#prosocial_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Prosocial_behavior</WIKIPEDIA>
         <alternative-spelling xml:lang="en">prosocial behaviour</alternative-spelling>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#antisocial_behavior"/>
         <preferred-name xml:lang="en">prosocial behavior</preferred-name>
@@ -26373,6 +26522,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#queer_nationalilsm">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_social_movement"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nationalism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Queer_nationalism</WIKIPEDIA>
         <preferred-name xml:lang="en">queer nationalism</preferred-name>
     </owl:Class>
     
@@ -26536,6 +26686,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#rape_crisis_center">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anti-rape_movement"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rape_crisis_center</WIKIPEDIA>
         <acronym xml:lang="en">RCC</acronym>
         <preferred-name xml:lang="en">rape crisis center</preferred-name>
     </owl:Class>
@@ -26694,7 +26845,9 @@
     <!-- https://github.com/Superraptor/GSSO#relationship_event -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#relationship_event">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#event"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_relationship"/>
+        <schema:alternateName xml:lang="en">relationship events</schema:alternateName>
         <preferred-name xml:lang="en">relationship event</preferred-name>
     </owl:Class>
     
@@ -27298,6 +27451,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#romantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_orientation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Romantic_orientation</WIKIPEDIA>
         <preferred-name xml:lang="en">romantic orientation</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">affectional orientation</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -29355,6 +29509,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#significant_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_relationship"/>
+        <schema:alternateName xml:lang="en">significant relationships</schema:alternateName>
+        <preferred-name xml:lang="en">significant relationship</preferred-name>
     </owl:Class>
     
 
@@ -29552,6 +29708,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_process"/>
         <schema:alternateName xml:lang="en">social behaviors</schema:alternateName>
         <GO>GO:0035176</GO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_behavior</WIKIPEDIA>
         <alternative-spelling xml:lang="en">social behaviour</alternative-spelling>
         <alternative-spelling xml:lang="en">social behaviours</alternative-spelling>
         <preferred-name xml:lang="en">social behavior</preferred-name>
@@ -29574,6 +29731,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_change">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_process"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_change</WIKIPEDIA>
         <preferred-name xml:lang="en">social change</preferred-name>
     </owl:Class>
     
@@ -29633,6 +29791,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_evolution">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_change"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_evolution</WIKIPEDIA>
         <preferred-name xml:lang="en">social evolution</preferred-name>
     </owl:Class>
     
@@ -29841,6 +30000,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_revolution">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_change"/>
+        <schema:alternateName xml:lang="en">social revolutions</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_revolution</WIKIPEDIA>
         <preferred-name xml:lang="en">social revolution</preferred-name>
     </owl:Class>
     
@@ -29965,6 +30126,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sociocultural_evolution">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_evolution"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sociocultural_evolution</WIKIPEDIA>
         <preferred-name xml:lang="en">sociocultural evolution</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">cultural evolution</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sociocultural evolutionism</oboInOwl1:hasExactSynonym>
@@ -30504,6 +30666,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#statutory_holiday">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#holiday"/>
+        <schema:alternateName xml:lang="en">statutory holidays</schema:alternateName>
         <preferred-name xml:lang="en">statutory holiday</preferred-name>
     </owl:Class>
     
@@ -31085,6 +31248,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#temporal_interval">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#connected_temporal_region"/>
+        <schema:alternateName xml:lang="en">temporal intervals</schema:alternateName>
         <preferred-name xml:lang="en">temporal interval</preferred-name>
     </owl:Class>
     
@@ -31094,6 +31258,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#temporal_region">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#occurrent"/>
+        <schema:alternateName xml:lang="en">temporal regions</schema:alternateName>
         <preferred-name xml:lang="en">temporal region</preferred-name>
     </owl:Class>
     
@@ -31675,6 +31840,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transfeminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_social_movement"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transfeminism</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">trans feminism</alternative-spelling>
         <preferred-name xml:lang="en">transfeminism</preferred-name>
     </owl:Class>
     
@@ -31759,6 +31926,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_advocacy_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy_group"/>
+        <schema:alternateName xml:lang="en">transgender advocacy groups</schema:alternateName>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#transgender_advocacy"/>
         <preferred-name xml:lang="en">transgender advocacy group</preferred-name>
     </owl:Class>
@@ -32067,6 +32235,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transphobia</WIKIPEDIA>
         <preferred-name xml:lang="es">transfobia</preferred-name>
         <preferred-name xml:lang="en">transphobia</preferred-name>
+        <preferred-name xml:lang="fr">transphobie</preferred-name>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
@@ -33170,6 +33339,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#voice_feminization">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
+        <alternative-spelling xml:lang="en">voice feminisation</alternative-spelling>
         <preferred-name xml:lang="en">voice feminization</preferred-name>
     </owl:Class>
     
@@ -33179,6 +33349,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#voice_masculinization">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
+        <alternative-spelling xml:lang="en">voice masculinisation</alternative-spelling>
         <preferred-name xml:lang="en">voice masculinization</preferred-name>
     </owl:Class>
     
@@ -33329,6 +33500,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#wedding_anniversary">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anniversary"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#wedding"/>
+        <schema:alternateName xml:lang="en">wedding anniversaries</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Wedding_anniversary</WIKIPEDIA>
         <preferred-name xml:lang="en">wedding anniversary</preferred-name>
     </owl:Class>
     
@@ -33384,6 +33557,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#week">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#temporal_interval"/>
+        <schema:alternateName xml:lang="en">weeks</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Week</WIKIPEDIA>
         <preferred-name xml:lang="en">week</preferred-name>
     </owl:Class>
     
@@ -33599,6 +33774,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#year">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#temporal_interval"/>
+        <schema:alternateName xml:lang="en">years</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Year</WIKIPEDIA>
         <preferred-name xml:lang="en">year</preferred-name>
     </owl:Class>
     
@@ -35283,6 +35460,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#International_Day_Against_Homophobia,_Transphobia_and_Biphobia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>May 17</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Day_Against_Homophobia,_Transphobia_and_Biphobia</WIKIPEDIA>
         <preferred-name xml:lang="en">International Day Against Homophobia, Transphobia and Biphobia</preferred-name>
     </owl:Class>
     
