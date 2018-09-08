@@ -374,6 +374,7 @@
     <!-- http://schema.org/Property -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/Property">
+        <preferred-name xml:lang="en">property</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Intangible"/>
     </owl:AnnotationProperty>
     
@@ -459,6 +460,7 @@
     <!-- http://schema.org/alternateName -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/alternateName">
+        <preferred-name xml:lang="en">alternate name</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
@@ -510,6 +512,7 @@
     <!-- http://schema.org/bookEdition -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/bookEdition">
+        <preferred-name xml:lang="en">book edition</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
@@ -618,6 +621,7 @@
     <!-- http://schema.org/identifier -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/identifier">
+        <preferred-name xml:lang="en">identifier</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
@@ -626,6 +630,7 @@
     <!-- http://schema.org/inLanguage -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/inLanguage">
+        <preferred-name xml:lang="en">in language</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
@@ -667,6 +672,7 @@
     <!-- http://schema.org/license -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/license">
+        <preferred-name xml:lang="en">license</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
@@ -730,6 +736,9 @@
     <!-- http://schema.org/url -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/url">
+        <acronym xml:lang="en">URL</acronym>
+        <preferred-name xml:lang="en">URL</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">uniform resource locator</oboInOwl1:hasExactSynonym>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
@@ -820,7 +829,7 @@
     <!-- https://github.com/Superraptor/GSSO#BFO -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#BFO">
-        <schema:license>CC BY 3.0</schema:license>
+        <schema:license>CC-BY 3.0</schema:license>
         <preferred-name xml:lang="en">Basic Formal Ontology</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -840,7 +849,7 @@
     <!-- https://github.com/Superraptor/GSSO#CHEBI -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#CHEBI">
-        <schema:license>CC BY 4.0</schema:license>
+        <schema:license>CC-BY 4.0</schema:license>
         <preferred-name xml:lang="en">Chemical Entities of Biological Interest</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -850,6 +859,7 @@
     <!-- https://github.com/Superraptor/GSSO#DOI -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#DOI">
+        <preferred-name xml:lang="en">Digital Object Identifier</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
     
@@ -893,6 +903,7 @@
     <!-- https://github.com/Superraptor/GSSO#FMA -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#FMA">
+        <schema:license xml:lang="en">FMA License</schema:license>
         <preferred-name xml:lang="en">Foundational Model of Anatomy</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -902,6 +913,7 @@
     <!-- https://github.com/Superraptor/GSSO#GO -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#GO">
+        <schema:license>CC-BY 4.0</schema:license>
         <acronym xml:lang="en">GO</acronym>
         <preferred-name xml:lang="en">Gene Ontology</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
@@ -926,16 +938,23 @@
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#HPO">
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1093/nar/gkw1039"/>
+        <schema:license xml:lang="en">HPO License</schema:license>
         <preferred-name xml:lang="en">Human Phenotype Ontology</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#HPO"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/license"/>
+        <owl:annotatedTarget xml:lang="en">HPO License</owl:annotatedTarget>
+        <schema:url>https://hpo.jax.org/app/license</schema:url>
+    </owl:Axiom>
     
 
 
     <!-- https://github.com/Superraptor/GSSO#IAO -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#IAO">
-        <schema:license>CC BY 4.0</schema:license>
+        <schema:license>CC-BY 4.0</schema:license>
         <preferred-name xml:lang="en">Information Artifact Ontology</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -991,6 +1010,7 @@
     <!-- https://github.com/Superraptor/GSSO#ICD-9 -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#ICD-9">
+        <schema:license xml:lang="en">Public Domain</schema:license>
         <preferred-name xml:lang="en">International Classification of Diseases, Ninth Revision</preferred-name>
         <rdfs:subPropertyOf rdf:resource="https://github.com/Superraptor/GSSO#ICD"/>
     </owl:AnnotationProperty>
@@ -1000,6 +1020,7 @@
     <!-- https://github.com/Superraptor/GSSO#ICD-9-CM -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#ICD-9-CM">
+        <schema:license xml:lang="en">Public License</schema:license>
         <preferred-name xml:lang="en">International Classification of Diseases, Ninth Revision, Clinical Modification</preferred-name>
         <rdfs:subPropertyOf rdf:resource="https://github.com/Superraptor/GSSO#ICD-9"/>
     </owl:AnnotationProperty>
@@ -1073,7 +1094,7 @@
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#OBI">
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1371/journal.pone.0154556"/>
-        <schema:license>CC BY 3.0</schema:license>
+        <schema:license>CC-BY 3.0</schema:license>
         <preferred-name xml:lang="en">Ontology for Biomedical Investigations</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -1083,7 +1104,7 @@
     <!-- https://github.com/Superraptor/GSSO#PATO -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#PATO">
-        <schema:license>CC BY 3.0</schema:license>
+        <schema:license>CC-BY 3.0</schema:license>
         <preferred-name xml:lang="en">Phenotype And Trait Ontology</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -1102,6 +1123,7 @@
     <!-- https://github.com/Superraptor/GSSO#PMCID -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#PMCID">
+        <preferred-name xml:lang="en">PubMed Central Identifier</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
     
@@ -1110,6 +1132,7 @@
     <!-- https://github.com/Superraptor/GSSO#PMID -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#PMID">
+        <preferred-name xml:lang="en">PubMed Identifier</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
     
@@ -1118,6 +1141,7 @@
     <!-- https://github.com/Superraptor/GSSO#RO -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#RO">
+        <schema:license>CC-BY 3.0</schema:license>
         <preferred-name xml:lang="en">Relations Ontology</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -1137,7 +1161,7 @@
     <!-- https://github.com/Superraptor/GSSO#SIO -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#SIO">
-        <schema:license>CC BY 4.0</schema:license>
+        <schema:license>CC-BY 4.0</schema:license>
         <preferred-name xml:lang="en">Semanticscience Integrated Ontology</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -1190,7 +1214,7 @@
     <!-- https://github.com/Superraptor/GSSO#UBERON -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#UBERON">
-        <schema:license>CC BY 3.0</schema:license>
+        <schema:license>CC-BY 3.0</schema:license>
         <preferred-name xml:lang="en">Uber-anatomy ontology</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     </owl:AnnotationProperty>
@@ -1216,6 +1240,7 @@
     <!-- https://github.com/Superraptor/GSSO#acronym -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#acronym">
+        <preferred-name xml:lang="en">acronym</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
     </owl:AnnotationProperty>
     
@@ -1224,6 +1249,7 @@
     <!-- https://github.com/Superraptor/GSSO#alternative-spelling -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#alternative-spelling">
+        <preferred-name xml:lang="en">alternative spelling</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
     </owl:AnnotationProperty>
     
@@ -1279,7 +1305,7 @@
     <!-- https://github.com/Superraptor/GSSO#causes -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#causes">
-        <preferred-name>causes</preferred-name>
+        <preferred-name xml:lang="en">causes</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
@@ -1315,6 +1341,7 @@
     <!-- https://github.com/Superraptor/GSSO#colloquial-term -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#colloquial-term">
+        <preferred-name xml:lang="en">colloquial term</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
     </owl:AnnotationProperty>
     
@@ -1326,6 +1353,7 @@
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#proper-term"/>
         <preferred-name xml:lang="en">derogatory term</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">offensive term</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">pejorative term</oboInOwl1:hasExactSynonym>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
     </owl:AnnotationProperty>
     
@@ -1334,6 +1362,7 @@
     <!-- https://github.com/Superraptor/GSSO#different-from -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#different-from">
+        <preferred-name xml:lang="en">different from</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
@@ -1443,6 +1472,7 @@
     <!-- https://github.com/Superraptor/GSSO#non-technical-term -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#non-technical-term">
+        <preferred-name xml:lang="en">non-technical term</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
     </owl:AnnotationProperty>
     
@@ -1551,6 +1581,7 @@
     <!-- https://github.com/Superraptor/GSSO#shortened-term -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#shortened-term">
+        <preferred-name xml:lang="en">shortened term</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
     </owl:AnnotationProperty>
     
@@ -1559,6 +1590,7 @@
     <!-- https://github.com/Superraptor/GSSO#slang-term -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#slang-term">
+        <preferred-name xml:lang="en">slang term</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
     </owl:AnnotationProperty>
     
@@ -1754,6 +1786,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Ambivalent_Sexism_Inventory -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ambivalent_Sexism_Inventory">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ambivalent_sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ambivalent_sexism#Ambivalent_Sexism_Inventory</WIKIPEDIA>
+        <acronym xml:lang="en">ASI</acronym>
+        <preferred-name xml:lang="en">Ambivalent Sexism Inventory</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#American_Civil_Liberties_Union -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Civil_Liberties_Union">
@@ -1932,6 +1975,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bacha_bāzī">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pederasty"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bacha_bazi</WIKIPEDIA>
         <alternative-spelling xml:lang="en">Bacha bazi</alternative-spelling>
         <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#bacha_baz"/>
         <preferred-name xml:lang="en">Bacha bāzī</preferred-name>
@@ -1962,6 +2006,18 @@
         <preferred-name xml:lang="en">Balkan sworn virgin</preferred-name>
         <shortened-term xml:lang="en">sworn virgin</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">A person, born a woman, who adopts a traditional masculine third-gender or transmasculine role in the Balkans, wearing masculine clothing and performing masculine tasks, and traditionally swearing a vow of chastity.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Bechdel_test -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bechdel_test">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism_test"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bechdel_test</WIKIPEDIA>
+        <named-after>Alison Bechdel</named-after>
+        <preferred-name xml:lang="en">Bechdel test</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Bechdel–Wallace test</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -2163,6 +2219,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Chinese_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
         <preferred-name xml:lang="en">Chinese culture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Christian_privilege -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Christian_privilege">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_privilege"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Christian_privilege</WIKIPEDIA>
+        <preferred-name xml:lang="en">Christian privilege</preferred-name>
     </owl:Class>
     
 
@@ -2494,6 +2560,7 @@
         <preferred-name xml:lang="sv">donjuanism</preferred-name>
         <preferred-name xml:lang="fr">donjuanisme</preferred-name>
         <preferred-name xml:lang="es">donjuanismo</preferred-name>
+        <preferred-name xml:lang="en">https://en.wikipedia.org/wiki/Don_Juanism</preferred-name>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#satyriasis"/>
         <oboInOwl1:hasSynonym xml:lang="en">Don Juan syndrome</oboInOwl1:hasSynonym>
     </owl:Class>
@@ -2516,6 +2583,16 @@
         <oboInOwl1:hasDefinition xml:lang="en">A chromosome disorder associated either with an extra chromosome 21 or an effective trisomy for chromosome 21. Clinical manifestations include hypotonia, short stature, brachycephaly, upslanting palpebral fissures, epicanthus, Brushfield spots on the iris, protruding tongue, small ears, short, broad hands, fifth finger clinodactyly, Simian crease, and moderate to severe intellectual disability. Cardiac and gastrointestinal malformations, a marked increase in the incidence of leukemia, and the early onset of Alzheimer disease are also associated with this condition. Pathologic features include the development of neurofibrillary tangles in neurons and the deposition of amyloid beta-protein, similar to the pathology of Alzheimer disease.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Down&apos;s syndrome</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">trisomy 21 disorder</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Dyke_March -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Dyke_March">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_event"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Dyke_March</WIKIPEDIA>
+        <preferred-name xml:lang="en">Dyke March</preferred-name>
     </owl:Class>
     
 
@@ -2596,6 +2673,28 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_organization"/>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Lou_Sullivan"/>
         <preferred-name xml:lang="en">FTM International</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Finkbeiner_test -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Finkbeiner_test">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism_test"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Finkbeiner_test</WIKIPEDIA>
+        <named-after>Ann Finkbeiner</named-after>
+        <preferred-name xml:lang="en">Finkbeiner test</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#First_World_privilege -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#First_World_privilege">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_privilege"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/First_World_privilege</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">First-World privilege</alternative-spelling>
+        <preferred-name xml:lang="en">First World privilege</preferred-name>
     </owl:Class>
     
 
@@ -2983,6 +3082,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Islamophobia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Islamophobia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#religious_discrimination"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Islamophobia</WIKIPEDIA>
+        <preferred-name xml:lang="en">Islamophobia</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Jaiyah_Saelua -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Jaiyah_Saelua">
@@ -2991,6 +3100,21 @@
         <schema:birthDate>19 July 1988</schema:birthDate>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Jaiyah_Saelua</WIKIPEDIA>
         <preferred-name>Jaiyah Saelua</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#James_Dean -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#James_Dean">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dykon"/>
+        <schema:birthDate>8 February 1931</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Marion, Indiana, United States</schema:birthPlace>
+        <schema:deathDate>30 September 1955</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Cholame, California, United States</schema:deathPlace>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/James_Dean</WIKIPEDIA>
+        <preferred-name>James Dean</preferred-name>
+        <oboInOwl1:hasExactSynonym>James Byron Dean</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -3116,6 +3240,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Judy_Garland">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_icon"/>
+        <schema:birthDate>10 June 1922</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Grand Rapids, Minnesota, United States</schema:birthPlace>
+        <schema:deathDate>22 June 1969</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Belgravia, London, England</schema:deathPlace>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Judy_Garland</WIKIPEDIA>
         <preferred-name>Judy Garland</preferred-name>
     </owl:Class>
     
@@ -3657,7 +3786,14 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
+        <schema:birthDate>16 June 1951</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Milwaukee, Wisconsin, United States</schema:birthPlace>
+        <schema:deathDate>2 March 1991</schema:deathDate>
+        <schema:deathPlace xml:lang="en">San Francisco, California, United States</schema:deathPlace>
+        <schema:nationality xml:lang="en">American</schema:nationality>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lou_Sullivan</WIKIPEDIA>
         <preferred-name>Lou Sullivan</preferred-name>
+        <oboInOwl1:hasExactSynonym>Louis Graydon Sullivan</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -3751,6 +3887,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Modern_Sexism_Scale -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Modern_Sexism_Scale">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism_scale"/>
+        <preferred-name xml:lang="en">Modern Sexism Scale</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Montenegrin_sworn_virgin -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Montenegrin_sworn_virgin">
@@ -3829,6 +3974,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#National_Sexual_Assault_Hotline">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Rape,_Abuse_&amp;_Incest_National_Network"/>
         <schema:label xml:lang="en">National Sexual Assault Hotline</schema:label>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rape,_Abuse_%26_Incest_National_Network#National_Sexual_Assault_Hotline</WIKIPEDIA>
     </owl:Class>
     
 
@@ -3867,6 +4013,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Nazism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fascism"/>
         <preferred-name xml:lang="en">Nazism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Neosexism_Scale -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Neosexism_Scale">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism_scale"/>
+        <preferred-name xml:lang="en">Neosexism Scale</preferred-name>
     </owl:Class>
     
 
@@ -3919,6 +4074,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#massacre"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence_against_gay_men"/>
         <terms:date>12 June 2016</terms:date>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Orlando_nightclub_shooting</WIKIPEDIA>
         <preferred-name xml:lang="en">Orlando nightclub shooting</preferred-name>
     </owl:Class>
     
@@ -4060,6 +4216,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#RAINN_Day">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Rape,_Abuse_&amp;_Incest_National_Network"/>
         <schema:label xml:lang="en">RAINN Day</schema:label>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rape,_Abuse_%26_Incest_National_Network#RAINN_Day</WIKIPEDIA>
     </owl:Class>
     
 
@@ -4907,6 +5064,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior_disorder"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#abusive_behavior"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417928002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">abuse</preferred-name>
     </owl:Class>
     
@@ -4926,6 +5085,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#abuse_of_power">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse_of_power</WIKIPEDIA>
+        <preferred-name xml:lang="en">abuse of power</preferred-name>
     </owl:Class>
     
 
@@ -4988,6 +5149,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#academic_self-concept">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#self-identity"/>
         <preferred-name xml:lang="en">academic self-concept</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#academic_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#academic_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexism_in_academia</WIKIPEDIA>
+        <preferred-name xml:lang="en">academic sexism</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">sexism in academia</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -5702,6 +5874,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alvinolagnia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Alvinolagnia</WIKIPEDIA>
+        <preferred-name xml:lang="en">alvinolagnia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">belly fetishism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">stomach fetishism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -5710,6 +5886,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alvinophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Navel_fetishism</WIKIPEDIA>
+        <preferred-name xml:lang="en">alvinophilia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">belly button fetishism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">navel fetishism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -5720,6 +5900,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conventional_sexual_attraction"/>
         <preferred-name xml:lang="en">ambiphilia</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">biphilia</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ambivalent_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ambivalent_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ambivalent_sexism</WIKIPEDIA>
+        <preferred-name xml:lang="en">ambivalent sexism</preferred-name>
     </owl:Class>
     
 
@@ -5794,6 +5984,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#anatomical_boundary_entity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anatomical_boundary_entity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#immaterial_anatomical_entity"/>
+        <schema:alternateName xml:lang="en">anatomical boundary entities</schema:alternateName>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50705</FMA>
+        <preferred-name xml:lang="en">anatomical boundary entity</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#anatomical_condition -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anatomical_condition">
@@ -5809,6 +6010,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biological_entity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#specialized_object"/>
         <schema:alternateName xml:lang="en">anatomical entities</schema:alternateName>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62955</FMA>
         <SIO>SIO:001262</SIO>
         <UBERON>UBERON:0001062</UBERON>
         <preferred-name xml:lang="en">anatomical entity</preferred-name>
@@ -5830,6 +6032,20 @@
         <oboInOwl1:hasDefinition xml:lang="en">Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism&apos;s own genome.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym xml:lang="en">biological structure</oboInOwl1:hasSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">connected biological structure</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#anatomical_surface -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anatomical_surface">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anatomical_boundary_entity"/>
+        <schema:alternateName xml:lang="en">anatomical surfaces</schema:alternateName>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24137</FMA>
+        <NCIT>C34022</NCIT>
+        <preferred-name xml:lang="en">anatomical surface</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The external portion of any anatomic structure.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">anatomic surface</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -5884,6 +6100,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#androgen_replacement_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone_replacement_therapy"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10002263</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Androgen_replacement_therapy</WIKIPEDIA>
         <acronym xml:lang="en">ART</acronym>
         <preferred-name xml:lang="en">androgen replacement therapy</preferred-name>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">testosterone replacement therapy</oboInOwl1:hasNarrowSynonym>
@@ -5915,6 +6133,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#androphilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conventional_sexual_attraction"/>
+        <preferred-name xml:lang="en">androphilia</preferred-name>
     </owl:Class>
     
 
@@ -6219,7 +6438,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anti-social_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <EFO>EFO:0004890</EFO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anti-social_behaviour</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">anti-social behaviour</alternative-spelling>
         <preferred-name xml:lang="en">anti-social behavior</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">antisocial behavior</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">antisocial behaviour</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -6272,6 +6496,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cognitive_disorder"/>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12884</DOID>
         <MESH_UID>D001008</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anxiety_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">anxiety disorder</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A cognitive disorder that involves an excessive, irrational dread of everyday situations.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">Persistent and disabling anxiety.</oboInOwl1:hasDefinition>
@@ -6514,6 +6739,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#asexual_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#asexuality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_identity"/>
+        <schema:alternateName xml:lang="en">asexual identities</schema:alternateName>
         <preferred-name xml:lang="en">asexual identity</preferred-name>
     </owl:Class>
     
@@ -6569,6 +6795,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#assault">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <schema:alternateName xml:lang="en">assaults</schema:alternateName>
+        <ICD-10-CM>X85-Y09.9</ICD-10-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10003537</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52684005</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Assault</WIKIPEDIA>
         <preferred-name xml:lang="en">assault</preferred-name>
     </owl:Class>
     
@@ -6833,8 +7064,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#augmentation_mammoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mammoplasty"/>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85.5</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10003790</MEDDRA>
+        <NCIT>C107225</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22890008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Breast_augmentation</WIKIPEDIA>
         <colloquial-term xml:lang="en">boob job</colloquial-term>
         <preferred-name xml:lang="en">augmentation mammoplasty</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A surgical procedure for increasing breast size using a prosthetic implant.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">breast augmentation</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -7247,9 +7484,14 @@
     <!-- https://github.com/Superraptor/GSSO#behavioral_disorder -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#behavioral_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#behavior"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cognitive_disorder"/>
+        <schema:alternateName xml:lang="en">behavioral disorders</schema:alternateName>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10004204</MEDDRA>
+        <alternative-spelling xml:lang="en">behavioural disorder</alternative-spelling>
         <preferred-name xml:lang="en">behavioral disorder</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">behavior disorder</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">behaviour disorder</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -7259,6 +7501,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#belief">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mental_disposition"/>
         <preferred-name xml:lang="en">belief</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#benevolent_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#benevolent_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ambivalent_sexism"/>
+        <preferred-name xml:lang="en">benevolent sexism</preferred-name>
     </owl:Class>
     
 
@@ -7350,6 +7601,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bigamous_marital_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marital_relationship"/>
+        <preferred-name xml:lang="en">bigamous marital relationship</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">marital bigamy</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -7488,7 +7741,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#biological_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#therapeutic_procedure"/>
+        <schema:alternateName xml:lang="en">biological therapies</schema:alternateName>
+        <MESH_UID>D001691</MESH_UID>
+        <NCIT>C15187</NCIT>
         <preferred-name xml:lang="en">biological therapy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A type of treatment that uses substances derived from or made by living organisms to treat disease; this includes both naturally occurring and synthetic products.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Treatment of diseases with biological materials or biological response modifiers, such as the use of genes; cells; tissues; organs; serum; vaccines; and humoral agents.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">biotherapy</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -7944,6 +8202,40 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#body_privilege -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#body_privilege">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_privilege"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Body_privilege</WIKIPEDIA>
+        <preferred-name xml:lang="en">body privilege</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#body_surface -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#body_surface">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bona_fide_anatomical_surface"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61695</FMA>
+        <NCIT>C29667</NCIT>
+        <preferred-name xml:lang="en">body surface</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The surface of an external body region.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">surface of body</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bona_fide_anatomical_surface -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bona_fide_anatomical_surface">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anatomical_surface"/>
+        <schema:alternateName xml:lang="en">bona fide anatomical surfaces</schema:alternateName>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242980</FMA>
+        <preferred-name xml:lang="en">bona fide anatomical surface</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bone_development_disease -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bone_development_disease">
@@ -8236,7 +8528,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bullying">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <MESH_UID>D058445</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247997008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bullying</WIKIPEDIA>
         <preferred-name xml:lang="en">bullying</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Aggressive behavior by a more powerful party that results in physical harm to or emotional distress of the victim.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -8673,7 +8969,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cervicectomy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cervix_therapeutic_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10049493</MEDDRA>
+        <MESH_UID>D000069339</MESH_UID>
+        <NCIT>C94466</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cervicectomy</WIKIPEDIA>
         <preferred-name xml:lang="en">cervicectomy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgical removal or resection of the cervix uteri.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The surgical removal of the uterine cervix.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">trachelectomy</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -8682,6 +8985,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cervix_therapeutic_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#obstetric_and_gynaecological_therapeutic_procedures"/>
+        <schema:alternateName xml:lang="en">cervix therapeutic procedures</schema:alternateName>
         <preferred-name xml:lang="en">cervix therapeutic procedure</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">cervical therapeutic procedure</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -8793,7 +9097,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#domestic_violence"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10008509</MEDDRA>
+        <MESH_UID>D002649</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418189009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Child_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">child abuse</preferred-name>
+        <oboInOwl1:hasBroadSynonym xml:lang="en">child maltreatment</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">Abuse of children in a family, institutional, or other setting.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -8922,6 +9231,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chondrolaryngoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#laryngoplasty"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10080162</MEDDRA>
         <preferred-name xml:lang="en">chondrolaryngoplasty</preferred-name>
     </owl:Class>
     
@@ -9134,7 +9444,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chronophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_attraction"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Chronophilia</WIKIPEDIA>
+        <preferred-name xml:lang="en">chronophilia</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">age-based sexual attraction</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">age fetishism</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -9606,10 +9919,19 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cognitive_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</DOID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cognitive_disorder</WIKIPEDIA>
+        <acronym xml:lang="en">CD</acronym>
         <preferred-name xml:lang="en">cognitive disorder</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A disease of mental health that affects cognitive functions including memory processing, perception and problem solving.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cognitive disease</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">neurocognitive disorder</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#cognitive_disorder"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">neurocognitive disorder</owl:annotatedTarget>
+        <acronym xml:lang="en">NCD</acronym>
+    </owl:Axiom>
     
 
 
@@ -9635,6 +9957,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cognitively_intimate_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intimate_relationship"/>
+        <schema:alternateName xml:lang="en">cognitively intimate relationships</schema:alternateName>
         <preferred-name xml:lang="en">cognitively intimate relationship</preferred-name>
     </owl:Class>
     
@@ -9644,6 +9967,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cohabitative_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#casual_relationship"/>
+        <schema:alternateName xml:lang="en">cohabitative relationships</schema:alternateName>
         <preferred-name xml:lang="en">cohabitative relationship</preferred-name>
     </owl:Class>
     
@@ -9722,6 +10046,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#collective_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_identity"/>
         <schema:alternateName xml:lang="en">collective identities</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#group_identity"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Collective_identity</WIKIPEDIA>
         <preferred-name xml:lang="en">collective identity</preferred-name>
     </owl:Class>
     
@@ -9837,7 +10163,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#specific_developmental_disorder"/>
         <schema:alternateName xml:lang="en">communication disorders</schema:alternateName>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2033</DOID>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10061046</MEDDRA>
+        <NCIT>C2958</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278919001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Communication_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">communication disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A disorder characterized by an individual&apos;s inability to comprehend or share ideas or feelings because of an impairment in language, speech, or hearing.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">A specific developmental disorder that involves specific developmental disorders of speech and language.</oboInOwl1:hasDefinition>
     </owl:Class>
     
@@ -9890,6 +10221,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#compulsive_masturbation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nonparaphilic_compulsive_sexual_behavior"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Masturbation#Compulsive_masturbation</WIKIPEDIA>
+        <preferred-name xml:lang="en">compulsive masturbation</preferred-name>
     </owl:Class>
     
 
@@ -10009,7 +10342,18 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#conduct_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#behavioral_disorder"/>
+        <schema:alternateName xml:lang="en">conduct disorders</schema:alternateName>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12995</DOID>
+        <EFO>EFO:0004216</EFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10064478</MEDDRA>
+        <MESH_UID>D019955</MESH_UID>
+        <NCIT>C89329</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430909002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Conduct_disorder</WIKIPEDIA>
+        <acronym xml:lang="en">CD</acronym>
         <preferred-name xml:lang="en">conduct disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A disorder diagnosed in childhood or adolescence age group characterized by aggressive behavior, deceitfulness, destruction of property or violation of rules that is persistent and repetitive, and within a one year period.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A repetitive and persistent pattern of behavior in which the basic rights of others or major age-appropriate societal norms or rules are violated. These behaviors include aggressive conduct that causes or threatens physical harm to other people or animals, nonaggressive conduct that causes property loss or damage, deceitfulness or theft, and serious violations of rules. The onset is before age 18.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10458,6 +10802,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#relationship_event"/>
         <MESH_TN>F01.145.802.279</MESH_TN>
         <MESH_UID>D003380</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Courtship</WIKIPEDIA>
         <preferred-name xml:lang="en">courtship</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Activities designed to attract the attention or favors of another.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -10678,6 +11023,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_bias">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bias"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cultural_bias</WIKIPEDIA>
         <preferred-name xml:lang="en">cultural bias</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">bigotry</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">prejudice</oboInOwl1:hasNarrowSynonym>
@@ -10766,7 +11112,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cybersex_addiction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nonparaphilic_hypersexual_disorder"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internet_sex_addiction</WIKIPEDIA>
         <preferred-name xml:lang="en">cybersex addiction</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">internet sex addiction</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -10973,6 +11321,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#deep_dyspareunia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyspareunia"/>
         <preferred-name xml:lang="en">deep dyspareunia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#deep_voice_privilege -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#deep_voice_privilege">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_privilege"/>
+        <preferred-name xml:lang="en">deep voice privilege</preferred-name>
     </owl:Class>
     
 
@@ -11438,8 +11795,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disability">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_status"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10013050</MEDDRA>
+        <NCIT>C21007</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21134002</SCTID>
         <preferred-name xml:lang="en">disability</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any physical or mental impairment that interferes with an individual&apos;s ability to perform desired activities.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11448,6 +11808,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disability_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Disability_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">disability abuse</preferred-name>
     </owl:Class>
     
@@ -11494,6 +11855,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#discriminatory_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse#Discriminatory_abuse</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Discrimination</WIKIPEDIA>
         <preferred-name xml:lang="en">discriminatory abuse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">discrimination</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -11508,6 +11871,7 @@
         <schema:alternateName xml:lang="en">diseases</schema:alternateName>
         <MESH_TN xml:lang="en">C23.550.288</MESH_TN>
         <MESH_UID xml:lang="en">D004194</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64572001</SCTID>
         <SIO>SIO:010299</SIO>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Disease</WIKIPEDIA>
         <preferred-name xml:lang="en">disease</preferred-name>
@@ -11546,6 +11910,7 @@
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</DOID>
         <MESH_UID xml:lang="en">D001523</MESH_UID>
         <NCIT>C2893</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Mental_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">disease of mental health</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">A disorder characterized by behavioral and/or psychological abnormalities, often accompanied by physical symptoms. The symptoms may cause clinically significant distress or impairment in social and occupational areas of functioning. Representative examples include anxiety disorders, cognitive disorders, mood disorders and schizophrenia.</oboInOwl1:hasDefinition>
@@ -11609,6 +11974,19 @@
         <oboInOwl1:hasDefinition xml:lang="en">A disposition is the tendency of a capability to be exhibited under certain conditions or in response to a certain stimulus (trigger).</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">A quality inhering in a bearer by virtue of the bearer&apos;s prevailing tendency, mood, or inclination.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">The tendency of something to act in a certain manner under given circumstances resulting from natural constitution; nature; quality; orderly arrangement.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#disruptive_behavior_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disruptive_behavior_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#behavioral_disorder"/>
+        <NCIT>C99753</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54319003</SCTID>
+        <alternative-spelling xml:lang="en">disruptive behaviour disorder</alternative-spelling>
+        <preferred-name xml:lang="en">disruptive behavior disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A classification of disorders in the Diagnostic and Statistical Manual of Mental Disorders (DSM) that are usually diagnosed in infancy, childhood or adolescence and are characterized by an individual&apos;s inability to behave in a cooperative manner.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11857,7 +12235,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drug_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#substance_abuse"/>
-        <oboInOwl1:hasExactSynonym xml:lang="en">drug abuse</oboInOwl1:hasExactSynonym>
+        <preferred-name xml:lang="en">drug abuse</preferred-name>
+        <oboInOwl1:hasBroadSynonym rdf:resource="https://github.com/Superraptor/GSSO#substance_abuse"/>
     </owl:Class>
     
 
@@ -11895,6 +12274,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dykon">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_icon"/>
         <preferred-name xml:lang="en">dykon</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">lesbian icon</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -12058,7 +12438,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#economic_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Economic_abuse</WIKIPEDIA>
         <oboInOwl1:hasExactSynonym xml:lang="en">economic abuse</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">financial abuse</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -12085,6 +12467,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#economic_inequality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_inequality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Economic_inequality</WIKIPEDIA>
         <preferred-name xml:lang="en">economic inequality</preferred-name>
     </owl:Class>
     
@@ -12132,6 +12515,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#educational_inequality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_inequality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Educational_inequality</WIKIPEDIA>
         <preferred-name xml:lang="en">educational inequality</preferred-name>
     </owl:Class>
     
@@ -12236,6 +12620,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#elective_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surgical_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10058829</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Elective_surgery</WIKIPEDIA>
         <preferred-name xml:lang="en">elective surgery</preferred-name>
     </owl:Class>
     
@@ -12367,6 +12753,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#emotionally_intimate_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intimate_relationship"/>
+        <schema:alternateName xml:lang="en">emotionally intimate relationships</schema:alternateName>
         <preferred-name xml:lang="en">emotionally intimate relationship</preferred-name>
     </owl:Class>
     
@@ -12587,6 +12974,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ephebophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pedohebephilia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ephebophilia</WIKIPEDIA>
+        <preferred-name xml:lang="en">ephebophilia</preferred-name>
     </owl:Class>
     
 
@@ -12635,6 +13024,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reproductive_sequence"/>
         <TE>E1.0.0.0.0.0.8</TE>
         <preferred-name xml:lang="en">erection</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#erogenous_zone -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#erogenous_zone">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#body_surface"/>
+        <schema:alternateName xml:lang="en">erogenous zones</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Erogenous_zone</WIKIPEDIA>
+        <preferred-name xml:lang="en">erogenous zone</preferred-name>
     </owl:Class>
     
 
@@ -13104,6 +13504,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#excitement_phase">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexual_response_cycle"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_sexual_response_cycle#Excitement_phase</WIKIPEDIA>
         <preferred-name xml:lang="en">excitement phase</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">arousal phase</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">initial excitement phase</oboInOwl1:hasExactSynonym>
@@ -13194,6 +13595,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#experientially_intimate_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intimate_relationship"/>
+        <schema:alternateName xml:lang="en">experientially intimate relationships</schema:alternateName>
         <preferred-name xml:lang="en">experientially intimate relationship</preferred-name>
     </owl:Class>
     
@@ -13317,7 +13719,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#facial_feminization_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminizing_gender_confirmation_surgery"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Facial_feminization_surgery</WIKIPEDIA>
         <acronym xml:lang="en">FFS</acronym>
+        <alternative-spelling xml:lang="en">facial feminisation surgery</alternative-spelling>
         <preferred-name xml:lang="en">facial feminizing surgery</preferred-name>
     </owl:Class>
     
@@ -13890,6 +14294,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminizing_gender_confirmation_surgery"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#laryngoplasty"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pitch-altering_surgery"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10080159</MEDDRA>
+        <alternative-spelling xml:lang="en">feminisation laryngoplasty</alternative-spelling>
         <preferred-name xml:lang="en">feminization laryngoplasty</preferred-name>
     </owl:Class>
     
@@ -13899,6 +14305,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminizing_gender_confirmation_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sex_reassignment_surgery_(male-to-female)</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">feminising gender confirmation surgery</alternative-spelling>
         <historical-term xml:lang="en">male-to-female gender confirmation surgery</historical-term>
         <preferred-name xml:lang="en">feminizing gender confirmation surgery</preferred-name>
     </owl:Class>
@@ -13909,6 +14317,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminizing_genitoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminizing_gender_confirmation_surgery"/>
+        <alternative-spelling xml:lang="en">feminising genitoplasty</alternative-spelling>
         <preferred-name xml:lang="en">feminizing genitoplasty</preferred-name>
     </owl:Class>
     
@@ -13918,6 +14327,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminizing_hormone_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_hormone_therapy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_hormone_therapy_(male-to-female)</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">feminising hormone therapy</alternative-spelling>
         <historical-term xml:lang="en">male-to-female hormone therapy</historical-term>
         <preferred-name xml:lang="en">feminizing hormone therapy</preferred-name>
     </owl:Class>
@@ -14017,6 +14428,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fetishistic_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#paraphilic_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_fetishism"/>
+        <schema:alternateName xml:lang="en">fetishistic disorders</schema:alternateName>
         <preferred-name xml:lang="en">fetishistic disorder</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">psychiatric fetishism</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -14577,6 +14989,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gaslighting">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychological_manipulation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gaslighting</WIKIPEDIA>
         <preferred-name xml:lang="en">gaslighting</preferred-name>
     </owl:Class>
     
@@ -14610,6 +15024,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay-friendly">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay-friendly</WIKIPEDIA>
         <preferred-name xml:lang="en">gay-friendly</preferred-name>
     </owl:Class>
     
@@ -14667,6 +15082,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">gay culture</preferred-name>
     </owl:Class>
     
@@ -14688,6 +15104,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">gay icons</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_icon</WIKIPEDIA>
         <preferred-name xml:lang="en">gay icon</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A gay icon is a public figure (historical or present) who is embraced by many within lesbian, gay, bisexual, and transgender (LGBT) communities.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -14698,6 +15115,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_liberation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_rights_movement"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_liberation</WIKIPEDIA>
         <preferred-name xml:lang="en">gay liberation</preferred-name>
     </owl:Class>
     
@@ -14707,6 +15125,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_liberation_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_liberation"/>
+        <schema:alternateName xml:lang="en">gay liberation groups</schema:alternateName>
         <preferred-name xml:lang="en">gay liberation group</preferred-name>
     </owl:Class>
     
@@ -14740,6 +15159,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_panic_defense">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#temporary_insanity"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_panic_defense</WIKIPEDIA>
         <preferred-name xml:lang="en">gay panic defense</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The gay panic defense is a legal defense, usually against charges of assault or murder. A defendant using the defense claims they acted in a state of violent temporary insanity because of unwanted homosexual advances from another individual. The defendant alleges to find the same-sex sexual advances so offensive and frightening that it brings on a psychotic state characterized by unusual violence.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">homosexual advance defense</oboInOwl1:hasExactSynonym>
@@ -14781,7 +15201,9 @@
     <!-- https://github.com/Superraptor/GSSO#gay_rights_movement -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_rights_movement">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_social_movement"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_rights"/>
+        <alternative-spelling xml:lang="en">gay-rights movement</alternative-spelling>
         <preferred-name xml:lang="en">gay rights movement</preferred-name>
     </owl:Class>
     
@@ -15043,6 +15465,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_confirmation_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surgical_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10079200</MEDDRA>
+        <MESH_UID>D057830</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">719670005</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sex_reassignment_surgery</WIKIPEDIA>
         <acronym xml:lang="en">GCS</acronym>
         <derogatory-term xml:lang="en">sex change</derogatory-term>
         <derogatory-term xml:lang="en">sex change operation</derogatory-term>
@@ -15051,6 +15477,7 @@
         <historical-term xml:lang="en">gender reassignment surgery</historical-term>
         <historical-term xml:lang="en">sex reassignment surgery</historical-term>
         <preferred-name xml:lang="en">gender confirmation surgery</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgical treatments used to change the physiological sexual characteristics of an individual.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender-affirming surgery</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
@@ -15238,6 +15665,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_inequality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_system"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_inequality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_inequality</WIKIPEDIA>
         <preferred-name xml:lang="en">gender inequality</preferred-name>
     </owl:Class>
     
@@ -15531,6 +15959,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clothing"/>
         <preferred-name xml:lang="en">gendered clothing</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender-specific clothing</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gendered_racism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gendered_racism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#racism"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gendered_racism</WIKIPEDIA>
+        <coined-by>Philomena Essed</coined-by>
+        <preferred-name xml:lang="en">gendered racism</preferred-name>
     </owl:Class>
     
 
@@ -15916,6 +16356,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gerontophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#chronophilia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#paraphilia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gerontophilia</WIKIPEDIA>
+        <preferred-name xml:lang="en">gerontophilia</preferred-name>
     </owl:Class>
     
 
@@ -16219,6 +16661,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#group_action">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group_process"/>
+        <schema:alternateName xml:lang="en">group actions</schema:alternateName>
         <preferred-name xml:lang="en">group action</preferred-name>
     </owl:Class>
     
@@ -16250,7 +16693,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#group_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_identity"/>
         <schema:alternateName xml:lang="en">group identities</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#collective_identity"/>
         <preferred-name xml:lang="en">group identity</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#group_pressure -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#group_pressure">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group_process"/>
+        <schema:alternateName xml:lang="en">group pressures</schema:alternateName>
+        <preferred-name xml:lang="en">group pressure</preferred-name>
     </owl:Class>
     
 
@@ -16324,6 +16778,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#growth_hormone_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone_therapy"/>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Growth_hormone_therapy</WIKIPEDIA>
         <acronym xml:lang="en">GHT</acronym>
         <preferred-name xml:lang="en">growth hormone therapy</preferred-name>
     </owl:Class>
@@ -16398,6 +16853,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#haircut_fetishism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#haircut_fetishism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trichophilia"/>
+        <preferred-name xml:lang="en">haircut fetishism</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#hairpin -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hairpin">
@@ -16429,6 +16893,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hand_fetishism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hand_fetishism</WIKIPEDIA>
+        <preferred-name xml:lang="en">hand fetishism</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hand partialism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">quirofilia</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -16526,6 +16994,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#harassment">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Harassment</WIKIPEDIA>
         <preferred-name xml:lang="en">harassment</preferred-name>
     </owl:Class>
     
@@ -16558,7 +17027,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#crime"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hate_crime</WIKIPEDIA>
         <preferred-name xml:lang="en">hate crime</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">bias crime</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">bias-motivated crime</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -16596,6 +17068,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hazing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hazing</WIKIPEDIA>
         <preferred-name xml:lang="en">hazing</preferred-name>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">ragging</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
@@ -16700,6 +17173,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_condition">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#condition"/>
+        <preferred-name xml:lang="en">health condition</preferred-name>
+        <shortened-term xml:lang="en">condition</shortened-term>
     </owl:Class>
     
 
@@ -16776,6 +17251,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hebephilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pedohebephilia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hebephilia</WIKIPEDIA>
+        <preferred-name xml:lang="en">hebephilia</preferred-name>
     </owl:Class>
     
 
@@ -17062,6 +17539,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#hijabophobia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hijabophobia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Islamophobia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hijabophobia</WIKIPEDIA>
+        <preferred-name xml:lang="en">hijabophobia</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#hijra -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hijra">
@@ -17111,6 +17598,30 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculine_grammatical_gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
         <preferred-name xml:lang="en">himself</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hipster_racism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hipster_racism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#racism"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#hipster_sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hipster_racism</WIKIPEDIA>
+        <preferred-name xml:lang="en">hipster racism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hipster_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hipster_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#hipster_racism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hipster_sexism</WIKIPEDIA>
+        <preferred-name xml:lang="en">hipster sexism</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">everyday sexism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">ironic sexism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -17250,6 +17761,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation_experience"/>
         <schema:alternateName xml:lang="en">homophobic</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homophobia</WIKIPEDIA>
         <preferred-name xml:lang="en">homophobia</preferred-name>
     </owl:Class>
     <owl:Axiom>
@@ -17265,7 +17777,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homophobic_propaganda">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homophobic_propaganda</WIKIPEDIA>
         <preferred-name xml:lang="en">homophobic propaganda</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">anti-gay propaganda</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -17314,6 +17828,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hormone_replacement_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone_therapy"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#replacement_therapy"/>
+        <EFO>EFO:0003961</EFO>
+        <ICD-10-CM>Z79.890</ICD-10-CM>
+        <MESH_UID>D020249</MESH_UID>
+        <NCIT>C15599</NCIT>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Hormone_replacement_therapy</WIKIPEDIA>
         <acronym xml:lang="en">HRT</acronym>
         <preferred-name xml:lang="en">hormone replacement therapy</preferred-name>
     </owl:Class>
@@ -17324,8 +17843,22 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hormone_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#therapeutic_procedure"/>
+        <schema:alternateName xml:lang="en">hormone therapies</schema:alternateName>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10065646</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169413002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hormone_therapy</WIKIPEDIA>
         <preferred-name xml:lang="en">hormone therapy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Various treatment modalities that produce the desired therapeutic effect by means of change of hormone/hormones level.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">hormonal therapy</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hostile_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hostile_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ambivalent_sexism"/>
+        <preferred-name xml:lang="en">hostile sexism</preferred-name>
     </owl:Class>
     
 
@@ -17689,12 +18222,16 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_rights_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_rights"/>
         <schema:alternateName xml:lang="en">abuse, human rights</schema:alternateName>
         <schema:alternateName xml:lang="en">human rights abuses</schema:alternateName>
         <schema:alternateName xml:lang="en">rights abuse, human</schema:alternateName>
         <schema:alternateName xml:lang="en">rights abuses, human</schema:alternateName>
         <MESH_UID>D045809</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Human_rights_abuses</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_rights#Violations</WIKIPEDIA>
         <preferred-name xml:lang="en">human rights abuse</preferred-name>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">human rights violation</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -17785,6 +18322,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_social_interaction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_social_behavior"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_interaction"/>
+        <preferred-name xml:lang="en">human social interaction</preferred-name>
     </owl:Class>
     
 
@@ -17857,7 +18395,25 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#humiliation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hurt"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10076321</MEDDRA>
+        <NCIT>C73510</NCIT>
+        <SIO>SIO:001281</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Humiliation</WIKIPEDIA>
         <preferred-name xml:lang="en">humiliation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A feeling of extreme embarrassment.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Humiliation is the abasement of pride, which creates mortification or leads to a state of being humbled or reduced to lowliness or submission.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hurt -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hurt">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#negative_emotion"/>
+        <SIO>SIO:000845</SIO>
+        <preferred-name xml:lang="en">hurt</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Hurt is an unpleasant feeling, emotion or sensation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -17889,7 +18445,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hymenectomy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#vaginal_therapeutic_procedure"/>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.31</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10020545</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72757000</SCTID>
         <preferred-name xml:lang="en">hymenectomy</preferred-name>
+        <oboInOwl1:hasBroadSynonym xml:lang="en">hymenoplasty</oboInOwl1:hasBroadSynonym>
     </owl:Class>
     
 
@@ -17898,7 +18458,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hymenorrhaphy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#vaginal_therapeutic_procedure"/>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.76</ICD-9-CM>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hymenorrhaphy</WIKIPEDIA>
         <preferred-name xml:lang="en">hymenorrhaphy</preferred-name>
+        <oboInOwl1:hasBroadSynonym xml:lang="en">hymenoplasty</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hymen reconstruction surgery</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">repair of hymen</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -18018,6 +18582,7 @@
         <terms:isReferencedBy rdf:resource="https://www.psychologytoday.com/us/conditions/hypersexuality-sex-addiction"/>
         <schema:Quotation xml:lang="en">Let us not forget that prior to proper diagnosis and treatment planning, alcoholics were simply “bums,” and compulsive gamblers were considered “too sociopathic” not to gamble away the family rent money. Perhaps by placing hypersexuality into the DSM-5 we could begin to replace language such as “nympho,” “slut” and “pervert” with a legitimate diagnostic category that would inform the addiction and therapy professional on how to diagnose and treat those individuals struggling with shameful patterns of addictive and self-destructive sexual activity.</schema:Quotation>
         <schema:Quotation xml:lang="en">Satyriasis is often considered the male counterpart to nymphomania, a condition in which women experience excessive sexual desire. Neither satyriasis nor nymphomania is recognized as a specific disorder in the Diagnostic and Statistical Manual of Mental Disorders (or DSM-IV) published by the American Psychiatric Association. Instead, the more general and gender-neutral term hyper-sexuality is used. It is an impairment associated with frequent genital stimulation. In patients where the stimulation does not lead to sexual gratification, desire for further stimulation can be created, resulting in a cycle that can be debilitating. In patients that do achieve sexual gratification, excessive promiscuity may result, as the desire for gratification is unlikely to be met with a single partner. Such promiscuity can be physically risky as it may lead to a higher incident of unsafe sexual practice and may also involve social risk in cultures that ascribe to normative monogamy.</schema:Quotation>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hypersexuality</WIKIPEDIA>
         <alternative-spelling xml:lang="en">hyper sexuality</alternative-spelling>
         <alternative-spelling xml:lang="en">hyper-sexuality</alternative-spelling>
         <colloquial-term rdf:resource="https://github.com/Superraptor/GSSO#nymphomania"/>
@@ -18218,7 +18783,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hysterectomy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_therapeutic_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10021151</MEDDRA>
+        <MESH_UID>D007044</MESH_UID>
+        <NCIT>C15256</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">236886002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hysterectomy</WIKIPEDIA>
         <preferred-name xml:lang="en">hysterectomy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A surgical procedure to remove the uterine body (partial hysterectomy) or the uterine body and cervix (total hysterectomy).</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Excision of the uterus.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18325,6 +18897,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#identity_politics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group_identity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_identity"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Identity_politics</WIKIPEDIA>
         <preferred-name xml:lang="en">identity politics</preferred-name>
     </owl:Class>
     
@@ -18391,6 +18964,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#imaging_device">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#device"/>
         <preferred-name xml:lang="en">imaging device</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#immaterial_anatomical_entity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#immaterial_anatomical_entity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physical_anatomical_entity"/>
+        <schema:alternateName xml:lang="en">immaterial anatomical entities</schema:alternateName>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67112</FMA>
+        <preferred-name xml:lang="en">immaterial anatomical entity</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">immaterial physical anatomical entity</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -18500,6 +19085,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#incivility">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Incivility</WIKIPEDIA>
         <preferred-name xml:lang="en">incivility</preferred-name>
     </owl:Class>
     
@@ -18675,6 +19261,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#influence -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#influence">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#power"/>
+        <NCIT>C121660</NCIT>
+        <preferred-name xml:lang="en">influence</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The power to have an effect on people, things, or events.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#information -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#information">
@@ -18763,7 +19360,17 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#institutional_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Institutional_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">institutional abuse</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#institutional_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#institutional_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <preferred-name xml:lang="en">institutional sexism</preferred-name>
     </owl:Class>
     
 
@@ -18772,6 +19379,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#insult">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Insult</WIKIPEDIA>
         <preferred-name xml:lang="en">insult</preferred-name>
     </owl:Class>
     
@@ -18926,6 +19534,47 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#internalized_heterosexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internalized_heterosexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internalized_sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internalized_sexism#Internalized_heterosexism</WIKIPEDIA>
+        <preferred-name xml:lang="en">internalized heterosexism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#internalized_misandry -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internalized_misandry">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internalized_sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internalized_sexism#Internalized_misandry</WIKIPEDIA>
+        <preferred-name xml:lang="en">internalized misandry</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#internalized_misogyny -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internalized_misogyny">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internalized_sexism"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#misogyny"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internalized_sexism#Internalized_misogyny</WIKIPEDIA>
+        <preferred-name xml:lang="en">internalized misogyny</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#internalized_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internalized_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internalized_sexism</WIKIPEDIA>
+        <preferred-name xml:lang="en">internalized sexism</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#international_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#international_culture">
@@ -18986,6 +19635,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_identity"/>
         <schema:alternateName xml:lang="en">internet identites</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Online_identity</WIKIPEDIA>
         <acronym xml:lang="en">IID</acronym>
         <different-from xml:lang="en">digital identity</different-from>
         <preferred-name xml:lang="en">internet identity</preferred-name>
@@ -19212,7 +19862,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intimidation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intimidation</WIKIPEDIA>
         <preferred-name xml:lang="en">intimidation</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">cowing</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -19611,7 +20263,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#laboratory_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#procedure"/>
+        <schema:alternateName xml:lang="en">laboratory procedures</schema:alternateName>
         <preferred-name xml:lang="en">laboratory procedure</preferred-name>
+        <shortened-term xml:lang="en">lab procedure</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">lab procedures</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -19642,8 +20297,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech_and_language_disorder"/>
         <schema:alternateName xml:lang="en">language disorders</schema:alternateName>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</DOID>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10074869</MEDDRA>
+        <NCIT>C97155</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Language_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">language disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A category of disorders characterized by an impairment in the development of an individual&apos;s language capabilities, which is in contrast to his/her non-verbal intellect.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">A communication disorder that involves the processing of linguistic information.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">language impairment</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -19673,6 +20333,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#laryngeal_therapeutic_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#therapeutic_procedure"/>
+        <schema:alternateName xml:lang="en">laryngeal therapeutic procedures</schema:alternateName>
         <preferred-name xml:lang="en">laryngeal therapeutic procedure</preferred-name>
     </owl:Class>
     
@@ -19682,6 +20343,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#laryngoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#laryngeal_therapeutic_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10080158</MEDDRA>
+        <MESH_UID>D058753</MESH_UID>
         <preferred-name xml:lang="en">laryngoplasty</preferred-name>
     </owl:Class>
     
@@ -19700,6 +20363,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lavender_scare">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lavender_scare</WIKIPEDIA>
         <preferred-name xml:lang="en">lavender scare</preferred-name>
     </owl:Class>
     
@@ -19807,6 +20471,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#legal_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Legal_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">legal abuse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">abuse of the legal system</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -19911,6 +20576,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <schema:alternateName xml:lang="en">lesbians</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbian</WIKIPEDIA>
         <derogatory-term xml:lang="en">female homosexual</derogatory-term>
         <derogatory-term xml:lang="en">female homosexuals</derogatory-term>
         <preferred-name xml:lang="en">lesbian</preferred-name>
@@ -19940,6 +20606,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture</preferred-name>
     </owl:Class>
     
@@ -19950,6 +20617,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_event">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_event"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
+        <schema:alternateName xml:lang="en">lesbian events</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_events</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian event</preferred-name>
     </owl:Class>
     
@@ -20006,6 +20675,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbophobia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbophobia</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">lesbiphobia</alternative-spelling>
         <preferred-name xml:lang="en">lesbophobia</preferred-name>
     </owl:Class>
     
@@ -20017,6 +20688,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbophobia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence_against_LGBT_people"/>
         <preferred-name xml:lang="en">lesbophobic violence</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">violence against gay women</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -20401,6 +21073,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#male_privilege -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_privilege">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_privilege"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Male_privilege</WIKIPEDIA>
+        <preferred-name xml:lang="en">male privilege</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#male_pseudohermaphroditism -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_pseudohermaphroditism">
@@ -20507,8 +21189,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mammoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surgical_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10068647</MEDDRA>
+        <MESH_UID>D016462</MESH_UID>
+        <NCIT>C15354</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33496007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Mammaplasty</WIKIPEDIA>
         <alternative-spelling xml:lang="en">mammaplasty</alternative-spelling>
         <preferred-name xml:lang="en">mammoplasty</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgical reconstruction of the breast including both augmentation and reduction.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgical reconstruction of the breast.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">mastoplasty</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -20540,6 +21229,28 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#criminal_homicide"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Manslaughter</WIKIPEDIA>
         <preferred-name xml:lang="en">manslaughter</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#mansplaining -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mansplaining">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexist_behavior"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Mansplaining</WIKIPEDIA>
+        <preferred-name xml:lang="en">mansplaining</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#manspreading -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#manspreading">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexist_behavior"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Manspreading</WIKIPEDIA>
+        <preferred-name xml:lang="en">manspreading</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">ballrooming</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">man-sitting</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -20641,6 +21352,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#maschalagnia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Armpit_fetishism</WIKIPEDIA>
+        <preferred-name xml:lang="en">maschalagnia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">armpit fetishism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -20696,6 +21410,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#masculinizing_gender_confirmation_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sex_reassignment_surgery_(female-to-male)</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">masculinising gender confirmation surgery</alternative-spelling>
         <historical-term xml:lang="en">female-to-male gender confirmation surgery</historical-term>
         <preferred-name xml:lang="en">masculinizing gender confirmation surgery</preferred-name>
     </owl:Class>
@@ -20706,6 +21422,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#masculinizing_genitoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculinizing_gender_confirmation_surgery"/>
+        <alternative-spelling xml:lang="en">masculinising genitoplasty</alternative-spelling>
         <preferred-name xml:lang="en">masculinizing genitoplasty</preferred-name>
     </owl:Class>
     
@@ -20715,6 +21432,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#masculinizing_hormone_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_hormone_therapy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_hormone_therapy_(female-to-male)</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">masculinising hormone therapy</alternative-spelling>
         <historical-term xml:lang="en">female-to-male hormone therapy</historical-term>
         <preferred-name xml:lang="en">masculinizing hormone therapy</preferred-name>
     </owl:Class>
@@ -20842,7 +21561,7 @@
     <!-- https://github.com/Superraptor/GSSO#material_anatomical_entity -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#material_anatomical_entity">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anatomical_entity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physical_anatomical_entity"/>
         <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67165</FMA>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">698967008</SCTID>
         <UBERON>UBERON:0000465</UBERON>
@@ -20958,6 +21677,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mazophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Breast_fetishism</WIKIPEDIA>
+        <preferred-name xml:lang="en">mazophilia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">breast fetishism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">breast partialism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">mastofact</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -21055,6 +21779,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse#Medical_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">medical abuse</preferred-name>
     </owl:Class>
     
@@ -21088,9 +21813,19 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_diagnosis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_procedure"/>
         <schema:alternateName xml:lang="en">medical diagnoses</schema:alternateName>
+        <EFO>EFO:0002571</EFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10077673</MEDDRA>
+        <NCIT>C18020</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50731006</SCTID>
         <SIO>SIO:001024</SIO>
+        <STY>T060</STY>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Medical_diagnosis</WIKIPEDIA>
         <preferred-name xml:lang="en">medical diagnosis</preferred-name>
+        <shortened-term xml:lang="en">diagnosis</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">A medical procedure is a procedure to identify, examine, alleviate or eliminate an undesirable biological disease or disorder.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Any procedure or test to diagnose a disease or disorder.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Dx</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">diagnoses</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">diagnostic procedure</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">diagnostic procedures</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -21140,7 +21875,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#procedure"/>
         <schema:alternateName xml:lang="en">medical procedures</schema:alternateName>
+        <EFO>EFO:0002571</EFO>
         <SIO xml:lang="en">SIO:001024</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Medical_procedure</WIKIPEDIA>
         <preferred-name xml:lang="en">medical procedure</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A medical procedure is a procedure to identify, examine, alleviate or eliminate an undesirable biological disease or disorder.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -21209,9 +21946,21 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menopausal_hormone_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone_replacement_therapy"/>
+        <ICD-9-CM>V07.4</ICD-9-CM>
+        <NCIT>C15251</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">724158008</SCTID>
         <acronym xml:lang="en">MHT</acronym>
         <preferred-name xml:lang="en">menopausal hormone therapy</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">postmenopausal hormone replacement therapy</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">postmenopausal hormone therapy</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#menopausal_hormone_therapy"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">postmenopausal hormone therapy</owl:annotatedTarget>
+        <acronym xml:lang="en">PHT</acronym>
+        <acronym xml:lang="en">PMHT</acronym>
+    </owl:Axiom>
     
 
 
@@ -21300,6 +22049,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mental_health_condition">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_condition"/>
         <schema:alternateName xml:lang="en">mental health conditions</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">363871006</SCTID>
         <preferred-name xml:lang="en">mental health condition</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">mental condition</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">mental state</oboInOwl1:hasExactSynonym>
@@ -21326,6 +22076,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mesophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#chronophilia"/>
+        <preferred-name xml:lang="en">mesophilia</preferred-name>
     </owl:Class>
     
 
@@ -21489,6 +22240,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#military_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#crime"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse#Military_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">military abuse</preferred-name>
     </owl:Class>
     
@@ -21580,10 +22332,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#misandry -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#misandry">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Misandry</WIKIPEDIA>
+        <preferred-name xml:lang="en">misandry</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#misconduct -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#misconduct">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Misconduct</WIKIPEDIA>
         <preferred-name xml:lang="en">misconduct</preferred-name>
     </owl:Class>
     
@@ -21704,6 +22467,15 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">cell dating</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">cell phone dating</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">cellular dating</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#modern_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#modern_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <preferred-name xml:lang="en">modern sexism</preferred-name>
     </owl:Class>
     
 
@@ -22192,7 +22964,17 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#myomectomy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_therapeutic_procedure"/>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">68.29</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10028634</MEDDRA>
+        <MESH_UID>D063186</MESH_UID>
+        <NCIT>C51645</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Uterine_myomectomy</WIKIPEDIA>
         <preferred-name xml:lang="en">myomectomy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgical removal of a leiomyoma of the uterus.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgical removal of part of the uterine body, frequently performed as a treatment for leiomyomas.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">fibroidectomy</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">uterine myomectomies</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">uterine myomectomy</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -22279,6 +23061,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#narcissistic_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Narcissistic_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">narcissistic abuse</preferred-name>
     </owl:Class>
     
@@ -22307,6 +23090,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nasophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Nose_fetishism</WIKIPEDIA>
+        <preferred-name xml:lang="en">nasophilia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">nose fetishism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">nose partialism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -22476,6 +23263,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#neglect">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Neglect</WIKIPEDIA>
         <preferred-name xml:lang="en">neglect</preferred-name>
     </owl:Class>
     
@@ -22487,6 +23275,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gross_misconduct"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#tort_law"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Negligence</WIKIPEDIA>
         <preferred-name xml:lang="en">negligence</preferred-name>
     </owl:Class>
     
@@ -22543,6 +23332,15 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pronoun"/>
         <schema:alternateName xml:lang="en">neopronouns</schema:alternateName>
         <preferred-name xml:lang="en">neopronoun</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#neosexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#neosexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <preferred-name xml:lang="en">neosexism</preferred-name>
     </owl:Class>
     
 
@@ -23198,8 +23996,19 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#obstetric_and_gynaecological_therapeutic_procedures">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#therapeutic_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10029903</MEDDRA>
         <preferred-name xml:lang="en">obstetric and gynaecological therapeutic procedures</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gynaecological therapeutic procedure</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasNarrowSynonym xml:lang="en">obstetric therapeutic procedure</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#obstetric_and_gynaecological_therapeutic_procedures"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasNarrowSynonym"/>
+        <owl:annotatedTarget xml:lang="en">obstetric therapeutic procedure</owl:annotatedTarget>
+        <NCIT>C89340</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">386637004</SCTID>
+        <oboInOwl1:hasDefinition xml:lang="en">Any pregnancy or childbirth related procedure associated with a mother during her reproductive years.</oboInOwl1:hasDefinition>
+    </owl:Axiom>
     
 
 
@@ -23219,6 +24028,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#secret_language"/>
         <preferred-name xml:lang="en">occupational cryptolect</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">occupational cant</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#occupational_sexism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#occupational_sexism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Occupational_sexism</WIKIPEDIA>
+        <preferred-name xml:lang="en">occupational sexism</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">employment sexism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">sexism in the work place</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -23264,10 +24085,26 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#oculolinctus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#oculolinctus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#oculophilia"/>
+        <rdfs:comment xml:lang="en">In mid-2013, English-language newspapers reported that this fetish had allegedly become popular in Japan, however, other media have reported that the existence of this practice is a hoax based on a story in a Japanese tabloid and many of the originally reporting articles were corrected or retracted as being possibly a hoax.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Oculolinctus</WIKIPEDIA>
+        <preferred-name xml:lang="en">oculolinctus</preferred-name>
+        <preferred-name xml:lang="ja">球舐めプレイ</preferred-name>
+        <slang-term xml:lang="en">worming</slang-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">eyeball-licking fetishism</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#oculophilia -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#oculophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <preferred-name xml:lang="en">oculophilia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">eye fetishism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -23349,7 +24186,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#oophorectomy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ovarian_therapeutic_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10061889</MEDDRA>
+        <NCIT>C15291</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83152002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Oophorectomy</WIKIPEDIA>
         <preferred-name xml:lang="en">oophorectomy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Partial or complete removal of one or both of the ovaries.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -23553,6 +24395,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#orgasm_control -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#orgasm_control">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#plateau_phase"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Orgasm_control</WIKIPEDIA>
+        <preferred-name xml:lang="en">orgasm control</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">edging</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">peaking</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">surfing</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#orgasm_disorder -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#orgasm_disorder">
@@ -23566,6 +24421,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#orgasm_phase">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexual_response_cycle"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_sexual_response_cycle#Orgasm_phase</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Orgasm</WIKIPEDIA>
         <preferred-name xml:lang="en">orgasm phase</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">orgasm</oboInOwl1:hasExactSynonym>
@@ -23711,6 +24567,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ovarian_therapeutic_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#obstetric_and_gynaecological_therapeutic_procedures"/>
+        <schema:alternateName xml:lang="en">ovarian therapeutic procedures</schema:alternateName>
         <preferred-name xml:lang="en">ovarian therapeutic procedure</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">ovary therapeutic procedure</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -23818,8 +24675,11 @@
     <!-- https://github.com/Superraptor/GSSO#pain -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pain">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hurt"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sensation"/>
+        <SIO>SIO:000951</SIO>
         <preferred-name xml:lang="en">pain</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Pain is an unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -23914,6 +24774,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#paraphilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#unconventional_sexual_attraction"/>
         <schema:alternateName xml:lang="en">paraphilias</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Paraphilia</WIKIPEDIA>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_perversion"/>
         <former-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_perversion"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_perversion"/>
@@ -24014,6 +24875,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#parent-child_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#family_relationship"/>
+        <schema:alternateName xml:lang="en">parent-child relationships</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#parenting"/>
+        <preferred-name xml:lang="en">parent-child relationship</preferred-name>
     </owl:Class>
     
 
@@ -24022,6 +24886,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#parenting">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#family_relations"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#parent-child_relationship"/>
         <MESH_UID>D016487</MESH_UID>
         <preferred-name xml:lang="en">parenting</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Performing the role of a parent by care-giving, nurturance, and protection of the child by a natural or substitute parent. The parent supports the child by exercising authority and through consistent, empathic, appropriate behavior in response to the child&apos;s needs. Parenting differs from child rearing in that in child rearing the emphasis is on the act of training or bringing up the children and the interaction between the parent and child, while parenting emphasizes the responsibility and qualities of exemplary behavior of the parent.</oboInOwl1:hasDefinition>
@@ -24092,6 +24957,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#partialism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fetishistic_disorder"/>
+        <schema:alternateName xml:lang="en">partialisms</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Partialism</WIKIPEDIA>
+        <preferred-name xml:lang="en">partialism</preferred-name>
     </owl:Class>
     
 
@@ -24121,6 +24989,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#passive-aggressive_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#socialized_conduct_disorder"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Passive-aggressive_behavior</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">passive–aggressive behavior</alternative-spelling>
         <oboInOwl1:hasExactSynonym xml:lang="en">passive-aggressive behavior</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -24234,6 +25104,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pederasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_sexual_orientation"/>
         <schema:alternateName xml:lang="en">paederasty</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pederasty</WIKIPEDIA>
         <different-from xml:lang="fr">pédérastie</different-from>
         <preferred-name xml:lang="en">pederasty</preferred-name>
     </owl:Class>
@@ -24274,6 +25145,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pedohebephilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#chronophilia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#paraphilia"/>
+        <preferred-name xml:lang="en">pedohebephilia</preferred-name>
     </owl:Class>
     
 
@@ -24282,6 +25154,32 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pedophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pedohebephilia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pedophilia</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">paedophilia</alternative-spelling>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#podophilia"/>
+        <preferred-name xml:lang="en">pedophilia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#pedophilic_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pedophilic_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pedophilia"/>
+        <preferred-name xml:lang="en">pedophilic disorder</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#peer_influence -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#peer_influence">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group_pressure"/>
+        <MESH_UID>D000067074</MESH_UID>
+        <preferred-name xml:lang="en">peer influence</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The effect or sway that a peer group exerts on the beliefs, value systems and behavior of each member of a group. The social expectations for individuals to conform to peer group influence is known as peer pressure.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">peer pressure</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">social pressure</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -24518,7 +25416,20 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#persecution">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Persecution</WIKIPEDIA>
         <preferred-name xml:lang="en">persecution</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#persistent_genital_arousal_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#persistent_genital_arousal_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#genital_arousal_disorder"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Persistent_genital_arousal_disorder</WIKIPEDIA>
+        <acronym xml:lang="en">PGAD</acronym>
+        <preferred-name xml:lang="en">persistent genital arousal disorder</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">persistent sexual arousal syndrome</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -24832,7 +25743,19 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#physical_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10034982</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Physical_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">physical abuse</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#physical_anatomical_entity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#physical_anatomical_entity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anatomical_entity"/>
+        <schema:alternateName xml:lang="en">physical antomical entities</schema:alternateName>
+        <FMA xml:lang="en">61775</FMA>
+        <preferred-name xml:lang="en">physical anatomical entity</preferred-name>
     </owl:Class>
     
 
@@ -24999,6 +25922,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#physically_intimate_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intimate_relationship"/>
+        <schema:alternateName xml:lang="en">physically intimate relationships</schema:alternateName>
         <preferred-name xml:lang="en">physically intimate relationship</preferred-name>
     </owl:Class>
     
@@ -25142,7 +26066,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#plastic_surgical_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surgical_procedure"/>
+        <NCIT>C39766</NCIT>
         <preferred-name xml:lang="en">plastic surgical procedure</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any procedure for which the purpose is altering or restoring the form of the body.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">plastic surgery procedure</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -25151,6 +26078,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#plateau_phase">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexual_response_cycle"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_sexual_response_cycle#Plateau_phase</WIKIPEDIA>
         <preferred-name xml:lang="en">plateau phase</preferred-name>
     </owl:Class>
     
@@ -25169,6 +26097,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#platonic_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#emotionally_intimate_relationship"/>
+        <schema:alternateName xml:lang="en">platonic relationships</schema:alternateName>
         <preferred-name xml:lang="en">platonic relationship</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">non-romantic relationship</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -25214,6 +26143,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#podophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Foot_fetishism</WIKIPEDIA>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#pedophilia"/>
+        <preferred-name xml:lang="en">podophilia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">foot fetishism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">foot partialism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">foot worship</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -25242,6 +26177,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#police_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse_of_power"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#police"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse#Police_abuse</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse_of_power#Police_officers</WIKIPEDIA>
         <preferred-name xml:lang="en">police abuse</preferred-name>
     </owl:Class>
     
@@ -25251,6 +26188,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#police_brutality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#police_abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Police_brutality</WIKIPEDIA>
         <preferred-name xml:lang="en">police brutality</preferred-name>
     </owl:Class>
     
@@ -25260,6 +26198,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#police_corruption">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#police_abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Police_corruption</WIKIPEDIA>
         <preferred-name xml:lang="en">police corruption</preferred-name>
     </owl:Class>
     
@@ -25270,6 +26209,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#police_misconduct">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#misconduct"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#police_abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Police_misconduct</WIKIPEDIA>
+        <preferred-name xml:lang="en">police misconduct</preferred-name>
     </owl:Class>
     
 
@@ -25305,6 +26246,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#political_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse_of_power"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse#Political_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">political abuse</preferred-name>
     </owl:Class>
     
@@ -25336,6 +26278,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#political_corruption">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Political_corruption</WIKIPEDIA>
         <preferred-name xml:lang="en">political corruption</preferred-name>
     </owl:Class>
     
@@ -25385,6 +26328,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#political_repression">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Political_repression</WIKIPEDIA>
         <preferred-name xml:lang="en">political repression</preferred-name>
     </owl:Class>
     
@@ -25442,6 +26386,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polygamous_marital_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marital_relationship"/>
         <preferred-name xml:lang="en">polygamous marital relationship</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">marital polygamy</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -25858,6 +26803,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#prisoner_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Prisoner_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">prisoner abuse</preferred-name>
     </owl:Class>
     
@@ -26236,6 +27182,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychological_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10054953</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychological_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">psychological abuse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">mental abuse</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">emotional abuse</oboInOwl1:hasNarrowSynonym>
@@ -26258,6 +27205,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychological_assessment"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychological_testing"/>
         <preferred-name xml:lang="en">psychological evaluation</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#psychological_manipulation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychological_manipulation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_influence"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychological_manipulation</WIKIPEDIA>
+        <preferred-name xml:lang="en">psychological manipulation</preferred-name>
     </owl:Class>
     
 
@@ -26333,6 +27290,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pubarche</WIKIPEDIA>
         <preferred-name xml:lang="en">pubarche</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#pubephilia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pubephilia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trichophilia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pubic_hair_fetishism</WIKIPEDIA>
+        <preferred-name xml:lang="en">pubephilia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">pubic hair partialism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -26445,6 +27413,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pygophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cultural_history_of_the_buttocks#Fetishism</WIKIPEDIA>
+        <preferred-name xml:lang="en">pygophilia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">buttocks fetishism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">buttocks partialism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -26580,6 +27552,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#racial_inequality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_inequality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Racial_inequality</WIKIPEDIA>
         <preferred-name xml:lang="en">racial inequality</preferred-name>
     </owl:Class>
     
@@ -26658,6 +27631,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#rankism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rankism</WIKIPEDIA>
         <preferred-name xml:lang="en">rankism</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">abuse of rank</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -26668,6 +27642,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#rape">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_assault"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rape</WIKIPEDIA>
         <preferred-name xml:lang="en">rape</preferred-name>
     </owl:Class>
     
@@ -26798,7 +27773,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#reduction_mammoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mammoplasty"/>
+        <NCIT>C51615</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59214008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Breast_reduction</WIKIPEDIA>
         <preferred-name xml:lang="en">reduction mammoplasty</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgery performed to reduce the size of the breast.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">breast reduction</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">reduction mammaplasty</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -26857,6 +27838,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#religious_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Religious_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">religious abuse</preferred-name>
     </owl:Class>
     
@@ -26866,7 +27848,6 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#religious_discrimination">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#discriminatory_abuse"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#religious_abuse"/>
         <preferred-name xml:lang="en">religious discrimination</preferred-name>
     </owl:Class>
     
@@ -26933,7 +27914,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#replacement_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biological_therapy"/>
+        <NCIT>C15471</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182819002</SCTID>
         <preferred-name xml:lang="en">replacement therapy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Administration of a body substance to compensate for the loss, as from disease or surgery, of a gland or tissue that would normally produce the substance.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27215,6 +28199,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#resolution_phase">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexual_response_cycle"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_sexual_response_cycle#Resolution_phase</WIKIPEDIA>
         <preferred-name xml:lang="en">resolution phase</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">refractory period (sex)</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -27433,7 +28418,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#friendship"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romantic_relationship"/>
         <schema:alternateName xml:lang="en">romantic friendships</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Romantic_friendship</WIKIPEDIA>
         <preferred-name xml:lang="en">romantic friendship</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">passionate friendship</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">passionate friendships</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -27442,6 +28430,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#romantic_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_identity"/>
+        <schema:alternateName xml:lang="en">romantic identities</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">romantic identity</preferred-name>
     </owl:Class>
     
@@ -27451,6 +28441,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#romantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_orientation"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#romantic_identity"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Romantic_orientation</WIKIPEDIA>
         <preferred-name xml:lang="en">romantic orientation</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">affectional orientation</oboInOwl1:hasExactSynonym>
@@ -27463,6 +28454,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#romantic_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#emotionally_intimate_relationship"/>
         <schema:alternateName xml:lang="en">romantic relationships</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#romance"/>
         <preferred-name xml:lang="en">romantic relationship</preferred-name>
     </owl:Class>
     
@@ -27490,7 +28482,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#rudeness">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rudeness</WIKIPEDIA>
         <preferred-name xml:lang="en">rudeness</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">effrontery</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -27688,6 +28682,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#school_bullying">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bullying"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/School_bullying</WIKIPEDIA>
         <preferred-name xml:lang="en">school bullying</preferred-name>
     </owl:Class>
     
@@ -27908,6 +28903,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#self-abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse#Self-abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">self-abuse</preferred-name>
     </owl:Class>
     
@@ -28513,10 +29509,42 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_bias"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#discriminatory_abuse"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180205203411/http://www.bridge.ids.ac.uk/sites/bridge.ids.ac.uk/files/reports/re55.pdf"/>
+        <MESH_UID>D063507</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexism</WIKIPEDIA>
         <preferred-name xml:lang="en">sexism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Prejudice or discrimination based on gender or behavior or attitudes that foster stereotyped social roles based on gender.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sex discrimination</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">gender bias</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">gender discrimination</oboInOwl1:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sexism_scale -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexism_scale">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <preferred-name xml:lang="en">sexism scale</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sexism_test -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexism_test">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <preferred-name xml:lang="en">sexism test</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gender bias test</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sexist_behavior -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexist_behavior">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
+        <alternative-spelling xml:lang="en">sexist behaviour</alternative-spelling>
+        <preferred-name xml:lang="en">sexist behavior</preferred-name>
     </owl:Class>
     
 
@@ -28581,6 +29609,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexually_abusive_behavior"/>
         <ICD-10-CM>T74.2</ICD-10-CM>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10040461</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual abuse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">molestation</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual molestation</oboInOwl1:hasExactSynonym>
@@ -28608,6 +29637,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_arousal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_attraction"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_arousal</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual arousal</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual excitement</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -28649,6 +29679,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_assault">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#assault"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_assault</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual assault</preferred-name>
     </owl:Class>
     
@@ -28942,6 +29973,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_fetishism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#unconventional_sexual_attraction"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_fetishism</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual fetishism</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">erotic fetishism</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -29005,7 +30037,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_identity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <schema:alternateName xml:lang="en">sexual identities</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#sexual_orientation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_identity</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual identity</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">sexual orientation identities</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">sexual orientation identity</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -29139,6 +30176,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_orientation"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_attribute"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#sexual_identity"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_orientation</WIKIPEDIA>
         <derogatory-term xml:lang="en">sexual preference</derogatory-term>
         <historical-term xml:lang="en">sexual preference</historical-term>
@@ -29167,6 +30205,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_partnership">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#casual_relationship"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_relationship"/>
+        <schema:alternateName xml:lang="en">sexual partnerships</schema:alternateName>
         <preferred-name xml:lang="en">sexual partnership</preferred-name>
     </owl:Class>
     
@@ -29187,6 +30226,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physically_intimate_relationship"/>
+        <schema:alternateName xml:lang="en">sexual relationships</schema:alternateName>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#intimate_relationship"/>
         <preferred-name xml:lang="en">sexual relationship</preferred-name>
     </owl:Class>
     
@@ -29287,6 +30328,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_tension">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_tension</WIKIPEDIA>
+        <preferred-name xml:lang="en">sexual tension</preferred-name>
     </owl:Class>
     
 
@@ -29458,6 +30501,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sibling_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sibling_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">sibling abuse</preferred-name>
     </owl:Class>
     
@@ -29467,6 +30511,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sibling_relationship">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#family_relationship"/>
+        <schema:alternateName xml:lang="en">sibling relationships</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sibling_relationship</WIKIPEDIA>
+        <preferred-name xml:lang="en">sibling relationship</preferred-name>
     </owl:Class>
     
 
@@ -29723,6 +30770,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior"/>
         <alternative-spelling xml:lang="en">social behaviour disorder</alternative-spelling>
         <preferred-name xml:lang="en">social behavior disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Behavior which conflicts with expected social norms and affects other individuals.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -29742,6 +30790,21 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_conflict">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conflict"/>
         <preferred-name xml:lang="en">social conflict</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#social_conformity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_conformity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group_process"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior"/>
+        <schema:alternateName xml:lang="en">social conformities</schema:alternateName>
+        <MESH_UID>D012925</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Conformity</WIKIPEDIA>
+        <preferred-name xml:lang="en">social conformity</preferred-name>
+        <shortened-term xml:lang="en">conformity</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Behavioral or attitudinal compliance with recognized social patterns or standards.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -29831,6 +30894,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_identity_theory">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_identity"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_identity_theory</WIKIPEDIA>
         <preferred-name xml:lang="en">social identity theory</preferred-name>
     </owl:Class>
     
@@ -29840,7 +30904,19 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_inequality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#inequality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_inequality</WIKIPEDIA>
         <preferred-name xml:lang="en">social inequality</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#social_influence -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_influence">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group_pressure"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#influence"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_influence</WIKIPEDIA>
+        <preferred-name xml:lang="en">social influence</preferred-name>
     </owl:Class>
     
 
@@ -29969,7 +31045,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_privilege">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_inequality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_privilege</WIKIPEDIA>
         <preferred-name xml:lang="en">social privilege</preferred-name>
+        <shortened-term xml:lang="en">privilege</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">societal privilege</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -30043,6 +31122,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#social_status -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_status">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#status"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_status</WIKIPEDIA>
+        <preferred-name xml:lang="en">social status</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#social_structure -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_structure">
@@ -30108,6 +31197,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#socialized_conduct_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conduct_disorder"/>
+        <ICD-10-CM>F91.2</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">312.2</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10041254</MEDDRA>
+        <NCIT>C35029</NCIT>
         <preferred-name xml:lang="en">socialized conduct disorder</preferred-name>
     </owl:Class>
     
@@ -30185,6 +31278,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sociosexual_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_identity"/>
+        <schema:alternateName xml:lang="en">sociosexual identities</schema:alternateName>
         <preferred-name xml:lang="en">sociosexual identity</preferred-name>
     </owl:Class>
     
@@ -30194,6 +31288,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sociosexual_script">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sociosexual_identity"/>
+        <schema:alternateName xml:lang="en">sociosexual scripts</schema:alternateName>
         <preferred-name xml:lang="en">sociosexual script</preferred-name>
     </owl:Class>
     
@@ -30365,6 +31460,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#speech_and_language_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#communication_disorder"/>
         <schema:alternateName xml:lang="en">speech and language disorders</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231543005</SCTID>
         <preferred-name xml:lang="en">speech and language disorder</preferred-name>
     </owl:Class>
     
@@ -30376,8 +31472,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech_and_language_disorder"/>
         <schema:alternateName xml:lang="en">speech disorders</schema:alternateName>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</DOID>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10041466</MEDDRA>
+        <NCIT>C5041</NCIT>
         <preferred-name xml:lang="en">speech disorder</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A communication disorder that involves difficulty with the act of speech production.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A term referring to disorders characterized by the disruption of normal speech. It includes stuttering, lisps, dysarthria and voice disorders.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">speech impairment</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">speech impediment</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -30395,6 +31496,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#speed_dating">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_dating"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Speed_dating</WIKIPEDIA>
         <preferred-name xml:lang="en">speed dating</preferred-name>
     </owl:Class>
     
@@ -30575,6 +31677,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#stalking">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Stalking</WIKIPEDIA>
         <preferred-name xml:lang="en">stalking</preferred-name>
     </owl:Class>
     
@@ -30752,6 +31855,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#structural_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Structural_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">structural abuse</preferred-name>
     </owl:Class>
     
@@ -30840,8 +31944,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#substance-related_disorder"/>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302</DOID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Substance_abuse</WIKIPEDIA>
         <oboInOwl1:hasDefinition xml:lang="en">A substance-related disorder that involves a maladaptive pattern of substance use leading to significant impairment in functioning.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">substance abuse</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasNarrowSynonym rdf:resource="https://github.com/Superraptor/GSSO#drug_abuse"/>
     </owl:Class>
     
 
@@ -31015,8 +32121,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#surgical_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_procedure"/>
         <schema:alternateName xml:lang="en">surgical procedures</schema:alternateName>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10051332</MEDDRA>
+        <NCIT>C15329</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">387713003</SCTID>
         <preferred-name xml:lang="en">surgical procedure</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A diagnostic or treatment procedure performed by manual and/or instrumental means, often involving an incision and the removal or replacement of a diseased organ or tissue; of or relating to or involving or used in surgery or requiring or amenable to treatment by surgery.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -31212,6 +32321,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#teleiophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#chronophilia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conventional_sexual_attraction"/>
+        <preferred-name xml:lang="en">teleiophilia</preferred-name>
     </owl:Class>
     
 
@@ -31279,6 +32389,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Terrorism</WIKIPEDIA>
         <preferred-name xml:lang="en">terrorism</preferred-name>
     </owl:Class>
     
@@ -31489,9 +32600,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#therapeutic_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_procedure"/>
+        <NCIT>C49236</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">277132007</SCTID>
         <preferred-name xml:lang="en">therapeutic procedure</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym>TX</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">medical treatment</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">therapeutic intervention</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">therapy</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">treatment</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -31906,6 +33023,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_experience"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trans_bashing</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender abuse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">trans bashing</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -32022,6 +33140,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_hormone_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone_replacement_therapy"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10064728</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_hormone_therapy</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender hormone therapy</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Transgender hormone therapy, also sometimes called cross-sex hormone therapy, is a form of hormone replacement therapy (HRT) in which sex hormones and other hormonal medications are administered to transgender or gender nonconforming individuals for the purpose of more closely aligning their secondary sexual characteristics with their gender identity.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cross-sex hormone therapy</oboInOwl1:hasExactSynonym>
@@ -32344,6 +33464,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trichophilia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hair_fetishism</WIKIPEDIA>
+        <preferred-name xml:lang="en">trichophilia</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hair fetishism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hair partialism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -32582,6 +33706,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#unconventional_sexual_attraction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_attraction"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Kink_(sexuality)</WIKIPEDIA>
         <colloquial-term xml:lang="en">kink</colloquial-term>
         <preferred-name xml:lang="en">unconventional sexual attraction</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">non-conventional sexual attraction</oboInOwl1:hasExactSynonym>
@@ -32828,7 +33953,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#urogenital_surgical_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surgical_procedure"/>
+        <schema:alternateName xml:lang="en">urogenital surgical procedures</schema:alternateName>
+        <MESH_UID>D013519</MESH_UID>
+        <NCIT>C15333</NCIT>
         <preferred-name xml:lang="en">urogenital surgical procedure</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any surgery to the reproductive or urinary system or its parts.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgery performed on the urinary tract or its organs and on the genitalia.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32930,6 +34060,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#uterine_therapeutic_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#obstetric_and_gynaecological_therapeutic_procedures"/>
+        <schema:alternateName xml:lang="en">uterine therapeutic procedures</schema:alternateName>
         <preferred-name xml:lang="en">uterine therapeutic procedure</preferred-name>
     </owl:Class>
     
@@ -33006,6 +34137,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vaginal_therapeutic_procedure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#obstetric_and_gynaecological_therapeutic_procedures"/>
+        <schema:alternateName xml:lang="en">vaginal therapeutic procedures</schema:alternateName>
         <preferred-name xml:lang="en">vaginal therapeutic procedure</preferred-name>
     </owl:Class>
     
@@ -33027,6 +34159,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vaginoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#vaginal_therapeutic_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10059110</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176687003</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Vaginoplasty</WIKIPEDIA>
         <preferred-name xml:lang="en">vaginoplasty</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">colpoplasty</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -33075,7 +34210,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#verbal_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10055166</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Verbal_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">verbal abuse</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">verbal assault</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">verbal attack</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -33359,6 +34497,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#voice_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#laryngeal_therapeutic_procedure"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10077453</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Voice_therapy</WIKIPEDIA>
         <preferred-name xml:lang="en">voice therapy</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">voice training</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -33592,6 +34732,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nationalism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#racism"/>
         <preferred-name xml:lang="en">white nationalism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#white_privilege -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#white_privilege">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_privilege"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/White_privilege</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">White privilege</alternative-spelling>
+        <preferred-name xml:lang="en">white privilege</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">white skin privilege</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -35406,7 +36558,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Gay_Liberation_Front_(Canada)">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_liberation_group"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_Liberation_Front#GLF_in_Canada</WIKIPEDIA>
+        <acronym xml:lang="fr">FLH</acronym>
         <acronym xml:lang="en">GLF</acronym>
+        <preferred-name xml:lang="fr">Front de liberation homosexual</preferred-name>
         <preferred-name xml:lang="en">Gay Liberation Front</preferred-name>
     </owl:Class>
     
@@ -35416,6 +36571,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Gay_Liberation_Front_(United_Kingdom)">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_liberation_group"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_Liberation_Front#GLF_in_the_United_Kingdom</WIKIPEDIA>
         <acronym xml:lang="en">GLF</acronym>
         <preferred-name xml:lang="en">Gay Liberation Front</preferred-name>
     </owl:Class>
@@ -35426,6 +36582,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Gay_Liberation_Front_(United_States)">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_liberation_group"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_Liberation_Front#GLF_in_the_United_States</WIKIPEDIA>
         <acronym xml:lang="en">GLF</acronym>
         <preferred-name xml:lang="en">Gay Liberation Front</preferred-name>
     </owl:Class>
@@ -35491,6 +36648,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Rape,_Abuse_&amp;_Incest_National_Network">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anti-sexual_assault_organization"/>
         <schema:label xml:lang="en">Rape, Abuse &amp; Incest National Network</schema:label>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rape,_Abuse_%26_Incest_National_Network</WIKIPEDIA>
         <acronym xml:lang="en">RAINN</acronym>
     </owl:Class>
     
