@@ -14,6 +14,6 @@ Please feel free to contribute! If there is a term or terms that include unsatis
 
 ## License
 
-This project is currently bound by the Apache 2.0 License. All mapped ontologies within AOKO are within Creative Commons, but my require separate requirements. Please check with their respective creators before utilizing.
+This project is currently bound by the Apache 2.0 License. All mapped ontologies within GSSO are within Creative Commons, but may require separate requirements. Please check with their respective creators before utilizing.
 
 ## Acknowledgments
