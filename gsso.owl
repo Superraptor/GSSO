@@ -4068,6 +4068,7 @@
         <schema:nationality xml:lang="en">American</schema:nationality>
         <WIKIDATA>Q5325981</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Jennie_June_(autobiographer)</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="sv">https://sv.wikipedia.org/wiki/Earl_Lind</WIKIPEDIA>
         <preferred-name>Jennie June</preferred-name>
         <pseudonym>Earl Lind</pseudonym>
         <pseudonym>Jennie June</pseudonym>
@@ -5050,11 +5051,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Miss_Nancy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sissy"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <derogatory-term xml:lang="en">Miss Nancy</derogatory-term>
         <preferred-name xml:lang="en">Miss Nancy</preferred-name>
+        <shortened-term xml:lang="en">Nancy</shortened-term>
         <slang-term xml:lang="en">Miss Nancy</slang-term>
         <oboInOwl1:hasDefinition xml:lang="en">An effeminate man suspected of homosexual tendencies or relations.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#sissy"/>
+        <oboInOwl1:hasExactSynonym xml:lang="en">nancy</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -5742,11 +5746,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Richard_von_Krafft-Ebing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychiatrist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
+        <schema:alumniOf xml:lang="en">Heidelberg University</schema:alumniOf>
         <schema:alumniOf xml:lang="en">University of Heidelberg</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">University of Vienna</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">Zurich University</schema:alumniOf>
         <schema:birthDate>14 August 1840</schema:birthDate>
         <schema:birthPlace xml:lang="en">Mannheim, Baden, Germany</schema:birthPlace>
         <schema:deathDate>22 December 1902</schema:deathDate>
         <schema:deathPlace xml:lang="en">Graz, Austria-Hungary</schema:deathPlace>
+        <WIKIDATA>Q77082</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Richard_von_Krafft-Ebing</WIKIPEDIA>
         <preferred-name>Richard von Krafft-Ebing</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">R. v. Krafft-Ebing</oboInOwl1:hasExactSynonym>
@@ -10394,9 +10402,18 @@
     <!-- https://github.com/Superraptor/GSSO#bisexual_orientation -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_orientation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_orientation"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <schema:alternateName xml:lang="en">bisexual</schema:alternateName>
         <preferred-name xml:lang="en">bisexual orientation</preferred-name>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#bisexual_orientation"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/alternateName"/>
+        <owl:annotatedTarget xml:lang="en">bisexual</owl:annotatedTarget>
+        <part-of-speech xml:lang="en">adjective</part-of-speech>
+    </owl:Axiom>
     
 
 
@@ -10406,6 +10423,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">bisexual people</schema:alternateName>
         <preferred-name xml:lang="en">bisexual person</preferred-name>
+        <shortened-term xml:lang="en">bisexual</shortened-term>
     </owl:Class>
     
 
@@ -10442,6 +10460,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#plurisexuality"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -11006,6 +11025,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bulldyke">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <acronym xml:lang="en">B.D.</acronym>
         <acronym xml:lang="en">BD</acronym>
         <alternative-spelling xml:lang="en">boldyke</alternative-spelling>
@@ -17037,6 +17057,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_and_the_Lady_Lover"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_or_&apos;Fag&apos;"/>
         <schema:Quotation xml:lang="en">Does the &apos;fairy&apos; or &apos;fag&apos; really exist? This question has been asked time and again. There is no doubt but that this type of denegerate is a reality. He is a freak of nature who in every way attempts to imitate women.</schema:Quotation>
@@ -17784,6 +17805,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#femme -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#femme">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <preferred-name xml:lang="en">femme</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#femminiello -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#femminiello">
@@ -18380,6 +18411,27 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#fruit -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fruit">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <schema:alternateName xml:lang="en">fruity</schema:alternateName>
+        <derogatory-term xml:lang="en">fruit</derogatory-term>
+        <derogatory-term xml:lang="en">fruiter</derogatory-term>
+        <derogatory-term xml:lang="en">fruity</derogatory-term>
+        <preferred-name xml:lang="en">fruit</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">fruiter</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#fruit"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/alternateName"/>
+        <owl:annotatedTarget xml:lang="en">fruity</owl:annotatedTarget>
+        <part-of-speech xml:lang="en">adjective</part-of-speech>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#frustration -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#frustration">
@@ -18699,10 +18751,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
         <schema:alternateName xml:lang="en">gay people</schema:alternateName>
-        <derogatory-term xml:lang="en">homosexual</derogatory-term>
-        <derogatory-term xml:lang="en">homosexuals</derogatory-term>
-        <historical-term xml:lang="en">homo-sexualist</historical-term>
-        <historical-term xml:lang="en">homosexualist</historical-term>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#homo"/>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#homosexual"/>
+        <historical-term rdf:resource="https://github.com/Superraptor/GSSO#homosexualist"/>
+        <historical-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_invert"/>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
         <preferred-name xml:lang="en">gay person</preferred-name>
     </owl:Class>
@@ -21504,6 +21556,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#homo -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homo">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <derogatory-term xml:lang="en">homo</derogatory-term>
+        <preferred-name xml:lang="en">homo</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#homonationalism -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homonationalism">
@@ -21551,6 +21615,37 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homoromantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">homoromantic orientation</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#homosexual -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homosexual">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <schema:alternateName xml:lang="en">homosexuals</schema:alternateName>
+        <derogatory-term xml:lang="en">homosexual</derogatory-term>
+        <derogatory-term xml:lang="en">homosexuals</derogatory-term>
+        <preferred-name xml:lang="en">homosexual</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <shortened-term rdf:resource="https://github.com/Superraptor/GSSO#homo"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#homosexualist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homosexualist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <schema:alternateName xml:lang="en">homosexualists</schema:alternateName>
+        <alternative-spelling xml:lang="en">homo-sexualist</alternative-spelling>
+        <derogatory-term xml:lang="en">homosexualist</derogatory-term>
+        <historical-term xml:lang="en">homosexualist</historical-term>
+        <preferred-name xml:lang="en">homosexualist</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <shortened-term rdf:resource="https://github.com/Superraptor/GSSO#homo"/>
     </owl:Class>
     
 
@@ -24652,10 +24747,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <schema:alternateName xml:lang="en">lesbians</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbian</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">Lesbian</alternative-spelling>
         <colloquial-term rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <derogatory-term xml:lang="en">female homosexual</derogatory-term>
@@ -29373,6 +29470,18 @@
         <oboInOwl1:hasDefinition xml:lang="en">A sexual orientation characterized by the potential for aesthetic attraction, romantic love and/or sexual desire for people, regardless of their gender identity or biological sex.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="zh">全性恋</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">omnisexuality</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#pansy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pansy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sissy"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#wx1DAQAAMAAJ"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <schema:alternateName xml:lang="en">pansies</schema:alternateName>
+        <preferred-name xml:lang="en">pansy</preferred-name>
     </owl:Class>
     
 
@@ -35534,11 +35643,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_inversion">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_perversion"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <derogatory-term xml:lang="en">sexual inversion</derogatory-term>
         <historical-term xml:lang="en">sexual inversion</historical-term>
         <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#sexual_invert"/>
         <preferred-name xml:lang="en">sexual inversion</preferred-name>
+        <shortened-term xml:lang="en">inversion</shortened-term>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">gender inversion</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">gender-role inversion</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">sex-role inversion</oboInOwl1:hasRelatedSynonym>
@@ -35554,12 +35665,15 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_Medico-Legal_Consideration_of_Perverts_and_Inverts"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#009910876"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <derogatory-term xml:lang="en">sexual invert</derogatory-term>
         <historical-term xml:lang="en">sexual invert</historical-term>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <preferred-name xml:lang="en">sexual invert</preferred-name>
+        <shortened-term xml:lang="en">invert</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">sex-invert</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#sexual_invert"/>
@@ -35727,10 +35841,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_perversion">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#paraphilia"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <derogatory-term xml:lang="en">sexual perversion</derogatory-term>
         <historical-term xml:lang="en">sexual perversion</historical-term>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#paraphilia"/>
+        <shortened-term xml:lang="en">perversion</shortened-term>
     </owl:Class>
     
 
@@ -36218,8 +36334,8 @@
         <oboInOwl1:hasDefinition xml:lang="en">An effeminate boy or man.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">effeminate boy</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">effeminate man</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#pansy"/>
         <oboInOwl1:hasSynonym xml:lang="en">nancyboy</oboInOwl1:hasSynonym>
-        <oboInOwl1:hasSynonym xml:lang="en">pansy</oboInOwl1:hasSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">poofter</oboInOwl1:hasSynonym>
     </owl:Class>
     <owl:Axiom>
