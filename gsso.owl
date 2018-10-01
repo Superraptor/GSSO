@@ -2335,6 +2335,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_bar_association">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bar_association"/>
+        <schema:alternateName xml:lang="en">American bar associations</schema:alternateName>
         <preferred-name xml:lang="en">American bar association</preferred-name>
     </owl:Class>
     
@@ -4977,6 +4978,7 @@
         <schema:nationality xml:lang="en">American</schema:nationality>
         <schema:spouse>Clarence Hicks</schema:spouse>
         <schema:spouse>Reuben Anderson</schema:spouse>
+        <WIKIDATA>Q49114641</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lucy_Hicks_Anderson</WIKIPEDIA>
         <preferred-name>Lucy Hicks Anderson</preferred-name>
     </owl:Class>
@@ -5218,6 +5220,20 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#agenesis"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_malformation"/>
         <preferred-name xml:lang="en">Müllerian agenesis</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Natalie_Wynn -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Natalie_Wynn">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet_celebrity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:birthDate>21 October 1988</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Arlington, Virginia, United States</schema:birthPlace>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/ContraPoints</WIKIPEDIA>
+        <preferred-name>Natalie Wynn</preferred-name>
+        <pseudonym xml:lang="en">ContraPoints</pseudonym>
     </owl:Class>
     
 
@@ -7205,8 +7221,10 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#abusive_behavior"/>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417928002</SCTID>
+        <WIKIDATA>Q600571</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">abuse</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Improper treatment or usage; application to a wrong or bad purpose; an unjust, corrupt or wrongful practice or custom.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -7225,6 +7243,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#abuse_of_power">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q1975478</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse_of_power</WIKIPEDIA>
         <preferred-name xml:lang="en">abuse of power</preferred-name>
     </owl:Class>
@@ -7256,6 +7275,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#academic">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">academics</schema:alternateName>
+        <WIKIDATA>Q3400985</WIKIDATA>
         <former-term xml:lang="en">academick</former-term>
         <preferred-name xml:lang="en">academic</preferred-name>
         <shortened-term xml:lang="en">acad</shortened-term>
@@ -7423,6 +7443,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#activist">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">activists</schema:alternateName>
+        <WIKIDATA>Q15253558</WIKIDATA>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#activism"/>
         <preferred-name xml:lang="de">Aktivist</preferred-name>
         <preferred-name xml:lang="en">activist</preferred-name>
@@ -7839,6 +7860,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_inequality"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <preferred-name xml:lang="en">age inequality</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The treating of a person or people, especially youth or seniors, differently from others based on assumptions or stereotypes relating to their age.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">ageism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -8879,6 +8901,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anti-social_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <EFO>EFO:0004890</EFO>
+        <WIKIDATA>Q734611</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anti-social_behaviour</WIKIPEDIA>
         <alternative-spelling xml:lang="en">anti-social behaviour</alternative-spelling>
         <preferred-name xml:lang="en">anti-social behavior</preferred-name>
@@ -9247,6 +9270,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180730140355/http://www.asexualityarchive.com/wp-content/uploads/2012/05/AsexualityABriefIntroduction.pdf"/>
         <WIKIDATA>Q724351</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Asexuality</WIKIPEDIA>
         <practiced-by xml:lang="en">asexual</practiced-by>
         <preferred-name xml:lang="de">Asexualität</preferred-name>
         <preferred-name xml:lang="nl">aseksualiteit</preferred-name>
@@ -9287,8 +9311,10 @@
         <ICD-10-CM>X85-Y09.9</ICD-10-CM>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10003537</MEDDRA>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52684005</SCTID>
+        <WIKIDATA>Q365680</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Assault</WIKIPEDIA>
         <preferred-name xml:lang="en">assault</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A violent onset or attack with physical means, for example blows, weapons, etc.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9406,6 +9432,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#association">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organization"/>
+        <schema:alternateName xml:lang="en">associations</schema:alternateName>
+        <WIKIDATA>Q48204</WIKIDATA>
         <preferred-name xml:lang="en">association</preferred-name>
     </owl:Class>
     
@@ -10021,6 +10049,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bar_association">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#association"/>
+        <schema:alternateName xml:lang="en">bar associations</schema:alternateName>
+        <WIKIDATA>Q1865205</WIKIDATA>
         <preferred-name xml:lang="en">bar association</preferred-name>
     </owl:Class>
     
@@ -11481,6 +11511,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <MESH_UID>D058445</MESH_UID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247997008</SCTID>
+        <WIKIDATA>Q240126</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bullying</WIKIPEDIA>
         <preferred-name xml:lang="en">bullying</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Aggressive behavior by a more powerful party that results in physical harm to or emotional distress of the victim.</oboInOwl1:hasDefinition>
@@ -11768,6 +11799,19 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organ"/>
         <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55671</FMA>
         <preferred-name xml:lang="en">cavitated organ</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#celebrity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#celebrity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">celebrities</schema:alternateName>
+        <WIKIDATA>Q211236</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Celebrity</WIKIPEDIA>
+        <preferred-name xml:lang="es">celebridad</preferred-name>
+        <preferred-name xml:lang="en">celebrity</preferred-name>
     </owl:Class>
     
 
@@ -12087,6 +12131,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chef">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <WIKIDATA>Q3499072</WIKIDATA>
         <preferred-name xml:lang="en">chef</preferred-name>
     </owl:Class>
     
@@ -12171,6 +12216,7 @@
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10008509</MEDDRA>
         <MESH_UID>D002649</MESH_UID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418189009</SCTID>
+        <WIKIDATA>Q167191</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Child_abuse</WIKIPEDIA>
         <preferred-name xml:lang="de">Kindesmissbrauch</preferred-name>
         <preferred-name xml:lang="en">child abuse</preferred-name>
@@ -12845,6 +12891,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_bias"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#discriminatory_abuse"/>
         <preferred-name xml:lang="en">class discrimination</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Discrimination or prejudice that is based on social class.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">classism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -13461,6 +13509,7 @@
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10061046</MEDDRA>
         <NCIT>C2958</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278919001</SCTID>
+        <WIKIDATA>Q1058691</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Communication_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">communication disorder</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A disorder characterized by an individual&apos;s inability to comprehend or share ideas or feelings because of an impairment in language, speech, or hearing.</oboInOwl1:hasDefinition>
@@ -13671,6 +13720,7 @@
         <MESH_UID>D019955</MESH_UID>
         <NCIT>C89329</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430909002</SCTID>
+        <WIKIDATA>Q596474</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Conduct_disorder</WIKIPEDIA>
         <acronym xml:lang="en">CD</acronym>
         <preferred-name xml:lang="en">conduct disorder</preferred-name>
@@ -14173,6 +14223,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#conventional_sexual_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexual_behavior"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Conventional_sex</WIKIPEDIA>
         <preferred-name xml:lang="en">conventional sexual behavior</preferred-name>
         <oboInOwl1:hasSynonym xml:lang="en">conventional sex</oboInOwl1:hasSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">vanilla sex</oboInOwl1:hasSynonym>
@@ -14830,6 +14881,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_dating"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence"/>
+        <WIKIDATA>Q4386352</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Dating_violence</WIKIPEDIA>
         <preferred-name xml:lang="en">dating abuse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">dating violence</oboInOwl1:hasExactSynonym>
@@ -15502,6 +15554,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disability_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q5281181</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Disability_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">disability abuse</preferred-name>
     </owl:Class>
@@ -15552,6 +15605,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abuse#Discriminatory_abuse</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Discrimination</WIKIPEDIA>
         <preferred-name xml:lang="en">discriminatory abuse</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Distinct treatment of an individual or group to their disadvantage; treatment or consideration based on class or category rather than individual merit; partiality; prejudice; bigotry.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">discrimination</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -16220,6 +16274,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#economic_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q5333424</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Economic_abuse</WIKIPEDIA>
         <oboInOwl1:hasExactSynonym xml:lang="en">economic abuse</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">financial abuse</oboInOwl1:hasRelatedSynonym>
@@ -16321,9 +16376,13 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <schema:alternateName xml:lang="es">afeminado</schema:alternateName>
         <schema:alternateName xml:lang="en">effeminate</schema:alternateName>
+        <WIKIDATA>Q473652</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Effeminacy</WIKIPEDIA>
         <derogatory-term xml:lang="en">effeminacy</derogatory-term>
         <preferred-name xml:lang="en">effeminacy</preferred-name>
+        <preferred-name xml:lang="fr">efféminement</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The quality of being effeminate.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">effeminateness</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#effeminacy"/>
@@ -17475,6 +17534,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#excretion">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#system_process"/>
         <GO>GO:0007588</GO>
+        <WIKIDATA>Q185557</WIKIDATA>
+        <preferred-name xml:lang="es">excreción</preferred-name>
         <preferred-name xml:lang="en">excretion</preferred-name>
     </owl:Class>
     
@@ -18354,6 +18415,26 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#feminine_essence -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminine_essence">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#femininity"/>
+        <preferred-name xml:lang="en">feminine essence</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#feminine_essence_theory -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminine_essence_theory">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminine_essence"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Feminine_essence_concept_of_transsexuality</WIKIPEDIA>
+        <preferred-name xml:lang="en">feminine essence theory</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">feminine essence narrative</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#feminine_gender_expression -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminine_gender_expression">
@@ -18979,6 +19060,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexual_behavior"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225536001</SCTID>
+        <WIKIDATA>Q5139011</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Foreplay</WIKIPEDIA>
         <preferred-name xml:lang="en">foreplay</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual foreplay</oboInOwl1:hasExactSynonym>
@@ -19338,8 +19420,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gaslighting">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychological_manipulation"/>
+        <WIKIDATA>Q1225041</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gaslighting</WIKIPEDIA>
         <preferred-name xml:lang="en">gaslighting</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A form of psychological abuse in which a victim is manipulated into doubting their own memory, perception, and sanity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19972,6 +20056,7 @@
         <preferred-name xml:lang="fr">expression de genre</preferred-name>
         <preferred-name xml:lang="en">gender expression</preferred-name>
         <preferred-name xml:lang="zh">性別表達</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">External manifestation of gender identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21074,6 +21159,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gray_asexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
         <schema:alternateName xml:lang="en">gray-asexuality</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gray_asexuality</WIKIPEDIA>
         <alternative-spelling xml:lang="en">grey asexuality</alternative-spelling>
         <alternative-spelling xml:lang="en">grey-asexuality</alternative-spelling>
         <practiced-by xml:lang="en">gray-asexual</practiced-by>
@@ -21507,8 +21593,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#harassment">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q3240539</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Harassment</WIKIPEDIA>
         <preferred-name xml:lang="en">harassment</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Persistent attacks and criticism causing worry and distress.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21542,8 +21630,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <schema:alternateName xml:lang="en">hate crimes</schema:alternateName>
+        <WIKIDATA>Q459409</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hate_crime</WIKIPEDIA>
         <preferred-name xml:lang="en">hate crime</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A crime considered particularly heinous for having been motivated by hate for a race, gender, religion, etc. and which can result in harsher punishments by statute.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">bias crime</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">bias-motivated crime</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -21583,8 +21673,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hazing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q879295</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hazing</WIKIPEDIA>
         <preferred-name xml:lang="en">hazing</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An initiation or behavior that involves humiliation, harassment or abuse, particularly in universities and in the military.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">ragging</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
     
@@ -22278,7 +22370,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#historical_society">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#learned_society"/>
         <schema:alternateName xml:lang="en">historical societies</schema:alternateName>
+        <WIKIDATA>Q5774403</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Geschichtsverein</WIKIPEDIA>
+        <preferred-name xml:lang="de">Geschichtsvereine</preferred-name>
         <preferred-name xml:lang="en">historical society</preferred-name>
+        <preferred-name xml:lang="es">sociedad histórica</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="de">Historische Gesellschaften</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="de">Historische Vereine</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -23032,6 +23130,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_sexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_sexuality</WIKIPEDIA>
         <preferred-name xml:lang="en">human sexuality</preferred-name>
     </owl:Class>
     
@@ -23127,6 +23226,7 @@
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10076321</MEDDRA>
         <NCIT>C73510</NCIT>
         <SIO>SIO:001281</SIO>
+        <WIKIDATA>Q1136859</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Humiliation</WIKIPEDIA>
         <preferred-name xml:lang="en">humiliation</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A feeling of extreme embarrassment.</oboInOwl1:hasDefinition>
@@ -23923,6 +24023,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#incivility">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q3149921</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Incivility</WIKIPEDIA>
         <preferred-name xml:lang="en">incivility</preferred-name>
     </owl:Class>
@@ -24239,6 +24340,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#institutional_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q16000123</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Institutional_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">institutional abuse</preferred-name>
     </owl:Class>
@@ -24258,8 +24360,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#insult">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q571571</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Insult</WIKIPEDIA>
         <preferred-name xml:lang="en">insult</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An action or form of speech deliberately intended to be rude.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24542,6 +24646,22 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet_addiction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#process_addiction"/>
         <preferred-name xml:lang="en">internet addiction</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#internet_celebrity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet_celebrity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#celebrity"/>
+        <schema:alternateName xml:lang="en">internet celebrities</schema:alternateName>
+        <WIKIDATA>Q2045208</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Internet_celebrities</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internet_celebrity</WIKIPEDIA>
+        <preferred-name xml:lang="es">celebridad de internet</preferred-name>
+        <preferred-name xml:lang="en">internet celebrity</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">internet personality</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">online celebrity</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -24831,8 +24951,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intimidation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q3858303</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intimidation</WIKIPEDIA>
         <preferred-name xml:lang="en">intimidation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The act of making timid or fearful or of deterring by threats; the state of being intimidated.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cowing</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -25339,6 +25461,7 @@
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</DOID>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10074869</MEDDRA>
         <NCIT>C97155</NCIT>
+        <WIKIDATA>Q2313210</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Language_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">language disorder</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A category of disorders characterized by an impairment in the development of an individual&apos;s language capabilities, which is in contrast to his/her non-verbal intellect.</oboInOwl1:hasDefinition>
@@ -25450,7 +25573,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#academic_organization"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#professional_organization"/>
         <schema:alternateName xml:lang="en">learned societies</schema:alternateName>
-        <preferred-name xml:lang="en">leanred society</preferred-name>
+        <WIKIDATA>Q955824</WIKIDATA>
+        <preferred-name xml:lang="en">learned society</preferred-name>
+        <preferred-name xml:lang="es">sociedad erudita</preferred-name>
     </owl:Class>
     
 
@@ -25514,6 +25639,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#legal_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q6517445</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Legal_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">legal abuse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">abuse of the legal system</oboInOwl1:hasExactSynonym>
@@ -26876,7 +27002,9 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <WIKIDATA>Q8396</WIKIDATA>
         <historical-term xml:lang="en">onanism</historical-term>
+        <preferred-name xml:lang="es">masturbación</preferred-name>
         <preferred-name xml:lang="en">masturbation</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">manustupration</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">peripheral excitement</oboInOwl1:hasExactSynonym>
@@ -27532,7 +27660,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#microaggression">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#discriminatory_abuse"/>
+        <schema:alternateName xml:lang="en">microaggressions</schema:alternateName>
+        <WIKIDATA>Q17007042</WIKIDATA>
         <preferred-name xml:lang="en">microaggression</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any small-scale verbal or physical interaction between those of different races, cultures, beliefs, or genders that has no malicious intent, but that can be interpreted as an aggression.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27622,6 +27753,7 @@
         <GO>GO:0060073</GO>
         <MESH_UID>D014554</MESH_UID>
         <NCIT>C25744</NCIT>
+        <WIKIDATA>Q105726</WIKIDATA>
         <preferred-name xml:lang="en">micturition</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Discharge of urine, liquid waste processed by the kidney, from the body.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">The discharge of urine.</oboInOwl1:hasDefinition>
@@ -27811,8 +27943,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#misconduct">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q6875295</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Misconduct</WIKIPEDIA>
         <preferred-name xml:lang="en">misconduct</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Behavior that is considered to be unacceptable.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28081,6 +28215,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#monosexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
         <schema:alternateName xml:lang="en">monosexualities</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Monosexuality</WIKIPEDIA>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#plurisexuality"/>
         <preferred-name xml:lang="en">monosexuality</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A sexuality that involves attraction to only one sex: generally, homosexuality or heterosexuality.</oboInOwl1:hasDefinition>
@@ -28686,6 +28821,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#narcissistic_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q15081042</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Narcissistic_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">narcissistic abuse</preferred-name>
     </owl:Class>
@@ -28928,6 +29064,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#neglect">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q1931511</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Neglect</WIKIPEDIA>
         <preferred-name xml:lang="en">neglect</preferred-name>
     </owl:Class>
@@ -28940,6 +29077,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gross_misconduct"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#tort_law"/>
+        <WIKIDATA>Q160070</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Negligence</WIKIPEDIA>
         <preferred-name xml:lang="en">negligence</preferred-name>
     </owl:Class>
@@ -30270,8 +30408,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#agent"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#collective"/>
         <schema:alternateName xml:lang="en">organizations</schema:alternateName>
+        <WIKIDATA>Q43229</WIKIDATA>
         <alternative-spelling xml:lang="en">organisation</alternative-spelling>
         <alternative-spelling xml:lang="en">organisations</alternative-spelling>
+        <preferred-name xml:lang="es">organización</preferred-name>
         <preferred-name xml:lang="en">organization</preferred-name>
     </owl:Class>
     
@@ -31051,8 +31191,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#passive-aggressive_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#socialized_conduct_disorder"/>
+        <WIKIDATA>Q1153809</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Passive-aggressive_behavior</WIKIPEDIA>
         <alternative-spelling xml:lang="en">passive–aggressive behavior</alternative-spelling>
+        <alternative-spelling xml:lang="en">passive–aggressive behaviour</alternative-spelling>
         <oboInOwl1:hasExactSynonym xml:lang="en">passive-aggressive behavior</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -31550,6 +31692,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#persecution">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q851824</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Persecution</WIKIPEDIA>
         <preferred-name xml:lang="en">persecution</preferred-name>
     </owl:Class>
@@ -31918,6 +32061,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#physical_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10034982</MEDDRA>
+        <WIKIDATA>Q2827132</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Physical_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">physical abuse</preferred-name>
     </owl:Class>
@@ -33216,6 +33360,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#prisoner_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q7245805</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Prisoner_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">prisoner abuse</preferred-name>
     </owl:Class>
@@ -33745,6 +33890,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychological_abuse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10054953</MEDDRA>
+        <WIKIDATA>Q1339137</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychological_abuse</WIKIPEDIA>
         <preferred-name xml:lang="en">psychological abuse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">mental abuse</oboInOwl1:hasExactSynonym>
@@ -34185,8 +34331,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#racism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_bias"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#discriminatory_abuse"/>
+        <WIKIDATA>Q8461</WIKIDATA>
         <preferred-name xml:lang="de">Rassismus</preferred-name>
         <preferred-name xml:lang="en">racism</preferred-name>
+        <preferred-name xml:lang="es">racismo</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Belief in distinct human races, and that they have different inherent attributes or abilities, and generally that some are superior and others inferior.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The policy, practice or (e.g. government or political) program of promoting this belief and promoting the dominance of one race over others.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">racial abuse</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -34263,6 +34413,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#rankism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
+        <WIKIDATA>Q7293311</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rankism</WIKIPEDIA>
         <preferred-name xml:lang="en">rankism</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">abuse of rank</oboInOwl1:hasExactSynonym>
@@ -34318,6 +34469,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_fantasy"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <schema:alternateName xml:lang="en">rape fantasies</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rape_fantasy</WIKIPEDIA>
         <preferred-name xml:lang="en">rape fantasy</preferred-name>
     </owl:Class>
     
@@ -34965,6 +35117,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#retirement_association">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#association"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#seniors&apos;_organization"/>
+        <schema:alternateName xml:lang="en">retirement associations</schema:alternateName>
         <preferred-name xml:lang="en">retirement association</preferred-name>
     </owl:Class>
     
@@ -35522,7 +35675,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#scientific_society">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#learned_society"/>
         <schema:alternateName xml:lang="en">scientific societies</schema:alternateName>
+        <WIKIDATA>Q748019</WIKIDATA>
         <preferred-name xml:lang="en">scientific society</preferred-name>
+        <preferred-name xml:lang="es">sociedad científica</preferred-name>
     </owl:Class>
     
 
@@ -35681,6 +35836,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#segregation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#discriminatory_abuse"/>
+        <preferred-name xml:lang="en">The separation of people (geographically, residentially, or in businesses, public transit, etc) into various categories which occurs due to social forces (culture, etc).</preferred-name>
         <preferred-name xml:lang="en">segregation</preferred-name>
     </owl:Class>
     
@@ -36400,9 +36556,11 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180205203411/http://www.bridge.ids.ac.uk/sites/bridge.ids.ac.uk/files/reports/re55.pdf"/>
         <MESH_UID>D063507</MESH_UID>
+        <WIKIDATA>Q93200</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexism</WIKIPEDIA>
         <preferred-name xml:lang="de">Sexismus</preferred-name>
         <preferred-name xml:lang="en">sexism</preferred-name>
+        <preferred-name xml:lang="es">sexismo</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Prejudice or discrimination based on gender or behavior or attitudes that foster stereotyped social roles based on gender.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sex discrimination</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">gender bias</oboInOwl1:hasRelatedSynonym>
@@ -36893,8 +37051,10 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <schema:alternateName xml:lang="en">Sexphantasien</schema:alternateName>
+        <WIKIDATA>Q1969374</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_fantasy</WIKIPEDIA>
         <preferred-name xml:lang="de">Sexphantasie</preferred-name>
+        <preferred-name xml:lang="es">fantasía sexual</preferred-name>
         <preferred-name xml:lang="en">sexual fantasy</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">erotic fantasy</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">fantasy, sexual</oboInOwl1:hasExactSynonym>
@@ -36973,7 +37133,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_abuse"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <WIKIDATA>Q751722</WIKIDATA>
         <preferred-name xml:lang="en">sexual harassment</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Harassment in the form of unwelcome sexual advances.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">harassment, sexual</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -38759,6 +38921,7 @@
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</DOID>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10041466</MEDDRA>
         <NCIT>C5041</NCIT>
+        <WIKIDATA>Q1282114</WIKIDATA>
         <preferred-name xml:lang="en">speech disorder</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A communication disorder that involves difficulty with the act of speech production.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">A term referring to disorders characterized by the disruption of normal speech. It includes stuttering, lisps, dysarthria and voice disorders.</oboInOwl1:hasDefinition>
@@ -39665,6 +39828,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#system_process">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#multicellular_organismal_process"/>
+        <schema:alternateName xml:lang="en">system processes</schema:alternateName>
         <GO>GO:0003008</GO>
         <preferred-name xml:lang="en">system process</preferred-name>
         <oboInOwl1:hasSynonym xml:lang="en">organ system process</oboInOwl1:hasSynonym>
@@ -40266,6 +40430,7 @@
         <derogatory-term xml:lang="en">tomboyishness</derogatory-term>
         <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#tomboy"/>
         <preferred-name xml:lang="en">tomboyishness</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The state or condition of being tomboyish.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41263,6 +41428,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#truscum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#truscum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <schema:alternateName xml:lang="en">truscums</schema:alternateName>
+        <preferred-name xml:lang="en">truscum</preferred-name>
+        <slang-term xml:lang="en">truscum</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who adheres to a strict medical definition of being transgender and believes that gender dysphoria is an essential trait.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#tubal_ligation -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tubal_ligation">
@@ -41557,6 +41734,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#academia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#academic_organization"/>
         <schema:alternateName xml:lang="en">universities</schema:alternateName>
+        <WIKIDATA>Q3918</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/University</WIKIPEDIA>
         <preferred-name xml:lang="en">university</preferred-name>
     </owl:Class>
     
@@ -45349,7 +45528,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper"/>
         <terms:publisher>Benj. H. Day</terms:publisher>
         <terms:title xml:lang="en">The Sun</terms:title>
-        <schema:isbn>1940-7831</schema:isbn>
+        <schema:issn>1940-7831</schema:issn>
         <schema:location xml:lang="en">New York City, New York, United States</schema:location>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9406339</OCLC>
         <alternative-spelling xml:lang="en">The sun</alternative-spelling>
