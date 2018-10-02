@@ -2535,7 +2535,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#BDSM">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sadomasochism"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/BDSM</WIKIPEDIA>
         <preferred-name xml:lang="en">BDSM</preferred-name>
+        <oboInOwl1:hasDefinition>Sexual practices or activities involving bondage, discipline, sadism, masochism, or acts of domination and submission.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -3086,7 +3088,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#DES_uterus">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_malformation"/>
+        <rdfs:comment xml:lang="en">This is an anomaly of mostly historical interest, given its relation to the usage of DES (a synthetic nonsteroidal estrogen) to prevent miscarriage in high-risk patients from the 1940s to the early 1970s.</rdfs:comment>
         <preferred-name xml:lang="en">DES uterus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An anomaly of the uterus which involves a hypoplastic or T-shaped uterus.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">DES-related uterus</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -3498,6 +3503,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">Freemasons</schema:alternateName>
         <preferred-name xml:lang="en">Freemason</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A member of the Free and Accepted Masons (sometimes entitled Ancient Free and Accepted Masons), an international fraternal and charitable organization.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5219,8 +5225,27 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Müllerian_agenesis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#agenesis"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_malformation"/>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">752.45</ICD-9-CM>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/M%C3%BCllerian_agenesis</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">Mullerian agenesis</alternative-spelling>
         <preferred-name xml:lang="en">Müllerian agenesis</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Mayer–Rokitansky–Küster–Hauser syndrome</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Rokitansky–Küster–Hauser syndrome</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">vaginal agenesis</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Müllerian_agenesis"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Mayer–Rokitansky–Küster–Hauser syndrome</owl:annotatedTarget>
+        <acronym xml:lang="en">MRKH</acronym>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Müllerian_agenesis"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Rokitansky–Küster–Hauser syndrome</owl:annotatedTarget>
+        <acronym xml:lang="en">RKH</acronym>
+        <acronym xml:lang="en">RKHS</acronym>
+    </owl:Axiom>
     
 
 
@@ -5373,6 +5398,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Nazi_concentration_camp_badge">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#badge_of_shame"/>
+        <schema:alternateName>Nazi concentration camp badges</schema:alternateName>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Nazi_concentration_camp_badge</WIKIPEDIA>
         <preferred-name xml:lang="en">Nazi concentration camp badge</preferred-name>
     </owl:Class>
     
@@ -5491,6 +5518,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#massacre"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence_against_gay_men"/>
         <terms:date>12 June 2016</terms:date>
+        <schema:location>1912 S. Orange Avenue, Orlando, Florida, United States</schema:location>
+        <rdfs:comment>The Orlando nightclub shooting was the deadliest incident of violence against LGBT people in U.S. history, and the deadliest terrorist attack in the U.S. since the September 11 attacks in 2001. At the time, it was the deadliest mass shooting by a single shooter in the U.S., being surpassed the following year by the Las Vegas shooting.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Orlando_nightclub_shooting</WIKIPEDIA>
         <preferred-name xml:lang="en">Orlando nightclub shooting</preferred-name>
     </owl:Class>
@@ -8500,6 +8529,7 @@
         <historical-term xml:lang="en">androgyne</historical-term>
         <modern-term xml:lang="en">androgyne</modern-term>
         <preferred-name xml:lang="en">androgyne</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Androgyne is a non-binary gender identity associated (to various extents) with androgyny. Androgynes have a gender which is simultaneously feminine and masculine, although not necessarily in equal amounts.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
     </owl:Class>
     
@@ -8617,7 +8647,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anger">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disgust"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10002368</MEDDRA>
+        <MESH_UID>D000786</MESH_UID>
+        <NCIT>C73506</NCIT>
+        <SIO>SIO:000410</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anger</WIKIPEDIA>
         <preferred-name xml:lang="en">anger</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A strong emotional feeling of displeasure aroused by being interfered with, injured or threatened.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">An emotional state characterized by marked annoyance or hostility.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">wrath</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -8775,6 +8813,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anniversary</WIKIPEDIA>
         <preferred-name xml:lang="es">aniversario</preferred-name>
         <preferred-name xml:lang="en">anniversary</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A day that is an exact number of years (to the day) since a given significant event occurred. Often preceded by an ordinal number indicating the number of years.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -8784,6 +8823,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#annoyance">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#negative_emotion"/>
         <SIO>SIO:000814</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Annoyance</WIKIPEDIA>
         <preferred-name xml:lang="en">annoyance</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Annoyance is an unpleasant emtion that is characterized by a abnormal or excessive sensitivity to some external stimulus.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -8852,7 +8892,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anti-LGBT_hate_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate_group"/>
+        <schema:alternateName>anti-LGBT hate groups</schema:alternateName>
         <preferred-name xml:lang="en">anti-LGBT hate group</preferred-name>
+        <oboInOwl1:hasDefinition>Hate groups who direct their hatred primarily against LGBT people and other sexual and gender minorities.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9057,7 +9099,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#arcuate_uterus">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_malformation"/>
+        <ICD-10-CM>Q51.810</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">752.36</ICD-9-CM>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Arcuate_uterus</WIKIPEDIA>
         <preferred-name xml:lang="en">arcuate uterus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A form of a uterine anomaly or variation where the uterine cavity displays a concave contour towards the fundus.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9578,7 +9624,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#auditory_perception">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sensory_perception"/>
+        <schema:alternateName xml:lang="en">auditory perceptions</schema:alternateName>
+        <MESH_UID>D001307</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hearing</WIKIPEDIA>
         <preferred-name xml:lang="en">auditory perception</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The ability to perceive sounds by detecting vibrations, changes in the pressure of the surrounding medium through time, through an organ such as the ear.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The process whereby auditory stimuli are selected, organized, and interpreted by the organism.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hearing</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -9587,7 +9639,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#augmentation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinical_action"/>
+        <schema:alternateName xml:lang="en">augmentations</schema:alternateName>
         <preferred-name xml:lang="en">augmentation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A surgical procedure to enlarge a body part, as breast augmentation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9991,7 +10045,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#badge_of_shame">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#shame"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Badge_of_shame</WIKIPEDIA>
         <preferred-name xml:lang="en">badge of shame</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A badge of shame is typically a distinctive symbol required to be worn by a specific group or an individual for the purpose of public humiliation, ostracism or persecution.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">mark of shame</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">symbol of shame</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -10178,6 +10234,7 @@
         <NCIT>C16326</NCIT>
         <SIO>SIO:001195</SIO>
         <STY>T053</STY>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Behavior</WIKIPEDIA>
         <alternative-spelling xml:lang="en">behaviour</alternative-spelling>
         <preferred-name xml:lang="en">behavior</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The actions or reactions of an object or organism, usually in relation to the environment or surrounding world of stimuli.</oboInOwl1:hasDefinition>
@@ -10336,7 +10393,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bicornuate_uterus">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_malformation"/>
+        <HPO>HP:0000813</HPO>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">752.34</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10004550</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31401003</SCTID>
+        <UBERON>UBERON:0005798</UBERON>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bicornuate_uterus</WIKIPEDIA>
         <preferred-name xml:lang="en">bicornuate uterus</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">bicornate uterus</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -11307,6 +11371,16 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Breast_binding</WIKIPEDIA>
         <preferred-name xml:lang="en">breast binding</preferred-name>
         <shortened-term xml:lang="en">binding</shortened-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#breast_envy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#breast_envy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#envy"/>
+        <preferred-name xml:lang="en">breast envy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The sentiment of desiring feminine breasts.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -12960,6 +13034,7 @@
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129264002</SCTID>
         <preferred-name xml:lang="en">clinical action</preferred-name>
         <shortened-term xml:lang="en">action</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Any medical action which deals is dealt within medical clinics or facilities.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13155,6 +13230,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mental_process"/>
         <MESH_TN>F02.463.188</MESH_TN>
         <MESH_UID>D003071</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cognition</WIKIPEDIA>
         <preferred-name xml:lang="en">cognition</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Intellectual or mental process whereby an organism obtains knowledge.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cognitive process</oboInOwl1:hasExactSynonym>
@@ -13885,10 +13961,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#congenital_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#congenital_physical_anomaly"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#malformation"/>
+        <schema:alternateName xml:lang="en">congenital malformations</schema:alternateName>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276654001</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Birth_defect</WIKIPEDIA>
         <preferred-name xml:lang="en">congenital malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any malformation or condition related to malformation which is present at birth, regardless of cause.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">birth defect</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">birth defects</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -13897,7 +13976,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#congenital_malformation_of_the_circulatory_system">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#congenital_malformation"/>
+        <schema:alternateName xml:lang="en">congenital malformations of the circulatory system</schema:alternateName>
         <preferred-name xml:lang="en">congenital malformation of the circulatory system</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformations of any part or the entirety of the circulatory system which are present at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13906,7 +13987,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#congenital_malformation_of_the_nervous_system">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#congenital_malformation"/>
+        <schema:alternateName xml:lang="en">congenital malformations of the nervous system</schema:alternateName>
         <preferred-name xml:lang="en">congenital malformation of the nervous system</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformations of any part or the entirety of the nervous system which are present at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13915,6 +13998,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#congenital_malformation_of_the_respiratory_system">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#congenital_malformation"/>
+        <schema:alternateName xml:lang="en">congenital malformations of the respiratory system</schema:alternateName>
+        <preferred-name xml:lang="en">congenital malformation of the respiratory system</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformations of any part or the entirety of the respiratory system which are present at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13923,10 +14009,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#congenital_malformation_of_the_urinary_system">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#congenital_malformation"/>
+        <schema:alternateName xml:lang="en">congenital malformations of the urinary system</schema:alternateName>
         <anatomical-location rdf:resource="https://github.com/Superraptor/GSSO#genitourinary_system"/>
         <anatomical-location rdf:resource="https://github.com/Superraptor/GSSO#urinary_system"/>
         <preferred-name xml:lang="en">congenital malformation of the urinary system</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">congenital malformation of the genitourinary system</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformations of any part or the entirety of the urinary and/or genital system which are present at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13936,6 +14024,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#congenital_malformation_syndrome">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#congenital_malformation"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#malformation_syndrome"/>
+        <schema:alternateName xml:lang="en">congenital malformation syndromes</schema:alternateName>
         <NCIT>C99267</NCIT>
         <preferred-name xml:lang="en">congenital malformation syndrome</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A syndrome characterized by the presence of congenital abnormalities that affect more than one organ or system.</oboInOwl1:hasDefinition>
@@ -14307,6 +14396,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#coronal_hypospadias">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#penile_hypospadias"/>
+        <HPO>HP:0008743</HPO>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429641000124109</SCTID>
         <preferred-name xml:lang="en">coronal hypospadias</preferred-name>
     </owl:Class>
     
@@ -14335,7 +14426,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#corrective_rape">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#rape"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence_against_LGBT_people"/>
+        <rdfs:comment>The United Nations UNAIDS 2015 Terminology Guidelines suggests that the term corrective rape should no longer be used, as it gives off the perception that something needs to be fixed. The guidelines propose that the term homophobic rape should be used instead.</rdfs:comment>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Corrective_rape</WIKIPEDIA>
         <preferred-name xml:lang="en">corrective rape</preferred-name>
+        <proper-term>homophobic rape</proper-term>
+        <oboInOwl1:hasDefinition>A hate crime in which one or more people are raped because of their perceived sexual orientation or gender identity. The common intended consequence of the rape, as seen by the perpetrator, is to turn the person heterosexual or to enforce conformity with gender stereotypes.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym>curative rape</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym>homophobic rape</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -14360,6 +14457,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Courtly_love</WIKIPEDIA>
         <preferred-name xml:lang="en">courtly love</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A mediaeval European conception of noble and chivalrous love, generally secret and between members of the nobility.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -14903,6 +15001,7 @@
         <preferred-name xml:lang="en">day</preferred-name>
         <preferred-name xml:lang="es">día</preferred-name>
         <preferred-name xml:lang="zh">日</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Rotational period of a planet (especially Earth).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -15032,7 +15131,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#defense_mechanism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pathological_mental_process"/>
+        <schema:alternateName xml:lang="en">defense mechanisms</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Defence_mechanisms</WIKIPEDIA>
+        <preferred-name xml:lang="de">Abwehrmechanismus</preferred-name>
         <preferred-name xml:lang="en">defense mechanism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A psychological strategy used unconsciously by people to cope with harmful or stressful situations.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -15565,7 +15668,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disability_hate_crime">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate_crime"/>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Disability_hate_crime</WIKIPEDIA>
         <preferred-name xml:lang="en">disability hate crime</preferred-name>
+        <oboInOwl1:hasDefinition>A disability hate crime is a form of hate crime arising from the hostility of the perpetrator towards the disability, or perceived disability, of the victim, or because of their perceived connection to disability. It is often viewed politically as a logical extreme of ableism (sometimes known in the UK by the disputed word &quot;disablism&quot;), carried through into criminal acts against the person.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -15675,7 +15780,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disgust">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hostility"/>
+        <SIO>SIO:000828</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Disgust</WIKIPEDIA>
         <preferred-name xml:lang="en">disgust</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Disgust is a feeling of revulsion or profound disapproval aroused by something unpleasant or offensive.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16092,7 +16200,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dykon">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_icon"/>
+        <rdfs:comment xml:lang="en">Formed as a blend of &quot;dyke&quot; and &quot;icon&quot;.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <preferred-name xml:lang="en">dykon</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay icon is a public figure (historical or present) who is embraced by many within lesbian community specifically.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">lesbian icon</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -16142,7 +16253,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dysphoria">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pathological_mental_process"/>
+        <schema:alternateName xml:lang="en">dysphorias</schema:alternateName>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10013954</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Dysphoria</WIKIPEDIA>
+        <preferred-name xml:lang="de">Dysphorie</preferred-name>
         <preferred-name xml:lang="en">dysphoria</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A state of feeling unwell or unhappy; a feeling of emotional and mental discomfort and suffering from restlessness, malaise, depression or anxiety.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="de">Missstimmung</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -16316,6 +16433,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#process"/>
         <schema:alternateName xml:lang="en">economic processes</schema:alternateName>
         <preferred-name xml:lang="en">economic process</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any process involving the economy, economics, or finances.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16345,7 +16463,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#educational_activity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#activity"/>
+        <schema:alternateName xml:lang="en">educational activities</schema:alternateName>
         <preferred-name xml:lang="en">educational activity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any activity which aims to educate.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16590,6 +16710,7 @@
         <MESH_TN>F01.470</MESH_TN>
         <MESH_UID>D004644</MESH_UID>
         <SIO>SIO:000276</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Emotion</WIKIPEDIA>
         <preferred-name xml:lang="en">emotion</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">An emotion is a process (experience) that arises internally or from an involuntary physiological response to a stimulus.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">Those affective states which can be experienced and have arousing and motivational properties.</oboInOwl1:hasDefinition>
@@ -16827,6 +16948,18 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#environmental_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#public_policy"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#envy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#envy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#negative_emotion"/>
+        <SIO>SIO:000834</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Envy</WIKIPEDIA>
+        <preferred-name xml:lang="en">Envy is an emotion that occurs when a person lacks another&apos;s (perceived) superior quality, achievement or possession and wishes that the other lacked it.</preferred-name>
+        <preferred-name xml:lang="en">envy</preferred-name>
     </owl:Class>
     
 
@@ -17357,12 +17490,14 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <schema:alternateName xml:lang="en">eunuchs</schema:alternateName>
+        <rdfs:comment xml:lang="en">In modern language, this term should be avoided whenever possible because it is unclear what is being referred to and can be construed as offensive under certain circumstances. However, the term can be appropriately applied in historical contexts.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Eunuch</WIKIPEDIA>
         <derogatory-term xml:lang="en">eunuch</derogatory-term>
         <historical-term xml:lang="en">eunuch</historical-term>
         <preferred-name xml:lang="en">eunuch</preferred-name>
         <preferred-name xml:lang="la">eunuchus</preferred-name>
         <preferred-name xml:lang="es">eunuco</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Typically, &quot;eunuch&quot; refers to a castrated human male, although usage varies extremely when applied as a translation for third gender persons in non-Western countries (for example, sometimes &quot;hijra&quot; is misstranslated as &quot;eunuch&quot;).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -17503,7 +17638,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#excision">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinical_action"/>
+        <schema:alternateName xml:lang="en">excisions</schema:alternateName>
+        <NCIT>C15232</NCIT>
+        <OBI>OBI:0600022</OBI>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65801008</SCTID>
         <preferred-name xml:lang="en">excision</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The act of cutting out; the surgical removal of part or all of a structure or organ.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The removal of a tumor, etc., by cutting.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -17709,7 +17850,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#extraction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinical_action"/>
+        <schema:alternateName xml:lang="en">extractions</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62972009</SCTID>
         <preferred-name xml:lang="en">extraction</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An act of extracting something, especially in a medical context, such as the removal of a tooth from its socket.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18019,7 +18163,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#family"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">family members</schema:alternateName>
+        <preferred-name xml:lang="de">Familienmitglied</preferred-name>
         <preferred-name xml:lang="en">family member</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person belonging to a particular family; a close relative or relation.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">member of the family</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -18277,7 +18424,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_genital_malformation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_genital_disease"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#genital_malformation"/>
+        <schema:alternateName xml:lang="en">female genital malformations</schema:alternateName>
         <preferred-name xml:lang="en">female genital malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformation of parts of the genital system that are considered female.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18516,7 +18665,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">feminists</schema:alternateName>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
+        <preferred-name xml:lang="de">Feminist</preferred-name>
+        <preferred-name xml:lang="de">Feministin</preferred-name>
         <preferred-name xml:lang="en">feminist</preferred-name>
+        <preferred-name xml:lang="es">feminista</preferred-name>
+        <preferred-name xml:lang="it">femminista</preferred-name>
+        <preferred-name xml:lang="ja">フェミニスト</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An advocate of feminism; a person who believes in bringing about the equality of the sexes (of women and men) in all aspects of public and private life.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19180,6 +19335,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">friends</schema:alternateName>
         <preferred-name xml:lang="en">friend</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person other than a family member or partner whose company one enjoys and towards whom one feels affection.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19300,6 +19456,7 @@
         <MESH_UID>D005639</MESH_UID>
         <NCIT>C61483</NCIT>
         <SIO>SIO:000838</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Frustration</WIKIPEDIA>
         <preferred-name xml:lang="en">frustration</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Frustration is an emotion that arises from the perceived resistance to the fulfillment of individual will.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">The motivational and/or affective state of annoyance resulting from being blocked, thwarted, disappointed or defeated.</oboInOwl1:hasDefinition>
@@ -19434,6 +19591,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">gatekeepers</schema:alternateName>
         <preferred-name xml:lang="en">gatekeeper</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person or group who controls access to something or somebody.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19615,12 +19773,14 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
         <schema:alternateName xml:lang="en">gay people</schema:alternateName>
+        <rdfs:comment xml:lang="en">Note that transgender women who are attracted to women can be described as gay women (or lesbians; sometimes the term &quot;transbian&quot; is used). Equivalently, transgender men who are attracted to men can be described as gay men.</rdfs:comment>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#homo"/>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#homosexual"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#homosexualist"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_invert"/>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
         <preferred-name xml:lang="en">gay person</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who is attracted solely or primarily to others of the same gender (or sex, depending on precise usage), i.e. being either a male androphile or a female gynephile.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20702,7 +20862,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#genital_malformation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#urogenital_malformation"/>
+        <schema:alternateName xml:lang="en">genital malformations</schema:alternateName>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10018159</MEDDRA>
         <preferred-name xml:lang="en">genital malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformations of the genital system (genitals, gonads, etc.) or any of its constituent parts.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21096,7 +21259,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#graft">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinical_action"/>
+        <schema:alternateName xml:lang="en">grafts</schema:alternateName>
+        <NCIT>C12981</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260667007</SCTID>
         <preferred-name xml:lang="en">graft</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Tissue or organ transplanted from a donor to a recipient.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21119,8 +21286,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#grandchild">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#extended_family_member"/>
+        <schema:alternateName xml:lang="en">grandchildren</schema:alternateName>
         <acronym xml:lang="en">GC</acronym>
         <preferred-name xml:lang="en">grandchild</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A child of someone&apos;s child.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21129,8 +21298,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#grandparent">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#extended_family_member"/>
+        <schema:alternateName xml:lang="en">grandparents</schema:alternateName>
         <acronym xml:lang="en">GP</acronym>
         <preferred-name xml:lang="en">grandparent</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The parent of someone&apos;s parent.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21571,7 +21742,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#happiness">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#positive_emotion"/>
+        <MESH_UID>D006240</MESH_UID>
+        <NCIT>C72670</NCIT>
         <SIO>SIO:000840</SIO>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Happiness</WIKIPEDIA>
         <preferred-name xml:lang="en">happiness</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Happiness is an emotion characterized by positive or pleasant emotions ranging from contentment to intense joy.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -21615,9 +21789,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hate">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disgust"/>
+        <MESH_UID>D006252</MESH_UID>
         <SIO>SIO:000411</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hatred</WIKIPEDIA>
         <preferred-name xml:lang="en">hate</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Hate is a deep and emotional extreme dislike, directed against a certain object or class of objects.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hatred</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -21645,7 +21822,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hate_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hate_group</WIKIPEDIA>
         <preferred-name xml:lang="en">hate group</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A hate group is a social group that advocates and practices hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21655,7 +21834,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hate_speech">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate_crime"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech"/>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Hate_speech</WIKIPEDIA>
         <preferred-name xml:lang="en">hate speech</preferred-name>
+        <oboInOwl1:hasDefinition>Hate speech is speech that attacks a person or group on the basis of attributes such as race, religion, ethnic origin, national origin, sex, disability, sexual orientation, or gender identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21664,7 +21845,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hate_studies">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hate_studies</WIKIPEDIA>
         <preferred-name xml:lang="en">hate studies</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Hate studies is an interdisciplinary field which aims to understand and address human hatred at its many levels in society.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22261,6 +22444,7 @@
         <preferred-name xml:lang="en">hijra</preferred-name>
         <preferred-name xml:lang="es">hijra</preferred-name>
         <preferred-name xml:lang="zh">海吉拉</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A (typically biologically male or intersex, but sometimes biologically female) member of a somewhat feminine third gender found in India and Pakistan.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="de">Hidschra</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="hi">खसुआ</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="hi">खुसरा</oboInOwl1:hasExactSynonym>
@@ -22343,6 +22527,7 @@
         <schema:alternateName xml:lang="en">historians</schema:alternateName>
         <WIKIDATA>Q201788</WIKIDATA>
         <preferred-name xml:lang="en">historian</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One who studies or researches history.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22432,10 +22617,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#holiday">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#day"/>
         <schema:alternateName xml:lang="en">holidays</schema:alternateName>
+        <rdfs:comment xml:lang="en">Note that, in British English, a holiday usually refers to a period during which pupils do not attend their school; often plural; rarely used for students at university (usually: vacation).</rdfs:comment>
         <NCIT>C148291</NCIT>
         <WIKIDATA>Q1445650</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Holiday</WIKIPEDIA>
         <preferred-name xml:lang="en">holiday</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A day on which a festival, religious event, or national celebration is traditionally observed.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22457,9 +22644,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homo">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <colloquial-term xml:lang="en">homo</colloquial-term>
         <derogatory-term xml:lang="en">homo</derogatory-term>
         <preferred-name xml:lang="en">homo</preferred-name>
         <proper-term rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <oboInOwl1:hasDefinition xml:lang="en">Clipping of the term &quot;homosexual&quot;.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22521,11 +22710,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <schema:alternateName xml:lang="en">homosexuals</schema:alternateName>
+        <rdfs:comment xml:lang="en">Many style guides and many gay people recommend against the use of the word &quot;homosexual&quot; because of its clinical and sometimes pejorative connotations, preferring the terms gay and (for women) lesbian, and relationship descriptors like &quot;same-sex relationship&quot;. Many consider it particularly pejorative when it is used as a noun, and prefer &quot;gay man&quot;, &quot;gay woman&quot; (or &quot;lesbian&quot;).</rdfs:comment>
         <derogatory-term xml:lang="en">homosexual</derogatory-term>
         <derogatory-term xml:lang="en">homosexuals</derogatory-term>
         <preferred-name xml:lang="en">homosexual</preferred-name>
         <proper-term rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <shortened-term rdf:resource="https://github.com/Superraptor/GSSO#homo"/>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who is attracted solely or primarily to others of the same gender (or sex, depending on precise usage), i.e. being either a male androphile or a female gynephile.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22565,6 +22756,7 @@
         <preferred-name xml:lang="en">homosexualist</preferred-name>
         <proper-term rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <shortened-term rdf:resource="https://github.com/Superraptor/GSSO#homo"/>
+        <oboInOwl1:hasDefinition xml:lang="en">Alternative form of &quot;homosexual&quot;.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22687,7 +22879,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hostility">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#negative_emotion"/>
+        <HPO>HP:0031473</HPO>
+        <ICD-10-CM>R45.5</ICD-10-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10020400</MEDDRA>
+        <MESH_UID>D006791</MESH_UID>
+        <SIO>SIO:000844</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hostility</WIKIPEDIA>
         <preferred-name xml:lang="en">hostility</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Hostility is the intense negative emotion of being in conflict or opposition to someone or something.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22748,6 +22947,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_activity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#activity"/>
+        <schema:alternateName xml:lang="en">human activities</schema:alternateName>
+        <preferred-name xml:lang="en">human activity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any activity performed by human beings.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -23883,6 +24085,7 @@
         <WIKIDATA>Q12547146</WIKIDATA>
         <preferred-name xml:lang="en">immigrant</preferred-name>
         <preferred-name xml:lang="es">inmigrante</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who comes to a country from another country in order to permanently settle there.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24313,7 +24516,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#insertion">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinical_action"/>
+        <schema:alternateName xml:lang="en">insertions</schema:alternateName>
+        <EFO>EFO:0004016</EFO>
         <preferred-name xml:lang="en">insertion</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The act of inserting something, especially in a medical context.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24679,7 +24885,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet_hate_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate_group"/>
+        <schema:alternateName>internet hate groups</schema:alternateName>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Hate_group#Internet_hate_groups</WIKIPEDIA>
         <preferred-name xml:lang="en">internet hate group</preferred-name>
+        <oboInOwl1:hasDefinition>Hate groups or sites which act primarily through means of the internet or recruit mainly through the internet.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25034,6 +25243,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_frustration"/>
         <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#involuntary_celibate"/>
         <preferred-name xml:lang="en">involuntary celibacy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Primarily sexual frustration experienced by those who label themselves as &quot;incels&quot; (involuntary celibates). Broadly, any person who wants to be sexually active, but is held back by social rules and laws.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25198,6 +25408,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">journalists</schema:alternateName>
         <preferred-name xml:lang="en">journalist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One whose occupation is journalism, originally only writing in the printed press.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25651,7 +25862,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#legal_action">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#action"/>
+        <schema:alternateName xml:lang="en">legal actions</schema:alternateName>
         <preferred-name xml:lang="en">legal action</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The process of enforcing the laws of a state or nation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25747,6 +25960,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#process"/>
         <schema:alternateName xml:lang="en">legal processes</schema:alternateName>
         <preferred-name xml:lang="en">legal process</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any process involving law or legality.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25790,8 +26004,11 @@
         <preferred-name xml:lang="en">lesbian</preferred-name>
         <slang-term rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <slang-term xml:lang="en">lady lover</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A woman who is sexually or romantically attracted to other women.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Sappho</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gayelle</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">lesbo</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">sapphist</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#tribade"/>
         <oboInOwl1:hasSynonym xml:lang="en">tribade</oboInOwl1:hasSynonym>
     </owl:Class>
@@ -25949,12 +26166,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbophobic_rape -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbophobic_rape">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#corrective_rape"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbophobic_violence"/>
+        <preferred-name>A hate crime in which one or more lesbians are raped because of their perceived sexual orientation or gender identity. The common intended consequence of the rape, as seen by the perpetrator, is to turn the person heterosexual or to enforce conformity with gender stereotypes.</preferred-name>
+        <preferred-name>lesbophobic rape</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbophobic_violence -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbophobic_violence">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbophobia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence_against_LGBT_people"/>
         <preferred-name xml:lang="en">lesbophobic violence</preferred-name>
+        <oboInOwl1:hasDefinition>Violent acts committed against lesbians.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">violence against gay women</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -26023,6 +26252,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#life_partner">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partner"/>
         <preferred-name xml:lang="en">life partner</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A romantic partner for life. This can be same-sex or opposite-sex, married or without marriage, and monogamous or polyamorous.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26224,7 +26454,10 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <MESH_TN>F01.470.734</MESH_TN>
         <MESH_UID>D008149</MESH_UID>
+        <NCIT>C73509</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23682002</SCTID>
         <SIO xml:lang="en">SIO:000412</SIO>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Love</WIKIPEDIA>
         <preferred-name xml:lang="en">love</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Affection; in psychiatry commonly refers to pleasure, particularly as it applies to gratifying experiences between individuals.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">Love is an emotion of a strong affection and personal attachment.</oboInOwl1:hasDefinition>
@@ -26395,7 +26628,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_genital_malformation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#genital_malformation"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#male_genital_disease"/>
+        <schema:alternateName xml:lang="en">male genital malformations</schema:alternateName>
         <preferred-name xml:lang="en">male genital malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformation of parts of the genital system that are considered male.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26509,7 +26744,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#malformation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#morphological_alteration"/>
+        <schema:alternateName xml:lang="en">malformations</schema:alternateName>
         <preferred-name xml:lang="en">malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An abnormal formation, especially an abnormal developmental feature.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26743,6 +26980,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#married_partner">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partner"/>
+        <schema:alternateName xml:lang="en">married partners</schema:alternateName>
         <NCIT>C62649</NCIT>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Spouse</WIKIPEDIA>
         <acronym xml:lang="en">SP</acronym>
@@ -26901,7 +27139,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pleasure"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#100470674"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10026864</MEDDRA>
+        <MESH_UID>D008398</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Masochism</WIKIPEDIA>
         <preferred-name xml:lang="en">masochism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Pleasure derived from being physically or psychologically abused, whether inflicted by oneself or by others.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">The enjoyment of receiving pain or humiliation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
@@ -26984,6 +27226,7 @@
         <schema:alternateName xml:lang="en">massage therapists</schema:alternateName>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#massage"/>
         <preferred-name xml:lang="en">massage therapist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who provides massage therapy.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">masseur</oboInOwl1:hasNarrowSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">masseuse</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
@@ -27320,6 +27563,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#action"/>
         <schema:alternateName xml:lang="en">medical actions</schema:alternateName>
         <preferred-name xml:lang="en">medical action</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any action undertaken by an individual practicing medicine which results in the change of a patient&apos;s health status.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27612,6 +27856,7 @@
         <schema:alternateName xml:lang="en">mental processes</schema:alternateName>
         <MESH_TN>F02.463</MESH_TN>
         <MESH_UID>D008606</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Mental_process</WIKIPEDIA>
         <preferred-name xml:lang="en">mental process</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Conceptual functions or thinking in all its forms.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">mental activities</oboInOwl1:hasExactSynonym>
@@ -28123,7 +28368,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#modification">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surgical_action"/>
+        <schema:alternateName xml:lang="en">modifications</schema:alternateName>
         <preferred-name xml:lang="en">modification</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An alteration or adjustment to something, especially in a medical context.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28330,6 +28577,7 @@
         <preferred-name xml:lang="es">mes</preferred-name>
         <preferred-name xml:lang="en">month</preferred-name>
         <preferred-name xml:lang="zh">月</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A period into which a year is divided, historically based on the phases of the moon.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28395,6 +28643,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#alteration"/>
         <schema:alternateName xml:lang="en">morphological alterations</schema:alternateName>
         <preferred-name xml:lang="en">morphological alteration</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The alteration of a morphological feature.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28533,6 +28782,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biological_process"/>
         <GO>GO:0032501</GO>
         <preferred-name xml:lang="en">multicellular organismal process</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any biological process, occurring at the level of a multicellular organism, pertinent to its function.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym xml:lang="en">organismal physiological process</oboInOwl1:hasSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">single-multicellular organism process</oboInOwl1:hasSynonym>
     </owl:Class>
@@ -29017,6 +29267,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#necrophilia"/>
         <preferred-name xml:lang="en">necrophiliac</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who engages in necrophilia.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -29449,7 +29700,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#non-binary_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <schema:alternateName xml:lang="en">non-binary people</schema:alternateName>
+        <schema:alternateName xml:lang="en">non-binary persons</schema:alternateName>
         <preferred-name xml:lang="en">non-binary person</preferred-name>
+        <slang-term xml:lang="en">enbies</slang-term>
+        <slang-term xml:lang="en">enby</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A person whose gender identity is not exclusively male or female; a person having a gender identity which is outside of the gender binary (i.e. male and female).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -29820,6 +30076,7 @@
         <practices rdf:resource="https://github.com/Superraptor/GSSO#nymphomania"/>
         <preferred-name xml:lang="en">nymphomaniac</preferred-name>
         <shortened-term xml:lang="en">nympho</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A woman with an excessive libido.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#nymphomaniac"/>
@@ -30723,7 +30980,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pain">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hurt"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sensation"/>
+        <EFO>EFO:0003843</EFO>
+        <HPO>HP:0012531</HPO>
+        <ICD-9-CM>338-338.99</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10033371</MEDDRA>
+        <MESH_UID>D010146</MESH_UID>
+        <NCIT>C3303</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22253000</SCTID>
         <SIO>SIO:000951</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pain</WIKIPEDIA>
         <preferred-name xml:lang="en">pain</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Pain is an unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -31155,6 +31420,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Significant_other</WIKIPEDIA>
         <colloquial-term xml:lang="en">significant other</colloquial-term>
         <preferred-name xml:lang="en">partner</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person with whom one shares a domestic, romantic or sexual bond.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#partner"/>
@@ -31264,6 +31530,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pathological_mental_process">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mental_process"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pathological_bodily_process"/>
+        <schema:alternateName xml:lang="en">pathological mental processes</schema:alternateName>
         <preferred-name xml:lang="en">pathological mental process</preferred-name>
     </owl:Class>
     
@@ -31506,8 +31773,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#penile_hypospadias">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hypospadias"/>
+        <HPO>HP:0003244</HPO>
+        <ICD-10-CM>Q54.1</ICD-10-CM>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204888000</SCTID>
         <anatomical-location rdf:resource="https://github.com/Superraptor/GSSO#mammalian_penis"/>
         <preferred-name xml:lang="en">penile hypospadias</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hypospadias, penile</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -31597,12 +31868,14 @@
     <!-- https://github.com/Superraptor/GSSO#penis_envy -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#penis_envy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#envy"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_penis"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Penis_envy</WIKIPEDIA>
         <preferred-name xml:lang="de">Penisneid</preferred-name>
         <preferred-name xml:lang="en">penis envy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The alleged unconscious desire of a woman to possess a penis.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -31611,7 +31884,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#penoscrotal_hypospadias">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hypospadias"/>
+        <HPO>HP:0000808</HPO>
+        <ICD-10-CM>Q54.2</ICD-10-CM>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204889008</SCTID>
         <preferred-name xml:lang="en">penoscrotal hypospadias</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hypospadias, penoscrotal</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -31674,7 +31951,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#perineal_hypospadias">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hypospadias"/>
+        <HPO>HP:0000051</HPO>
+        <ICD-10-CM>Q54.3</ICD-10-CM>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204890004</SCTID>
         <preferred-name xml:lang="en">perineal hypospadias</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hypospadias, perineal</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -31952,6 +32233,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">pharmacists</schema:alternateName>
         <preferred-name xml:lang="en">pharmacist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A professional who dispenses prescription drugs in a hospital or retail pharmacy.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32028,7 +32310,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">photographers</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Photographer</WIKIPEDIA>
+        <historical-term xml:lang="en">photographist</historical-term>
         <preferred-name xml:lang="en">photographer</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One who takes photographs, typically as an occupation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32287,6 +32571,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pilot">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <preferred-name xml:lang="en">pilot</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who is in charge of the controls of an aircraft.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32297,8 +32582,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_symbol"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Nazi_concentration_camp_badge"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Pink_triangle</WIKIPEDIA>
         <preferred-name xml:lang="de">Rosa Winkel</preferred-name>
         <preferred-name xml:lang="en">pink triangle</preferred-name>
+        <oboInOwl1:hasDefinition>A pink triangle has been a symbol for various LGBT identities, initially intended as a badge of shame, but later reclaimed as a positive symbol of self-identity. In Nazi Germany in the 1930s and 1940s, it began as one of the Nazi concentration camp badges, distinguishing those imprisoned because they had been identified by authorities as gay men, a category that also included bisexual men and transgender women.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32308,7 +32595,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pitch-altering_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#laryngeal_therapeutic_procedure"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pitch_alteration"/>
+        <schema:alternateName xml:lang="en">pitch-altering surgeries</schema:alternateName>
         <preferred-name xml:lang="en">pitch-altering surgery</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any of various surgeries serving to alter the pitch of one&apos;s voice.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32326,7 +32615,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pitch_alteration">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#alteration"/>
+        <schema:alternateName xml:lang="en">pitch alterations</schema:alternateName>
         <preferred-name xml:lang="en">pitch alteration</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Alteration of pitch, the perceived frequency of a sound or note.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32335,7 +32626,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pitch_perception">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#auditory_perception"/>
+        <schema:alternateName xml:lang="en">pitch perceptions</schema:alternateName>
+        <MESH_UID>D010898</MESH_UID>
         <preferred-name xml:lang="en">pitch perception</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A dimension of auditory sensation varying with cycles per second of the sound stimulus.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32360,6 +32654,7 @@
         <EFO>EFO:0004542</EFO>
         <OBI>OBI:0000011</OBI>
         <preferred-name xml:lang="en">planned process</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A process which has been planned, is planned, or will be planned.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32495,6 +32790,7 @@
         <MESH_UID>D057181</MESH_UID>
         <NCIT>C86580</NCIT>
         <SIO>SIO:000858</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pleasure</WIKIPEDIA>
         <preferred-name xml:lang="en">pleasure</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">An emotion associated with feeling good.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">Pleasure is an emotion of happy satisfaction and enjoyment.</oboInOwl1:hasDefinition>
@@ -32557,6 +32853,7 @@
         <schema:alternateName xml:lang="en">poets</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Poets</WIKIPEDIA>
         <preferred-name xml:lang="en">poet</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who writes poems.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32799,6 +33096,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">politicians</schema:alternateName>
         <preferred-name xml:lang="en">politician</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One engaged in politics, especially an elected or appointed government official.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34382,7 +34680,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#rage">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anger"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10037804</MEDDRA>
+        <MESH_UID>D011889</MESH_UID>
+        <SIO>SIO:000860</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rage_(emotion)</WIKIPEDIA>
         <preferred-name xml:lang="en">rage</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Fury; violent, intense anger.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">fury</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -34672,7 +34976,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#religious_hate_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate_group"/>
+        <schema:alternateName>religious hate groups</schema:alternateName>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Hate_group#Religious_hate_groups</WIKIPEDIA>
         <preferred-name xml:lang="en">religious hate group</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Hate groups associated with particular religious beliefs, i.e. Christian hate groups, Islamic hate groups, etc. Note that the existence of such a group does not necessarily mean that all members of that religion belong to that group.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34711,7 +35018,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#removal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinical_action"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surgical_action"/>
+        <schema:alternateName xml:lang="en">removals</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118292001</SCTID>
         <preferred-name xml:lang="en">removal</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The process of removing something, especially in a medical context.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34720,7 +35030,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#repair">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinical_action"/>
+        <schema:alternateName xml:lang="en">repairs</schema:alternateName>
+        <NCIT>C53611</NCIT>
         <preferred-name xml:lang="en">repair</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The act of returning something to working order.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34764,8 +35077,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#repression">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#defense_mechanism"/>
         <NCIT>C17086</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Repression_(psychology)</WIKIPEDIA>
         <preferred-name xml:lang="en">repression</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A psychological mechanism utilized by humans to shield themselves from painful memories or traumatic events. This protection entails the exclusion of memories or thoughts from consciousness.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">psychological repression</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">repression, psychological</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -35039,6 +35355,7 @@
         <schema:alternateName xml:lang="en">researchers</schema:alternateName>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#research"/>
         <preferred-name xml:lang="en">researcher</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One who researches.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -35265,8 +35582,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#romance">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#love"/>
+        <rdfs:comment xml:lang="en">Although the emotions and sensations of romantic love are widely associated with sexual attraction, romantic feelings can exist without expectation of physical consummation and be subsequently expressed.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Romance_(love)</WIKIPEDIA>
         <preferred-name xml:lang="en">romance</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Romance is an emotional feeling of love for, or a strong attraction towards, another person, and the courtship behaviors undertaken by an individual to express those overall feelings and resultant emotions.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -35275,7 +35594,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#romantic_attraction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_attraction"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romance"/>
         <preferred-name xml:lang="en">romantic attraction</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Romantic attraction is an emotional response that most people often feel that results in a desire for a romantic relationship with the person that the attraction is felt towards.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -35300,9 +35621,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#romantic_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_identity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romance"/>
         <schema:alternateName xml:lang="en">romantic identities</schema:alternateName>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">romantic identity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Romantic identity is how one thinks of oneself in terms of to whom one is romantically attracted.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -35311,9 +35634,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#romantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_orientation"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romance"/>
+        <rdfs:comment xml:lang="en">Romantic orientation is used both alternatively and side-by-side with the term sexual orientation, and is based on the perspective that sexual attraction is but a single component of a larger dynamic. For example, although a pansexual person may feel sexually attracted to people regardless of gender, they may be predisposed to romantic intimacy with females. For asexual people, romantic orientation is often considered a more useful measure of attraction than sexual orientation.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#romantic_identity"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#sexual_orientation"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Romantic_orientation</WIKIPEDIA>
         <preferred-name xml:lang="en">romantic orientation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One&apos;s tendencies of romantic attraction, considered as a whole, often as opposed to sexual attractions.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">affectional orientation</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -35417,6 +35744,9 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <ICD-10-CM>F65.5</ICD-10-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10039368</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95636001</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sadomasochism</WIKIPEDIA>
         <acronym xml:lang="en">S&amp;M</acronym>
         <acronym xml:lang="en">S-M</acronym>
@@ -35424,6 +35754,7 @@
         <acronym xml:lang="en">SM</acronym>
         <preferred-name xml:lang="de">Sadomasochismus</preferred-name>
         <preferred-name xml:lang="en">sadomasochism</preferred-name>
+        <oboInOwl1:hasDefinition>Sadism and masochism: the (often sexual) enjoyment by one person of both inflicting and receiving pain.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#sadomasochism"/>
@@ -35698,8 +36029,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">scientists</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Scientist</WIKIPEDIA>
+        <coined-by xml:lang="en">William Whewell</coined-by>
         <preferred-name xml:lang="en">scientist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One whose activities make use of the scientific method to answer questions regarding the measurable universe. A scientist may be involved in original research, or make use of the results of the research of others.</oboInOwl1:hasDefinition>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#scientist"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#coined-by"/>
+        <owl:annotatedTarget xml:lang="en">William Whewell</owl:annotatedTarget>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1834</terms:date>
+    </owl:Axiom>
     
 
 
@@ -35728,6 +36067,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#scrotal_hypospadias">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hypospadias"/>
+        <HPO>HP:0012853</HPO>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">702462000</SCTID>
         <anatomical-location rdf:resource="https://github.com/Superraptor/GSSO#scrotum"/>
         <preferred-name xml:lang="en">scrotal hypospadias</preferred-name>
     </owl:Class>
@@ -35950,6 +36291,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#self-love">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#love"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Self-love</WIKIPEDIA>
         <preferred-name xml:lang="en">self-love</preferred-name>
     </owl:Class>
     
@@ -36082,7 +36424,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sensory_perception">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sensory_process"/>
+        <schema:alternateName xml:lang="en">sensory perceptions</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373713005</SCTID>
         <preferred-name xml:lang="en">sensory perception</preferred-name>
+        <shortened-term xml:lang="en">perception</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">The organization, identification, and interpretation of sensory information in order to represent and understand the presented information, or the environment.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -36130,7 +36476,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#septated_uterus">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_malformation"/>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">752.35</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10062606</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Uterine_septum</WIKIPEDIA>
         <preferred-name xml:lang="en">septated uterus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A malformation of the uterus in which the uterine cavity is partitioned by a longitudinal septum while the outside of the uterus has a normal typical shape.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">septate uterus</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">uterine septum</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -36529,10 +36881,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_worker">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">sex workers</schema:alternateName>
+        <rdfs:comment xml:lang="en">This term is promoted along with the idea that what has previously been termed prostitution should be recognized as work on equal terms with that of conventional jobs, with the legal implications this has. It is sometimes regarded as a less offensive alternative to prostitute, although &quot;sex worker&quot; has a much broader meaning.</rdfs:comment>
         <coined-by rdf:resource="https://github.com/Superraptor/GSSO#Carol_Leigh"/>
         <derogatory-term xml:lang="en">prostitute</derogatory-term>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#sex_work"/>
+        <preferred-name xml:lang="de">Sexarbeiter</preferred-name>
+        <preferred-name xml:lang="de">Sexarbeiterin</preferred-name>
         <preferred-name xml:lang="en">sex worker</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who supplies sex work (short-term sexual services) in exchange for compensation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37102,6 +37458,7 @@
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87507007</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_frustration</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual frustration</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A state of agitation felt by an individual whose sexual satisfaction is considerably less than desired.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual starvation</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -37184,6 +37541,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_identity</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual identity</preferred-name>
         <preferred-name xml:lang="de">sexuelle Identität</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual identity is how one thinks of oneself in terms of to whom one is  sexually attracted. Note that sexual identity may also refer to sexual orientation identity, which is when people identify or dis-identify with a sexual orientation or choose not to identify with a sexual orientation.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual orientation identities</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual orientation identity</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -37276,6 +37634,7 @@
         <practices rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <preferred-name xml:lang="en">sexual invert</preferred-name>
         <shortened-term xml:lang="en">invert</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay or transgender person.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sex-invert</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
@@ -37287,14 +37646,31 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#sexual_masochism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_masochism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masochism"/>
+        <rdfs:comment xml:lang="en">Sexual masochism was renamed &quot;sexual masochism disorder&quot; (SMD) in DSM-5, as a person may have a masochistic sexual interest which does not necessarily interfere with their everyday lives (and thus not be considered clinical in nature).</rdfs:comment>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10849</DOID>
+        <ICD-10-CM>F65.51</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">302.83</ICD-9-CM>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51239001</SCTID>
+        <preferred-name xml:lang="en">sexual masochism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual pleasure derived from being physically or psychologically abused, whether inflicted by oneself or by others.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#sexual_masochism_disorder -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_masochism_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sadomasochism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_masochism"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_masochism_disorder</WIKIPEDIA>
         <acronym xml:lang="en">SMD</acronym>
         <preferred-name xml:lang="en">sexual masochism disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A disorder characterized by recurrent sexual urges, fantasies, or behaviors involving the act (real, not simulated) of being humiliated, beaten, bound, or otherwise made to suffer.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37426,7 +37802,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_partner">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partner"/>
+        <schema:alternateName xml:lang="en">sexual partners</schema:alternateName>
         <preferred-name xml:lang="en">sexual partner</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person with whom someone has had sex; a sex partner.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37464,9 +37842,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_pervert">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
+        <rdfs:comment xml:lang="en">In contemporary usage, pervert is usually understood to refer to a sexually perverted person. Traditionally the word was mainly associated with persons of false religious beliefs.</rdfs:comment>
         <preferred-name xml:lang="en">sexual pervert</preferred-name>
         <shortened-term xml:lang="en">pervert</shortened-term>
         <slang-term xml:lang="en">perv</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A person whose sexual habits are not considered acceptable.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym xml:lang="en">deviant</oboInOwl1:hasSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">sexual deviant</oboInOwl1:hasSynonym>
     </owl:Class>
@@ -37502,6 +37882,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_repression</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual repression</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual repression is a state in which a person is prevented from expressing their own sexuality. Sexual repression is often associated with feelings of guilt or shame being associated with sexual impulses. What constitutes sexual repression is subjective and can vary greatly between cultures and moral systems.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">repression, sexual</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -37723,7 +38104,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#shame">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#negative_emotion"/>
+        <MESH_UID>D012752</MESH_UID>
+        <NCIT>C73431</NCIT>
+        <SIO>SIO:000865</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Shame</WIKIPEDIA>
         <preferred-name xml:lang="en">shame</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A painful emotion resulting from a feeling of inadequacy, embarrassment, or guilt.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">An emotional attitude excited by realization of a shortcoming or impropriety.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Shame is the emotion borne from feeling responsible for the commission of an offense.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37803,6 +38191,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#immediate_family_member"/>
         <schema:alternateName xml:lang="en">siblings</schema:alternateName>
         <preferred-name xml:lang="en">sibling</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who shares a parent.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">emmer</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">brother</oboInOwl1:hasNarrowSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">sister</oboInOwl1:hasNarrowSynonym>
@@ -38725,7 +39114,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#soldier">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">soldiers</schema:alternateName>
+        <preferred-name xml:lang="de">Soldat</preferred-name>
+        <preferred-name xml:lang="de">Soldatin</preferred-name>
         <preferred-name xml:lang="en">soldier</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A member of an army, of any rank.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39110,6 +39502,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">spies</schema:alternateName>
         <preferred-name xml:lang="en">spy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who secretly watches and examines the actions of other individuals or organizations and gathers information on them (usually to gain an advantage).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39234,6 +39627,7 @@
         <WIKIDATA>Q1197685</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Public_holiday</WIKIPEDIA>
         <preferred-name xml:lang="en">statutory holiday</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A day declared free from work by the state or government.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">legal holiday</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">national holiday</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">public holiday</oboInOwl1:hasExactSynonym>
@@ -39622,7 +40016,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#surgical_action">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_action"/>
+        <schema:alternateName xml:lang="en">surgical actions</schema:alternateName>
         <preferred-name xml:lang="en">surgical action</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any medical action in which surgery is utilized.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39950,6 +40346,7 @@
         <SIO>SIO:000417</SIO>
         <WIKIDATA>Q186081</WIKIDATA>
         <preferred-name xml:lang="en">temporal interval</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A period of time with fixed, well-defined limits.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">time interval</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -40407,6 +40804,7 @@
         <derogatory-term xml:lang="en">tomboy</derogatory-term>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#tomboyishness"/>
         <preferred-name xml:lang="en">tomboy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A girl who behaves in a typically boyish manner.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#tomboy"/>
@@ -40886,12 +41284,14 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <schema:alternateName xml:lang="en">transgender men</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#assigned_female_at_birth"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trans_man</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender man</preferred-name>
         <shortened-term xml:lang="de">Transmann</shortened-term>
         <shortened-term xml:lang="en">trans man</shortened-term>
         <shortened-term xml:lang="en">trans-man</shortened-term>
         <shortened-term xml:lang="en">transman</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A man who was assigned female at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41017,6 +41417,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <schema:alternateName xml:lang="en"></schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#assigned_male_at_birth"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trans_woman</WIKIPEDIA>
         <historical-term xml:lang="en">transgender women</historical-term>
         <preferred-name xml:lang="en">transgender woman</preferred-name>
@@ -41024,6 +41425,7 @@
         <shortened-term xml:lang="en">trans woman</shortened-term>
         <shortened-term xml:lang="en">trans-woman</shortened-term>
         <shortened-term xml:lang="en">transwoman</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A woman who was assigned male at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41123,6 +41525,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence_against_LGBT_people"/>
         <preferred-name xml:lang="en">transphobic violence</preferred-name>
+        <oboInOwl1:hasDefinition>Violent acts committed against transgender people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41638,7 +42041,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#unicornuate_uterus">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_malformation"/>
+        <HPO>HP:0031909</HPO>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">752.33</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10080293</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Unicornuate_uterus</WIKIPEDIA>
         <alternative-spelling xml:lang="en">unicornuate uterus</alternative-spelling>
+        <oboInOwl1:hasDefinition xml:lang="en">A unicornuate uterus represents a uterine malformation where the uterus is formed from one only of the paired Müllerian ducts while the other Müllerian duct does not develop or only in a rudimentary fashion.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41763,6 +42171,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#unmarried_partner">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partner"/>
+        <schema:alternateName xml:lang="en">unmarried partners</schema:alternateName>
         <preferred-name xml:lang="en">unmarried partner</preferred-name>
     </owl:Class>
     
@@ -41830,7 +42239,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#urinary_malformation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#urogenital_malformation"/>
+        <schema:alternateName xml:lang="en">urinary malformations</schema:alternateName>
         <preferred-name xml:lang="en">urinary malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformations of the urinary system or any of its constituent parts.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41873,6 +42284,7 @@
         <derogatory-term xml:lang="en">urning</derogatory-term>
         <historical-term xml:lang="en">urning</historical-term>
         <preferred-name xml:lang="en">urning</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay person, especially a man.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41903,7 +42315,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#urogenital_malformation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#malformation"/>
+        <schema:alternateName xml:lang="en">urogenital malformations</schema:alternateName>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10046699</MEDDRA>
         <preferred-name xml:lang="en">urogenital malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any malformation that is a part of or affects the urogenital system.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42012,7 +42427,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#uterine_malformation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_genital_malformation"/>
+        <schema:alternateName xml:lang="en">uterine malformations</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Uterine_malformation</WIKIPEDIA>
         <preferred-name xml:lang="en">uterine malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformations of the uterus or any of its constituent parts.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42053,8 +42471,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#uterus_didelphys">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_malformation"/>
+        <HPO>HP:0003762</HPO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Uterus_didelphys</WIKIPEDIA>
         <alternative-spelling xml:lang="en">uterus didelphis</alternative-spelling>
         <preferred-name xml:lang="en">uterus didelphys</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A uterine malformation where the uterus is present as a paired organ, as the embryogenetic fusion of the Müllerian ducts failed to occur.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">didelphys uterus</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -42066,6 +42488,19 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Vagina</WIKIPEDIA>
         <preferred-name xml:lang="en">vagina</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#vagina_envy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vagina_envy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#envy"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780808402558"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#womb_envy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Womb_and_vagina_envy#Vagina_envy</WIKIPEDIA>
+        <preferred-name xml:lang="en">vagina envy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The theoretic counterpart to penis envy; the alleged unconscious desire of a man to possess a vagina.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42099,7 +42534,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vaginal_malformation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_genital_malformation"/>
+        <schema:alternateName xml:lang="en">vaginal malformations</schema:alternateName>
         <preferred-name xml:lang="en">vaginal malformation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Malformations of the vagina or any of its constituent parts.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42280,6 +42717,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">victims</schema:alternateName>
         <preferred-name>victim</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Anyone who is harmed by another.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42316,7 +42754,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#violence_against_LGBT_people">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate_crime"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence"/>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Category:Violence_against_LGBT_people</WIKIPEDIA>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Violence_against_LGBT_people</WIKIPEDIA>
         <preferred-name xml:lang="en">violence against LGBT people</preferred-name>
+        <oboInOwl1:hasDefinition>Violence against lesbian, gay, bisexual, and trangender people (as well as other sexual and gender minorities) motivated by hateful attitudes towards their existence. Such violence can take many forms such as intimidation, assault, or lynching.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">violence against LGBTQ people</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -42328,6 +42769,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#violence_against_LGBT_people"/>
         <preferred-name xml:lang="en">violence against gay men</preferred-name>
+        <oboInOwl1:hasDefinition>Violent acts committed against gay men.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42832,6 +43274,7 @@
         <preferred-name xml:lang="es">semana</preferred-name>
         <preferred-name xml:lang="en">week</preferred-name>
         <preferred-name xml:lang="zh">星期</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A subdivision of the month into longer periods of work days punctuated by shorter weekend periods of days for markets, rest, or religious observation such as a sabbath.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43000,6 +43443,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#womb_envy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#womb_envy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#envy"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#vagina_envy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Womb_and_vagina_envy#Womb_envy</WIKIPEDIA>
+        <coined-by>Karen Horney</coined-by>
+        <preferred-name xml:lang="en">womb envy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The alleged unconscious desire of a man to possess a womb.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#women_in_development -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#women_in_development">
@@ -43122,6 +43578,7 @@
         <preferred-name xml:lang="es">año</preferred-name>
         <preferred-name xml:lang="en">year</preferred-name>
         <preferred-name xml:lang="zh">年</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A solar year, the time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43130,7 +43587,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#yellow_badge">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#badge_of_shame"/>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Yellow_badge</WIKIPEDIA>
         <preferred-name xml:lang="en">yellow badge</preferred-name>
+        <oboInOwl1:hasDefinition>A cloth patch that Jews were ordered to sew on their outer garments to mark them as Jews in public, especially in Nazi-controlled states during the 1930s and 1940s.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Jewish badge</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="de">Judenstern</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">yellow patch</oboInOwl1:hasExactSynonym>
@@ -46640,6 +47099,21 @@
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780517573341</schema:isbn>
         <GOOGLE_BOOKS>4aMYAAAAIAAJ</GOOGLE_BOOKS>
         <oboInOwl1:hasExactSynonym xml:lang="en">Rawson&apos;s Wicked Words</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780808402558 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780808402558">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:publisher xml:lang="en">Rowman &amp; Littlefield Publishers</terms:publisher>
+        <terms:title xml:lang="en">Psychoanalysis and Male Sexuality</terms:title>
+        <schema:datePublished>1 June 1966</schema:datePublished>
+        <schema:editor>Hendrik M. Ruitenbeek</schema:editor>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780808402558</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</schema:numberOfPages>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000425746</HATHITRUST>
     </owl:Class>
     
 
