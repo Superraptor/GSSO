@@ -2383,6 +2383,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Anent_So-Called_Androgynism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Anent_So-Called_Androgynism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator>Frank K. Green</dc:creator>
+        <dc:creator>Q. W. Hunter</dc:creator>
+        <terms:issued>November 1913</terms:issued>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1743-9191"/>
+        <terms:title xml:lang="en">Anent So-Called Androgynism</terms:title>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">399</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</schema:volumeNumber>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Angie_Zapata -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Angie_Zapata">
@@ -2573,7 +2590,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bahasa_Binan">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_speech"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bahasa_Binan</WIKIPEDIA>
         <preferred-name xml:lang="en">Bahasa Binan</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A distinctive Indonesian speech variety originating from the gay community having several regular patterns of word formation and is documented in both writing and speech.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Bahasa Bencong</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Bahasa Gay</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">bahasa Béncong</oboInOwl1:hasExactSynonym>
@@ -3367,7 +3386,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBTQ_advocate"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#actor"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#comedian"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dykon"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#television_host"/>
+        <schema:alumniOf xml:lang="en">University of New Orleans</schema:alumniOf>
+        <schema:birthDate>26 January 1958</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Metairie, Louisiana, United States</schema:birthPlace>
+        <schema:spouse>Portia de Rossi</schema:spouse>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ellen_DeGeneres</WIKIPEDIA>
         <preferred-name xml:lang="en">Ellen DeGeneres</preferred-name>
     </owl:Class>
     
@@ -3513,6 +3538,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#French_kissing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#kissing"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780199829941"/>
         <preferred-name xml:lang="en">French kissing</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">deep kissing</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">tongue kissing</oboInOwl1:hasExactSynonym>
@@ -3618,6 +3644,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Gayle">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_argot"/>
+        <WIKIPEDIA xml:lang="en">An English and Afrikaans-based gay argot or cant slang used primarily by English and Afrikaans-speaking gay men in urban communities of South Africa, and is similar in some respects to Polari in the United Kingdom, from which some lexical items have been borrowed.</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gayle_language</WIKIPEDIA>
         <preferred-name xml:lang="en">Gayle</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Gail</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Gayle language</oboInOwl1:hasExactSynonym>
@@ -4394,6 +4422,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-friendly">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
         <preferred-name xml:lang="en">LGBT-friendly</preferred-name>
+        <oboInOwl1:hasNarrowSynonym rdf:resource="https://github.com/Superraptor/GSSO#gay-friendly"/>
     </owl:Class>
     
 
@@ -4851,6 +4880,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Larry_Kramer_Initiative_for_Lesbian_and_Gay_Studies">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_and_lesbian_studies"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Larry_Kramer#Larry_Kramer_Initiative_for_Lesbian_and_Gay_Studies</WIKIPEDIA>
         <preferred-name xml:lang="en">Larry Kramer Initiative for Lesbian and Gay Studies</preferred-name>
     </owl:Class>
     
@@ -6840,6 +6870,7 @@
         <preferred-name xml:lang="fr">bispiritualité</preferred-name>
         <preferred-name xml:lang="es">dos espíritus</preferred-name>
         <preferred-name xml:lang="zh">雙靈</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A Native (North) American who is non-cisgender, non-binary or gender-variant (especially one belonging to a traditional tribal third-gender, fourth-gender or transgender category), or who is non-heterosexual.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Two-spirited</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">twospirited</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -6941,8 +6972,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Waria">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
+        <schema:alternateName xml:lang="en">Warias</schema:alternateName>
         <schema:location xml:lang="en">Indonesia</schema:location>
+        <alternative-spelling xml:lang="en">waria</alternative-spelling>
         <preferred-name xml:lang="en">Waria</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A member of Indonesia&apos;s traditional transfeminine third gender category.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">warias</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -8524,6 +8559,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#Protest_from_an_Androgyne"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#autobiographyofa00lind"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
+        <schema:Quotation xml:lang="en">An Androgyne Hermaphrodite.—M. Hallopean presented an androgyne, whose history was published in 1892 by M. Guermonprey. The configuration of the external genital organs is particularly feminine. Their aspect is that of a vulva with labia majora and minora, a miniature penis simulating a large clitoris, and a small vagina that admitted the little finger. The presence of a testicle in one of the labia majora leaves no doubt of the relative sex of the individual, especially as the other testicle was removed and examined histologically. The subject partakes of the two sexes, manifesting a feminine disposition and tastes, but has not been admitted into the female wards of the hospital. He asks that the testicle in the labium may be removed as it interferes by its presence with sexual relations that are otherwise incomplete. The generic denomination of masculine pseudo hermaphrodism to cases of this nature not indicating sufficiently their mixed character, M. Hallopean proposes to apply to them the name of androgyne—man and woman, the first indicating the real sex, the second the superadded attributes. We should call by the name of gynandres those subjects which present the inverse malformations, and there would be no more hermaphrodites, but subjects really bisexual.</schema:Quotation>
+        <schema:Quotation xml:lang="en">In all probability the &quot;botes&quot; of the Montana Indians and the &quot;burdachs&quot; of the Washington tribes serve as masculine hetaræ to the chiefs and medicine men, though this has not been definitely determined. Dr. Holder described a typical &quot;bote&quot; of the Absaroke tribe in the New York Medical Journal, 1889. This androgyne, in many respects, resembled the mujerados of the Pueblo Indians, and probably served a like purpose in his tribe.</schema:Quotation>
         <rdfs:comment xml:lang="en">From ancient Greek prefix ἀνδρο- (andro-, meaning ‘male’ or ‘man’) and suffix -γυνή (-gynous, meaning ‘female’ or ‘woman’).</rdfs:comment>
         <different-from rdf:resource="https://github.com/Superraptor/GSSO#androgynous_gender_expression"/>
         <historical-term xml:lang="en">androgyne</historical-term>
@@ -8532,6 +8569,27 @@
         <oboInOwl1:hasDefinition xml:lang="en">Androgyne is a non-binary gender identity associated (to various extents) with androgyny. Androgynes have a gender which is simultaneously feminine and masculine, although not necessarily in equal amounts.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">An Androgyne Hermaphrodite.—M. Hallopean presented an androgyne, whose history was published in 1892 by M. Guermonprey. The configuration of the external genital organs is particularly feminine. Their aspect is that of a vulva with labia majora and minora, a miniature penis simulating a large clitoris, and a small vagina that admitted the little finger. The presence of a testicle in one of the labia majora leaves no doubt of the relative sex of the individual, especially as the other testicle was removed and examined histologically. The subject partakes of the two sexes, manifesting a feminine disposition and tastes, but has not been admitted into the female wards of the hospital. He asks that the testicle in the labium may be removed as it interferes by its presence with sexual relations that are otherwise incomplete. The generic denomination of masculine pseudo hermaphrodism to cases of this nature not indicating sufficiently their mixed character, M. Hallopean proposes to apply to them the name of androgyne—man and woman, the first indicating the real sex, the second the superadded attributes. We should call by the name of gynandres those subjects which present the inverse malformations, and there would be no more hermaphrodites, but subjects really bisexual.</owl:annotatedTarget>
+        <terms:issued>June 1895</terms:issued>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1077-792X"/>
+        <schema:datePublished>1 June 1895</schema:datePublished>
+        <schema:editor>Alfred K. Hills</schema:editor>
+        <schema:editor>Egbert Guernsey</schema:editor>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</schema:volumeNumber>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">In all probability the &quot;botes&quot; of the Montana Indians and the &quot;burdachs&quot; of the Washington tribes serve as masculine hetaræ to the chiefs and medicine men, though this has not been definitely determined. Dr. Holder described a typical &quot;bote&quot; of the Absaroke tribe in the New York Medical Journal, 1889. This androgyne, in many respects, resembled the mujerados of the Pueblo Indians, and probably served a like purpose in his tribe.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#26071"/>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</schema:pageStart>
+    </owl:Axiom>
     
 
 
@@ -9149,6 +9207,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aromantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">aromantic orientation</preferred-name>
+        <shortened-term xml:lang="en">aromantic</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Lack of romantic attraction towards anyone.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10060,15 +10120,26 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <schema:Quotation xml:lang="en">In all probability the &quot;botes&quot; of the Montana Indians and the &quot;burdachs&quot; of the Washington tribes serve as masculine hetaræ to the chiefs and medicine men, though this has not been definitely determined. Dr. Holder described a typical &quot;bote&quot; of the Absaroke tribe in the New York Medical Journal, 1889. This androgyne, in many respects, resembled the mujerados of the Pueblo Indians, and probably served a like purpose in his tribe.</schema:Quotation>
         <schema:alternateName xml:lang="en">badés</schema:alternateName>
         <schema:memberOf xml:lang="en">Crow Nation</schema:memberOf>
         <alternative-spelling xml:lang="en">baté</alternative-spelling>
+        <alternative-spelling xml:lang="en">bote</alternative-spelling>
         <alternative-spelling xml:lang="en">boté</alternative-spelling>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#Two_Spirit"/>
         <preferred-name xml:lang="cro">badé</preferred-name>
         <preferred-name xml:lang="en">badé</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A male-bodied person who dresses and lives as a woman.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">botes</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#badé"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">In all probability the &quot;botes&quot; of the Montana Indians and the &quot;burdachs&quot; of the Washington tribes serve as masculine hetaræ to the chiefs and medicine men, though this has not been definitely determined. Dr. Holder described a typical &quot;bote&quot; of the Absaroke tribe in the New York Medical Journal, 1889. This androgyne, in many respects, resembled the mujerados of the Pueblo Indians, and probably served a like purpose in his tribe.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#26071"/>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</schema:pageStart>
+    </owl:Axiom>
     
 
 
@@ -10288,15 +10359,27 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <schema:Quotation xml:lang="en">In all probability the &quot;botes&quot; of the Montana Indians and the &quot;burdachs&quot; of the Washington tribes serve as masculine hetaræ to the chiefs and medicine men, though this has not been definitely determined. Dr. Holder described a typical &quot;bote&quot; of the Absaroke tribe in the New York Medical Journal, 1889. This androgyne, in many respects, resembled the mujerados of the Pueblo Indians, and probably served a like purpose in his tribe.</schema:Quotation>
         <schema:alternateName xml:lang="en">berdaches</schema:alternateName>
         <schema:alternateName xml:lang="en">berdachism</schema:alternateName>
         <rdfs:comment xml:lang="en">Considered offensive by many Native American communities because of its pejorative and non-American etymology, berdache began to fall out of use in the 1990s; two-spirit and various tribe-specific terms (wergern, etc) are now used instead.</rdfs:comment>
+        <alternative-spelling xml:lang="en">burdach</alternative-spelling>
         <derogatory-term xml:lang="en">berdache</derogatory-term>
         <end-date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</end-date>
         <historical-term xml:lang="en">berdache</historical-term>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#Two_Spirit"/>
         <preferred-name xml:lang="en">berdache</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Among Native Americans, a person who identifies with any of a variety of gender identities which are not exclusively those of their biological sex; a transgender person.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">burdachs</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#berdache"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">In all probability the &quot;botes&quot; of the Montana Indians and the &quot;burdachs&quot; of the Washington tribes serve as masculine hetaræ to the chiefs and medicine men, though this has not been definitely determined. Dr. Holder described a typical &quot;bote&quot; of the Absaroke tribe in the New York Medical Journal, 1889. This androgyne, in many respects, resembled the mujerados of the Pueblo Indians, and probably served a like purpose in his tribe.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#26071"/>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</schema:pageStart>
+    </owl:Axiom>
     
 
 
@@ -10751,6 +10834,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#biromantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">biromantic orientation</preferred-name>
+        <shortened-term xml:lang="en">biromantic</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Romantic attraction towards person(s) of two or more, but not all genders. Sometimes used the same way as panromantic.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11495,6 +11580,7 @@
         <schema:location xml:lang="en">Australia</schema:location>
         <schema:memberOf xml:lang="en">Indigenous Australians</schema:memberOf>
         <preferred-name xml:lang="en">brotherboy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A member of a traditional gender role in Australian Aboriginal cultures, resembling trans men.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11544,6 +11630,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780199829941"/>
         <schema:Quotation xml:lang="en">Miss Laporte estimates that the identifiable lesbian, the so-called bull dyke, is something like one-half of  one percent of the total lesbian population. (The term bull dyke, or diesel dyke, is usually associated with hostile aggressiveness, and is not synonymous with &quot;butch,&quot; which indicates a masculine role. &quot;Femme&quot; indicates a feminine role.)</schema:Quotation>
         <acronym xml:lang="en">B.D.</acronym>
         <acronym xml:lang="en">BD</acronym>
@@ -14339,6 +14426,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#inappropriate_speech"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <rdfs:comment xml:lang="en">Historically, &quot;coprolalia&quot; referred to obscene language as a form of sexual stimulation.</rdfs:comment>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10010964</MEDDRA>
+        <NCIT>C116763</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13446000</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Coprolalia</WIKIPEDIA>
         <preferred-name xml:lang="en">coprolalia</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Involuntary and repetitive utterances of obscene or socially inappropriate words or statements.</oboInOwl1:hasDefinition>
@@ -15231,6 +15321,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#demiromantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">demiromantic orientation</preferred-name>
+        <shortened-term xml:lang="en">demiromantic</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Romantic attraction towards any of the above but only after forming a deep emotional bond with the person(s).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16180,7 +16272,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dyke">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#001183469"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780025750500"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780199829941"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780517573341"/>
         <schema:alternateName xml:lang="en">dykes</schema:alternateName>
         <WIKIDATA>Q835137</WIKIDATA>
@@ -16200,6 +16294,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dykon">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_icon"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780199829941"/>
         <rdfs:comment xml:lang="en">Formed as a blend of &quot;dyke&quot; and &quot;icon&quot;.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <preferred-name xml:lang="en">dykon</preferred-name>
@@ -16370,8 +16465,17 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#echolalia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#inappropriate_speech"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4188</DOID>
+        <HPO>HP:0010529</HPO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10014127</MEDDRA>
+        <MESH_UID>D004454</MESH_UID>
+        <NCIT>C97166</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64712007</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Echolalia</WIKIPEDIA>
         <preferred-name xml:lang="en">echolalia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A speech disorder that involves the automatic repetition of vocalizations made by another person.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A symptom of neurologic or psychiatric dysfunction in which the individual involuntarily and meaninglessly repeats a recently heard word, series of words, or a song.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Involuntary (&quot;parrot-like&quot;), meaningless repetition of a recently heard word, phrase, or song. This condition may be associated with transcortical aphasia; schizophrenia; or other disorders.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">echologia</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">echophrasia</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -19616,6 +19720,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay-friendly</WIKIPEDIA>
         <preferred-name xml:lang="en">gay-friendly</preferred-name>
+        <oboInOwl1:hasBroadSynonym rdf:resource="https://github.com/Superraptor/GSSO#LGBT-friendly"/>
+        <oboInOwl1:hasDefinition xml:lang="en">Open to, but not necessarily aimed at, gay people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19625,6 +19731,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_and_lesbian_studies">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#queer_studies"/>
         <preferred-name xml:lang="en">gay and lesbian studies</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The study of issues relating to gay people, specifically gay men and lesbians.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19634,6 +19741,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_argot">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#argot"/>
         <preferred-name xml:lang="en">gay argot</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An argot used specifically by gay people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19642,10 +19750,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_bathhouse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_industry_premises"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_bathhouse</WIKIPEDIA>
         <preferred-name xml:lang="en">gay bathhouse</preferred-name>
         <slang-term xml:lang="en">the baths</slang-term>
         <slang-term xml:lang="en">the sauna</slang-term>
         <slang-term xml:lang="en">the tubs</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A commercial space for men to have sex with other men.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">gay sauna</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">gay steambath</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -19673,6 +19783,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_culture#Gay_male_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">gay culture</preferred-name>
     </owl:Class>
     
@@ -19725,7 +19836,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_speech">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_male_speech</WIKIPEDIA>
         <preferred-name xml:lang="en">gay male speech</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Significant phonetic features produced by many gay men.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21067,7 +21180,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gesturing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#communication"/>
+        <SIO>SIO:001059</SIO>
         <preferred-name xml:lang="en">gesturing</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Gesturing is a form of non-verbal communication in which visible bodily actions communicate particular messages, either in place of speech or together and in parallel with spoken words. Gestures include movement of the hands, face, or other parts of the body.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22296,6 +22411,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heteroromantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">heteroromantic orientation</preferred-name>
+        <shortened-term xml:lang="en">heteroromantic</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Romantic attraction towards person(s) of the opposite gender.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">heteromantic</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">heteromantic orientation</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -22700,6 +22819,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homoromantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">homoromantic orientation</preferred-name>
+        <shortened-term xml:lang="en">homoromantic</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Romantic attraction towards person(s) of the same gender.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24217,7 +24338,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#inappropriate_speech">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10059488</MEDDRA>
         <preferred-name xml:lang="en">inappropriate speech</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Random or exclamatory speech.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24237,7 +24360,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#inclusive_writing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#writing"/>
+        <rdfs:comment xml:lang="en">As an example, using &quot;people of color&quot; instead of &quot;minorities&quot; or &quot;transgender person&quot; instead of &quot;transgendered&quot;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">It is important than inclusive writing should not be erasing of historical mistreatment.</rdfs:comment>
         <preferred-name xml:lang="en">inclusive writing</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Inclusive writing is writing which utilizes &quot;people-first language&quot;, or language that makes personhood the essential characteristic of any described person, and self-identification, i.e. striving to include language which is self-conscious and respects peoples&apos; choices in relation to their identities. At its core inclusive writing should not avoid stereotypes and other prejudices, while emphasizing the language preferred by that person, people, community, or group.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24946,6 +25072,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#communication"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Interpersonal_communication</WIKIPEDIA>
         <preferred-name xml:lang="en">interpersonal communication</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Interpersonal communication is an exchange of information between two or more people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25473,6 +25600,7 @@
         <alternative-spelling xml:lang="en">katoy</alternative-spelling>
         <preferred-name xml:lang="en">kathoey</preferred-name>
         <preferred-name xml:lang="th">กะเทย</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">In Thailand, a male-to-female transgender person or person of a third gender, or an effeminate homosexual male.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">ladyboy</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">ladyboys</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -25498,6 +25626,7 @@
         <preferred-name xml:lang="en">khanith</preferred-name>
         <preferred-name xml:lang="fr">khanith</preferred-name>
         <preferred-name xml:lang="ar">خنيث</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An individual with a gender identity other than their legally assigned identity. They are characterised as effeminate.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">xanith (Oman)</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -25561,7 +25690,9 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Koekchuch</WIKIPEDIA>
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Koekchuch</WIKIPEDIA>
         <WIKIPEDIA xml:lang="ru">https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B5%D0%BA%D1%87%D1%83%D1%87%D0%B8</WIKIPEDIA>
+        <alternative-spelling xml:lang="itl">коекчуч</alternative-spelling>
         <preferred-name xml:lang="en">koekchuch</preferred-name>
+        <preferred-name xml:lang="itl">koekchuch</preferred-name>
     </owl:Class>
     
 
@@ -26040,6 +26171,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_culture#Lesbian_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture</preferred-name>
     </owl:Class>
     
@@ -26125,6 +26257,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_speech">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech"/>
         <preferred-name xml:lang="en">lesbian speech</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Significant phonetic features produced by many lesbians.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26208,6 +26341,8 @@
         <WIKIDATA>Q6538491</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lhamana</WIKIPEDIA>
         <preferred-name xml:lang="en">lhamana</preferred-name>
+        <preferred-name xml:lang="zun">lhamana</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A male-bodied third-gender person who dresses and behaves as a woman.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28051,7 +28186,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <schema:memberOf xml:lang="en">Mandans</schema:memberOf>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#Two_Spirit"/>
+        <alternative-spelling xml:lang="mhq">mihdäckä</alternative-spelling>
         <preferred-name xml:lang="en">mihdeke</preferred-name>
+        <preferred-name xml:lang="mhq">mihdeke</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A male-bodied two-spirit person who typically held ceremonial rights and bundles associated with women.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28314,7 +28452,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <schema:memberOf xml:lang="en">Hidatsa</schema:memberOf>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#Two_Spirit"/>
+        <alternative-spelling xml:lang="en">miati</alternative-spelling>
         <preferred-name xml:lang="en">miáti</preferred-name>
+        <preferred-name xml:lang="hid">miáti</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Male-bodied third-gender person who participates in religious ceremonies and lives as a woman.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28925,6 +29066,7 @@
         <preferred-name xml:lang="es">muxe</preferred-name>
         <preferred-name xml:lang="it">muxe</preferred-name>
         <preferred-name xml:lang="pt">muxe</preferred-name>
+        <preferred-name xml:lang="zap">muxe</preferred-name>
         <preferred-name xml:lang="fr">muxhe</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="de">Muxhe</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="fr">muxe</oboInOwl1:hasExactSynonym>
@@ -29835,9 +29977,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nonverbal_communication">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#communication"/>
+        <MESH_UID>D009633</MESH_UID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Nonverbal_communication</WIKIPEDIA>
         <acronym xml:lang="en">NVC</acronym>
         <preferred-name xml:lang="en">nonverbal communication</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Transmission of emotions, ideas, and attitudes between individuals in ways other than the spoken language.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -30555,9 +30699,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#oral_sex_position">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-exclusively_penetrative_coital_position"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#oral_sex"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780199829941"/>
         <schema:Quotation xml:lang="en">French. A slang term for the practice or cunnilingus. &quot;To french&quot; means to place the mouth on the sexual organs; the noun for such an act is known as &quot;frenching.&quot;</schema:Quotation>
         <preferred-name xml:lang="en">oral sex position</preferred-name>
         <slang-term xml:lang="en">French</slang-term>
+        <slang-term xml:lang="en">Frenching</slang-term>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#oral_sex_position"/>
@@ -31046,6 +31192,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#panromantic_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#romantic_orientation"/>
         <preferred-name xml:lang="en">panromantic orientation</preferred-name>
+        <shortened-term xml:lang="en">panromantic</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Romantic attraction towards person(s) of any, every, and all genders.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34560,9 +34708,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_studies"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#queer"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Queer_studies</WIKIPEDIA>
         <preferred-name xml:lang="en">queer studies</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The study, based on critical theory, of issues relating to sexual orientation and gender identity, usually focusing on LGBT.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">LGBT studies</oboInOwl1:hasExactSynonym>
-        <oboInOwl1:hasExactSynonym xml:lang="en">sexual diversity studies</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasNarrowSynonym xml:lang="en">sexual diversity studies</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
     
 
@@ -38418,6 +38568,7 @@
         <schema:location xml:lang="en">Australia</schema:location>
         <schema:memberOf xml:lang="en">Indigenous Australians</schema:memberOf>
         <preferred-name xml:lang="en">sistergirl</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A member of a traditional gender role in Australian Aboriginal cultures, resembling trans women.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -38559,6 +38710,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_communication">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#communication"/>
         <preferred-name xml:lang="en">social communication</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The use of communication in social contexts.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -38763,7 +38915,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_media">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_communication"/>
+        <MESH_UID>D061108</MESH_UID>
+        <NCIT>C97003</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_media</WIKIPEDIA>
         <preferred-name xml:lang="en">social media</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Online communities that allow for the creation and exchange of information and ideas.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Platforms that provide the ability and tools to create and publish information accessed via the internet. Generally these platforms have three characteristics with content user generated, high degree of interaction between creator and viewer, and easily integrated with other sites.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">internet social media</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -39287,8 +39445,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#speech">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#communication"/>
+        <MESH_UID>D013060</MESH_UID>
+        <NCIT>C38025</NCIT>
+        <SIO>SIO:001357</SIO>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Speech</WIKIPEDIA>
         <preferred-name xml:lang="en">speech</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Communication through a system of conventional vocal symbols.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Speech is the expression of thoughts and feelings by sound.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The exchange of spoken words.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">verbal communication</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -39328,6 +39492,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#speech_pitch">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech"/>
         <preferred-name xml:lang="en">speech pitch</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The relative highness of lowness of speech as perceived by the listener.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40675,6 +40840,7 @@
         <historical-term xml:lang="en">third sex</historical-term>
         <preferred-name xml:lang="de">drittes Geschlecht</preferred-name>
         <preferred-name xml:lang="en">third gender</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A category (a gender), present in societies which recognize three or more genders, which is neither male nor female; in some societies, the category may contain individuals who are intersex or androgynous, while other societies may categorize transgender people into it.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="es">tercer sexo</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -41381,6 +41547,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_speech">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech"/>
         <preferred-name xml:lang="en">transgender speech</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Significant phonetic features produced by many transgender people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41396,6 +41563,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_studies</WIKIPEDIA>
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/%C3%89tudes_sur_la_transidentit%C3%A9</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender studies</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The subfield of queer studies dealing specifically with transgender people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43301,6 +43469,7 @@
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#Two_Spirit"/>
         <preferred-name xml:lang="en">wergern</preferred-name>
         <preferred-name xml:lang="yur">wergern</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A male-bodied person who lives as a woman, particularly as a shaman.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="yur">wrgrn</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -43393,6 +43562,7 @@
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#Two_Spirit"/>
         <preferred-name xml:lang="dak">winkta</preferred-name>
         <preferred-name xml:lang="en">winkta</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A two-spirit; a male-bodied person who has a feminine or third-gender/bigender gender role.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43407,6 +43577,7 @@
         <preferred-name xml:lang="en">winkte</preferred-name>
         <preferred-name xml:lang="es">winkte</preferred-name>
         <preferred-name xml:lang="lkt">wíŋkte</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A two-spirit; a male-bodied person who has a feminine or third-gender/bigender gender role and is regarded as having special spiritual talents.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="lkt">winkte</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="lkt">wíŋkta</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -43512,7 +43683,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#writing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nonverbal_communication"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Writing</WIKIPEDIA>
         <preferred-name xml:lang="en">writing</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Writing is a medium of human communication that represents language and emotion with signs and symbols. In most languages, writing is a complement to speech or spoken language.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -45483,6 +45656,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1077-792X -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1077-792X">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">E.P. Coby &amp; Co.</terms:publisher>
+        <terms:title xml:lang="en">New York Medical Times</terms:title>
+        <schema:issn>1077-792X</schema:issn>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100415939</HATHITRUST>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2250886</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_Medical_Times</WIKIPEDIA>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1178-7074 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1178-7074">
@@ -45893,6 +46080,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1743-9191 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1743-9191">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">International Journal of Surgery</terms:title>
+        <schema:issn>1743-9191</schema:issn>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">011591895</HATHITRUST>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100415901</HATHITRUST>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Journal_of_Surgery</WIKIPEDIA>
+        <acronym xml:lang="en">IJS</acronym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1745-0179 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1745-0179">
@@ -46155,8 +46356,11 @@
         <terms:dateCopyrighted>March 1905</terms:dateCopyrighted>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1905</terms:issued>
         <terms:publisher xml:lang="en">Chicago Medical Book Co.</terms:publisher>
+        <terms:title xml:lang="en">Religion and Lust</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:bookEdition>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233</schema:numberOfPages>
         <GUTENBERG rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26071</GUTENBERG>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">007675725</HATHITRUST>
     </owl:Class>
     
 
@@ -46908,6 +47112,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9780025750500 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780025750500">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Nell Kimball</dc:creator>
+        <terms:publisher xml:lang="en">MacMillan Publishing Company</terms:publisher>
+        <schema:datePublished>May 1970</schema:datePublished>
+        <schema:editor>Stephen Longstreet</schema:editor>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780025750500</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">286</schema:numberOfPages>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9780028659602 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780028659602">
@@ -46932,6 +47150,22 @@
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780191744358</schema:isbn>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780199657681</schema:isbn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780199829941 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780199829941">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Jonathan Green</dc:creator>
+        <terms:publisher xml:lang="en">Chambers Harrap Publishers</terms:publisher>
+        <terms:title xml:lang="en">Green&apos;s Dictionary of Slang</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</schema:datePublished>
+        <DOI>10.1093/acref/9780199829941.001.0001</DOI>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Green%27s_Dictionary_of_Slang</WIKIPEDIA>
+        <acronym xml:lang="en">GDOS</acronym>
+        <electronic-isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780199829941</electronic-isbn>
     </owl:Class>
     
 
@@ -48120,7 +48354,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <schema:memberOf xml:lang="en">Otoe</schema:memberOf>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#Two_Spirit"/>
+        <alternative-spelling xml:lang="iow">mihxóge</alternative-spelling>
+        <alternative-spelling xml:lang="iow">mixhóge</alternative-spelling>
+        <alternative-spelling xml:lang="iow">mixóge</alternative-spelling>
+        <alternative-spelling xml:lang="iow">míxoge</alternative-spelling>
         <preferred-name xml:lang="en">mixo&apos;ge</preferred-name>
+        <preferred-name xml:lang="iow">mixo&apos;ge</preferred-name>
     </owl:Class>
     
 
