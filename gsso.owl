@@ -4054,6 +4054,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#IsiNgqumo">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_argot"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/IsiNgqumo</WIKIPEDIA>
         <preferred-name xml:lang="en">IsiNgqumo</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">IsiGqumo</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -4440,6 +4441,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_journal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journal"/>
+        <schema:alternateName xml:lang="en">LGBT-related journals</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_journals</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT-related journal</preferred-name>
     </owl:Class>
@@ -4667,6 +4669,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_linguistics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguistics"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_linguistics</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT linguistics</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">lavender linguistics</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">queer linguistics</oboInOwl1:hasExactSynonym>
@@ -4806,6 +4809,7 @@
         <schema:alternateName xml:lang="en">LGBT social movements</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_social_movements</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT social movement</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">LGBT social movements are social movements that advocate for LGBT+ people in society.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5786,6 +5790,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Polari">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_argot"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Polari</WIKIPEDIA>
         <preferred-name xml:lang="en">Polari</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Palare</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Palari</oboInOwl1:hasExactSynonym>
@@ -5848,8 +5853,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Protest_from_an_Androgyne">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
+        <terms:issued>July 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
         <terms:title xml:lang="en">Protest from an Androgyne</terms:title>
+        <schema:editor>William J. Robinson</schema:editor>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">316</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">313</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</schema:volumeNumber>
     </owl:Class>
     
 
@@ -6417,6 +6428,8 @@
 - Elverson (1975)
 - Spivak (1983)
 - LambdaMOO/Spivak (1991)</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Spivak_pronoun</WIKIPEDIA>
+        <named-after>Michael Spivak</named-after>
         <preferred-name xml:lang="en">Spivak pronoun</preferred-name>
     </owl:Class>
     
@@ -6468,10 +6481,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Studies_in_Androgynism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
+        <terms:issued>December 1920</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
         <terms:title xml:lang="en">Studies in Androgynism</terms:title>
         <schema:editor>Victor Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235</schema:pageStart>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</schema:volumeNumber>
     </owl:Class>
     
@@ -6520,6 +6536,7 @@
         <terms:issued>October 1918</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
         <terms:title xml:lang="en">The Fairie Boy</terms:title>
+        <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">436</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">433</schema:pageStart>
@@ -6533,8 +6550,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#The_Female-Impersonator">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
+        <terms:issued>June 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
         <terms:title xml:lang="en">The Female-Impersonator</terms:title>
+        <schema:editor>William J. Robinson</schema:editor>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">241</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</schema:volumeNumber>
     </owl:Class>
     
 
@@ -6571,8 +6594,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#The_Sorrows_of_Jennie_June">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
+        <terms:issued>April 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
         <terms:title xml:lang="en">The Sorrows of Jennie June</terms:title>
+        <schema:editor>William J. Robinson</schema:editor>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</schema:volumeNumber>
     </owl:Class>
     
 
@@ -6587,6 +6616,7 @@
         <dc:creator>Ellen Shumsky</dc:creator>
         <dc:creator>Lois Hart</dc:creator>
         <dc:creator>Rita Mae Brown</dc:creator>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Woman-Identified_Woman</WIKIPEDIA>
         <alternative-spelling xml:lang="en">The Woman Identified Woman</alternative-spelling>
         <preferred-name xml:lang="en">The Woman-Identified Woman</preferred-name>
     </owl:Class>
@@ -8347,6 +8377,7 @@
         <derogatory-term xml:lang="en">sodomy</derogatory-term>
         <preferred-name xml:lang="de">Analsex</preferred-name>
         <preferred-name xml:lang="en">anal sex</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A sexual activity involving stimulation of a sexual partner’s anus and/or rectum, especially by penetration.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="de">Analverkehr</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">anal coition</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">anal coitus</oboInOwl1:hasExactSynonym>
@@ -8741,6 +8772,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#animal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organism"/>
         <schema:alternateName xml:lang="en">animals</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Animal</WIKIPEDIA>
         <preferred-name xml:lang="en">animal</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="la">Animalia</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -9170,6 +9202,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#argot">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#secret_language"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Argot</WIKIPEDIA>
         <preferred-name xml:lang="en">argot</preferred-name>
     </owl:Class>
     
@@ -9179,6 +9212,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#argument">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#proposition"/>
+        <schema:alternateName xml:lang="en">arguments</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Argument</WIKIPEDIA>
         <preferred-name xml:lang="en">argument</preferred-name>
     </owl:Class>
     
@@ -9245,7 +9280,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#article">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#publication"/>
+        <schema:alternateName xml:lang="en">articles</schema:alternateName>
+        <NCIT>C47902</NCIT>
+        <SIO>SIO:000154</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Article_(publishing)</WIKIPEDIA>
         <preferred-name xml:lang="en">article</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An article is a publication that is stand-alone section of a larger work.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Nonfictional prose forming an independent part of a publication.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9675,7 +9716,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#audio-visual_document">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">audio-visual documents</schema:alternateName>
         <preferred-name xml:lang="en">audio-visual document</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any document with audio and/or video components, such as a film.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9757,7 +9800,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1918</terms:dateCopyrighted>
+        <terms:publisher xml:lang="en">Medico-Legal Journal</terms:publisher>
         <terms:title xml:lang="en">Autobiography of an Androgyne</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:editor>Alfred W. Herzog</schema:editor>
         <schema:url>https://archive.org/details/autobiographyofa00lind</schema:url>
         <INTERNET_ARCHIVE>autobiographyofa00lind</INTERNET_ARCHIVE>
         <preferred-name xml:lang="en">Autobiography of an Androgyne</preferred-name>
@@ -10283,8 +10329,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bear">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bear_(gay_culture)</WIKIPEDIA>
         <preferred-name xml:lang="en">bear</preferred-name>
         <slang-term xml:lang="en">bear</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">In male gay culture, a bear is often a larger, hairier man who projects an image of rugged masculinity. Bears are one of many LGBT communities with events, codes, and a culture-specific identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10293,8 +10341,26 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bear_code">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bear"/>
+        <dc:creator>Bob Donahue</dc:creator>
+        <dc:creator>Jeff Stoner</dc:creator>
+        <schema:url>https://web.archive.org/web/20180327224123/http://www.qrd.org/qrd/electronic/sig-codes/bear.code</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Natural_Bears_Classification_System</WIKIPEDIA>
         <preferred-name xml:lang="en">bear code</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Natural Bears Classification System</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#bear_code"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/url"/>
+        <owl:annotatedTarget>https://web.archive.org/web/20180327224123/http://www.qrd.org/qrd/electronic/sig-codes/bear.code</owl:annotatedTarget>
+        <terms:hasVersion>1.9.1</terms:hasVersion>
+        <terms:issued>24 March 1991</terms:issued>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#bear_code"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">Natural Bears Classification System</owl:annotatedTarget>
+        <acronym xml:lang="en">NBCS</acronym>
+    </owl:Axiom>
     
 
 
@@ -10437,10 +10503,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bi-curiosity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_curiosity"/>
+        <schema:alternateName xml:lang="en">bicurious</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bi-curious</WIKIPEDIA>
         <alternative-spelling xml:lang="en">bicuriosity</alternative-spelling>
         <alternative-spelling xml:lang="en">bicuriousity</alternative-spelling>
         <preferred-name xml:lang="en">bi-curiosity</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Interested in having relationships with both men and women, curious about one&apos;s potential bisexuality; especially, of heterosexual people, considering a first sexual experience with a member of the same sex.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">bicurious</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -10670,7 +10739,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#biological_taxon">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#taxon"/>
+        <schema:alternateName xml:lang="en">biological taxa</schema:alternateName>
+        <NCIT>C40098</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Taxon</WIKIPEDIA>
         <preferred-name xml:lang="en">biological taxon</preferred-name>
+        <shortened-term xml:lang="en">taxon</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Ranked categories for the classification of organisms according to their suspected evolutionary relationships.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">taxa</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -11117,7 +11192,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#black_nationalism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nationalism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Black_nationalism</WIKIPEDIA>
         <preferred-name xml:lang="en">black nationalism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Black nationalism is a type of nationalism which espouses the belief that black people are a nation and seeks to develop and maintain a black identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11353,7 +11430,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#book">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#publication"/>
         <schema:alternateName xml:lang="en">books</schema:alternateName>
+        <NCIT>C16360</NCIT>
+        <SIO>SIO:000106</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Book</WIKIPEDIA>
         <preferred-name xml:lang="en">book</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A book is a publication composed of a large number of entries.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A volume made up of pages fastened along one edge and enclosed between protective covers.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11725,8 +11807,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#butch">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Polari"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#femme"/>
         <preferred-name xml:lang="en">butch</preferred-name>
         <preferred-name xml:lang="pld">butch</preferred-name>
+        <slang-term xml:lang="en">butch</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A lesbian who appears masculine or acts in a masculine manner.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11848,7 +11934,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#case_report">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#report"/>
         <schema:alternateName xml:lang="en">case reports</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Case_report</WIKIPEDIA>
         <preferred-name xml:lang="en">case report</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A case report is a detailed report of the symptoms, signs, diagnosis, treatment, and follow-up of an individual patient.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13041,7 +13129,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#class">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#set"/>
+        <schema:alternateName xml:lang="en">classes</schema:alternateName>
+        <SIO>SIO:000138</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Class_(set_theory)</WIKIPEDIA>
         <preferred-name xml:lang="en">class</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A class is a collection of sets which can be unambiguously defined by a property that all its members share.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13462,7 +13554,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#collection">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#set"/>
+        <schema:alternateName xml:lang="en">collections</schema:alternateName>
+        <SIO>SIO:000616</SIO>
         <preferred-name xml:lang="en">collection</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A collection is a set for which there exists at least one member, although any member need not to exist at any point in the collection&apos;s existence.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13472,7 +13567,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#collection_of_documents">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#collection"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">collections of documents</schema:alternateName>
+        <SIO>SIO:000295</SIO>
         <preferred-name xml:lang="en">collection of documents</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A collection of documents is a non-zero set of documents.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -14133,6 +14231,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#connected_anatomical_structure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anatomical_structure"/>
+        <schema:alternateName xml:lang="en">connected anatomical structures</schema:alternateName>
         <preferred-name xml:lang="en">connected anatomical structure</preferred-name>
     </owl:Class>
     
@@ -14947,6 +15046,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cyberfeminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cyberfeminism</WIKIPEDIA>
         <preferred-name xml:lang="en">cyberfeminism</preferred-name>
     </owl:Class>
     
@@ -15410,6 +15510,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#description">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language_entity"/>
+        <schema:alternateName xml:lang="en">descriptions</schema:alternateName>
         <preferred-name xml:lang="en">description</preferred-name>
     </owl:Class>
     
@@ -15672,7 +15773,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dimensional_quantity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#quantity"/>
+        <schema:alternateName xml:lang="en">dimensional quantities</schema:alternateName>
+        <SIO>SIO:000258</SIO>
         <preferred-name xml:lang="en">dimensional quantity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A dimensional quantity is a quantity that has an associated unit.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -15986,6 +16090,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#textual_entity"/>
         <schema:alternateName xml:lang="en">documents</schema:alternateName>
         <IAO>IAO:0000310</IAO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Document</WIKIPEDIA>
         <preferred-name xml:lang="en">document</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A collection of information content entities intended to be understood together as a whole.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -15996,8 +16101,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#document_component">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">document components</schema:alternateName>
         <SIO>SIO:000171</SIO>
         <preferred-name xml:lang="en">document component</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A bibliographic attribute is an attribute related to publications.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16094,6 +16201,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#double_standard">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#standard"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
+        <schema:alternateName xml:lang="en">double standards</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Double_standard</WIKIPEDIA>
         <preferred-name xml:lang="en">double standard</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">double standard of sexual morality</oboInOwl1:hasExactSynonym>
@@ -16150,6 +16258,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drag_queen">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dresser"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#queen"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -16736,7 +16845,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#electronic_document">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#electronic_content"/>
+        <schema:alternateName xml:lang="en">electronic documents</schema:alternateName>
         <NCIT>C73620</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Electronic_document</WIKIPEDIA>
         <preferred-name xml:lang="en">electronic document</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Writing recorded in a format that requires an electronic device to view or modify.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -17143,7 +17254,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#equivalence_class">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#class"/>
+        <schema:alternateName xml:lang="en">equivalence classes</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Equivalence_class</WIKIPEDIA>
         <preferred-name xml:lang="en">equivalence class</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The class of all members of a set that are in a given equivalence relation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18070,9 +18184,11 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_and_the_Lady_Lover"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_or_&apos;Fag&apos;"/>
         <schema:Quotation xml:lang="en">Does the &apos;fairy&apos; or &apos;fag&apos; really exist? This question has been asked time and again. There is no doubt but that this type of denegerate is a reality. He is a freak of nature who in every way attempts to imitate women.</schema:Quotation>
+        <rdfs:comment xml:lang="en">In North America, fag is often considered highly offensive, although some gay people have tried to reclaim it.</rdfs:comment>
         <derogatory-term xml:lang="en">fag</derogatory-term>
         <preferred-name xml:lang="en">fag</preferred-name>
         <proper-term rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay man</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
     </owl:Class>
@@ -18132,7 +18248,9 @@
         <schema:Quotation xml:lang="en">The term &quot;fairie&quot; is widely used in the United States by those who are in touch with the underworld. It probably originated on sailing vessels of olden times when voyages lasted for months. While the crew was either actually or prospectively suffering acutely from the absence of the female of the species, one of their number would unexpectedly betray an inclination to supply her place. Looked upon as a fairy gift or godsend, such an individual would be referred to as &quot;the fairy.&quot;</schema:Quotation>
         <schema:alternateName xml:lang="en">fairies</schema:alternateName>
         <alternative-spelling xml:lang="en">fairie</alternative-spelling>
+        <derogatory-term xml:lang="en">fairy</derogatory-term>
         <preferred-name xml:lang="en">fairy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay man, especially one considered to be feminine.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#fairy"/>
@@ -18378,7 +18496,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fascism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nationalism"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Fascism</WIKIPEDIA>
         <preferred-name xml:lang="en">fascism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Fascism is a form of radical authoritarian ultranationalism, characterized by dictatorial power, forcible suppression of opposition and strong regimentation of society and of the economy, which came to prominence in early 20th-century Europe.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18757,8 +18877,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#identity_movement"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Feminism</WIKIPEDIA>
         <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#feminist"/>
         <preferred-name xml:lang="en">feminism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Feminism is a range of political movements, ideologies, and social movements that share a common goal: to define, establish, and achieve political, economic, personal, and social equality of sexes. This includes seeking to establish educational and professional opportunities for women that are equal to those for men.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18798,6 +18920,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminist_philosophy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_philosophy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Feminist_philosophy</WIKIPEDIA>
         <preferred-name xml:lang="en">feminist philosophy</preferred-name>
     </owl:Class>
     
@@ -18820,6 +18943,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feminist_theory">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Feminist_theory</WIKIPEDIA>
         <preferred-name xml:lang="en">feminist theory</preferred-name>
     </owl:Class>
     
@@ -18887,7 +19011,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#femme">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#butch"/>
         <preferred-name xml:lang="en">femme</preferred-name>
+        <slang-term xml:lang="en">femme</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A feminine lesbian, especially one who is attracted to masculine (butch) lesbians.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who expresses feminine-associated behaviours (not necessarily bound to traditional roles of femininity), interactions and political views, or one (such as a non-binary person) who expresses a more feminine- than masculine-associated identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19095,8 +19223,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#figurative_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#literal_language"/>
         <preferred-name xml:lang="en">figurative language</preferred-name>
-        <oboInOwl1:hasExactSynonym xml:lang="en">non-figurative language</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">Figurative (or non-literal) language uses words in a way that deviates from their conventionally accepted definitions in order to convey a more complicated meaning or heightened effect.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">non-literal language</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -19105,6 +19235,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#figure_of_speech">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#figurative_language"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Figure_of_speech</WIKIPEDIA>
         <preferred-name xml:lang="en">figure of speech</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">rhetorical figure</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -19161,6 +19292,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#first-wave_feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#waves_of_feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/First-wave_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">first-wave feminism</preferred-name>
     </owl:Class>
     
@@ -19230,6 +19362,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physical_object"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <NCIT>C62695</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Food</WIKIPEDIA>
         <preferred-name xml:lang="en">food</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A group of materials of either plant, animal or artificial origin containing essential body nutrients that can be ingested by an organism to produce energy, stimulate growth, and maintain life.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -19399,6 +19532,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fourth-wave_feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#waves_of_feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Fourth-wave_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">fourth-wave feminism</preferred-name>
     </owl:Class>
     
@@ -19449,8 +19583,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#friend_of_Dorothy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
         <schema:alternateName xml:lang="en">friends of Dorothy</schema:alternateName>
+        <rdfs:comment xml:lang="en">Commonly thought to refer to Dorothy in The Wizard of Oz (1939), portrayed by gay icon Judy Garland.</rdfs:comment>
         <acronym xml:lang="en">FOD</acronym>
+        <historical-term xml:lang="en">friend of Dorothy</historical-term>
         <preferred-name xml:lang="en">friend of Dorothy</preferred-name>
+        <slang-term xml:lang="en">friend of Dorothy</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay man.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19537,10 +19675,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <schema:alternateName xml:lang="en">fruity</schema:alternateName>
+        <colloquial-term xml:lang="en">fruit</colloquial-term>
         <derogatory-term xml:lang="en">fruit</derogatory-term>
         <derogatory-term xml:lang="en">fruiter</derogatory-term>
         <derogatory-term xml:lang="en">fruity</derogatory-term>
+        <historical-term xml:lang="en">fruit</historical-term>
         <preferred-name xml:lang="en">fruit</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay man.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">fruiter</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
@@ -20027,8 +20168,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender-neutral_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender-neutral_language</WIKIPEDIA>
         <preferred-name xml:lang="en">gender-neutral language</preferred-name>
-        <oboInOwl1:hasExactSynonym xml:lang="en">gender-inclusive language</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">Gender-neutral language is language that avoids bias towards a particular sex or social gender.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">gender-inclusive language</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -20784,7 +20927,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#genderless_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Genderless_language</WIKIPEDIA>
         <preferred-name xml:lang="en">genderless language</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A genderless language is a natural or constructed language that has no distinctions of grammatical gender—that is, no categories requiring morphological agreement between nouns and associated pronouns, adjectives, articles, or verbs.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21233,7 +21378,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#glossary">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
         <schema:alternateName xml:lang="en">glossaries</schema:alternateName>
+        <NCIT>C18232</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Glossary</WIKIPEDIA>
         <preferred-name xml:lang="en">glossary</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An alphabetical list of technical terms in some specialized field of knowledge; usually published as an appendix to a text on that field.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21354,7 +21502,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#government_publication">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#publication"/>
+        <schema:alternateName xml:lang="en">government publications</schema:alternateName>
         <preferred-name xml:lang="en">government publication</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A resource published by a governing body.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21366,6 +21516,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#report"/>
         <schema:alternateName xml:lang="en">government reports</schema:alternateName>
         <preferred-name xml:lang="en">government report</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A report issued by a state, nation, or other governing body.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22571,15 +22722,15 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#hijra"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
-        <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#eunuch"/>
-        <rdfs:comment xml:lang="en">In India, hijras have the option to identify as eunuch (&quot;E&quot;) on passports and certain other government documents. However, they must identify as male or female in order to vote.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#hijra"/>
         <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#derogatory-term"/>
         <owl:annotatedTarget xml:lang="ur">حجرا</owl:annotatedTarget>
         <rdfs:comment xml:lang="en">The term &quot;hijra&quot; is considered derogatory in Urdu, with the term &quot;Khwaja Sara&quot; used instead.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#hijra"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#eunuch"/>
+        <rdfs:comment xml:lang="en">In India, hijras have the option to identify as eunuch (&quot;E&quot;) on passports and certain other government documents. However, they must identify as male or female in order to vote.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -23056,6 +23207,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mammal"/>
         <schema:alternateName xml:lang="en">humans</schema:alternateName>
         <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9606</NCBITAXON>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human</WIKIPEDIA>
         <preferred-name xml:lang="en">human</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="la">Homo sapiens</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">human being</oboInOwl1:hasExactSynonym>
@@ -23173,6 +23325,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#body"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human"/>
         <schema:alternateName xml:lang="en">human bodies</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_body</WIKIPEDIA>
         <preferred-name xml:lang="en">human body</preferred-name>
     </owl:Class>
     
@@ -23358,6 +23511,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_rights">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_rights</WIKIPEDIA>
         <preferred-name xml:lang="en">human rights</preferred-name>
     </owl:Class>
     
@@ -23395,7 +23549,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_rights_document">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_rights"/>
+        <schema:alternateName xml:lang="en">human rights documents</schema:alternateName>
         <preferred-name xml:lang="en">human rights document</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Documents pertaining specifically to human rights or the subject of human rights.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24006,6 +24162,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#idea">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#proposition"/>
+        <schema:alternateName xml:lang="en">ideas</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Idea</WIKIPEDIA>
         <preferred-name xml:lang="en">idea</preferred-name>
     </owl:Class>
     
@@ -24073,6 +24231,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#identity_movement">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#identity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_ideology"/>
+        <schema:alternateName xml:lang="en">identity movements</schema:alternateName>
         <preferred-name xml:lang="en">identity movement</preferred-name>
     </owl:Class>
     
@@ -24112,6 +24271,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ideology">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#idea"/>
+        <schema:alternateName xml:lang="en">ideologies</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ideology</WIKIPEDIA>
         <coined-by>Antoine Destutt de Tracy</coined-by>
         <preferred-name xml:lang="en">ideology</preferred-name>
     </owl:Class>
@@ -25502,7 +25663,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#journal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#periodical"/>
+        <schema:alternateName xml:lang="en">journals</schema:alternateName>
+        <NCIT>C40976</NCIT>
+        <SIO>SIO:000160</SIO>
         <preferred-name xml:lang="en">journal</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A periodical dedicated to a particular subject.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25790,7 +25955,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language_entity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguistic_taxon"/>
+        <schema:alternateName xml:lang="en">languages</schema:alternateName>
+        <GOLD>Language</GOLD>
+        <NCIT>C16779</NCIT>
+        <SIO>SIO:000104</SIO>
+        <STY>T171</STY>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Language</WIKIPEDIA>
         <preferred-name xml:lang="en">language</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A systematic means of communicating by the use of sounds, symbols, or gestures.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Language is a language entity which is the result of encoding and decoding information through systematic creation and usage of systems of symbols, each pairing a specific sign with an intended meaning, established through social conventions</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25892,7 +26065,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#law_report">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#report"/>
+        <schema:alternateName xml:lang="en">law reports</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Law_report</WIKIPEDIA>
         <preferred-name xml:lang="en">law report</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Law reports or reporters are series of books that contain judicial opinions from a selection of case law decided by courts.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25954,7 +26130,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#left-wing_politics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_spectrum"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Left-wing_politics</WIKIPEDIA>
         <preferred-name xml:lang="en">left-wing politics</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Left-wing politics supports social equality and egalitarianism, often in opposition to social hierarchy. It typically involves a concern for those in society whom its adherents perceive as disadvantaged relative to others (prioritarianism) as well as a belief that there are unjustified inequalities that need to be reduced or abolished (by advocating for social justice).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26043,7 +26221,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#legal_document">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">legal documents</schema:alternateName>
+        <SIO>SIO:001373</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Legal_documents</WIKIPEDIA>
         <preferred-name xml:lang="en">legal document</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A legal document is a formally executed written document that can be formally attributed to its author, records and formally expresses a legally enforceable act, process, or contractual duty, obligation, or right, and therefore evidences that act, process, or agreement.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26195,6 +26377,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbian_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian feminism</preferred-name>
     </owl:Class>
     
@@ -26206,6 +26389,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_lesbianism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#separatist_feminism"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Separatist_feminism#Lesbian_separatism</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian separatism</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Lesbian separatism is a form of separatist feminism specific to lesbians. Separatism has been considered by lesbians as both a temporary strategy and as a lifelong practice. Many lesbian separatists bought land so they could live separately from men and heterosexual women.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -26438,7 +26622,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#linguistic_taxon">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#taxon"/>
+        <schema:alternateName xml:lang="en">linguistic taxa</schema:alternateName>
+        <GOLD>LinguisticTaxon</GOLD>
         <preferred-name xml:lang="en">linguistic taxon</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The class of taxa whose instances are used in the scientific classification of language varieties. That is, instances of linguistic taxon have instances that are human language varieties.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26448,7 +26635,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#linguistics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_science"/>
+        <MESH_UID>D008037</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Linguistics</WIKIPEDIA>
         <preferred-name xml:lang="en">linguistics</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The science of language, including phonetics, phonology, morphology, syntax, semantics, pragmatics, and historical linguistics.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26466,7 +26656,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#list">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#set"/>
+        <schema:alternateName xml:lang="en">lists</schema:alternateName>
+        <SIO>SIO:000150</SIO>
         <preferred-name xml:lang="en">list</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A list is any enumeration of a set of items.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26475,7 +26668,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#literal_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#figurative_language"/>
         <preferred-name xml:lang="en">literal language</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Literal language uses words exactly according to their conventionally accepted meanings or denotation.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">non-figurative language</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -26622,7 +26818,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#magazine">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#periodical"/>
+        <SIO xml:lang="en">SIO:000121</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Magazine</WIKIPEDIA>
         <preferred-name xml:lang="en">magazine</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A magazine is a periodical that typically contains essays, stories, poems, etc., by many writers, and often photographs and drawings, frequently specializing in a particular subject or area, as hobbies, news, or sports.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">magazines</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -26631,7 +26831,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#magazine_article">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#article"/>
+        <schema:alternateName xml:lang="en">magazine articles</schema:alternateName>
         <preferred-name xml:lang="en">magazine article</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An article appearing in a magazine.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26901,6 +27103,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#vertebrate"/>
         <schema:alternateName xml:lang="en">mammals</schema:alternateName>
         <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40674</NCBITAXON>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Mammal</WIKIPEDIA>
         <preferred-name xml:lang="en">mammal</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="la">Mammalia</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -26970,7 +27173,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#manifesto">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">manifestos</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Manifesto</WIKIPEDIA>
         <preferred-name xml:lang="en">manifesto</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A manifesto is a published verbal declaration of the intentions, motives, or views of the issuer, be it an individual, group, political party or government.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27252,7 +27458,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#masculism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#identity_movement"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Masculism</WIKIPEDIA>
         <preferred-name xml:lang="en">masculism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Masculism or masculinism may variously refer to advocacy of the rights or needs of men and boys; and the adherence to or promotion of attributes (opinions, values, attitudes, habits) regarded as typical of men and boys.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">masculinism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -27631,7 +27840,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#measurement_value">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#number"/>
+        <schema:alternateName xml:lang="en">measurement values</schema:alternateName>
+        <SIO>SIO:000070</SIO>
         <preferred-name xml:lang="en">measurement value</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A measurement value is a quantitative description that reflects the magnitude of some attribute.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -29300,7 +29512,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nationalism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_ideology"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Nationalism</WIKIPEDIA>
         <preferred-name xml:lang="en">nationalism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Nationalism is a political, social, and economic system characterized by the promotion of the interests of a particular nation, especially with the aim of gaining and maintaining sovereignty (self-governance) over the homeland.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -29715,6 +29929,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#news_journal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journal"/>
+        <schema:alternateName xml:lang="en">news journals</schema:alternateName>
         <preferred-name xml:lang="en">news journal</preferred-name>
     </owl:Class>
     
@@ -29724,7 +29939,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#newspaper">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#periodical"/>
+        <SIO>SIO:000163</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Newspaper</WIKIPEDIA>
         <preferred-name xml:lang="en">newspaper</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A newspaper is a periodical publication containing news regarding current events, informative articles, diverse features, editorials, and advertising.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">newspapers</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -29734,9 +29953,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#newspaper_article">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#article"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper"/>
+        <schema:alternateName xml:lang="en">newspaper articles</schema:alternateName>
         <MESH_UID>D018431</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Article_(publishing)#News_articles</WIKIPEDIA>
         <preferred-name xml:lang="en">newspaper article</preferred-name>
+        <shortened-term xml:lang="en">news article</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">Work consisting of a news item appearing in a general-interest newspaper or other general news periodical, containing information of current and timely interest in the field of medicine or science. This publication type should not be confused with NEWS Publication Type, reserved for news reports published in various medical or other scientific journals, such as &quot;Nature&quot;.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">news articles</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -30082,7 +30305,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#number">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mathematical_entity"/>
+        <schema:alternateName xml:lang="en">numbers</schema:alternateName>
+        <NCIT>C25337</NCIT>
+        <SIO>SIO:000366</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Number</WIKIPEDIA>
         <preferred-name xml:lang="en">number</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A number is a mathematical object used to count, label, and measure.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A numeral or string of numerals expressing value, quantity, or identification.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -30378,6 +30607,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#occupational_cryptolect">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#secret_language"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Occupational_cryptolects</WIKIPEDIA>
         <preferred-name xml:lang="en">occupational cryptolect</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">occupational cant</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -30476,6 +30706,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#official_document">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">official documents</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Official_documents</WIKIPEDIA>
         <preferred-name xml:lang="en">official document</preferred-name>
     </owl:Class>
     
@@ -30514,7 +30746,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#online_article">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#article"/>
+        <schema:alternateName xml:lang="en">online articles</schema:alternateName>
         <preferred-name xml:lang="en">online article</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An article appearing on the internet, usually on the World Wide Web.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -30686,6 +30920,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <preferred-name xml:lang="de">Mundverkehr</preferred-name>
         <preferred-name xml:lang="en">oral sex</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Stimulation of the genitals using the mouth.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#orastupration"/>
         <oboInOwl1:hasExactSynonym xml:lang="de">Oralsex</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="de">Oralverkehr</oboInOwl1:hasExactSynonym>
@@ -30785,6 +31020,7 @@
         <LIFO>LifO:0000005</LIFO>
         <OBI>OBI:0100026</OBI>
         <STY>T001</STY>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Organism</WIKIPEDIA>
         <preferred-name xml:lang="en">organism</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">An organism may be either a prokaryote or a eukaryote. Prokaryotes are represented by two separate domains—bacteria and archaea. Eukaryotic organisms are characterized by the presence of a membrane-bound cell nucleus and contain additional membrane-bound compartments called organelles. Viruses are not typically considered to be organisms because they are incapable of autonomous reproduction, growth or metabolism. An organism is an individual entity that exhibits the properties of life, including reproduction, growth and development, maintenance, and response to stimuli. All organisms are composed of one or more cells.</oboInOwl1:hasDefinition>
@@ -30920,6 +31156,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
         <preferred-name xml:lang="en">otter</preferred-name>
         <slang-term xml:lang="en">otter</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A hairy man with a slender physique, in contrast with a bear, who is more thickset.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -31989,6 +32226,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#penis-in-vagina_intercourse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#vaginal_sex"/>
         <preferred-name xml:lang="en">penis-in-vagina intercourse</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual intercourse in which the penis is inserted into the vagina.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">penile-vaginal intercourse</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">penile-vaginal penetration</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">penile–vaginal penetration</oboInOwl1:hasExactSynonym>
@@ -32112,7 +32350,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#periodical">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#collection_of_documents"/>
+        <schema:alternateName xml:lang="en">periodicals</schema:alternateName>
+        <SIO>SIO:000162</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Periodical_literature</WIKIPEDIA>
         <preferred-name xml:lang="en">periodical</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A periodical is a publication that appears on a regular schedule.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">periodical literature</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">periodical publication</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">periodical publications</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -32447,7 +32692,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#phonetics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguistics"/>
+        <MESH_UID xml:lang="en">D010700</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Phonetics</WIKIPEDIA>
         <preferred-name xml:lang="en">phonetics</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The science or study of speech sounds and their production, transmission, and reception, and their analysis, classification, and transcription.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -33143,6 +33391,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#political_correctness">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sociolinguistics"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Political_correctness</WIKIPEDIA>
         <acronym xml:lang="en">P.C.</acronym>
         <acronym xml:lang="en">PC</acronym>
         <preferred-name xml:lang="en">political correctness</preferred-name>
@@ -33164,6 +33413,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#political_ideology">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ideology"/>
+        <schema:alternateName xml:lang="en">political ideologies</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Political_ideologies</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ideology#Political_ideologies</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/List_of_political_ideologies</WIKIPEDIA>
         <preferred-name xml:lang="en">political ideology</preferred-name>
     </owl:Class>
     
@@ -33174,6 +33427,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#political_lesbianism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#radical_feminism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#second-wave_feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Political_lesbianism</WIKIPEDIA>
         <preferred-name xml:lang="en">political lesbianism</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Political lesbianism embraces the theory that sexual orientation is a political and feminist choice, and advocates lesbianism as a positive alternative to heterosexuality for women as part of the struggle against sexism.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -33233,7 +33487,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#political_spectrum">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_ideology"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Political_spectrum</WIKIPEDIA>
         <preferred-name xml:lang="en">political spectrum</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A political spectrum is a system of classifying different political positions upon one or more geometric axes that symbolize independent political dimensions.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34036,6 +34292,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#proposition">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#description"/>
+        <schema:alternateName xml:lang="en">propositions</schema:alternateName>
         <preferred-name xml:lang="en">proposition</preferred-name>
     </owl:Class>
     
@@ -34146,6 +34403,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#protofeminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Protofeminism</WIKIPEDIA>
         <preferred-name xml:lang="en">protofeminism</preferred-name>
     </owl:Class>
     
@@ -34316,7 +34574,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psycholinguistics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguistics"/>
+        <MESH_UID>D011578</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psycholinguistics</WIKIPEDIA>
         <preferred-name xml:lang="en">psycholinguistics</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A discipline concerned with relations between messages and the characteristics of individuals who select and interpret them; it deals directly with the processes of encoding (phonetics) and decoding (psychoacoustics) as they relate states of messages to states of communicators.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">psychology of language</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -34559,7 +34821,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#publication">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">publications</schema:alternateName>
+        <IAO>IAO:0000311</IAO>
+        <NCIT>C48471</NCIT>
+        <SIO>SIO:000087</SIO>
         <preferred-name xml:lang="en">publication</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A publication is a document that has been made available by a publisher.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34652,7 +34919,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#quantity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#measurement_value"/>
+        <schema:alternateName xml:lang="en">quantities</schema:alternateName>
+        <NCIT>C25256</NCIT>
+        <SIO>SIO:000052</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Quantity</WIKIPEDIA>
         <preferred-name xml:lang="en">quantity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A quantity is an informational entity that gives the magnitude of a property.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">How much there is of something that you can measure; the total amount or number.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34670,7 +34943,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#queen">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <rdfs:comment xml:lang="en">Some of the people who were historically (in the late 1960s and 1970s) described as &quot;queens&quot; or &quot;drag queens&quot; or &quot;street queens&quot; are now sometimes considered transgender, especially when their gender identity is female or non-binary/genderqueer rather than male.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The term &quot;queen&quot; can be either derogatory or a self-identification.</rdfs:comment>
         <preferred-name xml:lang="en">queen</preferred-name>
+        <slang-term xml:lang="en">queen</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay man who is considered to be feminine</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34682,10 +34959,12 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <schema:alternateName xml:lang="en">queers</schema:alternateName>
+        <rdfs:comment xml:lang="en">The use of queer to mean &quot;non-heterosexual&quot; was formerly pejorative, and it may still be considered pejorative by many. Others have reclaimed the term, however, as a neutral descriptor. The pejorative applied mainly to those assigned male at birth who were perceived as either homosexual or effeminate; the reclaimed term is also used of those assigned female at birth.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Queer</WIKIPEDIA>
         <derogatory-term xml:lang="en">queer</derogatory-term>
         <preferred-name xml:lang="en">queer</preferred-name>
         <reclaimed_term xml:lang="en">queer</reclaimed_term>
+        <slang-term xml:lang="en">Pertaining to sexual behavior or identity (and/or to gender behavior or identity) which does not conform to conventional heterosexual norms, assumptions etc.</slang-term>
         <slang-term xml:lang="en">queer</slang-term>
     </owl:Class>
     
@@ -34698,6 +34977,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nationalism"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Queer_nationalism</WIKIPEDIA>
         <preferred-name xml:lang="en">queer nationalism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Queer nationalism is a phenomenon related both to the gay and lesbian liberation movement and nationalism. Adherents of this movement support the notion that the LGBT community forms a distinct people due to their unique culture and customs.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34794,6 +35074,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#radical_feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Radical_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">radical feminism</preferred-name>
     </owl:Class>
     
@@ -34803,6 +35084,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#radical_feminist_organization">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#radical_feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Radical_feminist_organizations</WIKIPEDIA>
         <preferred-name xml:lang="en">radical feminist organization</preferred-name>
     </owl:Class>
     
@@ -35006,6 +35288,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#reductio_ad_absurdum">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#argument"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Reductio_ad_absurdum</WIKIPEDIA>
         <preferred-name xml:lang="la">reductio ad absurdum</preferred-name>
         <preferred-name xml:lang="en">reduction to absurdity</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">argument to absurdity</oboInOwl1:hasExactSynonym>
@@ -35205,7 +35488,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#report">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#article"/>
         <schema:alternateName xml:lang="en">reports</schema:alternateName>
+        <IAO>IAO:0000088</IAO>
+        <NCIT>C25375</NCIT>
+        <SIO>SIO:001026</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Report</WIKIPEDIA>
         <preferred-name xml:lang="en">report</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A report is a textual document made that present focused, salient content to a specific audience.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A short textual account; having provided a short account.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -35603,7 +35892,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#right-wing_politics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_spectrum"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Right-wing_politics</WIKIPEDIA>
         <preferred-name xml:lang="en">right-wing politics</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Right-wing politics hold that certain social orders and hierarchies are inevitable, natural, normal or desirable, typically supporting this position on the basis of natural law, economics or tradition. Hierarchy and inequality may be viewed as natural results of traditional social differences or the competition in market economies.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -36028,6 +36319,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#scheme">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#figure_of_speech"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Figure_of_speech#Schemes</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Scheme_(linguistics)</WIKIPEDIA>
         <preferred-name xml:lang="en">scheme</preferred-name>
     </owl:Class>
     
@@ -36066,7 +36359,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#scholarly_article">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#article"/>
+        <schema:alternateName xml:lang="en">scholarly articles</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Academic_journal#Scholarly_articles</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Academic_publishing#Scholarly_paper</WIKIPEDIA>
         <preferred-name xml:lang="en">scholarly article</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An article which is an academic work and is published, or will be published, in an academic or scholarly journal.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">academic article</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">academic articles</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -36075,9 +36374,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#scholarly_journal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journal"/>
+        <schema:alternateName xml:lang="en">scholarly journals</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Academic_journal</WIKIPEDIA>
         <preferred-name xml:lang="en">scholarly journal</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An academic or scholarly journal is a periodical publication in which scholarship relating to a particular academic discipline is published.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">academic journal</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">academic journals</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -36239,6 +36541,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#second-wave_feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#waves_of_feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Second-wave_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">second-wave feminism</preferred-name>
     </owl:Class>
     
@@ -36316,7 +36619,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#secret_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
         <schema:alternateName xml:lang="en">secret languages</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cant_(language)</WIKIPEDIA>
         <preferred-name xml:lang="en">secret language</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A cant (or cryptolect, or secret language) is the jargon or argot of a group, often employed to exclude or mislead people outside the group.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cant</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">cryptolect</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -36497,7 +36802,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#semantics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguistics"/>
+        <MESH_UID>D012660</MESH_UID>
+        <NCIT>C54194</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Semantics</WIKIPEDIA>
         <preferred-name xml:lang="en">semantics</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The meaning of a string in some language; of or relating to the study of meaning and changes of meaning.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -36617,6 +36926,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#separatist_feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#radical_feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Separatist_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">separatist feminism</preferred-name>
     </owl:Class>
     
@@ -36758,7 +37068,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#set">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mathematical_entity"/>
+        <schema:alternateName xml:lang="en">sets</schema:alternateName>
+        <SIO>SIO:000289</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Set_(mathematics)</WIKIPEDIA>
         <preferred-name xml:lang="en">set</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A set is a collection of entities, for which there may be zero members.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37545,6 +37859,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_expression">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_activity"/>
         <preferred-name xml:lang="en">sexual expression</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">How one chooses (or is forced) to express their sexuality.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37717,6 +38032,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_activity"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <NCIT>C72881</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70256003</SCTID>
         <TE>E1.0.0.0.0.0.8</TE>
         <WIKIDATA>Q5873</WIKIDATA>
@@ -37727,6 +38043,7 @@
         <preferred-name xml:lang="en">sexual intercourse</preferred-name>
         <shortened-term xml:lang="en">intercourse</shortened-term>
         <shortened-term xml:lang="en">sex</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual interaction or activity between at least two organisms, typically (but not always) involving penetration of the vagina, anus, or mouth in some way, shape, or form.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">coition</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">coitus</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">copulation</oboInOwl1:hasExactSynonym>
@@ -38399,7 +38716,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#signed_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_language_variety"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <schema:alternateName xml:lang="en">signed languages</schema:alternateName>
+        <MESH_UID>D012813</MESH_UID>
+        <NCIT>C51278</NCIT>
+        <SIO>SIO:000980</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sign_language</WIKIPEDIA>
         <preferred-name xml:lang="en">signed language</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A sign language (also signed language) is a language that involves manual communication and body language to convey meaning. This can involve simultaneously combining hand shapes, orientation and movement of the hands, arms or body, and facial expressions to fluidly express a speaker&apos;s thoughts.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A system of hand gestures used for communication by the deaf or by people speaking different languages.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A system of hand gestures used for communication.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">sign language</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -38488,6 +38814,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#singular_they">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#they"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Singular_they</WIKIPEDIA>
         <preferred-name xml:lang="en">singular they</preferred-name>
     </owl:Class>
     
@@ -38616,7 +38943,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#slang">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Slang</WIKIPEDIA>
         <preferred-name xml:lang="en">slang</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang is language (words, phrases, and usages) of an informal register that members of special groups like teenagers, musicians, or criminals favor (over a standard language) in order to establish group identity, exclude outsiders, or both.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym xml:lang="en">slang language</oboInOwl1:hasSynonym>
     </owl:Class>
     
@@ -39204,6 +39533,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sociolinguistics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguistics"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sociolinguistics</WIKIPEDIA>
         <preferred-name xml:lang="en">sociolinguistics</preferred-name>
     </owl:Class>
     
@@ -39434,6 +39764,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#specification">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#description"/>
+        <schema:alternateName xml:lang="en">specifications</schema:alternateName>
         <SIO>SIO:000090</SIO>
         <preferred-name xml:lang="en">specification</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A specification is a description of the essential technical attributes/requirements for an object or procedure, and may be used to determine that the object/procedure meets its requirements/attributes.</oboInOwl1:hasDefinition>
@@ -39613,7 +39944,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#spoken_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_language_variety"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <schema:alternateName xml:lang="en">spoken languages</schema:alternateName>
+        <NCIT>C51277</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Spoken_language</WIKIPEDIA>
         <preferred-name xml:lang="en">spoken language</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A spoken language is a language produced by articulate sounds, as opposed to a written language.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Language communicated by means of words or sounds uttered through the mouth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39705,6 +40041,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#standard">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#specification"/>
+        <schema:alternateName xml:lang="en">standards</schema:alternateName>
         <SIO>SIO:000618</SIO>
         <preferred-name xml:lang="en">standard</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A standard is a socially-agreed upon specification.</oboInOwl1:hasDefinition>
@@ -39716,7 +40053,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#standard_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Standard_language</WIKIPEDIA>
         <preferred-name xml:lang="en">standard language</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A standard language or standard variety may be defined either as a language variety used by a population for public purposes or as a variety that has undergone standardization.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40256,7 +40595,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#survey">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">surveys</schema:alternateName>
         <NCIT>C17176</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Survey_(human_research)</WIKIPEDIA>
         <preferred-name xml:lang="en">survey</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A document used in a method of data collection that involves interviewing (or giving questionnaires to) a representative and often large group of people.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -40425,7 +40766,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#taxon">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#equivalence_class"/>
+        <schema:alternateName xml:lang="en">taxa</schema:alternateName>
+        <GOLD>Taxon</GOLD>
         <preferred-name xml:lang="en">taxon</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Taxa are the class of scientific categories used to create a taxonomy and determined according to scientific principles in a given domain</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40789,7 +41133,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#thesis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">theses</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Thesis</WIKIPEDIA>
         <preferred-name xml:lang="en">thesis</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A thesis is a document submitted in support of candidature for an academic degree or professional qualification presenting the author&apos;s research and findings.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40800,6 +41147,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#epicene_grammatical_gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_pronoun"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subject_pronoun"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/They</WIKIPEDIA>
         <preferred-name xml:lang="en">they</preferred-name>
     </owl:Class>
     
@@ -40819,6 +41167,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#third-wave_feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#waves_of_feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Third-wave_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">third-wave feminism</preferred-name>
     </owl:Class>
     
@@ -40859,6 +41208,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#thought">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#idea"/>
+        <schema:alternateName xml:lang="en">thoughts</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Thought</WIKIPEDIA>
         <preferred-name xml:lang="en">thought</preferred-name>
     </owl:Class>
@@ -41983,6 +42333,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trope">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#figure_of_speech"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Figure_of_speech#Tropes</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trope_(literature)</WIKIPEDIA>
         <preferred-name xml:lang="en">trope</preferred-name>
     </owl:Class>
     
@@ -42080,8 +42432,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#twink">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <rdfs:comment xml:lang="en">Note that the term &quot;twink&quot; can be considered offensive in some cases.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Twink_(gay_slang)</WIKIPEDIA>
         <preferred-name xml:lang="en">twink</preferred-name>
         <slang-term xml:lang="en">twink</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A young, attractive, slim male, usually having little body hair.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42090,6 +42445,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#twink_code">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#twink"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Twink_(gay_slang)#Twink_code</WIKIPEDIA>
         <preferred-name xml:lang="en">twink code</preferred-name>
     </owl:Class>
     
@@ -42714,6 +43070,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vaginal_sex">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#penetrative_sexual_intercourse"/>
         <preferred-name xml:lang="en">vaginal sex</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual intercourse in which the penis or other anatomical structure is inserted into the vagina.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">vaginal intercourse</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -42842,6 +43199,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#animal"/>
         <schema:alternateName xml:lang="en">vertebrates</schema:alternateName>
         <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7742</NCBITAXON>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Vertebrate</WIKIPEDIA>
         <preferred-name xml:lang="en">vertebrate</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="la">Vertebrata</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -43309,6 +43667,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#waves_of_feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Waves_of_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">waves of feminism</preferred-name>
     </owl:Class>
     
@@ -43341,8 +43700,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#webpage">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">webpages</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Web_page</WIKIPEDIA>
         <alternative-spelling xml:lang="en">web page</alternative-spelling>
         <preferred-name xml:lang="en">webpage</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A webpage is a document that is suitable for the World Wide Web and web browsers.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43352,8 +43714,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#website">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#collection_of_documents"/>
         <schema:alternateName xml:lang="en">websites</schema:alternateName>
+        <NCIT>C67518</NCIT>
         <SIO>SIO:000296</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Website</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">web site</alternative-spelling>
         <preferred-name xml:lang="en">website</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A website is a collection of documents published on the World Wide Web.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43489,7 +43855,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#white_nationalism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nationalism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#racism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/White_nationalism</WIKIPEDIA>
         <preferred-name xml:lang="en">white nationalism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">White nationalism is a type of nationalism or pan-nationalism that holds the belief that white people are a race and seeks to develop and maintain a white national identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43695,7 +44063,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#written_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_language_variety"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <schema:alternateName xml:lang="en">written languages</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Written_language</WIKIPEDIA>
         <preferred-name xml:lang="en">written language</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Communication by means of words or symbols traced or formed on paper or another surface.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Written language is a language that is communicated through a writing system.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43706,7 +44078,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</terms:dateCopyrighted>
+        <terms:publisher xml:lang="en">Medico-Legal Journal</terms:publisher>
         <terms:title xml:lang="en">The Female-Impersonators</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:editor>Alfred W. Herzog</schema:editor>
         <GOOGLE_BOOKS>wx1DAQAAMAAJ</GOOGLE_BOOKS>
     </owl:Class>
     
@@ -44491,6 +44866,29 @@
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:pageStart>
         <DOI>10.1007/s11199-018-0895-7</DOI>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#10.1007/s40134-018-0260-1 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1007/s40134-018-0260-1">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator>Ami D. Shah</dc:creator>
+        <dc:creator>Emily B. Sonnenblick</dc:creator>
+        <dc:creator>Tamar Reisman</dc:creator>
+        <dc:creator>Zil Goldstein</dc:creator>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:issued>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2167-4825"/>
+        <terms:title xml:lang="en">Breast Imaging of Transgender Individuals: A Review</terms:title>
+        <schema:datePublished>18 January 2018</schema:datePublished>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:volumeNumber>
+        <DOI>10.1007/s40134-018-0260-1</DOI>
+        <PMCID>PMC5773616</PMCID>
+        <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29392096</PMID>
     </owl:Class>
     
 
@@ -46243,6 +46641,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#2167-4825 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2167-4825">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Current Radiology Reports</terms:title>
+        <electronic-issn>2167-4825</electronic-issn>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#2168-8184 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2168-8184">
@@ -47771,8 +48179,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Boy—But_Never_Man">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
+        <terms:issued>March 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
         <terms:title xml:lang="en">Boy—But Never Man</terms:title>
+        <schema:editor>William J. Robinson</schema:editor>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</schema:volumeNumber>
     </owl:Class>
     
 
@@ -48134,8 +48548,11 @@
         <terms:issued>November 1918</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
         <terms:title xml:lang="en">The Girl-Boy&apos;s Suicide</terms:title>
+        <schema:editor>William J. Robinson</schema:editor>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">498</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">495</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</schema:volumeNumber>
     </owl:Class>
     
 
