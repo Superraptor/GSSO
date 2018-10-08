@@ -2108,7 +2108,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ada_Lovelace">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer_programmer"/>
         <schema:birthDate>10 December 1815</schema:birthDate>
+        <schema:birthPlace xml:lang="en">London, England</schema:birthPlace>
         <schema:deathDate>27 November 1852</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Marylebone, London, England</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Augusta Ada King, Countess of Lovelace (née Byron) was an English mathematician and writer, chiefly known for her work on Charles Babbage&apos;s proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognize that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is sometimes regarded as the first to recognise the full potential of a &quot;computing machine&quot; and the first computer programmer.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ada_Lovelace</WIKIPEDIA>
         <preferred-name>Ada Lovelace</preferred-name>
     </owl:Class>
@@ -2224,6 +2227,7 @@
         <schema:deathPlace xml:lang="en">Saunemin, Illinois, United States</schema:deathPlace>
         <schema:familyName>Cashier</schema:familyName>
         <schema:givenName>Albert</schema:givenName>
+        <rdfs:comment xml:lang="en">Albert D. J. Cashier was an Irish-born immigrant who served in the Union Army during the American Civil War. Cashier adopted the identity of a man before enlisting, and maintained it for the remainder of his life. Albert became famous as one of a number of women soldiers who served as men during the Civil War, although the consistent and long-term (at least 53 years) commitment to the male identity has prompted some contemporary scholars to suggest that Cashier was a trans man. On 5 May 1911, Cashier was moved to the Soldiers and Sailors home in Quincy, Illinois until his mental state deteriorated and he was moved to the Watertown State Hospital for the Insane in March 1914. Attendants at the Watertown State Hospital discovered that he had female genitalia when giving him a bath, at which point he was forced to wear women&apos;s clothes again after fifty years living as a man. Within six months he was dead.</rdfs:comment>
         <preferred-name>Albert Cashier</preferred-name>
     </owl:Class>
     
@@ -2233,8 +2237,19 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Alex_MacFarlane">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
+        <schema:birthDate>1950s</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Victoria, Australia</schema:birthPlace>
+        <schema:nationality xml:lang="en">Australian</schema:nationality>
+        <rdfs:comment xml:lang="en">Alex MacFarlane is believed to be the first holder of an indeterminate birth certificate and passport.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Alex_MacFarlane</WIKIPEDIA>
         <preferred-name>Alex MacFarlane</preferred-name>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Alex_MacFarlane"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/birthDate"/>
+        <owl:annotatedTarget>1950s</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">Based on MacFarlane being 48 in January 2003.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -2248,6 +2263,7 @@
         <schema:birthPlace xml:lang="en">Hoboken, New Jersey, United States</schema:birthPlace>
         <schema:deathDate>25 August 1956</schema:deathDate>
         <schema:deathPlace xml:lang="en">Bloomington, Indiana, United States</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Alfred Charles Kinsey was an American biologist, professor of entomology and zoology, and sexologist who in 1947 founded the Institute for Sex Research at Indiana University, previously known as the Kinsey Institute for Research in Sex, Gender, and Reproduction. He is best known for writing &quot;Sexual Behavior in the Human Male&quot; (1948) and &quot;Sexual Behavior in the Human Female&quot; (1953), also known as the Kinsey Reports, as well as the Kinsey scale.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Alfred_Kinsey</WIKIPEDIA>
         <preferred-name>Alfred Kinsey</preferred-name>
         <oboInOwl1:hasExactSynonym>Alfred C. Kinsey</oboInOwl1:hasExactSynonym>
@@ -2264,8 +2280,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#artist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
+        <schema:alumniOf xml:lang="en">Oberlin College</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">Simon&apos;s Rock College</schema:alumniOf>
         <schema:birthDate>10 September 1960</schema:birthDate>
         <schema:birthPlace xml:lang="en">Beech Creek, Pennsylvania, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Alison Bechdel is an American cartoonist. Originally best known for the long-running comic strip &quot;Dykes to Watch Out For&quot;, she came to critical and commercial success in 2006 with her graphic memoir &quot;Fun Home&quot;, which was subsequently adapted as a musical which won a Tony Award for Best Musical in 2015. She is a 2014 recipient of the MacArthur &quot;Genius&quot; Award. She is also known for originating the Bechdel test.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Alison_Bechdel</WIKIPEDIA>
         <preferred-name>Alison Bechdel</preferred-name>
     </owl:Class>
@@ -2389,7 +2408,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Andy_Warhol">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#artist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <schema:birthDate>6 August 1928</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Pittsburgh, Pennsylvania, United States</schema:birthPlace>
+        <schema:deathDate>22 February 1987</schema:deathDate>
+        <schema:deathPlace xml:lang="en">New York City, New York, United States</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Andy Warhol was an American artist, director and producer who was a leading figure in the visual art movement known as pop art. His works explore the relationship between artistic expression, celebrity culture, and advertising that flourished by the 1960s, and span a variety of media, including painting, silkscreening, photography, film, and sculpture.</rdfs:comment>
         <preferred-name>Andy Warhol</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Warhol, Andy</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -2422,6 +2447,7 @@
         <schema:birthPlace xml:lang="en">Brighton, Colorado, United States</schema:birthPlace>
         <schema:deathDate>17 July 2008</schema:deathDate>
         <schema:deathPlace xml:lang="en">Greeley, Colorado, United States</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Angie Zapata was an American trans woman beaten to death in Greeley, Colorado. Her killer, Allen Andrade, was convicted of first-degree murder and committing a hate crime, because he murdered her after learning she was transgender. The case was the first in the nation to get a conviction for a hate crime involving a transgender victim, which occurred in 2009.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Angie_Zapata</WIKIPEDIA>
         <preferred-name>Angie Zapata</preferred-name>
     </owl:Class>
@@ -2532,7 +2558,27 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Audrey_Mbugua">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
+        <schema:alumniOf xml:lang="en">KCA University</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">Maseno University</schema:alumniOf>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</schema:birthDate>
+        <schema:nationality xml:lang="en">Kenyan</schema:nationality>
+        <rdfs:comment xml:lang="en">Audrey Mbugua is a Kenyan transgender activist who has been involved in legal actions in the High Court of Kenya to fight for the rights of transgender people. She is also the head of the group Transgender Education and Advocacy and was nominated for the Dutch ministry of Foreign Affairs&apos; Human Rights Tulip award in 2014 for her activism.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Audrey_Mbugua</WIKIPEDIA>
         <preferred-name>Audrey Mbugua</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Auguste_Ambroise_Tardieu -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Auguste_Ambroise_Tardieu">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#forensic_scientist"/>
+        <schema:birthDate>10 March 1818</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Paris, France</schema:birthPlace>
+        <schema:deathDate>12 January 1879</schema:deathDate>
+        <schema:nationality xml:lang="en">French</schema:nationality>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Auguste_Ambroise_Tardieu</WIKIPEDIA>
+        <preferred-name>Auguste Ambroise Tardieu</preferred-name>
     </owl:Class>
     
 
@@ -2709,6 +2755,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bo_Laurent">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_activist"/>
+        <schema:alumniOf xml:lang="en">Massachusetts Institute of Technology</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">Sonoma State University</schema:alumniOf>
+        <schema:birthDate>14 August 1956</schema:birthDate>
+        <schema:birthPlace xml:lang="en">New Jersey, United States</schema:birthPlace>
+        <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Bo Laurent, better known by her pseudonym Cheryl Chase, is an American intersex activist and the founder of the Intersex Society of North America (ISNA).</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cheryl_Chase_(activist)</WIKIPEDIA>
         <preferred-name>Bo Laurent</preferred-name>
         <pseudonym>Cheryl Chase</pseudonym>
     </owl:Class>
@@ -2788,6 +2841,8 @@
         <schema:birthPlace xml:lang="en">Mount Kisco, New York, United States</schema:birthPlace>
         <schema:familyName xml:lang="en">Jenner</schema:familyName>
         <schema:givenName xml:lang="en">Caitlyn</schema:givenName>
+        <rdfs:comment xml:lang="en">Caitlyn Marie Jenner is an American television personality and retired Olympic gold medal-winning decathlete. Jenner revealed her identity as a trans woman in April 2015, publicly announcing her name change from Bruce to Caitlyn in a July 2015 &quot;Vanity Fair&quot; cover story. Her name and gender change became official on September 25, 2015. She has been called the most famous openly transgender woman in the world.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Caitlyn_Jenner</WIKIPEDIA>
         <preferred-name>Caitlyn Jenner</preferred-name>
     </owl:Class>
     
@@ -2840,12 +2895,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Carol_Leigh">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#artist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_workers&apos;_rights_activist"/>
         <schema:additionalName xml:lang="en">The Scarlot Harlot</schema:additionalName>
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1951</schema:birthDate>
         <schema:birthPlace xml:lang="en">New York City, New York, United States</schema:birthPlace>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Carol_Leigh</WIKIPEDIA>
         <preferred-name>Carol Leigh</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Carol Leigh (also known as The Scarlot Harlot), born 1951 in New York City, is an artist, author, film maker, and sex workers&apos; rights activist. She coined the term &quot;sex worker&quot; at a Women Against Violence in Pornography and Media conference in the late 1970s. She currently chairs the Sex Worker Film and Arts Festival and is the director of BAYSWAN, the Bay Area Sex Worker Advocacy Network.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -2911,6 +2968,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Chaz_Bono">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBTQ_advocate"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
+        <schema:birthDate>4 March 1969</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Los Angeles, California, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Chaz Bono came out as lesbian in April 1995 during an interview with the gay and lesbian magazine &quot;The Advocate&quot;. Bono worked as a writer for &quot;The Advocate&quot; as well as a social activist: he was the spokesperson for the Human Rights Campaign, promoted National Coming Out Day, campaigned against the Defense of Marriage Act, and served as Entertainment Media Director for GLAAD. In mid-2008, Bono began undergoing a physical and social transition from female to male. His legal transition was completed on 6 May 2010.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Chaz_Bono</WIKIPEDIA>
         <preferred-name>Chaz Bono</preferred-name>
     </owl:Class>
     
@@ -2958,6 +3019,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Christiane_Völling">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
+        <schema:birthDate>17 April 1959</schema:birthDate>
+        <schema:nationality xml:lang="en">German</schema:nationality>
+        <rdfs:comment xml:lang="en">Christiane Völling is the first intersex person known to have successfully sued for damages in a case brought for non-consensual surgical intervention described as a non-consensual sex reassignment.</rdfs:comment>
         <preferred-name>Christiane Völling</preferred-name>
     </owl:Class>
     
@@ -2979,7 +3043,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Christine_Hallquist">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#politician"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:alumniOf xml:lang="en">Mohawk Valley Community College</schema:alumniOf>
         <schema:birthDate>11 April 1956</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Baldwinsville, New York, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Christine Hallquist is an American politician and former CEO of Vermont Electric Cooperative (VEC). She is the first openly transgender major party nominee for governor in the United States, winning the 2018 Democratic nomination for Governor of Vermont with over 40% of the vote.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Christine_Hallquist</WIKIPEDIA>
         <preferred-name>Christine Hallquist</preferred-name>
     </owl:Class>
     
@@ -3003,6 +3071,7 @@
         <schema:familyName>Jorgensen</schema:familyName>
         <schema:givenName>Christine</schema:givenName>
         <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Christine Jorgensen was an American trans woman who was the first person to become widely known in the United States for having gender confirmation surgery.</rdfs:comment>
         <cause-of-death xml:lang="en">bladder cancer</cause-of-death>
         <cause-of-death xml:lang="en">lung cancer</cause-of-death>
         <preferred-name>Christine Jorgensen</preferred-name>
@@ -3020,6 +3089,7 @@
         <schema:birthDate>4 September 1964</schema:birthDate>
         <schema:birthPlace xml:lang="en">San Diego, California, United States</schema:birthPlace>
         <schema:deathDate>22 December 2012</schema:deathDate>
+        <rdfs:comment xml:lang="en">Christopher Lee was a transgender activist and filmmaker in the San Francisco Bay Area community. He was also the co-founder of the San Francisco Transgender Film Festival (SFTFF). His death and the designation of his assigned gender at birth on his death certificate rather than his self-identified gender was the impetus behind the “Respect After Death Act” or AB 1577 Bill which was passed in California on 26 September 2014.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Christopher_Lee_(activist)</WIKIPEDIA>
         <preferred-name>Christopher Lee</preferred-name>
     </owl:Class>
@@ -3044,6 +3114,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Claire_Augustus">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fictional_transgender_woman"/>
         <terms:source rdf:resource="https://questionablecontent.net/https://web.archive.org/web/20180910015252/https://questionablecontent.net/"/>
+        <rdfs:comment xml:lang="en">Claire Augustus is a fictional transgender woman appearing in Jeph Jacques&apos; webcomic series &quot;Questionable Content&quot;. Her first appearance was in 2012 (Number 2203), although she was not revealed as transgender until several appearances later (Number 2323). She later began dating protagonist Marten Reed and, on 5 February 2015, in Number 2891, Jeph Jacques portrayed Augustus undressing in front of Marten, but leaves her genitalia unseen (and uncommented on), reflecting the general inappropriateness surrounding obsessing about a trans person&apos;s genitalia. Unfortunately, the strip soon became a product of ridicule and was subsequently parodied by many transphobic people.</rdfs:comment>
         <preferred-name>Claire Augustus</preferred-name>
     </owl:Class>
     
@@ -3156,7 +3227,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Dan_Taulapapa_McMullin">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#artist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fa&apos;afafine"/>
+        <schema:alumniOf xml:lang="en">Claremont Graduate University</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">University of California, Irvine</schema:alumniOf>
         <schema:birthDate>23 May 1957</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Japan</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Dan Taulapapa McMullin is an American Samoan artist, known for his poetry, visual art and film. His major themes are his indigenous Samoan heritage and his fa&apos;afafine gender identity.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Dan_Taulapapa_McMullin</WIKIPEDIA>
         <preferred-name>Dan Taulapapa McMullin</preferred-name>
     </owl:Class>
@@ -3168,6 +3243,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Dana_Zzyym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_activist"/>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Michigan, United States</schema:birthPlace>
+        <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Dana Zzyym is an intersex U.S. Navy veteran who served four tours of duty in sex years. Zzyym&apos;s preferred pronouns are they/them and they do not identify as male or female. On a passport application, Zzyym marked &quot;X&quot;, leading the application to be denied. In response, Zzyym filed a lawsuit against Secretary of State John F. Kerry and the director of the Colorado Passport Agency in 2016. Zzyym&apos;s lawyer was Paul Castillo of Lambda Legal.</rdfs:comment>
         <preferred-name>Dana Zzyym</preferred-name>
     </owl:Class>
     
@@ -3180,6 +3259,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#politician"/>
         <schema:birthDate>30 September 1984</schema:birthDate>
         <schema:birthPlace xml:lang="en">Manassas, Virginia, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Danica Roem is an American journalist and politician of the Democratic Party. In the 2017 Virginia elections she was elected to the Virginia House of Delegates, winning the Democratic primary for the 13th district on June 13, and the general election on November 7. She is the first openly transgender person to be elected to the Virginia General Assembly, and in January 2018 became the first to both be elected and serve while openly transgender in any U.S. state legislature.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Danica_Roem</WIKIPEDIA>
         <preferred-name>Danica Roem</preferred-name>
     </owl:Class>
@@ -3227,6 +3307,7 @@
         <schema:birthDate>29 May 1951</schema:birthDate>
         <schema:birthPlace xml:lang="en">Montclair, New Jersey, United States</schema:birthPlace>
         <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Dean Hamer is an American geneticist, author, and filmmaker. He is known for his research on the role of genetics in sexual orientation and human behavior, contributions to biotechnology and HIV/AIDS prevention, and popular books and documentaries on a wide range of topics.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Dean_Hamer</WIKIPEDIA>
         <preferred-name>Dean Hamer</preferred-name>
     </owl:Class>
@@ -3283,6 +3364,7 @@
         <schema:birthPlace xml:lang="en">New York City, New York, United States</schema:birthPlace>
         <schema:deathDate>26 July 1971</schema:deathDate>
         <schema:deathPlace xml:lang="en">New York City, New York, United States</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Diane Arbus was an American photographer noted for photographs of marginalized people—dwarfs, giants, transgender people, nudists, circus performers—and others whose normality was perceived by the general populace as ugly or surreal. Her work has been described as consisting of formal manipulation characterized by blatant sensationalism.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diane_Arbus</WIKIPEDIA>
         <preferred-name>Diane Arbus</preferred-name>
     </owl:Class>
@@ -3357,6 +3439,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Edward_Cowley">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drag_queen"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fa&apos;afafine"/>
+        <rdfs:comment xml:lang="en">Edward Cowley is a New Zealand-Samoan facilitator, entertainer and fa&apos;afafine. Cowley worked for the New Zealand AIDS Foundation for almost ten years, working in Pacific and Men&apos;s outreach.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Edward_Cowley</WIKIPEDIA>
         <preferred-name>Edward Cowley</preferred-name>
         <pseudonym>Buckwheat</pseudonym>
@@ -3387,6 +3470,8 @@
         <schema:alumniOf xml:lang="en">Taipei Medical University</schema:alumniOf>
         <schema:birthDate>25 June 1988</schema:birthDate>
         <schema:birthPlace xml:lang="en">Bogotá, Colombia</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Eliana Rubashkyn is a Colombian–born, former stateless, New Zealander, known internationally for being the first birth-assigned male to female trans woman legally recognized as a woman under international law without undergoing gender confirmation surgery.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Eliana_Rubashkyn</WIKIPEDIA>
         <citizenship xml:lang="en">New Zealand</citizenship>
         <preferred-name xml:lang="en">Eliana Rubashkyn</preferred-name>
         <preferred-name xml:lang="he">אליאנה רובשקין</preferred-name>
@@ -3406,6 +3491,7 @@
         <schema:birthDate>26 January 1958</schema:birthDate>
         <schema:birthPlace xml:lang="en">Metairie, Louisiana, United States</schema:birthPlace>
         <schema:spouse>Portia de Rossi</schema:spouse>
+        <rdfs:comment xml:lang="en">In 1997, Ellen DeGeneres came out as a lesbian during an appearance on &quot;The Oprah Winfrey Show&quot;. DeGeneres went on to be engaged in August 2008 after the overturn of the same-sex marriage ban in California. Ellen&apos;s mother, Betty, is an active member of PFLAG and a spokesperson for the Human Rights Campaign&apos;s Coming Out project.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ellen_DeGeneres</WIKIPEDIA>
         <preferred-name xml:lang="en">Ellen DeGeneres</preferred-name>
     </owl:Class>
@@ -3416,6 +3502,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Emma_Goldman">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anarchist"/>
+        <schema:birthDate>27 June 1869</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Kovno, Kovno Governorate, Russian Empire</schema:birthPlace>
+        <schema:deathDate>14 May 1940</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Toronto, Ontario, Canada</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Emma Goldman was an anarchist political activist and writer. She played a pivotal role in the development of anarchist political philosophy in North America and Europe in the first half of the 20th century.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Emma_Goldman</WIKIPEDIA>
         <preferred-name xml:lang="en">Emma Goldman</preferred-name>
     </owl:Class>
     
@@ -3565,6 +3657,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Fuimaono_Karl_Pulotu-Endemann">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nurse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fa&apos;afafine"/>
+        <rdfs:comment xml:lang="en">Fuimaono Karl Pulotu-Endemann is a Samoan-born, New Zealand-based academic, nursing professional and fa&apos;afafine.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Fuimaono_Karl_Pulotu-Endemann</WIKIPEDIA>
         <preferred-name>Fuimaono Karl Pulotu-Endemann</preferred-name>
     </owl:Class>
@@ -3658,9 +3751,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Gayle">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_argot"/>
-        <WIKIPEDIA xml:lang="en">An English and Afrikaans-based gay argot or cant slang used primarily by English and Afrikaans-speaking gay men in urban communities of South Africa, and is similar in some respects to Polari in the United Kingdom, from which some lexical items have been borrowed.</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gayle_language</WIKIPEDIA>
         <preferred-name xml:lang="en">Gayle</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An English and Afrikaans-based gay argot or cant slang used primarily by English and Afrikaans-speaking gay men in urban communities of South Africa, and is similar in some respects to Polari in the United Kingdom, from which some lexical items have been borrowed.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Gail</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Gayle language</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -3683,8 +3776,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journalist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_activist"/>
+        <schema:alumniOf xml:lang="en">Smith College</schema:alumniOf>
         <schema:birthDate>25 March 1934</schema:birthDate>
         <schema:birthPlace xml:lang="en">Toledo, Ohio, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Gloria Marie Steinem is an American feminist, journalist, and social political activist who became nationally recognized as a leader and a spokeswoman for the American feminist movement in the late 1960s and early 1970s.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gloria_Steinem</WIKIPEDIA>
         <preferred-name>Gloria Steinem</preferred-name>
     </owl:Class>
     
@@ -3698,6 +3794,7 @@
         <schema:birthDate xml:lang="en">24 February 1985</schema:birthDate>
         <schema:deathDate xml:lang="en">4 October 2002</schema:deathDate>
         <schema:deathPlace xml:lang="en">Newark, California, United States</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Gwen Amber Rose Araujo was an American teenager who was murdered in Newark, California. She was killed by four men, two of whom she had been sexually intimate with, who beat and strangled her after discovering that she was transgender. Two of the defendants were convicted of second-degree murder, but not convicted on the requested hate crime enhancements. The other two defendants pleaded guilty or no contest to voluntary manslaughter. In at least one of the trials, a &quot;trans panic defense&quot;—an extension of the gay panic defense—was employed.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Murder_of_Gwen_Araujo</WIKIPEDIA>
         <preferred-name xml:lang="en">Gwen Araujo</preferred-name>
     </owl:Class>
@@ -3710,6 +3807,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:birthDate>22 July 1967</schema:birthDate>
+        <rdfs:comment xml:lang="en">Gwendolyn Smith founded Transgender Day of Remembrance, a day to memorialize people who have been killed as a result of anti-transgender prejudice.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gwendolyn_Ann_Smith</WIKIPEDIA>
         <preferred-name>Gwendolyn Smith</preferred-name>
     </owl:Class>
     
@@ -3723,6 +3822,7 @@
         <schema:birthPlace xml:lang="en">Berlin, Brandenburg, German Empire</schema:birthPlace>
         <schema:deathDate>24 August 1986</schema:deathDate>
         <schema:deathPlace xml:lang="en">New York City, New York, United States</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Harry Benjamin was a German-American endocrinologist and sexologist, widely known for his clinical work with transgender people.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Harry_Benjamin</WIKIPEDIA>
         <preferred-name>Harry Benjamin</preferred-name>
     </owl:Class>
@@ -3749,6 +3849,13 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <schema:alumniOf xml:lang="en">King&apos;s College London</schema:alumniOf>
+        <schema:birthDate>2 February 1859</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Croydon, Surrey, England</schema:birthPlace>
+        <schema:deathDate>8 July 1939</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Hintlesham, Suffolk, England</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Havelock Ellis was an English physician, writer, progressive intellectual and social reformer who studied human sexuality. He co-authored the first medical textbook in English on gay sexual orientation in 1897, and also published works on a variety of sexual practices and inclinations, as well as on transgender psychology.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Havelock_Ellis</WIKIPEDIA>
         <preferred-name>Havelock Ellis</preferred-name>
         <oboInOwl1:hasExactSynonym>Ellis, Havelock</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym>Ellis, Henry Havelock</oboInOwl1:hasExactSynonym>
@@ -3761,6 +3868,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Herculine_Barbin">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
+        <schema:birthDate>8 November 1838</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Saint-Jean-d&apos;Angély, France</schema:birthPlace>
+        <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</schema:deathDate>
+        <schema:nationality xml:lang="en">French</schema:nationality>
+        <rdfs:comment xml:lang="en">The birthday of Herculine Barbin is marked by the Intersex Day of Remembrance on 8 November. Barbin committed suicide in 1868.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#Intersex_Day_of_Remembrance"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Herculine_Barbin</WIKIPEDIA>
+        <cause-of-death xml:lang="en">suicide</cause-of-death>
         <preferred-name>Herculine Barbin</preferred-name>
     </owl:Class>
     
@@ -3772,6 +3887,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#māhū"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:alumniOf xml:lang="en">University of Hawaii at Manoa</schema:alumniOf>
+        <rdfs:comment xml:lang="en">Hinaleimoana Kwai Kong Wong-Kalu, also known as Kumu Hina, is a native Hawaiian māhū as well as a modern transgender woman. She is known for her work as a kumu hula (Hawaiian for &quot;hula teacher&quot;), cultural practitioner, and community leader.</rdfs:comment>
         <WIKIDATA>Q18921903</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hinaleimoana_Wong-Kalu</WIKIPEDIA>
         <preferred-name>Hinaleimoana Wong-Kalu</preferred-name>
@@ -4052,6 +4168,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Intersex_Society_of_North_America -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Intersex_Society_of_North_America">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_organization"/>
+        <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Bo_Laurent"/>
+        <schema:url>http://isna.org/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intersex_Society_of_North_America</WIKIPEDIA>
+        <acronym xml:lang="en">ISNA</acronym>
+        <preferred-name xml:lang="en">Intersex Society of North America</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Intersex_Society_of_North_America"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
+        <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#Bo_Laurent"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</terms:date>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Irish_Queer_Archive -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Irish_Queer_Archive">
@@ -4080,7 +4215,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Isidor_Sadger">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <schema:birthDate>29 October 1867</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Neu Sandez, Galicia</schema:birthPlace>
         <schema:deathDate>21 December 1942</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Theresienstadt concentration camp, Terezín, Protectorate of Bohemia and Moravia</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Isidor Isaak Sadger was a forensic doctor and psychoanalyst in Vienna. A leader in the early development of psychoanalysis, he began his career as a neurological specialist and, in 1894, began publishing a series of articles on psychophysiology. He studied with Sigmund Freud from 1895 to 1904 with a concentration in gay sexual orientation and fetishism and coined the term &quot;Sadomasochismus&quot; (sadomasochism) in 1913. He also coined the term &quot;Narcissmus&quot; (narcissism).</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Isidor_Sadger</WIKIPEDIA>
         <preferred-name>Isidor Sadger</preferred-name>
         <oboInOwl1:hasExactSynonym>Isidor Isaak Sadger</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -4102,7 +4241,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Jaiyah_Saelua">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#athlete"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fa&apos;afafine"/>
+        <schema:alumniOf xml:lang="en">University of Hawaii</schema:alumniOf>
         <schema:birthDate>19 July 1988</schema:birthDate>
+        <rdfs:comment xml:lang="en">Jaiyah Saelua is an American Samoan international football player and the first transgender player to compete in a men&apos;s FIFA World Cup qualifier.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Jaiyah_Saelua</WIKIPEDIA>
         <preferred-name>Jaiyah Saelua</preferred-name>
     </owl:Class>
@@ -4117,6 +4258,7 @@
         <schema:birthPlace xml:lang="en">Marion, Indiana, United States</schema:birthPlace>
         <schema:deathDate>30 September 1955</schema:deathDate>
         <schema:deathPlace xml:lang="en">Cholame, California, United States</schema:deathPlace>
+        <rdfs:comment xml:lang="en">James Byron Dean was an American actor. He is remembered as a cultural icon of teenage disillusionment and social estrangement, as expressed in the title of his most celebrated film, &quot;Rebel Without a Cause&quot; (1955), in which he starred as troubled teenager Jim Stark. James Dean was considered an early lesbian icon who, along with Marlon Brando, influenced the butch look and self-image in the 1950s and after.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/James_Dean</WIKIPEDIA>
         <preferred-name>James Dean</preferred-name>
         <oboInOwl1:hasExactSynonym>James Byron Dean</oboInOwl1:hasExactSynonym>
@@ -4153,6 +4295,7 @@
         <schema:birthPlace xml:lang="en">Connecticut, United States</schema:birthPlace>
         <schema:memberOf rdf:resource="https://github.com/Superraptor/GSSO#Cercle_Hermaphroditos"/>
         <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">&quot;Jennie June&quot; was a pseudonym used by perhaps one of the earliest transgender individuals to publish an autobiography in the United States.</rdfs:comment>
         <WIKIDATA>Q5325981</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Jennie_June_(autobiographer)</WIKIPEDIA>
         <WIKIPEDIA xml:lang="sv">https://sv.wikipedia.org/wiki/Earl_Lind</WIKIPEDIA>
@@ -4186,6 +4329,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Joey_Joleen_Mataele">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
+        <rdfs:comment xml:lang="en">In 1992, Joey Joleen Mataele co-founded the Tonga Leitis Association, and became its executive director. She is also the Pacific Island Representative on the International Lesbian, Gay, Bisexual, Trans and Intersex Association Executive Board and Chairperson of the South Pacific MSM (Men Who Have Sex with Men) Network Group.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Joey_Joleen_Mataele</WIKIPEDIA>
         <preferred-name>Joey Joleen Mataele</preferred-name>
     </owl:Class>
@@ -4196,6 +4340,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#John_Money">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
+        <schema:birthDate>8 July 1921</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Morrinsville, New Zealand</schema:birthPlace>
+        <schema:deathDate>7 July 2006</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Towson, Maryland, United States</schema:deathPlace>
+        <rdfs:comment xml:lang="en">John William Money was a psychologist, sexologist and author, specializing in research into sexual identity and biology of gender. He was one of the first scientists to study the psychology of sexual fluidity and how the societal constructs of &quot;gender&quot; affect an individual. Recent academic studies have criticized Money&apos;s work in many respects, particularly in regards to his involvement with the sex-reassignment of David Reimer and his eventual suicide.</rdfs:comment>
         <preferred-name>John Money</preferred-name>
     </owl:Class>
     
@@ -4247,6 +4396,7 @@
         <schema:award xml:lang="en">Bill Whitehead Award for Lifetime Achievement</schema:award>
         <schema:award xml:lang="en">Magnus Hirschfeld Medal for Outstanding Contributions to Sex Research</schema:award>
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</schema:birthDate>
+        <rdfs:comment xml:lang="en">Jonathan Ned Katz is an American historian of human sexuality who has focused on same-sex attraction and changes in the social organization of sexuality over time.</rdfs:comment>
         <preferred-name>Jonathan Ned Katz</preferred-name>
     </owl:Class>
     <owl:Axiom>
@@ -4268,6 +4418,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Joseph_Lobdell">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
+        <schema:birthDate>2 December 1829</schema:birthDate>
+        <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1912</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Binghamton State Hospital, New York, United States</schema:deathPlace>
+        <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Joseph Lobdell was a 19th-century person assigned female at birth who lived as a man for sixty years.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Joseph_Lobdell</WIKIPEDIA>
         <preferred-name>Joseph Lobdell</preferred-name>
     </owl:Class>
     
@@ -4281,7 +4437,10 @@
         <schema:birthPlace xml:lang="en">Grand Rapids, Minnesota, United States</schema:birthPlace>
         <schema:deathDate>22 June 1969</schema:deathDate>
         <schema:deathPlace xml:lang="en">Belgravia, London, England</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Judy Garland was an American singer, actress, dancer, and vaudevillian. During a career that spanned 45 years, she attained international stardom as an actress in both musical and dramatic roles, as a recording artist, and on the concert stage. She is widely considered a gay icon, with &quot;The Advocate&quot; even calling Garland &quot;The Elvis of homosexuals&quot;</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Judy_Garland</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Judy_Garland_as_gay_icon</WIKIPEDIA>
+        <cause-of-death xml:lang="en">barbiturate overdose</cause-of-death>
         <preferred-name>Judy Garland</preferred-name>
     </owl:Class>
     
@@ -4293,6 +4452,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#artist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:birthDate>15 June 1988</schema:birthDate>
+        <rdfs:comment xml:lang="en">Julia Kaye is a transgender artist and illustrator, as well as the author of &quot;Up and Out&quot;, a comic series which came to focus on Kaye&apos;s experiences as a transgender woman going through transition.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Julia_Kaye</WIKIPEDIA>
         <preferred-name>Julia Kaye</preferred-name>
     </owl:Class>
     
@@ -4329,6 +4490,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <schema:birthDate>9 May 1963</schema:birthDate>
         <schema:birthPlace xml:lang="en">Hagerstown, Maryland</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Justin Vivian Bond is an American singer-songwriter, author, painter, performance artist, and actor. Bond is a Tony-nominated (2007) performer, who has received GLAAD (2000), Obie (2001), Bessie (2004), Ethyl (2007), and a Foundation for Contemporary Arts Grants to Artists award (2012). Bond is transgender[5] and prefers the gender-inclusive honorific Mx. (in place of Ms./Mr.) and pronoun v (with vself instead of her/himself), a reference to the artist&apos;s middle name.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Justin_Vivian_Bond</WIKIPEDIA>
         <preferred-name>Justin Vivian Bond</preferred-name>
     </owl:Class>
@@ -4418,6 +4580,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Kylie_Summer_Wu">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#artist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <rdfs:comment xml:lang="en">Kylie Summer Wu is the author of the autobiographical webcomic &quot;Trans Girl Next Door&quot;, which documents her transition and experiences as a transgender woman.</rdfs:comment>
         <preferred-name>Kylie Summer Wu</preferred-name>
     </owl:Class>
     
@@ -4728,6 +4891,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organization"/>
         <alternative-spelling xml:lang="en">LGBT organisation</alternative-spelling>
         <preferred-name xml:lang="en">LGBT organization</preferred-name>
+        <oboInOwl1:hasBroadSynonym xml:lang="en">LGBTQIA organization</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasBroadSynonym xml:lang="en">LGBTQIA+ organization</oboInOwl1:hasBroadSynonym>
     </owl:Class>
     
 
@@ -4809,7 +4974,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#slang"/>
         <preferred-name xml:lang="en">LGBT slang</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">LGBTQ slang</oboInOwl1:hasBroadSynonym>
-        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the LGBT community.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specific to, or primarily used within, the LGBT community.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">LGBT speak</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">gay slang</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
@@ -4923,6 +5088,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBTQ_advocate"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <dc:date xml:lang="en">May 29</dc:date>
+        <schema:alumniOf xml:lang="en">Indiana University Bloomington</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">Marymount Manhattan College</schema:alumniOf>
+        <schema:birthPlace xml:lang="en">Mobile, Alabama, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Laverne Cox was the first openly transgender person to be nominated for a Primetime Emmy Award in 2014 and the first to be nominated for an Emmy Award since Angela Morley in 1990. Cox was also the first openly transgender person to appear on the cover of &quot;Time&quot; magazine on 9 June 2014.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Laverne_Cox</WIKIPEDIA>
         <preferred-name xml:lang="en">Laverne Cox</preferred-name>
     </owl:Class>
     
@@ -4945,6 +5115,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hijra"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1979</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Thane, India</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Laxmi Narayan Tripathi (known as Laxmi, sometimes transliterated as Lakshmi) is a transgender rights activist, Hindi film actor and Bharatanatyam dancer. She identifies as hijra and transgender; as such, she was the first transgender person to represent Asia Pacific in the United Nations in 2008.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Laxmi_Narayan_Tripathi</WIKIPEDIA>
         <preferred-name>Laxmi Narayan Tripathi</preferred-name>
         <oboInOwl1:hasExactSynonym>Lakshmi</oboInOwl1:hasExactSynonym>
@@ -4958,8 +5131,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lesbian_Herstory_Archives">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_archive"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_archive"/>
+        <schema:url>http://www.lesbianherstoryarchives.org/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbian_Herstory_Archives</WIKIPEDIA>
         <acronym xml:lang="en">LHA</acronym>
         <preferred-name xml:lang="en">Lesbian Herstory Archives</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The Lesbian Herstory Archives (LHA) is a New York City-based archive, community center, and museum dedicated to preserving lesbian history, located in Park Slope, Brooklyn.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -4977,6 +5153,7 @@
         <historical-term xml:lang="en">Lesbian love</historical-term>
         <preferred-name xml:lang="en">Lesbian love</preferred-name>
         <preferred-name xml:lang="la">amor lesbicus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Historical term referring to lesbian sexual activities, but also sometimes to be lesbian itself.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#lesbianism"/>
         <oboInOwl1:hasExactSynonym xml:lang="en">Lesbic love</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#tribadism"/>
@@ -4999,6 +5176,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lili_Elbe">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:birthDate>28 December 1882</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Vejle, Denmark</schema:birthPlace>
+        <schema:deathDate>13 September 1931</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Dresden, Germany</schema:deathPlace>
+        <schema:nationality xml:lang="en">Danish</schema:nationality>
+        <rdfs:comment xml:lang="en">Lili Ilse Elvenes, better known as Lili Elbe, was a Danish transgender woman and one of the first identifiable recipients of gender confirmation surgery.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lili_Elbe</WIKIPEDIA>
         <preferred-name>Lili Elbe</preferred-name>
     </owl:Class>
     
@@ -5015,6 +5199,7 @@
         <schema:deathDate>2 March 1991</schema:deathDate>
         <schema:deathPlace xml:lang="en">San Francisco, California, United States</schema:deathPlace>
         <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Louis Graydon Sullivan was an American author and activist known for his work on behalf of trans men. He was perhaps the first transgender man to publicly identify as gay and is largely responsible for the modern understanding of sexual orientation and gender identity as distinct, unrelated concepts.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lou_Sullivan</WIKIPEDIA>
         <preferred-name>Lou Sullivan</preferred-name>
         <oboInOwl1:hasExactSynonym>Louis Graydon Sullivan</oboInOwl1:hasExactSynonym>
@@ -5036,6 +5221,7 @@
         <schema:nationality xml:lang="en">American</schema:nationality>
         <schema:spouse>Clarence Hicks</schema:spouse>
         <schema:spouse>Reuben Anderson</schema:spouse>
+        <rdfs:comment xml:lang="en">Lucy Hicks Anderson was a socialite and chef, best known for her time spent in Oxnard, California from 1920 to 1946. According to the &quot;Handbook of LGBT Elders&quot;, Anderson is &quot;one of the earliest documented cases of an African-American transgender person&quot;. In 1945 she was arrested and tried for perjury, under the justification that she had lied about her sex on her marriage license and was impersonating a woman.</rdfs:comment>
         <WIKIDATA>Q49114641</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lucy_Hicks_Anderson</WIKIPEDIA>
         <preferred-name>Lucy Hicks Anderson</preferred-name>
@@ -5056,6 +5242,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dentist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:alumniOf xml:lang="en">University College Dublin</schema:alumniOf>
+        <schema:birthDate>23 June 1947</schema:birthDate>
+        <rdfs:comment xml:lang="en">Lydia Annice Foy is an Irish trans woman notable for leading legal challenges regarding gender recognition in Ireland. In 1992 Foy had sex reassignment surgery, and began a 20-year battle to have her birth certificate reflect her gender identity. In 2007 the Irish High Court ruled that the relevant portions of the law of the Republic of Ireland were incompatible with the European Convention on Human Rights, but by February 2013 the law had not been changed and she began new legal proceedings to enforce the 2007 decision. As of 15 July 2015, Ireland has passed the Gender Recognition Bill 2014.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lydia_Foy</WIKIPEDIA>
         <preferred-name>Lydia Foy</preferred-name>
     </owl:Class>
     
@@ -5076,6 +5266,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <schema:birthDate>14 May 1868</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Kolberg, Province of Pomerania, Kingdom of Prussia, North German Confederation</schema:birthPlace>
+        <schema:deathDate>14 May 1935</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Nice, French Third Republic</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Magnus Hirschfeld was a German Jewish physician and sexologist educated primarily in Germany; he based his practice in Berlin-Charlottenburg. An outspoken advocate for sexual minorities, Hirschfeld founded the Scientific-Humanitarian Committee.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Magnus_Hirschfeld</WIKIPEDIA>
         <preferred-name>Magnus Hirschfeld</preferred-name>
         <oboInOwl1:hasExactSynonym>Hirschfield, Magnus</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -5118,6 +5314,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Marion_Malena">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fa&apos;afafine"/>
+        <rdfs:comment xml:lang="en">Marion Mageo better known by the stage name Marion Malena is a multiple beauty pageant winner who identifies as a fa&apos;afafine.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Marion_Malena</WIKIPEDIA>
         <preferred-name>Marion Malena</preferred-name>
         <pseudonym>Marion Malena</pseudonym>
@@ -5132,8 +5329,14 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer_scientist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:alumniOf xml:lang="en">University of California at Berkeley</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">University of Southern California</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">University of Wisconsin</schema:alumniOf>
         <schema:birthDate>21 November 1955</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Richland, Washington, United States</schema:birthPlace>
         <rdfs:comment xml:lang="en">Mary Ann Horton contributed to Berkeley UNIX (BSD) and created the first email attachment tool &quot;uuencode&quot;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Mary Ann Horton founded Columbus&apos; first transgender support group, the Crystal Club, in 1989. In 1997, she joined EQUAL, Lucent&apos;s LGBT employee resource group, and saw the value of being &quot;out&quot; at work, supported by an Equal Opportunity (EO) nondiscrimination policy. At the time, no major company included transgender language in their EO policy. Horton asked for its inclusion in Lucent&apos;s policy, and recommended the language &quot;gender identity, characteristics, or expression&quot;. As a result, Lucent became the first large company to add transgender-inclusive language to its EO policy in 1997.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Mary_Ann_Horton</WIKIPEDIA>
         <preferred-name>Mary Ann Horton</preferred-name>
     </owl:Class>
     
@@ -5144,7 +5347,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Mary_Shelley">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#novelist"/>
         <schema:birthDate>30 August 1797</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Somers Town, London, England</schema:birthPlace>
         <schema:deathDate>1 February 1851</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Chester Square, London, England</schema:deathPlace>
+        <schema:spouse>Percy Bysshe Shelley</schema:spouse>
+        <rdfs:comment xml:lang="en">Mary Wollstonecraft Shelley was an English novelist, short story writer, dramatist, essayist, biographer, and travel writer, best known for her Gothic novel &quot;Frankenstein: or, The Modern Prometheus&quot; (1818).</rdfs:comment>
+        <WIKIDATA>Q47152</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Mary_Shelley</WIKIPEDIA>
+        <cause-of-death>brain tumor</cause-of-death>
         <preferred-name>Mary Shelley</preferred-name>
     </owl:Class>
     
@@ -5208,9 +5418,29 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#doctor"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
         <schema:birthDate>1 May 1915</schema:birthDate>
+        <schema:birthPlace xml:lang="en">England</schema:birthPlace>
         <schema:deathDate>15 May 1962</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Dalhousie, India</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Laurence Michael Dillon was a British physician and the first trans man to undergo phalloplasty. His brother, Sir Robert Dillon, was the eighth Baronet of Lismullen in Ireland.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Michael_Dillon</WIKIPEDIA>
         <preferred-name>Michael Dillon</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Michel_Foucault -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Michel_Foucault">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historian"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#philosopher"/>
+        <schema:alumniOf xml:lang="en">University of Paris</schema:alumniOf>
+        <schema:birthDate>15 October 1926</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Poitiers, France</schema:birthPlace>
+        <schema:deathDate>25 June 1984</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Paris, France</schema:deathPlace>
+        <schema:nationality xml:lang="en">French</schema:nationality>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Michel_Foucault</WIKIPEDIA>
+        <preferred-name>Michel Foucault</preferred-name>
     </owl:Class>
     
 
@@ -5256,7 +5486,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#politician"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1841</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Govan, Scotland</schema:birthPlace>
         <schema:deathDate>16 January 1901</schema:deathDate>
+        <rdfs:comment xml:lang="en">Murray Hall was a New York City bail bondsman and Tammany Hall politician made famous upon his death in 1901, when it was revealed that he was assigned female at birth.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Murray_Hall_(politician)</WIKIPEDIA>
         <preferred-name>Murray Hall</preferred-name>
     </owl:Class>
@@ -5308,6 +5540,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:birthDate>21 October 1988</schema:birthDate>
         <schema:birthPlace xml:lang="en">Arlington, Virginia, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Natalie Wynn is an American YouTube personality and director who specializes in comedic and educational videos about gender, race, politics, and social justice on her channel named ContraPoints.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/ContraPoints</WIKIPEDIA>
         <preferred-name>Natalie Wynn</preferred-name>
         <pseudonym xml:lang="en">ContraPoints</pseudonym>
@@ -5562,6 +5795,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Organisation_Intersex_International -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Organisation_Intersex_International">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_organization"/>
+        <schema:founder>Curtis Hinkle</schema:founder>
+        <schema:url>http://oiiinternational.com/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Organisation_Intersex_International</WIKIPEDIA>
+        <acronym xml:lang="en">OII</acronym>
+        <preferred-name xml:lang="en">Organisation Intersex International</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Organisation_Intersex_International"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
+        <owl:annotatedTarget>Curtis Hinkle</owl:annotatedTarget>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</terms:date>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Orlando_nightclub_shooting -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Orlando_nightclub_shooting">
@@ -5584,11 +5836,15 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#poet"/>
+        <schema:alumniOf xml:lang="en">Magdalen College</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">Trinity College</schema:alumniOf>
         <schema:birthDate>16 October 1854</schema:birthDate>
         <schema:birthPlace xml:lang="en">Dublin, Ireland</schema:birthPlace>
         <schema:deathDate>30 November 1900</schema:deathDate>
         <schema:deathPlace xml:lang="en">Paris, France</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Oscar Wilde was an Irish poet and playwright. After writing in different forms throughout the 1880s, he became one of London&apos;s most popular playwrights in the early 1890s. He is best remembered for his epigrams and plays, his novel The Picture of Dorian Gray, and the circumstances of his imprisonment and early death. At the height of his fame and success, while &quot;The Importance of Being Earnest&quot; (1895) was still being performed in London, Wilde had the Marquess of Queensberry prosecuted for criminal libel. The Marquess was the father of Wilde&apos;s lover, Lord Alfred Douglas. The libel trial unearthed evidence that caused Wilde to drop his charges and led to his own arrest and trial for &quot;gross indecency&quot; with men.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Oscar_Wilde</WIKIPEDIA>
+        <cause-of-death xml:lang="en">meningitis</cause-of-death>
         <preferred-name>Oscar Wilde</preferred-name>
     </owl:Class>
     
@@ -5598,6 +5854,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Osh-Tisch">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#badé"/>
+        <rdfs:comment xml:lang="en">Osh-Tisch was a Crow badé who fought in the 1876 Battle of the Rosebud, as recounted by Pretty Shield. During the battle, Osh-Tisch and a woman named The Other Magpie saved Bull Snake, and Osh-Tisch later shot a Lakota warrior, for which Osh-Tisch received her name. In the late 1890s, an American agent named Briskow, tasked with forcing the Plains Indians to assimilate into the dominant culture, jailed Osh-Tisch and the other badés, and forced them to get masculine haircuts, wear masculine clothing, and perform manual labor such as planting trees. Osh-Tisch was one of the last known badés of the Crow Nation, and the institution of the badé is said to have gone into decline during Osh-Tisch&apos;s life.</rdfs:comment>
         <WIKIDATA>Q7106558</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Osh-Tisch</WIKIPEDIA>
         <preferred-name>Osh-Tisch</preferred-name>
@@ -5641,6 +5898,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ozawendib">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#agokwa"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#Uranismus_oder_Päderastie_und_Tribadie_bei_den_Naturvölkern"/>
+        <rdfs:comment xml:lang="en">Ozaawindib (&quot;Yellow Head&quot;) was an Ojibwe warrior who lived in the early 19th century and was described as an ayaakwe (agokwa), what a modern Ojibwe would describe as a niizh manidoowag (two-spirit).</rdfs:comment>
         <WIKIDATA>Q7116433</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ozaawindib</WIKIPEDIA>
         <alternative-spelling xml:lang="en">O-zaw-wan-dib</alternative-spelling>
@@ -5782,6 +6040,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#athlete"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#kathoey"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:birthDate>9 June 1981</schema:birthDate>
+        <schema:birthPlace>Thailand</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Parinya Charoenphol is a Thai boxer, former Muay Thai (Thai boxing) champion, model and actress. She is kathoey and a trans woman.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Parinya_Charoenphol</WIKIPEDIA>
         <preferred-name>Parinya Charoenphol</preferred-name>
         <pseudonym>Parinya Kiatbusaba</pseudonym>
@@ -5799,6 +6060,8 @@
         <schema:alumniOf xml:lang="en">San Francisco State University</schema:alumniOf>
         <schema:birthDate>8 March 1954</schema:birthDate>
         <schema:bookEdition xml:lang="en">Corpus Christi, Texas, United States</schema:bookEdition>
+        <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Pat Califia is an American writer of non-fiction essays about sexuality and of erotic fiction and poetry. Califia is a bisexual trans man. Prior to transitioning, he identified as a lesbian and as such, wrote for many years a sex advice column for the gay men&apos;s leather magazine &quot;Drummer&quot;.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Patrick_Califia</WIKIPEDIA>
         <preferred-name>Pat Califia</preferred-name>
     </owl:Class>
@@ -5935,6 +6198,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Rachel_Crandall">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Michigan, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Rachel Crandall founded International Transgender Day of Visibility in 2009 as a reaction to the lack of LGBT holidays celebrating transgender people, citing the frustration that the only well-known transgender-centered holiday was the Transgender Day of Remembrance which mourned the murders of transgender people, but did not acknowledge and celebrate living members of the transgender community.</rdfs:comment>
         <preferred-name>Rachel Crandall</preferred-name>
     </owl:Class>
     
@@ -5947,6 +6213,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#public_health_researcher"/>
         <schema:alumniOf xml:lang="en">Harvard University</schema:alumniOf>
         <schema:alumniOf xml:lang="en">University of Pennsylvania</schema:alumniOf>
+        <rdfs:comment xml:lang="en">Randall L. Sell was one of the first to estimate the prevalence of lesbians, gay men and bisexual people in a probability sample of the United States, United Kingdom and France. His work critically examines the variables used to measure health disparities. Sell has researched and published on the history and best practices of sampling gay sexual orientation and has created an assessment of sexual orientation (the Sell Scale).</rdfs:comment>
         <preferred-name>Randall L. Sell</preferred-name>
         <oboInOwl1:hasExactSynonym>Randall Sell</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -5961,6 +6228,7 @@
         <schema:alumniOf xml:lang="en">University of Pennsylvania</schema:alumniOf>
         <schema:birthDate>9 October 1945</schema:birthDate>
         <schema:birthPlace xml:lang="en">Hammonton, New Jersey, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Ray Milton Blanchard is an American-Canadian sexologist, best known for his research studies on pedophilia, transgender people, and sexual orientation. He has also published research studies on phallometry and several paraphilias, including cross-dressing and autoerotic asphyxia. Within the transgender community the Blanchard&apos;s ideas have been criticized. His findings and research regarding transgender people have been rejected by the World Professional Association for Transgender Health (WPATH), the largest association of medical professionals who provides care for transgender people, as lacking empirical evidence.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ray_Blanchard</WIKIPEDIA>
         <preferred-name>Ray Blanchard</preferred-name>
     </owl:Class>
@@ -5999,6 +6267,7 @@
         <schema:birthPlace xml:lang="en">Mannheim, Baden, Germany</schema:birthPlace>
         <schema:deathDate>22 December 1902</schema:deathDate>
         <schema:deathPlace xml:lang="en">Graz, Austria-Hungary</schema:deathPlace>
+        <rdfs:comment xml:lang="en">Richard Freiherr von Krafft-Ebing was an Austro–German psychiatrist and author of the foundational work &quot;Psychopathia Sexualis&quot; (1886).</rdfs:comment>
         <WIKIDATA>Q77082</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Richard_von_Krafft-Ebing</WIKIPEDIA>
         <preferred-name>Richard von Krafft-Ebing</preferred-name>
@@ -6011,6 +6280,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Rita_Hester">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:birthDate>30 November 1963</schema:birthDate>
+        <schema:deathDate>28 November 1998</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Allston, Massachusetts, United States</schema:deathPlace>
+        <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Rita Hester was a transgender African American woman who was murdered in Allston, Massachusetts on November 28, 1998. In response to her murder, an outpouring of grief and anger led to a candlelight vigil held the following Friday (December 4) in which about 250 people participated. The community struggle to see Rita&apos;s life and identity covered respectfully by local papers, including the &quot;Boston Herald&quot; and &quot;Bay Windows&quot;, was chronicled by Nancy Nangeroni. Her death also inspired the &quot;Remembering Our Dead&quot; web project and the Transgender Day of Remembrance, which Gwendolyn Ann Smith founded in 1999.</rdfs:comment>
         <preferred-name>Rita Hester</preferred-name>
     </owl:Class>
     
@@ -6022,9 +6296,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fighter_pilot"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:birthDate>8 April 1918</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Croydon, London, England</schema:birthPlace>
         <schema:deathDate>11 October 2011</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Hampton, London, England</schema:deathPlace>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Roberta_Cowell</WIKIPEDIA>
         <preferred-name xml:lang="en">Roberta Cowell</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Roberta Elizabeth Marshall Cowell was a racing driver and Second World War fighter pilot. She was the first known British trans woman to undergo gender confirmation surgery.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -6055,7 +6332,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ruth_Baldacchino">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_activist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
+        <schema:alumniOf xml:lang="en">University College Dublin</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">University of Malta</schema:alumniOf>
         <schema:nationality xml:lang="en">Maltese</schema:nationality>
+        <rdfs:comment xml:lang="en">Ruth Baldacchino is an LGBT, transgender, and intersex activist, Co-Secretary General of the International Lesbian, Gay, Bisexual, Trans and Intersex Association (ILGA), and program officer for the first intersex human rights fund.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ruth_Baldacchino</WIKIPEDIA>
         <preferred-name>Ruth Baldacchino</preferred-name>
     </owl:Class>
@@ -6234,6 +6514,7 @@
         <schema:birthDate xml:lang="en">c. 630 BCE</schema:birthDate>
         <schema:birthPlace xml:lang="en">Lesbos, Greece</schema:birthPlace>
         <schema:deathDate xml:lang="en">c. 570 BCE</schema:deathDate>
+        <rdfs:comment xml:lang="en">Sappho was a Greek poet from the island of Lesbos. She is known for her lyric poetry, written to be sung while accompanied by a lyre. Most of Sappho&apos;s poetry is now lost, and what is extant has survived only in fragmentary form, except for one complete poem: the &quot;Ode to Aphrodite&quot;. In the nineteenth century Sappho was co-opted by the Decadent Movement as a lesbian &quot;daughter of de Sade&quot;, by Charles Baudelaire in France and later Algernon Charles Swinburne in England. By the late 19th century, lesbian writers such as Michael Field and Amy Levy became interested in Sappho for her sexuality, and by the turn of the twentieth century she was a sort of &quot;patron saint of lesbians&quot;.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sappho</WIKIPEDIA>
         <preferred-name xml:lang="en">Sappho</preferred-name>
     </owl:Class>
@@ -6249,6 +6530,8 @@
         <schema:alumniOf xml:lang="en">University of Chicago</schema:alumniOf>
         <schema:birthDate>28 July 1958</schema:birthDate>
         <schema:birthPlace xml:lang="en">New York City, New York, United States</schema:birthPlace>
+        <schema:nationality xml:lang="en">American</schema:nationality>
+        <rdfs:comment xml:lang="en">Sarah Miriam Schulman is an American novelist, playwright, nonfiction writer, screenwriter and AIDS historian. She is a Distinguished Professor of the Humanities at College of Staten Island (CSI) and a Fellow at the New York Institute for the Humanities.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sarah_Schulman</WIKIPEDIA>
         <preferred-name>Sarah Schulman</preferred-name>
     </owl:Class>
@@ -6330,6 +6613,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Shigeyuki_Kihara">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#artist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fa&apos;afafine"/>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1975</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Samoa</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Shigeyuki (Yuki) Kihara is a contemporary artist and the first New Zealander to hold a solo exhibition at the Metropolitan Museum of Art, New York. Titled Shigeyuki Kihara: Living Photographs, the exhibition opened from 7 October 2008 to 1 February 2009. Kihara&apos;s self-portrait photographs in the exhibitions included nudes in provocative poses that portrayed colonial images of Polynesian women as sexual objects. Kihara is also fa&apos;afafine.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Shigeyuki_Kihara</WIKIPEDIA>
         <preferred-name>Shigeyuki Kihara</preferred-name>
     </owl:Class>
@@ -6478,6 +6764,7 @@
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1936</schema:birthDate>
         <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</schema:deathDate>
         <schema:nationality xml:lang="en">Montenegrin</schema:nationality>
+        <rdfs:comment xml:lang="en">Stana Cerović (1936–2016) was a Montenegrin sworn virgin in rural Montengro. By the time of her death, she was known as the last such virgin in her country.</rdfs:comment>
         <WIKIDATA>Q42903334</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Stana_Cerovic</WIKIPEDIA>
         <preferred-name>Stana Cerovic</preferred-name>
@@ -6663,6 +6950,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Tony_Briffa">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1971</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Altona, Victoria, Australia</schema:birthPlace>
+        <schema:url>http://www.briffa.org/</schema:url>
+        <rdfs:comment xml:lang="en">Tony Briffa was one of the first people to be public about a chosen blank, indeterminate, birth certificate. Briffa is also the first known intersex mayor.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Tony_Briffa</WIKIPEDIA>
         <preferred-name>Tony Briffa</preferred-name>
     </owl:Class>
     
@@ -6854,6 +7146,7 @@
         <schema:deathDate>2 November 1917</schema:deathDate>
         <schema:deathPlace xml:lang="en">Grudë, Kingdom of Montenegro</schema:deathPlace>
         <schema:nationality xml:lang="en">Albanian</schema:nationality>
+        <rdfs:comment xml:lang="en">Tringë Smajl Martini Ivezaj, known simply as Tringe Smajli, and as Yanitza outside Albania, was an Albanian guerrilla fighter who fought against the Ottoman Empire in the Malësia region. She was the daughter of Smajl Martini, a Catholic clan leader of the Grudë tribe of Malësia.</rdfs:comment>
         <WIKIDATA>Q7842364</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Tringe_Smajli</WIKIPEDIA>
         <preferred-name>Tringe Smajli</preferred-name>
@@ -7068,6 +7361,20 @@
         <schema:founder>Kate Lister</schema:founder>
         <schema:url>https://www.thewhoresofyore.com/</schema:url>
         <preferred-name xml:lang="en">Whores of Yore</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Will_Roscoe -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Will_Roscoe">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_rights_activist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <schema:birthDate>8 February 1955</schema:birthDate>
+        <rdfs:comment xml:lang="en">Will Roscoe is an American activist, scholar, and author based in San Francisco, California. Roscoe helped found the Lambda Alliance at the University of Montana, that state&apos;s first LGBT organization in 1975. He served as an intern at the National Gay and Lesbian Task Force in 1976, and the following year he formed the Oregon Gay Alliance, a statewide coalition of LGBT groups.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Will_Roscoe</WIKIPEDIA>
+        <preferred-name>Will Roscoe</preferred-name>
     </owl:Class>
     
 
@@ -11211,7 +11518,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_slang">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
         <preferred-name xml:lang="en">bisexual slang</preferred-name>
-        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the bisexual community.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specific to, or primarily used within, the bisexual community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20492,6 +20799,7 @@
         <derogatory-term xml:lang="en">sodomy</derogatory-term>
         <historical-term xml:lang="en">male homosexuality</historical-term>
         <preferred-name xml:lang="en">gay sexual orientation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A strong pattern of sexual attraction experienced by a man for another man.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21373,6 +21681,7 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <schema:Quotation xml:lang="en">I do feel there is a preoccupation with that. The preoccupation with transition and surgery objectifies trans people. And then we don&apos;t get to really deal with the real lived experiences. The reality of trans people&apos;s lives is that so often we are targets of violence. We experience discrimination disproportionately to the rest of the community. Our unemployment rate is twice the national average; if you are a trans person of color, that rate is four times the national average. The homicide rate is highest among trans women. If we focus on transition, we don&apos;t actually get to talk about those things.</schema:Quotation>
         <rdfs:comment xml:lang="en">Transitioning is an umbrella term for changes undertaken to match their gender expression with their identified gender. Typically, there are two forms of gender transition: social transition (wearing different clothing, speaking with a difference cadence, using a diferent name, etc.) and physical transition (usage of hormones, various gender-affirming surgeries, etc.). Usually this distinction is unnecessary and used as a form of gatekeeping.</rdfs:comment>
         <WIKIDATA>Q1085588</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transitioning_(transgender)</WIKIPEDIA>
@@ -21382,6 +21691,13 @@
         <oboInOwl1:hasDefinition xml:lang="en">The process or act of changing from one gender role to another, or of bringing one&apos;s outward appearance in line with one&apos;s internal gender identity.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym xml:lang="en">transitioning</oboInOwl1:hasSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_transition"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">I do feel there is a preoccupation with that. The preoccupation with transition and surgery objectifies trans people. And then we don&apos;t get to really deal with the real lived experiences. The reality of trans people&apos;s lives is that so often we are targets of violence. We experience discrimination disproportionately to the rest of the community. Our unemployment rate is twice the national average; if you are a trans person of color, that rate is four times the national average. The homicide rate is highest among trans women. If we focus on transition, we don&apos;t actually get to talk about those things.</owl:annotatedTarget>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Laverne_Cox"/>
+        <terms:date>January 2014</terms:date>
+    </owl:Axiom>
     
 
 
@@ -23255,6 +23571,7 @@
         <preferred-name xml:lang="en">heterosexual ally</preferred-name>
         <preferred-name xml:lang="zh">直同志</preferred-name>
         <shortened-term xml:lang="en">ally</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A straight ally or heterosexual ally is a heterosexual person who supports equal civil rights, gender equality, LGBT social movements, and challenges homophobia, biphobia and transphobia.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">straight ally</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -23265,7 +23582,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterosexual_orientation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexuality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_orientation"/>
+        <rdfs:comment xml:lang="en">A transgender woman who is attracted solely to men is heterosexual. Likewise, a transgender man who is attracted solely to women is also heterosexual.</rdfs:comment>
         <preferred-name xml:lang="en">heterosexual orientation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A strong pattern of sexual attraction experienced by a man for a woman or a woman for a man.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26111,6 +26430,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex_rights_organization">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Intersex_rights_organizations</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">intersex rights organisation</alternative-spelling>
         <preferred-name xml:lang="en">intersex rights organization</preferred-name>
     </owl:Class>
     
@@ -27057,7 +27378,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <schema:alternateName xml:lang="en">lesbian archives</schema:alternateName>
         <preferred-name xml:lang="en">lesbian archive</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An archive containing materials related to, or written by, lesbians.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27068,6 +27391,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_community"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
         <preferred-name xml:lang="en">lesbian community</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The grouping of lesbians, lesbian organizations, and lesbian subcultures held together by a common culture and social movements.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27080,6 +27404,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_culture#Lesbian_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Culture specific to the lesbian community and lesbians.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27092,6 +27417,7 @@
         <schema:alternateName xml:lang="en">lesbian events</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_events</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian event</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Events specific to the lesbian community and lesbians.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27104,6 +27430,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbian_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian feminism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Lesbian feminism is a cultural movement and critical perspective, most influential in the 1970s and early 1980s (primarily in North America and Western Europe), that encourages women to direct their energies toward other women rather than men, and often advocates lesbianism as the logical result of feminism.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27134,6 +27461,7 @@
         <historical-term xml:lang="en">euphemism</historical-term>
         <historical-term xml:lang="en">tribadism</historical-term>
         <preferred-name xml:lang="en">lesbian sexual orientation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A strong pattern of sexual attraction experienced by a woman for another woman.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#lesbianism"/>
     </owl:Class>
     <owl:Axiom>
@@ -27157,7 +27485,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_slang">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
         <preferred-name xml:lang="en">lesbian slang</preferred-name>
-        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the lesbian community.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specific to, or primarily used within, the lesbian community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -29977,6 +30305,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#multivolume_work -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#multivolume_work">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#collection_of_documents"/>
+        <schema:alternateName xml:lang="en">multi-volume work</schema:alternateName>
+        <preferred-name xml:lang="en">multivolume work</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#murder -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#murder">
@@ -30130,6 +30468,7 @@
         <preferred-name xml:lang="en">māhū</preferred-name>
         <preferred-name xml:lang="es">māhū</preferred-name>
         <preferred-name xml:lang="haw">māhū</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Māhū (&quot;in the middle&quot;) in Kanaka Maoli (Hawaiian) and Maohi (Tahitian) cultures are third gender persons with traditional spiritual and social roles within the culture, similar to Tongan fakaleiti and Samoan fa&apos;afafine.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <oboInOwl1:hasRelatedSynonym xml:lang="haw">mahuwahine</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
@@ -33469,10 +33808,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#philosopher -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#philosopher">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">philosophers</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Philosopher</WIKIPEDIA>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#philosophy"/>
+        <preferred-name xml:lang="en">philosopher</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A scholar or expert engaged in or contributing to philosophical inquiry.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#philosophy -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#philosophy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#humanities"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Philosophy</WIKIPEDIA>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#philosopher"/>
         <preferred-name xml:lang="en">philosophy</preferred-name>
     </owl:Class>
     
@@ -35855,6 +36209,23 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#queer"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Queer_theory</WIKIPEDIA>
         <preferred-name xml:lang="en">queer theory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#questionmdicol00tard -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#questionmdicol00tard">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Auguste_Ambroise_Tardieu"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Herculine_Barbin"/>
+        <terms:publisher xml:lang="fr">J.-B. Ballière et Fils</terms:publisher>
+        <terms:title xml:lang="en">Forensics of Identity Involving Deformities of the Sexual Organs, Along With the Memoirs and Impressions of an Individual Whose Sex Was Misidentified</terms:title>
+        <terms:title xml:lang="fr">Question médico-légale de l&apos;identité dans ses rapport avec les vices de conformation des organes sexuels, contenant les souvenirs et impressions d&apos;un individu dont le sexe avait été méconnu</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</schema:datePublished>
+        <rdfs:comment xml:lang="en">This publication includes excerpts of the memoirs of Herculine Barbin, recorded as &quot;Histoire et souvenirs d&apos;Alexina B.&quot; These excerpts were translated into English in 1980.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#9780394738628"/>
+        <INTERNET_ARCHIVE>questionmdicol00tard</INTERNET_ARCHIVE>
     </owl:Class>
     
 
@@ -42944,7 +43315,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_slang">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
         <preferred-name xml:lang="en">transgender slang</preferred-name>
-        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the transgender community.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specific to, or primarily used within, the transgender community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -48878,6 +49249,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9780394738628 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780394738628">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Herculine_Barbin"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:publisher xml:lang="en">Vintage</terms:publisher>
+        <terms:title xml:lang="en">Herculine Barbin: Being the Recently Discovered Memoirs of a Nineteenth-century French Hermaphrodite</terms:title>
+        <schema:datePublished>12 June 1980</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780394738628</schema:isbn>
+        <rdfs:comment xml:lang="en">This is the English version, translated by Richard McDougall.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#questionmdicol00tard"/>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5800446</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Herculine_Barbin_(memoir)</WIKIPEDIA>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9780397503292 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780397503292">
@@ -48942,6 +49331,21 @@
         <terms:title xml:lang="en">Encyclopedia of Homosexuality</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780824065447</schema:isbn>
         <schema:url>http://williamapercy.com/wiki/index.php?title=Encyclopedia_of_Homosexuality</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780826312532 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780826312532">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Will_Roscoe"/>
+        <terms:publisher xml:lang="en">University of New Mexico Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#We&apos;wha"/>
+        <terms:title xml:lang="en">The Zuni Man-Woman</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780826312532</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302</schema:numberOfPages>
     </owl:Class>
     
 
@@ -49268,6 +49672,73 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9782070273829 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9782070273829">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:title xml:lang="fr">Le souci de soi</terms:title>
+        <schema:datePublished>15 July 1984</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9782070273829</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</schema:numberOfPages>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:volumeNumber>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality#Volume_III:_The_Care_of_the_Self</WIKIPEDIA>
+        <part_of rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9782070295890 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9782070295890">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:title xml:lang="fr">La volonté de savoir</terms:title>
+        <schema:datePublished>17 November 1976</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9782070295890</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</schema:numberOfPages>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:volumeNumber>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality#Volume_I:_The_Will_to_Knowledge</WIKIPEDIA>
+        <part_of rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9782070700561 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9782070700561">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:title xml:lang="fr">L&apos;usage des plaisirs</terms:title>
+        <schema:datePublished>15 July 1984</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9782070700561</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296</schema:numberOfPages>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:volumeNumber>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality#Volume_II:_The_Use_of_Pleasure</WIKIPEDIA>
+        <part_of rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9782072700347 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9782072700347">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:title xml:lang="fr">Les aveux de la chair</terms:title>
+        <schema:datePublished>8 February 2018</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9782072700347</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448</schema:numberOfPages>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:volumeNumber>
+        <part_of rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9783110433067 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9783110433067">
@@ -49408,6 +49879,7 @@
         <schema:deathDate>21 May 1810</schema:deathDate>
         <schema:deathPlace xml:lang="en">London, United Kingdom</schema:deathPlace>
         <schema:memberOf xml:lang="fr">Secret du Roi</schema:memberOf>
+        <rdfs:comment xml:lang="en">Charles-Geneviève-Louis-Auguste-André-Timothée d&apos;Éon de Beaumont, usually known as the Chevalier d&apos;Éon, was a French diplomat, spy, Freemason and soldier who fought in the Seven Years&apos; War. D&apos;Éon had androgynous physical characteristics and natural abilities as a mimic, good features for a spy. D&apos;Éon appeared publicly as a man and pursued masculine occupations for 49 years, although during that time d&apos;Éon successfully infiltrated the court of Empress Elizabeth of Russia by presenting as a woman. For 33 years, from 1777, d&apos;Éon dressed as a woman, identifying as female. Doctors who examined d&apos;Éon&apos;s body after death discovered &quot;male organs in every respect perfectly formed&quot;, but also feminine characteristics. Havelock Ellis coined the term &quot;eonism&quot; to describe cases of transgender behavior similar to d&apos;Éon&apos;s; although this term is rarely used now. The Beaumont Society, a long-standing organization for transgender people, is also named after d&apos;Éon.</rdfs:comment>
         <preferred-name>Chevalier d&apos;Éon</preferred-name>
         <oboInOwl1:hasExactSynonym>Charles-Geneviève-Louis-Auguste-André-Timothée d&apos;Éon de Beaumont</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -49514,6 +49986,19 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Day_Against_Homophobia,_Transphobia_and_Biphobia</WIKIPEDIA>
         <acronym>IDAHOT</acronym>
         <preferred-name xml:lang="en">International Day Against Homophobia, Transphobia and Biphobia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#multivolume_work"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:title xml:lang="fr">L&apos;Histoire de la sexualité</terms:title>
+        <terms:title xml:lang="en">The History of Sexuality</terms:title>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Histoire_de_la_sexualit%C3%A9</WIKIPEDIA>
     </owl:Class>
     
 
@@ -49788,9 +50273,11 @@
         <schema:birthPlace xml:lang="en">New Mexico, United States</schema:birthPlace>
         <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1896</schema:deathDate>
         <schema:memberOf xml:lang="en">Zuni people</schema:memberOf>
+        <rdfs:comment xml:lang="en">We&apos;wha was a Zuni Native American and lhamana (now described as Two-Spirit) from New Mexico. She was the subject of the book &quot;The Zuni Man-Woman&quot; by Will Roscoe. The anthropologist Matilda Coxe Stevenson also wrote a great deal about We&apos;wha, and even hosted her on their visit to Washington D.C. in 1886.</rdfs:comment>
         <WIKIDATA>Q7977193</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/We%27wha</WIKIPEDIA>
         <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/We%27wha</WIKIPEDIA>
+        <cause-of-death xml:lang="en">heart failure</cause-of-death>
         <preferred-name>We&apos;wha</preferred-name>
     </owl:Class>
     
