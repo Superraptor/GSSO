@@ -1583,6 +1583,7 @@
     <!-- https://github.com/Superraptor/GSSO#antonym -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#antonym">
+        <WIKIDATA>P461</WIKIDATA>
         <preferred-name xml:lang="en">antonym</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
@@ -1678,6 +1679,7 @@
     <!-- https://github.com/Superraptor/GSSO#different-from -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#different-from">
+        <WIKIDATA>P1889</WIKIDATA>
         <preferred-name xml:lang="en">different from</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
@@ -1718,6 +1720,16 @@
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#ends_during">
         <RO>RO:0002093</RO>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#etymology -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#etymology">
+        <WIKIDATA>P5191</WIKIDATA>
+        <preferred-name xml:lang="en">etymology</preferred-name>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
 
@@ -1788,6 +1800,7 @@
     <!-- https://github.com/Superraptor/GSSO#named-after -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#named-after">
+        <WIKIDATA>P138</WIKIDATA>
         <preferred-name xml:lang="en">named after</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
@@ -2552,6 +2565,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#BDSM">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sadomasochism"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIPEDIA>https://en.wikipedia.org/wiki/BDSM</WIKIPEDIA>
         <preferred-name xml:lang="en">BDSM</preferred-name>
         <oboInOwl1:hasDefinition>Sexual practices or activities involving bondage, discipline, sadism, masochism, or acts of domination and submission.</oboInOwl1:hasDefinition>
@@ -4795,6 +4809,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#slang"/>
         <preferred-name xml:lang="en">LGBT slang</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">LGBTQ slang</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the LGBT community.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">LGBT speak</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">gay slang</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
@@ -4827,6 +4842,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_symbol">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#symbol"/>
+        <schema:alternateName xml:lang="en">LGBT symbols</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_symbols</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_symbols</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT symbol</preferred-name>
     </owl:Class>
     
@@ -5556,6 +5574,22 @@
         <rdfs:comment>The Orlando nightclub shooting was the deadliest incident of violence against LGBT people in U.S. history, and the deadliest terrorist attack in the U.S. since the September 11 attacks in 2001. At the time, it was the deadliest mass shooting by a single shooter in the U.S., being surpassed the following year by the Las Vegas shooting.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Orlando_nightclub_shooting</WIKIPEDIA>
         <preferred-name xml:lang="en">Orlando nightclub shooting</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Oscar_Wilde -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Oscar_Wilde">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#poet"/>
+        <schema:birthDate>16 October 1854</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Dublin, Ireland</schema:birthPlace>
+        <schema:deathDate>30 November 1900</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Paris, France</schema:deathPlace>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Oscar_Wilde</WIKIPEDIA>
+        <preferred-name>Oscar Wilde</preferred-name>
     </owl:Class>
     
 
@@ -6422,6 +6456,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Spivak_pronoun">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">Spivak pronouns</schema:alternateName>
         <rdfs:comment xml:lang="en">Multiple variants of Spivak pronouns exist, with several being notable:
 - Rogers (1890)
@@ -6431,6 +6466,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Spivak_pronoun</WIKIPEDIA>
         <named-after>Michael Spivak</named-after>
         <preferred-name xml:lang="en">Spivak pronoun</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Spivakian pronoun</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -6885,6 +6921,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Two_Spirit">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <WIKIDATA>Q301702</WIKIDATA>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Two-Spirit</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Two-spirit</WIKIPEDIA>
@@ -6894,6 +6933,7 @@
         <alternative-spelling xml:lang="en">Two-Spirit</alternative-spelling>
         <alternative-spelling xml:lang="en">Two-spirit</alternative-spelling>
         <alternative-spelling xml:lang="en">two spirit</alternative-spelling>
+        <alternative-spelling xml:lang="en">two-spirit</alternative-spelling>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#berdache"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#berdache"/>
         <preferred-name xml:lang="en">Two Spirit</preferred-name>
@@ -7073,6 +7113,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#World_Professional_Association_for_Transgender_Health">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_organization"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <acronym xml:lang="en">WPATH</acronym>
         <former-term xml:lang="en">Harry Benjamin International Gender Dysphoria Association</former-term>
         <preferred-name xml:lang="en">World Professional Association for Transgender Health</preferred-name>
@@ -7433,6 +7474,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#access_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#policy"/>
+        <schema:alternateName xml:lang="en">access policies</schema:alternateName>
+        <preferred-name xml:lang="en">access policy</preferred-name>
     </owl:Class>
     
 
@@ -7800,6 +7843,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Advocacy_group</WIKIPEDIA>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
         <preferred-name xml:lang="en">advocacy group</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An organized group of people who use various forms of advocacy to influence public opinion and policy.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">campaign group</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">interest group</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">lobby group</oboInOwl1:hasExactSynonym>
@@ -8008,6 +8052,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#agender_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-gendered_gender_identity"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <preferred-name xml:lang="en">agender identity</preferred-name>
         <shortened-term xml:lang="en">agender</shortened-term>
         <shortened-term xml:lang="es">agénero</shortened-term>
@@ -8590,10 +8635,11 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#Protest_from_an_Androgyne"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#autobiographyofa00lind"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:Quotation xml:lang="en">An Androgyne Hermaphrodite.—M. Hallopean presented an androgyne, whose history was published in 1892 by M. Guermonprey. The configuration of the external genital organs is particularly feminine. Their aspect is that of a vulva with labia majora and minora, a miniature penis simulating a large clitoris, and a small vagina that admitted the little finger. The presence of a testicle in one of the labia majora leaves no doubt of the relative sex of the individual, especially as the other testicle was removed and examined histologically. The subject partakes of the two sexes, manifesting a feminine disposition and tastes, but has not been admitted into the female wards of the hospital. He asks that the testicle in the labium may be removed as it interferes by its presence with sexual relations that are otherwise incomplete. The generic denomination of masculine pseudo hermaphrodism to cases of this nature not indicating sufficiently their mixed character, M. Hallopean proposes to apply to them the name of androgyne—man and woman, the first indicating the real sex, the second the superadded attributes. We should call by the name of gynandres those subjects which present the inverse malformations, and there would be no more hermaphrodites, but subjects really bisexual.</schema:Quotation>
         <schema:Quotation xml:lang="en">In all probability the &quot;botes&quot; of the Montana Indians and the &quot;burdachs&quot; of the Washington tribes serve as masculine hetaræ to the chiefs and medicine men, though this has not been definitely determined. Dr. Holder described a typical &quot;bote&quot; of the Absaroke tribe in the New York Medical Journal, 1889. This androgyne, in many respects, resembled the mujerados of the Pueblo Indians, and probably served a like purpose in his tribe.</schema:Quotation>
-        <rdfs:comment xml:lang="en">From ancient Greek prefix ἀνδρο- (andro-, meaning ‘male’ or ‘man’) and suffix -γυνή (-gynous, meaning ‘female’ or ‘woman’).</rdfs:comment>
         <different-from rdf:resource="https://github.com/Superraptor/GSSO#androgynous_gender_expression"/>
+        <etymology xml:lang="en">From ancient Greek prefix ἀνδρο- (andro-, meaning ‘male’ or ‘man’) and suffix -γυνή (-gynous, meaning ‘female’ or ‘woman’). Partially borrowed from Latin (androgynus) and French (androgyne).</etymology>
         <historical-term xml:lang="en">androgyne</historical-term>
         <modern-term xml:lang="en">androgyne</modern-term>
         <preferred-name xml:lang="en">androgyne</preferred-name>
@@ -9156,6 +9202,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#appetite -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#appetite">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hunger"/>
+        <MESH_UID>D001066</MESH_UID>
+        <preferred-name xml:lang="en">appetite</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Natural recurring desire for food. Alterations may be induced by appetite depressants or appetite stimulants.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#applied_science -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#applied_science">
@@ -9252,7 +9309,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#arranged_marriage">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Arranged_marriage</WIKIPEDIA>
         <preferred-name xml:lang="en">arranged marriage</preferred-name>
+        <preferred-name xml:lang="de">arrangierte Ehe</preferred-name>
     </owl:Class>
     
 
@@ -9493,6 +9552,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#assigned_female_at_birth">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#assigned_sex"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <acronym xml:lang="en">AFAB</acronym>
         <acronym xml:lang="es">AMAN</acronym>
         <preferred-name xml:lang="es">asignado mujer al nacer</preferred-name>
@@ -9519,7 +9579,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#assigned_gender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#assigned_sex"/>
         <preferred-name xml:lang="en">assigned gender</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Assigned gender is one&apos;s gender which was assigned at birth, in concordance with assigned sex. Such a designation is typically based off of the superficial appearance of external genitalia present at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9529,6 +9591,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#assigned_male_at_birth">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#assigned_sex"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <acronym xml:lang="es">AHAN</acronym>
         <acronym xml:lang="en">AMAB</acronym>
         <preferred-name xml:lang="es">asignado hombre al nacer</preferred-name>
@@ -9556,6 +9619,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#assigned_sex">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#assigned_gender"/>
         <preferred-name xml:lang="en">assigned sex</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">sex assigned at birth</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="es">sexo asignado al nacimiento</oboInOwl1:hasExactSynonym>
@@ -9592,6 +9656,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
         <preferred-name xml:lang="en">assumed gender</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The gender which one is assumed to be based on assigned sex and assigned gender at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10110,6 +10175,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#baby_trans -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#baby_trans">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <preferred-name xml:lang="en">baby trans</preferred-name>
+        <slang-term xml:lang="en">baby trans</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone who has recently discovered that they are transgender.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bacha_baz -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bacha_baz">
@@ -10214,6 +10291,19 @@
         <preferred-name xml:lang="en">ball culture</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">ballroom community</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">house system</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#banjee -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#banjee">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Banjee</WIKIPEDIA>
+        <historical-term xml:lang="en">banjee</historical-term>
+        <preferred-name xml:lang="en">banjee</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A young Latino or African American gay man who dresses in stereotypical masculine urban fashion.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">banjee boy</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -10329,6 +10419,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bear">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bear_(gay_culture)</WIKIPEDIA>
         <preferred-name xml:lang="en">bear</preferred-name>
         <slang-term xml:lang="en">bear</slang-term>
@@ -10425,6 +10516,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:Quotation xml:lang="en">In all probability the &quot;botes&quot; of the Montana Indians and the &quot;burdachs&quot; of the Washington tribes serve as masculine hetaræ to the chiefs and medicine men, though this has not been definitely determined. Dr. Holder described a typical &quot;bote&quot; of the Absaroke tribe in the New York Medical Journal, 1889. This androgyne, in many respects, resembled the mujerados of the Pueblo Indians, and probably served a like purpose in his tribe.</schema:Quotation>
         <schema:alternateName xml:lang="en">berdaches</schema:alternateName>
         <schema:alternateName xml:lang="en">berdachism</schema:alternateName>
@@ -10503,6 +10595,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bi-curiosity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_curiosity"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">bicurious</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bi-curious</WIKIPEDIA>
         <alternative-spelling xml:lang="en">bicuriosity</alternative-spelling>
@@ -10582,6 +10675,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bigender_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#multiple_gender_identities"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <alternative-spelling xml:lang="en">bi-gender identity</alternative-spelling>
         <preferred-name xml:lang="en">bigender identity</preferred-name>
         <shortened-term xml:lang="en">bigender</shortened-term>
@@ -10870,6 +10964,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#biphobia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anti-LGBTQ_bias"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexism"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">biphobic</schema:alternateName>
         <preferred-name xml:lang="en">biphobia</preferred-name>
     </owl:Class>
@@ -11116,6 +11211,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_slang">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
         <preferred-name xml:lang="en">bisexual slang</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the bisexual community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11468,6 +11564,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#bottom -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bottom">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
+        <preferred-name xml:lang="en">bottom</preferred-name>
+        <preferred-name xml:lang="es">pasivo</preferred-name>
+        <preferred-name xml:lang="de">passiv</preferred-name>
+        <slang-term xml:lang="en">bottom</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone, typically a man, who is penetrated during sexual intercourse or someone who has a preference for being penetrated during such intercourse.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#boxer_briefs -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#boxer_briefs">
@@ -11488,6 +11597,18 @@
         <preferred-name xml:lang="en">boxer shorts</preferred-name>
         <shortened-term xml:lang="en">boxers</shortened-term>
         <oboInOwl1:hasExactSynonym xml:lang="en">loose boxers</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#boymode -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#boymode">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <preferred-name xml:lang="en">boymode</preferred-name>
+        <slang-term xml:lang="en">boymode</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">When a transgender person presents a gender expression codified as male, typically if that person is a transgender woman. Usually used in the context of going incognito as a cisgender man.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11535,6 +11656,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#breast_binding">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transmasculine_experience"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Breast_binding</WIKIPEDIA>
         <preferred-name xml:lang="en">breast binding</preferred-name>
         <shortened-term xml:lang="en">binding</shortened-term>
@@ -11807,6 +11930,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#butch">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Polari"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#femme"/>
         <preferred-name xml:lang="en">butch</preferred-name>
@@ -12346,6 +12470,26 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#chaser -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chaser">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <derogatory-term xml:lang="en">tranny chaser</derogatory-term>
+        <preferred-name xml:lang="en">chaser</preferred-name>
+        <slang-term xml:lang="en">chaser</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone who aims to have sexual relations (in some cases non-consensually) or date transgender people as a kind of fetish.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#chaser"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#derogatory-term"/>
+        <owl:annotatedTarget xml:lang="en">tranny chaser</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">This term is labeled as derogatory, not because of its reference to a person as a chaser, but because of the use of the word &quot;tranny&quot; which many transgender people consider a slur.</rdfs:comment>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#chasmogamy -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chasmogamy">
@@ -12517,6 +12661,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#child_marriage">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Child_marriage</WIKIPEDIA>
         <preferred-name xml:lang="en">child marriage</preferred-name>
     </owl:Class>
     
@@ -12618,6 +12763,25 @@
         <oboInOwl1:hasDefinition xml:lang="en">A low number of circulating cells transferred from one individual to another. This often refers to fetal cells persisting in the material circulation and may play a role in the pathogenesis of autoimmune diseases.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">The occurrence in an individual of two or more cell populations of different chromosomal constitutions, derived from different individuals. This contrasts with mosaicism in which the different cell populations are derived from a single individual.</oboInOwl1:hasDefinition>
     </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#chocolate_craving -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chocolate_craving">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#food_craving"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sweet_craving"/>
+        <schema:Quotation xml:lang="en">Women who crave chocolate during the perimenstrual phase are experiencing this craving when both levels of estrogen and progesterone are at their lowest—not when they are changing. Even more interesting, most women stop craving chocolate just at the start of menses (again no hormone change). This has led researcher Julia Hormes to conclude that the chocolate craving might actually be a response to the stress of the oncoming bleeding, and that chocolate is a culturally reinforced way to deal with that stressor. Lastly, 80% of menopausal women still report chocolate cravings despite no longer having menstrual cycles or significant variability in their hormone levels over the course of a month (Hormes &amp; Rozin, Appetite, 2009).</schema:Quotation>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Food_craving#%22Chocolate_craving%22</WIKIPEDIA>
+        <preferred-name xml:lang="en">chocolate craving</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#chocolate_craving"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">Women who crave chocolate during the perimenstrual phase are experiencing this craving when both levels of estrogen and progesterone are at their lowest—not when they are changing. Even more interesting, most women stop craving chocolate just at the start of menses (again no hormone change). This has led researcher Julia Hormes to conclude that the chocolate craving might actually be a response to the stress of the oncoming bleeding, and that chocolate is a culturally reinforced way to deal with that stressor. Lastly, 80% of menopausal women still report chocolate cravings despite no longer having menstrual cycles or significant variability in their hormone levels over the course of a month (Hormes &amp; Rozin, Appetite, 2009).</owl:annotatedTarget>
+        <dc:creator>Amy Jo Stavnezer</dc:creator>
+        <terms:source rdf:resource="https://www.psychologytoday.com/us/blog/comfort-cravings/201402/why-do-i-crave-chocolate-during-my-period"/>
+    </owl:Axiom>
     
 
 
@@ -12879,6 +13043,9 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <WIKIDATA>Q1093205</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cisgender</WIKIPEDIA>
         <alternative-spelling xml:lang="de">cis-gender</alternative-spelling>
@@ -12972,6 +13139,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cissexism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <preferred-name xml:lang="de">Cissexismus</preferred-name>
         <preferred-name xml:lang="en">cissexism</preferred-name>
         <preferred-name xml:lang="fr">cissexisme</preferred-name>
@@ -13253,7 +13421,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#clique">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <schema:alternateName xml:lang="en">cliques</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Clique</WIKIPEDIA>
         <preferred-name xml:lang="en">clique</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A clique, in the social sciences, is a group of individuals who interact with one another and share similar interests.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13703,6 +13874,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Coming_out</WIKIPEDIA>
         <preferred-name xml:lang="en">coming out</preferred-name>
         <preferred-name xml:lang="es">salir del armario</preferred-name>
@@ -13783,7 +13956,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#community">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <schema:alternateName xml:lang="en">communities</schema:alternateName>
+        <NCIT>C16453</NCIT>
+        <SIO>SIO:001064</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Community</WIKIPEDIA>
         <preferred-name xml:lang="en">community</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A community is a sizeable social unit that shares common values.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A set of people with some shared element. The substance of shared element varies widely, from geography to a situation to interest to lives and values. The term is widely used to evoke sense of collectivity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13865,7 +14044,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#computational_entity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#information_content_entity"/>
         <schema:alternateName xml:lang="en">computational entities</schema:alternateName>
+        <SIO>SIO:000602</SIO>
         <preferred-name xml:lang="en">computational entity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A computational entity is an information content entity operated on using some computational system.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -14676,6 +14857,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#craving -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#craving">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drive"/>
+        <MESH_UID>D066249</MESH_UID>
+        <preferred-name xml:lang="en">craving</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An intense, urgent, or abnormal desire or longing (for food, drugs, alcohol, etc.).</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#creative_work -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#creative_work">
@@ -14829,6 +15021,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#wx1DAQAAMAAJ"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">cross-dressers</schema:alternateName>
         <acronym xml:lang="en">CD</acronym>
         <alternative-spelling xml:lang="en">crossdresser</alternative-spelling>
@@ -14903,7 +15097,32 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cult">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <schema:alternateName xml:lang="en">cults</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cult</WIKIPEDIA>
         <preferred-name xml:lang="en">cult</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A group or sect of people with a religious, philosophical or cultural identity, often existing on the margins of society or exploitative towards its members.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cultural_appropriation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_appropriation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_exchange"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Cultural_appropriation</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cultural_appropriation</WIKIPEDIA>
+        <preferred-name xml:lang="en">cultural appropriation</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cultural_assimilation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_assimilation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_exchange"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Cultural_assimilation</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cultural_assimilation</WIKIPEDIA>
+        <preferred-name xml:lang="en">cultural assimilation</preferred-name>
     </owl:Class>
     
 
@@ -14912,6 +15131,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_social_behavior"/>
+        <alternative-spelling xml:lang="en">cultural behaviour</alternative-spelling>
+        <preferred-name xml:lang="en">cultural behavior</preferred-name>
     </owl:Class>
     
 
@@ -14925,6 +15146,39 @@
         <preferred-name xml:lang="en">cultural bias</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">bigotry</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">prejudice</oboInOwl1:hasNarrowSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cultural_exchange -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_exchange">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_process"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Cultural_exchange</WIKIPEDIA>
+        <preferred-name xml:lang="en">cultural exchange</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cultural_globalization -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_globalization">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_exchange"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Cultural_globalization</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cultural_globalization</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">cultural globalisation</alternative-spelling>
+        <preferred-name xml:lang="en">cultural globalization</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cultural_homogenization -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_homogenization">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_globalization"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cultural_homogenization</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">cultural homogenisation</alternative-spelling>
+        <preferred-name xml:lang="en">cultural homogenization</preferred-name>
     </owl:Class>
     
 
@@ -14960,12 +15214,30 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#cultural_process -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_process">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group_process"/>
+        <schema:alternateName xml:lang="en">cultural processes</schema:alternateName>
+        <preferred-name xml:lang="en">cultural process</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A process involving a change in the state of a given culture.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180205203411/http://www.bridge.ids.ac.uk/sites/bridge.ids.ac.uk/files/reports/re55.pdf"/>
+        <schema:alternateName xml:lang="en">cultures</schema:alternateName>
+        <LIFO>LifO:0000057</LIFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10061447</MEDDRA>
+        <MESH_UID>D003469</MESH_UID>
+        <NCIT>C16478</NCIT>
         <preferred-name xml:lang="en">culture</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A collective expression for all behavior patterns acquired and socially transmitted through symbols. Culture includes customs, traditions, and language.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A pattern of learned beliefs, values, and behavior that are shared within a group. It includes language, styles of communication, practices, customs, and views on roles and relationships.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -14998,6 +15270,20 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cunnilingus</WIKIPEDIA>
         <preferred-name xml:lang="en">cunnilingus</preferred-name>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#oral_clitoral_stimulation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cuntboy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cuntboy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
+        <rdfs:comment xml:lang="en">Note that this term is sometimes used to refer to gay men who are considered submissive or passive during sexual intercourse (the term &quot;bottom&quot; is often utilized in this context).</rdfs:comment>
+        <derogatory-term xml:lang="en">cuntboy</derogatory-term>
+        <preferred-name xml:lang="en">cuntboy</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
+        <slang-term xml:lang="en">cuntboy</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A transgender man who has a vagina, or such a character in a fictional medium.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -15135,8 +15421,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#database">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computational_entity"/>
         <schema:alternateName xml:lang="en">databases</schema:alternateName>
+        <MESH_UID>D019991</MESH_UID>
+        <NCIT>C15426</NCIT>
+        <SIO>SIO:000750</SIO>
+        <WIKIDATA>Q8513</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Database</WIKIPEDIA>
+        <acronym xml:lang="de">DB</acronym>
+        <acronym xml:lang="en">DB</acronym>
+        <preferred-name xml:lang="de">Datenbank</preferred-name>
         <preferred-name xml:lang="en">database</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A database is a set of tables.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">An information set with a regular structure. Although it can be applied to any set of information the term was invented to refer to computerized data, and is used almost exclusively in computing.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Work consisting of a structured file of information or a set of logically related data stored and retrieved using computer-based means.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -15233,6 +15529,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#deadnaming">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#misgendering"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <rdfs:comment xml:lang="en">Deadnaming usually takes one of three forms: (1) an accidental reference to the deadname because one is used to that name (this type of deadnaming is often associated with intimate friends and family), (2) a purposeful usage of the deadname to cause distress (such as bullying, trans bashing, etc.), and (3) purposeful usage of the deadname due to denial of one being transgender (this type is often tied to religious beliefs).</rdfs:comment>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#deadname"/>
         <alternative-spelling xml:lang="en">dead naming</alternative-spelling>
@@ -15511,7 +15808,21 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#description">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language_entity"/>
         <schema:alternateName xml:lang="en">descriptions</schema:alternateName>
+        <SIO>SIO:000136</SIO>
         <preferred-name xml:lang="en">description</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A description is language entity in which elements of a language (formal or natural) are used to characterize an entity.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#designer_dyke -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#designer_dyke">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
+        <derogatory-term xml:lang="en">designer dyke</derogatory-term>
+        <preferred-name xml:lang="en">designer dyke</preferred-name>
+        <slang-term xml:lang="en">designer dyke</slang-term>
+        <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#lipstick_lesbian"/>
     </owl:Class>
     
 
@@ -15654,6 +15965,20 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diaphragm_(birth_control)</WIKIPEDIA>
         <preferred-name xml:lang="en">diaphragm</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">contraceptive diaphragm</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#dickgirl -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dickgirl">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:alternateName xml:lang="en">dickgirls</schema:alternateName>
+        <derogatory-term xml:lang="en">dickgirl</derogatory-term>
+        <preferred-name xml:lang="en">dickgirl</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <slang-term xml:lang="en">dickgirl</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A character who is female and has a penis; a futanari.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16057,6 +16382,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#divorced">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marital_status"/>
         <preferred-name xml:lang="en">divorced</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Having had one&apos;s marriage legally dissolved.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16224,8 +16550,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#18568386"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIDATA>Q3410369</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Drag_(clothing)</WIKIPEDIA>
         <preferred-name xml:lang="de">Travestiekleidung</preferred-name>
@@ -16242,6 +16570,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">drag kings</schema:alternateName>
         <WIKIDATA>Q1254525</WIKIDATA>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
@@ -16262,6 +16592,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">drag queens</schema:alternateName>
         <WIKIDATA>Q337084</WIKIDATA>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
@@ -16329,6 +16661,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#drive -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drive">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#motivation"/>
+        <schema:alternateName xml:lang="en">drives</schema:alternateName>
+        <MESH_UID>D004328</MESH_UID>
+        <preferred-name xml:lang="en">drive</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A state of internal activity of an organism that is a necessary condition before a given stimulus will elicit a class of responses; e.g., a certain level of hunger (drive) must be present before food will elicit an eating response.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#drop_earring -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drop_earring">
@@ -16385,6 +16729,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780199829941"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780517573341"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">dykes</schema:alternateName>
         <WIKIDATA>Q835137</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Dyke_(slang)</WIKIPEDIA>
@@ -16395,6 +16740,7 @@
         <preferred-name xml:lang="en">dyke</preferred-name>
         <proper-term rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
         <reclaimed_term xml:lang="en">dyke</reclaimed_term>
+        <slang-term xml:lang="en">dyke</slang-term>
     </owl:Class>
     
 
@@ -16741,6 +17087,18 @@
         <historical-term xml:lang="en">effeminatio</historical-term>
         <preferred-name xml:lang="en">effeminatio</preferred-name>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#viraginity_(male)"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#egg -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#egg">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <preferred-name xml:lang="en">egg</preferred-name>
+        <slang-term xml:lang="en">egg</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A transgender person who considers themselves to not be transgender or a transgender person who has not yet made their identity public. When a transgender person comes out, it is said that &quot;the egg cracks&quot;.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -17163,6 +17521,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#environmental_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#public_policy"/>
+        <schema:alternateName xml:lang="en">environmental policies</schema:alternateName>
+        <MESH_UID>D058735</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Environmental_policy</WIKIPEDIA>
+        <preferred-name xml:lang="en">environmental policy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A course of action or principle adopted or proposed by a government, party, business, or individual that concerns human interactions with nature and natural resources.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -17568,6 +17931,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ethnic_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_attribute"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <schema:alternateName xml:lang="en">ethnic groups</schema:alternateName>
         <EFO>EFO:0001799</EFO>
         <NCIT>C16564</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">364699009</SCTID>
@@ -17747,6 +18111,23 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#euphemism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trope"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#euphoria -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#euphoria">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#happiness"/>
+        <schema:alternateName xml:lang="en">euphorias</schema:alternateName>
+        <HPO>HP:0031844</HPO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10015533</MEDDRA>
+        <MESH_UID>D005059</MESH_UID>
+        <NCIT>C34598</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85949006</SCTID>
+        <SIO>SIO:000835</SIO>
+        <preferred-name xml:lang="en">euphoria</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Euphoria is an emotion characterized by intense feelings of well-being, elation, happiness, ecstasy, excitement, and joy.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18141,6 +18522,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#facial_feminization_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminizing_gender_confirmation_surgery"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Facial_feminization_surgery</WIKIPEDIA>
         <acronym xml:lang="en">FFS</acronym>
         <alternative-spelling xml:lang="en">facial feminisation surgery</alternative-spelling>
@@ -18183,6 +18565,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_and_the_Lady_Lover"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_or_&apos;Fag&apos;"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:Quotation xml:lang="en">Does the &apos;fairy&apos; or &apos;fag&apos; really exist? This question has been asked time and again. There is no doubt but that this type of denegerate is a reality. He is a freak of nature who in every way attempts to imitate women.</schema:Quotation>
         <rdfs:comment xml:lang="en">In North America, fag is often considered highly offensive, although some gay people have tried to reclaim it.</rdfs:comment>
         <derogatory-term xml:lang="en">fag</derogatory-term>
@@ -18201,11 +18585,26 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#fag_hag -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fag_hag">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fag"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <derogatory-term xml:lang="en">fag hag</derogatory-term>
+        <preferred-name xml:lang="en">fag hag</preferred-name>
+        <slang-term xml:lang="en">fag hag</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A woman who enjoys the company of gay men.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">fruit fly</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#failure_to_pass_as_desired_gender -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#failure_to_pass_as_desired_gender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_passing"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <preferred-name xml:lang="en">failure to pass as desired gender</preferred-name>
         <slang-term xml:lang="en">clocking</slang-term>
         <slang-term xml:lang="en">read</slang-term>
@@ -18342,6 +18741,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#family">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <schema:alternateName xml:lang="en">families</schema:alternateName>
         <MESH_UID>D005190</MESH_UID>
         <preferred-name xml:lang="en">family</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A social group consisting of parents or parent substitutes and children.</oboInOwl1:hasDefinition>
@@ -18364,7 +18764,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#family_conflict">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conflict"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#family"/>
+        <MESH_UID>D054541</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81935006</SCTID>
         <preferred-name xml:lang="en">family conflict</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Struggle or disagreement between parents, parent and child or other members of a family.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18385,9 +18788,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#family"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">family members</schema:alternateName>
+        <NCIT>C41256</NCIT>
         <preferred-name xml:lang="de">Familienmitglied</preferred-name>
         <preferred-name xml:lang="en">family member</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A person belonging to a particular family; a close relative or relation.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Any of the individuals who are descended from a common progenitor, related by marriage or other legal tie, or by a feeling of closeness.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">member of the family</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -18445,6 +18850,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#family"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_relationship"/>
         <schema:alternateName xml:lang="en">family relationships</schema:alternateName>
+        <EFO>EFO:0004424</EFO>
         <preferred-name xml:lang="en">family relationship</preferred-name>
     </owl:Class>
     
@@ -18769,7 +19175,7 @@
     <!-- https://github.com/Superraptor/GSSO#female_transgender_identity -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_transgender_identity">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminine_spectrum_gender_identity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-feminine"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_identity"/>
         <preferred-name xml:lang="en">female transgender identity</preferred-name>
     </owl:Class>
@@ -18857,6 +19263,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#femininity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_role"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <MESH_UID>D057227</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12720008</SCTID>
         <WIKIDATA>Q866081</WIKIDATA>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Weiblichkeit</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Femininity</WIKIPEDIA>
@@ -18864,6 +19272,7 @@
         <preferred-name xml:lang="de">Weiblichkeit</preferred-name>
         <preferred-name xml:lang="en">femininity</preferred-name>
         <preferred-name xml:lang="fr">féminité</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Female-associated gender-specific social roles and behaviors unrelated to biologic function.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym xml:lang="de">Fraulichkeit</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">girlishness</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">womanhood</oboInOwl1:hasRelatedSynonym>
@@ -19011,6 +19420,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#femme">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#butch"/>
         <preferred-name xml:lang="en">femme</preferred-name>
         <slang-term xml:lang="en">femme</slang-term>
@@ -19369,6 +19780,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#food_craving -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#food_craving">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#craving"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Food_craving</WIKIPEDIA>
+        <preferred-name xml:lang="en">food craving</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">selective hunger</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#food_shop -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#food_shop">
@@ -19421,6 +19843,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#forced_marriage">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Forced_marriage</WIKIPEDIA>
         <preferred-name xml:lang="en">forced marriage</preferred-name>
     </owl:Class>
     
@@ -20080,6 +20503,7 @@
         <rdfs:comment xml:lang="en">This entry includes terms used as slang among gay men, not gay persons in general.</rdfs:comment>
         <preferred-name xml:lang="en">gay slang</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">LGBT slang</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the gay (male) community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20099,6 +20523,18 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">gayborhood</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">gaytown</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">gayvenue</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gaymer -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gaymer">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gaymer</WIKIPEDIA>
+        <preferred-name xml:lang="en">gaymer</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Note that this term is also used by some transgender gamers who do not identify as gay.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gay gamer</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -20130,6 +20566,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <NCIT>C17357</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263495000</SCTID>
         <WIKIDATA>Q48277</WIKIDATA>
@@ -20150,7 +20587,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender-inclusive_language">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <preferred-name xml:lang="en">gender-inclusive language</preferred-name>
+        <shortened-term xml:lang="en">gender-inclusive</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Inclusive language used to describe something in a way which isn&apos;t inherently gendered (i.e. using &quot;partner&quot; instead of &quot;boyfriend&quot; or &quot;girlfriend&quot; or having all gender or gender-neutral bathrooms instead of bathrooms for only men and women).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20280,10 +20720,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <WIKIDATA>Q2261572</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_bender</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">gender-bender</alternative-spelling>
         <colloquial-term xml:lang="en">gender bender</colloquial-term>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#gender_bending"/>
         <preferred-name xml:lang="en">gender bender</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A person who dresses in the clothes of another sex, or in clothes which make their gender identity ambiguous.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gender-blender</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -20304,7 +20746,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_binarism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_system"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <rdfs:comment xml:lang="en">It is important to note that the idea of gender binarism is a social construction, not a biological one, per se. Many cultures have more than two gender roles entwined in their respective societies.</rdfs:comment>
         <preferred-name xml:lang="en">gender binarism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The gender binary is the classification of sex and gender into two distinct, opposite and disconnected forms of masculine and feminine.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">binarism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender binary</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">genderism</oboInOwl1:hasExactSynonym>
@@ -20329,6 +20774,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_confirmation_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surgical_procedure"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10079200</MEDDRA>
         <MESH_UID>D057830</MESH_UID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">719670005</SCTID>
@@ -20359,6 +20806,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender_cue -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_cue">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <schema:alternateName xml:lang="en">gender cues</schema:alternateName>
+        <rdfs:comment xml:lang="en">Gender cues can be culturally bound (such as European women typically wearing longer hairstyles) or more biologically focused (people who were assigned male at birth often develop lower voices). Other examples of gender cues include body movements and gestures and facial hair.</rdfs:comment>
+        <preferred-name xml:lang="en">gender cue</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A trait or feature one uses in order to attempt to identify a person&apos;s gender or sex.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_development -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_development">
@@ -20373,6 +20833,40 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_disguise">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
         <preferred-name xml:lang="en">gender disguise</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_diverse -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_diverse">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gender_diversity"/>
+        <alternative-spelling xml:lang="en">gender-diverse</alternative-spelling>
+        <preferred-name xml:lang="en">gender diverse</preferred-name>
+        <oboInOwl1:hasBroadSynonym xml:lang="en">trans and gender diverse</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">Describing a person who is considered to not conform to stereotypical gender-based expectations. Depending on the exact definition, could include transgender people, intersex people, and/or genderqueer people.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gender creative</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gender independent</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming"/>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_variant"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_diverse"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasBroadSynonym"/>
+        <owl:annotatedTarget xml:lang="en">trans and gender diverse</owl:annotatedTarget>
+        <acronym xml:lang="en">TGD</acronym>
+    </owl:Axiom>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_diversity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_diversity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gender_diverse"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_diversity</WIKIPEDIA>
+        <preferred-name xml:lang="en">gender diversity</preferred-name>
     </owl:Class>
     
 
@@ -20399,12 +20893,16 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">gender dysphorias</schema:alternateName>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10078075</MEDDRA>
         <MESH_UID>D000068116</MESH_UID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93461009</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_dysphoria</WIKIPEDIA>
         <acronym xml:lang="en">GD</acronym>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#gender_euphoria"/>
         <historical-term xml:lang="en">gender dysphoria</historical-term>
         <preferred-name xml:lang="es">disforia de género</preferred-name>
         <preferred-name xml:lang="fr">dysphorie de genre</preferred-name>
@@ -20434,6 +20932,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_system"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180205203411/http://www.bridge.ids.ac.uk/sites/bridge.ids.ac.uk/files/reports/re55.pdf"/>
         <preferred-name xml:lang="en">gender equality</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Gender equality is the state of equal ease of access to resources and opportunities regardless of gender, including economic participation and decision-making; and the state of valuing different behaviors, aspirations and needs equally, regardless of gender.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20448,13 +20947,27 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender_euphoria -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_euphoria">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#euphoria"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#gender_dysphoria"/>
+        <preferred-name xml:lang="en">gender euphoria</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_expansive -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_expansive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
+        <rdfs:comment xml:lang="en">Many consider transgender identities, including non-binary identities, as gender-expansive.</rdfs:comment>
         <alternative-spelling xml:lang="en">gender-expansive</alternative-spelling>
         <preferred-name xml:lang="en">gender expansive</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An umbrella term utilized for individual&apos;s aiming to broaden their culture&apos;s definition(s) of gender by expressing an identity which is not considered normative by that culture.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20466,6 +20979,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_behavior"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <rdfs:comment xml:lang="en">Gender expression is often codified by gendered clothing (or lack thereof) and other gender-based expectations relating to appearance, such as consistent cosmetic use.</rdfs:comment>
         <WIKIDATA>Q15404978</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_expression</WIKIPEDIA>
         <preferred-name xml:lang="es">expresión de género</preferred-name>
@@ -20494,6 +21009,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <WIKIDATA>Q48264</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_identity</WIKIPEDIA>
         <preferred-name xml:lang="de">Geschlechtsidentität</preferred-name>
@@ -20521,6 +21038,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_identity_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_health_condition"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIDATA>Q1049021</WIKIDATA>
         <acronym xml:lang="en">GID</acronym>
         <derogatory-term xml:lang="en">gender identity disorder</derogatory-term>
@@ -20560,6 +21078,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_mainstreaming">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mainstreaming"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180205203411/http://www.bridge.ids.ac.uk/sites/bridge.ids.ac.uk/files/reports/re55.pdf"/>
+        <schema:alternateName xml:lang="en">gender mainstreamings</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_mainstreaming</WIKIPEDIA>
+        <preferred-name xml:lang="en">gender mainstreaming</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Gender mainstreaming is the public policy concept of assessing the different implications for women and men of any planned policy action, including legislation and programmes, in all areas and levels.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20598,6 +21120,7 @@
         <WIKIDATA>Q5530992</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_neutrality</WIKIPEDIA>
         <preferred-name xml:lang="en">gender neutrality</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Gender neutrality is the idea that policies, language, and other social institutions should avoid distinguishing roles according to people&apos;s sex or gender, in order to avoid discrimination arising from the impression that there are social roles for which one gender is more suited than another.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender neutralism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender-neutralism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">gender neutrality movement</oboInOwl1:hasRelatedSynonym>
@@ -20605,12 +21128,38 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender_non-conforming -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_non-conforming">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <alternative-spelling xml:lang="en">gender nonconforming</alternative-spelling>
+        <preferred-name xml:lang="en">gender non-conforming</preferred-name>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conformity"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_non-conforming_person -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_non-conforming_person">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_variance"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <schema:alternateName xml:lang="en">gender non-conforming people</schema:alternateName>
         <preferred-name xml:lang="en">gender non-conforming person</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_non-conformity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_non-conformity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <rdfs:comment xml:lang="en">Note that some have pointed out that the idea of gender non-conformity seems to assume a single masculinity or single femininity, which appears to not be the case in many (if not all) cultures.</rdfs:comment>
+        <alternative-spelling xml:lang="en">gender nonconforming</alternative-spelling>
+        <preferred-name xml:lang="en">gender non-conformity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The degree to which someone&apos;s conceptualizations of gender cues (clothing, usage of cosmetics, hairstyle, behavior, interests, etc.) seem to differ from  cultural norms of masculinity or femininity.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming"/>
     </owl:Class>
     
 
@@ -20627,14 +21176,27 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender_normative -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_normative">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <preferred-name xml:lang="en">gender normative</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_passing -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_passing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#passing"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_experience"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <WIKIDATA>Q1558568</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Passing_(gender)</WIKIPEDIA>
         <preferred-name xml:lang="en">gender passing</preferred-name>
+        <shortened-term xml:lang="en">passing</shortened-term>
     </owl:Class>
     
 
@@ -20643,6 +21205,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_pictogram">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pictogram"/>
+        <schema:alternateName xml:lang="en">gender pictograms</schema:alternateName>
         <preferred-name xml:lang="en">gender pictogram</preferred-name>
     </owl:Class>
     
@@ -20767,7 +21330,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_symbol">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#symbol"/>
+        <schema:alternateName xml:lang="en">gender symbols</schema:alternateName>
         <preferred-name xml:lang="en">gender symbol</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A gender symbol is a pictogram or glyph used to represent either biological sex or sociological gender in either biology, medicine, genealogy or selective breeding, or in sociology, gender politics, LGBT subculture and identity politics.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20784,6 +21349,7 @@
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Syst%C3%A8mes_de_genre</WIKIPEDIA>
         <preferred-name xml:lang="en">gender system</preferred-name>
         <preferred-name xml:lang="es">sistema de género</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Gender systems are the social structures that establish genders and their associated gender roles in society.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20804,6 +21370,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_experience"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <rdfs:comment xml:lang="en">Transitioning is an umbrella term for changes undertaken to match their gender expression with their identified gender. Typically, there are two forms of gender transition: social transition (wearing different clothing, speaking with a difference cadence, using a diferent name, etc.) and physical transition (usage of hormones, various gender-affirming surgeries, etc.). Usually this distinction is unnecessary and used as a form of gatekeeping.</rdfs:comment>
         <WIKIDATA>Q1085588</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transitioning_(transgender)</WIKIPEDIA>
@@ -20829,17 +21398,30 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_variance">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_expression"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <rdfs:comment xml:lang="en">&quot;Gender non-conforming&quot; and &quot;gender diverse&quot; are often preferred to &quot;gender variant&quot; because &quot;gender variant&quot; (and, by extension, &quot;gender variance&quot;) implies a standard normative for gender (i.e. a way gender is &quot;supposed to be&quot;).</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_variance</WIKIPEDIA>
         <practiced-by xml:lang="en">gender diverse</practiced-by>
-        <practiced-by xml:lang="en">gender non-conforming</practiced-by>
-        <practiced-by xml:lang="en">gender nonconforming</practiced-by>
-        <practiced-by xml:lang="en">gender variant</practiced-by>
-        <practiced-by xml:lang="en">genderqueer</practiced-by>
         <preferred-name xml:lang="en">gender variance</preferred-name>
+        <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_variant"/>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender non-conformity</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender nonconformity</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_variant -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_variant">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <rdfs:comment xml:lang="en">&quot;Gender non-conforming&quot; and &quot;gender diverse&quot; are often preferred to &quot;gender variant&quot; because &quot;gender variant&quot; (and, by extension, &quot;gender variance&quot;) implies a standard normative for gender (i.e. a way gender is &quot;supposed to be&quot;).</rdfs:comment>
+        <preferred-name xml:lang="en">gender variant</preferred-name>
+        <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_variance"/>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_diverse"/>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming"/>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conformity"/>
     </owl:Class>
     
 
@@ -20905,11 +21487,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#genderfluid_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fluctuating_gender_identity"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <alternative-spelling xml:lang="en">gender-fluid identity</alternative-spelling>
         <preferred-name xml:lang="en">genderfluid identity</preferred-name>
         <shortened-term xml:lang="de">genderfluid</shortened-term>
         <shortened-term xml:lang="en">genderfluid</shortened-term>
         <shortened-term xml:lang="es">género fluido</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gender fluid</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -20930,6 +21515,17 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Genderless_language</WIKIPEDIA>
         <preferred-name xml:lang="en">genderless language</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A genderless language is a natural or constructed language that has no distinctions of grammatical gender—that is, no categories requiring morphological agreement between nouns and associated pronouns, adjectives, articles, or verbs.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#genderqueer -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#genderqueer">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#queer"/>
+        <preferred-name xml:lang="en">genderqueer</preferred-name>
     </owl:Class>
     
 
@@ -21342,6 +21938,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#girlmode -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#girlmode">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <preferred-name xml:lang="en">girlmode</preferred-name>
+        <slang-term xml:lang="en">girlmode</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">When a transgender person presents a gender expression codified as female, typically if that person is a transgender man. Usually used in the context of going incognito as a cisgender woman.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#given_name -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#given_name">
@@ -21410,6 +22018,32 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#goggles">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#eyewear"/>
         <preferred-name xml:lang="en">goggles</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gold_star_gay -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gold_star_gay">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gold_star_lesbian"/>
+        <preferred-name xml:lang="en">gold star gay</preferred-name>
+        <shortened-term xml:lang="en">gold star</shortened-term>
+        <slang-term xml:lang="en">gold star gay</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay man who has never had sex with a woman.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gold_star_lesbian -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gold_star_lesbian">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gold_star_gay"/>
+        <preferred-name xml:lang="en">gold star lesbian</preferred-name>
+        <shortened-term xml:lang="en">gold star</shortened-term>
+        <slang-term xml:lang="en">gold star lesbian</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A lesbian who has never had sex with a man.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22041,6 +22675,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#hasbian -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hasbian">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#yestergay"/>
+        <derogatory-term xml:lang="en">hasbian</derogatory-term>
+        <etymology xml:lang="en">Blend of &quot;yesterday&quot; and &quot;gay&quot;.</etymology>
+        <preferred-name xml:lang="en">hasbian</preferred-name>
+        <slang-term xml:lang="en">hasbian</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone who formerly identified as lesbian who now identifies as heterosexual.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">wasbian</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#hat -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hat">
@@ -22072,6 +22721,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#crime"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">hate crimes</schema:alternateName>
         <WIKIDATA>Q459409</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hate_crime</WIKIPEDIA>
@@ -22088,6 +22738,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hate_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <schema:alternateName xml:lang="en">hate groups</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hate_group</WIKIPEDIA>
         <preferred-name xml:lang="en">hate group</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A hate group is a social group that advocates and practices hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society.</oboInOwl1:hasDefinition>
@@ -22280,6 +22931,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#public_policy"/>
+        <schema:alternateName xml:lang="en">health policies</schema:alternateName>
+        <MESH_UID>D006291</MESH_UID>
+        <NCIT>C16668</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Health_policy</WIKIPEDIA>
+        <preferred-name xml:lang="en">health policy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A set of decisions and courses of action undertaken to achieve specific health care goals within a community or society.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Decisions, usually developed by government policymakers, for determining present and future objectives pertaining to the health care system.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22450,6 +23108,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#phenotypic_sex"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">hermaphrodites</schema:alternateName>
         <rdfs:comment xml:lang="en">From the Latin hermaphrodītus which originates from the Greek ἑρμαϕρόδῑτος. The Greek terminology originally referred to the proper name Ἑρμαϕρόδιτος, the son of Hermes (Mercury) and Aphrodite (Venus). According to myth, Ἑρμαϕρόδιτος grew together with the nymph Salmacis, thus combining their male and female characters.</rdfs:comment>
         <rdfs:comment xml:lang="en">The term &quot;hermaphrodite&quot; is considered antiquated and pejorative when used in reference to intersex people or people who have experienced differences in sexual development (DSDs). This is because, as the Intersex Society of North America (ISNA) notes, &quot;a person [who] is both fully male and fully female... is a physiologic impossibility.&quot; However, the term &quot;hermaphrodite is appropriate in animals which display hermaphroditism, such as earthworms.&quot;</rdfs:comment>
@@ -22574,6 +23233,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterosexism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_bias"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <preferred-name xml:lang="en">heterosexism</preferred-name>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">heterocentrism</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">heterosexualism</oboInOwl1:hasRelatedSynonym>
@@ -22585,6 +23246,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterosexual_ally">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBTQ_advocate"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIDATA>Q432050</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Straight_ally</WIKIPEDIA>
         <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Heteroaliado</WIKIPEDIA>
@@ -22625,6 +23287,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterosexual_privilege">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_privilege"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <preferred-name xml:lang="en">heterosexual privilege</preferred-name>
     </owl:Class>
     
@@ -22645,6 +23309,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#monosexuality"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <preferred-name xml:lang="en">heterosexuality</preferred-name>
     </owl:Class>
     
@@ -22722,15 +23387,15 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#hijra"/>
-        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#derogatory-term"/>
-        <owl:annotatedTarget xml:lang="ur">حجرا</owl:annotatedTarget>
-        <rdfs:comment xml:lang="en">The term &quot;hijra&quot; is considered derogatory in Urdu, with the term &quot;Khwaja Sara&quot; used instead.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#hijra"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
         <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#eunuch"/>
         <rdfs:comment xml:lang="en">In India, hijras have the option to identify as eunuch (&quot;E&quot;) on passports and certain other government documents. However, they must identify as male or female in order to vote.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#hijra"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#derogatory-term"/>
+        <owl:annotatedTarget xml:lang="ur">حجرا</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">The term &quot;hijra&quot; is considered derogatory in Urdu, with the term &quot;Khwaja Sara&quot; used instead.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -22923,6 +23588,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#homomasculinity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homomasculinity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculinity"/>
+        <preferred-name xml:lang="en">homomasculinity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The subculture of gay men who self-identify with what is considered to be traditional, heterosexual (male) masculinity.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#homonationalism -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homonationalism">
@@ -22941,6 +23616,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation_experience"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">homophobic</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homophobia</WIKIPEDIA>
         <preferred-name xml:lang="en">homophobia</preferred-name>
@@ -22981,6 +23658,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homosexual">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">homosexuals</schema:alternateName>
         <rdfs:comment xml:lang="en">Many style guides and many gay people recommend against the use of the word &quot;homosexual&quot; because of its clinical and sometimes pejorative connotations, preferring the terms gay and (for women) lesbian, and relationship descriptors like &quot;same-sex relationship&quot;. Many consider it particularly pejorative when it is used as a noun, and prefer &quot;gay man&quot;, &quot;gay woman&quot; (or &quot;lesbian&quot;).</rdfs:comment>
         <derogatory-term xml:lang="en">homosexual</derogatory-term>
@@ -23714,6 +24392,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#hunger -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hunger">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drive"/>
+        <MESH_UID>D006815</MESH_UID>
+        <preferred-name xml:lang="en">hunger</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The desire for food generated by a sensation arising from the lack of food in the stomach.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#hurt -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hurt">
@@ -24124,12 +24813,14 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uterine_therapeutic_procedure"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10021151</MEDDRA>
         <MESH_UID>D007044</MESH_UID>
         <NCIT>C15256</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">236886002</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hysterectomy</WIKIPEDIA>
         <preferred-name xml:lang="en">hysterectomy</preferred-name>
+        <shortened-term xml:lang="en">hysto</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">A surgical procedure to remove the uterine body (partial hysterectomy) or the uterine body and cervix (total hysterectomy).</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">Excision of the uterus.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -24252,7 +24943,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ideogram">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#symbol"/>
+        <schema:alternateName xml:lang="en">ideograms</schema:alternateName>
+        <NCIT>C80239</NCIT>
         <preferred-name xml:lang="en">ideogram</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A picture or symbol used in a system of writing.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">An ideogram or ideograph is a graphic symbol that represents an idea or concept, independent of any particular language, and specific words or phrases.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">ideograph</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -25055,6 +25750,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#internalized_homophobia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internalized_homophobia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <alternative-spelling xml:lang="en">internalised homophobia</alternative-spelling>
+        <preferred-name xml:lang="en">internalized homophobia</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#internalized_misandry -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internalized_misandry">
@@ -25306,7 +26012,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_health_condition"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <rdfs:comment xml:lang="en">Intersex is an umbrella term with a complex history. It is usually used to refer to persons with congenital conditions which involve differences in the many intertwined processes of sexual development.</rdfs:comment>
+        <antonym xml:lang="en">dyadic</antonym>
         <derogatory-term xml:lang="en">hermaphrodite</derogatory-term>
         <historical-term xml:lang="en">hermaphrodite</historical-term>
         <preferred-name xml:lang="en">intersex</preferred-name>
@@ -25520,6 +26230,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#investigation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#research"/>
         <preferred-name xml:lang="en">investigation</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#invisible_minority -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#invisible_minority">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#minority_group"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <preferred-name xml:lang="en">invisible minority</preferred-name>
     </owl:Class>
     
 
@@ -25960,8 +26680,11 @@
         <NCIT>C16779</NCIT>
         <SIO>SIO:000104</SIO>
         <STY>T171</STY>
+        <WIKIDATA>Q34770</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Language</WIKIPEDIA>
+        <preferred-name xml:lang="de">Sprache</preferred-name>
         <preferred-name xml:lang="en">language</preferred-name>
+        <preferred-name xml:lang="es">lengua</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A systematic means of communicating by the use of sounds, symbols, or gestures.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">Language is a language entity which is the result of encoding and decoding information through systematic creation and usage of systems of symbols, each pairing a specific sign with an intended meaning, established through social conventions</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -26306,6 +27029,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">lesbians</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbian</WIKIPEDIA>
         <alternative-spelling xml:lang="en">Lesbian</alternative-spelling>
@@ -26432,6 +27157,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_slang">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
         <preferred-name xml:lang="en">lesbian slang</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the lesbian community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26442,6 +27168,20 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#speech"/>
         <preferred-name xml:lang="en">lesbian speech</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Significant phonetic features produced by many lesbians.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian_until_graduation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_until_graduation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <schema:alternateName xml:lang="en">lesbians until graduation</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbian_until_graduation</WIKIPEDIA>
+        <acronym xml:lang="en">LUG</acronym>
+        <derogatory-term xml:lang="en">lesbian until graduation</derogatory-term>
+        <preferred-name xml:lang="en">lesbian until graduation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A woman of high school or college age who is experimenting with or adopting a temporary lesbian or bisexual identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26488,8 +27228,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbophobic_rape">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#corrective_rape"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbophobic_violence"/>
-        <preferred-name>A hate crime in which one or more lesbians are raped because of their perceived sexual orientation or gender identity. The common intended consequence of the rape, as seen by the perpetrator, is to turn the person heterosexual or to enforce conformity with gender stereotypes.</preferred-name>
-        <preferred-name>lesbophobic rape</preferred-name>
+        <preferred-name xml:lang="en">lesbophobic rape</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A hate crime in which one or more lesbians are raped because of their perceived sexual orientation or gender identity. The common intended consequence of the rape, as seen by the perpetrator, is to turn the person heterosexual or to enforce conformity with gender stereotypes.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26648,6 +27388,21 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lip_piercing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#body_piercing"/>
         <preferred-name xml:lang="en">lip piercing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lipstick_lesbian -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lipstick_lesbian">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <rdfs:comment xml:lang="en">Some distinguish a lipstick lesbian as one attracted to other feminine women, as opposed to a femme, a feminine lesbian who is attracted to butch women.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lipstick_lesbian</WIKIPEDIA>
+        <preferred-name xml:lang="en">lipstick lesbian</preferred-name>
+        <slang-term xml:lang="en">lipstick lesbian</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A lesbian who has glamorously feminine characteristics, as opposed to a butch lesbian.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#designer_dyke"/>
     </owl:Class>
     
 
@@ -26851,7 +27606,10 @@
     <!-- https://github.com/Superraptor/GSSO#mainstreaming -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mainstreaming">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nutrition_policy"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#public_policy"/>
+        <schema:alternateName xml:lang="en">mainstreamings</schema:alternateName>
+        <preferred-name xml:lang="en">mainstreaming</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The process of bringing something into the mainstream.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26871,6 +27629,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#majority_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <schema:alternateName xml:lang="en">majority groups</schema:alternateName>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#minority_group"/>
         <preferred-name xml:lang="en">majority group</preferred-name>
     </owl:Class>
     
@@ -27242,6 +28002,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#marital_conflict">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conflict"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39072000</SCTID>
         <preferred-name xml:lang="en">marital conflict</preferred-name>
     </owl:Class>
     
@@ -27291,6 +28052,10 @@
         <MESH_UID>D008393</MESH_UID>
         <NCIT>C48033</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160787000</SCTID>
+        <WIKIDATA>Q8445</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Ehe</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Marriage</WIKIPEDIA>
+        <preferred-name xml:lang="de">Ehe</preferred-name>
         <preferred-name xml:lang="en">marriage</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Marriage is a socially or ritually recognised union between spouses that establishes rights and obligations between those spouses, as well as between them and any resulting biological or adopted children and affinity (in-laws and other family through marriage).</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">matrimony</oboInOwl1:hasRelatedSynonym>
@@ -27313,6 +28078,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#married">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marital_status"/>
         <preferred-name xml:lang="en">married</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">In a state of marriage.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27393,6 +28159,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <schema:alternateName xml:lang="en">masculinities</schema:alternateName>
+        <MESH_UID>D057228</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42737008</SCTID>
         <WIKIDATA>Q1076509</WIKIDATA>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/M%C3%A4nnlichkeit</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Masculinity</WIKIPEDIA>
@@ -27400,6 +28168,7 @@
         <preferred-name xml:lang="de">Männlichkeit</preferred-name>
         <preferred-name xml:lang="es">masculinidad</preferred-name>
         <preferred-name xml:lang="en">masculinity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Male-associated gender-specific social roles and behaviors unrelated to biologic function.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#virility"/>
         <oboInOwl1:hasRelatedSynonym xml:lang="de">Mannbarkeit</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="de">Mannhaftigkeit</oboInOwl1:hasRelatedSynonym>
@@ -28478,7 +29247,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#minority_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <schema:alternateName xml:lang="en">minority groups</schema:alternateName>
+        <MESH_UID>D008913</MESH_UID>
+        <NCIT>C16863</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Minority_group</WIKIPEDIA>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#majority_group"/>
         <preferred-name xml:lang="en">minority group</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A subgroup having special characteristics within a larger group, often bound together by special ties which distinguish it from the larger group.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28814,6 +29589,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#monosexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <schema:alternateName xml:lang="en">monosexual</schema:alternateName>
         <schema:alternateName xml:lang="en">monosexualities</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Monosexuality</WIKIPEDIA>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#plurisexuality"/>
@@ -29079,6 +29856,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#motivation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#emotional_intelligence"/>
+        <schema:alternateName xml:lang="en">motivations</schema:alternateName>
         <preferred-name xml:lang="en">motivation</preferred-name>
     </owl:Class>
     
@@ -29973,6 +30751,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#nicotine_craving -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nicotine_craving">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#craving"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10056484</MEDDRA>
+        <preferred-name xml:lang="en">nicotine craving</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#niefling -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#niefling">
@@ -30044,6 +30832,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#non-binary_gender_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_identity"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <schema:alternateName xml:lang="en">non-binary gender identities</schema:alternateName>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <alternative-spelling xml:lang="en">nonbinary gender identity</alternative-spelling>
@@ -30379,6 +31168,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nutrition_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_policy"/>
+        <schema:alternateName xml:lang="en">nutrition policies</schema:alternateName>
+        <MESH_UID>D018673</MESH_UID>
+        <preferred-name xml:lang="en">nutrition policy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Guidelines and objectives pertaining to food supply and nutrition including recommendations for healthy diet.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -30796,6 +31589,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ovarian_therapeutic_procedure"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#008635924"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10061889</MEDDRA>
         <NCIT>C15291</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83152002</SCTID>
@@ -31060,6 +31854,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#organizational_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_control_policy"/>
+        <schema:alternateName xml:lang="en">organizational policies</schema:alternateName>
+        <MESH_UID>D016134</MESH_UID>
+        <alternative-spelling xml:lang="en">organisational policy</alternative-spelling>
+        <preferred-name xml:lang="en">organizational policy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A course or method of action selected, usually by an organization, institution, university, society, etc., from among alternatives to guide and determine present and future decisions and positions on matters of public interest or social concern.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">organisational policies</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -31984,6 +32784,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#peak_trans -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#peak_trans">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <rdfs:comment xml:lang="en">Originally, this term was utilized by trans-exclusionary radical feminists in order to refer to moments when transgender people &quot;went too far&quot;, resulting in such a person&apos;s scapegoating of the transgender community.</rdfs:comment>
+        <preferred-name xml:lang="en">peak trans</preferred-name>
+        <reclaimed_term xml:lang="en">peak trans</reclaimed_term>
+        <slang-term xml:lang="en">peak trans</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Signifying of a moment in which a transgender person considers their affirmed gender confirmed to a significant extent by an outside influencer.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#pederasty -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pederasty">
@@ -32613,6 +33427,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#phallic_packing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transmasculine_experience"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Packing_(phallus)</WIKIPEDIA>
         <preferred-name xml:lang="en">phallic packing</preferred-name>
         <shortened-term xml:lang="en">packing</shortened-term>
@@ -32719,8 +33534,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language_entity"/>
         <GOLD>Phrase</GOLD>
         <SIO>SIO:000483</SIO>
+        <WIKIDATA>Q187931</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Phrase_(Linguistik)</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Phrases</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Phrase</WIKIPEDIA>
+        <preferred-name xml:lang="es">frase</preferred-name>
         <preferred-name xml:lang="en">phrase</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A phrase is a group of words functioning as a single unit in the syntax of a sentence.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -32957,7 +33775,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pictogram">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ideogram"/>
+        <schema:alternateName xml:lang="en">pictograms</schema:alternateName>
         <preferred-name xml:lang="en">pictogram</preferred-name>
+        <shortened-term xml:lang="en">A pictogram is an ideogram that conveys its meaning through its pictorial resemblance to a physical object.</shortened-term>
+        <shortened-term xml:lang="en">picto</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">pictogramme</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -33209,9 +34031,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#plurisexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#monosexuality"/>
         <preferred-name xml:lang="en">plurisexuality</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The state of being sexually and romantically attracted to members of more than one gender.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">polysexual</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">polysexuality</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -33340,8 +34165,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#information_content_entity"/>
         <schema:alternateName xml:lang="en">policies</schema:alternateName>
+        <MESH_UID>D057766</MESH_UID>
+        <NCIT>C17735</NCIT>
+        <WIKIDATA>Q1156854</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Policy</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Policy</WIKIPEDIA>
         <preferred-name xml:lang="en">policy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A course or method of action selected to guide and determine present and future decisions.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A plan of action adopted by an individual or social group.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34802,6 +35633,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#public_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_control_policy"/>
+        <schema:alternateName xml:lang="en">public policies</schema:alternateName>
+        <MESH_UID>D011640</MESH_UID>
+        <NCIT>C17041</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Public_policy</WIKIPEDIA>
+        <preferred-name xml:lang="en">public policy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A course or method of action selected, usually by a government, from among alternatives to guide and determine present and future decisions.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The basic policy or set of policies forming the foundation of public laws, especially such policy not yet formally enunciated.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34856,6 +35694,19 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gonadal_dysgenesis"/>
         <acronym xml:lang="en">PGD</acronym>
         <preferred-name xml:lang="en">pure gonadal dysgenesis</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#pussyboy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pussyboy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <rdfs:comment xml:lang="en">This terminology may sometimes not be considered derogatory within the gay community, but its other definitions (such as referring to young male sex slaves or cowardly men) mean that it should be avoided (that is why it is marked as derogatory here).</rdfs:comment>
+        <derogatory-term xml:lang="en">pussyboy</derogatory-term>
+        <preferred-name xml:lang="en">pussyboy</preferred-name>
+        <slang-term xml:lang="en">pussyboy</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A submissive or passive, usually hairless, young gay man.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34958,6 +35809,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">queers</schema:alternateName>
         <rdfs:comment xml:lang="en">The use of queer to mean &quot;non-heterosexual&quot; was formerly pejorative, and it may still be considered pejorative by many. Others have reclaimed the term, however, as a neutral descriptor. The pejorative applied mainly to those assigned male at birth who were perceived as either homosexual or effeminate; the reclaimed term is also used of those assigned female at birth.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Queer</WIKIPEDIA>
@@ -35826,6 +36678,7 @@
         <schema:alternateName xml:lang="en">resources</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Resource</WIKIPEDIA>
         <preferred-name xml:lang="en">resource</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A resource is a source or supply from which a benefit is produced.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -36206,6 +37059,26 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#salt_craving -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#salt_craving">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#craving"/>
+        <schema:Quotation xml:lang="en">Some trans women report craving water and salt when being treated with spironolactone.</schema:Quotation>
+        <HPO>HP:0030083</HPO>
+        <preferred-name xml:lang="en">salt craving</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#salt_craving"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">Some trans women report craving water and salt when being treated with spironolactone.</owl:annotatedTarget>
+        <dc:creator>Eric Yarbrough</dc:creator>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#9781615371136"/>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</schema:pageStart>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#same-sex_sexual_attraction -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_sexual_attraction">
@@ -36261,6 +37134,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_wedding">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#wedding"/>
         <preferred-name xml:lang="en">same-sex wedding</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#saturday_night_lesbian -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#saturday_night_lesbian">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <preferred-name xml:lang="en">saturday night lesbian</preferred-name>
+        <slang-term xml:lang="en">saturday night lesbian</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A lesbian who presents as heterosexual during most occasions (at work or around family, for example), but is more overt about their sexuality in safer spaces (i.e. at gay bars or around close friends).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -36580,6 +37464,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#secondary_sex_characteristics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_characteristic"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_dimorphism"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <preferred-name xml:lang="en">secondary sex characteristics</preferred-name>
         <preferred-name xml:lang="de">sekundäres Geschlechtsmerkmal</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">secondary sex characteristic</oboInOwl1:hasExactSynonym>
@@ -36784,7 +37669,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#self-uniting_marriage">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Self-uniting_marriage</WIKIPEDIA>
+        <colloquial-term xml:lang="en">Quaker marriage</colloquial-term>
         <preferred-name xml:lang="en">self-uniting marriage</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A self-uniting marriage is one in which the couple are married without the presence of a third-party officiant.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37070,9 +37958,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mathematical_entity"/>
         <schema:alternateName xml:lang="en">sets</schema:alternateName>
         <SIO>SIO:000289</SIO>
+        <WIKIDATA>Q36161</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Menge_(Mathematik)</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Set_(mathematics)</WIKIPEDIA>
+        <preferred-name xml:lang="de">Menge</preferred-name>
         <preferred-name xml:lang="en">set</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A set is a collection of entities, for which there may be zero members.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">mathematical set</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -37083,6 +37975,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organismal_quality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_attribute"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">sexes</schema:alternateName>
         <rdfs:comment xml:lang="en">&quot;Sex&quot; is an extremely complicated term with many different meanings, both historical and contemporarily, as well as colloquially. This entry is a placeholder when it is unclear whether biological sex or psychological sex (gender) is being referred to; hence, why &quot;gender&quot; is a subclass of it.</rdfs:comment>
         <preferred-name xml:lang="en">sex</preferred-name>
@@ -38229,6 +39122,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_attribute"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#sexual_identity"/>
         <NCIT>C84361</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66621004</SCTID>
@@ -38493,6 +39387,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_behavior"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIDATA>Q4042967</WIKIDATA>
         <preferred-name xml:lang="de">Sexualität</preferred-name>
         <preferred-name xml:lang="es">sexualidad</preferred-name>
@@ -38593,6 +39488,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#she-male -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#she-male">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Shemale</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">shemale</alternative-spelling>
+        <derogatory-term xml:lang="en">she-male</derogatory-term>
+        <preferred-name xml:lang="en">she-male</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#shell_shock -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#shell_shock">
@@ -38600,6 +39508,19 @@
         <historical-term xml:lang="en">shell shock</historical-term>
         <historical-term xml:lang="en">war neurosis</historical-term>
         <preferred-name xml:lang="en">shell shock</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#shim -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#shim">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <colloquial-term xml:lang="en">shim</colloquial-term>
+        <derogatory-term xml:lang="en">shim</derogatory-term>
+        <etymology xml:lang="en">Blend of &quot;she&quot; and &quot;him&quot;.</etymology>
+        <preferred-name xml:lang="en">shim</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
     </owl:Class>
     
 
@@ -39072,6 +39993,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_control_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#policy"/>
+        <schema:alternateName xml:lang="en">social control policies</schema:alternateName>
+        <preferred-name xml:lang="en">social control policy</preferred-name>
     </owl:Class>
     
 
@@ -39126,7 +40049,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#collective"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_entity"/>
+        <schema:alternateName xml:lang="en">social groups</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_group</WIKIPEDIA>
         <preferred-name xml:lang="en">social group</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A collection of humans or animals who share certain characteristics, interact with one another, accept expectations and obligations as members of the group, and share a common identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39185,6 +40111,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_institution">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_entity"/>
+        <schema:alternateName xml:lang="en">social institutions</schema:alternateName>
         <preferred-name xml:lang="en">social institution</preferred-name>
     </owl:Class>
     
@@ -39271,8 +40198,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_network">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_entity"/>
+        <schema:alternateName xml:lang="en">social networks</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_network</WIKIPEDIA>
         <preferred-name xml:lang="en">social network</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A social network is a social structure made up of a set of social actors (such as individuals or organizations), sets of dyadic ties, and other social interactions between actors.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39370,8 +40299,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_relation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_entity"/>
+        <schema:alternateName xml:lang="en">social relations</schema:alternateName>
         <SIO>SIO:000287</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_relation</WIKIPEDIA>
         <preferred-name xml:lang="en">social relation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A social relation is a social entity that describes a relationship between two or more individuals or groups.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39438,8 +40370,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_structure">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_entity"/>
+        <schema:alternateName xml:lang="en">social structures</schema:alternateName>
         <SIO>SIO:000010</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_structure</WIKIPEDIA>
         <preferred-name xml:lang="en">social structure</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A social structure is a social entity which consists of relationships between two or more entities.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39624,7 +40559,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sologamy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
+        <WIKIDATA>Q7448146</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sologamy</WIKIPEDIA>
         <preferred-name xml:lang="en">sologamy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Marriage to oneself.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">self-marriage</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
@@ -39939,6 +40877,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#spirogirl -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#spirogirl">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <preferred-name xml:lang="en">spirogirl</preferred-name>
+        <slang-term xml:lang="en">spirogirl</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A transgender woman who takes spironolactone as part of her hormone replacement therapy (HRT).</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#spoken_language -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#spoken_language">
@@ -40064,6 +41014,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#standard_of_care">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_care_quality_indicator"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">standards of care</schema:alternateName>
         <MESH_UID>D059039</MESH_UID>
         <acronym xml:lang="en">SOC</acronym>
@@ -40213,6 +41164,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Steroid_hormone</WIKIPEDIA>
         <preferred-name xml:lang="en">steroid hormone</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#straightwashing -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#straightwashing">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_appropriation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Straightwashing</WIKIPEDIA>
+        <preferred-name xml:lang="en">straightwashing</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hetwashing</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -40622,6 +41584,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#sweet_craving -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sweet_craving">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#craving"/>
+        <HPO>HP:0030221</HPO>
+        <preferred-name xml:lang="en">sweet craving</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An excessive desire to eat salt (sodium chloride) or salty foods.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Excessive desire to eat sweet foods.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#swimwear -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#swimwear">
@@ -40648,9 +41622,12 @@
         <schema:alternateName xml:lang="en">symbols</schema:alternateName>
         <IAO>IAO:0000028</IAO>
         <SIO>SIO:000105</SIO>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Symbol</WIKIPEDIA>
+        <preferred-name xml:lang="de">Symbol</preferred-name>
         <preferred-name xml:lang="en">symbol</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A symbol is a proposition about what an entity represents.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="de">Sinnbild</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -41041,6 +42018,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#the_love_that_dare_not_speak_its_name -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#the_love_that_dare_not_speak_its_name">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_sexual_orientation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_love_that_dare_not_speak_its_name</WIKIPEDIA>
+        <coined-by xml:lang="en">Lord Alfred Douglas</coined-by>
+        <preferred-name xml:lang="en">the love that dare not speak its name</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#the_love_that_dare_not_speak_its_name"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#coined-by"/>
+        <owl:annotatedTarget xml:lang="en">Lord Alfred Douglas</owl:annotatedTarget>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1894</terms:date>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#theft_rape -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#theft_rape">
@@ -41180,6 +42174,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIDATA>Q48279</WIKIDATA>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Drittes_Geschlecht</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Third_gender</WIKIPEDIA>
@@ -41200,6 +42195,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#third_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person_property"/>
         <preferred-name xml:lang="en">third person</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#thirst -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#thirst">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drive"/>
+        <MESH_UID>D013894</MESH_UID>
+        <preferred-name xml:lang="en">thirst</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A drive stemming from a physiological need for water.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41358,6 +42364,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#top -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#top">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
+        <preferred-name xml:lang="es">activo</preferred-name>
+        <preferred-name xml:lang="de">aktiv</preferred-name>
+        <preferred-name xml:lang="en">top</preferred-name>
+        <slang-term xml:lang="en">top</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone, typically a man, who is penetrating someone else during sexual intercourse or someone who has a preference for penetrating during such intercourse.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#topcoat -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#topcoat">
@@ -41446,6 +42465,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#tranny -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tranny">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <derogatory-term xml:lang="en">tranny</derogatory-term>
+        <preferred-name xml:lang="en">tranny</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <slang-term xml:lang="en">tranny</slang-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#trans-exclusionary_radical_feminism -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trans-exclusionary_radical_feminism">
@@ -41459,7 +42490,7 @@
     <!-- https://github.com/Superraptor/GSSO#trans-feminine -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trans-feminine">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_transgender_identity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminine_spectrum_gender_identity"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <preferred-name xml:lang="en">trans-feminine</preferred-name>
     </owl:Class>
@@ -41501,6 +42532,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trans_panic_defense">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#temporary_insanity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <preferred-name xml:lang="en">trans panic defense</preferred-name>
     </owl:Class>
     
@@ -41545,6 +42577,9 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10079981</MEDDRA>
         <WIKIDATA>Q189125</WIKIDATA>
         <WIKIPEDIA xml:lang="ca">https://ca.wikipedia.org/wiki/Transg%C3%A8nere</WIKIPEDIA>
@@ -41558,10 +42593,6 @@
         <coined-by>John F. Oliven</coined-by>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#it"/>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#transgenderism"/>
-        <derogatory-term xml:lang="en">he/she</derogatory-term>
-        <derogatory-term xml:lang="en">she-male</derogatory-term>
-        <derogatory-term xml:lang="en">shim</derogatory-term>
-        <derogatory-term xml:lang="en">tranny</derogatory-term>
         <derogatory-term xml:lang="en">transgendered</derogatory-term>
         <derogatory-term xml:lang="en">transgenders</derogatory-term>
         <different-from rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
@@ -41579,6 +42610,7 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">trans-folk</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">transfolk</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="de">transgeschlechtlich</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#transsexual"/>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
@@ -41613,6 +42645,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abuse"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_experience"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <WIKIDATA>Q7833701</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trans_bashing</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender abuse</preferred-name>
@@ -41625,8 +42658,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_advocacy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#transgender_advocacy_group"/>
         <preferred-name xml:lang="en">transgender advocacy</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">transactivism</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">transgender activism</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -41664,7 +42700,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_community">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_community"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <derogatory-term xml:lang="en">transgendered community</derogatory-term>
         <preferred-name xml:lang="en">transgender community</preferred-name>
+        <shortened-term xml:lang="en">trans community</shortened-term>
     </owl:Class>
     
 
@@ -41754,11 +42793,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_hormone_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone_replacement_therapy"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10064728</MEDDRA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_hormone_therapy</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender hormone therapy</preferred-name>
+        <shortened-term xml:lang="en">hormone therapy</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">Transgender hormone therapy, also sometimes called cross-sex hormone therapy, is a form of hormone replacement therapy (HRT) in which sex hormones and other hormonal medications are administered to transgender or gender nonconforming individuals for the purpose of more closely aligning their secondary sexual characteristics with their gender identity.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cross-sex hormone therapy</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">hormonal sex reassignment</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#transgender_hormone_therapy"/>
@@ -41797,8 +42840,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_man">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#male_transgender_identity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-masculine"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">transgender men</schema:alternateName>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#assigned_female_at_birth"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trans_man</WIKIPEDIA>
@@ -41828,7 +42875,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <schema:alternateName xml:lang="en">transgender people</schema:alternateName>
         <MESH_UID>D063106</MESH_UID>
-        <derogatory-term xml:lang="en">androgyne</derogatory-term>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#it"/>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#tranny"/>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#he/she"/>
         <different-from rdf:resource="https://github.com/Superraptor/GSSO#androgynous_gender_expression"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_invert"/>
@@ -41837,6 +42887,12 @@
         <oboInOwl1:hasExactSynonym xml:lang="de">Transperson</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">transgender persons</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#derogatory-term"/>
+        <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
+        <rdfs:comment xml:lang="en">The term &quot;androgyne&quot; is not always considered offensive, but should generally be used with caution and only if someone explicitly uses that term to refer to themselves or their identity.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -41888,6 +42944,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_slang">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
         <preferred-name xml:lang="en">transgender slang</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang that is specify to, or primarily used within, the transgender community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41931,12 +42988,17 @@
     <!-- https://github.com/Superraptor/GSSO#transgender_woman -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_woman">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_transgender_identity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-feminine"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en"></schema:alternateName>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#assigned_male_at_birth"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trans_woman</WIKIPEDIA>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#she-male"/>
         <historical-term xml:lang="en">transgender women</historical-term>
         <preferred-name xml:lang="en">transgender woman</preferred-name>
         <shortened-term xml:lang="de">Transfrau</shortened-term>
@@ -41973,6 +43035,20 @@
         <preferred-name xml:lang="en">transgenderism</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The state of being transgender.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">transgenderness</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgenderist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgenderist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <rdfs:comment xml:lang="en">Many transgender people do not associate medical procedures or changes with being transgender; for this reason, this term may be considered offensive to many transgender people and should be avoided.</rdfs:comment>
+        <derogatory-term xml:lang="en">transgenderist</derogatory-term>
+        <preferred-name xml:lang="en">transgenderist</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Broadly, a transgender person. Sometimes narrowly used to refer to a transgender person who is living full-time using the gender expression which matches their gender identity without considering surgeries related to genitalia.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
     </owl:Class>
     
 
@@ -42057,10 +43133,31 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#transsexual -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transsexual">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <rdfs:comment xml:lang="en">Another reason to avoid this term is its usage of the suffix &quot;-sexual&quot; which implies sexuality, rather than gender identity (compare contemporary English words &quot;heterosexual&quot; or &quot;bisexual&quot;, for instance).</rdfs:comment>
+        <rdfs:comment xml:lang="en">It should be emphasized that one&apos;s transgender identity does not require therapeutic procedures. One is still considered transgender even without utilizing hormone replacement therapy or undergoing any of various surgical procedures.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The term &quot;transsexual&quot; was popular terminology until the 1990s and is now more often than not considered outdated, with the term &quot;transgender&quot; more widely preferred. Some still prefer the term to refer to themselves, however.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#transsexualism"/>
+        <alternative-spelling xml:lang="en">trans-sexual</alternative-spelling>
+        <alternative-spelling xml:lang="en">transexual</alternative-spelling>
+        <derogatory-term xml:lang="en">transsexual</derogatory-term>
+        <preferred-name xml:lang="en">transsexual</preferred-name>
+        <shortened-term xml:lang="en">transsex</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Denoting a person who has changed or is in the process of changing their primary and/or secondary sex characteristics via any of several therapeutic procedures (hormone replacement therapy, gender confirmation surgeries, etc.).</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#transsexualism -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transsexualism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgenderism"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#transsexual"/>
         <derogatory-term xml:lang="en">transsexualism</derogatory-term>
         <historical-term xml:lang="en">transsexualism</historical-term>
         <preferred-name xml:lang="en">transsexualism</preferred-name>
@@ -42086,6 +43183,18 @@
         <preferred-name xml:lang="en">transvestism</preferred-name>
         <preferred-name xml:lang="es">travestismo</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">transvestitism</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#trap -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trap">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <derogatory-term xml:lang="en">trap</derogatory-term>
+        <preferred-name xml:lang="en">trap</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <slang-term xml:lang="en">trap</slang-term>
     </owl:Class>
     
 
@@ -42200,6 +43309,17 @@
         <preferred-name xml:lang="en">trichophilia</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">hair fetishism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">hair partialism</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#trigender_identity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trigender_identity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#multiple_gender_identities"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
+        <preferred-name xml:lang="en">trigender identity</preferred-name>
+        <shortened-term xml:lang="en">trigender</shortened-term>
     </owl:Class>
     
 
@@ -42355,6 +43475,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#truscum">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <schema:alternateName xml:lang="en">truscums</schema:alternateName>
         <preferred-name xml:lang="en">truscum</preferred-name>
         <slang-term xml:lang="en">truscum</slang-term>
@@ -42394,6 +43515,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tucking">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transfeminine_experience"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Tucking</WIKIPEDIA>
         <preferred-name xml:lang="en">tucking</preferred-name>
     </owl:Class>
@@ -42895,6 +44017,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#usage_policy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#policy"/>
+        <schema:alternateName xml:lang="en">usage policies</schema:alternateName>
+        <preferred-name xml:lang="en">usage policy</preferred-name>
     </owl:Class>
     
 
@@ -43106,6 +44230,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vaginoplasty">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#vaginal_therapeutic_procedure"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10059110</MEDDRA>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176687003</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Vaginoplasty</WIKIPEDIA>
@@ -43420,7 +44545,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#visual_language_entity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#language_entity"/>
         <schema:alternateName xml:lang="en">visual language entities</schema:alternateName>
+        <SIO>SIO:000079</SIO>
         <preferred-name xml:lang="en">visual language entity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A visual language entity is a language entity that is manifested within the spectrum of light and can be pereceived and processed by a visual system.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43458,7 +44585,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vocal_cord_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#laryngeal_therapeutic_procedure"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <preferred-name xml:lang="en">vocal cord surgery</preferred-name>
+        <shortened-term xml:lang="en">vocal surgery</shortened-term>
     </owl:Class>
     
 
@@ -43728,7 +44857,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#wedding">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
+        <NCIT>C86935</NCIT>
+        <WIKIDATA>Q49836</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Hochzeitsfeier</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Wedding</WIKIPEDIA>
+        <preferred-name xml:lang="de">Hochzeitsfeier</preferred-name>
         <preferred-name xml:lang="en">wedding</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Marriage ceremony; ritual officially celebrating the beginning of a marriage.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">marriage ceremony</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">wedding ceremony</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -43894,11 +45029,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#whitewashing -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#whitewashing">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_appropriation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Whitewashing_in_film</WIKIPEDIA>
+        <preferred-name xml:lang="en">whitewashing</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#widowed -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#widowed">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marital_status"/>
         <preferred-name xml:lang="en">widowed</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One whose partner has died or has gone missing.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -44141,6 +45287,18 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">Jewish badge</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="de">Judenstern</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">yellow patch</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#yestergay -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#yestergay">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#hasbian"/>
+        <preferred-name xml:lang="en">yestergay</preferred-name>
+        <slang-term xml:lang="en">A man who formerly identified as gay who is currently in a heterosexual relationship.</slang-term>
+        <slang-term xml:lang="en">yestergay</slang-term>
     </owl:Class>
     
 
@@ -46526,6 +47684,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#18568386 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#18568386">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Hubert Selby, Jr.</dc:creator>
+        <terms:publisher xml:lang="en">Grove Press</terms:publisher>
+        <terms:title xml:lang="en">Last Exit to Brooklyn</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</schema:datePublished>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">320</schema:numberOfPages>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18568386</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Last_Exit_to_Brooklyn</WIKIPEDIA>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1873-4111 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1873-4111">
@@ -47959,6 +49132,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9781446287163 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781446287163">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Christina Richards</dc:creator>
+        <dc:creator>Meg Barker</dc:creator>
+        <terms:publisher xml:lang="en">SAGE</terms:publisher>
+        <terms:title xml:lang="en">Sexuality and Gender for Mental Health Professionals: A Practical Guide</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781446287163</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</schema:numberOfPages>
+        <GOOGLE_BOOKS>13GKAwAAQBAJ</GOOGLE_BOOKS>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9781450356206 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781450356206">
@@ -48019,6 +49208,22 @@
         <terms:title xml:lang="en">Clinical Manual of Sexual Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781585623389</schema:isbn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9781615371136 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781615371136">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Eric Yarbrough</dc:creator>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:dateCopyrighted>
+        <terms:publisher xml:lang="en">American Psychiatric Association Publishing</terms:publisher>
+        <terms:title xml:lang="en">Transgender Mental Health</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781615371136</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339</schema:numberOfPages>
+        <GOOGLE_BOOKS>gxRSDwAAQBAJ</GOOGLE_BOOKS>
     </owl:Class>
     
 
@@ -48490,9 +49695,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Standards_of_Care_for_the_Health_of_Transsexual,_Transgender,_and_Gender_Nonconforming_People">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#standard_of_care"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#World_Professional_Association_for_Transgender_Health"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <former-term xml:lang="en">Harry Benjamin Standards of Care</former-term>
         <preferred-name xml:lang="en">Standards of Care for the Health of Transsexual, Transgender, and Gender Nonconforming People</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">WPATH-SOC</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Standards_of_Care_for_the_Health_of_Transsexual,_Transgender,_and_Gender_Nonconforming_People"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#former-term"/>
+        <owl:annotatedTarget xml:lang="en">Harry Benjamin Standards of Care</owl:annotatedTarget>
+        <acronym xml:lang="en">HBSOC</acronym>
+    </owl:Axiom>
     
 
 
@@ -48703,6 +49916,30 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#he/she -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#he/she">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:Quotation xml:lang="en">It is imperative that professionals do not use [terms like &apos;shemale&apos;], or other terms such as &apos;HeShe&apos;, etc. as they are very offensive to most people with such presentations as well as to many other people.</schema:Quotation>
+        <alternative-spelling xml:lang="en">HeShe</alternative-spelling>
+        <alternative-spelling xml:lang="en">he-she</alternative-spelling>
+        <alternative-spelling xml:lang="en">heshe</alternative-spelling>
+        <derogatory-term xml:lang="en">he/she</derogatory-term>
+        <preferred-name xml:lang="en">he/she</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <oboInOwl1:hasDefinition xml:lang="en">A transgender woman; a woman who was assigned male at birth.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#he/she"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">It is imperative that professionals do not use [terms like &apos;shemale&apos;], or other terms such as &apos;HeShe&apos;, etc. as they are very offensive to most people with such presentations as well as to many other people.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#9781446287163"/>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</schema:pageStart>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#https://web.archive.org/web/20180908131713/http://www.transgirlnextdoor.com/ -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#https://web.archive.org/web/20180908131713/http://www.transgirlnextdoor.com/">
@@ -48820,6 +50057,20 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_rights_activist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_workers&apos;_rights"/>
         <preferred-name xml:lang="en">sex workers&apos; rights activist</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#she/he -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#she/he">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
+        <alternative-spelling xml:lang="en">she-he</alternative-spelling>
+        <alternative-spelling xml:lang="en">shehe</alternative-spelling>
+        <derogatory-term xml:lang="en">she/he</derogatory-term>
+        <preferred-name xml:lang="en">she/he</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
+        <oboInOwl1:hasDefinition xml:lang="en">A transgender man; a man who was assigned female at birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -49201,6 +50452,19 @@
     
 
 
+    <!-- https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:dateCopyrighted>
+        <terms:publisher xml:lang="en">University of Southern California</terms:publisher>
+        <terms:title xml:lang="en">LGBT Terminology</terms:title>
+        <schema:WebSite xml:lang="en">University of Southern California</schema:WebSite>
+        <schema:url>https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology</schema:url>
+    </owl:Class>
+    
+
+
     <!-- https://web.archive.org/web/20180715154526/http://raethedoe.tumblr.com/ -->
 
     <owl:Class rdf:about="https://web.archive.org/web/20180715154526/http://raethedoe.tumblr.com/">
@@ -49307,12 +50571,51 @@
     
 
 
+    <!-- https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#glossary"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:title xml:lang="en">Transgender glossary</terms:title>
+        <schema:WebSite xml:lang="en">RationalWiki</schema:WebSite>
+        <schema:dateModified>17 September 2018</schema:dateModified>
+        <schema:url>https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:title xml:lang="en">LGBTTIQQ2SAA+ Definitions</terms:title>
+        <schema:WebSite xml:lang="en">Revel &amp; Riot</schema:WebSite>
+        <schema:url>https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://www.psychologytoday.com/us/blog/comfort-cravings/201402/why-do-i-crave-chocolate-during-my-period -->
+
+    <owl:Class rdf:about="https://www.psychologytoday.com/us/blog/comfort-cravings/201402/why-do-i-crave-chocolate-during-my-period">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Susan Albers</dc:creator>
+        <terms:issued>18 February 2014</terms:issued>
+        <terms:publisher xml:lang="en">Sussex Publishers, LLC</terms:publisher>
+        <schema:WebSite xml:lang="en">Psychology Today</schema:WebSite>
+        <schema:url xml:lang="en">Why Do I Crave Chocolate During My Period?</schema:url>
+        <schema:url>https://www.psychologytoday.com/us/blog/comfort-cravings/201402/why-do-i-crave-chocolate-during-my-period</schema:url>
+    </owl:Class>
+    
+
+
     <!-- https://www.psychologytoday.com/us/blog/love-and-sex-in-the-digital-age/201404/nymphomaniac-realistic-look-female-hypersexuality -->
 
     <owl:Class rdf:about="https://www.psychologytoday.com/us/blog/love-and-sex-in-the-digital-age/201404/nymphomaniac-realistic-look-female-hypersexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Robert Weiss</dc:creator>
         <terms:issued>4 April 2014</terms:issued>
+        <terms:publisher xml:lang="en">Sussex Publishers, LLC</terms:publisher>
         <terms:title xml:lang="en">Nymphomaniac—A Realistic Look at Female Hypersexuality?</terms:title>
         <schema:WebSite xml:lang="en">Psychology Today</schema:WebSite>
         <schema:url>https://www.psychologytoday.com/us/blog/love-and-sex-in-the-digital-age/201404/nymphomaniac-realistic-look-female-hypersexuality</schema:url>
