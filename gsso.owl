@@ -2056,6 +2056,20 @@
     
 
 
+    <!-- http://outhistory.org/files/original/68e8910fb2a7681a37544557a5178eb7.pdf -->
+
+    <owl:Class rdf:about="http://outhistory.org/files/original/68e8910fb2a7681a37544557a5178eb7.pdf">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#essay"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Allen_Irvin_Bernstein"/>
+        <terms:title xml:lang="en">Millions of Queers (Our Homo America)</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1940</schema:dateCreated>
+        <schema:url>https://web.archive.org/web/20181008191629/http://outhistory.org/files/original/2dac05a30b2e87f539355b361f9b6c41.pdf</schema:url>
+        <schema:url>https://web.archive.org/web/20181008191647/http://outhistory.org/files/original/68e8910fb2a7681a37544557a5178eb7.pdf</schema:url>
+        <rdfs:comment xml:lang="en">Manuscript rediscovered in 2010 by Randall L. Sell, associate professor at Drexel University School of Public Health, and was published online at OutHistory in March 2014.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.jstor.org/stable/2452803 -->
 
     <owl:Class rdf:about="http://www.jstor.org/stable/2452803">
@@ -2291,6 +2305,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Allen_Irvin_Bernstein -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Allen_Irvin_Bernstein">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#soldier"/>
+        <schema:alumniOf xml:lang="en">Tufts College</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">Union College</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">University of Chicago</schema:alumniOf>
+        <schema:birthDate>19 June 1913</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Nashua, New Hampshire, United States</schema:birthPlace>
+        <schema:deathDate>8 September 2008</schema:deathDate>
+        <rdfs:comment xml:lang="en">Allen Irvin Bernstein was a gay Jewish American World War II veteran who in 1940 wrote a defense of gay sexual orientation entitled &quot;Millions of Queers (Our Homo America)&quot; which was rediscovered in 2010 by Randall L. Sell and was published online at OutHistory in March 2014. The essay is notable for the insights it provides into gay life, including slang, sexual practices, and relationships, in the United States during the 1930s and before, based on what Bernstein learned from his gay friends and acquaintances as well as on his wide reading and research in literary and sociological sources.</rdfs:comment>
+        <preferred-name>Allen Irvin Bernstein</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Amaranta_Gómez_Regalado -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Amaranta_Gómez_Regalado">
@@ -2449,6 +2480,7 @@
         <schema:deathPlace xml:lang="en">Greeley, Colorado, United States</schema:deathPlace>
         <rdfs:comment xml:lang="en">Angie Zapata was an American trans woman beaten to death in Greeley, Colorado. Her killer, Allen Andrade, was convicted of first-degree murder and committing a hate crime, because he murdered her after learning she was transgender. The case was the first in the nation to get a conviction for a hate crime involving a transgender victim, which occurred in 2009.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Angie_Zapata</WIKIPEDIA>
+        <cause-of-death xml:lang="en">murder</cause-of-death>
         <preferred-name>Angie Zapata</preferred-name>
     </owl:Class>
     
@@ -2912,6 +2944,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Cassils">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming_person"/>
         <schema:alumniOf xml:lang="en">California Institute of the Arts</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">Nova Scotia College of Art and Design</schema:alumniOf>
+        <rdfs:comment xml:lang="en">Cassils is a performance artist, body builder and personal trainer from Montreal, Quebec, Canada. Their work uses the body in a sculptural fashion, integrating feminism, body art, and gay male aesthetics. Cassils is the recipient of a Guggenheim Fellowship, a Creative Capital Grant, a United States Artists Fellowship, a California Community Foundation Visual Artist Fellowship (2012), several Canada Council for the Arts grants, and the Rema Hort Mann Foundation Visual Arts Fellowship. Cassils is gender non-conforming and transmasculine, and goes by singular they pronouns.</rdfs:comment>
         <WIKIDATA>Q16738939</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cassils_(artist)</WIKIPEDIA>
         <preferred-name xml:lang="en">Cassils</preferred-name>
@@ -3091,6 +3125,7 @@
         <schema:deathDate>22 December 2012</schema:deathDate>
         <rdfs:comment xml:lang="en">Christopher Lee was a transgender activist and filmmaker in the San Francisco Bay Area community. He was also the co-founder of the San Francisco Transgender Film Festival (SFTFF). His death and the designation of his assigned gender at birth on his death certificate rather than his self-identified gender was the impetus behind the “Respect After Death Act” or AB 1577 Bill which was passed in California on 26 September 2014.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Christopher_Lee_(activist)</WIKIPEDIA>
+        <cause-of-death xml:lang="en">suicide</cause-of-death>
         <preferred-name>Christopher Lee</preferred-name>
     </owl:Class>
     
@@ -3270,6 +3305,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#David_Reimer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#suicide_victim"/>
+        <schema:birthPlace>22 August 1965</schema:birthPlace>
+        <schema:birthPlace xml:lang="en">Winnipeg, Manitoba, Canada</schema:birthPlace>
+        <schema:deathDate>4 May 2004</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Winnipeg, Manitoba, Canada</schema:deathPlace>
+        <rdfs:comment xml:lang="en">David Peter Reimer was a Canadian man born male but reassigned as a girl and raised female following medical advice and intervention after his penis was accidentally destroyed during a botched circumcision in infancy. The psychologist John Money oversaw the case and reported the reassignment as successful and as evidence that gender identity is primarily learned. Reimer later went public with his story to help discourage similar medical practices. He committed suicide after suffering years of severe depression, financial instability, and a troubled marriage.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/David_Reimer</WIKIPEDIA>
+        <cause-of-death xml:lang="en">suicide</cause-of-death>
         <preferred-name>David Reimer</preferred-name>
     </owl:Class>
     
@@ -3796,6 +3838,7 @@
         <schema:deathPlace xml:lang="en">Newark, California, United States</schema:deathPlace>
         <rdfs:comment xml:lang="en">Gwen Amber Rose Araujo was an American teenager who was murdered in Newark, California. She was killed by four men, two of whom she had been sexually intimate with, who beat and strangled her after discovering that she was transgender. Two of the defendants were convicted of second-degree murder, but not convicted on the requested hate crime enhancements. The other two defendants pleaded guilty or no contest to voluntary manslaughter. In at least one of the trials, a &quot;trans panic defense&quot;—an extension of the gay panic defense—was employed.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Murder_of_Gwen_Araujo</WIKIPEDIA>
+        <cause-of-death xml:lang="en">murder</cause-of-death>
         <preferred-name xml:lang="en">Gwen Araujo</preferred-name>
     </owl:Class>
     
@@ -5087,6 +5130,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Laverne_Cox">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBTQ_advocate"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman_of_color"/>
         <dc:date xml:lang="en">May 29</dc:date>
         <schema:alumniOf xml:lang="en">Indiana University Bloomington</schema:alumniOf>
         <schema:alumniOf xml:lang="en">Marymount Manhattan College</schema:alumniOf>
@@ -6280,6 +6324,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Rita_Hester">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman_of_color"/>
         <schema:birthDate>30 November 1963</schema:birthDate>
         <schema:deathDate>28 November 1998</schema:deathDate>
         <schema:deathPlace xml:lang="en">Allston, Massachusetts, United States</schema:deathPlace>
@@ -6462,6 +6507,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sandy_Stone">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:alumniOf xml:lang="en">St. John&apos;s College</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">University of California, Santa Cruz</schema:alumniOf>
+        <schema:birthDate>c. 1936</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Jersey City, New Jersey, United States</schema:birthPlace>
+        <rdfs:comment xml:lang="en">Allucquére Rosanne &quot;Sandy&quot; Stone is an American academic theorist, media theorist, author, and performance artist. She is currently Associate Professor and Founding Director of the Advanced Communication Technologies Laboratory (ACTLab) and the New Media Initiative in the department of Radio-TV-Film at the University of Texas at Austin. Stone is transgender and is considered a founder of the academic discipline of transgender studies.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sandy_Stone_(artist)</WIKIPEDIA>
         <preferred-name>Sandy Stone</preferred-name>
     </owl:Class>
     
@@ -18103,6 +18154,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#escort_prostitution">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indoor_prostitution"/>
         <preferred-name xml:lang="en">escort prostitution</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#essay -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#essay">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">essays</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Essays</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Essay</WIKIPEDIA>
+        <preferred-name xml:lang="en">essay</preferred-name>
     </owl:Class>
     
 
@@ -49087,6 +49150,21 @@
         <terms:title xml:lang="en">Encyclopedia of Sex and Gender</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780028659602</schema:isbn>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780028661155</schema:isbn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780195054071 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780195054071">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#John_Money"/>
+        <terms:publisher xml:lang="en">Oxford University Press</terms:publisher>
+        <terms:title xml:lang="en">Gay, Straight, and In-Between: The Sexology of Erotic Orientation</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:datePublished>5 May 1988</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780195054071</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</schema:numberOfPages>
     </owl:Class>
     
 
