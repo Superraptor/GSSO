@@ -6877,6 +6877,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Susan_Brownmiller -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Susan_Brownmiller">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journalist"/>
+        <schema:birthDate>15 February 1935</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Brooklyn, New York, United States</schema:birthPlace>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Susan_Brownmiller</WIKIPEDIA>
+        <preferred-name>Susan Brownmiller</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#T-shirt -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#T-shirt">
@@ -11453,6 +11466,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_awareness">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
         <preferred-name xml:lang="en">bisexual awareness</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Awareness and/or consciousness of the bisexual community and being bisexual.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11485,6 +11499,7 @@
         <schema:alternateName xml:lang="en">bisexual events</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bisexual_events</WIKIPEDIA>
         <preferred-name xml:lang="en">bisexual event</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Events specific to the bisexual community and bisexual people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13449,6 +13464,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cisgender_man">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#man"/>
         <schema:alternateName xml:lang="en">cisgender men</schema:alternateName>
         <preferred-name xml:lang="en">cisgender man</preferred-name>
         <shortened-term xml:lang="en">cis man</shortened-term>
@@ -13475,6 +13491,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cisgender_woman">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
         <schema:alternateName xml:lang="en">cisgender women</schema:alternateName>
         <preferred-name xml:lang="en">cisgender woman</preferred-name>
         <shortened-term xml:lang="en">cis woman</shortened-term>
@@ -15800,6 +15817,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#date_rape">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#acquaintance_rape"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dating_abuse"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780671220624"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Date_rape</WIKIPEDIA>
         <preferred-name xml:lang="en">date rape</preferred-name>
     </owl:Class>
@@ -21238,6 +21256,7 @@
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gender_diverse"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_diversity</WIKIPEDIA>
         <preferred-name xml:lang="en">gender diversity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Gender diversity is equitable or fair representation between genders.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21506,6 +21525,7 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <alternative-spelling xml:lang="en">gender nonconforming</alternative-spelling>
         <preferred-name xml:lang="en">gender non-conforming</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Referring to someone whose behavior, appearance, and/or identity does not conform to prevalent social and/or cultural expectations of gender.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conformity"/>
     </owl:Class>
     
@@ -21552,7 +21572,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_normative">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <alternative-spelling xml:lang="en">gender-normative</alternative-spelling>
         <preferred-name xml:lang="en">gender normative</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Adhering to constructed cultural and/or social standards of masculinity or femininity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21640,6 +21662,7 @@
         <preferred-name xml:lang="es">rol de género</preferred-name>
         <preferred-name xml:lang="fr">rôle de genre</preferred-name>
         <preferred-name xml:lang="zh">性别角色</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A gender role is a social role encompassing a range of behaviors and attitudes that are generally considered culturally and/or socially acceptable, appropriate, or desirable for people based on their actual or perceived sex or sexuality.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cultural gender</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">social gender</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -21682,6 +21705,7 @@
         <preferred-name xml:lang="es">espectro de género</preferred-name>
         <preferred-name xml:lang="en">gender spectrum</preferred-name>
         <preferred-name xml:lang="fr">spectre de genre</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The gender spectrum denotes the continuum of gender possibilities without establishing absolute ends of &quot;maleness&quot; and &quot;femaleness&quot;.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21781,11 +21805,10 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:comment xml:lang="en">&quot;Gender non-conforming&quot; and &quot;gender diverse&quot; are often preferred to &quot;gender variant&quot; because &quot;gender variant&quot; (and, by extension, &quot;gender variance&quot;) implies a standard normative for gender (i.e. a way gender is &quot;supposed to be&quot;).</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_variance</WIKIPEDIA>
-        <practiced-by xml:lang="en">gender diverse</practiced-by>
         <preferred-name xml:lang="en">gender variance</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Gender variance, or gender nonconformity, is behavior or gender expression exhibited by an individual that does not match cultural/social masculine and feminine gender norms and/or expectations.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming"/>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_variant"/>
-        <oboInOwl1:hasExactSynonym xml:lang="en">gender non-conformity</oboInOwl1:hasExactSynonym>
-        <oboInOwl1:hasExactSynonym xml:lang="en">gender nonconformity</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -21796,7 +21819,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <rdfs:comment xml:lang="en">&quot;Gender non-conforming&quot; and &quot;gender diverse&quot; are often preferred to &quot;gender variant&quot; because &quot;gender variant&quot; (and, by extension, &quot;gender variance&quot;) implies a standard normative for gender (i.e. a way gender is &quot;supposed to be&quot;).</rdfs:comment>
+        <alternative-spelling xml:lang="en">gender-variant</alternative-spelling>
         <preferred-name xml:lang="en">gender variant</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An individual who deviates from the expected cultural/social characteristics of their assigned sex.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_variance"/>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_diverse"/>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming"/>
@@ -21905,6 +21930,8 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#queer"/>
         <preferred-name xml:lang="en">genderqueer</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Genderqueer, also known as non-binary, is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
     </owl:Class>
     
 
@@ -27342,6 +27369,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#legal_gender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <preferred-name xml:lang="en">legal gender</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Gender as reflected by legal documents (such as government-issued IDs).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28305,6 +28333,18 @@
         <oboInOwl1:hasDefinition xml:lang="en">Surgical reconstruction of the breast including both augmentation and reduction.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">Surgical reconstruction of the breast.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">mastoplasty</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#man -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#man">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">men</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Man</WIKIPEDIA>
+        <preferred-name xml:lang="en">man</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person whose identity is male, based on societal and cultural conceptualizations of being male, usually (but not always) reflected by specific anatomical variations, chromosome combinations, and/or sex hormones.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -30344,7 +30384,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#multiple_gender_identities">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pangender</WIKIPEDIA>
         <preferred-name xml:lang="en">multiple gender identities</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone who has multiple gender identities or is pangender has more than one gender identity or may consider themselves a member of all genders.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">pangender</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">pangender identity</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -43126,6 +43170,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_awareness">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <preferred-name xml:lang="en">transgender awareness</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Awareness and/or consciousness of the transgender community and being transgender.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43168,6 +43213,7 @@
         <schema:alternateName xml:lang="en">transgender events</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Transgender_events</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender event</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Events specific to the transgender community and transgender people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43274,6 +43320,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_man">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#male_transgender_identity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-masculine"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
@@ -43425,6 +43472,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_transgender_identity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-feminine"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
@@ -45547,6 +45595,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_harassment"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Wolf-whistling</WIKIPEDIA>
         <preferred-name xml:lang="en">wolf-whistling</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#woman -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#woman">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">women</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Woman</WIKIPEDIA>
+        <preferred-name xml:lang="en">woman</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person whose identity is female, based on societal and cultural conceptualizations of being female, usually (but not always) reflected by specific anatomical variations, chromosome combinations, and/or sex hormones.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -49381,6 +49441,23 @@
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780517573341</schema:isbn>
         <GOOGLE_BOOKS>4aMYAAAAIAAJ</GOOGLE_BOOKS>
         <oboInOwl1:hasExactSynonym xml:lang="en">Rawson&apos;s Wicked Words</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780671220624 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780671220624">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Susan_Brownmiller"/>
+        <terms:publisher xml:lang="en">Simon and Schuster</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#rape"/>
+        <terms:title xml:lang="en">Against Our Will: Men, Women and Rape</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1975</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780671220624</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">472</schema:numberOfPages>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Against_Our_Will</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Susan_Brownmiller#Against_Our_Will</WIKIPEDIA>
     </owl:Class>
     
 
