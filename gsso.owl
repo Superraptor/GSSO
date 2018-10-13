@@ -4400,6 +4400,7 @@
         <preferred-name xml:lang="fr">journée internationale de visibilité transgenre</preferred-name>
         <preferred-name xml:lang="ja">国際トランスジェンダー認知の日</preferred-name>
         <preferred-name xml:lang="zh">國際跨性別現身日</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">International Transgender Day of Visibility is an annual event occurring on March 31 dedicated to celebrating transgender people and raising awareness of discrimination faced by transgender people worldwide.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -32105,9 +32106,9 @@
         <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm"/>
         <schema:Quotation xml:lang="en">I&apos;m attracted to men, and being a neutrois/man, that makes me gay. But so what? I lived up to my lesbian reputation and tried it with a girl, once (well, we tried it a great deal more than just once). I&apos;m not ashamed of that. What I&apos;m ashamed of is not fighting as much as I should have. I should&apos;ve stood up every f**king time. Even if I wasn&apos;t trans, I still had the right to act any way I chose and no one had any business telling me otherwise. I&apos;m ashamed because I didn&apos;t go out for football. I&apos;m ashamed because I didn&apos;t go to the prom in a tuxedo. I&apos;m ashamed because I didn&apos;t know I was genderqueer, spent puberty being mistreated for being different, and slamming gays and lesbians to feel better. I can&apos;t apologize for hurting those people.. that&apos;s what shames me the most.</schema:Quotation>
         <rdfs:comment xml:lang="en">Despite many sites claiming an &quot;H. A. Burnham&quot; coining and using the term &quot;neutrois&quot; in 1995, the earliest example archived appears to be from 2000 (although presumably the term preceded that).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The earliest appearance of the term &quot;neutrois&quot; in any Usenet newsgroup is in a footer of a message posted by the user GoSpangs on 3 December 1996 (see here: https://groups.google.com/forum/message/raw?msg=soc.support.transgendered/ckLke9K-WtU/LuzuiVWEqTMJ). The footer also includes the name &quot;Holly A. Burnham&quot;.</rdfs:comment>
         <coined-by>Holly A. Burnham</coined-by>
         <etymology xml:lang="en">Probably blend of French &quot;neutre&quot; (neuter, neutral) and &quot;trois&quot; (three).</etymology>
-        <preferred-name xml:lang="en">The earliest appearance of the term &quot;neutrois&quot; in any Usenet newsgroup is in a footer of a message posted by the user GoSpangs on 3 December 1996 (see here: https://groups.google.com/forum/message/raw?msg=soc.support.transgendered/ckLke9K-WtU/LuzuiVWEqTMJ). The footer also includes the name &quot;Holly A. Burnham&quot;.</preferred-name>
         <preferred-name xml:lang="en">neutrois</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Having a null or neutral gender (being neither male nor female), and having or seeking to have no or reduced signs of physical sex.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -49822,6 +49823,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2015_U.S._Transgender_Survey">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_survey"/>
+        <schema:url>http://www.ustranssurvey.org/</schema:url>
         <schema:url xml:lang="en">https://web.archive.org/web/20180811103552/http://www.ustranssurvey.org/</schema:url>
         <acronym xml:lang="en">USTS</acronym>
         <preferred-name xml:lang="en">2015 U.S. Transgender Survey</preferred-name>
