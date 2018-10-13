@@ -15042,7 +15042,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#compulsory_heterosexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexuality"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Compulsory_heterosexuality</WIKIPEDIA>
         <preferred-name xml:lang="en">compulsory heterosexuality</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Compulsory heterosexuality is the idea that heterosexuality is assumed and enforced by a heteronormative society. This refers to the idea that heterosexuality can be adopted by people regardless of their personal sexual preferences. Heterosexuality is viewed as the natural inclination or obligation by both sexes. Consequently, anyone who differs from the normalcy of heterosexuality is deemed deviant or abhorrent.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24363,6 +24365,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterodisomy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uniparental_disomy"/>
         <preferred-name xml:lang="en">heterodisomy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The inheritance of a pair of non-identical chromosomes from one parent.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24371,7 +24374,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterogamy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_reproduction"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Heterogamy</WIKIPEDIA>
         <preferred-name xml:lang="en">heterogamy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The state of conjugating gametes that are different in size, structure and function; anisogamy.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">anisogamy</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -24381,7 +24386,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterogeneous_substance">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#material_entity"/>
+        <schema:alternateName xml:lang="en">heterogeneous substances</schema:alternateName>
+        <SIO>SIO:010462</SIO>
+        <antonym xml:lang="en">homogeneous substance</antonym>
         <preferred-name xml:lang="en">heterogeneous substance</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A heterogeneous substance is a chemical substance that is composed of more than one different kind of component.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24390,7 +24399,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heteronym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">heteronyms</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Heteronym_(literature)</WIKIPEDIA>
+        <coined-by>Fernando Pessoa</coined-by>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
         <preferred-name xml:lang="en">heteronym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The literary concept of the heteronym refers to one or more imaginary character(s) created by a writer to write in different styles.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24399,7 +24413,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heteroplasia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trophic_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10060766</MEDDRA>
         <preferred-name xml:lang="en">heteroplasia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The presence of a tissue or organ in an abnormal place.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24423,7 +24439,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_bias"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Heterosexism</WIKIPEDIA>
         <preferred-name xml:lang="en">heterosexism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Heterosexism is a system of attitudes, bias, and discrimination in favor of opposite-sex sexuality and relationships. It can include the presumption that other people are heterosexual or that opposite-sex attractions and relationships are the only norm and therefore superior.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">heterocentrism</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">heterosexualism</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
@@ -24439,8 +24457,8 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Straight_ally</WIKIPEDIA>
         <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Heteroaliado</WIKIPEDIA>
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Alli%C3%A9_h%C3%A9t%C3%A9rosexuel</WIKIPEDIA>
-        <WIKIPEDIA xml:lang="ja">ストレート・アライ</WIKIPEDIA>
         <preferred-name xml:lang="en">heterosexual ally</preferred-name>
+        <preferred-name xml:lang="ja">ストレート・アライ</preferred-name>
         <preferred-name xml:lang="zh">直同志</preferred-name>
         <shortened-term xml:lang="en">ally</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">A straight ally or heterosexual ally is a heterosexual person who supports equal civil rights, gender equality, LGBT social movements, and challenges homophobia, biphobia and transphobia.</oboInOwl1:hasDefinition>
@@ -27564,6 +27582,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#isodisomy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#uniparental_disomy"/>
         <preferred-name xml:lang="en">isodisomy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The duplication of a single chromosome inherited from one parent.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -53188,6 +53207,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://github.com/Superraptor/GSSO#pseudonym">
         <preferred-name xml:lang="en">pseudonym</preferred-name>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#heteronym"/>
         <oboInOwl1:hasSynonym xml:lang="en">alias</oboInOwl1:hasSynonym>
     </rdf:Description>
 </rdf:RDF>
