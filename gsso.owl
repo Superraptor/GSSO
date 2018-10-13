@@ -3942,6 +3942,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#retirement_association"/>
         <schema:url xml:lang="en">http://www.gaylesbianretiring.org/</schema:url>
         <preferred-name xml:lang="en">GLARP</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">GLARP is an LGBT nonprofit that helps build accepting communities for senior citizens.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Gay &amp; Lesbian Association of Retiring Persons, Inc.</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -3953,7 +3954,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_society"/>
         <schema:location xml:lang="en">4127 18th Street, San Francisco, California, United States 94114</schema:location>
         <schema:url>http://www.glbthistory.org/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/GLBT_Historical_Society</WIKIPEDIA>
         <preferred-name xml:lang="en">GLBT Historical Society</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The GLBT Historical Society (for Gay, Lesbian, Bisexual Transgender Historical Society) maintains an extensive collection of archival materials, artifacts and graphic arts relating to the history of LGBT people in the United States, with a focus on the LGBT communities of San Francisco and Northern California.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Gay, Lesbian, Bisexual Transgender Historical Society</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -5486,8 +5489,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Leslie-Lohman_Museum_of_Gay_and_Lesbian_Art">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#art_museum"/>
+        <schema:founder>Charles W. Leslie</schema:founder>
+        <schema:founder>J. Frederic &quot;Fritz&quot; Lohman</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</schema:foundingDate>
+        <schema:location xml:lang="en">Manhattan, New York City, New York, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Leslie-Lohman_Museum_of_Gay_and_Lesbian_Art</WIKIPEDIA>
         <preferred-name xml:lang="en">Leslie-Lohman Museum of Gay and Lesbian Art</preferred-name>
         <shortened-term xml:lang="en">Leslie-Lohman Museum</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">The Leslie-Lohman Museum of Gay and Lesbian Art, operated by the Leslie-Lohman Gay Art Foundation, is a visual art museum which collects, preserves and exhibits visual arts created by LGBTQ artists or art about LGBTQ themes, issues, and people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5964,6 +5973,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#National_Gay_Pilots_Association">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#aviation_organization"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</schema:foundingDate>
         <schema:url xml:lang="en">https://www.ngpa.org/</schema:url>
         <acronym xml:lang="en">NGPA</acronym>
         <preferred-name xml:lang="en">National Gay Pilots Association</preferred-name>
@@ -5976,12 +5986,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#National_LGBT_Bar_Association">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#American_bar_association"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_professional_organization"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</schema:foundingDate>
         <schema:location xml:lang="en">Washington, D.C., United States</schema:location>
         <schema:url xml:lang="en">http://lgbtbar.org/</schema:url>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/National_LGBT_Bar_Association</WIKIPEDIA>
         <former-term xml:lang="en">National Lesbian and Gay Law Association</former-term>
         <preferred-name xml:lang="en">National LGBT Bar Association</preferred-name>
         <shortened-term xml:lang="en">LGBT Bar</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">The National Lesbian, Gay, Bisexual and Transgender Bar Association is a national association of lawyers, judges and other legal professionals, law students, activists, and affiliated lesbian, gay, bisexual, transgender legal organizations.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">National Lesbian, Gay, Bisexual and Transgender Bar Association</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
@@ -5997,9 +6009,18 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#National_Lesbian_and_Gay_Journalists_Association">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journalism-related_professional_organization"/>
+        <schema:founder>David Tuller</schema:founder>
+        <schema:founder>Elaine Herscher</schema:founder>
+        <schema:founder>Kathleen Buckley</schema:founder>
+        <schema:founder>Roy Aarons</schema:founder>
+        <schema:founder>Shannon Hickey</schema:founder>
+        <schema:founder>Victor Zonana</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</schema:foundingDate>
+        <schema:location xml:lang="en">Washington, D.C., United States</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/National_Lesbian_and_Gay_Journalists_Association</WIKIPEDIA>
         <acronym xml:lang="en">NLGJA</acronym>
         <preferred-name xml:lang="en">National Lesbian and Gay Journalists Association</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The National Lesbian and Gay Journalists Association (NLGJA) is an American professional association dedicated to unbiased coverage of LGBTQ issues in the media.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -6008,9 +6029,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#National_Organization_of_Gay_and_Lesbian_Scientists_and_Technical_Professionals">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scientific_society"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</schema:foundingDate>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/National_Organization_of_Gay_and_Lesbian_Scientists_and_Technical_Professionals</WIKIPEDIA>
         <acronym xml:lang="en">NOGLSTP</acronym>
         <preferred-name xml:lang="en">National Organization of Gay and Lesbian Scientists and Technical Professionals</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The National Organization of Gay and Lesbian Scientists and Technical Professionals (NOGLSTP) is a professional society for professionals in science, technology, mathematics, and engineering.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -6755,9 +6778,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#SAGE">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#seniors&apos;_organization"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1979</schema:foundingDate>
+        <schema:location xml:lang="en">305 Seventh Avenue, New York City, New York, United States 10001</schema:location>
         <schema:url xml:lang="en">https://www.sageusa.org/</schema:url>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Services_%26_Advocacy_for_GLBT_Elders</WIKIPEDIA>
+        <former-term xml:lang="en">Senior Action in a Gay Environment</former-term>
         <preferred-name xml:lang="en">SAGE</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">SAGE is the United States&apos; oldest and largest non-profit organization dedicated to improving the lives of lesbian, gay, bisexual and transgender (LGBT) older adults, focusing on the issue of LGBT aging.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Services &amp; Advocacy for GLBT Elders</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Services &amp; Advocacy for Gay, Lesbian, Bisexual &amp; Transgender Elders</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -6958,9 +6985,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Schwules_Museum">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</schema:foundingDate>
+        <schema:location xml:lang="en">Berlin, Germany</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Schwules_Museum</WIKIPEDIA>
         <preferred-name xml:lang="en">Gay Museum</preferred-name>
         <preferred-name xml:lang="de">Schwules Museum</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The &quot;Schwules Museum&quot; is a museum exhibiting LGBT life in Berlin, Germany.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="de">Schwules Museum Berlin</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -7623,7 +7653,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Tucson_Gay_Museum">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
+        <schema:foundingDate>6 June 1967</schema:foundingDate>
+        <schema:url>http://www.tucsongaymuseum.org/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Tucson_LGBTQ_Museum</WIKIPEDIA>
         <preferred-name xml:lang="en">Tucson Gay Museum</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The Tucson Gay Museum is an effort whose mission is to collect, preserve and exhibit the histories LGBTQ people in Tucson, Arizona.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Tucson Gay Lesbian Bisexual Transgender Queer Museum</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Tucson LGBT Museum</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Tucson LGBTQ Museum</oboInOwl1:hasExactSynonym>
