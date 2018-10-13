@@ -21537,6 +21537,7 @@
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#urning"/>
         <preferred-name xml:lang="en">gay man</preferred-name>
         <slang-term rdf:resource="https://github.com/Superraptor/GSSO#friend_of_Dorothy"/>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone with a male gender identity who is attracted to those with male gender identities.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24474,6 +24475,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#man"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#Dioning"/>
         <preferred-name xml:lang="en">heterosexual man</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone with a male gender identity who is attracted to those with female gender identities.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">straight man</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -24500,6 +24502,7 @@
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#breeder"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#breeder"/>
         <preferred-name xml:lang="en">heterosexual person</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who is attracted to people of gender identities other than their own, typically used to refer to those with female gender identities who are attracted to those with male gender identities, or vice versa.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">straight person</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -24513,6 +24516,7 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <preferred-name xml:lang="en">heterosexual privilege</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Heterosexual privilege confers unearned and unchallenged advantages and rewards on heterosexuals solely as a result of their sexual orientation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24521,7 +24525,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterosexual_separatist_feminism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#separatist_feminism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Separatist_feminism#Heterosexual_separatist_feminism</WIKIPEDIA>
         <preferred-name xml:lang="en">heterosexual separatist feminism</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">feminist heterosexual separatism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -24533,6 +24539,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#Dioningin"/>
         <preferred-name xml:lang="en">heterosexual woman</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone with a female gender identity who is attracted to those with male gender identities.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">straight woman</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -24545,7 +24552,9 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Heterosexuality</WIKIPEDIA>
         <preferred-name xml:lang="en">heterosexuality</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The state of being sexually and romantically attracted primarily or exclusively to persons of a gender identity different than one&apos;s own.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24554,7 +24563,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterosociality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_relation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Heterosociality</WIKIPEDIA>
         <preferred-name xml:lang="en">heterosociality</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Heterosociality describes social relations with persons of the opposite sex or a preference for such relations, often excluding relationships of a romantic and sexual nature.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24971,7 +24982,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homosociality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_relation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homosociality</WIKIPEDIA>
         <preferred-name xml:lang="en">homosociality</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Homosociality refers to same-sex relationships that are not of a romantic or sexual nature, such as friendship, mentorship, or others.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27012,6 +27025,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internalized_sexism"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internalized_sexism#Internalized_heterosexism</WIKIPEDIA>
         <preferred-name xml:lang="en">internalized heterosexism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Internalized heterosexism is a manifestation of internalized sexism that primarily affects sexual minority populations (composed of people who identify lesbian, gay, bisexual, transgender, questioning, or other), however, it can also affect heterosexual populations by dictating how they interact with and relate to non-heterosexual peoples. This phenomenon manifests when sexual minorities begin to adopt rigid, restrictive heteronormative values into their worldviews.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28344,6 +28358,7 @@
         <slang-term rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <slang-term xml:lang="en">lady lover</slang-term>
         <oboInOwl1:hasDefinition xml:lang="en">A woman who is sexually or romantically attracted to other women.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Someone with a female gender identity who is attracted to those with female gender identities.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Sappho</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">gayelle</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">lesbo</oboInOwl1:hasExactSynonym>
@@ -50882,6 +50897,7 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</terms:dateCopyrighted>
         <schema:bookEdition xml:lang="en">University of Chicago Press</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780226307626</schema:isbn>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Jonathan_Ned_Katz#The_Invention_of_Heterosexuality</WIKIPEDIA>
         <preferred-name xml:lang="en">The Invention of Heterosexuality</preferred-name>
     </owl:Class>
     
