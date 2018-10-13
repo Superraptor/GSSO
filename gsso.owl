@@ -654,6 +654,15 @@
     
 
 
+    <!-- http://schema.org/datePosted -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/datePosted">
+        <preferred-name xml:lang="en">date posted</preferred-name>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://schema.org/datePublished -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/datePublished">
@@ -683,6 +692,15 @@
     
 
 
+    <!-- http://schema.org/dissolutionDate -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/dissolutionDate">
+        <preferred-name xml:lang="en">dissolution date</preferred-name>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://schema.org/editor -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/editor">
@@ -706,6 +724,17 @@
     <owl:AnnotationProperty rdf:about="http://schema.org/founder">
         <preferred-name xml:lang="en">founder</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Person"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/foundingDate -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/foundingDate">
+        <WIKIDATA>P571</WIKIDATA>
+        <preferred-name xml:lang="en">founding date</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">date founded</oboInOwl1:hasExactSynonym>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
     </owl:AnnotationProperty>
     
 
@@ -2079,6 +2108,19 @@
     
 
 
+    <!-- http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm -->
+
+    <owl:Class rdf:about="http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:title xml:lang="en">FAQ</terms:title>
+        <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Neutrois.com"/>
+        <schema:dateModified>23 November 2000</schema:dateModified>
+        <schema:url xml:lang="en">http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm</schema:url>
+        <rdfs:comment xml:lang="en">The Internet Archive&apos;s earliest version of this page is from 7 March 2001.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.jstor.org/stable/2452803 -->
 
     <owl:Class rdf:about="http://www.jstor.org/stable/2452803">
@@ -2382,6 +2424,9 @@
         <schema:founder>Roger Baldwin</schema:founder>
         <schema:founder>Rose Schneiderman</schema:founder>
         <schema:founder>Walter Nelles</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:foundingDate>
+        <schema:location xml:lang="en">125 Broad Street, New York City, New York, United States</schema:location>
+        <schema:url>https://www.aclu.org/</schema:url>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Civil_Liberties_Union</WIKIPEDIA>
         <acronym xml:lang="en">ACLU</acronym>
         <preferred-name xml:lang="en">American Civil Liberties Union</preferred-name>
@@ -2394,15 +2439,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Institute_of_Bisexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_organization"/>
         <schema:founder xml:lang="en">Fritz Klein</schema:founder>
+        <schema:foundingDate>23 July 1998</schema:foundingDate>
         <acronym xml:lang="en">AIB</acronym>
         <preferred-name xml:lang="en">American Institute of Bisexuality</preferred-name>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#American_Institute_of_Bisexuality"/>
-        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
-        <owl:annotatedTarget xml:lang="en">Fritz Klein</owl:annotatedTarget>
-        <terms:date>23 July 1998</terms:date>
-    </owl:Axiom>
     
 
 
@@ -2520,6 +2560,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Ann_Fisher -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ann_Fisher">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguist"/>
+        <schema:birthDate>9 December 1719</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Lorton, Cumberland, England</schema:birthPlace>
+        <schema:deathPlace>2 May 1778</schema:deathPlace>
+        <schema:spouse>Thomas Slack</schema:spouse>
+        <rdfs:comment xml:lang="en">Ann Fisher is the earliest known female author on modern English grammar, publishing &quot;A New Grammar&quot; in 1745. This work called for &quot;he&quot; as the gender-neutral pronoun of choice in English.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ann_Fisher_(grammarian)</WIKIPEDIA>
+        <alternative-spelling>Anne Fisher</alternative-spelling>
+        <cause-of-death xml:lang="en">asthma attack</cause-of-death>
+        <preferred-name>Ann Fisher</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Antide_Collas -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Antide_Collas">
@@ -2591,17 +2648,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Asexual_Awareness_Week">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_week"/>
         <schema:founder>Sara Beth Brooks</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</schema:foundingDate>
         <schema:url>http://www.asexualawarenessweek.com/</schema:url>
         <WIKIDATA>Q23011258</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Asexuality#Asexual_Awareness_Week</WIKIPEDIA>
         <preferred-name xml:lang="en">Asexual Awareness Week</preferred-name>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Asexual_Awareness_Week"/>
-        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
-        <owl:annotatedTarget>Sara Beth Brooks</owl:annotatedTarget>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</dc:date>
-    </owl:Axiom>
     
 
 
@@ -2669,10 +2721,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Australian_Lesbian_and_Gay_Archives">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <schema:founder>Graham Carbery</schema:founder>
+        <schema:foundingDate>August 1978</schema:foundingDate>
+        <schema:location xml:lang="en">Victorian Aids Council Offices, 615 St Kilda Road, Melbourne, Victoria, Australia</schema:location>
         <schema:url>http://alga.org.au/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Australian_Lesbian_and_Gay_Archives</WIKIPEDIA>
         <acronym xml:lang="en">ALGA</acronym>
         <alternative-spelling xml:lang="en">Australian Lesbian &amp; Gay Archives</alternative-spelling>
         <preferred-name xml:lang="en">Australian Lesbian and Gay Archives</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The Australian Lesbian and Gay Archives is a volunteer, community-based repository of historical materials relating to the LGBTQIA+ experience in Australia.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -2682,8 +2739,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#B.C._Gay_and_Lesbian_Archives">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_archive"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</schema:foundingDate>
+        <schema:location xml:lang="en">Vancouver, British Columbia, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/BC_Gay_and_Lesbian_Archives</WIKIPEDIA>
         <alternative-spelling xml:lang="en">BC Gay and Lesbian Archives</alternative-spelling>
         <preferred-name xml:lang="en">B.C. Gay and Lesbian Archives</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The B.C. Gay and Lesbian Archives is a repository of research materials relating to the lives of people belonging to the LGBTQIA+ community of British Columbia.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -2959,11 +3020,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Canadian_Lesbian_and_Gay_Archives">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_archive"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</schema:foundingDate>
         <schema:location xml:lang="en">34 Isabella Street, Toronto, Ontario, Canada M4Y 1N1</schema:location>
         <schema:url>https://clga.ca/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Canadian_Lesbian_and_Gay_Archives</WIKIPEDIA>
         <acronym xml:lang="en">CLGA</acronym>
         <alternative-spelling xml:lang="en">Canadian Lesbian &amp; Gay Archives</alternative-spelling>
         <preferred-name xml:lang="en">Canadian Lesbian and Gay Archives</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The Canadian Lesbian and Gay Archives is a Canadian non-profit organization, which acquires, preserves and provides public access to material on the history of lesbian, gay, bisexual, transgender and queer communities in Canada and internationally.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -3511,8 +3575,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Digital_Transgender_Archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#digital_archive"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_archive"/>
+        <schema:url>https://www.digitaltransgenderarchive.net/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Digital_Transgender_Archive</WIKIPEDIA>
         <acronym xml:lang="en">DTA</acronym>
         <preferred-name xml:lang="en">Digital Transgender Archive</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The Digital Transgender Archive (DTA) is an online resource created to enable researchers to locate and make use of transgender-related materials in digital and physical collections.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -3725,6 +3792,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#FTM_International">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_organization"/>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Lou_Sullivan"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</schema:foundingDate>
+        <rdfs:comment xml:lang="en">Records of FTM International are held by the Gay, Lesbian, Bisexual, Transgender Historical Society in San Francisco, California. For more information, see here: https://oac.cdlib.org/findaid/ark:/13030/kt2z09q73q/entire_text/.</rdfs:comment>
         <preferred-name xml:lang="en">FTM International</preferred-name>
     </owl:Class>
     
@@ -3795,6 +3864,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing_organization"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781580052245"/>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Virginia_Prince"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1963</schema:foundingDate>
         <acronym xml:lang="en">FPE</acronym>
         <preferred-name xml:lang="en">Foundation for Personality Expression</preferred-name>
     </owl:Class>
@@ -4212,7 +4282,7 @@
         <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
         <owl:annotatedTarget xml:lang="en">I sexually Identify as an Attack Helicopter. Ever since I was a boy I dreamed of soaring over the oilfields dropping hot sticky loads on disgusting foreigners. People say to me that a person being a helicopter is Impossible and I&apos;m fucking retarded but I don&apos;t care, I&apos;m beautiful. I&apos;m having a plastic surgeon install rotary blades, 30 mm cannons and AMG-114 Hellfire missiles on my body. From now on I want you guys to call me &quot;Apache&quot; and respect my right to kill from above and kill needlessly. If you can&apos;t accept me you&apos;re a heliphobe and need to check your vehicle privilege. Thank you for being so understanding.</owl:annotatedTarget>
         <dc:creator>Guuse</dc:creator>
-        <terms:date>17 March 2014</terms:date>
+        <schema:datePosted>17 March 2014</schema:datePosted>
     </owl:Axiom>
     
 
@@ -4310,6 +4380,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_event"/>
         <terms:date>March 31</terms:date>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Rachel_Crandall"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</schema:foundingDate>
         <schema:url>http://www.transstudent.org/tdov</schema:url>
         <WIKIDATA>Q16254614</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Transgender_Day_of_Visibility</WIKIPEDIA>
@@ -4372,18 +4443,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Intersex_Society_of_North_America">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_organization"/>
+        <schema:dissolutionDate>June 2008</schema:dissolutionDate>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Bo_Laurent"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</schema:foundingDate>
         <schema:url>http://isna.org/</schema:url>
+        <rdfs:comment xml:lang="en">The Accord Alliance, which opened in April 2008, is a direct successor to ISNA. Its goal is to &quot;improve the way health care is made available&quot; to people born intersex.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intersex_Society_of_North_America</WIKIPEDIA>
         <acronym xml:lang="en">ISNA</acronym>
         <preferred-name xml:lang="en">Intersex Society of North America</preferred-name>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Intersex_Society_of_North_America"/>
-        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
-        <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#Bo_Laurent"/>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</terms:date>
-    </owl:Axiom>
     
 
 
@@ -4391,9 +4459,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Irish_Queer_Archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Irish_Queer_Archive</WIKIPEDIA>
         <acronym xml:lang="en">IQA</acronym>
         <preferred-name xml:lang="ga">Cartlann Aerach na hÉireann</preferred-name>
         <preferred-name xml:lang="en">Irish Queer Archive</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The Irish Queer Archive is a collection of material in Ireland relating to gay persons, LGBT literature and general queer studies.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Irish Queer Archives and Reference Library</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -4589,11 +4659,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Johns_Hopkins_Gender_Identity_Clinic">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinic"/>
+        <schema:dissolutionDate>October 1979</schema:dissolutionDate>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#John_Money"/>
         <schema:founder>Claude Migeon</schema:founder>
         <rdfs:comment xml:lang="en">Paul R. McHugh famously shut down this gender identity clinic at Johns Hopkins, arguing that gender variance is essentially a lifestyle choice or an ideology.</rdfs:comment>
         <acronym xml:lang="en">GIC</acronym>
-        <end-date>October 1979</end-date>
         <preferred-name xml:lang="en">Johns Hopkins Gender Identity Clinic</preferred-name>
     </owl:Class>
     
@@ -4678,7 +4748,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#June_Mazer_Lesbian_Archives">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_archive"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1981</schema:foundingDate>
+        <schema:url>http://www.mazerlesbianarchives.org/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/June_L._Mazer_Lesbian_Archives</WIKIPEDIA>
+        <former-term xml:lang="en">West Coast Lesbian Collections</former-term>
         <preferred-name xml:lang="en">June Mazer Lesbian Archives</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The June L. Mazer Lesbian Archives is a grass roots archive which acts as one of the largest archives in the world dedicated to collecting protecting and preserving lesbian and feminist women&apos;s history.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">June L. Mazer Lesbian Archives</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">June Mazer Lesbian Archives in LA</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Mazer Lesbian Archives</oboInOwl1:hasExactSynonym>
@@ -5267,9 +5342,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lambda_Archives_of_San_Diego">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_archive"/>
+        <schema:founder>Jess Jessop</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</schema:foundingDate>
         <schema:location xml:lang="en">4545 Park Boulevard Suite 104, San Diego, California, United States 92116-2668</schema:location>
         <schema:url>https://lambdaarchives.org/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lambda_Archives_of_San_Diego</WIKIPEDIA>
         <preferred-name xml:lang="en">Lambda Archives of San Diego</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The Lambda Archives of San Diego is a collection of LGBT historical materials in San Diego, California, United States.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5365,6 +5444,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lesbian_Herstory_Archives">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_archive"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_archive"/>
+        <schema:founder>Deborah Edel</schema:founder>
+        <schema:founder>Joan Nestle</schema:founder>
+        <schema:founder>Julia Stanley</schema:founder>
+        <schema:founder>Pamela Oline</schema:founder>
+        <schema:founder>Sahli Cavallo</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</schema:foundingDate>
+        <schema:location xml:lang="en">484 14th St., Park Slope, Brooklyn, New York, United States 11215</schema:location>
         <schema:url>http://www.lesbianherstoryarchives.org/</schema:url>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbian_Herstory_Archives</WIKIPEDIA>
         <acronym xml:lang="en">LHA</acronym>
@@ -5517,7 +5603,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Mamselle">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing_organization"/>
         <schema:founder>Carol Beecroft</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1971</schema:foundingDate>
         <preferred-name xml:lang="en">Mamselle</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Mamselle Sorority</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -5830,6 +5918,9 @@
         <schema:founder>Mary White Ovington</schema:founder>
         <schema:founder>Moorfield Storey</schema:founder>
         <schema:founder>W. E. B. Du Bois</schema:founder>
+        <schema:foundingDate>12 February 1909</schema:foundingDate>
+        <schema:location xml:lang="en">Baltimore, Maryland, United States</schema:location>
+        <schema:url>https://www.naacp.org/</schema:url>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/NAACP</WIKIPEDIA>
         <acronym xml:lang="en">NAACP</acronym>
         <preferred-name xml:lang="en">National Association for the Advancement of Colored People</preferred-name>
@@ -5861,6 +5952,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_awareness_day"/>
         <terms:date>February 12</terms:date>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Lambda_Legal"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</schema:foundingDate>
         <WIKIDATA>Q6972797</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/National_Freedom_to_Marry_Day</WIKIPEDIA>
         <preferred-name xml:lang="en">National Freedom to Marry Day</preferred-name>
@@ -5982,6 +6074,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Neutrois.com -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Neutrois.com">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
+        <terms:title xml:lang="en">Neutrois.com</terms:title>
+        <rdfs:comment xml:lang="en">According to domain hosting history, &quot;Neutrois.com&quot; was hosted by DEAFVISION.NET from December 2000 to April 2004, after which time it was deleted. It was then picked up by ACZL.COM in July 2004 and transferred to IREITHOST.COM in March 2007. The site was deleted again by IREITHOST.COM in January 2008. In May 2008, GLISE-SERVICE.DE picked up the site and then deleted it again in May 2009. Next, SITES.COM obtained &quot;Neutrois.com&quot; in October 2009. As of 12 October 2018, SITES.COM (via Wild West Domains, LLC) continues to host the site.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The site, under the name Neutrois Outpost, was &quot;resurrected on May 5, 2000&quot; according to an archived version from 30 August 2000 (see: https://web.archive.org/web/20000830081635/http://www.neutrois.com:80/).</rdfs:comment>
+        <former-term xml:lang="en">Neutrois Outpost</former-term>
+        <preferred-name xml:lang="en">Neutrois.com</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Nonbinary.org -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Nonbinary.org">
@@ -6045,17 +6150,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Old_Fulton_NY_Postcards">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
         <schema:founder>Tom Tryniski</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</schema:foundingDate>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Fultonhistory.com</WIKIPEDIA>
         <preferred-name xml:lang="en">Old Fulton NY Postcards</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Fulton History</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Fultonhistory.com</oboInOwl1:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Old_Fulton_NY_Postcards"/>
-        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
-        <owl:annotatedTarget>Tom Tryniski</owl:annotatedTarget>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</terms:date>
-    </owl:Axiom>
     
 
 
@@ -6074,17 +6174,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Organisation_Intersex_International">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_organization"/>
         <schema:founder>Curtis Hinkle</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</schema:foundingDate>
         <schema:url>http://oiiinternational.com/</schema:url>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Organisation_Intersex_International</WIKIPEDIA>
         <acronym xml:lang="en">OII</acronym>
         <preferred-name xml:lang="en">Organisation Intersex International</preferred-name>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Organisation_Intersex_International"/>
-        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
-        <owl:annotatedTarget>Curtis Hinkle</owl:annotatedTarget>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</terms:date>
-    </owl:Axiom>
     
 
 
@@ -6141,6 +6236,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#OutHistory">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Jonathan_Ned_Katz"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</schema:foundingDate>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/OutHistory</WIKIPEDIA>
         <preferred-name xml:lang="en">OutHistory</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">OutHistory.org</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -6259,6 +6356,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#Paresis_Hall_(New_York_Medical_Journal)"/>
         <schema:founder>James T. &quot;Biff&quot; Ellison</schema:founder>
         <schema:founder>Mike Ryan</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</schema:foundingDate>
         <schema:location xml:lang="en">32 Cooper Square, New York City, New York, United States</schema:location>
         <schema:location xml:lang="en">392 Bowery, New York City, New York, United States</schema:location>
         <WIKIDATA>Q46996833</WIKIDATA>
@@ -6298,12 +6396,6 @@
         <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#9780313329708"/>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">344</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">343</schema:pageStart>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Paresis_Hall"/>
-        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
-        <owl:annotatedTarget>James T. &quot;Biff&quot; Ellison</owl:annotatedTarget>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</dc:date>
     </owl:Axiom>
     
 
@@ -6581,6 +6673,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Riki_Anne_Wilchins -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Riki_Anne_Wilchins">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#A_Nation_Inside_the_Beltway_(2_Oct._1995)"/>
+        <rdfs:comment xml:lang="en">According to Carey Goldberg, &quot;[t]here is no really right, widely accepted pronoun for Riki Anne Wilchens. Nor is there the right honorific.&quot; For this reason, Wilchins is listed here as a transgender person.</rdfs:comment>
+        <preferred-name>Riki Anne Wilchins</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Rita_Hester -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Rita_Hester">
@@ -6752,6 +6855,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_event"/>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Christopher_Lee"/>
         <schema:founder>Alex Austin</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</schema:foundingDate>
         <schema:location xml:lang="en">San Francisco, California, United States</schema:location>
         <schema:url>http://sftff.org/</schema:url>
         <WIKIDATA>Q28405121</WIKIDATA>
@@ -7151,6 +7255,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Susan_Stryker -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Susan_Stryker">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:alumniOf xml:lang="en">University of California, Berkeley</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">University of Oklahoma</schema:alumniOf>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Ft. Sill, Oklahoma, United States</schema:birthPlace>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Susan_Stryker</WIKIPEDIA>
+        <preferred-name>Susan Stryker</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#T-shirt -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#T-shirt">
@@ -7290,6 +7410,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Toronto_Trans_March">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Trans_March"/>
         <schema:founder>Karah Mathiason</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</schema:foundingDate>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trans_March#Toronto_Trans_March</WIKIPEDIA>
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Trans_March#Toronto_Trans_March</WIKIPEDIA>
         <preferred-name xml:lang="en">Toronto Trans March</preferred-name>
@@ -7331,6 +7452,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Transgender_Archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_archive"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781580052245"/>
         <terms:publisher xml:lang="en">Transgender Foundation of America</terms:publisher>
         <schema:location xml:lang="en">Houston, Texas, United States</schema:location>
         <schema:url>http://tgarchive.org/</schema:url>
@@ -7338,6 +7460,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_Archive</WIKIPEDIA>
         <preferred-name xml:lang="en">Transgender Archive</preferred-name>
         <shortened-term xml:lang="en">TG Archive</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">The Transgender Archive began as the personal collection of Cristan Williams, and was donated to the Transgender Foundation of America in 2008 where the collection has continued to grow.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Houston Transgender Archive</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -7370,6 +7493,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_event"/>
         <terms:date>November 20</terms:date>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Gwendolyn_Smith"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</schema:foundingDate>
         <schema:url>http://www.transgenderdor.org</schema:url>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#Transgender_Awareness_Week"/>
         <WIKIDATA>Q57116</WIKIDATA>
@@ -7556,6 +7680,7 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <rdfs:comment xml:lang="en">The term &quot;Two Spirit&quot; was adopted by consensus in 1990 at an international gay and lesbian indigenous gathering as a replacement for the inappropriate and outdated term &quot;berdache&quot;.</rdfs:comment>
         <WIKIDATA>Q301702</WIKIDATA>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Two-Spirit</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Two-spirit</WIKIPEDIA>
@@ -7573,6 +7698,7 @@
         <preferred-name xml:lang="es">dos espíritus</preferred-name>
         <preferred-name xml:lang="zh">雙靈</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A Native (North) American who is non-cisgender, non-binary or gender-variant (especially one belonging to a traditional tribal third-gender, fourth-gender or transgender category), or who is non-heterosexual.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Two-Spirit is a modern, pan-Indian, umbrella term used by some indigenous North Americans to describe certain people in their communities who fulfill a traditional third-gender (or other gender non-conforming) ceremonial role in their cultures.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Two-spirited</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">twospirited</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -7658,6 +7784,29 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Usenet -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Usenet">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Usenet</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Usenet</WIKIPEDIA>
+        <preferred-name xml:lang="en">Usenet</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Usenet_newsgroup -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Usenet_newsgroup">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Newsgroups</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Usenet_newsgroup</WIKIPEDIA>
+        <preferred-name xml:lang="en">Usenet newsgroup</preferred-name>
+        <shortened-term xml:lang="en">newsgroup</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Virginia_Prince -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Virginia_Prince">
@@ -7716,6 +7865,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Whores_of_Yore">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
         <schema:founder>Kate Lister</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</schema:foundingDate>
         <schema:url>https://www.thewhoresofyore.com/</schema:url>
         <preferred-name xml:lang="en">Whores of Yore</preferred-name>
     </owl:Class>
@@ -7789,6 +7939,17 @@
         <acronym xml:lang="en">HBIGDA</acronym>
         <named-after rdf:resource="https://github.com/Superraptor/GSSO#Harry_Benjamin"/>
     </owl:Axiom>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#World_Wide_Web -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#World_Wide_Web">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/World_Wide_Web</WIKIPEDIA>
+        <preferred-name xml:lang="en">World Wide Web</preferred-name>
+        <shortened-term xml:lang="en">the Web</shortened-term>
+    </owl:Class>
     
 
 
@@ -8528,6 +8689,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#ae -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ae">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subject_pronoun"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#11255478"/>
+        <preferred-name xml:lang="en">ae</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#aedeagus -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aedeagus">
@@ -8539,6 +8711,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#aer -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aer">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#object_pronoun"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#11255478"/>
+        <preferred-name xml:lang="en">aer</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#aerospace_organization -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aerospace_organization">
@@ -8546,6 +8729,17 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Aerospace_organisations</WIKIPEDIA>
         <alternative-spelling xml:lang="en">aerospace organisation</alternative-spelling>
         <preferred-name xml:lang="en">aerospace organization</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#aerself -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aerself">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#11255478"/>
+        <preferred-name xml:lang="en">aerself</preferred-name>
     </owl:Class>
     
 
@@ -8994,6 +9188,75 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#far-right_politics"/>
         <preferred-name xml:lang="en">alt-right</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">alternative right</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#alt.fashion.crossdressing -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alt.fashion.crossdressing">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <preferred-name xml:lang="en">alt.fashion.crossdressing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#alt.lesbian.feminist.poetry -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alt.lesbian.feminist.poetry">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780815319207"/>
+        <preferred-name xml:lang="en">alt.lesbian.feminist.poetry</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#alt.sex -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alt.sex">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Alt.sex</WIKIPEDIA>
+        <preferred-name xml:lang="en">alt.sex</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">alt.sex.*</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#alt.sex.stories -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alt.sex.stories">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#alt.sex"/>
+        <schema:founder>Tim Pierce</schema:founder>
+        <schema:foundingDate>7 May 1992</schema:foundingDate>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Alt.sex.stories</WIKIPEDIA>
+        <preferred-name xml:lang="en">alt.sex.stories</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#alt.support.crossdressing -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alt.support.crossdressing">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <preferred-name xml:lang="en">alt.support.crossdressing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#alt.support.srs -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alt.support.srs">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <preferred-name xml:lang="en">alt.support.srs</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#alt.transgendered -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#alt.transgendered">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <preferred-name xml:lang="en">alt.transgendered</preferred-name>
     </owl:Class>
     
 
@@ -9901,6 +10164,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#information_system"/>
         <schema:alternateName xml:lang="en">archives</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Archive</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Archives</WIKIPEDIA>
         <preferred-name xml:lang="en">archive</preferred-name>
     </owl:Class>
     
@@ -10835,6 +11100,20 @@
         <terms:title xml:lang="de">Psychopathia Sexualis</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <INTERNET_ARCHIVE>b20421746</INTERNET_ARCHIVE>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ba-sappho -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ba-sappho">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#email_discussion_list"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780815319207"/>
+        <schema:founder>Ann Mei Chang</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</schema:foundingDate>
+        <alternative-spelling xml:lang="en">Ba-sappho</alternative-spelling>
+        <named-after rdf:resource="https://github.com/Superraptor/GSSO#Sappho"/>
+        <preferred-name xml:lang="en">ba-sappho</preferred-name>
     </owl:Class>
     
 
@@ -11844,6 +12123,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <schema:alternateName xml:lang="en">bisexual people</schema:alternateName>
         <preferred-name xml:lang="en">bisexual person</preferred-name>
@@ -12390,6 +12670,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#breeder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#breeder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexual_person"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
+        <derogatory-term xml:lang="en">breeder</derogatory-term>
+        <historical-term xml:lang="en">breeder</historical-term>
+        <preferred-name xml:lang="en">breeder</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#heterosexual_person"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bribery -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bribery">
@@ -12499,6 +12792,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bulldyke">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780199829941"/>
@@ -12596,6 +12890,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#butch">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Polari"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#femme"/>
@@ -14730,6 +15025,32 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#computer -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#computer">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#device"/>
+        <schema:alternateName xml:lang="en">computers</schema:alternateName>
+        <NCIT>C16464</NCIT>
+        <OBI>OBI:0400107</OBI>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">706692004</SCTID>
+        <preferred-name xml:lang="en">computer</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A machine for performing calculations automatically.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#computer_network -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#computer_network">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer"/>
+        <schema:alternateName xml:lang="en">computer networks</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Computer_networks</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Computer_network</WIKIPEDIA>
+        <preferred-name xml:lang="en">computer network</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#computer_programmer -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#computer_programmer">
@@ -16736,6 +17057,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#digital_archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#archive"/>
         <schema:alternateName xml:lang="en">digital archives</schema:alternateName>
+        <NCIT>C114463</NCIT>
         <preferred-name xml:lang="en">digital archive</preferred-name>
     </owl:Class>
     
@@ -17409,6 +17731,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dyke">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#001183469"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780025750500"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
@@ -17903,6 +18226,46 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Spivak_pronoun"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#object_pronoun"/>
         <preferred-name xml:lang="en">em</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#email -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#email">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#document"/>
+        <schema:alternateName xml:lang="en">emails</schema:alternateName>
+        <SIO>SIO:000304</SIO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Email</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">E-mail</alternative-spelling>
+        <alternative-spelling xml:lang="en">e-mail</alternative-spelling>
+        <preferred-name xml:lang="en">email</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An email message is a digital document that is composed of a header and a body and is transmitted using the SMTP protocol.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">electronic mail</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#email_discussion_list -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#email_discussion_list">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#email_list"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Electronic_mailing_list#Discussion_list</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">e-mail discussion list</alternative-spelling>
+        <preferred-name xml:lang="en">email discussion list</preferred-name>
+        <shortened-term xml:lang="en">discussion list</shortened-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#email_list -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#email_list">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#email"/>
+        <schema:alternateName xml:lang="en">email lists</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Electronic_mailing_list</WIKIPEDIA>
+        <preferred-name xml:lang="en">email list</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">electronic mailing list</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -19275,6 +19638,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_and_the_Lady_Lover"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_or_&apos;Fag&apos;"/>
@@ -19352,6 +19716,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fairy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_Fairie_Boy"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#A_Fairie&apos;s_Reply_to_Dr_Lichtenstein"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_or_&apos;Fag&apos;"/>
         <schema:Quotation xml:lang="en">Does the &apos;fairy&apos; or &apos;fag&apos; really exist? This question has been asked time and again. There is no doubt but that this type of denegerate is a reality. He is a freak of nature who in every way attempts to imitate women.</schema:Quotation>
@@ -20132,6 +20497,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#femme">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
@@ -20809,6 +21175,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fruit">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <schema:alternateName xml:lang="en">fruity</schema:alternateName>
         <colloquial-term xml:lang="en">fruit</colloquial-term>
@@ -21353,6 +21720,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender-specific_pronoun -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender-specific_pronoun">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_pronoun"/>
+        <schema:alternateName xml:lang="en">gender-specific pronouns</schema:alternateName>
+        <preferred-name xml:lang="en">gender-specific pronoun</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_affirmation -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_affirmation">
@@ -21509,14 +21886,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
         <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#historical-term"/>
-        <owl:annotatedTarget xml:lang="en">sex reassignment surgery</owl:annotatedTarget>
-        <acronym xml:lang="en">SRS</acronym>
+        <owl:annotatedTarget xml:lang="en">gender reassignment surgery</owl:annotatedTarget>
+        <acronym xml:lang="en">GRS</acronym>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
         <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#historical-term"/>
-        <owl:annotatedTarget xml:lang="en">gender reassignment surgery</owl:annotatedTarget>
-        <acronym xml:lang="en">GRS</acronym>
+        <owl:annotatedTarget xml:lang="en">sex reassignment surgery</owl:annotatedTarget>
+        <acronym xml:lang="en">SRS</acronym>
     </owl:Axiom>
     
 
@@ -21754,6 +22131,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_identity_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_health_condition"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#One_woman&apos;s_struggle_with_gender_identity_disorder"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIDATA>Q1049021</WIKIDATA>
         <acronym xml:lang="en">GID</acronym>
@@ -22253,12 +22631,41 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#genderqueer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1177/0959354396064005"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <schema:Quotation xml:lang="en">It should be an interesting day on Capitol Hill as 75 transsexual activists from around the country begin lobbying senators and congressmen today on everything from employment discrimination to hate crimes... &quot;It&apos;s high time &apos;genderqueers&apos; came out of the closets, out of the shadows and out of the margins, says Mr. or Ms. Ricki Anne Wilchins of the organizing group, the Transsexual Menace.</schema:Quotation>
+        <schema:Quotation xml:lang="en">Riki Anne Wilchins, the author of &quot;Read My Lips: Sexual Subversion and the End of Gender&quot; (Firebrand Books, 1997), describes GID [gender identity disorder] as &quot;a loaded gun. When it gets in the hands of gender-phobic psychiatrists, it invariably goes off and shoots some genderqueer kid.&quot;</schema:Quotation>
+        <schema:Quotation xml:lang="en">The fight against gender oppression has been joined for centuries, perhaps millennia. What&apos;s new today, is that it&apos;s moving into the arena of open political activism. And nope, this is not just one more civil rights struggle for one more narrowly-defined minority. It&apos;s about all of us who are genderqueer: diesel dykes and stone butches, leatherqueens and radical fairies, nelly fags, crossdressers, intersexed, transexuals, transvestites, transgendered, transgressively gendered, intersexed, and those of us whose gender expressions are so complex they haven&apos;t even been named yet.</schema:Quotation>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#queer"/>
+        <coined-by rdf:resource="https://github.com/Superraptor/GSSO#Riki_Anne_Wilchins"/>
         <preferred-name xml:lang="en">genderqueer</preferred-name>
-        <oboInOwl1:hasDefinition xml:lang="en">Genderqueer, also known as non-binary, is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Genderqueer is a catch-all category for gender identities that are not exclusively masculine or feminine‍—‌identities which are outside the gender binary and cisnormativity.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">Riki Anne Wilchins, the author of &quot;Read My Lips: Sexual Subversion and the End of Gender&quot; (Firebrand Books, 1997), describes GID [gender identity disorder] as &quot;a loaded gun. When it gets in the hands of gender-phobic psychiatrists, it invariably goes off and shoots some genderqueer kid.&quot;</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#One_woman&apos;s_struggle_with_gender_identity_disorder"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">The fight against gender oppression has been joined for centuries, perhaps millennia. What&apos;s new today, is that it&apos;s moving into the arena of open political activism. And nope, this is not just one more civil rights struggle for one more narrowly-defined minority. It&apos;s about all of us who are genderqueer: diesel dykes and stone butches, leatherqueens and radical fairies, nelly fags, crossdressers, intersexed, transexuals, transvestites, transgendered, transgressively gendered, intersexed, and those of us whose gender expressions are so complex they haven&apos;t even been named yet.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#In_Your_Face_No._1_(Spring_1995)"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#coined-by"/>
+        <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#Riki_Anne_Wilchins"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</terms:date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">It should be an interesting day on Capitol Hill as 75 transsexual activists from around the country begin lobbying senators and congressmen today on everything from employment discrimination to hate crimes... &quot;It&apos;s high time &apos;genderqueers&apos; came out of the closets, out of the shadows and out of the margins, says Mr. or Ms. Ricki Anne Wilchins of the organizing group, the Transsexual Menace.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#A_Nation_Inside_the_Beltway_(2_Oct._1995)"/>
+    </owl:Axiom>
     
 
 
@@ -22859,6 +23266,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#government_archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#archive"/>
+        <schema:alternateName xml:lang="en">government archives</schema:alternateName>
         <preferred-name xml:lang="en">government archive</preferred-name>
     </owl:Class>
     
@@ -23517,6 +23925,7 @@
     <!-- https://github.com/Superraptor/GSSO#he -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#he">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculine_grammatical_gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subject_pronoun"/>
         <preferred-name xml:lang="en">he</preferred-name>
@@ -23839,6 +24248,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#her">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dependent_possessive_determiner"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminine_grammatical_gender"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#object_pronoun"/>
         <preferred-name xml:lang="en">her</preferred-name>
     </owl:Class>
@@ -23896,6 +24306,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#herself">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminine_grammatical_gender"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
         <preferred-name xml:lang="en">herself</preferred-name>
     </owl:Class>
@@ -24034,6 +24445,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexuality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">heterosexual people</schema:alternateName>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#breeder"/>
+        <historical-term rdf:resource="https://github.com/Superraptor/GSSO#breeder"/>
         <preferred-name xml:lang="en">heterosexual person</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">straight person</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -24173,6 +24586,7 @@
     <!-- https://github.com/Superraptor/GSSO#him -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#him">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculine_grammatical_gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#object_pronoun"/>
         <preferred-name xml:lang="en">him</preferred-name>
@@ -24183,6 +24597,7 @@
     <!-- https://github.com/Superraptor/GSSO#himself -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#himself">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculine_grammatical_gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
         <preferred-name xml:lang="en">himself</preferred-name>
@@ -24241,6 +24656,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#historical_archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#archive"/>
+        <schema:alternateName xml:lang="en">historical archives</schema:alternateName>
         <preferred-name xml:lang="en">historical archive</preferred-name>
     </owl:Class>
     
@@ -26278,6 +26694,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#insert -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#insert">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#publication"/>
+        <schema:alternateName xml:lang="en">inserts</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Insert_(print_advertising)</WIKIPEDIA>
+        <preferred-name xml:lang="en">insert</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#insertion -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#insertion">
@@ -26614,6 +27041,23 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organization"/>
         <alternative-spelling xml:lang="en">international organisation</alternative-spelling>
         <preferred-name xml:lang="en">international organization</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#internet -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer_network"/>
+        <MESH_UID>D020407</MESH_UID>
+        <NCIT>C20342</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Internet</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internet</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">Internet</alternative-spelling>
+        <preferred-name xml:lang="en">internet</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A global system of computer networks that provides the common TCP IP infrastructure for e-mail, the World Wide Web, and other online activities.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A loose confederation of computer communication networks around the world. The networks that make up the Internet are connected through several backbone networks. The Internet grew out of the US Government ARPAnet project and was designed to facilitate information exchange.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A worldwide, decentralized network of computer networks connecting individuals and organizations to information and electronic mail services.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27827,6 +28271,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
@@ -28102,7 +28547,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#information_system"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organization"/>
         <schema:alternateName xml:lang="en">libraries</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">264366000</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Library</WIKIPEDIA>
         <preferred-name xml:lang="en">library</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28133,6 +28581,17 @@
         <MESH_UID>D008032</MESH_UID>
         <preferred-name xml:lang="en">limbic system</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A set of forebrain structures common to all mammals that is defined functionally and anatomically. It is implicated in the higher integration of visceral, olfactory, and somatic information as well as homeostatic responses including fundamental survival behaviors (feeding, mating, emotion). For most authors, it includes the amygdala; epithalamus; gyrus cinguli; hippocampal formation; hypothalamus; parahippocampal gyrus; septal nuclei; anterior nuclear group of thalamus, and portions of the basal ganglia.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#linguist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#linguist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">linguists</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Linguists</WIKIPEDIA>
+        <preferred-name xml:lang="en">linguist</preferred-name>
     </owl:Class>
     
 
@@ -31566,8 +32025,39 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-gendered_gender_identity"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <preferred-name xml:lang="en">neutral gender identity</preferred-name>
-        <oboInOwl1:hasExactSynonym xml:lang="en">neutrois</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#neutrois"/>
     </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#neutrois -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#neutrois">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neutral_gender_identity"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm"/>
+        <schema:Quotation xml:lang="en">I&apos;m attracted to men, and being a neutrois/man, that makes me gay. But so what? I lived up to my lesbian reputation and tried it with a girl, once (well, we tried it a great deal more than just once). I&apos;m not ashamed of that. What I&apos;m ashamed of is not fighting as much as I should have. I should&apos;ve stood up every f**king time. Even if I wasn&apos;t trans, I still had the right to act any way I chose and no one had any business telling me otherwise. I&apos;m ashamed because I didn&apos;t go out for football. I&apos;m ashamed because I didn&apos;t go to the prom in a tuxedo. I&apos;m ashamed because I didn&apos;t know I was genderqueer, spent puberty being mistreated for being different, and slamming gays and lesbians to feel better. I can&apos;t apologize for hurting those people.. that&apos;s what shames me the most.</schema:Quotation>
+        <rdfs:comment xml:lang="en">Despite many sites claiming an &quot;H. A. Burnham&quot; coining and using the term &quot;neutrois&quot; in 1995, the earliest example archived appears to be from 2000 (although presumably the term preceded that).</rdfs:comment>
+        <coined-by>Holly A. Burnham</coined-by>
+        <etymology xml:lang="en">Probably blend of French &quot;neutre&quot; (neuter, neutral) and &quot;trois&quot; (three).</etymology>
+        <preferred-name xml:lang="en">The earliest appearance of the term &quot;neutrois&quot; in any Usenet newsgroup is in a footer of a message posted by the user GoSpangs on 3 December 1996 (see here: https://groups.google.com/forum/message/raw?msg=soc.support.transgendered/ckLke9K-WtU/LuzuiVWEqTMJ). The footer also includes the name &quot;Holly A. Burnham&quot;.</preferred-name>
+        <preferred-name xml:lang="en">neutrois</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Having a null or neutral gender (being neither male nor female), and having or seeking to have no or reduced signs of physical sex.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#neutrois"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">I&apos;m attracted to men, and being a neutrois/man, that makes me gay. But so what? I lived up to my lesbian reputation and tried it with a girl, once (well, we tried it a great deal more than just once). I&apos;m not ashamed of that. What I&apos;m ashamed of is not fighting as much as I should have. I should&apos;ve stood up every f**king time. Even if I wasn&apos;t trans, I still had the right to act any way I chose and no one had any business telling me otherwise. I&apos;m ashamed because I didn&apos;t go out for football. I&apos;m ashamed because I didn&apos;t go to the prom in a tuxedo. I&apos;m ashamed because I didn&apos;t know I was genderqueer, spent puberty being mistreated for being different, and slamming gays and lesbians to feel better. I can&apos;t apologize for hurting those people.. that&apos;s what shames me the most.</owl:annotatedTarget>
+        <dc:creator>GoSpangs</dc:creator>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#alt.transgendered"/>
+        <schema:datePosted>30 December 1996</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20181012054220/https://groups.google.com/forum/message/raw?msg=alt.transgendered/mIRHwhKv6zA/-6ElUYg17qMJ</schema:url>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#neutrois"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#coined-by"/>
+        <owl:annotatedTarget>Holly A. Burnham</owl:annotatedTarget>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</terms:date>
+    </owl:Axiom>
     
 
 
@@ -36727,18 +37217,27 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#queer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <schema:Quotation xml:lang="en">Just because one person refers to another as &quot;queer&quot; doesn&apos;t mean you should... It&apos;s all a matter of context, of course; one person&apos;s term of endearment may be another&apos;s insult. And often the person on the receiving end of the term isn&apos;t sure of the speaker&apos;s intent.</schema:Quotation>
         <schema:alternateName xml:lang="en">queers</schema:alternateName>
         <rdfs:comment xml:lang="en">The use of queer to mean &quot;non-heterosexual&quot; was formerly pejorative, and it may still be considered pejorative by many. Others have reclaimed the term, however, as a neutral descriptor. The pejorative applied mainly to those assigned male at birth who were perceived as either homosexual or effeminate; the reclaimed term is also used of those assigned female at birth.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Queer</WIKIPEDIA>
         <derogatory-term xml:lang="en">queer</derogatory-term>
         <preferred-name xml:lang="en">queer</preferred-name>
         <reclaimed_term xml:lang="en">queer</reclaimed_term>
-        <slang-term xml:lang="en">Pertaining to sexual behavior or identity (and/or to gender behavior or identity) which does not conform to conventional heterosexual norms, assumptions etc.</slang-term>
         <slang-term xml:lang="en">queer</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Pertaining to sexual behavior or identity (and/or to gender behavior or identity) which does not conform to conventional heterosexual norms, assumptions etc.</oboInOwl1:hasDefinition>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#queer"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The use of queer to mean &quot;non-heterosexual&quot; was formerly pejorative, and it may still be considered pejorative by many. Others have reclaimed the term, however, as a neutral descriptor. The pejorative applied mainly to those assigned male at birth who were perceived as either homosexual or effeminate; the reclaimed term is also used of those assigned female at birth.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
+    </owl:Axiom>
     
 
 
@@ -40459,6 +40958,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#she">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminine_grammatical_gender"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-specific_pronoun"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subject_pronoun"/>
         <preferred-name xml:lang="en">she</preferred-name>
     </owl:Class>
@@ -40892,6 +41392,39 @@
         <UBERON>UBERON:0003670</UBERON>
         <preferred-name xml:lang="en">smegma</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A foul-smelling accumulation of sebum and desquaminated epidermal cells, especially the cheesy substance found under the foreskin of the penis and at the base of the labia minor near the clitoris.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#soc.motss -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#soc.motss">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780815319207"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181001064248/http://www.slate.com/articles/technology/bitwise/2014/08/online_gay_culture_and_soc_motss_how_a_usenet_group_anticipated_how_we_use.html"/>
+        <schema:founder>Steve Dyer</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</schema:foundingDate>
+        <former-term xml:lang="en">net.motss</former-term>
+        <preferred-name xml:lang="en">soc.motss</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#soc.support.transgendered -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#soc.support.transgendered">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <preferred-name xml:lang="en">soc.support.transgendered</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#soc.women.lesbian-and-bi -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#soc.women.lesbian-and-bi">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Usenet_newsgroup"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780815319207"/>
+        <preferred-name xml:lang="en">soc.women.lesbian-and-bi</preferred-name>
     </owl:Class>
     
 
@@ -43077,11 +43610,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#themself -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#themself">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#themselves"/>
+        <preferred-name xml:lang="en">themself</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#themselves -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#themselves">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#epicene_grammatical_gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#themself"/>
         <preferred-name xml:lang="en">themselves</preferred-name>
     </owl:Class>
     
@@ -43196,6 +43740,52 @@
         <MESH_UID>D013894</MESH_UID>
         <preferred-name xml:lang="en">thirst</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A drive stemming from a physiological need for water.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#thon -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#thon">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subject_pronoun"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/3087846"/>
+        <coined-by>Charles Crozat Converse</coined-by>
+        <etymology xml:lang="en">Blend of &quot;that&quot; and &quot;one&quot;.</etymology>
+        <historical-term xml:lang="en">thon</historical-term>
+        <modern-term rdf:resource="https://github.com/Superraptor/GSSO#they"/>
+        <preferred-name xml:lang="en">thon</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#thon"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#coined-by"/>
+        <owl:annotatedTarget>Charles Crozat Converse</owl:annotatedTarget>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</terms:date>
+    </owl:Axiom>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#thons -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#thons">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#independent_possessive_determiner"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <modern-term rdf:resource="https://github.com/Superraptor/GSSO#theirs"/>
+        <preferred-name xml:lang="en">thons</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#thonself -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#thonself">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
+        <modern-term rdf:resource="https://github.com/Superraptor/GSSO#themselves"/>
+        <preferred-name xml:lang="en">thonself</preferred-name>
     </owl:Class>
     
 
@@ -43562,6 +44152,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1177/0959354396064005"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
@@ -43672,7 +44263,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <schema:alternateName xml:lang="en">transgender archives</schema:alternateName>
         <preferred-name xml:lang="en">transgender archive</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An archive containing materials related to, or written by, transgender people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43879,6 +44472,7 @@
         <preferred-name xml:lang="en">transgender person</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="de">Transperson</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">transgender persons</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">transpeople</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
@@ -43959,6 +44553,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Sandy_Stone"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</schema:foundingDate>
         <WIKIDATA>Q17014367</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_studies</WIKIPEDIA>
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/%C3%89tudes_sur_la_transidentit%C3%A9</WIKIPEDIA>
@@ -44131,6 +44726,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transsexual">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <rdfs:comment xml:lang="en">Another reason to avoid this term is its usage of the suffix &quot;-sexual&quot; which implies sexuality, rather than gender identity (compare contemporary English words &quot;heterosexual&quot; or &quot;bisexual&quot;, for instance).</rdfs:comment>
         <rdfs:comment xml:lang="en">It should be emphasized that one&apos;s transgender identity does not require therapeutic procedures. One is still considered transgender even without utilizing hormone replacement therapy or undergoing any of various surgical procedures.</rdfs:comment>
@@ -44210,6 +44806,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transvestite">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dresser"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <acronym xml:lang="en">TV</acronym>
         <derogatory-term xml:lang="en">transvestite</derogatory-term>
         <different-from rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
@@ -44833,6 +45430,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#university_archive">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#archive"/>
+        <schema:alternateName xml:lang="en">university archives</schema:alternateName>
         <preferred-name xml:lang="en">university archive</preferred-name>
     </owl:Class>
     
@@ -46460,6 +47058,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean? -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
+        <dc:creator>Tom Long</dc:creator>
+        <terms:issued>2 June 1991</terms:issued>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#10317299"/>
+        <terms:title xml:lang="en">&apos;Gay, dyke, breeder&apos; — what do they really mean?</terms:title>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</schema:pageStart>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#000046002 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#000046002">
@@ -47004,6 +47616,32 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#0732-8494 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#0732-8494">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper"/>
+        <terms:title xml:lang="en">The Washington Times</terms:title>
+        <schema:issn>0732-8494</schema:issn>
+        <schema:location xml:lang="en">Washington, D.C., United States</schema:location>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8472624</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Washington_Times</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#0885-6613 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#0885-6613">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper"/>
+        <terms:title xml:lang="en">The Philadelphia Inquirer</terms:title>
+        <schema:issn>0885-6613</schema:issn>
+        <schema:location xml:lang="en">Philadelphia, Pennsylvania, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Philadelphia_Inquirer</WIKIPEDIA>
+        <former-term xml:lang="en">The Pennsylvania Inquirer</former-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#0890-2224 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#0890-2224">
@@ -47137,10 +47775,10 @@
         <dc:creator>Orly Bareket</dc:creator>
         <dc:creator>Peter Glick</dc:creator>
         <dc:creator>Rotem Kahalon</dc:creator>
-        <terms:date>2 February 2018</terms:date>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0360-0025"/>
         <terms:title xml:lang="en">The Madonna-Whore Dichotomy: Men Who Perceive Women&apos;s Nurturance and Sexuality as Mutually Exclusive Endorse Patriarchy and Show Lower Relationship Satisfaction</terms:title>
+        <schema:datePosted>2 February 2018</schema:datePosted>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:pageStart>
         <DOI>10.1007/s11199-018-0895-7</DOI>
@@ -47866,6 +48504,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#10.1177/0959354396064005 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1177/0959354396064005">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator>Mary Brown Parlee</dc:creator>
+        <terms:title xml:lang="en">Situated Knowledges of Personal Embodiment: Transgender Activists&apos; and Psychological Theorists&apos; Perspectives on `Sex&apos; and `Gender&apos;</terms:title>
+        <schema:datePublished>1 November 1996</schema:datePublished>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">645</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">625</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:volumeNumber>
+        <DOI>10.1177/0959354396064005</DOI>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#10.1177/0964663909339083 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1177/0964663909339083">
@@ -48174,6 +48828,29 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#10.2307/3087846 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.2307/3087846">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator>Quidnunc</dc:creator>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</terms:dateCopyrighted>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</terms:issued>
+        <terms:publisher xml:lang="en">Duke University Press</terms:publisher>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1527-2133"/>
+        <terms:title xml:lang="en">Thon: That&apos;s the Forewho</terms:title>
+        <schema:alternateName xml:lang="en">Thon—That&apos;s the Forewho</schema:alternateName>
+        <schema:issueNumber>3/4</schema:issueNumber>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:numberOfPages>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</schema:pageStart>
+        <schema:url>https://www.jstor.org/stable/3087846</schema:url>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</schema:volumeNumber>
+        <DOI>10.2307/3087846</DOI>
+        <JSTOR rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3087846</JSTOR>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#10.2307/3350187 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.2307/3350187">
@@ -48411,6 +49088,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#10317299 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10317299">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper"/>
+        <terms:title xml:lang="en">Santa Cruz Sentinel</terms:title>
+        <schema:location xml:lang="en">Santa Cruz, California, United States</schema:location>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10317299</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Santa_Cruz_Sentinel</WIKIPEDIA>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#10363080 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10363080">
@@ -48451,6 +49140,38 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1091-2339 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1091-2339">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#magazine"/>
+        <terms:title xml:lang="en">Slate</terms:title>
+        <schema:alternateName xml:lang="en">Slate Magazine</schema:alternateName>
+        <schema:url>https://slate.com/</schema:url>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">728292344</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Slate_(magazine)</WIKIPEDIA>
+        <electronic-issn>1091-2339</electronic-issn>
+        <print-issn>1090-6584</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#11255478 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#11255478">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>David Lindsay</dc:creator>
+        <terms:publisher xml:lang="en">Methuen &amp; Co.</terms:publisher>
+        <terms:title xml:lang="en">A Voyage to Arcturus</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:datePublished>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</schema:numberOfPages>
+        <GUTENBERG rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1329</GUTENBERG>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11255478</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/A_Voyage_to_Arcturus</WIKIPEDIA>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1178-7074 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1178-7074">
@@ -48467,16 +49188,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:title xml:lang="en">Addiction</terms:title>
         <schema:founder xml:lang="en">Society for the Study of Addiction to Alcohol and other Drugs</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1884</schema:foundingDate>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Addiction_(journal)</WIKIPEDIA>
         <electronic-issn>1360-0443</electronic-issn>
         <print-issn>0965-2140</print-issn>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#1360-0443"/>
-        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
-        <owl:annotatedTarget xml:lang="en">Society for the Study of Addiction to Alcohol and other Drugs</owl:annotatedTarget>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1884</terms:date>
-    </owl:Axiom>
     
 
 
@@ -48523,6 +49239,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <schema:founder>Arno Motulsky</schema:founder>
         <schema:founder>Friedrich Vogel</schema:founder>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</schema:foundingDate>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_Genetics_(journal)</WIKIPEDIA>
         <electronic-issn>1432-1203</electronic-issn>
         <former-term xml:lang="de">Humangenetik</former-term>
@@ -48789,6 +49506,20 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychiatry_MMC</WIKIPEDIA>
         <former-term xml:lang="en">Psychiatry (Edgemont)</former-term>
         <former-term xml:lang="en">Psychiatry MMC</former-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1553-8095 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1553-8095">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper"/>
+        <schema:location xml:lang="en">New York City, New York, United States</schema:location>
+        <schema:url>https://www.nytimes.com/</schema:url>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1645522</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_New_York_Times</WIKIPEDIA>
+        <electronic-issn>1553-8095</electronic-issn>
+        <print-issn>0362-4331</print-issn>
     </owl:Class>
     
 
@@ -50094,7 +50825,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780226307626">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jonathan_Ned_Katz"/>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</terms:date>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</terms:dateCopyrighted>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</terms:dateCopyrighted>
         <schema:bookEdition xml:lang="en">University of Chicago Press</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780226307626</schema:isbn>
         <preferred-name xml:lang="en">The Invention of Heterosexuality</preferred-name>
@@ -50188,6 +50920,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9780385048576 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780385048576">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Casey Miller</dc:creator>
+        <dc:creator>Kate Swift</dc:creator>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</terms:issued>
+        <terms:publisher xml:lang="en">Anchor Press</terms:publisher>
+        <terms:title xml:lang="en">Words and Women</terms:title>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780385048576</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197</schema:numberOfPages>
+        <GOOGLE_BOOKS>OUmzAAAAIAAJ</GOOGLE_BOOKS>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9780385423977 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780385423977">
@@ -50228,6 +50976,44 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</terms:issued>
         <terms:title xml:lang="en">Clinical Sexuality: A Manual for the Physician and the Professions</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780397503292</schema:isbn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780415517737 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780415517737">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Susan_Stryker"/>
+        <dc:creator>Aren Z. Aizura</dc:creator>
+        <terms:publisher xml:lang="en">Routledge</terms:publisher>
+        <terms:title xml:lang="en">The Transgender Studies Reader 2</terms:title>
+        <schema:bookEdition xml:lang="en">illustrated</schema:bookEdition>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780415517737</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">693</schema:numberOfPages>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:volumeNumber>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#9780415947091"/>
+        <GOOGLE_BOOKS>M6BxtgAACAAJ</GOOGLE_BOOKS>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780415947091 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780415947091">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Susan_Stryker"/>
+        <dc:creator>Stephen Whittle</dc:creator>
+        <terms:publisher xml:lang="en">Taylor &amp; Francis</terms:publisher>
+        <terms:title xml:lang="en">The Transgender Studies Reader</terms:title>
+        <schema:bookEdition xml:lang="en">illustrated</schema:bookEdition>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780415947091</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">752</schema:numberOfPages>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:volumeNumber>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#9780415517737"/>
+        <GOOGLE_BOOKS>HBRR1isU-VAC</GOOGLE_BOOKS>
     </owl:Class>
     
 
@@ -50277,6 +51063,38 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9780690018820 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780690018820">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Casey Miller</dc:creator>
+        <dc:creator>Kate Swift</dc:creator>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</terms:issued>
+        <terms:title xml:lang="en">The Handbook of Nonsexist Writing</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780690018820</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</schema:numberOfPages>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Handbook_of_Nonsexist_Writing</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780807021644 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780807021644">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Janice G. Raymond</dc:creator>
+        <terms:publisher xml:lang="en">Beacon Press</terms:publisher>
+        <terms:title xml:lang="en">The Transsexual Empire</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1979</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780807021644</schema:isbn>
+        <rdfs:comment xml:lang="en">Although it was respected at the time of publishing in 1979, &quot;The Transsexual Empire&quot; is now considered extremely transphobic, constituting hate speech against transgender men and women, as well as personal attacks against trans women Sandy Stone and Christy Barsky. Carol Riddell wrote in &quot;The Transgender Studies Reader&quot; in 2006 that although &quot;Transsexual Empire&quot; &quot;did not invent anti-transsexual prejudice, but it did more to justify and perpetuate it than perhaps any other book ever written.&quot;</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Transsexual_Empire</WIKIPEDIA>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9780808402558 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780808402558">
@@ -50288,6 +51106,24 @@
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780808402558</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</schema:numberOfPages>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000425746</HATHITRUST>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780815319207 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780815319207">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:publisher xml:lang="en">Taylor &amp; Francis</terms:publisher>
+        <terms:title xml:lang="en">Lesbian Histories and Cultures: An Encyclopedia</terms:title>
+        <schema:bookEdition xml:lang="en">illustrated</schema:bookEdition>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</schema:datePublished>
+        <schema:editor>Bonnie Zimmerman</schema:editor>
+        <schema:editor>George E. Haggerty</schema:editor>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780815319207</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">862</schema:numberOfPages>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:volumeNumber>
+        <GOOGLE_BOOKS>0EUoCrFolGcC</GOOGLE_BOOKS>
     </owl:Class>
     
 
@@ -50566,7 +51402,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781580052245">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
-        <dc:creator>Susan Stryker</dc:creator>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Susan_Stryker"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</terms:dateCopyrighted>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_history_in_the_United_States"/>
         <terms:title xml:lang="en">Transgender History</terms:title>
@@ -50788,6 +51624,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#A_Nation_Inside_the_Beltway_(2_Oct._1995) -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#A_Nation_Inside_the_Beltway_(2_Oct._1995)">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
+        <dc:creator>John McCaslin</dc:creator>
+        <terms:issued>2 October 1995</terms:issued>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#A_Nation_Inside_the_Beltway_(2_Oct._1995)"/>
+        <terms:title xml:lang="en">A Nation Inside the Beltway</terms:title>
+        <schema:pageEnd>A8</schema:pageEnd>
+        <schema:pageStart>A8</schema:pageStart>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Akava&apos;ine -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Akava&apos;ine">
@@ -50961,6 +51811,30 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#In_Your_Face:_Political_Activism_Against_Gender_Oppression -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#In_Your_Face:_Political_Activism_Against_Gender_Oppression">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#insert"/>
+        <terms:title xml:lang="en">In Your Face: Political Activism Against Gender Oppression</terms:title>
+        <rdfs:comment xml:lang="en">The five newsletters comprising &quot;In Your Face&quot; are included in the collections at the Digital Transgender Archive here: https://www.digitaltransgenderarchive.net/col/2r36tx594.</rdfs:comment>
+        <shortened-term xml:lang="en">In Your Face</shortened-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#In_Your_Face_No._1_(Spring_1995) -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#In_Your_Face_No._1_(Spring_1995)">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#In_Your_Face:_Political_Activism_Against_Gender_Oppression"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Riki_Anne_Wilchins"/>
+        <terms:issued>Spring 1995</terms:issued>
+        <terms:title xml:lang="en">In Your Face: Political Activism Against Gender Oppression</terms:title>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
+        <schema:url>https://www.digitaltransgenderarchive.net/files/1831ck00f</schema:url>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#International_Day_Against_Homophobia,_Transphobia_and_Biphobia -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#International_Day_Against_Homophobia,_Transphobia_and_Biphobia">
@@ -51027,6 +51901,20 @@
         <owl:annotatedTarget xml:lang="en">Madonna-whore dichotomy</owl:annotatedTarget>
         <acronym xml:lang="en">MWD</acronym>
     </owl:Axiom>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#One_woman&apos;s_struggle_with_gender_identity_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#One_woman&apos;s_struggle_with_gender_identity_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
+        <dc:creator>Heather Starr</dc:creator>
+        <terms:issued>28 December 1997</terms:issued>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0885-6613"/>
+        <terms:title xml:lang="en">One woman&apos;s struggle with gender identity disorder</terms:title>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</schema:pageStart>
+    </owl:Class>
     
 
 
@@ -51104,6 +51992,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Public_Lives;_Issues_of_Gender,_From_Pronouns_to_Murder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Public_Lives;_Issues_of_Gender,_From_Pronouns_to_Murder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
+        <dc:creator>Carey Goldberg</dc:creator>
+        <terms:issued>11 June 1999</terms:issued>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#Public_Lives;_Issues_of_Gender,_From_Pronouns_to_Murder"/>
+        <terms:title xml:lang="en">Public Lives; Issues of Gender, From Pronouns to Murder</terms:title>
+        <schema:pageEnd>B00002</schema:pageEnd>
+        <schema:pageStart>B00002</schema:pageStart>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#R/traaaaaaannnnnnnnnns -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#R/traaaaaaannnnnnnnnns">
@@ -51156,6 +52058,27 @@
         <preferred-name xml:lang="en">San Francisco Lesbian, Gay, Bisexual, and Transgender Pride Celebration</preferred-name>
         <shortened-term xml:lang="en">San Francisco Pride</shortened-term>
     </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Sappho_(mailing_list) -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sappho_(mailing_list)">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#email_discussion_list"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780815319207"/>
+        <schema:founder>Jean Marie Diaz</schema:founder>
+        <schema:foundingDate>May 1987</schema:foundingDate>
+        <alternative-spelling xml:lang="en">SAPPHO</alternative-spelling>
+        <named-after rdf:resource="https://github.com/Superraptor/GSSO#Sappho"/>
+        <preferred-name xml:lang="en">Sappho</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Sappho_(mailing_list)"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/founder"/>
+        <owl:annotatedTarget>Jean Marie Diaz</owl:annotatedTarget>
+        <pseudonym>AMBAR</pseudonym>
+        <pseudonym>Ambar</pseudonym>
+    </owl:Axiom>
     
 
 
@@ -51728,6 +52651,18 @@
     
 
 
+    <!-- https://web.archive.org/web/20011202081126/http://www.sappho.net:80/lesbian-lists -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20011202081126/http://www.sappho.net:80/lesbian-lists">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:title xml:lang="en">Lesbian Mailing Lists</terms:title>
+        <schema:WebSite xml:lang="en">Sappho.Net</schema:WebSite>
+        <schema:dateModified>10 September 2001</schema:dateModified>
+        <schema:url>https://web.archive.org/web/20011202081126/http://www.sappho.net:80/lesbian-lists/</schema:url>
+    </owl:Class>
+    
+
+
     <!-- https://web.archive.org/web/20120227033128/http://www.dianaburgin.com/Ch2LesbianSexuality.html -->
 
     <owl:Class rdf:about="https://web.archive.org/web/20120227033128/http://www.dianaburgin.com/Ch2LesbianSexuality.html">
@@ -51735,6 +52670,34 @@
         <dc:creator>Diana Lewis Burgin</dc:creator>
         <terms:title xml:lang="en">A Brief History of Russian Attitudes to Lesbian Sexuality</terms:title>
         <schema:url>https://web.archive.org/web/20120227033128/http://www.dianaburgin.com/Ch2LesbianSexuality.html</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20140214023359/https://www.facebook.com/help/276177272409629 -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20140214023359/https://www.facebook.com/help/276177272409629">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:title xml:lang="en">How do I edit basic info on my Timeline and choose who can see it?</terms:title>
+        <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
+        <schema:dateModified>13 February 2014</schema:dateModified>
+        <schema:url>https://web.archive.org/web/20140214023359/https://www.facebook.com/help/276177272409629</schema:url>
+        <rdfs:comment xml:lang="en">This page contains a section on &quot;Custom Gender&quot; which Facebook announced on its &quot;Facebook Diversity&quot; page on 13 February 2014.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993"/>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993 -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:issued>13 February 2014</terms:issued>
+        <terms:title xml:lang="en">Timeline Photos - Facebook Diversity</terms:title>
+        <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
+        <schema:url>https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993</schema:url>
+        <rdfs:comment xml:lang="en">This page, including rainbow flag imagery, was used to publicly announce Facebook&apos;s custom gender feature on 13 February 2014.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="https://web.archive.org/web/20140214023359/https://www.facebook.com/help/276177272409629"/>
     </owl:Class>
     
 
@@ -51759,9 +52722,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Valeriya Safronova</dc:creator>
         <terms:issued>19 October 2015</terms:issued>
-        <terms:source xml:lang="en">The New York Times</terms:source>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1553-8095"/>
         <terms:title xml:lang="en">Why Can’t We Just Let Girls Be Girls? Readers on the Term ‘Tomboy’</terms:title>
         <schema:WebSite xml:lang="en">NYTimes.com</schema:WebSite>
+        <schema:alumniOf xml:lang="en">Cleveland State University</schema:alumniOf>
+        <schema:alumniOf xml:lang="en">The New School for Social Research</schema:alumniOf>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</schema:birthDate>
         <schema:url>https://web.archive.org/web/20160412124112/https://www.nytimes.com/interactive/2015/10/19/style/let-girl-be-girls-readers-respond.html</schema:url>
     </owl:Class>
     
@@ -51896,7 +52862,7 @@
     <owl:Class rdf:about="https://web.archive.org/web/20180216063952/https://www.bbc.com/news/magazine-34901704">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Avinash Chak</dc:creator>
-        <terms:date>7 December 2015</terms:date>
+        <terms:issued>7 December 2015</terms:issued>
         <terms:title xml:lang="en">Beyond &apos;he&apos; and &apos;she&apos;: The rise of non-binary pronouns</terms:title>
         <schema:WebSite xml:lang="en">BBC News</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180216063952/https://www.bbc.com/news/magazine-34901704</schema:url>
@@ -52085,6 +53051,21 @@
         <terms:title xml:lang="en">Gay Masquerade: Male Homosexuals in American Cities, 1910 to 1940</terms:title>
         <schema:url>https://scholarworks.wmich.edu/masters_theses/1139</schema:url>
         <schema:url>https://web.archive.org/web/20180926002354/https://scholarworks.wmich.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&amp;httpsredir=1&amp;article=2176&amp;context=masters_theses</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20181001064248/http://www.slate.com/articles/technology/bitwise/2014/08/online_gay_culture_and_soc_motss_how_a_usenet_group_anticipated_how_we_use.html -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20181001064248/http://www.slate.com/articles/technology/bitwise/2014/08/online_gay_culture_and_soc_motss_how_a_usenet_group_anticipated_how_we_use.html">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>David Auerbach</dc:creator>
+        <terms:issued>20 August 2014</terms:issued>
+        <terms:publisher xml:lang="en">The Slate Group LLC</terms:publisher>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1091-2339"/>
+        <terms:title xml:lang="en">The First Gay Space on the Internet</terms:title>
+        <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#1091-2339"/>
+        <schema:url>https://web.archive.org/web/20181001064248/http://www.slate.com/articles/technology/bitwise/2014/08/online_gay_culture_and_soc_motss_how_a_usenet_group_anticipated_how_we_use.html</schema:url>
     </owl:Class>
     
 
