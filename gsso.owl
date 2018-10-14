@@ -3622,6 +3622,7 @@
         <preferred-name xml:lang="fr">donjuanisme</preferred-name>
         <preferred-name xml:lang="es">donjuanismo</preferred-name>
         <preferred-name xml:lang="en">https://en.wikipedia.org/wiki/Don_Juanism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Don Juanism is a non-clinical term for the desire, in a man, to have sex with many different female partners.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#satyriasis"/>
         <oboInOwl1:hasSynonym xml:lang="en">Don Juan syndrome</oboInOwl1:hasSynonym>
     </owl:Class>
@@ -3690,6 +3691,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79210003</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Electra_complex</WIKIPEDIA>
         <preferred-name xml:lang="en">Electra complex</preferred-name>
     </owl:Class>
     
@@ -6161,6 +6163,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <MESH_UID>D009813</MESH_UID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82814008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Oedipus_complex</WIKIPEDIA>
         <preferred-name xml:lang="en">Oedipus complex</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Attachment of the child to the parent of the opposite sex, accompanied by envious and aggressive feelings toward the parent of the same sex.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">complex, Oedipus</oboInOwl1:hasExactSynonym>
@@ -8194,6 +8197,7 @@
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000210</MEDDRA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abortion</WIKIPEDIA>
         <preferred-name xml:lang="en">abortion</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Abortion is the ending of pregnancy due to removing an embryo or fetus before it can survive outside the uterus.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym xml:lang="la">abortus</oboInOwl1:hasSynonym>
     </owl:Class>
     
@@ -8488,7 +8492,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#addiction_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <schema:alternateName xml:lang="en">addiction disorders</schema:alternateName>
+        <rdfs:comment xml:lang="en">Note that classification and treatment of addiction disorders and addictions is exceedingly diverse and there is not necessarily consensus regarding such classification and treatment. Here, classifications are reflective of published terminologies available on the NCBO BioPortal.</rdfs:comment>
         <preferred-name xml:lang="en">addiction disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Addiction disorders are pathological patterns of addictive behavior which include impaired control over substances and/or behavior, preoccupation with the substance and/or behavior, continued use despite consequences, and denial.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9315,6 +9322,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#partialism"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Alvinolagnia</WIKIPEDIA>
         <preferred-name xml:lang="en">alvinolagnia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Alvinolagnia or belly fetish or stomach fetish is a partialism in which an individual is sexually attracted to the stomach or belly.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">belly fetishism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">stomach fetishism</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -9461,6 +9469,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anatomical_condition">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#condition"/>
+        <schema:alternateName xml:lang="en">anatomical conditions</schema:alternateName>
         <preferred-name xml:lang="en">anatomical condition</preferred-name>
     </owl:Class>
     
@@ -9679,6 +9688,7 @@
         <derogatory-term xml:lang="en">andromania</derogatory-term>
         <historical-term xml:lang="en">andromania</historical-term>
         <preferred-name xml:lang="en">andromania</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Nymphomania.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#nymphomania"/>
     </owl:Class>
     
@@ -10112,7 +10122,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aplasia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#growth_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trophic_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10002961</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45486003</SCTID>
         <preferred-name xml:lang="en">aplasia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A condition marked by the incomplete development, or entire absence, of an organ or tissue.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10429,6 +10442,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Asexual_reproduction</WIKIPEDIA>
         <preferred-name xml:lang="en">asexual reproduction</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Asexual reproduction is a type of reproduction by which offspring arise from a single organism, and inherit the genes of that parent only; it does not involve the fusion of gametes, and almost never changes the number of chromosomes.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10691,7 +10705,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#atrophy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trophic_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10003694</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13331008</SCTID>
         <preferred-name xml:lang="en">atrophy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A reduction in the functionality of an organ caused by disease, injury or lack of use.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10878,6 +10895,7 @@
         <alternative-spelling xml:lang="en">auto-eroticism</alternative-spelling>
         <alternative-spelling xml:lang="en">auto-erotism</alternative-spelling>
         <preferred-name xml:lang="en">autoeroticism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Autoeroticism is the practice of becoming sexually stimulated through internal stimuli.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10929,6 +10947,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reproduction"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Parthenogenesis#Automictic</WIKIPEDIA>
         <preferred-name xml:lang="en">automixis</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A form of parthenogenesis in which two haploid gametes from the same meiosis combine.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -14443,6 +14462,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#clitoral_orgasm">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#orgasm_phase"/>
         <preferred-name xml:lang="en">clitoral orgasm</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Orgasm originating from the stimulation of the clitoris.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -14516,6 +14536,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Clothing_fetish</WIKIPEDIA>
         <preferred-name xml:lang="en">clothing fetishism</preferred-name>
         <shortened-term xml:lang="en">fetishism</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Clothing fetishism or garment fetishism is a sexual fetish that revolves around a fixation upon a particular article or type of clothing, a collection of garments that appear as part of a fashion or uniform, or a person dressed in such a garment.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">clothing fetish</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">garment fetish</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">garment fetishism</oboInOwl1:hasExactSynonym>
@@ -14613,6 +14634,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cognitive_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <schema:alternateName xml:lang="en">cognitive disorders</schema:alternateName>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</DOID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cognitive_disorder</WIKIPEDIA>
         <acronym xml:lang="en">CD</acronym>
@@ -14718,6 +14740,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#plateau_phase"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Coitus_reservatus</WIKIPEDIA>
         <preferred-name xml:lang="en">coitus reservatus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Coitus reservatus is a form of sexual intercourse in which the penetrative partner does not attempt to ejaculate within the receptive partner, but instead attempts to remain at the plateau phase of intercourse for as long as possible avoiding the seminal emission.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">karezza</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual continence</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -15280,7 +15303,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#congenital_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disorder"/>
+        <schema:alternateName xml:lang="en">congenital disorders</schema:alternateName>
         <preferred-name xml:lang="en">congenital disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A disorder existing at, and usually before, birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16384,7 +16409,6 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cybersex_addiction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet_addiction"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nonparaphilic_hypersexual_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_addiction"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internet_sex_addiction</WIKIPEDIA>
         <preferred-name xml:lang="en">cybersex addiction</preferred-name>
@@ -16916,6 +16940,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#developmental_disorder_of_mental_health">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#developmental_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <schema:alternateName xml:lang="en">developmental disorders of mental health</schema:alternateName>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0060037</DOID>
         <preferred-name xml:lang="en">developmental disorder of mental health</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A disease of mental health that occur during a child&apos;s developmental period between birth and age 18 resulting in retarding of the child&apos;s psychological or physical development.</oboInOwl1:hasDefinition>
@@ -17416,6 +17441,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dissociative_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <schema:alternateName xml:lang="en">dissociative disorders</schema:alternateName>
         <preferred-name xml:lang="en">dissociative disorder</preferred-name>
     </owl:Class>
     
@@ -17829,7 +17855,14 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_pain_disorder"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
+        <ICD-10-CM>N94.1</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">625.0</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10013941</MEDDRA>
+        <MESH_UID>D004414</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71315007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Dyspareunia</WIKIPEDIA>
         <preferred-name xml:lang="en">dyspareunia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Recurrent genital pain occurring during, before, or after sexual intercourse.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">coitalgia</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -17864,7 +17897,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dysplasia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#growth_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trophic_disorder"/>
+        <EFO>EFO:0008501</EFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10058314</MEDDRA>
+        <NCIT>C4086</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25723000</SCTID>
         <preferred-name xml:lang="en">dysplasia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Abnormal development of cells or tissue, often a precancerous stage of growth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18453,6 +18491,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#endocrine_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disorder"/>
+        <schema:alternateName xml:lang="en">endocrine disorders</schema:alternateName>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10014695</MEDDRA>
         <preferred-name xml:lang="en">endocrine disorder</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">endocrine system disorder</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -18730,10 +18770,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#erectile_dysfunction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal_disorder"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <EFO>EFO:0004234</EFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10061461</MEDDRA>
+        <MESH_UID>D007172</MESH_UID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Erectile_dysfunction</WIKIPEDIA>
         <acronym xml:lang="en">ED</acronym>
         <preferred-name xml:lang="en">erectile dysfunction</preferred-name>
         <oboInOwl1:hasBroadSynonym rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal_disorder"/>
+        <oboInOwl1:hasDefinition xml:lang="en">The inability in the male to have a penile erection due to psychological or organ dysfunction.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18792,9 +18836,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#erotic_stimulus">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal"/>
         <schema:alternateName xml:lang="en">erotic stimuli</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15384005</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_arousal#Erotic_stimuli</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_stimulation</WIKIPEDIA>
         <colloquial-term xml:lang="en">turn-on</colloquial-term>
         <colloquial-term xml:lang="en">turn-ons</colloquial-term>
         <preferred-name xml:lang="en">erotic stimulus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any stimulus (including bodily contact) that leads to, enhances and maintains sexual arousal, and may lead to orgasm. Although sexual arousal may arise without physical stimulation, achieving orgasm usually requires physical sexual stimulation.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual stimulation</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual stimuli</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual stimulus</oboInOwl1:hasExactSynonym>
@@ -18846,6 +18894,7 @@
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248092002</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Eroticism</WIKIPEDIA>
         <preferred-name xml:lang="en">eroticism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Eroticism is a quality that causes sexual feelings, as well as a philosophical contemplation concerning the aesthetics of sexual desire, sensuality and romantic love.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19626,7 +19675,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#facebook_addiction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet_addiction"/>
         <preferred-name xml:lang="en">facebook addiction</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">facebook addiction disorder</oboInOwl1:hasSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#facebook_addiction"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasSynonym"/>
+        <owl:annotatedTarget xml:lang="en">facebook addiction disorder</owl:annotatedTarget>
+        <acronym xml:lang="en">FAD</acronym>
+    </owl:Axiom>
     
 
 
@@ -20622,6 +20678,7 @@
         <TE>E1.0.0.0.0.0.15</TE>
         <alternative-spelling xml:lang="en">fertilisation</alternative-spelling>
         <preferred-name xml:lang="en">fertilization</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The union of gametes during the process of sexual reproduction to form a zygote. It involves the fusion of the gametic nuclei (karyogamy) and cytoplasm (plasmogamy).</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">syngamy</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">generative fertilisation</oboInOwl1:hasNarrowSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">generative fertilization</oboInOwl1:hasNarrowSynonym>
@@ -20654,7 +20711,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#paraphilic_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_fetishism"/>
         <schema:alternateName xml:lang="en">fetishistic disorders</schema:alternateName>
+        <rdfs:comment xml:lang="en">Because the word &quot;fetish&quot; is used in so many contexts, it can be difficult to determine what constitutes a fetishistic disorder. For example, fetishization of feminine breasts is relatively common and would only be considered a fetishistic disorder under extreme circumstances.</rdfs:comment>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#sexual_fetishism"/>
         <preferred-name xml:lang="en">fetishistic disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A fetishistic disorder is an extreme sexual attraction to non-human objects or body parts which are not traditionally considered sexual which occurs alongside distress or impairment deemed clinically significant.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">psychiatric fetishism</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -21158,6 +21218,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal_disorder"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10017376</MEDDRA>
         <derogatory-term xml:lang="en">frigidity</derogatory-term>
         <historical-term xml:lang="en">frigidity</historical-term>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal_disorder"/>
@@ -21333,6 +21394,7 @@
         <GO>GO:0007276</GO>
         <TE>E1.0.5.0.0.0.1</TE>
         <preferred-name xml:lang="en">gamete generation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The generation and maintenance of gametes in a multicellular organism. A gamete is a haploid reproductive cell.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">gametogenesis</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -22171,11 +22233,15 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#One_woman&apos;s_struggle_with_gender_identity_disorder"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10061976</MEDDRA>
+        <NCIT>C94362</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87991007</SCTID>
         <WIKIDATA>Q1049021</WIKIDATA>
         <acronym xml:lang="en">GID</acronym>
         <derogatory-term xml:lang="en">gender identity disorder</derogatory-term>
         <historical-term xml:lang="en">gender identity disorder</historical-term>
         <preferred-name xml:lang="en">gender identity disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A condition where there is conflict between a person&apos;s assigned gender and the gender that person identifies themself as.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_dysphoria"/>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_incongruence"/>
     </owl:Class>
@@ -22190,6 +22256,7 @@
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#gender_dysphoria"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#gender_identity_disorder"/>
         <preferred-name xml:lang="en">gender incongruence</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any incongruence between one&apos;s experienced, expressed, and/or identified gender and one&apos;s sexual characteristics.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22683,6 +22750,12 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
         <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">It should be an interesting day on Capitol Hill as 75 transsexual activists from around the country begin lobbying senators and congressmen today on everything from employment discrimination to hate crimes... &quot;It&apos;s high time &apos;genderqueers&apos; came out of the closets, out of the shadows and out of the margins, says Mr. or Ms. Ricki Anne Wilchins of the organizing group, the Transsexual Menace.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#A_Nation_Inside_the_Beltway_(2_Oct._1995)"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
         <owl:annotatedTarget xml:lang="en">Riki Anne Wilchins, the author of &quot;Read My Lips: Sexual Subversion and the End of Gender&quot; (Firebrand Books, 1997), describes GID [gender identity disorder] as &quot;a loaded gun. When it gets in the hands of gender-phobic psychiatrists, it invariably goes off and shoots some genderqueer kid.&quot;</owl:annotatedTarget>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#One_woman&apos;s_struggle_with_gender_identity_disorder"/>
     </owl:Axiom>
@@ -22697,12 +22770,6 @@
         <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#coined-by"/>
         <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#Riki_Anne_Wilchins"/>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</terms:date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
-        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
-        <owl:annotatedTarget xml:lang="en">It should be an interesting day on Capitol Hill as 75 transsexual activists from around the country begin lobbying senators and congressmen today on everything from employment discrimination to hate crimes... &quot;It&apos;s high time &apos;genderqueers&apos; came out of the closets, out of the shadows and out of the margins, says Mr. or Ms. Ricki Anne Wilchins of the organizing group, the Transsexual Menace.</owl:annotatedTarget>
-        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#A_Nation_Inside_the_Beltway_(2_Oct._1995)"/>
     </owl:Axiom>
     
 
@@ -24080,6 +24147,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_condition">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#condition"/>
+        <schema:alternateName xml:lang="en">health conditions</schema:alternateName>
         <preferred-name xml:lang="en">health condition</preferred-name>
         <shortened-term xml:lang="en">condition</shortened-term>
     </owl:Class>
@@ -25528,9 +25596,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_sexual_response_cycle">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_response_cycle"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#191468"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_sexual_response_cycle</WIKIPEDIA>
         <preferred-name xml:lang="en">human sexual response cycle</preferred-name>
         <shortened-term xml:lang="en">human sexual response</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">The human sexual response cycle is a four-stage model of physiological responses to sexual stimulation, which, in order of their occurrence, are the excitement phase, plateau phase, orgasmic phase and resolution phase.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25783,7 +25853,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hyperplasia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trophic_disorder"/>
+        <EFO>EFO:0000536</EFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10020718</MEDDRA>
+        <MESH_UID>D006965</MESH_UID>
+        <NCIT>C3113</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76197007</SCTID>
         <preferred-name xml:lang="en">hyperplasia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An increase in the number of cells in a tissue or organ without tumor formation. It differs from hypertrophy, which is an increase in bulk without an increase in the number of cells.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25847,6 +25923,7 @@
         <terms:isReferencedBy rdf:resource="https://www.psychologytoday.com/us/conditions/hypersexuality-sex-addiction"/>
         <schema:Quotation xml:lang="en">Let us not forget that prior to proper diagnosis and treatment planning, alcoholics were simply “bums,” and compulsive gamblers were considered “too sociopathic” not to gamble away the family rent money. Perhaps by placing hypersexuality into the DSM-5 we could begin to replace language such as “nympho,” “slut” and “pervert” with a legitimate diagnostic category that would inform the addiction and therapy professional on how to diagnose and treat those individuals struggling with shameful patterns of addictive and self-destructive sexual activity.</schema:Quotation>
         <schema:Quotation xml:lang="en">Satyriasis is often considered the male counterpart to nymphomania, a condition in which women experience excessive sexual desire. Neither satyriasis nor nymphomania is recognized as a specific disorder in the Diagnostic and Statistical Manual of Mental Disorders (or DSM-IV) published by the American Psychiatric Association. Instead, the more general and gender-neutral term hyper-sexuality is used. It is an impairment associated with frequent genital stimulation. In patients where the stimulation does not lead to sexual gratification, desire for further stimulation can be created, resulting in a cycle that can be debilitating. In patients that do achieve sexual gratification, excessive promiscuity may result, as the desire for gratification is unlikely to be met with a single partner. Such promiscuity can be physically risky as it may lead to a higher incident of unsafe sexual practice and may also involve social risk in cultures that ascribe to normative monogamy.</schema:Quotation>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10066364</MEDDRA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hypersexuality</WIKIPEDIA>
         <alternative-spelling xml:lang="en">hyper sexuality</alternative-spelling>
         <alternative-spelling xml:lang="en">hyper-sexuality</alternative-spelling>
@@ -25907,7 +25984,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hypertrophy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trophic_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10020880</MEDDRA>
+        <MESH_UID>D006984</MESH_UID>
+        <NCIT>C3124</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56246009</SCTID>
         <preferred-name xml:lang="en">hypertrophy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">General increase in bulk of a part or organ due to cell enlargement and accumulation of fluids and secretions, not due to tumor formation, nor to an increase in the number of cells (hyperplasia).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25928,6 +26010,7 @@
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13868</DOID>
         <acronym xml:lang="en">HSDD</acronym>
         <preferred-name xml:lang="en">hypoactive sexual desire disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Hypoactive sexual desire disorder (HSDD) is considered a sexual disorder characterized as a lack or absence of sexual fantasies and desire for sexual activity, as judged by a clinician. For this to be regarded as a disorder, it must cause marked distress or interpersonal difficulties and not be better accounted for by another mental disorder, a drug, some other medical condition, or asexuality.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26420,11 +26503,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#impotence">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal_disorder"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</DOID>
+        <HPO>HP:0000802</HPO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10021550</MEDDRA>
+        <NCIT>C3133</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">397803000</SCTID>
         <derogatory-term xml:lang="en">impotence</derogatory-term>
         <historical-term xml:lang="en">impotence</historical-term>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal_disorder"/>
         <preferred-name xml:lang="en">impotence</preferred-name>
         <proper-term rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal_disorder"/>
+        <oboInOwl1:hasDefinition xml:lang="en">Persistent or recurrent inability to achieve or to maintain an erection during sexual activity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26554,8 +26643,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#induced_abortion">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abortion"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10021716</MEDDRA>
+        <MESH_UID>D000028</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abortion#Induced</WIKIPEDIA>
         <preferred-name xml:lang="la">abactus venter</preferred-name>
         <preferred-name xml:lang="en">induced abortion</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Intentional removal of a fetus from the uterus by any of a number of techniques.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="la">abactio</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -27142,8 +27235,21 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet_addiction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#process_addiction"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internet_addiction_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">internet addiction</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">internet addiction disorder</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">internet addictive disorder</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">pathological Internet use</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">pathological internet use</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">problematic Internet use</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">problematic internet use</oboInOwl1:hasSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#internet_addiction"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasSynonym"/>
+        <owl:annotatedTarget xml:lang="en">internet addiction disorder</owl:annotatedTarget>
+        <acronym xml:lang="en">IAD</acronym>
+    </owl:Axiom>
     
 
 
@@ -27167,7 +27273,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet_gaming_addiction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet_addiction"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internet_addiction_disorder#Online_gaming_addiction_(Internet_gaming_disorder)</WIKIPEDIA>
         <preferred-name xml:lang="en">internet gaming addiction</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">internet gaming disorder</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">online gaming addiction</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -27337,6 +27446,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex_event">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex"/>
+        <schema:alternateName xml:lang="en">intersex events</schema:alternateName>
         <preferred-name xml:lang="en">intersex event</preferred-name>
     </owl:Class>
     
@@ -27420,7 +27530,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex_surgery">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex"/>
+        <schema:alternateName xml:lang="en">intersex surgeries</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24878005</SCTID>
         <preferred-name xml:lang="en">intersex surgery</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Surgery performed to &quot;fix&quot; perceived atypical or ambiguous genitalia, typically various forms of genital reconstruction surgery. Such surgery is performed primarily for the purposes of making one&apos;s appearance fit within a chosen binary gender identity in order to potentially reduce the likelihood of future problems involving one&apos;s sexual appearance or function, or gender incongruence.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27429,10 +27542,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#intersex"/>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Intersexualit%C3%A4t</WIKIPEDIA>
         <coined-by>Richard Goldschmidt</coined-by>
         <preferred-name xml:lang="de">Intersexualität</preferred-name>
         <preferred-name xml:lang="en">intersexuality</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The state of having the physical features of both sexes, or of having ambiguous sex.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#intersexuality"/>
@@ -27607,6 +27722,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#isogamy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_reproduction"/>
         <preferred-name xml:lang="en">isogamy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A form of sexual reproduction involving gametes of similar morphology.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28602,10 +28718,14 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#009670128"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
+        <MESH_UID>D007989</MESH_UID>
+        <NCIT>C37986</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18480004</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Libido</WIKIPEDIA>
         <colloquial-term xml:lang="en">sex drive</colloquial-term>
         <colloquial-term xml:lang="en">sexual drive</colloquial-term>
         <preferred-name xml:lang="en">libido</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The psychic drive or energy associated with sexual instinct in the broad sense (pleasure and love-object seeking). It may also connote the psychic energy associated with instincts in general that motivate behavior.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -29708,10 +29828,14 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <MESH_UID>D008418</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17704007</SCTID>
         <WIKIDATA>Q8396</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Masturbation#Compulsive_masturbation</WIKIPEDIA>
         <historical-term xml:lang="en">onanism</historical-term>
         <preferred-name xml:lang="es">masturbación</preferred-name>
         <preferred-name xml:lang="en">masturbation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual stimulation or gratification of the self.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">manustupration</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">peripheral excitement</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -30008,7 +30132,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_abortion">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abortion"/>
+        <schema:alternateName xml:lang="en">medical abortions</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Medical_abortion</WIKIPEDIA>
         <preferred-name xml:lang="en">medical abortion</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A medical abortion is a type of non-surgical abortion in which medication is used to bring about abortion. An oral preparation for medical abortion is commonly referred to as an abortion pill.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -30353,7 +30480,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#metaplasia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trophic_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10054949</MEDDRA>
+        <MESH_UID>D008679</MESH_UID>
+        <NCIT>C3236</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17665002</SCTID>
         <preferred-name xml:lang="en">metaplasia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A condition in which there is a change of one adult cell type to another similar adult cell type.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Transformation of a mature, normal cell or groups of mature cells to other forms of mature cells. The capacity for malignant transformation of metaplastic cells is a subject of controversy.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -31066,6 +31199,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mood_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <schema:alternateName xml:lang="en">mood disorders</schema:alternateName>
         <preferred-name xml:lang="en">mood disorder</preferred-name>
     </owl:Class>
     
@@ -32407,7 +32541,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nonparaphilic_hypersexual_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hypersexual_disorder"/>
         <preferred-name xml:lang="en">nonparaphilic hypersexual disorder</preferred-name>
-        <oboInOwl1:hasExactSynonym xml:lang="en">nonparaphilic sex addiction</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasNarrowSynonym xml:lang="en">nonparaphilic sex addiction</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
     
 
@@ -32984,6 +33118,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#online_gambling_addiction -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#online_gambling_addiction">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet_addiction"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internet_addiction_disorder#Online_gambling_addiction</WIKIPEDIA>
+        <preferred-name xml:lang="en">online gambling addiction</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#online_video -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#online_video">
@@ -33316,6 +33460,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#plateau_phase"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Orgasm_control</WIKIPEDIA>
         <preferred-name xml:lang="en">orgasm control</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Orgasm control is a sexual technique which may be practiced either alone or with a partner and involves the maintenance of a high level of sexual arousal for an extended period of time without reaching climax.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">edging</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">peaking</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">surfing</oboInOwl1:hasExactSynonym>
@@ -33327,7 +33472,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#orgasm_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
+        <schema:alternateName xml:lang="en">orgasm disorders</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82636008</SCTID>
         <preferred-name xml:lang="en">orgasm disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A condition in which one has difficulty reaching the orgasm phase of sexual intercourse or reaching such a phase is considered not possible.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -33341,9 +33489,12 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <MESH_UID>D009948</MESH_UID>
+        <NCIT>C73521</NCIT>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_sexual_response_cycle#Orgasm_phase</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Orgasm</WIKIPEDIA>
         <preferred-name xml:lang="en">orgasm phase</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Orgasm is the sudden discharge of accumulated sexual excitement during the sexual response cycle, resulting in rhythmic muscular contractions in the pelvic region characterized by sexual pleasure.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">orgasm</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual climax</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -33806,8 +33957,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#paraphilia"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
         <schema:alternateName xml:lang="en">paraphilic disorders</schema:alternateName>
+        <rdfs:comment xml:lang="en">The American Psychiatric Association notes that most atypical sexual interests, while possibly considered paraphilic, do not constitute a mental health problem and thus are not considered paraphilic disorders. For example, in a paraphilic disorder, the psychological distress one feels about their paraphilic desire must be distinct from the general societal or cultural disapproval of such a desire.</rdfs:comment>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0060044</DOID>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#paraphilia"/>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#paraphilic_behavior"/>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#unconventional_sexual_attraction"/>
         <preferred-name xml:lang="en">paraphilic disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Disorders which include recurrent, intense, and sexually-arousing fantasies, sexual urges, or sexual behaviors involving inanimate objects, nonhuman organisms, extreme suffering or oneself or one&apos;s partner(s), children, or non-consenting partners.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">paraphilia disorder</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -34257,7 +34413,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pediatric_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disorder"/>
         <schema:alternateName xml:lang="en">pediatric disorders</schema:alternateName>
+        <NCIT>C89328</NCIT>
         <preferred-name xml:lang="en">pediatric disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A disorder which occurs during infancy, childhood, or adolescence.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34362,6 +34520,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#penetration_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_pain_disorder"/>
+        <schema:alternateName xml:lang="en">penetration disorders</schema:alternateName>
         <preferred-name xml:lang="en">penetration disorder</preferred-name>
     </owl:Class>
     
@@ -34425,6 +34584,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#implant"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <preferred-name xml:lang="en">penile implant</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#penile_orgasm -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#penile_orgasm">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#orgasm_phase"/>
+        <preferred-name xml:lang="en">penile orgasm</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Orgasm originating from the stimulation of the penis.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34628,6 +34797,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#persistent_genital_arousal_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#genital_arousal_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10078966</MEDDRA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Persistent_genital_arousal_disorder</WIKIPEDIA>
         <acronym xml:lang="en">PGAD</acronym>
         <preferred-name xml:lang="en">persistent genital arousal disorder</preferred-name>
@@ -36427,6 +36597,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#process_addiction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#addiction_disorder"/>
         <preferred-name xml:lang="en">process addiction</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Addiction to a process such as a behavior.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">non-substance-related addiction</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -36997,8 +37169,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychosexual_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
+        <schema:alternateName xml:lang="en">psychosexual disorders</schema:alternateName>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10132</DOID>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10037222</MEDDRA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychosexual_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">psychosexual disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A sexual disorder considered psychological in origin, wherein pathological and physiological causes have been ruled out.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37992,6 +38168,7 @@
         <schema:alternateName xml:lang="en">reproductive processes</schema:alternateName>
         <GO>GO:0022414</GO>
         <preferred-name xml:lang="en">reproductive process</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A biological process that directly contributes to the process of producing new individuals by one or two organisms. The new individuals inherit some proportion of their genetic material from the parent or parents.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -38595,6 +38772,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexuality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_attraction"/>
         <preferred-name xml:lang="en">same-sex sexual attraction</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual attraction to persons of the same sex or gender identity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39539,8 +39717,11 @@
     <!-- https://github.com/Superraptor/GSSO#sex_addiction -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_addiction">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nonparaphilic_hypersexual_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#process_addiction"/>
+        <rdfs:comment xml:lang="en">Note that the concept of sex addiction is contentious within the psychiatric, psychological, and sexological communities, especially whether it constitutes an addiction.</rdfs:comment>
         <preferred-name xml:lang="en">sex addiction</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sex addiction is characterized as a state of compulsive participation or engagement in sexual activity, particularly sexual intercourse, despite negative consequences.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual addiction</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -39961,6 +40142,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_arousal</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual arousal</preferred-name>
         <shortened-term xml:lang="en">arousal</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual arousal is the arousal of sexual desire, during or in anticipation of sexual activity.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">arousal, sexual</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual excitement</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -39972,6 +40154,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_arousal_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_arousal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74007000</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Female_sexual_arousal_disorder</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_arousal_disorder</WIKIPEDIA>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#frigidity"/>
@@ -39979,6 +40162,7 @@
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#frigidity"/>
         <historical-term rdf:resource="https://github.com/Superraptor/GSSO#impotence"/>
         <preferred-name xml:lang="en">sexual arousal disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual arousal disorder is characterized by a lack or absence of sexual fantasies and desire for sexual activity in a situation that would normally produce sexual arousal, or the inability to attain or maintain typical responses to sexual arousal.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">arousal, sexual, disorder</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym rdf:resource="https://github.com/Superraptor/GSSO#erectile_dysfunction"/>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">female sexual arousal disorder</oboInOwl1:hasNarrowSynonym>
@@ -40034,6 +40218,7 @@
         <preferred-name xml:lang="de">Sexappeal</preferred-name>
         <preferred-name xml:lang="es">atracción sexual</preferred-name>
         <preferred-name xml:lang="en">sexual attraction</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual attraction is attraction on the basis of sexual desire or the quality of arousing such interest.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#libido"/>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#sexual_desire"/>
         <oboInOwl1:hasSynonym xml:lang="de">Geschlechtstrieb</oboInOwl1:hasSynonym>
@@ -40052,6 +40237,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#attractiveness"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_attraction"/>
         <preferred-name xml:lang="en">sexual attractiveness</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual attractiveness or sex appeal is an individual&apos;s ability to attract the sexual or erotic interests of other people, and is a factor in sexual selection or mate choice.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sex appeal</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -40192,7 +40378,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_attraction"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_desire</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual desire</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual desire is a motivational state and an interest in sexual objects or activities or the seeking out of those activities.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#sexual_attraction"/>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#libido"/>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#sexual_attraction"/>
     </owl:Class>
     
 
@@ -40202,10 +40391,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_desire_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
         <schema:alternateName xml:lang="en">sexual desire disorders</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46762006</SCTID>
         <derogatory-term xml:lang="en">frigidity</derogatory-term>
         <derogatory-term xml:lang="en">frigidness</derogatory-term>
         <historical-term xml:lang="en">frigidity</historical-term>
         <preferred-name xml:lang="en">sexual desire disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any sexual disorder characterized by abnormal presence or absence of sexual desire.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40263,6 +40454,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disorder"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <schema:alternateName xml:lang="en">sexual disorders</schema:alternateName>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0060043</DOID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231532002</SCTID>
         <preferred-name xml:lang="en">sexual disorder</preferred-name>
@@ -40417,6 +40609,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_condition"/>
         <schema:alternateName xml:lang="en">sexual health conditions</schema:alternateName>
         <preferred-name xml:lang="en">sexual health condition</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any of various conditions related to one&apos;s sexual health.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">condition related to sexual health</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -40597,8 +40790,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_maturation_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
+        <rdfs:comment xml:lang="en">Note that neither sexual orientation or gender identity are considered in and of themselves disorders; in this sense, sexual maturation disorder could be considered culturally bound within societies which mistreat sexual and gender minorities. Further, sexual maturation disorder is, by definition, different from ego-dystonic sexual orientation wherein sexual orientation or gender identity is repressed or otherwise denied.</rdfs:comment>
         <ICD-10-CM>F66.0</ICD-10-CM>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_maturation_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual maturation disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual maturation disorder is a disorder of anxiety or depression related to an uncertainty about one&apos;s gender identity or sexual orientation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40699,7 +40895,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_pain_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
+        <schema:alternateName xml:lang="en">sexual pain disorders</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89751008</SCTID>
         <preferred-name xml:lang="en">sexual pain disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any sexual disorder which causes persistent pain relating specifically to sexual intercourse or other sexual activity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40775,8 +40974,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_relationship_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
+        <schema:alternateName xml:lang="en">sexual relationship disorders</schema:alternateName>
         <ICD-10-CM>F66.2</ICD-10-CM>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192523000</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_relationship_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual relationship disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual relationship disorder is a disorder where a person has difficulties in forming or maintaining a sexual relationship because of their gender identity or sexual orientation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40802,6 +41005,7 @@
         <TE>E1.0.0.0.0.0.2</TE>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_reproduction</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual reproduction</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual reproduction is a form of reproduction where two gametes fuse together.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40848,6 +41052,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_sadism_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_sadism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_sadism_disorder</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual sadism disorder</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A disorder characterized by recurrent sexual urges, fantasies, or behaviors involving acts (real, not simulated) in which the psychological or physical suffering of a victim is sexually exciting to the individual.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -40903,6 +41108,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_tension</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual tension</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual tension is a social phenomenon that occurs when two individuals interact and one or both feel sexual desire, but the consummation is postponed or never happens.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41432,6 +41638,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sleep_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <schema:alternateName xml:lang="en">sleep disorders</schema:alternateName>
         <preferred-name xml:lang="en">sleep disorder</preferred-name>
     </owl:Class>
     
@@ -42177,6 +42384,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#somatoform_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <schema:alternateName xml:lang="en">somatoform disorders</schema:alternateName>
         <preferred-name xml:lang="en">somatoform disorder</preferred-name>
     </owl:Class>
     
@@ -42489,7 +42697,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#spontaneous_abortion">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#abortion"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Abortion#Spontaneous</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Miscarriage</WIKIPEDIA>
         <preferred-name xml:lang="en">spontaneous abortion</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Spontaneous abortion, also known as miscarriage, is the unintentional expulsion of an embryo or fetus before the 24th week of gestation.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">miscarriage</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -42868,6 +43079,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#substance-related_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <schema:alternateName xml:lang="en">substance-related disorders</schema:alternateName>
         <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</DOID>
         <preferred-name xml:lang="en">substance-related disorder</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A disease of mental health involving the abuse or dependence on a substance that is ingested in order to produce a high, alter one&apos;s senses, or otherwise affect functioning.</oboInOwl1:hasDefinition>
@@ -42885,6 +43097,16 @@
         <oboInOwl1:hasDefinition xml:lang="en">A substance-related disorder that involves a maladaptive pattern of substance use leading to significant impairment in functioning.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">substance abuse</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym rdf:resource="https://github.com/Superraptor/GSSO#drug_abuse"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#substance_addiction -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#substance_addiction">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#addiction_disorder"/>
+        <schema:alternateName xml:lang="en">substance addiction</schema:alternateName>
+        <preferred-name xml:lang="en">substance addiction</preferred-name>
     </owl:Class>
     
 
@@ -43936,6 +44158,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tissue_disorder">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disorder"/>
+        <schema:alternateName xml:lang="en">tissue disorders</schema:alternateName>
         <preferred-name xml:lang="en">tissue disorder</preferred-name>
     </owl:Class>
     
@@ -45936,7 +46159,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychologic_dyspareunia"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10131</DOID>
+        <HPO>HP:0030017</HPO>
+        <ICD-10-CM>N94.2</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">625.1</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10046947</MEDDRA>
+        <MESH_UID>D052065</MESH_UID>
+        <NCIT>C78703</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71787009</SCTID>
         <preferred-name xml:lang="en">vaginismus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Recurrent or persistent involuntary spasm of the outer muscles of the vagina, occurring during vaginal penetration.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">psychogenic vaginismus</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">psychologic vaginismus</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">vaginism</oboInOwl1:hasExactSynonym>
@@ -49733,6 +49965,22 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Maturitas</WIKIPEDIA>
         <electronic-issn>1873-4111</electronic-issn>
         <print-issn>0378-5122</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#191468 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#191468">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Virginia E. Johnson</dc:creator>
+        <dc:creator>William H. Masters</dc:creator>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1966</terms:dateCopyrighted>
+        <terms:publisher xml:lang="en">Brown and Company</terms:publisher>
+        <terms:title xml:lang="en">Human Sexual Response</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">366</schema:numberOfPages>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191468</OCLC>
     </owl:Class>
     
 
