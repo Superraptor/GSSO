@@ -2108,6 +2108,37 @@
     
 
 
+    <!-- http://web.archive.org/web/19991005084543/http://chaparraltree.com:80/raq -->
+
+    <owl:Class rdf:about="http://web.archive.org/web/19991005084543/http://chaparraltree.com:80/raq">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Raphael Carter</dc:creator>
+        <terms:title xml:lang="en">Androgyny RAQ (Rarely Asked Questions)</terms:title>
+        <schema:dateModified>21 March 1998</schema:dateModified>
+        <schema:url>http://web.archive.org/web/19991005084543/http://chaparraltree.com:80/raq</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- http://web.archive.org/web/20010124102100/http://www.queernet.org:80/deviant -->
+
+    <owl:Class rdf:about="http://web.archive.org/web/20010124102100/http://www.queernet.org:80/deviant">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#glossary"/>
+        <terms:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</terms:hasVersion>
+        <terms:title xml:lang="en">Deviants&apos; Dictionary</terms:title>
+        <schema:dateModified>21 July 1997</schema:dateModified>
+        <schema:url>http://web.archive.org/web/20010124102100/http://www.queernet.org:80/deviant/</schema:url>
+        <schema:url>http://web.archive.org/web/20010127101400/http://queernet.org:80/deviant/bodye-i.htm#Infibulation</schema:url>
+        <schema:url>http://web.archive.org/web/20010208111439/http://www.queernet.org:80/deviant/dictindx.htm</schema:url>
+        <schema:url>http://web.archive.org/web/20010208111643/http://www.queernet.org:80/deviant/bodyr-t.htm</schema:url>
+        <schema:url>http://web.archive.org/web/20010208111823/http://www.queernet.org:80/deviant/bodyu-z.htm</schema:url>
+        <schema:url>http://web.archive.org/web/20010208112324/http://www.queernet.org:80/deviant/bodyj-m.htm</schema:url>
+        <schema:url>http://web.archive.org/web/20010208112546/http://www.queernet.org:80/deviant/bodya-d.htm</schema:url>
+        <schema:url>http://web.archive.org/web/20010208113153/http://www.queernet.org:80/deviant/bodyn-q.htm</schema:url>
+    </owl:Class>
+    
+
+
     <!-- http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm -->
 
     <owl:Class rdf:about="http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm">
@@ -2117,6 +2148,19 @@
         <schema:dateModified>23 November 2000</schema:dateModified>
         <schema:url xml:lang="en">http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm</schema:url>
         <rdfs:comment xml:lang="en">The Internet Archive&apos;s earliest version of this page is from 7 March 2001.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://web.archive.org/web/20060514033949/neutrois.0catch.com -->
+
+    <owl:Class rdf:about="http://web.archive.org/web/20060514033949/neutrois.0catch.com">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:title xml:lang="en">Home</terms:title>
+        <schema:WebSite xml:lang="en">Neutrois Outpost</schema:WebSite>
+        <schema:dateCreated>5 May 2000</schema:dateCreated>
+        <schema:dateModified>28 August 2001</schema:dateModified>
+        <schema:url>http://web.archive.org/web/20060514033949/neutrois.0catch.com/</schema:url>
     </owl:Class>
     
 
@@ -7826,9 +7870,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Usenet">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet"/>
+        <dc:creator>Jim Ellis</dc:creator>
+        <dc:creator>Tom Truscott</dc:creator>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</schema:dateCreated>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Usenet</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Usenet</WIKIPEDIA>
         <preferred-name xml:lang="en">Usenet</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A world-wide distributed discussion system consisting of newsgroups classified hierarchically by subject.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -7840,7 +7888,9 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Newsgroups</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Usenet_newsgroup</WIKIPEDIA>
         <preferred-name xml:lang="en">Usenet newsgroup</preferred-name>
+        <shortened-term xml:lang="en">Usegroup</shortened-term>
         <shortened-term xml:lang="en">newsgroup</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A Usenet newsgroup is a repository usually within the Usenet system, for messages posted from many users in different locations using the internet.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -7984,7 +8034,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#World_Wide_Web">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet"/>
+        <dc:creator>Robert Cailliau</dc:creator>
+        <dc:creator>Tim Berners-Lee</dc:creator>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</schema:dateCreated>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/World_Wide_Web</WIKIPEDIA>
+        <acronym xml:lang="en">WWW</acronym>
         <preferred-name xml:lang="en">World Wide Web</preferred-name>
         <shortened-term xml:lang="en">the Web</shortened-term>
     </owl:Class>
@@ -8952,6 +9006,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#agender_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-gendered_gender_identity"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <preferred-name xml:lang="en">agender identity</preferred-name>
         <shortened-term xml:lang="en">agender</shortened-term>
@@ -11672,6 +11727,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bigender_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#multiple_gender_identities"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <alternative-spelling xml:lang="en">bi-gender identity</alternative-spelling>
         <preferred-name xml:lang="en">bigender identity</preferred-name>
@@ -14061,6 +14117,10 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <schema:Quotation xml:lang="en">The cisgender world treats us all the same, to them we are just a bunch of drag-fags and thanks to the stupid rules about who wears what, we all get fragged for it.  The little matter that we all crossdress for different reasons is utterly lost on the cisgender world.</schema:Quotation>
+        <schema:Quotation xml:lang="en">The transgender movement has taken a similar approach to confronting transphobia, by encouraging cisgender people to become comfortable with their own expressions of femininity and/or masculinity in order to be respectful of those expressions in others.</schema:Quotation>
+        <schema:Quotation xml:lang="en">This group [soc.support.transgendered] may be the form to discuss politics and law, so not getting a responce might be expected here. I wouldn&apos;t have even replied to this post accepting that a challenge was  made to the notion it worthless and unsupportive to discuss the differences between each of us and our  labels, whether that be transsexual, homosexual, hetrosexual, transgender, cisgender, transidentity or polymorph or fish...</schema:Quotation>
+        <rdfs:comment xml:lang="en">The word &quot;cisgender&quot; was first published in the third edition of the Oxford English Dictionary (OED) in June 2015.</rdfs:comment>
         <WIKIDATA>Q1093205</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cisgender</WIKIPEDIA>
         <alternative-spelling xml:lang="de">cis-gender</alternative-spelling>
@@ -14087,6 +14147,34 @@
         <oboInOwl1:hasExactSynonym xml:lang="de">zissexuell</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="ru">циссексуа́льный</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#cisgender"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">The cisgender world treats us all the same, to them we are just a bunch of drag-fags and thanks to the stupid rules about who wears what, we all get fragged for it.  The little matter that we all crossdress for different reasons is utterly lost on the cisgender world.</owl:annotatedTarget>
+        <dc:creator>Laura Blake</dc:creator>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#alt.transgendered"/>
+        <terms:title xml:lang="en">Seeking TS Woman</terms:title>
+        <schema:datePosted>12 June 1997</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20181014045425/https://groups.google.com/forum/message/raw?msg=alt.transgendered/XnSVJnxLWcI/w20uj1ujPAUJ</schema:url>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#cisgender"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">The transgender movement has taken a similar approach to confronting transphobia, by encouraging cisgender people to become comfortable with their own expressions of femininity and/or masculinity in order to be respectful of those expressions in others.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#9781580051545"/>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</schema:pageStart>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#cisgender"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">This group [soc.support.transgendered] may be the form to discuss politics and law, so not getting a responce might be expected here. I wouldn&apos;t have even replied to this post accepting that a challenge was  made to the notion it worthless and unsupportive to discuss the differences between each of us and our  labels, whether that be transsexual, homosexual, hetrosexual, transgender, cisgender, transidentity or polymorph or fish...</owl:annotatedTarget>
+        <dc:creator>Stacey Maxwell</dc:creator>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#soc.support.transgendered"/>
+        <terms:title xml:lang="en">Re: Wake-up Call</terms:title>
+        <schema:datePosted>22 September 1996</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20181014050317/https://groups.google.com/forum/message/raw?msg=soc.support.transgendered/GbxctMNUnyw/KTGFMu6ytaEJ</schema:url>
+    </owl:Axiom>
     
 
 
@@ -22700,6 +22788,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#genderfluid_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fluctuating_gender_identity"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <alternative-spelling xml:lang="en">gender-fluid identity</alternative-spelling>
@@ -25055,6 +25144,25 @@
         <preferred-name xml:lang="en">homosociality</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Homosociality refers to same-sex relationships that are not of a romantic or sexual nature, such as friendship, mentorship, or others.</oboInOwl1:hasDefinition>
     </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#homovestite -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homovestite">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml"/>
+        <schema:Quotation xml:lang="en">[A homovestite is] A person who obsessively, compulsively and neurotically wears the clothing of zir own sex.</schema:Quotation>
+        <derogatory-term xml:lang="en">homovestite</derogatory-term>
+        <preferred-name xml:lang="en">homovestite</preferred-name>
+        <slang-term xml:lang="en">homovestite</slang-term>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#homovestite"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">[A homovestite is] A person who obsessively, compulsively and neurotically wears the clothing of zir own sex.</owl:annotatedTarget>
+        <terms:source rdf:resource="https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml"/>
+    </owl:Axiom>
     
 
 
@@ -31468,6 +31576,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#multiple_gender_identities">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pangender</WIKIPEDIA>
         <preferred-name xml:lang="en">multiple gender identities</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Someone who has multiple gender identities or is pangender has more than one gender identity or may consider themselves a member of all genders.</oboInOwl1:hasDefinition>
@@ -32238,11 +32347,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#neutrois">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neutral_gender_identity"/>
         <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <schema:Quotation xml:lang="en">I&apos;m attracted to men, and being a neutrois/man, that makes me gay. But so what? I lived up to my lesbian reputation and tried it with a girl, once (well, we tried it a great deal more than just once). I&apos;m not ashamed of that. What I&apos;m ashamed of is not fighting as much as I should have. I should&apos;ve stood up every f**king time. Even if I wasn&apos;t trans, I still had the right to act any way I chose and no one had any business telling me otherwise. I&apos;m ashamed because I didn&apos;t go out for football. I&apos;m ashamed because I didn&apos;t go to the prom in a tuxedo. I&apos;m ashamed because I didn&apos;t know I was genderqueer, spent puberty being mistreated for being different, and slamming gays and lesbians to feel better. I can&apos;t apologize for hurting those people.. that&apos;s what shames me the most.</schema:Quotation>
-        <rdfs:comment xml:lang="en">Despite many sites claiming an &quot;H. A. Burnham&quot; coining and using the term &quot;neutrois&quot; in 1995, the earliest example archived appears to be from 2000 (although presumably the term preceded that).</rdfs:comment>
+        <rdfs:comment xml:lang="en">Despite many sites claiming an &quot;H. A. Burnham&quot; coining and using the term &quot;neutrois&quot; in 1995, the earliest example in the Internet Archive appears to be from 2000 (although presumably the term preceded that).</rdfs:comment>
         <rdfs:comment xml:lang="en">The earliest appearance of the term &quot;neutrois&quot; in any Usenet newsgroup is in a footer of a message posted by the user GoSpangs on 3 December 1996 (see here: https://groups.google.com/forum/message/raw?msg=soc.support.transgendered/ckLke9K-WtU/LuzuiVWEqTMJ). The footer also includes the name &quot;Holly A. Burnham&quot;.</rdfs:comment>
         <coined-by>Holly A. Burnham</coined-by>
-        <etymology xml:lang="en">Probably blend of French &quot;neutre&quot; (neuter, neutral) and &quot;trois&quot; (three).</etymology>
+        <etymology xml:lang="en">Probably blend of French &quot;neutre&quot; (neuter, neutral) and &quot;trois&quot; (three, as in third gender).</etymology>
         <preferred-name xml:lang="en">neutrois</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Having a null or neutral gender (being neither male nor female), and having or seeking to have no or reduced signs of physical sex.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -44720,6 +44830,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-masculine"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
@@ -44751,6 +44862,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <schema:alternateName xml:lang="en">transgender people</schema:alternateName>
         <MESH_UID>D063106</MESH_UID>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
@@ -44872,6 +44984,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-feminine"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
@@ -45019,6 +45132,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transsexual">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <rdfs:comment xml:lang="en">Another reason to avoid this term is its usage of the suffix &quot;-sexual&quot; which implies sexuality, rather than gender identity (compare contemporary English words &quot;heterosexual&quot; or &quot;bisexual&quot;, for instance).</rdfs:comment>
         <rdfs:comment xml:lang="en">It should be emphasized that one&apos;s transgender identity does not require therapeutic procedures. One is still considered transgender even without utilizing hormone replacement therapy or undergoing any of various surgical procedures.</rdfs:comment>
@@ -51712,7 +51826,11 @@
         <dc:creator xml:lang="en">Julia Serano</dc:creator>
         <terms:issued xml:lang="en">2007</terms:issued>
         <terms:title xml:lang="en">Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781580051545</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">408</schema:numberOfPages>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81252738</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Whipping_Girl</WIKIPEDIA>
     </owl:Class>
     
 
@@ -53007,6 +53125,77 @@
     
 
 
+    <!-- https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Russell Goldman</dc:creator>
+        <terms:title xml:lang="en">Here’s a List of 58 Gender Options for Facebook Users</terms:title>
+        <schema:datePosted>13 February 2014</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users/</schema:url>
+        <rdfs:comment xml:lang="en">The 58 gender options listed in this article are:
+1. Agender
+2. Androgyne
+3. Androgynous
+4. Bigender
+5. Cis
+6. Cisgender
+7. Cis Female
+8. Cis Male
+9. Cis Man
+10. Cis Woman
+11. Cisgender Female
+12. Cisgender Male
+13. Cisgender Man
+14. Cisgender Woman
+15. Female to Male
+16. FTM
+17. Gender Fluid
+18. Gender Nonconforming
+19. Gender Questioning
+20. Gender Variant
+21. Genderqueer
+22. Intersex
+23. Male to Female
+24. MTF
+25. Neither
+26. Neutrois
+27. Non-binary
+28. Other
+29. Pangender
+30. Trans
+31. Trans*
+32. Trans Female
+33. Trans* Female
+34. Trans Male
+35. Trans* Male
+36. Trans Man
+37. Trans* Man
+38. Trans Person
+39. Trans* Person
+40. Trans Woman
+41. Trans* Woman
+42. Transfeminine
+43. Transgender
+44. Transgender Female
+45. Transgender Male
+46. Transgender Man
+47. Transgender Person
+48. Transgender Woman
+49. Transmasculine
+50. Transsexual
+51. Transsexual Female
+52. Transsexual Male
+53. Transsexual Man
+54. Transsexual Person
+55. Transsexual Woman
+56. Two-Spirit
+
+(Presumably, the other two of the 58 are &quot;male&quot; and &quot;female&quot;.)</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993 -->
 
     <owl:Class rdf:about="https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993">
@@ -53017,6 +53206,18 @@
         <schema:url>https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993</schema:url>
         <rdfs:comment xml:lang="en">This page, including rainbow flag imagery, was used to publicly announce Facebook&apos;s custom gender feature on 13 February 2014.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="https://web.archive.org/web/20140214023359/https://www.facebook.com/help/276177272409629"/>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Raphael Carter</dc:creator>
+        <terms:title xml:lang="en">The Angel&apos;s Dictionary</terms:title>
+        <schema:dateModified>14 July 1996</schema:dateModified>
+        <schema:url>https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml</schema:url>
     </owl:Class>
     
 
