@@ -2139,6 +2139,18 @@
     
 
 
+    <!-- http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm -->
+
+    <owl:Class rdf:about="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>T. Aaron Hans</dc:creator>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</terms:dateCopyrighted>
+        <terms:title>Gender Terms: Words We Speak, Words We Tweak</terms:title>
+        <schema:url>http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm</schema:url>
+    </owl:Class>
+    
+
+
     <!-- http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm -->
 
     <owl:Class rdf:about="http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm">
@@ -2152,12 +2164,27 @@
     
 
 
+    <!-- http://web.archive.org/web/20060426205017/http://androgyne.0catch.com:80 -->
+
+    <owl:Class rdf:about="http://web.archive.org/web/20060426205017/http://androgyne.0catch.com:80">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Stephe Feldman</dc:creator>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</terms:dateCopyrighted>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</terms:dateCopyrighted>
+        <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Androgyne_Online"/>
+        <schema:dateCreated>20 April 2001</schema:dateCreated>
+        <schema:dateModified>30 March 2006</schema:dateModified>
+        <schema:url>http://web.archive.org/web/20060426205017/http://androgyne.0catch.com:80/</schema:url>
+    </owl:Class>
+    
+
+
     <!-- http://web.archive.org/web/20060514033949/neutrois.0catch.com -->
 
     <owl:Class rdf:about="http://web.archive.org/web/20060514033949/neutrois.0catch.com">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <terms:title xml:lang="en">Home</terms:title>
-        <schema:WebSite xml:lang="en">Neutrois Outpost</schema:WebSite>
+        <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Neutrois.com"/>
         <schema:dateCreated>5 May 2000</schema:dateCreated>
         <schema:dateModified>28 August 2001</schema:dateModified>
         <schema:url>http://web.archive.org/web/20060514033949/neutrois.0catch.com/</schema:url>
@@ -2539,6 +2566,17 @@
         <preferred-name xml:lang="de">Anders als die Andern</preferred-name>
         <preferred-name xml:lang="en">Different from the Others</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Other than the Others</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Androgyne_Online -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Androgyne_Online">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
+        <dc:creator>Stephe Feldman</dc:creator>
+        <terms:title xml:lang="en">Androgyne Online</terms:title>
+        <schema:dateCreated>20 April 2001</schema:dateCreated>
     </owl:Class>
     
 
@@ -7758,6 +7796,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Two_Spirit">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
@@ -10612,6 +10651,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#assigned_gender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#assigned_sex"/>
         <preferred-name xml:lang="en">assigned gender</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Assigned gender is one&apos;s gender which was assigned at birth, in concordance with assigned sex. Such a designation is typically based off of the superficial appearance of external genitalia present at birth.</oboInOwl1:hasDefinition>
@@ -11665,6 +11705,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <derogatory-term xml:lang="en">bi-dyke</derogatory-term>
         <preferred-name xml:lang="en">bi-dyke</preferred-name>
+        <slang-term xml:lang="en">bi-dyke</slang-term>
         <oboInOwl1:hasDefinition xml:lang="en">A bisexual woman who prefers female partners to male partners.</oboInOwl1:hasDefinition>
     </owl:Class>
     
@@ -11726,6 +11767,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bigender_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#multiple_gender_identities"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
@@ -11734,6 +11776,7 @@
         <shortened-term xml:lang="en">bigender</shortened-term>
         <shortened-term xml:lang="es">bigénero</shortened-term>
         <shortened-term xml:lang="ru">бигендер</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">bi-gender</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -12017,6 +12060,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#biphobia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anti-LGBTQ_bias"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexism"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">biphobic</schema:alternateName>
         <preferred-name xml:lang="en">biphobia</preferred-name>
@@ -12233,10 +12277,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <schema:alternateName xml:lang="en">bisexual people</schema:alternateName>
         <preferred-name xml:lang="en">bisexual person</preferred-name>
+        <shortened-term xml:lang="en">bi</shortened-term>
         <shortened-term xml:lang="en">bisexual</shortened-term>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#ambisexual"/>
     </owl:Class>
@@ -12657,6 +12703,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#boydyke -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#boydyke">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
+        <derogatory-term xml:lang="en">boydyke</derogatory-term>
+        <preferred-name xml:lang="en">boydyke</preferred-name>
+        <slang-term xml:lang="en">boydyke</slang-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#boymode -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#boymode">
@@ -12712,6 +12770,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#breast_binding">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transmasculine_experience"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Breast_binding</WIKIPEDIA>
@@ -13000,6 +13059,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#butch">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Polari"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
@@ -13008,6 +13068,18 @@
         <preferred-name xml:lang="pld">butch</preferred-name>
         <slang-term xml:lang="en">butch</slang-term>
         <oboInOwl1:hasDefinition xml:lang="en">A lesbian who appears masculine or acts in a masculine manner.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#butch_queen -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#butch_queen">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#butch"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#queen"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
+        <preferred-name xml:lang="en">butch queen</preferred-name>
+        <slang-term xml:lang="en">butch queen</slang-term>
     </owl:Class>
     
 
@@ -14117,6 +14189,8 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <schema:Quotation xml:lang="en">As for the origin [of the word &quot;cisgendered&quot;]; I just made it up. I just kept running into the problem of what to call non-T*people in various discussions, and one day it just hit me: non-trans = cis. Therefore, cisgendered.</schema:Quotation>
+        <schema:Quotation xml:lang="en">I am trying to assess campus climates for the transgender community, both at my own institution and at other campuses. Any information regarding this subject would be tremendously helpful to this effort. Personal testimony, activism, organizations, experience of providers and human service workers, etc. Issues of interest are transphobia, hostility, general knowledge and understanding, attitudes of the queer community and cisgendered people, etc. I am interested in building coalitions and will share any info with others.</schema:Quotation>
         <schema:Quotation xml:lang="en">The cisgender world treats us all the same, to them we are just a bunch of drag-fags and thanks to the stupid rules about who wears what, we all get fragged for it.  The little matter that we all crossdress for different reasons is utterly lost on the cisgender world.</schema:Quotation>
         <schema:Quotation xml:lang="en">The transgender movement has taken a similar approach to confronting transphobia, by encouraging cisgender people to become comfortable with their own expressions of femininity and/or masculinity in order to be respectful of those expressions in others.</schema:Quotation>
         <schema:Quotation xml:lang="en">This group [soc.support.transgendered] may be the form to discuss politics and law, so not getting a responce might be expected here. I wouldn&apos;t have even replied to this post accepting that a challenge was  made to the notion it worthless and unsupportive to discuss the differences between each of us and our  labels, whether that be transsexual, homosexual, hetrosexual, transgender, cisgender, transidentity or polymorph or fish...</schema:Quotation>
@@ -14135,6 +14209,7 @@
         <shortened-term xml:lang="en">cis</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">Having a gender (identity) which matches the sex one was assigned at birth; or, pertaining to such people.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="es">cisexual</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">cisgendered</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="de">cisgeschlechtlich</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="ru">cisgéndɛrnyj</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="fr">cissexuel</oboInOwl1:hasExactSynonym>
@@ -14147,6 +14222,26 @@
         <oboInOwl1:hasExactSynonym xml:lang="de">zissexuell</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="ru">циссексуа́льный</oboInOwl1:hasExactSynonym>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#cisgender"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">As for the origin [of the word &quot;cisgendered&quot;]; I just made it up. I just kept running into the problem of what to call non-T*people in various discussions, and one day it just hit me: non-trans = cis. Therefore, cisgendered.</owl:annotatedTarget>
+        <dc:creator>Carl Buijs</dc:creator>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#soc.support.transgendered"/>
+        <terms:title xml:lang="en">A new perspective on an old topic</terms:title>
+        <schema:datePosted>16 April 1996</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20181014052058/https://groups.google.com/forum/message/raw?msg=soc.support.transgendered/uQOv7egWih0/Y4nkFd9QSBgJ</schema:url>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#cisgender"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">I am trying to assess campus climates for the transgender community, both at my own institution and at other campuses. Any information regarding this subject would be tremendously helpful to this effort. Personal testimony, activism, organizations, experience of providers and human service workers, etc. Issues of interest are transphobia, hostility, general knowledge and understanding, attitudes of the queer community and cisgendered people, etc. I am interested in building coalitions and will share any info with others.</owl:annotatedTarget>
+        <dc:creator>Dana Leland Defosse</dc:creator>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#alt.transgendered"/>
+        <terms:title xml:lang="en">transgender research</terms:title>
+        <schema:datePosted>25 May 1994</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20181014051630/https://groups.google.com/forum/message/raw?msg=alt.transgendered/acBONWZqmhs/xo2v8gve62kJ</schema:url>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#cisgender"/>
         <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
@@ -14991,6 +15086,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#coming_out">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_experience"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -16197,6 +16293,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cross-dressing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clothing_behavior"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#Probe_Confirms_Suicide_Theory_in_Lemke_Case"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -17708,6 +17805,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#18568386"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -17725,6 +17823,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drag_king">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dresser"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -17747,6 +17846,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dresser"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drag"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#queen"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -17882,6 +17982,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dyke">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#001183469"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780025750500"/>
@@ -19819,6 +19920,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#The_&apos;Fairy&apos;_and_the_Lady_Lover"/>
@@ -19861,6 +19963,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#failure_to_pass_as_desired_gender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_passing"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <preferred-name xml:lang="en">failure to pass as desired gender</preferred-name>
@@ -20678,6 +20781,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#femme">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
@@ -21833,6 +21937,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_attribute"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
@@ -21998,6 +22103,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_bender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <WIKIDATA>Q2261572</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_bender</WIKIPEDIA>
         <alternative-spelling xml:lang="en">gender-bender</alternative-spelling>
@@ -22025,12 +22131,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_binarism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_system"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:comment xml:lang="en">It is important to note that the idea of gender binarism is a social construction, not a biological one, per se. Many cultures have more than two gender roles entwined in their respective societies.</rdfs:comment>
         <preferred-name xml:lang="en">gender binarism</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The gender binary is the classification of sex and gender into two distinct, opposite and disconnected forms of masculine and feminine.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">binarism</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">binary gender system</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender binary</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">genderism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="es">géneros binarios</oboInOwl1:hasExactSynonym>
@@ -22074,14 +22182,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
         <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#historical-term"/>
-        <owl:annotatedTarget xml:lang="en">gender reassignment surgery</owl:annotatedTarget>
-        <acronym xml:lang="en">GRS</acronym>
+        <owl:annotatedTarget xml:lang="en">sex reassignment surgery</owl:annotatedTarget>
+        <acronym xml:lang="en">SRS</acronym>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
         <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#historical-term"/>
-        <owl:annotatedTarget xml:lang="en">sex reassignment surgery</owl:annotatedTarget>
-        <acronym xml:lang="en">SRS</acronym>
+        <owl:annotatedTarget xml:lang="en">gender reassignment surgery</owl:annotatedTarget>
+        <acronym xml:lang="en">GRS</acronym>
     </owl:Axiom>
     
 
@@ -22170,6 +22278,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dysphoria"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_health_condition"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
@@ -22258,6 +22367,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_expression">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_behavior"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
@@ -22286,6 +22396,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#self-identity"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.4103/jpi.jpi_52_17"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
@@ -22481,6 +22592,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_passing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#passing"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_experience"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <WIKIDATA>Q1558568</WIKIDATA>
@@ -22547,6 +22659,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_role">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#role"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <schema:alternateName xml:lang="en">gender roles</schema:alternateName>
         <schema:alternateName xml:lang="es">roles de género</schema:alternateName>
@@ -22825,6 +22938,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#genderqueer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1177/0959354396064005"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:Quotation xml:lang="en">It should be an interesting day on Capitol Hill as 75 transsexual activists from around the country begin lobbying senators and congressmen today on everything from employment discrimination to hate crimes... &quot;It&apos;s high time &apos;genderqueers&apos; came out of the closets, out of the shadows and out of the margins, says Mr. or Ms. Ricki Anne Wilchins of the organizing group, the Transsexual Menace.</schema:Quotation>
@@ -24454,6 +24568,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hermaphrodite">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#phenotypic_sex"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
@@ -24850,6 +24965,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#hir -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hir">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dependent_possessive_determiner"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#object_pronoun"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
+        <preferred-name xml:lang="en">hir</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hirself -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hirself">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
+        <preferred-name xml:lang="en">hirself</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#his -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#his">
@@ -25021,6 +25158,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anti-LGBTQ_bias"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation_experience"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
@@ -25064,6 +25202,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homosexual">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">homosexuals</schema:alternateName>
@@ -26357,6 +26496,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#characteristic"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <schema:alternateName xml:lang="en">identities</schema:alternateName>
         <preferred-name xml:lang="en">identity</preferred-name>
     </owl:Class>
@@ -27236,6 +27376,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internalized_homophobia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <alternative-spelling xml:lang="en">internalised homophobia</alternative-spelling>
         <preferred-name xml:lang="en">internalized homophobia</preferred-name>
@@ -27278,6 +27419,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internalized_transphobia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <alternative-spelling xml:lang="en">internalised transphobia</alternative-spelling>
         <preferred-name xml:lang="en">internalized transphobia</preferred-name>
@@ -27525,6 +27667,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_health_condition"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
@@ -27532,8 +27675,8 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <rdfs:comment xml:lang="en">Intersex is an umbrella term with a complex history. It is usually used to refer to persons with congenital conditions which involve differences in the many intertwined processes of sexual development.</rdfs:comment>
         <antonym xml:lang="en">dyadic</antonym>
-        <derogatory-term xml:lang="en">hermaphrodite</derogatory-term>
-        <historical-term xml:lang="en">hermaphrodite</historical-term>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#hermaphrodite"/>
+        <historical-term rdf:resource="https://github.com/Superraptor/GSSO#hermaphrodite"/>
         <preferred-name xml:lang="en">intersex</preferred-name>
         <preferred-name xml:lang="de">zwischengeschlechtlich</preferred-name>
         <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#differences_of_sex_development"/>
@@ -28563,6 +28706,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
@@ -29488,6 +29632,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#man">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <schema:alternateName xml:lang="en">men</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Man</WIKIPEDIA>
         <preferred-name xml:lang="en">man</preferred-name>
@@ -29499,6 +29644,7 @@
     <!-- https://github.com/Superraptor/GSSO#man_of_color -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#man_of_color">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person_of_color"/>
         <schema:alternateName xml:lang="en">man of color</schema:alternateName>
         <schema:alternateName xml:lang="en">men of color</schema:alternateName>
@@ -31576,10 +31722,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#multiple_gender_identities">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pangender</WIKIPEDIA>
         <preferred-name xml:lang="en">multiple gender identities</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Someone who has multiple gender identities or is pangender has more than one gender identity or may consider themselves a member of all genders.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">multi-gender</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">pangender</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">pangender identity</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -32570,7 +32718,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#non-gendered_gender_identity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <preferred-name xml:lang="en">non-gendered gender identity</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">no-gender</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">non-gender</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -33943,6 +34094,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#pansexual_person -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pansexual_person">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pansexuality"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
+        <preferred-name xml:lang="en">pansexual person</preferred-name>
+        <shortened-term xml:lang="en">pansexual</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">omnisexual</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">omnisexual person</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#pansexuality -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pansexuality">
@@ -34836,6 +35001,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#per -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#per">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dependent_possessive_determiner"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#object_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subject_pronoun"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780394499864"/>
+        <coined-by>Marge Piercy</coined-by>
+        <etymology xml:lang="en">Shortening of &quot;person&quot;.</etymology>
+        <preferred-name xml:lang="en">per</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#per"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#coined-by"/>
+        <owl:annotatedTarget>Marge Piercy</owl:annotatedTarget>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</terms:date>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#perfect_defense -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#perfect_defense">
@@ -34892,6 +35079,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#pers -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pers">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#independent_possessive_determiner"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <preferred-name xml:lang="en">pers</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#persecution -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#persecution">
@@ -34899,6 +35096,16 @@
         <WIKIDATA>Q851824</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Persecution</WIKIPEDIA>
         <preferred-name xml:lang="en">persecution</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#perself -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#perself">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
+        <preferred-name xml:lang="en">perself</preferred-name>
     </owl:Class>
     
 
@@ -35143,6 +35350,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#phallic_packing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transmasculine_experience"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Packing_(phallus)</WIKIPEDIA>
@@ -36537,6 +36745,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#primary_sex_characteristics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_characteristic"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_dimorphism"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <preferred-name xml:lang="en">primary sex characteristics</preferred-name>
         <preferred-name xml:lang="de">primäres Geschlechtsmerkmal</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">primary sex characteristic</oboInOwl1:hasExactSynonym>
@@ -37572,6 +37781,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#queer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
@@ -39262,6 +39472,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#secondary_sex_characteristics">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_characteristic"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_dimorphism"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <preferred-name xml:lang="en">secondary sex characteristics</preferred-name>
         <preferred-name xml:lang="de">sekundäres Geschlechtsmerkmal</preferred-name>
@@ -39773,6 +39984,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organismal_quality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_attribute"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <schema:alternateName xml:lang="en">sexes</schema:alternateName>
@@ -40972,6 +41184,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interpersonal_orientation"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_attribute"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#sexual_identity"/>
@@ -44106,6 +44319,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#third_gender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_role"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -44554,6 +44768,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1177/0959354396064005"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
@@ -44686,9 +44901,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_community">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_community"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <derogatory-term xml:lang="en">transgendered community</derogatory-term>
         <preferred-name xml:lang="en">transgender community</preferred-name>
+        <shortened-term xml:lang="en">gender community</shortened-term>
         <shortened-term xml:lang="en">trans community</shortened-term>
     </owl:Class>
     
@@ -45037,6 +45254,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgenderist">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:comment xml:lang="en">Many transgender people do not associate medical procedures or changes with being transgender; for this reason, this term may be considered offensive to many transgender people and should be avoided.</rdfs:comment>
         <derogatory-term xml:lang="en">transgenderist</derogatory-term>
@@ -45074,6 +45292,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anti-LGBTQ_bias"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_experience"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <schema:alternateName xml:lang="es">transfóbica</schema:alternateName>
         <schema:alternateName xml:lang="es">transfóbico</schema:alternateName>
@@ -45084,6 +45303,7 @@
         <preferred-name xml:lang="en">transphobia</preferred-name>
         <preferred-name xml:lang="fr">transphobie</preferred-name>
         <preferred-name xml:lang="zh">跨性别恐惧症</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">genderphobia</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
@@ -45131,6 +45351,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transsexual">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
@@ -45183,6 +45404,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transvestism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#009670128"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
@@ -45212,6 +45434,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transvestite">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dresser"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#&apos;Gay,_dyke,_breeder&apos;_—_what_do_they_really_mean?"/>
         <acronym xml:lang="en">TV</acronym>
         <derogatory-term xml:lang="en">transvestite</derogatory-term>
@@ -47186,6 +47409,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#woman">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <schema:alternateName xml:lang="en">women</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Woman</WIKIPEDIA>
         <preferred-name xml:lang="en">woman</preferred-name>
@@ -47198,6 +47422,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#woman_of_color">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person_of_color"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
         <schema:alternateName xml:lang="en">woman of color</schema:alternateName>
         <schema:alternateName xml:lang="en">women of color</schema:alternateName>
         <acronym xml:lang="en">WOC</acronym>
@@ -47442,6 +47667,27 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#yourselves">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
         <preferred-name xml:lang="en">yourselves</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ze -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ze">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subject_pronoun"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
+        <preferred-name xml:lang="en">ze</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#zirself -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#zirself">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neologistic_gender-neutral_pronoun"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reflexive_pronoun"/>
+        <preferred-name xml:lang="en">zirself</preferred-name>
     </owl:Class>
     
 
@@ -48535,6 +48781,28 @@
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</schema:pageStart>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</schema:volumeNumber>
         <DOI>10.1080/10720162.2011.555709</DOI>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#10.1080/13691058.2013.788214 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1080/13691058.2013.788214">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator>Kate L. Collier</dc:creator>
+        <dc:creator>Liesl Therona</dc:creator>
+        <terms:dateAccepted>18 March 2013</terms:dateAccepted>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1464-5351"/>
+        <terms:title xml:lang="en">Experiences of female partners of masculine-identifying trans persons</terms:title>
+        <schema:datePublished>13 May 2013</schema:datePublished>
+        <schema:issueNumber xml:lang="en">Supplement 1</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</schema:volumeNumber>
+        <DOI>10.1080/13691058.2013.788214</DOI>
+        <PMCID>PMC3696033</PMCID>
+        <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23668602</PMID>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Experiences of female partners of masculine identifying trans persons</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -49673,6 +49941,19 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Journal_of_Transgenderism</WIKIPEDIA>
         <electronic-issn>1434-4599</electronic-issn>
         <print-issn>1553-2739</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1464-5351 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1464-5351">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Culture, Health &amp; Sexuality</terms:title>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41546256</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Culture,_Health_%26_Sexuality</WIKIPEDIA>
+        <electronic-issn>1464-5351</electronic-issn>
+        <print-issn>1369-1058</print-issn>
     </owl:Class>
     
 
@@ -51383,6 +51664,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9780394499864 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780394499864">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Marge Piercy</dc:creator>
+        <terms:publisher xml:lang="en">Alfred A. Knopf</terms:publisher>
+        <terms:title xml:lang="en">Woman on the Edge of Time</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780394499864</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</schema:numberOfPages>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Woman_on_the_Edge_of_Time</WIKIPEDIA>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9780394738628 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780394738628">
@@ -52524,10 +52820,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Standards_of_Care_for_the_Health_of_Transsexual,_Transgender,_and_Gender_Nonconforming_People">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#standard_of_care"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#World_Professional_Association_for_Transgender_Health"/>
+        <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <rdfs:comment xml:lang="en">Original published in 1979. Subsequent revisions in 1980, 1981, 1990, 1998, 2001, and 2011.</rdfs:comment>
         <former-term xml:lang="en">Harry Benjamin Standards of Care</former-term>
         <preferred-name xml:lang="en">Standards of Care for the Health of Transsexual, Transgender, and Gender Nonconforming People</preferred-name>
+        <shortened-term xml:lang="en">Standards of Care</shortened-term>
         <oboInOwl1:hasExactSynonym xml:lang="en">WPATH-SOC</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
