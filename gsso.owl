@@ -2248,6 +2248,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#AIDS_phobia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#AIDS_phobia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nosophobia"/>
+        <DOID>DOID:603</DOID>
+        <preferred-name xml:lang="en">AIDS phobia</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#A_Critical_Digest_of_Some_of_the_Newer_Work_Upon_Homosexuality_in_Man_and_Woman -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#A_Critical_Digest_of_Some_of_the_Newer_Work_Upon_Homosexuality_in_Man_and_Woman">
@@ -5639,6 +5649,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Lentivirus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lentivirus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Retroviridae"/>
+        <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11646</NCBITAXON>
+        <NCIT>C14290</NCIT>
+        <causes rdf:resource="https://github.com/Superraptor/GSSO#disease_due_to_Lentivirus"/>
+        <preferred-name xml:lang="en">Lentivirus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A genus of the family Retroviridae consisting of non-oncogenic retroviruses that produce multi-organ diseases characterized by long incubation periods and persistent infection. Lentiviruses are unique in that they contain open reading frames (ORFs) between the pol and env genes and in the 3&apos; env region. Five serogroups are recognized, reflecting the mammalian hosts with which they are associated. HIV-1 is the type species.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Lesbian_Herstory_Archives -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lesbian_Herstory_Archives">
@@ -6765,6 +6788,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Primate_Lentivirus_Group -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Primate_Lentivirus_Group">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Lentivirus"/>
+        <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11652</NCBITAXON>
+        <NCIT>C117716</NCIT>
+        <alternative-spelling xml:lang="en">primate lentivirus group</alternative-spelling>
+        <preferred-name xml:lang="en">Primate Lentivirus Group</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-taxonomic grouping of lentivuruses that infect humans, apes, monkeys, lemurs, lorises, and tarsiers.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">primate immunodeficiency virus</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Probe_Confirms_Suicide_Theory_in_Lemke_Case -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Probe_Confirms_Suicide_Theory_in_Lemke_Case">
@@ -6914,6 +6951,22 @@
         <schema:birthPlace xml:lang="en">New York City, New York, United States</schema:birthPlace>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ren%C3%A9e_Richards</WIKIPEDIA>
         <preferred-name>Renée Richards</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Retroviridae -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Retroviridae">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#retro-transcribing_virus"/>
+        <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11632</NCBITAXON>
+        <NCIT>C14268</NCIT>
+        <causes rdf:resource="https://github.com/Superraptor/GSSO#disease_due_to_Retroviridae"/>
+        <preferred-name xml:lang="en">Retroviridae</preferred-name>
+        <preferred-name xml:lang="la">Retroviridae</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A family of viruses that possess RNA-dependent DNA polymerases (reverse transcriptases) and contain two identical molecules of positive sense, single-stranded RNA of high molecular weight. This RNA serves as a template for the synthesis of a complementary DNA, which may be integrated into the host DNA. Virions are enveloped.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">retrovirus</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">retroviruses</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -8679,6 +8732,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#acquired_immune_deficiency_syndrome -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#acquired_immune_deficiency_syndrome">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#symptomatic_human_immunodeficiency_virus_infection"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#AIDS_phobia"/>
+        <EFO>EFO:0000765</EFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000563</MEDDRA>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10001509</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62479008</SCTID>
+        <acronym xml:lang="en">AIDS</acronym>
+        <derogatory-term xml:lang="en">GRID</derogatory-term>
+        <derogatory-term xml:lang="en">gay-related immune deficiency</derogatory-term>
+        <historical-term xml:lang="en">GRID</historical-term>
+        <historical-term xml:lang="en">gay-related immune deficiency</historical-term>
+        <preferred-name xml:lang="en">acquired immune deficiency syndrome</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#acquired_syphilis -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#acquired_syphilis">
@@ -9231,8 +9303,10 @@
         <shortened-term xml:lang="es">agénero</shortened-term>
         <shortened-term xml:lang="ru">агендер</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">A gender identity which may be described as lacking gender, genderless, gender neutral, neutrois, or unknown gender, among other descriptions.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">a-gender</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">genderless</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">genderless identity</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">agendered</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -10871,8 +10945,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#assigned_sex"/>
+        <acronym xml:lang="en">AGAB</acronym>
         <preferred-name xml:lang="en">assigned gender</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Assigned gender is one&apos;s gender which was assigned at birth, in concordance with assigned sex. Such a designation is typically based off of the superficial appearance of external genitalia present at birth.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">assigned gender at birth</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -11530,6 +11606,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bacterial_disease">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#infectious_disease"/>
         <preferred-name xml:lang="en">bacterial disease</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bacterial_sexually_transmitted_disease -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bacterial_sexually_transmitted_disease">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bacterial_disease"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexually_transmitted_infection"/>
+        <MESH_UID>D015231</MESH_UID>
+        <preferred-name xml:lang="en">bacterial sexually transmitted disease</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Bacterial diseases transmitted or propagated by sexual contact.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -14599,6 +14687,7 @@
         <preferred-name xml:lang="de">Cissexismus</preferred-name>
         <preferred-name xml:lang="en">cissexism</preferred-name>
         <preferred-name xml:lang="fr">cissexisme</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Appeal to norms that enforce the gender binary and gender essentialism, resulting in the oppression of gender variant, non-binary, and transgender identities.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cisgenderism</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">cisnormativity</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">cissexual assumption</oboInOwl1:hasExactSynonym>
@@ -17788,6 +17877,28 @@
         <oboInOwl1:hasDefinition xml:lang="en">pathologic condition</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">pathological condition</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">medical condition</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#disease_due_to_Lentivirus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disease_due_to_Lentivirus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_due_to_Retroviridae"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24907000</SCTID>
+        <has-cause rdf:resource="https://github.com/Superraptor/GSSO#Lentivirus"/>
+        <preferred-name xml:lang="en">disease due to Lentivirus</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#disease_due_to_Retroviridae -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disease_due_to_Retroviridae">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#viral_disease"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105635000</SCTID>
+        <has-cause rdf:resource="https://github.com/Superraptor/GSSO#Retroviridae"/>
+        <preferred-name xml:lang="en">disease due to Retroviridae</preferred-name>
     </owl:Class>
     
 
@@ -23075,6 +23186,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_sensitization">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gender_empowerment"/>
+        <WIKIDATA xml:lang="en">Q5531016</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_sensitization</WIKIPEDIA>
         <alternative-spelling xml:lang="en">gender sensitisation</alternative-spelling>
         <preferred-name xml:lang="en">gender sensitization</preferred-name>
@@ -26084,6 +26196,93 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#human_immunodeficiency_virus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Primate_Lentivirus_Group"/>
+        <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12721</NCBITAXON>
+        <NCIT>C14219</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/HIV</WIKIPEDIA>
+        <acronym xml:lang="en">HIV</acronym>
+        <alternative-spelling xml:lang="en">Human Immunodeficiency Virus</alternative-spelling>
+        <causes rdf:resource="https://github.com/Superraptor/GSSO#acquired_immune_deficiency_syndrome"/>
+        <causes rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_infection"/>
+        <preferred-name xml:lang="en">human immunodeficiency virus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The virus isolated and recognized as the etiologic agent of AIDS. HIV-1 is classified as a lentivirus, a subtype of retroviruses.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">AIDS virus</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_1 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_1">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus"/>
+        <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11676</NCBITAXON>
+        <NCIT>C14220</NCIT>
+        <acronym xml:lang="en">HIV-1</acronym>
+        <causes rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_I_infection"/>
+        <preferred-name xml:lang="en">human immunodeficiency virus 1</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any viral organism that can be assigned to the species Human Immunodeficiency virus 1.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">human immunodeficiency virus I</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_2 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_2">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus"/>
+        <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11709</NCBITAXON>
+        <NCIT>C14221</NCIT>
+        <acronym xml:lang="en">HIV-2</acronym>
+        <causes rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_II_infection"/>
+        <preferred-name xml:lang="en">human immunodeficiency virus 2</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any viral organism that can be assigned to the species Human Immunodeficiency virus 2.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">human immunodeficiency virus II</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_II_infection -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_II_infection">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_infection"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79019005</SCTID>
+        <has-cause rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_2"/>
+        <preferred-name xml:lang="en">human immunodeficiency virus II infection</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_I_infection -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_I_infection">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_infection"/>
+        <EFO>EFO:0000180</EFO>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40780007</SCTID>
+        <has-cause rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_1"/>
+        <preferred-name xml:lang="en">human immunodeficiency virus I infection</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">HIV-1 infection</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_infection -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_infection">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_due_to_Lentivirus"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#viral_sexually_transmitted_disease"/>
+        <EFO>EFO:0000764</EFO>
+        <ICD-9-CM>042-042.99</ICD-9-CM>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86406008</SCTID>
+        <has-cause rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus"/>
+        <preferred-name xml:lang="en">human immunodeficiency virus infection</preferred-name>
+        <shortened-term xml:lang="en">HIV infection</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#human_karyotype -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_karyotype">
@@ -27441,10 +27640,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#infectious_disease">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease"/>
+        <EFO xml:lang="en">EFO:0005741</EFO>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40733004</SCTID>
         <preferred-name xml:lang="en">infectious disease</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">communicable disease</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">infective disorder</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">transmissible disease</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">disorder due to infection</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -32984,6 +33186,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
         <alternative-spelling xml:lang="en">neuro-sexism</alternative-spelling>
         <preferred-name xml:lang="en">neurosexism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The assumption that gender differences perceived in character and behavior are caused by biological differences in brains.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -33357,6 +33560,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nose_piercing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#body_piercing"/>
         <preferred-name xml:lang="en">nose piercing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#nosophobia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nosophobia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#specific_phobia"/>
+        <DOID>DOID:0060048</DOID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Nosophobia</WIKIPEDIA>
+        <preferred-name xml:lang="en">nosophobia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Nosophobia is the irrational fear of contracting a disease, a type of specific phobia.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39396,6 +39611,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#retro-transcribing_virus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#retro-transcribing_virus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#virus"/>
+        <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35268</NCBITAXON>
+        <NCIT>C54085</NCIT>
+        <preferred-name xml:lang="en">retro-transcribing virus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A virus that replicates by the reverse transcription of a RNA or DNA intermediate. All retro-transcribing viruses utilize the enzyme reverse transcriptase to replicate and may have a DNA- or RNA-based genome.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">retroid viruses</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#retrograde_ejaculation -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#retrograde_ejaculation">
@@ -42176,6 +42404,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <schema:alternateName xml:lang="en">sexually transmitted infections</schema:alternateName>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10068720</MEDDRA>
         <MESH_UID>D012749</MESH_UID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8098009</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexually_transmitted_infection</WIKIPEDIA>
@@ -42533,6 +42762,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sissy"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780397503292"/>
         <preferred-name xml:lang="en">sissyphobia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A prevailing negative reaction towards men who act in a feminine way.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">effeminiphobia</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">femiphobia</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">femmephobia</oboInOwl1:hasExactSynonym>
@@ -44454,6 +44684,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#symptomatic_human_immunodeficiency_virus_infection -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#symptomatic_human_immunodeficiency_virus_infection">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_infection"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81000119104</SCTID>
+        <preferred-name xml:lang="en">symptomatic human immunodeficiency virus infection</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#syndrome -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#syndrome">
@@ -44509,8 +44749,11 @@
     <!-- https://github.com/Superraptor/GSSO#syphilis -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#syphilis">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bacterial_sexually_transmitted_disease"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#spirochaetal_disease"/>
+        <MESH_UID>D013587</MESH_UID>
         <preferred-name xml:lang="en">syphilis</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A contagious venereal disease caused by the spirochete Treponema pallidum.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -47523,6 +47766,31 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#viral_disease -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#viral_disease">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#infectious_disease"/>
+        <EFO>EFO:0000763</EFO>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34014006</SCTID>
+        <has-cause rdf:resource="https://github.com/Superraptor/GSSO#virus"/>
+        <preferred-name xml:lang="en">viral disease</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">viral infectious disease</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#viral_sexually_transmitted_disease -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#viral_sexually_transmitted_disease">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexually_transmitted_infection"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#viral_disease"/>
+        <MESH_UID>D015229</MESH_UID>
+        <preferred-name xml:lang="en">viral sexually transmitted disease</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Viral diseases which are transmitted or propagated by sexual contact.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#virgin -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#virgin">
@@ -47563,6 +47831,20 @@
         <preferred-name xml:lang="en">virilization</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">masculinisation</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">masculinization</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#virus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#virus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organism"/>
+        <schema:alternateName xml:lang="en">viruses</schema:alternateName>
+        <NCBITAXON rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10239</NCBITAXON>
+        <NCIT>C14283</NCIT>
+        <causes rdf:resource="https://github.com/Superraptor/GSSO#viral_disease"/>
+        <preferred-name xml:lang="en">virus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An infectious agent which consists of two parts, genetic material and a protein coat. These organisms lack independent metabolism, and they must infect the cells of other types of organisms to reproduce. Most viruses are capable of passing through fine filters that retain bacteria, and are not visible through a light microscope.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -47665,6 +47947,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
         <alternative-spelling xml:lang="en">voice feminisation</alternative-spelling>
         <preferred-name xml:lang="en">voice feminization</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The process by which one&apos;s voice becomes more feminine.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -47675,6 +47958,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_process"/>
         <alternative-spelling xml:lang="en">voice masculinisation</alternative-spelling>
         <preferred-name xml:lang="en">voice masculinization</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The process by which one&apos;s voice becomes more masculine.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -51296,6 +51580,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#2pass_Clinic -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2pass_Clinic">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#clinic"/>
+        <schema:location xml:lang="en">Antwerp, Belgium</schema:location>
+        <preferred-name xml:lang="en">2pass Clinic</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#2015_U.S._Transgender_Survey -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2015_U.S._Transgender_Survey">
@@ -53215,6 +53509,7 @@
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#fa&apos;afafine"/>
         <WIKIDATA>Q4700377</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Akava%27ine</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">&apos;akava&apos;ine</alternative-spelling>
         <alternative-spelling xml:lang="en">akava&apos;ine</alternative-spelling>
         <preferred-name xml:lang="en">Akava&apos;ine</preferred-name>
         <preferred-name xml:lang="rar">Akava&apos;ine</preferred-name>
