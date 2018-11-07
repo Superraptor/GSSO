@@ -2184,6 +2184,7 @@
         <dc:creator>Stephe Feldman</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</terms:dateCopyrighted>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</terms:dateCopyrighted>
+        <terms:title xml:lang="en">Androgyne Online</terms:title>
         <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Androgyne_Online"/>
         <schema:dateCreated>20 April 2001</schema:dateCreated>
         <schema:dateModified>30 March 2006</schema:dateModified>
@@ -2252,7 +2253,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#AIDS_phobia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nosophobia"/>
-        <DOID>DOID:603</DOID>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">603</DOID>
         <preferred-name xml:lang="en">AIDS phobia</preferred-name>
     </owl:Class>
     
@@ -2764,6 +2765,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Ariston_Hotel_Baths"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#police_raid"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1903</dc:date>
+        <schema:location xml:lang="en">New York City, New York, United States</schema:location>
+        <WIKIDATA>Q54953800</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ariston_Bathhouse_raid</WIKIPEDIA>
         <preferred-name xml:lang="en">Ariston Bathhouse raid</preferred-name>
     </owl:Class>
     
@@ -3113,6 +3117,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Brannon_Masculinity_Scale</WIKIPEDIA>
         <acronym xml:lang="en">BMS</acronym>
         <preferred-name xml:lang="en">Brannon Masculinity Scale</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The Brannon Masculinity Scale (BMS) is a self-report measure of endorsement of masculine norms. It was developed by Robert Brannon and Samuel Juni in 1984.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -8755,6 +8760,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#acquired_syphilis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#syphilis"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240555007</SCTID>
         <preferred-name xml:lang="en">acquired syphilis</preferred-name>
     </owl:Class>
     
@@ -8978,10 +8984,16 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#adrenarche">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
+        <terms:NLM>WS 450</terms:NLM>
         <schema:alternateName xml:lang="en">adrenarcheal</schema:alternateName>
+        <MESH_TN>G08.686.760.204</MESH_TN>
+        <MESH_TN>G08.686.841.374.204</MESH_TN>
+        <MESH_UID>D050499</MESH_UID>
+        <WIKIDATA>Q3774177</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Adrenarche</WIKIPEDIA>
         <preferred-name xml:lang="pt">adrenarca</preferred-name>
         <preferred-name xml:lang="en">adrenarche</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A stage of development at which the adrenal glands undergo maturation leading to the capability of producing increasing amounts of adrenal androgens, dehydroepiandrosterone and androstenedione. Adrenarche usually begins at about 7 or 8 years of age before the signs of puberty and continues throughout puberty.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">A stage of maturation of the cortex of the human adrenal glands, related to puberty, typically occurring between the ages of six and ten years and involving both structural and functional changes.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
@@ -9212,7 +9224,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#age_at_death">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
+        <EFO>EFO:0005056</EFO>
+        <NCIT>C135383</NCIT>
+        <WIKIDATA>Q50379085</WIKIDATA>
         <preferred-name xml:lang="en">age at death</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The age at which death occurred.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9221,6 +9237,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#age_at_onset">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
+        <EFO>EFO:0004847</EFO>
         <preferred-name xml:lang="en">age at onset</preferred-name>
     </owl:Class>
     
@@ -10115,7 +10132,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aneuploidy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#numerical_chromosomal_abnormality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ploidy"/>
+        <MESH_UID>D000782</MESH_UID>
+        <NCIT>C2873</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80056000</SCTID>
+        <WIKIDATA>Q529622</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Aneuploidie</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Aneuploidy</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Aneuplo%C3%AFdie</WIKIPEDIA>
         <preferred-name xml:lang="en">aneuploidy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A chromosomal abnormality in which there is an addition or loss of chromosomes within a set (e.g., 23 + 22 or 23 + 24).</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The chromosomal constitution of cells which deviate from the normal by the addition or subtraction of chromosomes, chromosome pairs, or chromosome fragments. In a normally diploid cell (diploidy) the loss of a chromosome pair is termed nullisomy (symbol: 2N-2), the loss of a single chromosome is monosomy (symbol: 2N-1), the addition of a chromosome pair is tetrasomy (symbol: 2N+2), the addition of a single chromosome is trisomy (symbol: 2N+1).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -13194,6 +13220,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#brothel">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_industry_premises"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
+        <WIKIDATA>Q131295</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Brothel</WIKIPEDIA>
         <colloquial-term xml:lang="en">disorderly house</colloquial-term>
         <preferred-name xml:lang="en">brothel</preferred-name>
@@ -14925,6 +14952,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#clinic">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_care_facility"/>
         <schema:alternateName xml:lang="en">clinics</schema:alternateName>
+        <WIKIDATA>Q1774898</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Clinic</WIKIPEDIA>
         <preferred-name xml:lang="en">clinic</preferred-name>
     </owl:Class>
@@ -17732,6 +17760,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#diploidy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ploidy"/>
+        <MESH_UID>D004171</MESH_UID>
+        <NCIT>C118941</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89304008</SCTID>
+        <WIKIDATA>Q5807735</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Diploidie</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Diploid%C3%ADa</WIKIPEDIA>
+        <preferred-name xml:lang="en">diploidy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Having two sets of homologous chromosomes.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The chromosomal constitution of cells, in which each type of chromosome is represented twice. Symbol: 2N or 2X.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19880,6 +19917,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#euploidy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ploidy"/>
+        <WIKIDATA>Q359648</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Euploidie</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Euploid%C3%ADa</WIKIPEDIA>
+        <preferred-name xml:lang="en">euploidy</preferred-name>
     </owl:Class>
     
 
@@ -20290,7 +20331,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#facility">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#site"/>
         <schema:alternateName xml:lang="en">facilities</schema:alternateName>
+        <NCIT>C62574</NCIT>
+        <WIKIDATA>Q13226383</WIKIDATA>
         <preferred-name xml:lang="en">facility</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Services and space and equipment provided for a particular purpose; a building or place that provides a particular service or is used for a particular industry.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22101,6 +22145,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_bathhouse">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_industry_premises"/>
+        <WIKIDATA>Q1531507</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_bathhouse</WIKIPEDIA>
         <preferred-name xml:lang="en">gay bathhouse</preferred-name>
         <slang-term xml:lang="en">the baths</slang-term>
@@ -23568,9 +23613,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#general_paresis_of_the_insane">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#late_quaternary_neurosyphilis"/>
+        <ICD-10-CM>A52.17</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">094.1</ICD-9-CM>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/General_paresis_of_the_insane</WIKIPEDIA>
         <acronym xml:lang="en">GPI</acronym>
         <preferred-name xml:lang="en">general paresis of the insane</preferred-name>
         <shortened-term xml:lang="en">general paresis</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">General paralysis of the insane is a severe neuropsychiatric disorder, classified as an organic mental disorder and caused by the chronic meningoencephalitis that leads to cerebral atrophy in late-stage syphilis.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">paralytic dementia</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -23870,9 +23919,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gestational_age">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
+        <terms:NLM>WQ 210.5</terms:NLM>
         <EFO>EFO:0005112</EFO>
         <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293325</FMA>
+        <MESH_TN>G07.345.500.325.235.968</MESH_TN>
+        <MESH_TN>G08.686.320</MESH_TN>
         <MESH_UID>D005865</MESH_UID>
+        <WIKIDATA>Q2253111</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gestational_age</WIKIPEDIA>
         <preferred-name xml:lang="en">gestational age</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The age of the conceptus, beginning from the time of fertilization. In clinical obstetrics, the gestational age is often estimated as the time from the last day of the last menstruation which is about 2 weeks before ovulation and fertilization.</oboInOwl1:hasDefinition>
@@ -24091,8 +24144,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gonadarche">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
+        <WIKIDATA>Q5581319</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gonadarche</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Gonadarqu%C3%ADa</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="it">https://it.wikipedia.org/wiki/Gonadarca</WIKIPEDIA>
+        <preferred-name xml:lang="it">gonadarca</preferred-name>
         <preferred-name xml:lang="en">gonadarche</preferred-name>
+        <preferred-name xml:lang="es">gonadarquía</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The earliest gonadal changes of puberty, when (in response to pituitary gonadotropins), the ovaries in girls and the testes in boys begin to grow and increase the production of the sex steroids, especially estradiol and testosterone.</oboInOwl1:hasDefinition>
     </owl:Class>
     
@@ -24630,6 +24688,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#haploidy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ploidy"/>
+        <WIKIDATA>Q3620638</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Haploidie</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Haploid%C3%ADa</WIKIPEDIA>
+        <preferred-name xml:lang="en">haploidy</preferred-name>
     </owl:Class>
     
 
@@ -25037,6 +25099,7 @@
         <preferred-name xml:lang="en">hegemonic masculinity</preferred-name>
         <preferred-name xml:lang="es">masculinidad hegemónica</preferred-name>
         <preferred-name xml:lang="fr">masculinité hégémonique</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Hegemonic masculinity is a practice that legitimizes men&apos;s dominant position in society and justifies the subordination of women, and other marginalized ways of being a man.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26189,7 +26252,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_height">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#body_measure"/>
+        <MESH_TN>E01.370.600.115.100.160.100</MESH_TN>
+        <MESH_TN>E05.041.124.160.500</MESH_TN>
+        <MESH_TN>G07.100.100.160.100</MESH_TN>
+        <MESH_TN>G07.345.249.314.100</MESH_TN>
+        <MESH_UID>D001827</MESH_UID>
+        <WIKIDATA>Q476112</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_height</WIKIPEDIA>
         <preferred-name xml:lang="en">human height</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The distance from the sole to the crown of the head with body standing on a flat surface and fully extended.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">human body height</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">stature</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -26566,7 +26637,16 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_weight">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#body_measure"/>
+        <MESH_TN>C23.888.144</MESH_TN>
+        <MESH_TN>E01.370.600.115.100.160.120</MESH_TN>
+        <MESH_TN>E05.041.124.160.750</MESH_TN>
+        <MESH_TN>G07.100.100.160.120</MESH_TN>
+        <MESH_TN>G07.345.249.314.120</MESH_TN>
+        <MESH_UID>D001835</MESH_UID>
+        <WIKIDATA>Q620876</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_body_weight</WIKIPEDIA>
         <preferred-name xml:lang="en">human weight</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The mass or quantity of heaviness of an individual. It is expressed by units of pounds or kilograms.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">human body weight</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -26729,6 +26809,7 @@
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Hyper-masculinit%C3%A9</WIKIPEDIA>
         <preferred-name xml:lang="fr">hyper-masculinité</preferred-name>
         <preferred-name xml:lang="en">hypermasculinity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Hypermasculinity is a psychological term for the exaggeration of male stereotypical behavior, such as an emphasis on physical strength, aggression, and sexuality.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26942,9 +27023,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hypomasculinity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculinity"/>
+        <rdfs:comment xml:lang="en">This term can be pejorative and it is important not to place a moral interpretation on whether it is desirable, only by whether it is adaptive or maladaptive.</rdfs:comment>
         <WIKIDATA>Q5959867</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hypomasculinity</WIKIPEDIA>
         <preferred-name xml:lang="en">hypomasculinity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Hypomasculinity is a psychological term for the absence of male stereotypical behaviour, for example, the absence of the de-emphasising of feelings, relationships, etc.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27271,6 +27354,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#immaterial_entity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#independent_continuant"/>
+        <schema:alternateName xml:lang="en">immaterial entities</schema:alternateName>
         <BFO>BFO:0000141</BFO>
         <preferred-name xml:lang="en">immaterial entity</preferred-name>
     </owl:Class>
@@ -29119,6 +29203,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#late_quaternary_neurosyphilis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#quaternary_syphilis"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266133006</SCTID>
         <preferred-name xml:lang="en">late quaternary neurosyphilis</preferred-name>
     </owl:Class>
     
@@ -29322,6 +29407,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#legal_gender">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <rdfs:comment xml:lang="en">Depending on legal acceptance of transgender people, changing one&apos;s legal gender may be expensive, inaccessible, or impossible, causing a great deal of stress, but also opening one up to potential violence.</rdfs:comment>
         <preferred-name xml:lang="en">legal gender</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Gender as reflected by legal documents (such as government-issued IDs).</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -29950,6 +30036,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#love_hotel">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_industry_premises"/>
+        <WIKIDATA>Q1033548</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Love_hotel</WIKIPEDIA>
         <preferred-name xml:lang="en">love hotel</preferred-name>
     </owl:Class>
     
@@ -30594,6 +30682,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculinity"/>
         <schema:alternateName xml:lang="en">masculinity scales</schema:alternateName>
         <preferred-name xml:lang="en">masculinity scale</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A scale which measures, or purports to measure, masculinity.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -31248,6 +31337,7 @@
         <MESH_UID>D008572</MESH_UID>
         <NCIT>C3228</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20016009</SCTID>
+        <WIKIDATA>Q492514</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Menarche</WIKIPEDIA>
         <preferred-name xml:lang="en">menarche</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The first menstrual cycle marked by the initiation of menstruation.</oboInOwl1:hasDefinition>
@@ -36754,6 +36844,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ploidy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cellular_quality"/>
         <PATO>PATO:0001374</PATO>
+        <WIKIDATA>Q118406</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Ploidiegrad</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ploidy</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Ploid%C3%ADa</WIKIPEDIA>
         <preferred-name xml:lang="en">ploidy</preferred-name>
     </owl:Class>
     
@@ -37161,6 +37255,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polyploidy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#numerical_chromosomal_abnormality"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ploidy"/>
+        <MESH_UID>D011123</MESH_UID>
+        <WIKIDATA>Q213410</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Polyploidie</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Polyploidy</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Polyplo%C3%AFdie</WIKIPEDIA>
         <preferred-name xml:lang="en">polyploidy</preferred-name>
     </owl:Class>
     
@@ -37484,6 +37583,19 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pubarche"/>
         <preferred-name xml:lang="en">premature pubarche</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">precocious puberty</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#premature_thelarche -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#premature_thelarche">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#thelarche"/>
+        <ICD-10-CM>E30.8</ICD-10-CM>
+        <WIKIDATA>Q26815924</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Vorzeitige_Thelarche</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Premature_thelarche</WIKIPEDIA>
+        <preferred-name xml:lang="en">premature thelarche</preferred-name>
     </owl:Class>
     
 
@@ -38328,7 +38440,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pubarche">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
+        <WIKIDATA>Q490608</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Pubarche</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pubarche</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Pubarquia</WIKIPEDIA>
         <preferred-name xml:lang="en">pubarche</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The first appearance of pubic hair in a child.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -38587,6 +38702,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#quaternary_syphilis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#acquired_syphilis"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278481001</SCTID>
         <preferred-name xml:lang="en">quaternary syphilis</preferred-name>
     </owl:Class>
     
@@ -39004,6 +39120,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#recreational_facility">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#facility"/>
         <schema:alternateName xml:lang="en">recreationaal facilities</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">257657002</SCTID>
         <preferred-name xml:lang="en">recreational facility</preferred-name>
     </owl:Class>
     
@@ -39727,9 +39844,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#role-playing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_role"/>
+        <MESH_UID>D012381</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51491004</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Role-playing</WIKIPEDIA>
         <alternative-spelling xml:lang="en">role playing</alternative-spelling>
         <preferred-name xml:lang="en">role-playing</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Role-playing is the changing of one&apos;s behaviour to assume a role, either unconsciously to fill a social role, or consciously to act out an adopted role.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39742,6 +39862,7 @@
         <acronym xml:lang="en">RPG</acronym>
         <alternative-spelling xml:lang="en">roleplaying game</alternative-spelling>
         <preferred-name xml:lang="en">role-playing game</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A role-playing game is a game in which players assume the roles of characters in a fictional setting.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39762,6 +39883,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#role-playing"/>
         <alternative-spelling xml:lang="en">role play</alternative-spelling>
         <preferred-name xml:lang="en">roleplay</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The practice of roleplaying.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -41195,7 +41317,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_intercourse#sexarche</WIKIPEDIA>
         <preferred-name xml:lang="en">sexarche</preferred-name>
-        <oboInOwl1:hasDefinition xml:lang="en">age of first sexual intercourse.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Age of first sexual intercourse.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42245,6 +42367,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#roleplay"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_roleplay</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual roleplay</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Sexual roleplay is roleplay that has a strong erotic element.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42797,7 +42920,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#site">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#immaterial_entity"/>
         <schema:alternateName xml:lang="en">sites</schema:alternateName>
+        <BFO>BFO:0000029</BFO>
+        <NCIT>C37901</NCIT>
+        <SIO xml:lang="en">A site is a spatial region bounded (in part or in whole) by material entities and may be occupied by material entities.</SIO>
+        <SIO>SIO:000019</SIO>
         <preferred-name xml:lang="en">site</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A position in relation to its surroundings.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43824,7 +43952,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#spermarche">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
+        <WIKIDATA>Q1786531</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Spermarche</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Spermarche</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Espermarquia</WIKIPEDIA>
         <preferred-name xml:lang="en">spermarche</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The onset of male puberty; the first ejaculation.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">semenarche</oboInOwl1:hasExactSynonym>
@@ -44221,6 +44352,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#strip_club">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_industry_premises"/>
+        <WIKIDATA>Q6586445</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Strip_club</WIKIPEDIA>
         <preferred-name xml:lang="en">strip club</preferred-name>
     </owl:Class>
     
@@ -44751,9 +44884,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#syphilis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bacterial_sexually_transmitted_disease"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#spirochaetal_disease"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4166</DOID>
+        <EFO>EFO:0007504</EFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10062120</MEDDRA>
         <MESH_UID>D013587</MESH_UID>
+        <NCIT>C35055</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76272004</SCTID>
         <preferred-name xml:lang="en">syphilis</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A contagious bacterial infection caused by the spirochete Treponema pallidum. It is a sexually transmitted disorder, although it can also be transmitted from the mother to the fetus in utero. Typically, it is initially manifested with a single sore which heals without treatment. If the infection is left untreated, the initial stage is followed by skin rash and mucous membrane lesions. A late stage follows, which is characterized by damage of the internal organs, including the nervous system.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">A contagious venereal disease caused by the spirochete Treponema pallidum.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">An infection that is caused by the spirochete Treponema pallidum.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -45147,7 +45287,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
         <GO>GO:0042695</GO>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118186000</SCTID>
+        <WIKIDATA>Q994473</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Thelarche</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Telarquia</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Th%C3%A9larche</WIKIPEDIA>
         <preferred-name xml:lang="en">thelarche</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The beginning of development of the breasts in the female.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -47818,6 +47961,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#008635924"/>
         <preferred-name xml:lang="de">Virilität</preferred-name>
         <preferred-name xml:lang="en">virility</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The state of being manly; having characteristics associated with being male; exhibiting masculine traits to an exaggerated degree such as strength, forcefulness or vigor.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#masculinity"/>
     </owl:Class>
     
@@ -54710,9 +54854,6 @@
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1553-8095"/>
         <terms:title xml:lang="en">Why Can’t We Just Let Girls Be Girls? Readers on the Term ‘Tomboy’</terms:title>
         <schema:WebSite xml:lang="en">NYTimes.com</schema:WebSite>
-        <schema:alumniOf xml:lang="en">Cleveland State University</schema:alumniOf>
-        <schema:alumniOf xml:lang="en">The New School for Social Research</schema:alumniOf>
-        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</schema:birthDate>
         <schema:url>https://web.archive.org/web/20160412124112/https://www.nytimes.com/interactive/2015/10/19/style/let-girl-be-girls-readers-respond.html</schema:url>
     </owl:Class>
     
@@ -54903,7 +55044,6 @@
         <terms:title xml:lang="en">Gender Pronouns</terms:title>
         <schema:WebSite xml:lang="en">University of Wisconsin-Milwaukee</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180628211949/https://uwm.edu/lgbtrc/support/gender-pronouns/</schema:url>
-        <oboInOwl1:hasDefinition xml:lang="en">Pronouns which specifically indicate a particularly gender, usually male or female.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
