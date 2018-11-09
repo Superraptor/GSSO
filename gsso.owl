@@ -3237,6 +3237,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Center_for_Gender_Sanity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Center_for_Gender_Sanity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_organization"/>
+        <schema:location xml:lang="en">Bellingham, Washington, United States</schema:location>
+        <schema:url>http://gendersanity.com/</schema:url>
+        <preferred-name xml:lang="en">Center for Gender Sanity</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Cercle_Hermaphroditos -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Cercle_Hermaphroditos">
@@ -12576,6 +12587,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#bisexual_identity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_identity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_identity"/>
+        <schema:alternateName xml:lang="en">bisexual identities</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#bisexual_orientation"/>
+        <preferred-name xml:lang="en">bisexual identity</preferred-name>
+        <shortened-term xml:lang="en">bi</shortened-term>
+        <shortened-term xml:lang="en">bisexual</shortened-term>
+        <slang-term xml:lang="en">bi</slang-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bisexual_organization -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_organization">
@@ -12597,7 +12623,10 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#wx1DAQAAMAAJ"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.2307/454826"/>
         <schema:alternateName xml:lang="en">bisexual</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#bisexual_identity"/>
         <preferred-name xml:lang="en">bisexual orientation</preferred-name>
+        <shortened-term xml:lang="en">bi</shortened-term>
+        <slang-term xml:lang="en">bi</slang-term>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#bisexual_orientation"/>
@@ -12663,7 +12692,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
-        <rdfs:comment xml:lang="en">Historically, bi-sexuality or bisexuality (or being bi-sexual or bisexual) referred to having qualities of both sexes, i.e. being intersex or, in some cases, transgender.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Historically, bi-sexuality or bisexuality (or being bi-sexual or bisexual) referred to having qualities of both the male and female sexes, i.e. being intersex or, in some cases, transgender.</rdfs:comment>
         <WIKIDATA>Q43200</WIKIDATA>
         <preferred-name xml:lang="de">Bisexualität</preferred-name>
         <preferred-name xml:lang="nl">biseksualiteit</preferred-name>
@@ -12676,7 +12705,10 @@
         <preferred-name xml:lang="ja">両性愛</preferred-name>
         <preferred-name xml:lang="zh">雙性戀</preferred-name>
         <preferred-name xml:lang="ko">양성애</preferred-name>
-        <oboInOwl1:hasDefinition xml:lang="en">The state of being sexually or romantically attracted to members of either sex.</oboInOwl1:hasDefinition>
+        <shortened-term xml:lang="en">bi</shortened-term>
+        <shortened-term xml:lang="en">bisexual</shortened-term>
+        <slang-term xml:lang="en">bi</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">The state of being sexually or romantically attracted to members of the female and male sexes.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="zh">双性恋</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -25082,6 +25114,26 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hectocotylus</WIKIPEDIA>
         <preferred-name xml:lang="en">hectocotylus</preferred-name>
     </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hedge_on_the_dyke -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hedge_on_the_dyke">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#slangofveneryits03cary"/>
+        <historical-term xml:lang="en">hedge on the dyke</historical-term>
+        <preferred-name xml:lang="en">Slang for female pubic hair.</preferred-name>
+        <preferred-name xml:lang="en">hedge on the dyke</preferred-name>
+        <slang-term xml:lang="en">hedge on the dyke</slang-term>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#hedge_on_the_dyke"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/isReferencedBy"/>
+        <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#slangofveneryits03cary"/>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</schema:pageStart>
+    </owl:Axiom>
     
 
 
@@ -42972,6 +43024,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#slangofveneryits03cary -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#slangofveneryits03cary">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>Henry Nathaniel Cary</dc:creator>
+        <terms:title xml:lang="en">Synonyms of the Slang of Venery</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1916</schema:datePublished>
+        <INTERNET_ARCHIVE>slangofveneryits03cary</INTERNET_ARCHIVE>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#slavery -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#slavery">
@@ -49738,6 +49802,7 @@
         <terms:dateAccepted>14 January 2011</terms:dateAccepted>
         <terms:issued>March 2012</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0892-1997"/>
+        <terms:title xml:lang="en">On Pubescent Voice Change in Males</terms:title>
         <schema:datePublished>20 May 2011</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
         <schema:pageEnd>e40</schema:pageEnd>
