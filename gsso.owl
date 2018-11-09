@@ -12626,6 +12626,7 @@
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#bisexual_identity"/>
         <preferred-name xml:lang="en">bisexual orientation</preferred-name>
         <shortened-term xml:lang="en">bi</shortened-term>
+        <shortened-term xml:lang="en">bisexual</shortened-term>
         <slang-term xml:lang="en">bi</slang-term>
     </owl:Class>
     <owl:Axiom>
