@@ -793,6 +793,15 @@
     
 
 
+    <!-- http://schema.org/image -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/image">
+        <rdfs:comment xml:lang="en">image</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://schema.org/inLanguage -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/inLanguage">
@@ -3018,9 +3027,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bisexual_Pride_Flag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_flag"/>
         <dc:creator>Michael Page</dc:creator>
+        <schema:image>https://web.archive.org/web/20181110051325/https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Bi_flag.svg/512px-Bi_flag.svg.png</schema:image>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bisexual_pride_flag</WIKIPEDIA>
         <preferred-name xml:lang="en">Bisexual Pride Flag</preferred-name>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Bisexual_Pride_Flag"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/image"/>
+        <owl:annotatedTarget>https://web.archive.org/web/20181110051325/https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Bi_flag.svg/512px-Bi_flag.svg.png</owl:annotatedTarget>
+        <schema:license xml:lang="en">public domain</schema:license>
+    </owl:Axiom>
     
 
 
@@ -4155,6 +4171,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#GLBT_History_Museum">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#history_museum"/>
+        <schema:location xml:lang="en">4127 18th Street, San Francisco, California, United States 94114</schema:location>
+        <schema:url>http://www.glbthistory.org/museum/</schema:url>
         <preferred-name xml:lang="en">GLBT History Museum</preferred-name>
     </owl:Class>
     
@@ -4642,10 +4660,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Intersex_Flag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_flag"/>
         <dc:creator xml:lang="en">Intersex Human Rights Australia</dc:creator>
+        <schema:image>https://web.archive.org/web/20180726111936/https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Intersex_flag.svg/512px-Intersex_flag.svg.png</schema:image>
         <rdfs:comment xml:lang="en">This entry is specifically for the flag created by Intersex Human Rights Australia in July 2013.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intersex_flag</WIKIPEDIA>
         <preferred-name xml:lang="en">Intersex Flag</preferred-name>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Intersex_Flag"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/image"/>
+        <owl:annotatedTarget>https://web.archive.org/web/20180726111936/https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Intersex_flag.svg/512px-Intersex_flag.svg.png</owl:annotatedTarget>
+        <schema:license xml:lang="en">CC0</schema:license>
+    </owl:Axiom>
     
 
 
@@ -6638,9 +6663,16 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Pansexual_Pride_Flag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pansexual_flag"/>
+        <schema:image>https://web.archive.org/web/20181110051542/https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pansexuality_flag.svg/512px-Pansexuality_flag.svg.png</schema:image>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pansexual_pride_flag</WIKIPEDIA>
         <preferred-name xml:lang="en">Pansexual Pride Flag</preferred-name>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Pansexual_Pride_Flag"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/image"/>
+        <owl:annotatedTarget>https://web.archive.org/web/20181110051542/https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pansexuality_flag.svg/512px-Pansexuality_flag.svg.png</owl:annotatedTarget>
+        <schema:license xml:lang="en">public domain</schema:license>
+    </owl:Axiom>
     
 
 
@@ -7411,7 +7443,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Social_Security_number">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_identification_number"/>
+        <schema:location xml:lang="en">United States</schema:location>
         <rdfs:comment xml:lang="en">An SSN has become a de facto national identification number, but is not one in a necessarily official capacity.</rdfs:comment>
+        <WIKIDATA>Q5612679</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_Security_number</WIKIPEDIA>
         <acronym xml:lang="en">SSN</acronym>
         <preferred-name xml:lang="en">Social Security number</preferred-name>
     </owl:Class>
@@ -7932,10 +7967,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Transgender_Pride_Flag">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_flag"/>
         <dc:creator>Monica Helms</dc:creator>
+        <schema:image>https://web.archive.org/web/20180902232604/https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Transgender_Pride_flag.svg/512px-Transgender_Pride_flag.svg.png</schema:image>
         <WIKIDATA>Q47013273</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_flags#Transgender_Pride_Flag</WIKIPEDIA>
         <preferred-name xml:lang="en">Transgender Pride Flag</preferred-name>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Transgender_Pride_Flag"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/image"/>
+        <owl:annotatedTarget>https://web.archive.org/web/20180902232604/https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Transgender_Pride_flag.svg/512px-Transgender_Pride_flag.svg.png</owl:annotatedTarget>
+        <schema:license xml:lang="en">public domain</schema:license>
+    </owl:Axiom>
     
 
 
@@ -9102,6 +9144,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
         <schema:alternateName xml:lang="en">advocacy groups</schema:alternateName>
+        <WIKIDATA>Q431603</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Advocacy_group</WIKIPEDIA>
         <practices rdf:resource="https://github.com/Superraptor/GSSO#advocacy"/>
         <preferred-name xml:lang="en">advocacy group</preferred-name>
@@ -10435,6 +10478,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anthroponym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_name"/>
+        <WIKIDATA>Q10856962</WIKIDATA>
         <preferred-name xml:lang="en">anthroponym</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A personal name which refers to a human being.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -11081,6 +11125,8 @@
         <preferred-name xml:lang="en">assigned sex</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">sex assigned at birth</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="es">sexo asignado al nacimiento</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasNarrowSynonym rdf:resource="https://github.com/Superraptor/GSSO#assigned_female_at_birth"/>
+        <oboInOwl1:hasNarrowSynonym rdf:resource="https://github.com/Superraptor/GSSO#assigned_male_at_birth"/>
     </owl:Class>
     
 
@@ -11255,6 +11301,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#attractiveness">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#appearance"/>
+        <WIKIDATA>Q4818701</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Attractiveness</WIKIPEDIA>
         <preferred-name xml:lang="en">attractiveness</preferred-name>
     </owl:Class>
@@ -11323,6 +11370,16 @@
         <preferred-name xml:lang="en">augmentation mammoplasty</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A surgical procedure for increasing breast size using a prosthetic implant.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">breast augmentation</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#authentic_gender -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#authentic_gender">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181112183636/http://www.trans-parenting.com/understanding-gender/gender-definitions"/>
+        <preferred-name xml:lang="en">authentic gender</preferred-name>
     </owl:Class>
     
 
@@ -12588,6 +12645,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#birth_sex -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#birth_sex">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex"/>
+        <preferred-name xml:lang="en">birth sex</preferred-name>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#assigned_sex"/>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#natal_sex"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#birthday -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#birthday">
@@ -13222,6 +13290,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#brand_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#name"/>
+        <schema:alternateName xml:lang="en">brand names</schema:alternateName>
+        <WIKIDATA>Q2519914</WIKIDATA>
         <alternative-spelling xml:lang="en">brandname</alternative-spelling>
         <preferred-name xml:lang="en">brand name</preferred-name>
     </owl:Class>
@@ -13683,6 +13753,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#car_crime">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#crime"/>
         <preferred-name xml:lang="en">car crime</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cardinal_tissue_part -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cardinal_tissue_part">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#postnatal_anatomical_structure"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67536</FMA>
+        <preferred-name xml:lang="en">cardinal tissue part</preferred-name>
     </owl:Class>
     
 
@@ -15168,6 +15248,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#clique">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
         <schema:alternateName xml:lang="en">cliques</schema:alternateName>
+        <WIKIDATA>Q1662634</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Clique</WIKIPEDIA>
         <preferred-name xml:lang="en">clique</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A clique, in the social sciences, is a group of individuals who interact with one another and share similar interests.</oboInOwl1:hasDefinition>
@@ -15295,6 +15376,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#code_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#name"/>
+        <schema:alternateName xml:lang="en">code names</schema:alternateName>
+        <WIKIDATA>Q590490</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Code_name</WIKIPEDIA>
         <preferred-name xml:lang="en">code name</preferred-name>
     </owl:Class>
     
@@ -15713,8 +15797,11 @@
         <schema:alternateName xml:lang="en">communities</schema:alternateName>
         <NCIT>C16453</NCIT>
         <SIO>SIO:001064</SIO>
+        <WIKIDATA>Q177634</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Community</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Comunidad</WIKIPEDIA>
         <preferred-name xml:lang="en">community</preferred-name>
+        <preferred-name xml:lang="es">comunidad</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A community is a sizeable social unit that shares common values.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">A set of people with some shared element. The substance of shared element varies widely, from geography to a situation to interest to lives and values. The term is widely used to evoke sense of collectivity.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -16904,6 +16991,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cult">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
         <schema:alternateName xml:lang="en">cults</schema:alternateName>
+        <WIKIDATA>Q11038979</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cult</WIKIPEDIA>
         <preferred-name xml:lang="en">cult</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A group or sect of people with a religious, philosophical or cultural identity, often existing on the margins of society or exploitative towards its members.</oboInOwl1:hasDefinition>
@@ -16952,6 +17040,18 @@
         <preferred-name xml:lang="en">cultural bias</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">bigotry</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">prejudice</oboInOwl1:hasNarrowSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cultural_diversity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cultural_diversity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#diversity"/>
+        <MESH_UID>D018864</MESH_UID>
+        <preferred-name xml:lang="en">cultural diversity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Coexistence of numerous distinct ethnic, racial, religious, or cultural groups within one social unit, organization, or population.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18226,6 +18326,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <schema:alternateName xml:lang="en">dissociative disorders</schema:alternateName>
         <preferred-name xml:lang="en">dissociative disorder</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#diversity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#diversity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#characteristic"/>
+        <NCIT>C62263</NCIT>
+        <preferred-name xml:lang="en">diversity</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Variety; quality, state, fact, or instance of being different.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19662,6 +19773,30 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#epilation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#epilation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hair_removal"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10072354</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1449002</SCTID>
+        <preferred-name xml:lang="en">epilation</preferred-name>
+        <oboInOwl1:hasBroadSynonym rdf:resource="https://github.com/Superraptor/GSSO#hair_removal"/>
+        <oboInOwl1:hasDefinition xml:lang="en">Removal of hair by the roots.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#epilation_by_electrolysis -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#epilation_by_electrolysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#epilation"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48957009</SCTID>
+        <preferred-name xml:lang="en">epilation by electrolysis</preferred-name>
+        <shortened-term xml:lang="en">electrolysis</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#epispadias -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#epispadias">
@@ -20063,6 +20198,7 @@
         <schema:alternateName xml:lang="en">ethnic minorities</schema:alternateName>
         <WIKIDATA>Q769696</WIKIDATA>
         <preferred-name xml:lang="en">ethnic minority</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Subgroup within a community which has different national or cultural traditions from the majority group.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20589,6 +20725,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#eyebrow -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#eyebrow">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hair"/>
+        <schema:alternateName xml:lang="en">eyebrows</schema:alternateName>
+        <MESH_UID>D005138</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Eyebrow</WIKIPEDIA>
+        <preferred-name xml:lang="en">eyebrow</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Curved rows of hair located on the upper edges of the eye sockets.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#eyeglasses -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#eyeglasses">
@@ -20596,6 +20745,21 @@
         <preferred-name xml:lang="en">eyeglasses</preferred-name>
         <shortened-term xml:lang="en">glasses</shortened-term>
         <oboInOwl1:hasExactSynonym xml:lang="en">spectacles</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#eyelash -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#eyelash">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hair"/>
+        <schema:alternateName xml:lang="en">eyelashes</schema:alternateName>
+        <MESH_UID>D005140</MESH_UID>
+        <NCIT>C32576</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Eyelash</WIKIPEDIA>
+        <preferred-name xml:lang="en">eyelash</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any of the short hairs that grow on the edge of the eyelid.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The hairs which project from the edges of the eyelids.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -20858,6 +21022,11 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <schema:alternateName xml:lang="en">families</schema:alternateName>
         <MESH_UID>D005190</MESH_UID>
+        <WIKIDATA>Q8436</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Family</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Familia</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="la">https://la.wikipedia.org/wiki/Familia</WIKIPEDIA>
+        <preferred-name xml:lang="es">familia</preferred-name>
         <preferred-name xml:lang="en">family</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A social group consisting of parents or parent substitutes and children.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -21122,6 +21291,18 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#010389142"/>
         <preferred-name xml:lang="en">fellatio</preferred-name>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#oral_penile_stimulation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#felt_gender -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#felt_gender">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181112183636/http://www.trans-parenting.com/understanding-gender/gender-definitions"/>
+        <rdfs:comment xml:lang="en">This term can sometimes be derogatory, as it implies that one&apos;s gender is as simple as a feeling, rather than an integral part of their life. Terms like authetic gender should be used instead.</rdfs:comment>
+        <preferred-name xml:lang="en">felt gender</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The gender one experiences, or feels, internally.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21885,6 +22066,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fingerless_glove">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#glove"/>
         <preferred-name xml:lang="en">fingerless glove</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#fingernail -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fingernail">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nail"/>
+        <NCIT>C32609</NCIT>
+        <alternative-spelling xml:lang="en">finger nail</alternative-spelling>
+        <preferred-name xml:lang="en">fingernail</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The nail at the end of a finger.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22912,6 +23105,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender_and_sexual_diversity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_and_sexual_diversity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#diversity"/>
+        <acronym xml:lang="es">DSG</acronym>
+        <acronym xml:lang="pt">DSG</acronym>
+        <acronym xml:lang="en">GSM</acronym>
+        <preferred-name xml:lang="es">diversidad sexual y de género</preferred-name>
+        <preferred-name xml:lang="pt">diversidade sexual e de gênero</preferred-name>
+        <preferred-name xml:lang="en">gender and sexual diversity</preferred-name>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_and_sexual_minorities -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities">
@@ -22919,9 +23127,17 @@
         <MESH_UID>D000072339</MESH_UID>
         <acronym xml:lang="en">GSM</acronym>
         <preferred-name xml:lang="en">gender and sexual minorities</preferred-name>
+        <oboInOwl1:hasBroadSynonym xml:lang="en">gender, sexual, and romantic minorities</oboInOwl1:hasBroadSynonym>
         <oboInOwl1:hasDefinition xml:lang="en">Individuals including lesbian, gay, bisexual, transgender, queer, intersex, gender non-conforming people, and other populations whose sexual orientation or gender identity and reproductive development is considered outside cultural, societal, or physiological norms.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual and gender minorities</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_diversity"/>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasBroadSynonym"/>
+        <owl:annotatedTarget xml:lang="en">gender, sexual, and romantic minorities</owl:annotatedTarget>
+        <acronym xml:lang="en">GSRM</acronym>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
         <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasExactSynonym"/>
@@ -23093,6 +23309,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender_discordance -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_discordance">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <preferred-name xml:lang="en">gender discordance</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_disguise -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_disguise">
@@ -23131,6 +23356,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_diversity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_diversity"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gender_diverse"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_diversity</WIKIPEDIA>
         <preferred-name xml:lang="en">gender diversity</preferred-name>
@@ -23406,9 +23632,19 @@
     <!-- https://github.com/Superraptor/GSSO#gender_minority -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_minority">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
         <preferred-name xml:lang="en">gender minority</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Any of various gender identities which are ascribed minority status in a given culture or society.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_minority_youth -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_minority_youth">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_minority"/>
+        <preferred-name xml:lang="en">gender minority youth</preferred-name>
     </owl:Class>
     
 
@@ -23472,7 +23708,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_non-conformity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <rdfs:comment xml:lang="en">Note that some have pointed out that the idea of gender non-conformity seems to assume a single masculinity or single femininity, which appears to not be the case in many (if not all) cultures.</rdfs:comment>
-        <alternative-spelling xml:lang="en">gender nonconforming</alternative-spelling>
+        <alternative-spelling xml:lang="en">gender nonconformity</alternative-spelling>
         <preferred-name xml:lang="en">gender non-conformity</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The degree to which someone&apos;s conceptualizations of gender cues (clothing, usage of cosmetics, hairstyle, behavior, interests, etc.) seem to differ from  cultural norms of masculinity or femininity.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming"/>
@@ -23619,6 +23855,27 @@
         <alternative-spelling xml:lang="en">gender-role analysis</alternative-spelling>
         <preferred-name xml:lang="en">gender role analysis</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Analytical techniques utilized in psychology, psychiatry, and sociology which are related to gender roles.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_role_behavior -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_role_behavior">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_behavior"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_role"/>
+        <alternative-spelling xml:lang="en">gender role behaviour</alternative-spelling>
+        <preferred-name xml:lang="en">gender role behavior</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_role_norm -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_role_norm">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_norm"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_role"/>
+        <preferred-name xml:lang="en">gender role norm</preferred-name>
     </owl:Class>
     
 
@@ -24965,11 +25222,43 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#hair -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hair">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#skin_appendage"/>
+        <schema:alternateName xml:lang="en">hairs</schema:alternateName>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53667</FMA>
+        <MESH_UID>D006197</MESH_UID>
+        <NCIT>C32705</NCIT>
+        <UBERON>UBERON:0001037</UBERON>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hair</WIKIPEDIA>
+        <preferred-name xml:lang="en">hair</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A filament-like structure consisting of a shaft which projects to the surface of the skin from a root which is softer than the shaft and lodges in the cavity of a hair follicle. It is found on most surfaces of the body.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The filamentous outgrowth of the epidermis.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#hair_and_head_ornaments -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hair_and_head_ornaments">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#jewelry"/>
         <preferred-name xml:lang="en">hair and head ornaments</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hair_removal -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hair_removal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hair"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#removal"/>
+        <MESH_UID>D006204</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hair_removal</WIKIPEDIA>
+        <preferred-name xml:lang="en">hair removal</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Methods used to remove unwanted facial and body hair.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">removal of hair</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasNarrowSynonym rdf:resource="https://github.com/Superraptor/GSSO#epilation"/>
     </owl:Class>
     
 
@@ -25194,6 +25483,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hate"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
         <schema:alternateName xml:lang="en">hate groups</schema:alternateName>
+        <WIKIDATA>Q3233801</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hate_group</WIKIPEDIA>
         <preferred-name xml:lang="en">hate group</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A hate group is a social group that advocates and practices hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society.</oboInOwl1:hasDefinition>
@@ -26833,6 +27123,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#human_physical_appearance -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_physical_appearance">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physical_appearance"/>
+        <WIKIDATA>Q780294</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_physical_appearance</WIKIPEDIA>
+        <preferred-name xml:lang="en">human physical appearance</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Human physical appearance is the outward phenotype or look of human beings.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#human_population -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_population">
@@ -26996,6 +27298,19 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_sexuality</WIKIPEDIA>
         <preferred-name xml:lang="en">human sexuality</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human_skin_pigmentation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_skin_pigmentation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_physical_appearance"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#skin_pigmentation"/>
+        <WIKIDATA>Q853516</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_skin_color</WIKIPEDIA>
+        <preferred-name xml:lang="en">human skin pigmentation</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">human skin color</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -27629,6 +27944,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#identifier">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#identity"/>
         <schema:alternateName xml:lang="en">identifiers</schema:alternateName>
+        <WIKIDATA>Q853614</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Identifier</WIKIPEDIA>
         <acronym xml:lang="en">ID</acronym>
         <preferred-name xml:lang="en">identifier</preferred-name>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#name"/>
@@ -27648,6 +27965,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#characteristic"/>
         <terms:isReferencedBy rdf:resource="http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm"/>
         <schema:alternateName xml:lang="en">identities</schema:alternateName>
+        <WIKIDATA>Q844569</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Identity_(social_science)</WIKIPEDIA>
         <preferred-name xml:lang="en">identity</preferred-name>
     </owl:Class>
     
@@ -29659,6 +29978,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#laser_hair_removal -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#laser_hair_removal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#epilation"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309721001</SCTID>
+        <preferred-name xml:lang="en">laser hair removal</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">laser removal of hair</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#late_quaternary_neurosyphilis -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#late_quaternary_neurosyphilis">
@@ -30575,6 +30905,7 @@
         <schema:alternateName xml:lang="en">majority groups</schema:alternateName>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#minority_group"/>
         <preferred-name xml:lang="en">majority group</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A subgroup making up the majority within a larger group, sometimes lacking distinguishing characteristics from the larger group as a whole.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -33244,10 +33575,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#nail -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nail">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#skin_appendage"/>
+        <schema:alternateName xml:lang="en">nails</schema:alternateName>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54326</FMA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Nail_(anatomy)</WIKIPEDIA>
+        <preferred-name xml:lang="en">nail</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#name -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#identifier"/>
+        <schema:alternateName xml:lang="en">names</schema:alternateName>
+        <WIKIDATA>Q82799</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Name</WIKIPEDIA>
         <preferred-name xml:lang="en">name</preferred-name>
         <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#identifier"/>
     </owl:Class>
@@ -33258,6 +33604,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#name_change">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_name"/>
+        <WIKIDATA>Q2343619</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Name_change</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Cambio_de_nombre</WIKIPEDIA>
+        <preferred-name xml:lang="es">cambio de nombre</preferred-name>
         <preferred-name xml:lang="en">name change</preferred-name>
     </owl:Class>
     
@@ -33341,6 +33691,30 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#natal_gender -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#natal_gender">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181112183636/http://www.trans-parenting.com/understanding-gender/gender-definitions"/>
+        <rdfs:comment xml:lang="en">Generally speaking, this term should be avoided, as it confuses gender and sex.</rdfs:comment>
+        <derogatory-term xml:lang="en">natal gender</derogatory-term>
+        <preferred-name xml:lang="en">natal gender</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The gender one was &quot;born into&quot;.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#natal_sex -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#natal_sex">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex"/>
+        <preferred-name xml:lang="en">natal sex</preferred-name>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#assigned_sex"/>
+        <oboInOwl1:hasSynonym rdf:resource="https://github.com/Superraptor/GSSO#birth_sex"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#national_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#national_culture">
@@ -33354,6 +33728,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#national_identification_number">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ID_number"/>
+        <WIKIDATA>Q1140371</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/National_identification_number</WIKIPEDIA>
+        <acronym xml:lang="en">NIN</acronym>
         <preferred-name xml:lang="en">national identification number</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">national identity number</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">national insurance number</oboInOwl1:hasExactSynonym>
@@ -35910,6 +36287,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#passing">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#identity"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
+        <WIKIDATA>Q1784829</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Passing</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Passing_(sociology)</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Passing_(sociologie)</WIKIPEDIA>
+        <preferred-name xml:lang="de">Passing</preferred-name>
         <preferred-name xml:lang="en">passing</preferred-name>
     </owl:Class>
     
@@ -36609,6 +36991,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#personal_identification_number">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ID_number"/>
+        <WIKIDATA>Q674050</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Personal_identification_number</WIKIPEDIA>
         <acronym xml:lang="en">PIN</acronym>
         <preferred-name xml:lang="en">personal identification number</preferred-name>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">PIN number</oboInOwl1:hasRelatedSynonym>
@@ -36648,6 +37032,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#personal_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#name"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_attribute"/>
+        <schema:alternateName xml:lang="en">personal names</schema:alternateName>
         <rdfs:comment xml:lang="en">Note that, depending on the definition, &quot;personal names&quot; are not uniquely human in nature. Both dolphins and green-rumped parrotlets use such symbolic names as well.</rdfs:comment>
         <SIO>SIO:000183</SIO>
         <WIKIDATA>Q1071027</WIKIDATA>
@@ -36953,7 +37338,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#physical_appearance">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#appearance"/>
+        <MESH_UID>D000067029</MESH_UID>
         <preferred-name xml:lang="en">physical appearance</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The superficial physical looks, characteristics or qualities of an individual as distinguished from the underlying unseen nature or attributes.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -36964,7 +37351,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#attractiveness"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physical_appearance"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <WIKIDATA>Q758234</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Physical_attractiveness</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Atractivo_f%C3%ADsico</WIKIPEDIA>
+        <preferred-name xml:lang="es">atractivo físico</preferred-name>
         <preferred-name xml:lang="en">physical attractiveness</preferred-name>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">beauty</oboInOwl1:hasRelatedSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">handsomeness</oboInOwl1:hasRelatedSynonym>
@@ -37162,11 +37552,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_symbol"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Nazi_concentration_camp_badge"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <schema:image>https://web.archive.org/web/20171021031608/https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pink_triangle.svg/270px-Pink_triangle.svg.png</schema:image>
         <WIKIPEDIA>https://en.wikipedia.org/wiki/Pink_triangle</WIKIPEDIA>
         <preferred-name xml:lang="de">Rosa Winkel</preferred-name>
         <preferred-name xml:lang="en">pink triangle</preferred-name>
         <oboInOwl1:hasDefinition>A pink triangle has been a symbol for various LGBT identities, initially intended as a badge of shame, but later reclaimed as a positive symbol of self-identity. In Nazi Germany in the 1930s and 1940s, it began as one of the Nazi concentration camp badges, distinguishing those imprisoned because they had been identified by authorities as gay men, a category that also included bisexual men and transgender women.</oboInOwl1:hasDefinition>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#pink_triangle"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/image"/>
+        <owl:annotatedTarget>https://web.archive.org/web/20171021031608/https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pink_triangle.svg/270px-Pink_triangle.svg.png</owl:annotatedTarget>
+        <schema:license xml:lang="en">public domain</schema:license>
+    </owl:Axiom>
     
 
 
@@ -38530,6 +38927,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#proper_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#name"/>
+        <schema:alternateName xml:lang="en">proper names</schema:alternateName>
         <preferred-name xml:lang="en">proper name</preferred-name>
     </owl:Class>
     
@@ -39067,6 +39465,20 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#puberty-delaying_hormone_therapy">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone_therapy"/>
         <preferred-name xml:lang="en">puberty-delaying hormone therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#pubic_hair -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pubic_hair">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hair"/>
+        <schema:alternateName xml:lang="en">pubic hairs</schema:alternateName>
+        <NCIT>C33424</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pubic_hair</WIKIPEDIA>
+        <preferred-name xml:lang="en">pubic hair</preferred-name>
+        <slang-term rdf:resource="https://github.com/Superraptor/GSSO#hedge_on_the_dyke"/>
+        <oboInOwl1:hasDefinition xml:lang="en">Hair growing in the pubic area.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42401,6 +42813,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#sexual_diversity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_diversity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_diversity"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_diversity</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Diversidad_sexual</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="pt">https://pt.wikipedia.org/wiki/Diversidade_sexual</WIKIPEDIA>
+        <preferred-name xml:lang="es">diversidad sexual</preferred-name>
+        <preferred-name xml:lang="pt">diversidade sexual</preferred-name>
+        <preferred-name xml:lang="en">sexual diversity</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#sexual_division_of_labor -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_division_of_labor">
@@ -42762,6 +43188,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_minority">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
+        <WIKIDATA>Q589656</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_minority</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual minority</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Any of various sexual identities or orientations which are ascribed minority status in a given culture or society.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -43183,6 +43611,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#shaving -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#shaving">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hair_removal"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Shaving</WIKIPEDIA>
+        <preferred-name xml:lang="en">shaving</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#she -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#she">
@@ -43563,6 +44001,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#skin_appendage -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#skin_appendage">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subdivision_of_epidermis"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71012</FMA>
+        <preferred-name xml:lang="en">skin appendage</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#skin_pigmentation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#skin_pigmentation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physical_appearance"/>
+        <MESH_UID>D012880</MESH_UID>
+        <preferred-name xml:lang="en">skin pigmentation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Coloration of the skin.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">skin color</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#skirt -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#skirt">
@@ -43808,8 +44268,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#collective"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#group"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_entity"/>
+        <terms:DDC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305</terms:DDC>
         <schema:alternateName xml:lang="en">social groups</schema:alternateName>
+        <WIKIDATA>Q874405</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_group</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Grupo_social</WIKIPEDIA>
+        <preferred-name xml:lang="es">grupo social</preferred-name>
         <preferred-name xml:lang="en">social group</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A collection of humans or animals who share certain characteristics, interact with one another, accept expectations and obligations as members of the group, and share a common identity.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -45082,6 +45546,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#subdivision_of_epidermis -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#subdivision_of_epidermis">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#tissue_component_of_epithelium"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70593</FMA>
+        <preferred-name xml:lang="en">subdivision of epidermis</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#subject_pronoun -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#subject_pronoun">
@@ -46314,6 +46788,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#tissue_component_of_epithelium -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tissue_component_of_epithelium">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cardinal_tissue_part"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67538</FMA>
+        <preferred-name xml:lang="en">tissue component of epithelium</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#tissue_disorder -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tissue_disorder">
@@ -46338,6 +46822,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#toe_ring">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#foot_ornament"/>
         <preferred-name xml:lang="en">toe ring</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#toenail -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#toenail">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nail"/>
+        <NCIT>C33790</NCIT>
+        <alternative-spelling xml:lang="en">toe nail</alternative-spelling>
+        <preferred-name xml:lang="en">toenail</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A thin, horny translucent plate covering the end of each toe.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -47089,6 +47585,7 @@
     <!-- https://github.com/Superraptor/GSSO#transgender_youth -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_youth">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_minority_youth"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <WIKIDATA>Q2449779</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_youth</WIKIPEDIA>
@@ -56092,6 +56589,17 @@
         <terms:title xml:lang="en">LGBTTIQQ2SAA+ Definitions</terms:title>
         <schema:WebSite xml:lang="en">Revel &amp; Riot</schema:WebSite>
         <schema:url>https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20181112183636/http://www.trans-parenting.com/understanding-gender/gender-definitions -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20181112183636/http://www.trans-parenting.com/understanding-gender/gender-definitions">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:title xml:lang="en">Gender Definitions</terms:title>
+        <schema:WebSite xml:lang="en">Trans-Parenting</schema:WebSite>
+        <schema:url>https://web.archive.org/web/20181112183636/http://www.trans-parenting.com/understanding-gender/gender-definitions/</schema:url>
     </owl:Class>
     
 
