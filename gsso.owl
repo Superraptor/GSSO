@@ -1789,6 +1789,30 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#followed-by -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#followed-by">
+        <WIKIDATA>P156</WIKIDATA>
+        <WIKIDATA>Q24575113</WIKIDATA>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#follows"/>
+        <preferred-name xml:lang="en">followed by</preferred-name>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#follows -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#follows">
+        <WIKIDATA>P155</WIKIDATA>
+        <WIKIDATA>Q24575109</WIKIDATA>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#followed-by"/>
+        <preferred-name xml:lang="en">follows</preferred-name>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#former-term -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#former-term">
@@ -50230,8 +50254,19 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:publisher xml:lang="en">Medical Life Co.</terms:publisher>
         <terms:title xml:lang="en">Medical Life</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</schema:dissolutionDate>
+        <schema:editor>Victor Robinson</schema:editor>
         <schema:location xml:lang="en">New York City, New York, United States</schema:location>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000047551</HATHITRUST>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11295688</OCLC>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#000532365"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#000548283"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#009667435"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#1605191"/>
+        <former-term xml:lang="en">Medical Life: A Journal of Contemporary and Historical Medicine</former-term>
     </owl:Class>
     
 
@@ -50240,10 +50275,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#0003-0147">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">University of Chicago Press</terms:publisher>
         <terms:title xml:lang="en">The American Naturalist</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1867</schema:dateCreated>
         <schema:issn>0003-0147</schema:issn>
         <JSTOR rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00030147</JSTOR>
+        <WIKIDATA>Q3085258</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_American_Naturalist</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/The_American_Naturalist</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/The_American_Naturalist</WIKIPEDIA>
         <oboInOwl1:hasExactSynonym xml:lang="en">American Naturalist</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -50254,6 +50294,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#0004-8674">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:title xml:lang="en">Australian &amp; New Zealand Journal of Psychiatry</terms:title>
+        <WIKIDATA>Q4824838</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Australian_and_New_Zealand_Journal_of_Psychiatry</WIKIPEDIA>
         <acronym xml:lang="en">ANZJP</acronym>
         <alternative-spelling xml:lang="en">Australian and New Zealand Journal of Psychiatry</alternative-spelling>
@@ -50268,7 +50309,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#000504306">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:title xml:lang="en">The Alienist and Neurologist</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1880</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:dissolutionDate>
+        <schema:founder>Charles Hamilton Hughes</schema:founder>
+        <schema:issn>0894-0371</schema:issn>
+        <schema:location xml:lang="en">St. Louis, Missouri, United States</schema:location>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000504306</HATHITRUST>
+        <WIKIDATA>Q19913667</WIKIDATA>
     </owl:Class>
     
 
@@ -50279,7 +50326,29 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:publisher xml:lang="en">Urologic Publishing Association</terms:publisher>
         <terms:title xml:lang="en">American Journal of Urology and Sexology</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:dissolutionDate>
+        <schema:editor>Charles Greene Cumston</schema:editor>
+        <schema:editor>Henry G. Spooner</schema:editor>
+        <schema:editor>William J. Robinson</schema:editor>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000529545</HATHITRUST>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
+        <former-term xml:lang="en">The American Journal of Urology</former-term>
+        <former-term xml:lang="en">The American Journal of Urology: Genito-Urinary and Venereal Diseases</former-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">The Americal Journal of Urology and Sexology</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#000532365 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#000532365">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Nashville Journal of Medicine and Surgery</terms:title>
+        <schema:location xml:lang="en">Nashville, Tennessee, United States</schema:location>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000532365</HATHITRUST>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
+        <former-term xml:lang="en">The Nashville Journal of Medicine and Surgery</former-term>
     </owl:Class>
     
 
@@ -50290,11 +50359,15 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:publisher xml:lang="en">Austin Flint Association, Inc.</terms:publisher>
         <terms:title xml:lang="en">Medical Review of Reviews</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1897</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</schema:dissolutionDate>
+        <schema:location xml:lang="en">New York City, New York, United States</schema:location>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000535766</HATHITRUST>
-        <former-term xml:lang="en">American Medical Review</former-term>
-        <former-term xml:lang="en">Archives of Therapeutics</former-term>
-        <former-term xml:lang="en">Buffalo Medical Journal</former-term>
-        <former-term xml:lang="en">Gaillard&apos;s Southern Medicine</former-term>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1643104</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#100413040"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#10460572"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#7031954"/>
         <former-term xml:lang="en">Pediatrics</former-term>
         <former-term xml:lang="en">Southern Practitioner</former-term>
     </owl:Class>
@@ -50308,6 +50381,36 @@
         <schema:location xml:lang="en">Ann Arbor, Michigan, United States</schema:location>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000545437</HATHITRUST>
         <preferred-name xml:lang="en">The Inlander</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#000548283 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#000548283">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">The Detroit Medical Journal Company</terms:publisher>
+        <terms:title xml:lang="en">Detroit Medical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1901</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:dissolutionDate>
+        <schema:location xml:lang="en">Detroit, Michigan, United States</schema:location>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000548283</HATHITRUST>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#000548970 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#000548970">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Gaillard&apos;s Medical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1885</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1904</schema:dissolutionDate>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000548970</HATHITRUST>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37291583</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#8006198"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#8671930"/>
     </owl:Class>
     
 
@@ -50554,6 +50657,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#006270537 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#006270537">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">The Louisville Monthly Journal of Medicine and Surgery</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1899</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1916</schema:dissolutionDate>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">006270537</HATHITRUST>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#009667435"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#100468868"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#007125040 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#007125040">
@@ -50653,6 +50770,22 @@
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">008722600</HATHITRUST>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Psychopathia_sexualis_(Krafft-Ebing)</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychopathia_Sexualis_(book)</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#009667435 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#009667435">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">Mississippi Valley Medical Association</terms:publisher>
+        <terms:title xml:lang="en">Mississippi Valley Medical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:dissolutionDate>
+        <rdfs:comment xml:lang="en">This journal is different than the &quot;Mississippi Valley Medical Journal&quot; published by the Radiologic Review Publishing Company from 1939 to 1960 (ISSN: 0096-5480).</rdfs:comment>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">009667435</HATHITRUST>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#006270537"/>
     </owl:Class>
     
 
@@ -50759,6 +50892,20 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1777</terms:issued>
         <terms:title xml:lang="en">Travels through Spain and Portugal in 1774; with a Short Account of the Spanish Expedition against Algiers, in 1775</terms:title>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">010824925</HATHITRUST>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#011570181 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#011570181">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">The Richmond Medical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1866</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</schema:dissolutionDate>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">011570181</HATHITRUST>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">809154264</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#100413033"/>
     </owl:Class>
     
 
@@ -52247,6 +52394,38 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#100413033 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#100413033">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">The Richmond and Louisville Medical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1879</schema:dissolutionDate>
+        <schema:issn>1049-1074</schema:issn>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100413033</HATHITRUST>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8671886</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#7031971"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#011570181"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#100413040 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#100413040">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Buffalo Medical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1895</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1918</schema:dissolutionDate>
+        <schema:issn>1040-3825</schema:issn>
+        <schema:location xml:lang="en">Buffalo, New York, United States</schema:location>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100413040</HATHITRUST>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#10124009"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#100431730 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#100431730">
@@ -52255,6 +52434,21 @@
         <terms:title xml:lang="de">Archiv für Kriminal-Anthropologie und Kriminalistik</terms:title>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100431730</HATHITRUST>
         <alternative-spelling xml:lang="de">Archiv für Kriminal Anthropologie und Kriminalistik</alternative-spelling>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#100468868 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#100468868">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">The Louisville Journal of Surgery and Medicine</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1898</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1899</schema:dissolutionDate>
+        <schema:location xml:lang="en">Louisville, Kentucky, United States</schema:location>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100468868</HATHITRUST>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#006270537"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#1039685647"/>
     </owl:Class>
     
 
@@ -52300,6 +52494,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#10075665 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10075665">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Archives of Therapeutics</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1925</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1927</schema:dissolutionDate>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10075665</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#10968338"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#100912118 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#100912118">
@@ -52307,6 +52515,20 @@
         <terms:title xml:lang="en">Family Herald</terms:title>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100912118</HATHITRUST>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Family_Herald</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#10124009 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10124009">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Buffalo Medical and Surgical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1862</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1895</schema:dissolutionDate>
+        <schema:issn>1040-3825</schema:issn>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10124009</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#100413040"/>
     </owl:Class>
     
 
@@ -52364,6 +52586,51 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1039685647 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1039685647">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Mathews&apos; Quarterly Journal of Rectal and Gastro-Intestinal Diseases</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1897</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1898</schema:dissolutionDate>
+        <schema:location xml:lang="en">Louisville, Kentucky, United States</schema:location>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1039685647</OCLC>
+        <alternative-spelling xml:lang="en">Mathews&apos; Quarterly Journal of Rectal and Gastrointestinal Diseases</alternative-spelling>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#100468868"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#1049619736"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#10460572 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10460572">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">American Medical Review</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1895</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1897</schema:dissolutionDate>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10460572</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1049619736 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1049619736">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Mathews&apos; Medical Quarterly</terms:title>
+        <schema:alternateName xml:lang="en">Mathews&apos; Medical Quarterly: A Journal Devoted to Diseases of the Rectum, Gasto-Intestinal Disease, and Rectal and Gastro-Intestinal Surgery</schema:alternateName>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1894</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1896</schema:dissolutionDate>
+        <schema:editor xml:lang="en">Joseph M. Mathews</schema:editor>
+        <schema:location xml:lang="en">Louisville, Kentucky, United States</schema:location>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1049619736</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#1039685647"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1054-139X -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1054-139X">
@@ -52401,6 +52668,22 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Slate_(magazine)</WIKIPEDIA>
         <electronic-issn>1091-2339</electronic-issn>
         <print-issn>1090-6584</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#10968338 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10968338">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">Independent Medical Pub. Co.</terms:publisher>
+        <terms:title xml:lang="en">The Therapeutic and Dietetic Age</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1925</schema:dissolutionDate>
+        <schema:location xml:lang="en">Elmira, New York, United States</schema:location>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10968338</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#10075665"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#9842241"/>
     </owl:Class>
     
 
@@ -52698,6 +52981,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1535-3532 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1535-3532">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">Yale University Press</terms:publisher>
+        <terms:title xml:lang="en">Yale Journal of Health Policy, Law, and Ethics</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</schema:dateCreated>
+        <schema:issn>1535-3532</schema:issn>
+        <WIKIDATA>Q15763277</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Yale_Journal_of_Health_Policy,_Law,_and_Ethics</WIKIPEDIA>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1535-7228 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1535-7228">
@@ -52808,6 +53105,20 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Sex_Research</WIKIPEDIA>
         <electronic-issn>1559-8519</electronic-issn>
         <print-issn>0022-4499</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1605191 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1605191">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Medico-Historical Bulletin</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:dissolutionDate>
+        <schema:location xml:lang="en">New York, United States</schema:location>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1605191</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
     </owl:Class>
     
 
@@ -52991,8 +53302,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1939-1846">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0034461</terms:NLM>
         <terms:publisher xml:lang="en">American Psychological Association</terms:publisher>
         <terms:title xml:lang="en">Journal of Abnormal Psychology</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</schema:dateCreated>
+        <WIKIDATA>Q6294719</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Abnormal_Psychology</WIKIPEDIA>
         <electronic-issn>1939-1846</electronic-issn>
         <print-issn>0021-843X</print-issn>
@@ -53004,8 +53318,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1939-8298">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0370513</terms:NLM>
         <terms:publisher xml:lang="en">University of Illinois Press</terms:publisher>
         <terms:title xml:lang="en">American Journal of Psychology</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1887</schema:dateCreated>
+        <WIKIDATA>Q4744269</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Journal_of_Psychology</WIKIPEDIA>
         <acronym xml:lang="en">AJP</acronym>
         <electronic-issn>1939-8298</electronic-issn>
@@ -53035,7 +53352,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1943-278X">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7608054</terms:NLM>
+        <terms:publisher xml:lang="en">Wiley-Blackwell</terms:publisher>
         <terms:title xml:lang="en">Suicide and Life-Threatening Behavior</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1971</schema:dateCreated>
+        <WIKIDATA>Q15716384</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Suicide_and_Life-Threatening_Behavior</WIKIPEDIA>
         <electronic-issn>1943-278X</electronic-issn>
     </owl:Class>
@@ -53046,12 +53367,24 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1945-7197">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0375362</terms:NLM>
+        <terms:publisher xml:lang="en">The Endocrine Society</terms:publisher>
         <terms:title xml:lang="en">The Journal of Clinical Endocrinology &amp; Metabolism</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1941</schema:dateCreated>
+        <WIKIDATA>Q3186902</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Journal_of_Clinical_Endocrinology_and_Metabolism</WIKIPEDIA>
         <alternative-spelling xml:lang="en">The Journal of Clinical Endocrinology and Metabolism</alternative-spelling>
         <electronic-issn>1945-7197</electronic-issn>
+        <former-term xml:lang="en">Journal of Clinical Endocrinology</former-term>
+        <former-term xml:lang="en">The Journal of Clinical Endocrinology</former-term>
         <print-issn>0021-972X</print-issn>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#1945-7197"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/dateCreated"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1941</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">Published as &quot;The Journal of Clinical Endocrinology&quot; until 1952.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -53081,7 +53414,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2063-5303">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101602037</terms:NLM>
+        <terms:publisher>Akadémiai Kiadó</terms:publisher>
         <terms:title>Journal of Behavioral Addictions</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</schema:dateCreated>
+        <WIKIDATA>Q27020382</WIKIDATA>
         <electronic-issn>2063-5303</electronic-issn>
         <print-issn>2062-5871</print-issn>
     </owl:Class>
@@ -53092,7 +53429,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2153-3539">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101528849</terms:NLM>
+        <terms:publisher xml:lang="en">Medknow Publications</terms:publisher>
         <terms:title xml:lang="en">Journal of Pathology Informatics</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</schema:dateCreated>
+        <WIKIDATA>Q26842147</WIKIDATA>
         <electronic-issn>2153-3539</electronic-issn>
         <print-issn>2229-5089</print-issn>
     </owl:Class>
@@ -53103,7 +53444,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2167-4825">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101606826</terms:NLM>
+        <terms:publisher xml:lang="en">Springer Science+Business Media</terms:publisher>
         <terms:title xml:lang="en">Current Radiology Reports</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</schema:dateCreated>
+        <WIKIDATA>Q27724802</WIKIDATA>
         <electronic-issn>2167-4825</electronic-issn>
     </owl:Class>
     
@@ -53113,12 +53458,21 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2168-622X">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">American Medical Association</terms:publisher>
         <terms:title xml:lang="en">JAMA Psychiatry</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</schema:dateCreated>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/JAMA_Psychiatry</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/JAMA_Psychiatry</WIKIPEDIA>
         <electronic-issn>1538-3636</electronic-issn>
         <former-term xml:lang="en">Archives of General Psychiatry</former-term>
         <print-issn>2168-622X</print-issn>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#2168-622X"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/dateCreated"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">Known as &quot;Archives of General Psychiatry&quot; until 2013.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -53126,8 +53480,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2168-8184">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101596737</terms:NLM>
+        <terms:publisher xml:lang="en">Cureus, Inc.</terms:publisher>
         <terms:title xml:lang="en">Cureus</terms:title>
+        <schema:alternateName xml:lang="en">Cureus Journal of Medical Science</schema:alternateName>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</schema:dateCreated>
         <schema:issn>2168-8184</schema:issn>
+        <schema:license xml:lang="en">CC-BY 3.0</schema:license>
+        <WIKIDATA>Q27725810</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cureus</WIKIPEDIA>
         <former-term xml:lang="en">PeerEMed</former-term>
         <oboInOwl1:hasExactSynonym xml:lang="en">Cureus Journal of Medical Science</oboInOwl1:hasExactSynonym>
@@ -53139,8 +53499,28 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2211-1298">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
-        <schema:issn>2211-1298</schema:issn>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</schema:dateCreated>
+        <schema:editor>Susanne Lajoie</schema:editor>
+        <schema:editor>Yvonne Steinert</schema:editor>
+        <electronic-issn>2211-1301</electronic-issn>
         <preferred-name xml:lang="en">Advances in Medical Education</preferred-name>
+        <print-issn>2211-1298</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#22136012 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#22136012">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator>Liza Khan</dc:creator>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1535-3532"/>
+        <terms:title xml:lang="en">Transgender Health at the Crossroads: Legal Norms, Insurance Markets, and the Threat of Healthcare Reform</terms:title>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:volumeNumber>
+        <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22136012</PMID>
     </owl:Class>
     
 
@@ -53151,10 +53531,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101300692</terms:NLM>
         <terms:title xml:lang="en">Journal of Pakistan Psychiatric Society</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</schema:dateCreated>
         <acronym xml:lang="en">JPPS</acronym>
         <electronic-issn>2224-8897</electronic-issn>
         <print-issn>1726-8710</print-issn>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#2224-8897"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/dateCreated"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">The first issue from 2003 was blocked politically shortly after publication and was not reproduced. The journal later began publishing again in 2005.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -53165,7 +53552,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:publisher xml:lang="en">Duke University Press</terms:publisher>
         <terms:title xml:lang="en">TSQ: Transgender Studies Quarterly</terms:title>
+        <schema:alternateName xml:lang="en">Transgender Studies Quarterly</schema:alternateName>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</schema:dateCreated>
+        <WIKIDATA>Q23956376</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_Studies_Quarterly</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Transgender_Studies_Quarterly</WIKIPEDIA>
         <electronic-issn>2328-9260</electronic-issn>
         <print-issn>2328-9252</print-issn>
     </owl:Class>
@@ -53176,8 +53567,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2329-0390">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101634947</terms:NLM>
         <terms:publisher xml:lang="en">American Psychological Association</terms:publisher>
         <terms:title xml:lang="en">Psychology of Sexual Orientation and Gender Diversity</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</schema:dateCreated>
+        <schema:location xml:lang="en">Washington, D.C., United States</schema:location>
+        <WIKIDATA>Q18922603</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychology_of_Sexual_Orientation_and_Gender_Diversity</WIKIPEDIA>
         <electronic-issn>2329-0390</electronic-issn>
         <print-issn>2329-0382</print-issn>
@@ -53202,7 +53597,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2372-9708">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100973096</terms:NLM>
         <terms:title xml:lang="en">Humanity &amp; Society</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1977</schema:dateCreated>
+        <WIKIDATA>Q18350356</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Humanity_%26_Society</WIKIPEDIA>
         <electronic-issn>2372-9708</electronic-issn>
         <former-term xml:lang="en">Humanity and Society</former-term>
@@ -53215,7 +53613,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2380-193X">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101691357</terms:NLM>
+        <terms:publisher xml:lang="en">Mary Ann Liebert, Inc.</terms:publisher>
         <terms:title xml:lang="en">Transgender Health</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</schema:dateCreated>
+        <schema:location xml:lang="en">New Rochelle, New York, United States</schema:location>
         <electronic-issn>2380-193X</electronic-issn>
     </owl:Class>
     
@@ -53926,6 +54328,35 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#7031954 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#7031954">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Gaillard&apos;s Southern Medicine</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1905</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1911</schema:dissolutionDate>
+        <schema:issn>1060-7668</schema:issn>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7031954</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#8006198"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#7031971 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#7031971">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Gaillard&apos;s Medical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1879</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1883</schema:dissolutionDate>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7031971</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#8671930"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#100413033"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#8NoTAAAAIAAJ -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#8NoTAAAAIAAJ">
@@ -53936,6 +54367,35 @@
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:bookEdition>
         <schema:url>https://books.google.com/books?id=8NoTAAAAIAAJ</schema:url>
         <GOOGLE_BOOKS>8NoTAAAAIAAJ</GOOGLE_BOOKS>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#8006198 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#8006198">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Southern Medicine and Gaillard&apos;s Medical Journal</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1904</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1905</schema:dissolutionDate>
+        <schema:issn>1060-7994</schema:issn>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8006198</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#7031954"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#000548970"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#8671930 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#8671930">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Gaillard&apos;s Medical Journal and the American Medical Weekly</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1883</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1885</schema:dissolutionDate>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8671930</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000548970"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#7031971"/>
     </owl:Class>
     
 
@@ -54812,6 +55272,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9781938921001 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781938921001">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:publisher xml:lang="en">American College of Physicians</terms:publisher>
+        <terms:title xml:lang="en">Fenway Guide to Lesbian, Gay, Bisexual, and Transgender Health</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:bookEdition>
+        <schema:datePublished>30 April 2015</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781938921001</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">603</schema:numberOfPages>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9781945764028 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781945764028">
@@ -54956,6 +55430,19 @@
         <terms:title xml:lang="en">The Brooklyn Daily Eagle</terms:title>
         <schema:location xml:lang="en">Brooklyn, New York City, New York, United States</schema:location>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9817881</OCLC>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9842241 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9842241">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">The American Medical Press</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</schema:dissolutionDate>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9842241</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#10968338"/>
     </owl:Class>
     
 
