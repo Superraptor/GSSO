@@ -3328,6 +3328,7 @@
         <schema:birthDate>4 March 1969</schema:birthDate>
         <schema:birthPlace xml:lang="en">Los Angeles, California, United States</schema:birthPlace>
         <rdfs:comment xml:lang="en">Chaz Bono came out as lesbian in April 1995 during an interview with the gay and lesbian magazine &quot;The Advocate&quot;. Bono worked as a writer for &quot;The Advocate&quot; as well as a social activist: he was the spokesperson for the Human Rights Campaign, promoted National Coming Out Day, campaigned against the Defense of Marriage Act, and served as Entertainment Media Director for GLAAD. In mid-2008, Bono began undergoing a physical and social transition from female to male. His legal transition was completed on 6 May 2010.</rdfs:comment>
+        <WIKIDATA>Q979387</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Chaz_Bono</WIKIPEDIA>
         <preferred-name>Chaz Bono</preferred-name>
     </owl:Class>
@@ -3923,6 +3924,7 @@
         <schema:birthDate>25 June 1988</schema:birthDate>
         <schema:birthPlace xml:lang="en">Bogotá, Colombia</schema:birthPlace>
         <rdfs:comment xml:lang="en">Eliana Rubashkyn is a Colombian–born, former stateless, New Zealander, known internationally for being the first birth-assigned male to female trans woman legally recognized as a woman under international law without undergoing gender confirmation surgery.</rdfs:comment>
+        <WIKIDATA>Q18175132</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Eliana_Rubashkyn</WIKIPEDIA>
         <citizenship xml:lang="en">New Zealand</citizenship>
         <preferred-name xml:lang="en">Eliana Rubashkyn</preferred-name>
@@ -3944,6 +3946,7 @@
         <schema:birthPlace xml:lang="en">Metairie, Louisiana, United States</schema:birthPlace>
         <schema:spouse>Portia de Rossi</schema:spouse>
         <rdfs:comment xml:lang="en">In 1997, Ellen DeGeneres came out as a lesbian during an appearance on &quot;The Oprah Winfrey Show&quot;. DeGeneres went on to be engaged in August 2008 after the overturn of the same-sex marriage ban in California. Ellen&apos;s mother, Betty, is an active member of PFLAG and a spokesperson for the Human Rights Campaign&apos;s Coming Out project.</rdfs:comment>
+        <WIKIDATA>Q483325</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ellen_DeGeneres</WIKIPEDIA>
         <preferred-name xml:lang="en">Ellen DeGeneres</preferred-name>
     </owl:Class>
@@ -5694,6 +5697,7 @@
         <schema:alumniOf xml:lang="en">Marymount Manhattan College</schema:alumniOf>
         <schema:birthPlace xml:lang="en">Mobile, Alabama, United States</schema:birthPlace>
         <rdfs:comment xml:lang="en">Laverne Cox was the first openly transgender person to be nominated for a Primetime Emmy Award in 2014 and the first to be nominated for an Emmy Award since Angela Morley in 1990. Cox was also the first openly transgender person to appear on the cover of &quot;Time&quot; magazine on 9 June 2014.</rdfs:comment>
+        <WIKIDATA>Q6502596</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Laverne_Cox</WIKIPEDIA>
         <preferred-name xml:lang="en">Laverne Cox</preferred-name>
     </owl:Class>
@@ -41295,6 +41299,7 @@
         <oboInOwl1:hasDefinition xml:lang="en">An article which is an academic work and is published, or will be published, in an academic or scholarly journal.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">academic article</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">academic articles</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">journal article</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -50365,11 +50370,11 @@
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000535766</HATHITRUST>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1643104</OCLC>
         <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#005614957"/>
         <follows rdf:resource="https://github.com/Superraptor/GSSO#100413040"/>
         <follows rdf:resource="https://github.com/Superraptor/GSSO#10460572"/>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#1590143"/>
         <follows rdf:resource="https://github.com/Superraptor/GSSO#7031954"/>
-        <former-term xml:lang="en">Pediatrics</former-term>
-        <former-term xml:lang="en">Southern Practitioner</former-term>
     </owl:Class>
     
 
@@ -50653,6 +50658,21 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1895</terms:issued>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">004159792</HATHITRUST>
         <preferred-name xml:lang="en">Student Slang</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#005614957 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#005614957">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Southern Practitioner</terms:title>
+        <schema:alternateName xml:lang="en">The Southern Practitioner</schema:alternateName>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1879</schema:dateCreated>
+        <schema:location xml:lang="en">Nashville, Tennessee, United States</schema:location>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">005614957</HATHITRUST>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1766203</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
     </owl:Class>
     
 
@@ -51042,6 +51062,8 @@
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1010</schema:pageStart>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</schema:volumeNumber>
         <DOI>10.1001/archpsyc.1979.01780090096010</DOI>
+        <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464739</PMID>
+        <WIKIDATA>Q41722308</WIKIDATA>
     </owl:Class>
     
 
@@ -51073,11 +51095,14 @@
         <terms:publisher xml:lang="de">Springer-Verlag</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1432-1203"/>
         <terms:title xml:lang="en">Different chromosome variants of Klinefelter&apos;s syndrome and plasma testosterone</terms:title>
+        <schema:datePublished>1 January 1972</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</schema:pageStart>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</schema:volumeNumber>
         <DOI>10.1007/BF00273439</DOI>
+        <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5046914</PMID>
+        <WIKIDATA>Q52994777</WIKIDATA>
     </owl:Class>
     
 
@@ -51097,6 +51122,7 @@
         <DOI>10.1007/s11199-012-0216-5</DOI>
         <PMCID>PMC3667985</PMCID>
         <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23729971</PMID>
+        <WIKIDATA>Q36888209</WIKIDATA>
     </owl:Class>
     
 
@@ -51139,6 +51165,7 @@
         <DOI>10.1007/s40134-018-0260-1</DOI>
         <PMCID>PMC5773616</PMCID>
         <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29392096</PMID>
+        <WIKIDATA>Q49293147</WIKIDATA>
     </owl:Class>
     
 
@@ -51169,9 +51196,14 @@
         <dc:creator>Roger D. Weiss</dc:creator>
         <dc:creator>Sari L. Reisner</dc:creator>
         <terms:title xml:lang="en">Substance Use and Treatment of Substance Use Disorders in a Community Sample of Transgender Adults</terms:title>
+        <schema:datePublished>22 April 2015</schema:datePublished>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</schema:volumeNumber>
         <DOI>10.1016/j.drugalcdep.2015.04.008</DOI>
         <PMCID>PMC4458188</PMCID>
         <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25953644</PMID>
+        <WIKIDATA>Q35690402</WIKIDATA>
     </owl:Class>
     
 
@@ -51190,6 +51222,7 @@
         <schema:datePublished>30 March 2018</schema:datePublished>
         <DOI>10.1016/j.jadohealth.2018.02.003</DOI>
         <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29609917</PMID>
+        <WIKIDATA>Q52612242</WIKIDATA>
     </owl:Class>
     
 
@@ -53075,7 +53108,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1550-5952">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:title xml:lang="en">Psychiatry 2010</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</schema:dateCreated>
         <schema:issn>1550-5952</schema:issn>
+        <WIKIDATA>Q7256246</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychiatry_MMC</WIKIPEDIA>
         <former-term xml:lang="en">Psychiatry (Edgemont)</former-term>
         <former-term xml:lang="en">Psychiatry MMC</former-term>
@@ -53105,6 +53140,19 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Sex_Research</WIKIPEDIA>
         <electronic-issn>1559-8519</electronic-issn>
         <print-issn>0022-4499</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1590143 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1590143">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Pediatrics</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1896</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</schema:dissolutionDate>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1590143</OCLC>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
     </owl:Class>
     
 
