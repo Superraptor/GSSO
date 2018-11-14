@@ -2605,6 +2605,49 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#American_Medical_Association -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Medical_Association">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_society"/>
+        <schema:foundingDate>7 May 1847</schema:foundingDate>
+        <schema:location xml:lang="en">Chicago, Illinois, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Medical_Association</WIKIPEDIA>
+        <acronym xml:lang="en">AMA</acronym>
+        <preferred-name xml:lang="en">American Medical Association</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#American_Psychiatric_Association -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Psychiatric_Association">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_society"/>
+        <schema:foundingDate>16 October 1844</schema:foundingDate>
+        <schema:location xml:lang="en">Washington, D.C., United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Psychiatric_Association</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:American_Psychiatric_Association</WIKIPEDIA>
+        <acronym xml:lang="en">APA</acronym>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#American_Psychological_Association"/>
+        <preferred-name xml:lang="en">American Psychiatric Association</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#American_Psychological_Association -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Psychological_Association">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scientific_society"/>
+        <schema:foundingDate xml:lang="en">July 1892</schema:foundingDate>
+        <schema:location xml:lang="en">Washington, D.C., United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Psychological_Association</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:American_Psychological_Association</WIKIPEDIA>
+        <acronym xml:lang="en">APA</acronym>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#American_Psychiatric_Association"/>
+        <preferred-name xml:lang="en">American Psychological Association</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#American_Veterans_for_Equal_Rights -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Veterans_for_Equal_Rights">
@@ -3517,6 +3560,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Club_Kids">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_New_York_City"/>
+        <WIKIDATA>Q2979942</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Club_Kids</WIKIPEDIA>
         <preferred-name xml:lang="en">Club Kids</preferred-name>
     </owl:Class>
@@ -4235,6 +4279,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Gay_Shame -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Gay_Shame">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_subculture"/>
+        <WIKIDATA>Q5528642</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_Shame</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Gay_Shame</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Gay_Shame</WIKIPEDIA>
+        <preferred-name xml:lang="en">Gay Shame</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Gayle -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Gayle">
@@ -4624,6 +4681,18 @@
         <WIKIDATA>Q4288399</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Day_to_End_Violence_Against_Sex_Workers</WIKIPEDIA>
         <preferred-name xml:lang="en">International Day to End Violence Against Sex Workers</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#International_Planned_Parenthood_Federation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#International_Planned_Parenthood_Federation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#voluntary_health_agency"/>
+        <MESH_UID>D066149</MESH_UID>
+        <acronym xml:lang="en">IPPF</acronym>
+        <preferred-name xml:lang="en">International Planned Parenthood Federation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-profit organization concerned with providing access to sexual and reproductive health information and services.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5220,6 +5289,7 @@
     <!-- https://github.com/Superraptor/GSSO#LGBT-related_film -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_film">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#film"/>
         <preferred-name xml:lang="en">LGBT-related film</preferred-name>
     </owl:Class>
@@ -5229,6 +5299,7 @@
     <!-- https://github.com/Superraptor/GSSO#LGBT-related_journal -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_journal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_periodical"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journal"/>
         <schema:alternateName xml:lang="en">LGBT-related journals</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_journals</WIKIPEDIA>
@@ -5266,6 +5337,18 @@
         <preferred-name xml:lang="en">LGBT-related media</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">LGBTI-related media</oboInOwl1:hasBroadSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">LGBT media</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_periodical -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_periodical">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_literature"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lists_of_LGBT-related_periodicals</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/List_of_LGBT_periodicals</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related periodical</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">LGBT periodical</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -5382,7 +5465,9 @@
         <WIKIPEDIA xml:lang="zh">https://zh.wikipedia.org/wiki/LGBT%E6%96%87%E5%8C%96</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">LGBTI culture</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">Culture shared by LGBTQIA+ individuals (gender and sexual minorities), including works by LGBTQIA+ people (contemporary and historical), understandings of LGBTQIA+ social movements, and identification with such individuals, among other things.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">GLBT culture</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">queer culture</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -5435,6 +5520,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_New_York">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <WIKIDATA>Q15267141</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_New_York_(state)</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in New York</preferred-name>
     </owl:Class>
@@ -5445,7 +5531,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_New_York_City">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_New_York"/>
+        <WIKIDATA>Q18148561</WIKIDATA>
+        <WIKIDATA>Q8577969</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_New_York_City</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_culture_in_New_York_City</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in New York City</preferred-name>
     </owl:Class>
     
@@ -30774,6 +30863,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbian_studies -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_studies">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_and_lesbian_studies"/>
+        <preferred-name xml:lang="en">lesbian studies</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbian_until_graduation -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_until_graduation">
@@ -32465,6 +32563,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_scale">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scale"/>
         <preferred-name xml:lang="en">medical scale</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#medical_society -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_society">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#learned_society"/>
+        <MESH_UID>D012955</MESH_UID>
+        <preferred-name xml:lang="en">medical society</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Societies whose membership is limited to physicians.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34817,6 +34926,22 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_intercourse"/>
         <preferred-name xml:lang="en">non-penetrative sexual intercourse</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">outercourse</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#non-profit_organization -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#non-profit_organization">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organization"/>
+        <MESH_UID>D009939</MESH_UID>
+        <alternative-spelling xml:lang="en">non-profit organisation</alternative-spelling>
+        <alternative-spelling xml:lang="en">nonprofit organisation</alternative-spelling>
+        <alternative-spelling xml:lang="en">nonprofit organization</alternative-spelling>
+        <preferred-name xml:lang="en">non-profit organization</preferred-name>
+        <shortened-term xml:lang="en">non-profit</shortened-term>
+        <shortened-term xml:lang="en">nonprofit</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Organizations which are not operated for a profit and may be supported by endowments or private contributions.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39179,10 +39304,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#professional_organization">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organization"/>
+        <MESH_UID>D012952</MESH_UID>
         <alternative-spelling xml:lang="en">professional organisation</alternative-spelling>
         <preferred-name xml:lang="en">professional organization</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Organizations composed of members with common interests and whose professions may be similar.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">professional societies</oboInOwl1:hasNarrowSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">professional society</oboInOwl1:hasNarrowSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">society</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -41724,9 +41852,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#scientific_society">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#learned_society"/>
         <schema:alternateName xml:lang="en">scientific societies</schema:alternateName>
+        <MESH_UID>D012958</MESH_UID>
         <WIKIDATA>Q748019</WIKIDATA>
         <preferred-name xml:lang="en">scientific society</preferred-name>
         <preferred-name xml:lang="es">sociedad científica</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Societies whose membership is limited to scientists.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -47383,11 +47513,18 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tranny">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <WIKIDATA>Q10883485</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Tranny</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Tranny_(argot)</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">trannie</alternative-spelling>
         <derogatory-term xml:lang="en">tranny</derogatory-term>
+        <euphemism xml:lang="en">t word</euphemism>
+        <euphemism xml:lang="en">t-word</euphemism>
         <preferred-name xml:lang="en">tranny</preferred-name>
+        <preferred-name xml:lang="fr">travelo</preferred-name>
         <proper-term rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <slang-term xml:lang="en">tranny</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A transgender person, usually a transgender woman. Originally a shortening of transvestite. Generally considered derogatory, offensive. Debate over the term’s offensiveness occurred in the early 2010s, but by 2017, the term was banned by several media stylebooks and labeled as hate speech by Facebook.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -49855,6 +49992,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#voluntary_health_agency -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#voluntary_health_agency">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-profit_organization"/>
+        <schema:alternateName xml:lang="en">voluntary health agencies</schema:alternateName>
+        <MESH_UID>D014837</MESH_UID>
+        <preferred-name xml:lang="en">voluntary health agency</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Non-profit organizations concerned with various aspects of health, e.g., education, promotion, treatment, services, etc.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#voluntary_manslaughter -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#voluntary_manslaughter">
@@ -50639,8 +50788,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
         <terms:title xml:lang="de">Jahrbuch für sexuelle Zwischenstufen</terms:title>
         <terms:title xml:lang="en">Yearbook for Intermediate Sexual Types</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1899</schema:dateCreated>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000046002</HATHITRUST>
+        <WIKIDATA>Q3806149</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Jahrbuch_f%C3%BCr_sexuelle_Zwischenstufen</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Jahrbuch_f%C3%BCr_sexuelle_Zwischenstufen</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="it">https://it.wikipedia.org/wiki/Jahrbuch_f%C3%BCr_sexuelle_Zwischenstufen</WIKIPEDIA>
     </owl:Class>
     
 
@@ -51381,6 +51534,20 @@
         <terms:title xml:lang="en">On Our Backs</terms:title>
         <schema:issn>0890-2224</schema:issn>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/On_Our_Backs</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#0890-7064 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#0890-7064">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8813032</terms:NLM>
+        <terms:title xml:lang="en">Journal of Psychology &amp; Human Sexuality</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</schema:dissolutionDate>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#1931-7611"/>
+        <print-issn>0890-7064</print-issn>
     </owl:Class>
     
 
@@ -53073,6 +53240,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1053-8720 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1053-8720">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9888071</terms:NLM>
+        <terms:title xml:lang="en">Journal of Gay &amp; Lesbian Social Services</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</schema:dateCreated>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22683509</OCLC>
+        <WIKIDATA>Q6295239</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Gay_and_Lesbian_Social_Services</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">Journal of Gay and Lesbian Social Services</alternative-spelling>
+        <electronic-issn>1540-4056</electronic-issn>
+        <print-issn>1053-8720</print-issn>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1054-139X -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1054-139X">
@@ -53081,6 +53266,21 @@
         <schema:issn>1054-139X</schema:issn>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Adolescent_Health</WIKIPEDIA>
         <former-term xml:lang="en">Journal of Adolescent Health Care</former-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1069-7438 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1069-7438">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9613966</terms:NLM>
+        <terms:title>Journal of neuro-AIDS</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</schema:dissolutionDate>
+        <schema:issn>1069-7438</schema:issn>
+        <WIKIDATA>Q27721012</WIKIDATA>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#1557-4091"/>
     </owl:Class>
     
 
@@ -53095,6 +53295,23 @@
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100415939</HATHITRUST>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2250886</OCLC>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_Medical_Times</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1089-4160 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1089-4160">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9891002</terms:NLM>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian_studies"/>
+        <terms:title xml:lang="en">Journal of Lesbian Studies</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</schema:dateCreated>
+        <WIKIDATA>Q15763995</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Lesbian_Studies</WIKIPEDIA>
+        <electronic-issn>1540-3548</electronic-issn>
+        <print-issn>1089-4160</print-issn>
     </owl:Class>
     
 
@@ -53242,8 +53459,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1434-4599">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101084025</terms:NLM>
         <terms:title xml:lang="en">International Journal of Transgenderism</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</schema:dateCreated>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56795128</OCLC>
+        <WIKIDATA>Q6051613</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Journal_of_Transgenderism</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/International_Journal_of_Transgenderism</WIKIPEDIA>
         <electronic-issn>1434-4599</electronic-issn>
         <print-issn>1553-2739</print-issn>
     </owl:Class>
@@ -53357,9 +53579,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1527-9375">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9887086</terms:NLM>
         <terms:publisher xml:lang="en">Duke University Press</terms:publisher>
         <terms:title xml:lang="en">GLQ: A Journal of Lesbian and Gay Studies</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</schema:dateCreated>
         <schema:url>http://glq.dukejournals.org/</schema:url>
+        <WIKIDATA>Q5513651</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/GLQ_(journal)</WIKIPEDIA>
         <electronic-issn>1527-9375</electronic-issn>
         <print-issn>1064-2684</print-issn>
@@ -53374,6 +53599,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:publisher xml:lang="en">Routledge</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
         <terms:title xml:lang="en">Journal of Bisexuality</terms:title>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Bisexuality</WIKIPEDIA>
         <electronic-issn>1529-9724</electronic-issn>
@@ -53475,9 +53701,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1540-3602">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7502386</terms:NLM>
         <terms:publisher xml:lang="en">Routledge</terms:publisher>
         <terms:title xml:lang="en">Journal of Homosexuality</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</schema:dateCreated>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01790856</OCLC>
+        <WIKIDATA>Q1514304</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Journal_of_Homosexuality</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Homosexuality</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Journal_of_Homosexuality</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="pt">https://pt.wikipedia.org/wiki/Journal_of_Homosexuality</WIKIPEDIA>
         <electronic-issn>1540-3602</electronic-issn>
         <print-issn>0091-8369</print-issn>
     </owl:Class>
@@ -53512,6 +53745,36 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1541-0889 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1541-0889">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Journal of Gay &amp; Lesbian Issues in Education</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</schema:dissolutionDate>
+        <electronic-issn>1541-0870</electronic-issn>
+        <followed-by rdf:resource="https://github.com/Superraptor/GSSO#1936-1653"/>
+        <print-issn>1541-0889</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1550-428X -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1550-428X">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101280127</terms:NLM>
+        <terms:title xml:lang="en">Journal of GLBT Family Studies</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</schema:dateCreated>
+        <WIKIDATA>Q15752461</WIKIDATA>
+        <electronic-issn>1550-4298</electronic-issn>
+        <print-issn>1550-428X</print-issn>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1550-5952 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1550-5952">
@@ -53537,6 +53800,38 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_New_York_Times</WIKIPEDIA>
         <electronic-issn>1553-8095</electronic-issn>
         <print-issn>0362-4331</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1553-8605 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1553-8605">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101238595</terms:NLM>
+        <terms:title xml:lang="en">Journal of LGBT Issues in Counseling</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</schema:dateCreated>
+        <WIKIDATA>Q15817852</WIKIDATA>
+        <electronic-issn>1553-8338</electronic-issn>
+        <print-issn>1553-8605</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1557-4091 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1557-4091">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101254470</terms:NLM>
+        <terms:title xml:lang="en">Journal of LGBT Health Research</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</schema:dateCreated>
+        <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</schema:dissolutionDate>
+        <WIKIDATA>Q27721236</WIKIDATA>
+        <electronic-issn>1557-4105</electronic-issn>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#1069-7438"/>
+        <print-issn>1557-4091</print-issn>
     </owl:Class>
     
 
@@ -53620,6 +53915,21 @@
         <terms:publisher xml:lang="en">BioMed Central</terms:publisher>
         <terms:title xml:lang="en">International Journal of Pediatric Endocrinology</terms:title>
         <electronic-issn>1687-9856</electronic-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1710-7598 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1710-7598">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">Ontario Institute for Studies in Education</terms:publisher>
+        <terms:title xml:lang="en">Canadian Online Journal of Queer Studies in Education</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</schema:dateCreated>
+        <WIKIDATA>Q15762195</WIKIDATA>
+        <electronic-issn>1710-7598</electronic-issn>
+        <print-issn>1710-7598</print-issn>
     </owl:Class>
     
 
@@ -53741,6 +54051,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1931-7611 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1931-7611">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101312593</terms:NLM>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_health"/>
+        <terms:title xml:lang="en">International Journal of Sexual Health</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</schema:dateCreated>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68192141</OCLC>
+        <WIKIDATA>Q6051569</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/International_Journal_of_Sexual_Health</WIKIPEDIA>
+        <electronic-issn>1931-762X</electronic-issn>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#0890-7064"/>
+        <print-issn>1931-7611</print-issn>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1932-6203 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1932-6203">
@@ -53751,6 +54079,41 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/PLOS_One</WIKIPEDIA>
         <alternative-spelling xml:lang="en">PLOS ONE</alternative-spelling>
         <former-term xml:lang="en">PLoS ONE</former-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1935-9705 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1935-9705">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101308349</terms:NLM>
+        <terms:title xml:lang="en">Journal of Gay &amp; Lesbian Mental Health</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</schema:dateCreated>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83831862</OCLC>
+        <WIKIDATA>Q6295235</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Journal_of_Gay_%26_Lesbian_Mental_Health</WIKIPEDIA>
+        <electronic-issn>1935-9713</electronic-issn>
+        <former-term xml:lang="en">Journal of Gay &amp; Lesbian Psychotherapy</former-term>
+        <print-issn>1935-9705</print-issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1936-1653 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1936-1653">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101578684</terms:NLM>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_youth"/>
+        <terms:title xml:lang="en">Journal of LGBT Youth</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</schema:dateCreated>
+        <WIKIDATA>Q15760165</WIKIDATA>
+        <electronic-issn>1936-1661</electronic-issn>
+        <follows rdf:resource="https://github.com/Superraptor/GSSO#1541-0889"/>
+        <print-issn>1936-1653</print-issn>
     </owl:Class>
     
 
