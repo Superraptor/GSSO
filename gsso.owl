@@ -2132,6 +2132,7 @@
     <owl:Class rdf:about="http://outhistory.org/files/original/68e8910fb2a7681a37544557a5178eb7.pdf">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#essay"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Allen_Irvin_Bernstein"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_history_in_the_United_States"/>
         <terms:title xml:lang="en">Millions of Queers (Our Homo America)</terms:title>
         <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1940</schema:dateCreated>
         <schema:url>https://web.archive.org/web/20181008191629/http://outhistory.org/files/original/2dac05a30b2e87f539355b361f9b6c41.pdf</schema:url>
@@ -2145,7 +2146,10 @@
 
     <owl:Class rdf:about="http://web.archive.org/web/19991005084543/http://chaparraltree.com:80/raq">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
-        <dc:creator>Raphael Carter</dc:creator>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Raphael_Carter"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne_gender_identity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_identity"/>
         <terms:title xml:lang="en">Androgyny RAQ (Rarely Asked Questions)</terms:title>
         <schema:dateModified>21 March 1998</schema:dateModified>
         <schema:url>http://web.archive.org/web/19991005084543/http://chaparraltree.com:80/raq</schema:url>
@@ -2158,6 +2162,7 @@
     <owl:Class rdf:about="http://web.archive.org/web/20010124102100/http://www.queernet.org:80/deviant">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#glossary"/>
         <terms:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</terms:hasVersion>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#BDSM"/>
         <terms:title xml:lang="en">Deviants&apos; Dictionary</terms:title>
         <schema:dateModified>21 July 1997</schema:dateModified>
         <schema:url>http://web.archive.org/web/20010124102100/http://www.queernet.org:80/deviant/</schema:url>
@@ -2178,6 +2183,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>T. Aaron Hans</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <terms:title>Gender Terms: Words We Speak, Words We Tweak</terms:title>
         <schema:url>http://web.archive.org/web/20010222082712/http://alisha_clarke.tripod.com:80/readings/gender_terms.htm</schema:url>
     </owl:Class>
@@ -2188,6 +2194,7 @@
 
     <owl:Class rdf:about="http://web.archive.org/web/20010307115554/http://www.neutrois.com/faq.htm">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#neutrois"/>
         <terms:title xml:lang="en">FAQ</terms:title>
         <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Neutrois.com"/>
         <schema:dateModified>23 November 2000</schema:dateModified>
@@ -2203,6 +2210,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Jamie Walker</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:title xml:lang="en">Other Words for the Other-gendered</terms:title>
         <schema:WebSite xml:lang="en">Third</schema:WebSite>
         <schema:url>http://web.archive.org/web/20010419214741/http://www.yak.net/third/Writings/other/otherwords.html</schema:url>
@@ -2217,6 +2226,7 @@
         <dc:creator>Stephe Feldman</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</terms:dateCopyrighted>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne_gender_identity"/>
         <terms:title xml:lang="en">Androgyne Online</terms:title>
         <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Androgyne_Online"/>
         <schema:dateCreated>20 April 2001</schema:dateCreated>
@@ -2230,6 +2240,7 @@
 
     <owl:Class rdf:about="http://web.archive.org/web/20060514033949/neutrois.0catch.com">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#neutrois"/>
         <terms:title xml:lang="en">Home</terms:title>
         <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Neutrois.com"/>
         <schema:dateCreated>5 May 2000</schema:dateCreated>
@@ -2244,6 +2255,7 @@
     <owl:Class rdf:about="http://web.archive.org/web/20060619163743/http://cydathria.com:80/ms_donna/tg_def.html">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Donna Lynn Matthews</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:title xml:lang="en">Definitions</terms:title>
         <schema:WebSite xml:lang="en">Donna&apos;s Hideout</schema:WebSite>
         <schema:dateCreated>May 1999</schema:dateCreated>
@@ -2300,6 +2312,7 @@
         <terms:issued>15 May 1914</terms:issued>
         <terms:publisher xml:lang="en">State Hospital Press</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#002073633"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
         <terms:title xml:lang="en">A Critical Digest of Some of the Newer Work Upon Homosexuality in Man and Woman</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">378</schema:pageEnd>
@@ -2694,6 +2707,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Anders_als_die_Andern">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_film"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1919</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
+        <WIKIDATA>Q491335</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Anders_als_die_Andern_(1919)</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Different_from_the_Others</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Anders_als_die_Andern</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Diff%C3%A9rent_des_autres</WIKIPEDIA>
         <preferred-name xml:lang="de">Anders als die Andern</preferred-name>
         <preferred-name xml:lang="en">Different from the Others</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Other than the Others</oboInOwl1:hasExactSynonym>
@@ -2706,6 +2725,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Androgyne_Online">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
         <dc:creator>Stephe Feldman</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne_gender_identity"/>
         <terms:title xml:lang="en">Androgyne Online</terms:title>
         <schema:dateCreated>20 April 2001</schema:dateCreated>
     </owl:Class>
@@ -3176,6 +3196,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Boys_in_the_Sand">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_erotic_film"/>
         <terms:issued>29 December 1971</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_pornography"/>
+        <WIKIDATA>Q4345631</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Boys_in_the_Sand</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Boys_in_the_Sand</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Boys_in_the_Sand</WIKIPEDIA>
         <preferred-name xml:lang="en">Boys in the Sand</preferred-name>
     </owl:Class>
     
@@ -4058,6 +4083,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
         <terms:issued>16 February 1896</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#9510687"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Paresis_Hall"/>
         <terms:title xml:lang="en">Extraordinary Revelations of a Gentlemanly Thief</terms:title>
     </owl:Class>
     
@@ -5115,7 +5141,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#film"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#rape_prevention_media"/>
         <terms:issued xml:lang="en">2006</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_assault_prevention"/>
         <terms:title xml:lang="en">Just Yell Fire</terms:title>
+        <WIKIDATA>Q6316470</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Just_Yell_Fire</WIKIPEDIA>
     </owl:Class>
     
 
@@ -5391,6 +5420,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_aging -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_aging">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#aging"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Ageing_and_LGBT_topics</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_ageing</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">LGBT ageing</alternative-spelling>
+        <preferred-name xml:lang="en">LGBT aging</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_archive -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_archive">
@@ -5563,6 +5604,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_drinking_establishment -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_drinking_establishment">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drinking_establishment"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_drinking_establishments</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT drinking establishment</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_event -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_event">
@@ -5612,9 +5663,21 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_history"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_history</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT history</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">LGBTQ history</oboInOwl1:hasBroadSynonym>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">gay history</oboInOwl1:hasNarrowSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_history_in_the_United_States -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_the_United_States">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_history_in_the_United_States</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_history_in_the_United_States</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT history in the United States</preferred-name>
     </owl:Class>
     
 
@@ -5661,6 +5724,16 @@
         <preferred-name xml:lang="en">LGBT museum</preferred-name>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">gay museum</oboInOwl1:hasNarrowSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">queer museum</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_nightclub -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_nightclub">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nightclub"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_nightclubs</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT nightclub</preferred-name>
     </owl:Class>
     
 
@@ -6601,6 +6674,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Nell_Kimball -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Nell_Kimball">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_worker"/>
+        <schema:birthDate>14 June 1854</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Illinois, United States</schema:birthPlace>
+        <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</schema:deathDate>
+        <schema:deathPlace xml:lang="en">United States</schema:deathPlace>
+        <WIKIDATA>Q1414983</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Nell_Kimball</WIKIPEDIA>
+        <preferred-name>Nell Kimball</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Neosexism_Scale -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Neosexism_Scale">
@@ -6614,6 +6703,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Neutrois.com">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#neutrois"/>
         <terms:title xml:lang="en">Neutrois.com</terms:title>
         <rdfs:comment xml:lang="en">According to domain hosting history, &quot;Neutrois.com&quot; was hosted by DEAFVISION.NET from December 2000 to April 2004, after which time it was deleted. It was then picked up by ACZL.COM in July 2004 and transferred to IREITHOST.COM in March 2007. The site was deleted again by IREITHOST.COM in January 2008. In May 2008, GLISE-SERVICE.DE picked up the site and then deleted it again in May 2009. Next, SITES.COM obtained &quot;Neutrois.com&quot; in October 2009. As of 12 October 2018, SITES.COM (via Wild West Domains, LLC) continues to host the site.</rdfs:comment>
         <rdfs:comment xml:lang="en">The site, under the name Neutrois Outpost, was &quot;resurrected on May 5, 2000&quot; according to an archived version from 30 August 2000 (see: https://web.archive.org/web/20000830081635/http://www.neutrois.com:80/).</rdfs:comment>
@@ -6627,6 +6717,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Nonbinary.org">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#wiki"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
         <schema:url>http://web.archive.org/web/20161208205703/http://nonbinary.org/wiki/Main_Page</schema:url>
         <preferred-name xml:lang="en">Nonbinary.org</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Nonbinary Wiki</oboInOwl1:hasExactSynonym>
@@ -6638,6 +6729,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Nonbinary_wiki">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#wiki"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
         <schema:url>https://nonbinary.miraheze.org/wiki/Main_Page</schema:url>
         <preferred-name xml:lang="en">Nonbinary wiki</preferred-name>
     </owl:Class>
@@ -6772,6 +6864,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#OutHistory">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
         <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Jonathan_Ned_Katz"/>
         <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</schema:foundingDate>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/OutHistory</WIKIPEDIA>
@@ -6827,6 +6920,7 @@
         <dc:creator>Amber Older</dc:creator>
         <terms:issued>21 August 1992</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1930-8965"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#political_correctness"/>
         <terms:title xml:lang="en">PC and Phemayle Wymyn</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</schema:pageStart>
@@ -7118,6 +7212,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
         <terms:issued>12 December 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#9541172"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#John_W._Lemke"/>
         <terms:title xml:lang="en">Probe Confirms Suicide Theory in Lemke Case</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:pageStart>
@@ -7196,6 +7291,16 @@
         <rdfs:comment xml:lang="en">Randall L. Sell was one of the first to estimate the prevalence of lesbians, gay men and bisexual people in a probability sample of the United States, United Kingdom and France. His work critically examines the variables used to measure health disparities. Sell has researched and published on the history and best practices of sampling gay sexual orientation and has created an assessment of sexual orientation (the Sell Scale).</rdfs:comment>
         <preferred-name>Randall L. Sell</preferred-name>
         <oboInOwl1:hasExactSynonym>Randall Sell</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Raphael_Carter -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Raphael_Carter">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Raphael_Carter</WIKIPEDIA>
+        <preferred-name>Raphael Carter</preferred-name>
     </owl:Class>
     
 
@@ -7665,6 +7770,7 @@
         <dc:creator>Douglas C. McMurtrie</dc:creator>
         <terms:issued>June 1914</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#009789713"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="en">Sexual Inversion among Women in Spain</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308</schema:pageEnd>
@@ -8006,6 +8112,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <terms:issued>July 1905</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000675318"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_invert"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_pervert"/>
         <terms:title>Robert Wilson Shufeldt</terms:title>
         <terms:title xml:lang="en">The Medico-Legal Consideration of Perverts and Inverts</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schema:issueNumber>
@@ -8036,7 +8144,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#The_Rejected">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_film"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#documentary_film"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</dc:date>
+        <dc:date>11 September 1961</dc:date>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#male_homosexuality"/>
+        <WIKIDATA>Q5493972</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Rejected</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/The_Rejected</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="pt">https://pt.wikipedia.org/wiki/The_Rejected</WIKIPEDIA>
         <preferred-name xml:lang="en">The Rejected</preferred-name>
     </owl:Class>
     
@@ -8049,6 +8162,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:issued>April 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:title xml:lang="en">The Sorrows of Jennie June</terms:title>
         <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:issueNumber>
@@ -8069,6 +8183,7 @@
         <dc:creator>Ellen Shumsky</dc:creator>
         <dc:creator>Lois Hart</dc:creator>
         <dc:creator>Rita Mae Brown</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian_feminism"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Woman-Identified_Woman</WIKIPEDIA>
         <alternative-spelling xml:lang="en">The Woman Identified Woman</alternative-spelling>
         <preferred-name xml:lang="en">The Woman-Identified Woman</preferred-name>
@@ -8474,6 +8589,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Universal_Declaration_of_Human_Rights">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_rights_document"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_rights"/>
         <acronym xml:lang="en">UDHR</acronym>
         <preferred-name xml:lang="en">Universal Declaration of Human Rights</preferred-name>
     </owl:Class>
@@ -8486,6 +8602,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator>Ferdinand Karsch</dc:creator>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000046002"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#pederasty"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#tribadism"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#uranism"/>
         <terms:title xml:lang="de">Uranismus oder Päderastie und Tribadie bei den Naturvölkern</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1901</schema:datePublished>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</schema:pageEnd>
@@ -8732,6 +8851,7 @@
         <terms:publisher xml:lang="fr">Éditions Gallimard</terms:publisher>
         <terms:source xml:lang="fr">Le Deuxième Sexe</terms:source>
         <terms:source xml:lang="en">The Second Sex</terms:source>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
         <terms:title xml:lang="en">Lived Experience</terms:title>
         <terms:title xml:lang="fr">L’expérience vécue</terms:title>
         <GOOGLE_BOOKS>XUHaAAAAMAAJ</GOOGLE_BOOKS>
@@ -8765,6 +8885,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_health_disparities"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1053/euhj.1999.2025"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1056/NEJM199107253250408"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Yentl_Syndrome</WIKIPEDIA>
         <preferred-name xml:lang="en">Yentl syndrome</preferred-name>
     </owl:Class>
     
@@ -8774,6 +8895,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Yogyakarta_Principles">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_rights_document"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_rights"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Yogyakarta_Principles</WIKIPEDIA>
         <preferred-name xml:lang="en">Yogyakarta Principles</preferred-name>
     </owl:Class>
     
@@ -9726,7 +9849,18 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aging">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#developmental_process"/>
+        <GO>GO:0007568</GO>
+        <MESH_UID>D000375</MESH_UID>
+        <NCIT>C16269</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248280005</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ageing</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Ageing</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">ageing</alternative-spelling>
         <preferred-name xml:lang="en">aging</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A developmental process that is a deterioration and loss of function over time. Aging includes loss of functions such as resistance to disease, homeostasis, and fertility, as well as wear and tear. Aging includes cellular senescence, but is more inclusive. May precede death and may succeed developmental maturation.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The gradual irreversible changes in structure and function of an organism that occur as a result of the passage of time.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The process of change in the structure and function of an organism that occurs with the passage of time.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">biological aging</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -10140,8 +10274,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#penetrative_sexual_intercourse"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#102300005"/>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2145000</SCTID>
+        <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#sodomy"/>
         <derogatory-term xml:lang="en">buggery</derogatory-term>
-        <derogatory-term xml:lang="en">sodomy</derogatory-term>
         <preferred-name xml:lang="de">Analsex</preferred-name>
         <preferred-name xml:lang="en">anal sex</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A sexual activity involving stimulation of a sexual partner’s anus and/or rectum, especially by penetration.</oboInOwl1:hasDefinition>
@@ -11696,6 +11830,8 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1918</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">Medico-Legal Journal</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
         <terms:title xml:lang="en">Autobiography of an Androgyne</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:editor>Alfred W. Herzog</schema:editor>
@@ -12000,6 +12136,7 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1886</terms:issued>
         <terms:language xml:lang="en">German</terms:language>
         <terms:publisher xml:lang="de">Verlag von Ferdinand Enke</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexology"/>
         <terms:title xml:lang="de">Psychopathia Sexualis</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <INTERNET_ARCHIVE>b20421746</INTERNET_ARCHIVE>
@@ -12163,6 +12300,16 @@
         <preferred-name xml:lang="en">banjee</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A young Latino or African American gay man who dresses in stereotypical masculine urban fashion.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">banjee boy</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bar -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bar">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#drinking_establishment"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bar</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bars</WIKIPEDIA>
     </owl:Class>
     
 
@@ -12347,6 +12494,21 @@
         <oboInOwl1:hasDefinition xml:lang="en">A specific behavioral problem that occurs in persistent patterns and characteristic clusters and that causes clinically significant impairment.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">behavior disorder</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">behaviour disorder</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#behavioral_science -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#behavioral_science">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_science"/>
+        <schema:alternateName xml:lang="en">behavioral sciences</schema:alternateName>
+        <schema:alternateName xml:lang="en">behavioural science</schema:alternateName>
+        <MESH_UID>D001525</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Behavioural_sciences</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Behavioural_sciences</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">behavioural science</alternative-spelling>
+        <preferred-name xml:lang="en">behavioral science</preferred-name>
     </owl:Class>
     
 
@@ -13166,6 +13328,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
         <rdfs:comment xml:lang="en">Historically, bi-sexuality or bisexuality (or being bi-sexual or bisexual) referred to having qualities of both the male and female sexes, i.e. being intersex or, in some cases, transgender.</rdfs:comment>
+        <MESH_UID>D001727</MESH_UID>
         <WIKIDATA>Q43200</WIKIDATA>
         <preferred-name xml:lang="de">Bisexualität</preferred-name>
         <preferred-name xml:lang="nl">biseksualiteit</preferred-name>
@@ -15571,6 +15734,15 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychological_testing"/>
         <preferred-name xml:lang="en">clinical psychological testing</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">clinical psychology testing</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#clinical_sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#clinical_sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <preferred-name xml:lang="en">clinical sexuality</preferred-name>
     </owl:Class>
     
 
@@ -19016,6 +19188,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#drinking_establishment -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drinking_establishment">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#restaurant"/>
+        <schema:alternateName xml:lang="en">drinking establishments</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Drinking_establishments</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Drinking_establishment</WIKIPEDIA>
+        <preferred-name xml:lang="en">drinking establishment</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#drive -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#drive">
@@ -19412,6 +19596,7 @@
         <MESH_TN>N03.219</MESH_TN>
         <MESH_UID>D004467</MESH_UID>
         <NCIT>C61331</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Economics</WIKIPEDIA>
         <preferred-name xml:lang="en">economics</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The branch of social science that deals with the production and distribution and consumption of goods and services and their management.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">The science of utilization, distribution, and consumption of services and materials.</oboInOwl1:hasDefinition>
@@ -21845,6 +22030,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#female_sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <preferred-name xml:lang="en">female sexuality</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#female_submission -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_submission">
@@ -22601,6 +22795,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#forensic_psychiatry -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#forensic_psychiatry">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychiatry"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Forensic_psychiatry</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Forensic_psychiatry</WIKIPEDIA>
+        <preferred-name xml:lang="en">forensic psychiatry</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#forensic_scientist -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#forensic_scientist">
@@ -22805,6 +23010,8 @@
         <dc:creator>Veronica Pamoukaghlian</dc:creator>
         <terms:issued>20 April 2012</terms:issued>
         <terms:publisher xml:lang="en">Global Neuroscience Initiative Foundation</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#nymphomania"/>
         <terms:title xml:lang="en">From Nymphomania to Hypersexuality</terms:title>
         <schema:WebSite xml:lang="en">Brain Blogger</schema:WebSite>
         <schema:url>https://web.archive.org/web/20171012071241/http://brainblogger.com/2012/04/20/from-nymphomania-to-hypersexuality/</schema:url>
@@ -23062,6 +23269,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_bar -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_bar">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_drinking_establishment"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bar"/>
+        <schema:alternateName xml:lang="en">gay bars</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_bar</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay bar</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_bathhouse -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_bathhouse">
@@ -23113,6 +23332,24 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#erotic_film"/>
         <preferred-name xml:lang="en">gay erotic film</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">gay pornographic film</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_history -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_history">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <preferred-name xml:lang="en">gay history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_history_in_the_United_States -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_history_in_the_United_States">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history"/>
+        <preferred-name xml:lang="en">gay history in the United States</preferred-name>
     </owl:Class>
     
 
@@ -23189,6 +23426,55 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_male_history -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_history">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history"/>
+        <preferred-name xml:lang="en">gay male history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_history_in_California -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_history_in_California">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_history_in_the_United_States"/>
+        <preferred-name xml:lang="en">gay male history in California</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_history_in_New_York -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_history_in_New_York">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_history_in_the_United_States"/>
+        <preferred-name xml:lang="en">gay male history in New York</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_history_in_New_York_City -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_history_in_New_York_City">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_history_in_New_York"/>
+        <preferred-name xml:lang="en">gay male history in New York City</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_history_in_the_United_States -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_history_in_the_United_States">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_history"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/History_of_gay_men_in_the_United_States</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay male history in the United States</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">history of gay men in the United States</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_male_speech -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_speech">
@@ -23253,6 +23539,16 @@
         <practices rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
         <preferred-name xml:lang="en">gay person</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A person who is attracted solely or primarily to others of the same gender (or sex, depending on precise usage), i.e. being either a male androphile or a female gynephile.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_pornography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_pornography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pornography"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_pornography</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay pornography</preferred-name>
     </owl:Class>
     
 
@@ -23531,6 +23827,38 @@
         <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasExactSynonym"/>
         <owl:annotatedTarget xml:lang="en">sexual and gender minorities</owl:annotatedTarget>
         <acronym xml:lang="en">SGM</acronym>
+    </owl:Axiom>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_and_sexual_minority_health -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_and_sexual_minority_health">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#minority_health"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Healthcare_and_the_LGBT_community</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Healthcare_and_the_LGBT_community</WIKIPEDIA>
+        <preferred-name xml:lang="en">gender and sexual minority health</preferred-name>
+        <oboInOwl1:hasNarrowSynonym xml:lang="en">LGBT health</oboInOwl1:hasNarrowSynonym>
+        <oboInOwl1:hasNarrowSynonym xml:lang="en">gay, lesbian, bisexual, and transgender health</oboInOwl1:hasNarrowSynonym>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">LGBT topics in medicine</oboInOwl1:hasRelatedSynonym>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">healthcare and the LGBT community</oboInOwl1:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gender_and_sexuality_studies -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_and_sexuality_studies">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interdisciplinary_humanities"/>
+        <preferred-name xml:lang="en">gender and sexuality studies</preferred-name>
+        <oboInOwl1:hasBroadSynonym xml:lang="en">women&apos;s, gender and sexuality studies</oboInOwl1:hasBroadSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexuality_studies"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasBroadSynonym"/>
+        <owl:annotatedTarget xml:lang="en">women&apos;s, gender and sexuality studies</owl:annotatedTarget>
+        <acronym xml:lang="en">WGSS</acronym>
     </owl:Axiom>
     
 
@@ -24028,6 +24356,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gender_minority_health -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_minority_health">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minority_health"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_minority"/>
+        <preferred-name xml:lang="en">gender minority health</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gender_minority_youth -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_minority_youth">
@@ -24311,7 +24649,7 @@
     <!-- https://github.com/Superraptor/GSSO#gender_studies -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gender_studies">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#interdisciplinary_humanities"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexuality_studies"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gender_studies</WIKIPEDIA>
         <preferred-name xml:lang="es">estudios de género</preferred-name>
@@ -26545,6 +26883,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <MESH_UID>D020010</MESH_UID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Heterosexuality</WIKIPEDIA>
         <preferred-name xml:lang="en">heterosexuality</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The state of being sexually and romantically attracted primarily or exclusively to persons of a gender identity different than one&apos;s own.</oboInOwl1:hasDefinition>
@@ -26784,6 +27123,47 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#history_of_human_female_sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#history_of_human_female_sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_sexuality"/>
+        <preferred-name xml:lang="en">history of human female sexuality</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#history_of_human_male_sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#history_of_human_male_sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_sexuality"/>
+        <preferred-name xml:lang="en">history of human male sexuality</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#history_of_human_sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#history_of_human_sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexuality"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_history"/>
+        <WIKIDATA>Q17003131</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/History_of_human_sexuality</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="pt">https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_sexualidade_humana</WIKIPEDIA>
+        <preferred-name xml:lang="en">history of human sexuality</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#history_of_transgender_health -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#history_of_transgender_health">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_health"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_history"/>
+        <preferred-name xml:lang="en">history of transgender health</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#histotrophic_viviparity -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#histotrophic_viviparity">
@@ -26869,6 +27249,27 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_social_movement"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homonationalism</WIKIPEDIA>
         <preferred-name xml:lang="en">homonationalism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#homophile -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homophile">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homophile</WIKIPEDIA>
+        <historical-term xml:lang="en">homophile</historical-term>
+        <modern-term rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <preferred-name xml:lang="en">homophile</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#homophilia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homophilia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexuality"/>
+        <preferred-name xml:lang="en">homophilia</preferred-name>
     </owl:Class>
     
 
@@ -27330,6 +27731,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#human_female_sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_female_sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_sexuality"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexuality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_female_sexuality</WIKIPEDIA>
+        <preferred-name xml:lang="en">human female sexuality</preferred-name>
+        <shortened-term xml:lang="en">female sexuality</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#human_fertilization -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_fertilization">
@@ -27479,6 +27892,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguistic_system"/>
         <schema:alternateName xml:lang="en">human language varieties</schema:alternateName>
         <preferred-name xml:lang="en">human language variety</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human_male_sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_male_sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_sexuality"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#male_sexuality"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_male_sexuality</WIKIPEDIA>
+        <preferred-name xml:lang="en">human male sexuality</preferred-name>
+        <shortened-term xml:lang="en">male sexuality</shortened-term>
     </owl:Class>
     
 
@@ -28291,6 +28716,10 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#George_W._Henry"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</terms:dateCopyrighted>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyny"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#femininity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#masculinity"/>
         <terms:title xml:lang="en">All the Sexes: A Study of Masculinity and Femininity</terms:title>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">599</schema:numberOfPages>
         <GOOGLE_BOOKS>iOgdAAAAMAAJ</GOOGLE_BOOKS>
@@ -29981,6 +30410,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#j1dJ8whOM8E">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_video"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Natalie_Wynn"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:title xml:lang="en">Tiffany Tumbles | ContraPoints</terms:title>
         <schema:datePublished>2 June 2018</schema:datePublished>
         <YOUTUBE>j1dJ8whOM8E</YOUTUBE>
@@ -30797,6 +31227,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbian_history -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_history">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history"/>
+        <preferred-name xml:lang="en">lesbian history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian_history_in_the_United_States -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_history_in_the_United_States">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_history"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_history_in_the_United_States</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/History_of_lesbianism_in_the_United_States</WIKIPEDIA>
+        <preferred-name xml:lang="en">lesbian history in the United States</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbian_separatism -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_separatism">
@@ -31555,6 +32007,15 @@
         <schema:alternateName xml:lang="en">male reproductive organs</schema:alternateName>
         <UBERON>UBERON:0003135</UBERON>
         <preferred-name xml:lang="en">male reproductive organ</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#male_sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
+        <preferred-name xml:lang="en">male sexuality</preferred-name>
     </owl:Class>
     
 
@@ -32578,6 +33039,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#medical_specialty -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_specialty">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medicine"/>
+        <NCIT>C17153</NCIT>
+        <preferred-name xml:lang="en">medical specialty</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The branches of medical science that deal with nonsurgical techniques.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#medicine -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medicine">
@@ -33062,6 +33534,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#minority_health">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#minority_group"/>
         <preferred-name xml:lang="en">minority health</preferred-name>
     </owl:Class>
     
@@ -34742,6 +35215,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#nightclub -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nightclub">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#recreational_facility"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">257647003</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Nightclubs</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Nightclubs</WIKIPEDIA>
+        <preferred-name xml:lang="en">nightclub</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#nightgown -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nightgown">
@@ -35541,6 +36026,21 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#misconduct"/>
         <preferred-name xml:lang="en">official misconduct</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">malfeasance in office</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#old_age -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#old_age">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#aging"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49808004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Old_age</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Old_age</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">old-age</alternative-spelling>
+        <preferred-name xml:lang="en">old age</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">advanced age</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">geriatric state</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -39673,6 +40173,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#psychiatry -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychiatry">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_specialty"/>
+        <MESH_UID>D011570</MESH_UID>
+        <NCIT>C17026</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394587001</SCTID>
+        <preferred-name xml:lang="en">psychiatry</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#psychic_hermaphrodite -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychic_hermaphrodite">
@@ -39827,8 +40339,13 @@
     <!-- https://github.com/Superraptor/GSSO#psychology -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychology">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_science"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#behavioral_science"/>
+        <NCIT>C17027</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">722162001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Psychology</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Psychology</WIKIPEDIA>
         <preferred-name xml:lang="en">psychology</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The study of behavior and cognition.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -39849,6 +40366,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Richard_von_Krafft-Ebing"/>
         <dc:language xml:lang="en">German</dc:language>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexology"/>
         <terms:title xml:lang="de">Psychopathia Sexualis</terms:title>
         <INTERNET_ARCHIVE>psychopathiasex06krafgoog</INTERNET_ARCHIVE>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Psychopathia_sexualis_(Krafft-Ebing)</WIKIPEDIA>
@@ -40099,6 +40617,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Virginia_Prince"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1967</terms:issued>
         <terms:publisher xml:lang="en">Argyle Books</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transvestite"/>
         <terms:title xml:lang="en">The Transvestite and His Wife</terms:title>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</schema:numberOfPages>
         <GOOGLE_BOOKS>pwXaAAAAMAAJ</GOOGLE_BOOKS>
@@ -41180,6 +41699,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#restaurant">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#commercial_building"/>
+        <schema:alternateName xml:lang="en">restaurants</schema:alternateName>
         <preferred-name xml:lang="en">restaurant</preferred-name>
     </owl:Class>
     
@@ -42618,6 +43138,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#sex_crime -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_crime">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#crime"/>
+        <schema:alternateName xml:lang="en">sex crimes</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sex_crimes</WIKIPEDIA>
+        <preferred-name xml:lang="en">sex crime</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#sex_determination -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_determination">
@@ -42707,6 +43238,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_industry"/>
         <preferred-name xml:lang="en">sex industry premises</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">sex services premises</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sex_law -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_law">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#law"/>
+        <schema:alternateName xml:lang="en">sex laws</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sex_laws</WIKIPEDIA>
+        <preferred-name xml:lang="en">sex law</preferred-name>
     </owl:Class>
     
 
@@ -42882,11 +43424,25 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#008635924"/>
         <schema:alternateName xml:lang="en">sexologists</schema:alternateName>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#sexology"/>
         <preferred-name xml:lang="it">sessuologo</preferred-name>
         <preferred-name xml:lang="en">sexologist</preferred-name>
         <preferred-name xml:lang="nl">sexuoloog</preferred-name>
         <preferred-name xml:lang="ru">сексо́лог</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Someone who studies, or is an expert in, sex and sexuality.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sexology -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexology">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#behavioral_science"/>
+        <MESH_UID>D044347</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sexology</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexology</WIKIPEDIA>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
+        <preferred-name xml:lang="en">sexology</preferred-name>
     </owl:Class>
     
 
@@ -43687,6 +44243,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#sexual_minority_health -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_minority_health">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minority_health"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_minority"/>
+        <preferred-name xml:lang="en">sexual minority health</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#sexual_minority_youth -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_minority_youth">
@@ -44011,6 +44577,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_behavior"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
+        <MESH_UID>D019529</MESH_UID>
         <WIKIDATA>Q4042967</WIKIDATA>
         <preferred-name xml:lang="de">Sexualität</preferred-name>
         <preferred-name xml:lang="es">sexualidad</preferred-name>
@@ -44541,6 +45108,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#slangofveneryits03cary">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Henry Nathaniel Cary</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_slang"/>
         <terms:title xml:lang="en">Synonyms of the Slang of Venery</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1916</schema:datePublished>
         <INTERNET_ARCHIVE>slangofveneryits03cary</INTERNET_ARCHIVE>
@@ -44775,6 +45343,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_history">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#history"/>
+        <WIKIDATA>Q908604</WIKIDATA>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Sozialgeschichte</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_history</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Historia_social</WIKIPEDIA>
         <preferred-name xml:lang="en">social history</preferred-name>
     </owl:Class>
     
@@ -45194,7 +45766,9 @@
     <!-- https://github.com/Superraptor/GSSO#sociology -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sociology">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_science"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#behavioral_science"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sociology</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sociology</WIKIPEDIA>
         <preferred-name xml:lang="en">sociology</preferred-name>
     </owl:Class>
     
@@ -45246,6 +45820,35 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sociosexual_identity"/>
         <schema:alternateName xml:lang="en">sociosexual scripts</schema:alternateName>
         <preferred-name xml:lang="en">sociosexual script</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sodomy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sodomy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_activity"/>
+        <rdfs:comment xml:lang="en">Due to the negative connotation, impreciseness, and derogatory nature of the word &quot;sodomy&quot; it is recommended that the term be avoided in favor of more positive and specific language in nearly all circumstances. However, when it cannot be determined which act a historical document is referring to, the term may be used as a classifier.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sodomy</WIKIPEDIA>
+        <derogatory-term xml:lang="en">sodomy</derogatory-term>
+        <historical-term xml:lang="en">sodomy</historical-term>
+        <modern-term rdf:resource="https://github.com/Superraptor/GSSO#anal_sex"/>
+        <modern-term rdf:resource="https://github.com/Superraptor/GSSO#oral_sex"/>
+        <preferred-name xml:lang="en">sodomy</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#anal_sex"/>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#oral_sex"/>
+        <oboInOwl1:hasDefinition xml:lang="en">Sodomy was generally used to refer to anal or oral sex between people or sexual activity between a person and a non-human animal (bestiality), but it may also sometimes refer to any non-procreative sexual activity.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sodomy_law -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sodomy_law">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_law"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sodomy"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sodomy_law</WIKIPEDIA>
+        <preferred-name xml:lang="en">sodomy law</preferred-name>
     </owl:Class>
     
 
@@ -47873,8 +48476,12 @@
     <!-- https://github.com/Superraptor/GSSO#transgender_health -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_health">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#minority_health"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_minority_health"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Transgender_and_medicine</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender health</preferred-name>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">transgender health care</oboInOwl1:hasRelatedSynonym>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">transgender healthcare</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -47892,6 +48499,7 @@
     <!-- https://github.com/Superraptor/GSSO#transgender_history_in_the_United_States -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_history_in_the_United_States">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_the_United_States"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_history"/>
         <preferred-name xml:lang="en">transgender history in the United States</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">history of transgender people in the United States</oboInOwl1:hasExactSynonym>
@@ -47978,6 +48586,15 @@
         <shortened-term xml:lang="en">trans-man</shortened-term>
         <shortened-term xml:lang="en">transman</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">A man who was assigned female at birth.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_mental_health -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_mental_health">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_health"/>
+        <preferred-name xml:lang="en">transgender mental health</preferred-name>
     </owl:Class>
     
 
@@ -50291,6 +50908,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Radclyffe Hall</dc:creator>
         <terms:publisher xml:lang="en">Jonathan Cape</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="en">The Well of Loneliness</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</schema:datePublished>
         <INTERNET_ARCHIVE>wellofloneliness00hall</INTERNET_ARCHIVE>
@@ -50400,6 +51018,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#wiki">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Wiki</WIKIPEDIA>
         <preferred-name xml:lang="en">wiki</preferred-name>
     </owl:Class>
     
@@ -50576,6 +51195,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">Medico-Legal Journal</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:title xml:lang="en">The Female-Impersonators</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:editor>Alfred W. Herzog</schema:editor>
@@ -50602,6 +51222,7 @@
         <terms:publisher xml:lang="fr">Éditions Gallimard</terms:publisher>
         <terms:source xml:lang="fr">Le Deuxième Sexe</terms:source>
         <terms:source xml:lang="en">The Second Sex</terms:source>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
         <terms:title xml:lang="en">Facts and Myths</terms:title>
         <terms:title xml:lang="fr">Les Faits et les Mythes</terms:title>
         <GOOGLE_BOOKS>y5HWAAAAMAAJ</GOOGLE_BOOKS>
@@ -50775,6 +51396,7 @@
         <dc:creator>Tom Long</dc:creator>
         <terms:issued>2 June 1991</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#10317299"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_slang"/>
         <terms:title xml:lang="en">&apos;Gay, dyke, breeder&apos; — what do they really mean?</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</schema:pageStart>
@@ -50971,6 +51593,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>George W. Jacoby</dc:creator>
         <terms:publisher xml:lang="en">Funk &amp; Wagnalls Company</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#forensic_psychiatry"/>
         <terms:title xml:lang="en">The Unsound Mind and the Law: A Presentation of Forensic Psychiatry</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1918</schema:datePublished>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000620730</HATHITRUST>
@@ -51055,6 +51678,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#001183469">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#slang"/>
         <terms:title xml:lang="en">American Thesaurus of Slang</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1942</schema:datePublished>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">001183469</HATHITRUST>
@@ -51078,6 +51702,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#001441161">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#slang"/>
         <terms:title xml:lang="en">Slang and Its Analogues</terms:title>
         <schema:editor>John Stephen Farmer</schema:editor>
         <schema:editor>William Ernest Henley</schema:editor>
@@ -51092,6 +51717,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1968</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1968</schema:datePublished>
@@ -51107,6 +51733,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#001692367">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator xml:lang="en">John Addington Symonds</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="en">A Problem in Modern Ethics Being an Inquiry into the Phenomenon of Sexual Inversion</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1896</schema:datePublished>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</schema:numberOfPages>
@@ -51201,6 +51828,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#magazine_article"/>
         <dc:creator>William Clark Gore</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1895</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#slang"/>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">004159792</HATHITRUST>
         <preferred-name xml:lang="en">Student Slang</preferred-name>
     </owl:Class>
@@ -51266,6 +51894,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#007698550">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#slang"/>
         <terms:title xml:lang="en">Slang and Its Analogues</terms:title>
         <schema:bookEdition xml:lang="en">Revised</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1909</schema:datePublished>
@@ -51299,6 +51928,7 @@
         <dc:creator>William J. Robinson</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1916</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">The Critic and Guide Company</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_male_sexuality"/>
         <terms:title xml:lang="en">Sex Knowledge for Men</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</schema:datePublished>
@@ -51330,6 +51960,7 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</terms:issued>
         <terms:language xml:lang="en">English</terms:language>
         <terms:publisher xml:lang="en">F.A. Davis Company</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexology"/>
         <terms:title xml:lang="en">Psychopathia Sexualis</terms:title>
         <schema:bookEdition xml:lang="en">7; enlarged and revised</schema:bookEdition>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">008722600</HATHITRUST>
@@ -51362,6 +51993,8 @@
         <dc:creator>William H. Kupper</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1953</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">The Colt Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#psychiatry"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#psychology"/>
         <terms:title xml:lang="en">Dictionary of Psychiatry and Psychology</terms:title>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">009670128</HATHITRUST>
     </owl:Class>
@@ -51425,6 +52058,7 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1925</terms:issued>
         <terms:language xml:lang="en">English</terms:language>
         <terms:publisher xml:lang="en">Physicians and Surgeons Book Company</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexology"/>
         <terms:title xml:lang="en">Psychopathia Sexualis</terms:title>
         <schema:bookEdition xml:lang="en">12; revised</schema:bookEdition>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">009923653</HATHITRUST>
@@ -51442,6 +52076,7 @@
         <dc:creator>Frank S. Caprio</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1954</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">The Citadel Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#female_homosexuality"/>
         <terms:title xml:lang="en">Female Homosexuality: A Psychodynamic Study of Lesbianism</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">010389142</HATHITRUST>
@@ -51481,6 +52116,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>William J. Robinson</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#female_sexuality"/>
         <terms:title xml:lang="en">Sex Knowledge for Women and Girls</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1917</schema:datePublished>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#008635924"/>
@@ -51543,6 +52179,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#0890-7064">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8813032</terms:NLM>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_sexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#psychology"/>
         <terms:title xml:lang="en">Journal of Psychology &amp; Human Sexuality</terms:title>
         <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</schema:dateCreated>
         <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</schema:dissolutionDate>
@@ -51615,6 +52253,7 @@
         <dc:creator>Jon K. Meyer</dc:creator>
         <terms:issued>August 1979</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2168-622X"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
         <terms:title xml:lang="en">Sex Reassignment: Follow-up</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1015</schema:pageEnd>
@@ -51633,6 +52272,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <terms:issued>13 April 1901</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1538-3598"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Paresis_Hall"/>
         <terms:title xml:lang="en">&quot;Fools Make a Mock of Sin&quot;</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1048</schema:pageEnd>
@@ -51696,6 +52336,7 @@
         <dc:creator>Rotem Kahalon</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0360-0025"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Madonna–whore_complex"/>
         <terms:title xml:lang="en">The Madonna-Whore Dichotomy: Men Who Perceive Women&apos;s Nurturance and Sexuality as Mutually Exclusive Endorse Patriarchy and Show Lower Relationship Satisfaction</terms:title>
         <schema:datePosted>2 February 2018</schema:datePosted>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</schema:pageEnd>
@@ -51736,6 +52377,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#9781468445626"/>
         <dc:creator>Barbara Ann Winstead</dc:creator>
         <terms:source xml:lang="en">Sex Roles and Psychopathology</terms:source>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hysteria"/>
         <terms:title xml:lang="en">Hysteria</terms:title>
         <schema:Chapter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:Chapter>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</schema:pageEnd>
@@ -51818,6 +52460,7 @@
         <terms:issued>20 June 2009</terms:issued>
         <terms:publisher xml:lang="en">Elsevier Inc.</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1873-4111"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_female_sexuality"/>
         <terms:title xml:lang="en">The historical response to female sexuality</terms:title>
         <schema:datePublished>31 May 2009</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
@@ -51862,6 +52505,8 @@
         <terms:dateAccepted xml:lang="en">5 April 2012</terms:dateAccepted>
         <terms:issued>November 2012</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1642-431X"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#oviparity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#viviparity"/>
         <terms:title xml:lang="en">Oviparity or viviparity? This is the question...</terms:title>
         <schema:datePublished>18 October 2012</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
@@ -51947,6 +52592,7 @@
         <dc:creator>K. Orth-Gormer</dc:creator>
         <terms:issued xml:lang="en">1 June 2000</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1522-9645"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Yentl_syndrome"/>
         <terms:title xml:lang="en">New light on the Yentl syndrome</terms:title>
         <schema:datePublished>1 June 2000</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:issueNumber>
@@ -51967,6 +52613,7 @@
         <dc:creator>Bernadine Healy</dc:creator>
         <terms:issued xml:lang="en">25 July 1991</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1533-4406"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Yentl_syndrome"/>
         <terms:title xml:lang="en">The Yentl Syndrome</terms:title>
         <schema:datePublished>1 July 1991</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:issueNumber>
@@ -51988,6 +52635,7 @@
         <dc:creator>Richard B. Krueger</dc:creator>
         <terms:issued>March 2010</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1559-8519"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexuality"/>
         <terms:title xml:lang="en">Diagnosis, Assessment, and Treatment of Hypersexuality</terms:title>
         <schema:datePublished>1 March 2010</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
@@ -52012,6 +52660,7 @@
         <dc:creator>Rory C. Reid</dc:creator>
         <terms:dateAccepted>17 July 2013</terms:dateAccepted>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1521-0715"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#nonparaphilic_hypersexual_behavior"/>
         <terms:title xml:lang="en">Nonparaphilic Hypersexual Behavior and Depressive Symptoms: A Meta-Analytic Review of the Literature</terms:title>
         <schema:datePublished>29 October 2013</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
@@ -52033,6 +52682,7 @@
         <terms:dateAccepted>26 September 2007</terms:dateAccepted>
         <terms:issued>December 2007</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1473-0766"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_female_sexuality"/>
         <terms:title xml:lang="en">A comparison of 19th century and current attitudes to female sexuality</terms:title>
         <schema:datePublished>1 December 2007</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</schema:issueNumber>
@@ -52054,6 +52704,7 @@
         <terms:dateAccepted>5 March 2012</terms:dateAccepted>
         <terms:issued>27 April 2012</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1469-3674"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#multiethnic_sexual_minority_youth"/>
         <terms:title xml:lang="en">Articulating identities: Language and practice with multiethnic sexual minority youth</terms:title>
         <schema:issueNumber xml:lang="en">2: Race, Culture, and Mental Health: Metissage, Mestizaje, Mixed &quot;Race&quot;, and Beyond</schema:issueNumber>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137</schema:pageStart>
@@ -52073,6 +52724,7 @@
         <dc:creator>Sheila Garos</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1532-5318"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Hypersexual_Behavior_Inventory"/>
         <terms:title xml:lang="en">Reliability, validity, and psychometric development of the Hypersexual Behavior Inventory in an outpatient sample of men</terms:title>
         <schema:datePublished>9 March 2011</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
@@ -52113,6 +52765,7 @@
         <dc:creator>Julia M. Serano</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1434-4599"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#autogynephilia"/>
         <terms:title xml:lang="en">The Case Against Autogynephilia</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187</schema:pageEnd>
@@ -52130,6 +52783,8 @@
         <dc:creator>Stephen Craig Kerry</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1434-4599"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#brotherboy"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sistergirl"/>
         <terms:title xml:lang="en">Sistergirls/Brotherboys: The Status of Indigenous Transgender Australians</terms:title>
         <schema:datePublished>3 March 2015</schema:datePublished>
         <schema:issueNumber>3-4</schema:issueNumber>
@@ -52265,6 +52920,8 @@
         <dc:creator>Richard B. Krueger</dc:creator>
         <terms:issued>December 2016</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1360-0443"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#compulsive_sexual_behavior"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexual_behavior"/>
         <terms:title xml:lang="en">Diagnosis of hypersexual or compulsive sexual behavior can be made using ICD-10 and DSM-5 despite rejection of this diagnosis by the American Psychiatric Association</terms:title>
         <schema:datePublished>17 April 2016</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</schema:issueNumber>
@@ -52322,6 +52979,7 @@
         <dc:creator>John C. Gonsiorek</dc:creator>
         <dc:creator>Randall L. Sell</dc:creator>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1943-278X"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_orientation"/>
         <terms:title xml:lang="en">Definition and Measurement of Sexual Orientation</terms:title>
         <schema:datePublished>Winter 1995</schema:datePublished>
         <schema:issueNumber>s1</schema:issueNumber>
@@ -52341,6 +52999,7 @@
         <dc:creator>Christine Harcourt</dc:creator>
         <terms:issued>June 2005</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1472-3263"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex_work"/>
         <terms:title xml:lang="en">The many faces of sex work</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</schema:pageEnd>
@@ -52398,6 +53057,7 @@
         <terms:issued>April 2006</terms:issued>
         <terms:issued>May 1982</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1535-7228"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#female_hysteria"/>
         <terms:title xml:lang="en">Hysteria and women</terms:title>
         <schema:datePublished>1 April 2006</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:issueNumber>
@@ -52419,6 +53079,8 @@
         <terms:issued>April 2006</terms:issued>
         <terms:issued>May 1931</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1535-7228"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#eonism"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transvestism"/>
         <terms:title xml:lang="en">Transvestism or Eonism</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1030</schema:pageEnd>
@@ -52455,6 +53117,7 @@
         <dc:creator>N. Kennedy</dc:creator>
         <terms:issued>December 2002</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1740-2360"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#erotomania"/>
         <terms:title xml:lang="en">Erotomania: a conceptual history</terms:title>
         <schema:datePublished>1 October 2002</schema:datePublished>
         <schema:issueNumber>52 Pt 4</schema:issueNumber>
@@ -52475,6 +53138,7 @@
         <dc:creator>Lazare Rivière</dc:creator>
         <terms:issued>June 2006</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1740-2360"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#furor_uterinus"/>
         <terms:title xml:lang="en">&apos;Madness from the Womb&apos;</terms:title>
         <schema:issueNumber>66 Pt 2</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235</schema:pageEnd>
@@ -52595,6 +53259,7 @@
         <dc:creator>S. P. F. Dale</dc:creator>
         <terms:issued>1 May 2014</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2328-9260"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#X-gender"/>
         <terms:title xml:lang="en">X-Jendā</terms:title>
         <schema:issueNumber>1-2</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272</schema:pageEnd>
@@ -52692,6 +53357,7 @@
         <dc:creator>Timothy Fong</dc:creator>
         <terms:issued>September 2012</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2063-5303"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexual_behavior"/>
         <terms:title xml:lang="en">Psychometric development of the hypersexual behavior consequences scale</terms:title>
         <schema:datePublished>1 August 2012</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
@@ -52757,6 +53423,7 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:dateCopyrighted>
         <terms:issued>21 May 2018</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2211-1298"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_health"/>
         <terms:title xml:lang="en">Transgender health care: improving medical students’ and residents’ training and awareness</terms:title>
         <schema:datePublished>21 May 2018</schema:datePublished>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">391</schema:pageEnd>
@@ -52779,6 +53446,7 @@
         <dc:creator>Mauro Giovanni Carta</dc:creator>
         <terms:dateAccepted>7 August 2012</terms:dateAccepted>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1745-0179"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#female_hysteria"/>
         <terms:title xml:lang="en">Women And Hysteria In The History Of Mental Health</terms:title>
         <schema:datePublished>19 October 2012</schema:datePublished>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</schema:pageEnd>
@@ -52880,6 +53548,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator>Ira B. Pauly</dc:creator>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0004-8674"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
         <terms:title xml:lang="en">Outcome of Sex Reassignment Surgery for Transsexuals</terms:title>
         <schema:datePublished>1 March 1981</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
@@ -52903,6 +53572,7 @@
         <terms:dateAccepted>30 October 2015</terms:dateAccepted>
         <terms:issued>January 2016</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1369-1627"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_dysphoria"/>
         <terms:title xml:lang="en">Mental health and gender dysphoria: A review of the literature</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</schema:pageEnd>
@@ -52921,6 +53591,7 @@
         <dc:creator>Sophie Doung-Iseler</dc:creator>
         <terms:publisher xml:lang="fr">Presses Universitaires de France</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0012-4273"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Antide_Collas"/>
         <terms:title xml:lang="fr">Lumières sur le prétendu « hermaphrodite » Antide Collas (ou Colas) de Michel Foucault</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">556</schema:pageEnd>
@@ -52948,6 +53619,8 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</terms:dateCopyrighted>
         <terms:issued>3 October 2017</terms:issued>
         <terms:source xml:lang="en">Journal of Pathology Informatics</terms:source>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_identity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#preferred_gender_pronoun"/>
         <terms:title xml:lang="en">Preferred Names, Preferred Pronouns, and Gender Identity in the Electronic Medical Record and Laboratory Information System: Is Pathology Ready?</terms:title>
         <schema:datePublished>3 October 2017</schema:datePublished>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</schema:pageEnd>
@@ -52967,6 +53640,7 @@
         <dc:creator>Gurvinder Kalra</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0019-5545"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#compulsive_sexual_behavior"/>
         <terms:title xml:lang="en">The depressive façade in a case of compulsive sex behavior with frottage</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">185</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</schema:pageStart>
@@ -52988,6 +53662,7 @@
         <dc:creator>Rajendra D. Badgaiyan</dc:creator>
         <terms:issued>October 2015</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2168-8184"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexuality"/>
         <terms:title xml:lang="en">Correction: Hypersexuality Addiction and Withdrawal: Phenomenology, Neurogenetics and Epigenetics</terms:title>
         <schema:datePublished>12 October 2015</schema:datePublished>
         <schema:editor>Alexander Muacevic</schema:editor>
@@ -53068,6 +53743,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>J. Richardson Parke</dc:creator>
         <terms:publisher xml:lang="en">Professional Publishing Company</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_sexuality"/>
         <terms:title xml:lang="en">Human Sexuality: A Medico-Literary Treatise on the Laws, Anomalies, and Relations of Sex</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1906</schema:datePublished>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100470674</HATHITRUST>
@@ -53082,6 +53758,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Havelock_Ellis"/>
         <dc:creator>John Addington Symonds</dc:creator>
         <terms:publisher xml:lang="en">Wilson and MacMillan</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="en">Sexual Inversion</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1897</schema:datePublished>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299</schema:numberOfPages>
@@ -53162,6 +53839,7 @@
         <dc:creator>Adolph F. Niemoeller</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">The Panurge Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
         <terms:title xml:lang="en">American Encyclopedia of Sex</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1935</schema:datePublished>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102300005</HATHITRUST>
@@ -53295,6 +53973,18 @@
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100415939</HATHITRUST>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2250886</OCLC>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_Medical_Times</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#1086-4873 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1086-4873">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:title xml:lang="en">Chrysalis: The Journal of Transgressive Gender Identities</terms:title>
+        <schema:issn>1086-4873</schema:issn>
+        <former-term rdf:resource="https://github.com/Superraptor/GSSO#gender_identity"/>
+        <former-term xml:lang="en">Chrysalis Quarterly</former-term>
     </owl:Class>
     
 
@@ -53612,6 +54302,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1532-5318">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#compulsive_sexual_behavior"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex_addiction"/>
         <terms:title xml:lang="en">Sexual Addiction &amp; Compulsivity</terms:title>
         <electronic-issn>1532-5318</electronic-issn>
         <print-issn>1072-0162</print-issn>
@@ -53825,6 +54517,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101254470</terms:NLM>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minority_health"/>
         <terms:title xml:lang="en">Journal of LGBT Health Research</terms:title>
         <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</schema:dateCreated>
         <schema:dissolutionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</schema:dissolutionDate>
@@ -54030,6 +54723,7 @@
         <dc:creator>William H. Masters</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1966</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">Brown and Company</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_sexual_response_cycle"/>
         <terms:title xml:lang="en">Human Sexual Response</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">366</schema:numberOfPages>
@@ -54335,6 +55029,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator>Liza Khan</dc:creator>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1535-3532"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_health"/>
         <terms:title xml:lang="en">Transgender Health at the Crossroads: Legal Norms, Insurance Markets, and the Threat of Healthcare Reform</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418</schema:pageEnd>
@@ -54452,6 +55147,7 @@
         <dc:creator>Émile Laurent</dc:creator>
         <dc:language xml:lang="en">French</dc:language>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1895</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexology"/>
         <terms:title xml:lang="fr">Psychopathia Sexualis</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</schema:bookEdition>
         <GUTENBERG rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24766</GUTENBERG>
@@ -54509,6 +55205,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Virginia_Prince"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1971</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">Chevalier Publications</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
         <terms:title xml:lang="en">How to Be a Woman Though Male</terms:title>
         <schema:alternateName xml:lang="en">How to be a woman--though male</schema:alternateName>
         <schema:alternateName xml:lang="en">How to become a woman, though a male</schema:alternateName>
@@ -54526,6 +55223,7 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</terms:issued>
         <terms:publisher xml:lang="en">Skidmore College</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0036-3529"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#female_homosexuality"/>
         <terms:title xml:lang="en">From Sexual Inversion to Homosexuality: Medicine And The Changing Conceptualization Of Female Deviance</terms:title>
         <schema:issueNumber>58/59</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146</schema:pageEnd>
@@ -54543,6 +55241,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Harry_Benjamin"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1966</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">Ace Pub. Co.</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transsexualism"/>
         <terms:title xml:lang="en">The Transsexual Phenomenon</terms:title>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41434134</OCLC>
     </owl:Class>
@@ -55183,6 +55882,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Havelock_Ellis"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexology"/>
         <terms:title xml:lang="en">Studies in the Psychology of Sex</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:bookEdition>
         <schema:url>https://books.google.com/books?id=8NoTAAAAIAAJ</schema:url>
@@ -55226,6 +55926,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual: Mental Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</schema:datePublished>
@@ -55318,6 +56019,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:bookEdition>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">960936460</OCLC>
@@ -55336,6 +56038,7 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</terms:dateCopyrighted>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:publisher xml:lang="en">Macmillan Publishing Co. Inc.</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_female_sexuality"/>
         <terms:title xml:lang="en">The Hite Report: A Nationwide Study of Female Sexuality</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780025518513</schema:isbn>
     </owl:Class>
@@ -55346,8 +56049,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780025750500">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
-        <dc:creator>Nell Kimball</dc:creator>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Nell_Kimball"/>
         <terms:publisher xml:lang="en">MacMillan Publishing Company</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Nell_Kimball"/>
+        <terms:title xml:lang="en">Nell Kimball: Her Life As an American Madam</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:datePublished>May 1970</schema:datePublished>
         <schema:editor>Stephen Longstreet</schema:editor>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780025750500</schema:isbn>
@@ -55362,6 +56068,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</terms:issued>
         <terms:publisher xml:lang="en">Macmillan Reference USA</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex"/>
         <terms:title xml:lang="en">Encyclopedia of Sex and Gender</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780028659602</schema:isbn>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780028661155</schema:isbn>
@@ -55391,6 +56099,7 @@
         <dc:creator xml:lang="en">Andrew M. Colman</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</terms:issued>
         <terms:publisher xml:lang="en">Oxford University Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#psychology"/>
         <terms:title xml:lang="en">A Dictionary of Psychology</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780191744358</schema:isbn>
@@ -55405,6 +56114,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Jonathan Green</dc:creator>
         <terms:publisher xml:lang="en">Chambers Harrap Publishers</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#slang"/>
         <terms:title xml:lang="en">Green&apos;s Dictionary of Slang</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</schema:datePublished>
         <DOI>10.1093/acref/9780199829941.001.0001</DOI>
@@ -55420,10 +56130,14 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780224080514">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Alison_Bechdel"/>
+        <terms:DDC>741.5/973 22</terms:DDC>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</terms:issued>
         <terms:publisher>Jonathan Cape</terms:publisher>
         <terms:title xml:lang="en">Fun Home: A Family Tragicomic</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:datePublished>14 September 2006</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780224080514</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</schema:numberOfPages>
         <GOOGLE_BOOKS>H8W3TTX8iGAC</GOOGLE_BOOKS>
     </owl:Class>
     
@@ -55436,6 +56150,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jonathan_Ned_Katz"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</terms:dateCopyrighted>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#heterosexuality"/>
         <schema:bookEdition xml:lang="en">University of Chicago Press</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780226307626</schema:isbn>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Jonathan_Ned_Katz#The_Invention_of_Heterosexuality</WIKIPEDIA>
@@ -55451,6 +56166,7 @@
         <dc:creator>Lillian Faderman</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</terms:issued>
         <terms:publisher xml:lang="en">Columbia University Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian_history_in_the_United_States"/>
         <terms:title xml:lang="en">Odd Girls and Twilight Lovers</terms:title>
         <terms:title xml:lang="en">Odd Girls and Twilight Lovers: A History of Lesbian Life in Twentieth-century America</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780231074889</schema:isbn>
@@ -55468,7 +56184,9 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</terms:issued>
         <terms:publisher xml:lang="en">University of Illinois Press</terms:publisher>
         <terms:title xml:lang="en">The Masculine Woman in American, 1890-1935</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780252026270</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</schema:numberOfPages>
         <GOOGLE_BOOKS>CHiQwNyLLN0C</GOOGLE_BOOKS>
     </owl:Class>
     
@@ -55483,7 +56201,9 @@
         <dc:creator>Paul H. Gebhard</dc:creator>
         <dc:creator>Wardell B. Pomeroy</dc:creator>
         <terms:publisher xml:lang="en">Indiana University Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_female_sexuality"/>
         <terms:title xml:lang="en">Sexual Behavior in the Human Female</terms:title>
+        <schema:datePublished>22 May 1998</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780253334114</schema:isbn>
         <schema:memberOf xml:lang="en">Kinsey Reports</schema:memberOf>
     </owl:Class>
@@ -55496,7 +56216,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Alfred_Kinsey"/>
         <terms:publisher xml:lang="en">Indiana University Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_male_sexuality"/>
         <terms:title xml:lang="en">Sexual Behavior in the Human Male</terms:title>
+        <schema:datePublished>22 May 1998</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780253334121</schema:isbn>
         <schema:memberOf xml:lang="en">Kinsey Reports</schema:memberOf>
     </owl:Class>
@@ -55509,8 +56231,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Richard Green</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sissy_boy_syndrome"/>
         <terms:title xml:lang="en">The &quot;Sissy Boy Syndrome&quot; and the Development of Homosexuality</terms:title>
-        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0300036965</schema:isbn>
+        <schema:datePublished>10 September 1987</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780300036961</schema:isbn>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_%22Sissy_Boy_Syndrome%22_and_the_Development_of_Homosexuality</WIKIPEDIA>
     </owl:Class>
     
@@ -55520,6 +56245,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780313329708">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#prostitution"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex_work"/>
         <terms:title xml:lang="en">Encyclopedia of Prostitution and Sex Work</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</schema:datePublished>
         <schema:editor>Melissa Hope Ditmore</schema:editor>
@@ -55582,6 +56309,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Herculine_Barbin"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
         <terms:publisher xml:lang="en">Vintage</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Herculine_Barbin"/>
         <terms:title xml:lang="en">Herculine Barbin: Being the Recently Discovered Memoirs of a Nineteenth-century French Hermaphrodite</terms:title>
         <schema:datePublished>12 June 1980</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780394738628</schema:isbn>
@@ -55599,6 +56327,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>John F. Oliven</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#clinical_sexuality"/>
         <terms:title xml:lang="en">Clinical Sexuality: A Manual for the Physician and the Professions</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780397503292</schema:isbn>
     </owl:Class>
@@ -55612,6 +56341,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Susan_Stryker"/>
         <dc:creator>Aren Z. Aizura</dc:creator>
         <terms:publisher xml:lang="en">Routledge</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_studies"/>
         <terms:title xml:lang="en">The Transgender Studies Reader 2</terms:title>
         <schema:bookEdition xml:lang="en">illustrated</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</schema:datePublished>
@@ -55631,6 +56361,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Susan_Stryker"/>
         <dc:creator>Stephen Whittle</dc:creator>
         <terms:publisher xml:lang="en">Taylor &amp; Francis</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_studies"/>
         <terms:title xml:lang="en">The Transgender Studies Reader</terms:title>
         <schema:bookEdition xml:lang="en">illustrated</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</schema:datePublished>
@@ -55649,6 +56380,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>George Chauncey</dc:creator>
         <terms:publisher>Basic Books</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_male_history_in_New_York_City"/>
         <terms:title xml:lang="en">Gay New York: Gender, Urban Culture, and the Making of the Gay Male World, 1890–1940</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780465026210</schema:isbn>
@@ -55663,6 +56395,7 @@
         <dc:creator>Hugh Rawson</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">Crown Publishers</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#pejorative_evaluative"/>
         <terms:title xml:lang="en">Wicked Words: A Treasury of Curses, Insults, Put-downs, and Other Formerly Unprintable Terms from Anglo-Saxon Times to the Present</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780517573341</schema:isbn>
         <GOOGLE_BOOKS>4aMYAAAAIAAJ</GOOGLE_BOOKS>
@@ -55695,6 +56428,7 @@
         <dc:creator>Casey Miller</dc:creator>
         <dc:creator>Kate Swift</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender-neutral_language"/>
         <terms:title xml:lang="en">The Handbook of Nonsexist Writing</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780690018820</schema:isbn>
@@ -55710,6 +56444,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Janice G. Raymond</dc:creator>
         <terms:publisher xml:lang="en">Beacon Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#trans-exclusionary_radical_feminism"/>
         <terms:title xml:lang="en">The Transsexual Empire</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1979</schema:datePublished>
@@ -55725,6 +56460,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780808402558">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:publisher xml:lang="en">Rowman &amp; Littlefield Publishers</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_male_sexuality"/>
         <terms:title xml:lang="en">Psychoanalysis and Male Sexuality</terms:title>
         <schema:datePublished>1 June 1966</schema:datePublished>
         <schema:editor>Hendrik M. Ruitenbeek</schema:editor>
@@ -55740,6 +56476,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780815319207">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:publisher xml:lang="en">Taylor &amp; Francis</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian_history"/>
         <terms:title xml:lang="en">Lesbian Histories and Cultures: An Encyclopedia</terms:title>
         <schema:bookEdition xml:lang="en">illustrated</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</schema:datePublished>
@@ -55759,6 +56497,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</terms:dateCopyrighted>
         <terms:publisher>Garland</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
         <terms:title xml:lang="en">Encyclopedia of Homosexuality</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780824065447</schema:isbn>
         <schema:url>http://williamapercy.com/wiki/index.php?title=Encyclopedia_of_Homosexuality</schema:url>
@@ -55787,6 +56526,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Paul Baker</dc:creator>
         <terms:publisher xml:lang="en">Bloomsbury Academic</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Polari"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_slang"/>
         <terms:title xml:lang="en">Fantabulosa: A Dictionary of Polari and Gay Slang</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780826473431</schema:isbn>
     </owl:Class>
@@ -55799,6 +56540,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">Temple University Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_sexuality"/>
         <terms:title xml:lang="en">Passion &amp; Power: Sexuality in History</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780877226376</schema:isbn>
         <GOOGLE_BOOKS>5jTjfFo42E8C</GOOGLE_BOOKS>
@@ -55813,6 +56555,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</terms:title>
         <schema:bookEdition xml:lang="en">3, Revised</schema:bookEdition>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16395933</OCLC>
@@ -55829,6 +56572,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:bookEdition>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diagnostic_and_Statistical_Manual_of_Mental_Disorders#DSM-IV_(1994)</WIKIPEDIA>
@@ -55844,6 +56588,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:bookEdition>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/DSM-5</WIKIPEDIA>
@@ -55863,6 +56608,7 @@
         <terms:publisher xml:lang="en">Firebrand Books</terms:publisher>
         <terms:title xml:lang="en">Dykes To Watch Out For</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780932379184</schema:isbn>
+        <acronym xml:lang="en">DTWOF</acronym>
     </owl:Class>
     
 
@@ -55872,7 +56618,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780954707200">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Lili_Elbe"/>
+        <terms:publisher xml:lang="en">Blue Boat Books Ltd</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Lili_Elbe"/>
         <terms:title xml:lang="en">Man Into Woman: The First Sex Change</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780954707200</schema:isbn>
     </owl:Class>
     
@@ -55883,6 +56632,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781405190060">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_sexuality"/>
         <terms:title xml:lang="en">The International Encyclopedia of Human Sexuality</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781405190060</schema:isbn>
         <DOI>10.1002/9781118896877</DOI>
@@ -55895,6 +56645,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781405196949">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:publisher xml:lang="en">Wiley-Blackwell</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexuality_studies"/>
         <terms:title xml:lang="en">The Wiley Blackwell Encyclopedia of Gender and Sexuality Studies</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:datePublished>30 April 2016</schema:datePublished>
@@ -55910,7 +56661,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781412909167">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:publisher xml:lang="en">Sage Publishing</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_studies"/>
         <terms:title xml:lang="en">Gender and Society</terms:title>
+        <schema:alternateName xml:lang="en">Encyclopedia of Gender and Society</schema:alternateName>
+        <schema:datePublished>26 November 2008</schema:datePublished>
+        <schema:editor>Jodi O&apos;Brien</schema:editor>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781412909167</schema:isbn>
     </owl:Class>
     
@@ -55921,7 +56676,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781412964517">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</terms:dateCopyrighted>
-        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_studies"/>
         <terms:title xml:lang="en">Encyclopedia of Gender and Society</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781412964517</schema:isbn>
         <DOI>10.4135/9781412964517</DOI>
@@ -55935,6 +56690,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>William N. Eskridge, Jr.</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sodomy_law"/>
         <terms:title xml:lang="en">Dishonorable Passions: Sodomy Laws in America, 1861-2003</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781440631108</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">528</schema:numberOfPages>
@@ -55949,6 +56705,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Marty Klein</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex_law"/>
         <terms:title xml:lang="en">America&apos;s War on Sex: The Continuing Attack on Law, Lust, and Liberty</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781440801280</schema:isbn>
@@ -55962,6 +56719,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Charlie McNabb</dc:creator>
         <dc:publisher xml:lang="en">Rowman &amp; Littlefield</dc:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
         <terms:title xml:lang="en">Nonbinary Gender Identities: History, Culture, Resources</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781442275522</schema:isbn>
     </owl:Class>
@@ -55975,6 +56733,9 @@
         <dc:creator>Christina Richards</dc:creator>
         <dc:creator>Meg Barker</dc:creator>
         <terms:publisher xml:lang="en">SAGE</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#mental_health"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexuality"/>
         <terms:title xml:lang="en">Sexuality and Gender for Mental Health Professionals: A Practical Guide</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781446287163</schema:isbn>
@@ -56003,6 +56764,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</terms:dateCopyrighted>
         <terms:publisher>Springer</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_role"/>
         <terms:title xml:lang="en">Sex Roles and Psychopathology</terms:title>
         <schema:editor>Cathy Spatz Widom</schema:editor>
         <DOI>10.1007/978-1-4684-4562-6</DOI>
@@ -56018,6 +56780,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator xml:lang="en">Julia Serano</dc:creator>
         <terms:issued xml:lang="en">2007</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transfeminism"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
         <terms:title xml:lang="en">Whipping Girl: A Transsexual Woman on Sexism and the Scapegoating of Femininity</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781580051545</schema:isbn>
@@ -56046,6 +56810,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781585623389">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
         <terms:title xml:lang="en">Clinical Manual of Sexual Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781585623389</schema:isbn>
@@ -56060,6 +56825,7 @@
         <dc:creator>Eric Yarbrough</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association Publishing</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_mental_health"/>
         <terms:title xml:lang="en">Transgender Mental Health</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781615371136</schema:isbn>
@@ -56074,8 +56840,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781633048133">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:issued xml:lang="en">November 2017</terms:issued>
+        <terms:publisher xml:lang="en">Flashpoint Publications</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_bar"/>
         <terms:title xml:lang="en">Our Happy Hours: LGBT Voices from the Gay Bars</terms:title>
+        <schema:datePublished>22 October 2017</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781633048133</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</schema:numberOfPages>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Our_Happy_Hours</WIKIPEDIA>
     </owl:Class>
     
 
@@ -56085,9 +56856,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781786842992">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</terms:dateCopyrighted>
+        <terms:publisher xml:lang="en">Wiley-Blackwell</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_sexuality"/>
         <terms:title xml:lang="en">The International Encyclopedia of Human Sexuality</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781786842992</schema:isbn>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">985403957</OCLC>
     </owl:Class>
     
 
@@ -56097,6 +56871,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781938921001">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:publisher xml:lang="en">American College of Physicians</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minority_health"/>
         <terms:title xml:lang="en">Fenway Guide to Lesbian, Gay, Bisexual, and Transgender Health</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:bookEdition>
         <schema:datePublished>30 April 2015</schema:datePublished>
@@ -56115,6 +56890,7 @@
         <dc:creator>Miliann Kang</dc:creator>
         <dc:creator>Sonny Nordmarken</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexuality_studies"/>
         <terms:title xml:lang="en">Introduction to Women, Gender, Sexuality Studies</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781945764028</schema:isbn>
         <schema:license>CC BY 4.0</schema:license>
@@ -56129,11 +56905,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_sexuality"/>
         <terms:title xml:lang="fr">Le souci de soi</terms:title>
         <schema:datePublished>15 July 1984</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9782070273829</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</schema:numberOfPages>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:volumeNumber>
+        <WIKIDATA>Q22084670</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality#Volume_III:_The_Care_of_the_Self</WIKIPEDIA>
         <part_of rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
     </owl:Class>
@@ -56146,11 +56924,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_sexuality"/>
         <terms:title xml:lang="fr">La volonté de savoir</terms:title>
         <schema:datePublished>17 November 1976</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9782070295890</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</schema:numberOfPages>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:volumeNumber>
+        <WIKIDATA>Q3825086</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality#Volume_I:_The_Will_to_Knowledge</WIKIPEDIA>
         <part_of rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
     </owl:Class>
@@ -56163,11 +56943,13 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_sexuality"/>
         <terms:title xml:lang="fr">L&apos;usage des plaisirs</terms:title>
         <schema:datePublished>15 July 1984</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9782070700561</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296</schema:numberOfPages>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:volumeNumber>
+        <WIKIDATA>Q22084669</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality#Volume_II:_The_Use_of_Pleasure</WIKIPEDIA>
         <part_of rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
     </owl:Class>
@@ -56180,6 +56962,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_sexuality"/>
         <terms:title xml:lang="fr">Les aveux de la chair</terms:title>
         <schema:datePublished>8 February 2018</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9782072700347</schema:isbn>
@@ -56195,6 +56978,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9783110433067">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#neurointersexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transsexualism"/>
         <terms:title xml:lang="de">Transsexualität in Theologie und Neurowissenschaften: Ergebnisse, Kontroversen, Perspektiven</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9783110433067</schema:isbn>
         <GOOGLE_BOOKS>SQBEDQAAQBAJ</GOOGLE_BOOKS>
@@ -56207,11 +56992,13 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9783319036236">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_aging"/>
         <terms:title xml:lang="en">Handbook of LGBT Elders</terms:title>
         <schema:editor>Debra A. Harley</schema:editor>
         <schema:editor>Pamela B. Teaster</schema:editor>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9783319036236</schema:isbn>
         <DOI>10.1007/978-3-319-03623-6</DOI>
+        <INTERNET_ARCHIVE>springer_10.1007-978-3-319-03623-6</INTERNET_ARCHIVE>
     </owl:Class>
     
 
@@ -56221,6 +57008,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9783771644550">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Christiane_Völling"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#intersexuality"/>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9783771644550</schema:isbn>
         <preferred-name xml:lang="en">I was man and woman. My life as an intersexual</preferred-name>
         <preferred-name xml:lang="de">Ich war Mann und Frau. Mein Leben als Intersexuelle</preferred-name>
@@ -56234,6 +57022,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Joseph Harris</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
         <terms:title xml:lang="en">Hidden Agendas: Cross-dressing in 17th-century France</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9783823361145</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279</schema:numberOfPages>
@@ -56278,6 +57067,19 @@
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">542</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">539</schema:pageStart>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</schema:volumeNumber>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#A_Gender_Variance_Who&apos;s_Who -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#A_Gender_Variance_Who&apos;s_Who">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#website"/>
+        <dc:creator>Zagria</dc:creator>
+        <terms:title xml:lang="en">A Gender Variance Who&apos;s Who</terms:title>
+        <schema:license rdf:resource="https://github.com/Superraptor/GSSO#gender_variance"/>
+        <schema:license xml:lang="en">CC BY-NC-ND 3.0</schema:license>
+        <former-term xml:lang="en">Gender Variant Biography</former-term>
     </owl:Class>
     
 
@@ -56350,6 +57152,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:issued>March 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:title xml:lang="en">Boy—But Never Man</terms:title>
         <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
@@ -56367,6 +57170,7 @@
         <dc:creator>P. M. Wise</dc:creator>
         <terms:issued>January 1883</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000504306"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_perversion"/>
         <terms:title xml:lang="en">Case of Sexual Perversion</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</schema:pageEnd>
@@ -56532,8 +57336,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#multivolume_work"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Michel_Foucault"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_human_sexuality"/>
         <terms:title xml:lang="fr">L&apos;Histoire de la sexualité</terms:title>
         <terms:title xml:lang="en">The History of Sexuality</terms:title>
+        <WIKIDATA>Q2704365</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality</WIKIPEDIA>
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Histoire_de_la_sexualit%C3%A9</WIKIPEDIA>
     </owl:Class>
@@ -56546,6 +57352,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
         <terms:issued>21 October 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#9817881"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#John_W._Lemke"/>
         <terms:title xml:lang="en">Lemke Murdered, Parents Insist; Suicide--Police</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:pageStart>
@@ -56590,6 +57397,7 @@
         <dc:creator>Leslie Barker</dc:creator>
         <terms:issued>15 June 2017</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0897-0920"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sologamy"/>
         <terms:title xml:lang="en">Marrying yourself isn&apos;t that crazy</terms:title>
         <schema:pageEnd>D6</schema:pageEnd>
         <schema:pageStart>D6</schema:pageStart>
@@ -56604,6 +57412,7 @@
         <dc:creator>Heather Starr</dc:creator>
         <terms:issued>28 December 1997</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0885-6613"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_identity_disorder"/>
         <terms:title xml:lang="en">One woman&apos;s struggle with gender identity disorder</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</schema:pageStart>
@@ -56638,6 +57447,7 @@
         <terms:issued>10 June 1899</terms:issued>
         <terms:publisher>MD Publications</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0097-1650"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Paresis_Hall"/>
         <terms:title xml:lang="en">&quot;Paresis Hall&quot;</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">823</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">823</schema:pageStart>
@@ -56652,6 +57462,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <terms:publisher xml:lang="en">D. Appleton &amp; Company</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0097-319X"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Paresis_Hall"/>
         <terms:title xml:lang="en">&quot;Paresis Hall&quot;</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">823</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">823</schema:pageStart>
@@ -56666,6 +57477,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
         <terms:issued>23 October 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#9817881"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#John_W._Lemke"/>
         <terms:title xml:lang="en">Police Seek Motive for Lemke&apos;s Death; Suicide or Murder?</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:pageStart>
@@ -56752,6 +57564,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
         <terms:issued>12 July 1970</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1775552"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
         <terms:title xml:lang="en">Rita Wrote--&apos;We Lesbians Live Right Among You&apos;</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</schema:pageStart>
@@ -56864,12 +57677,30 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:issued>November 1918</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:title xml:lang="en">The Girl-Boy&apos;s Suicide</terms:title>
         <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">498</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">495</schema:pageStart>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</schema:volumeNumber>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#The_Murk_Manual:_How_to_Understand_Medical_Writing_on_Intersex -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#The_Murk_Manual:_How_to_Understand_Medical_Writing_on_Intersex">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Raphael_Carter"/>
+        <terms:issued rdf:resource="https://github.com/Superraptor/GSSO#intersex"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</terms:issued>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1086-4873"/>
+        <terms:title xml:lang="en">The Murk Manual: How to Understand Medical Writing on Intersex</terms:title>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:issueNumber>
+        <schema:pagination>10, 30</schema:pagination>
+        <schema:url>https://web.archive.org/web/20180502152507/http://www.isna.org/books/chrysalis/murk</schema:url>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:volumeNumber>
     </owl:Class>
     
 
@@ -56949,6 +57780,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bduQ3FfrdAEC&amp;dq">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Julien Chevalier</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="fr">De l&apos;inversion de l&apos;instinct sexuel au point de vue médico-légal</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1885</schema:datePublished>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</schema:numberOfPages>
@@ -57381,6 +58213,7 @@
 
     <owl:Class rdf:about="https://web.archive.org/web/20011202081126/http://www.sappho.net:80/lesbian-lists">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
         <terms:title xml:lang="en">Lesbian Mailing Lists</terms:title>
         <schema:WebSite xml:lang="en">Sappho.Net</schema:WebSite>
         <schema:dateModified>10 September 2001</schema:dateModified>
@@ -57404,6 +58237,7 @@
 
     <owl:Class rdf:about="https://web.archive.org/web/20140214023359/https://www.facebook.com/help/276177272409629">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
         <terms:title xml:lang="en">How do I edit basic info on my Timeline and choose who can see it?</terms:title>
         <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
         <schema:dateModified>14 February 2014</schema:dateModified>
@@ -57419,6 +58253,7 @@
     <owl:Class rdf:about="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Russell Goldman</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
         <terms:title xml:lang="en">Here’s a List of 58 Gender Options for Facebook Users</terms:title>
         <schema:datePosted>13 February 2014</schema:datePosted>
         <schema:url>https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users/</schema:url>
@@ -57490,6 +58325,7 @@
     <owl:Class rdf:about="https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <terms:issued>13 February 2014</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
         <terms:title xml:lang="en">Timeline Photos - Facebook Diversity</terms:title>
         <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
         <schema:url>https://web.archive.org/web/20140214054543/https://www.facebook.com/photo.php?fbid=567587973337709&amp;set=a.196865713743272.42938.105225179573993</schema:url>
@@ -57503,7 +58339,10 @@
 
     <owl:Class rdf:about="https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
-        <dc:creator>Raphael Carter</dc:creator>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Raphael_Carter"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne_gender_identity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_identity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_identity"/>
         <terms:title xml:lang="en">The Angel&apos;s Dictionary</terms:title>
         <schema:dateModified>14 July 1996</schema:dateModified>
         <schema:url>https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml</schema:url>
@@ -57517,6 +58356,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Beth Newell</dc:creator>
         <terms:issued>24 March 2015</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#mouthfeel"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#oral_penile_stimulation"/>
         <terms:title xml:lang="en">How to Better Describe His Dick’s Mouthfeel</terms:title>
         <schema:WebSite xml:lang="en">Reductress</schema:WebSite>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4</schema:issueNumber>
@@ -57532,6 +58373,7 @@
         <dc:creator>Valeriya Safronova</dc:creator>
         <terms:issued>19 October 2015</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1553-8095"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#tomboy"/>
         <terms:title xml:lang="en">Why Can’t We Just Let Girls Be Girls? Readers on the Term ‘Tomboy’</terms:title>
         <schema:WebSite xml:lang="en">NYTimes.com</schema:WebSite>
         <schema:url>https://web.archive.org/web/20160412124112/https://www.nytimes.com/interactive/2015/10/19/style/let-girl-be-girls-readers-respond.html</schema:url>
@@ -57545,6 +58387,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Allan Parachini</dc:creator>
         <terms:issued>22 March 1988</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#tomboy"/>
         <terms:title xml:lang="en">Demise of the Tomboy : Experts Disagree: Victory in the Battle Against Gender Stereotypes or Surrender to Dominant Male Culture?</terms:title>
         <schema:WebSite xml:lang="en">Los Angeles Times</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180815155549/http://articles.latimes.com/1988-03-22/news/vw-1892_1_male-culture</schema:url>
@@ -57559,6 +58402,7 @@
     <owl:Class rdf:about="https://web.archive.org/web/20170302043856/https://www.nps.gov/subjects/lgbtqheritage/upload/lgbtqtheme-heritage.pdf">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#government_publication"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</terms:dateCopyrighted>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_the_United_States"/>
         <terms:title xml:lang="en">LGBTQ America: A Theme Study of Lesbian, Gay, Bisexual, Transgender, and Queer History</terms:title>
         <schema:url>https://web.archive.org/web/20170302043856/https://www.nps.gov/subjects/lgbtqheritage/upload/lgbtqtheme-heritage.pdf</schema:url>
     </owl:Class>
@@ -57571,6 +58415,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Brendan Pierson</dc:creator>
         <terms:issued>29 January 2016</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_confirmation_surgery"/>
         <terms:title xml:lang="en">UnitedHealth Medicare plan must cover U.S. sex reassignment surgery</terms:title>
         <schema:WebSite xml:lang="en">Reuters</schema:WebSite>
         <schema:url>https://web.archive.org/web/20170627015724/http://www.reuters.com:80/article/us-unitedhealth-grp-medicare-transgender-idUSKCN0V72R5</schema:url>
@@ -57584,6 +58429,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Elizabeth King</dc:creator>
         <terms:issued>5 January 2017</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#tomboy"/>
         <terms:title xml:lang="en">A Short History of the Tomboy</terms:title>
         <schema:WebSite xml:lang="en">The Atlantic</schema:WebSite>
         <schema:url>https://web.archive.org/web/20170916100045/https://www.theatlantic.com/health/archive/2017/01/tomboy/512258/</schema:url>
@@ -57598,6 +58444,8 @@
         <dc:creator>Robert Weiss</dc:creator>
         <terms:issued>14 February 2012</terms:issued>
         <terms:publisher xml:lang="en">Institute for the Advancement of Behavioral Healthcare</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex_addiction"/>
         <terms:title xml:lang="en">Sex addiction, hypersexuality and the DSM</terms:title>
         <schema:WebSite xml:lang="en">Addiction Professional Magazine</schema:WebSite>
         <schema:url>https://web.archive.org/web/20160901013606/http://www.addictionpro.com:80/article/sex-addiction-hypersexuality-and-dsm?page=2</schema:url>
@@ -57646,6 +58494,8 @@
     <owl:Class rdf:about="https://web.archive.org/web/20180127181324/https://fenwayhealth.org/documents/the-fenway-institute/handouts/Handout_7-C_Glossary_of_Gender_and_Transgender_Terms__fi.pdf">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#glossary"/>
         <terms:issued>January 2010</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:title xml:lang="en">Glossary of Gender and Transgender Terms</terms:title>
         <schema:url>https://web.archive.org/web/20180127181324/https://fenwayhealth.org/documents/the-fenway-institute/handouts/Handout_7-C_Glossary_of_Gender_and_Transgender_Terms__fi.pdf</schema:url>
     </owl:Class>
@@ -57657,6 +58507,7 @@
     <owl:Class rdf:about="https://web.archive.org/web/20180205203411/http://www.bridge.ids.ac.uk/sites/bridge.ids.ac.uk/files/reports/re55.pdf">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#technical_report"/>
         <terms:publisher xml:lang="en">Institute of Development Studies</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_development"/>
         <terms:title xml:lang="en">Gender and Development: Concepts and Definitions</terms:title>
         <schema:isbn xml:lang="en">1858643813</schema:isbn>
         <schema:url>https://web.archive.org/web/20180205203411/http://www.bridge.ids.ac.uk/sites/bridge.ids.ac.uk/files/reports/re55.pdf</schema:url>
@@ -57670,6 +58521,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Avinash Chak</dc:creator>
         <terms:issued>7 December 2015</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#non-binary_pronoun"/>
         <terms:title xml:lang="en">Beyond &apos;he&apos; and &apos;she&apos;: The rise of non-binary pronouns</terms:title>
         <schema:WebSite xml:lang="en">BBC News</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180216063952/https://www.bbc.com/news/magazine-34901704</schema:url>
@@ -57681,6 +58533,7 @@
 
     <owl:Class rdf:about="https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#glossary"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
         <terms:title xml:lang="en">PFLAG National Glossary of Terms</terms:title>
         <schema:url>https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary</schema:url>
     </owl:Class>
@@ -57695,6 +58548,7 @@
         <dc:creator>Emmie Matsuno</dc:creator>
         <dc:creator>Mira Krishnan</dc:creator>
         <dc:creator>Stephanie Budge</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
         <terms:title>Non-Binary Gender Identities</terms:title>
         <schema:url>https://web.archive.org/web/20180423221650/http://www.apadivisions.org/division-44/resources/advocacy/non-binary-facts.pdf</schema:url>
     </owl:Class>
@@ -57710,6 +58564,7 @@
         <dc:creator xml:lang="en">M.S. Bhatia</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2224-8897"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexual_behavior_in_depression"/>
         <terms:title xml:lang="en">Hypersexual Behavior in Depression Responded to Escitalopram</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
         <schema:url>https://web.archive.org/web/20180423232654/http://www.jpps.com.pk/article/hypersexualbehaviorindepressionrespondedtoescitalopram_2413.html</schema:url>
@@ -57722,6 +58577,7 @@
 
     <owl:Class rdf:about="https://web.archive.org/web/20180628211949/https://uwm.edu/lgbtrc/support/gender-pronouns/https://uwm.edu/lgbtrc/support/gender-pronouns/https://uwm.edu/lgbtrc/support/gender-pronouns">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_pronoun"/>
         <terms:title xml:lang="en">Gender Pronouns</terms:title>
         <schema:WebSite xml:lang="en">University of Wisconsin-Milwaukee</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180628211949/https://uwm.edu/lgbtrc/support/gender-pronouns/</schema:url>
@@ -57735,6 +58591,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">University of Southern California</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
         <terms:title xml:lang="en">LGBT Terminology</terms:title>
         <schema:WebSite xml:lang="en">University of Southern California</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology</schema:url>
@@ -57758,6 +58615,7 @@
     <owl:Class rdf:about="https://web.archive.org/web/20180727201353/http://www.english.illinois.edu/-people-/faculty/debaron/essays/epicene.htm">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Dennis Baron</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#non-binary_pronoun"/>
         <terms:title xml:lang="en">The Words that Failed: A chronology of early nonbinary pronouns</terms:title>
         <schema:WebSite xml:lang="en">University of Illinois Department of English</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180727201353/http://www.english.illinois.edu/-people-/faculty/debaron/essays/epicene.htm</schema:url>
@@ -57772,6 +58630,7 @@
         <dc:creator>Alexander Camacho</dc:creator>
         <dc:creator xml:lang="en">Substance Abuse and Mental Health Services Administration</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minority_health"/>
         <terms:title xml:lang="en">Top Health Issues for LGBT Populations Information &amp; Resource Kit</terms:title>
         <schema:url>https://web.archive.org/web/20180728015201/https://store.samhsa.gov/shin/content/SMA12-4684/SMA12-4684.pdf</schema:url>
     </owl:Class>
@@ -57786,6 +58645,7 @@
         <dc:format>PDF</dc:format>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</terms:dateCopyrighted>
         <terms:hasVersion>1.0.120709</terms:hasVersion>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#asexuality"/>
         <terms:title xml:lang="en">Asexuality: A Brief Introduction</terms:title>
         <schema:url>https://web.archive.org/web/20180730140355/http://www.asexualityarchive.com/wp-content/uploads/2012/05/AsexualityABriefIntroduction.pdf</schema:url>
     </owl:Class>
@@ -57816,6 +58676,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <dc:creator>Farah Naz Khan</dc:creator>
         <terms:issued>16 November 2016</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_transgender_health"/>
         <terms:title xml:lang="en">A History of Transgender Health Care</terms:title>
         <schema:WebSite xml:lang="en">Scientific American Blog Network</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180909045449/https://blogs.scientificamerican.com/guest-blog/a-history-of-transgender-health-care/</schema:url>
@@ -57842,6 +58703,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#thesis"/>
         <dc:creator>Aliya Bean</dc:creator>
         <terms:issued>5 May 2016</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian_history"/>
         <terms:title xml:lang="en">&quot;These Girlish Devotions&quot;: Women&apos;s Colleges, the Evolution of Romantic Friendships, and the Development of a Lesbian Identity (1890-1939)</terms:title>
         <schema:url>https://web.archive.org/web/20180921011131/http://bir.brandeis.edu/bitstream/handle/10192/32261/BeanThesis2016.pdf?sequence=1&amp;isAllowed=y</schema:url>
     </owl:Class>
@@ -57855,6 +58717,7 @@
         <dc:creator>Steven L. Lewis</dc:creator>
         <terms:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</terms:dateSubmitted>
         <terms:issued>December 1988</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_male_history_in_the_United_States"/>
         <terms:title xml:lang="en">Gay Masquerade: Male Homosexuals in American Cities, 1910 to 1940</terms:title>
         <schema:url>https://scholarworks.wmich.edu/masters_theses/1139</schema:url>
         <schema:url>https://web.archive.org/web/20180926002354/https://scholarworks.wmich.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&amp;httpsredir=1&amp;article=2176&amp;context=masters_theses</schema:url>
@@ -57870,6 +58733,8 @@
         <terms:issued>20 August 2014</terms:issued>
         <terms:publisher xml:lang="en">The Slate Group LLC</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1091-2339"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#soc.motss"/>
         <terms:title xml:lang="en">The First Gay Space on the Internet</terms:title>
         <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#1091-2339"/>
         <schema:url>https://web.archive.org/web/20181001064248/http://www.slate.com/articles/technology/bitwise/2014/08/online_gay_culture_and_soc_motss_how_a_usenet_group_anticipated_how_we_use.html</schema:url>
@@ -57882,6 +58747,7 @@
     <owl:Class rdf:about="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#glossary"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:title xml:lang="en">Transgender glossary</terms:title>
         <schema:WebSite xml:lang="en">RationalWiki</schema:WebSite>
         <schema:dateModified>17 September 2018</schema:dateModified>
@@ -57894,6 +58760,7 @@
 
     <owl:Class rdf:about="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
         <terms:title xml:lang="en">LGBTTIQQ2SAA+ Definitions</terms:title>
         <schema:WebSite xml:lang="en">Revel &amp; Riot</schema:WebSite>
         <schema:url>https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions</schema:url>
@@ -57905,6 +58772,7 @@
 
     <owl:Class rdf:about="https://web.archive.org/web/20181112183636/http://www.trans-parenting.com/understanding-gender/gender-definitions">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <terms:title xml:lang="en">Gender Definitions</terms:title>
         <schema:WebSite xml:lang="en">Trans-Parenting</schema:WebSite>
         <schema:url>https://web.archive.org/web/20181112183636/http://www.trans-parenting.com/understanding-gender/gender-definitions/</schema:url>
@@ -57919,6 +58787,7 @@
         <dc:creator>Susan Albers</dc:creator>
         <terms:issued>18 February 2014</terms:issued>
         <terms:publisher xml:lang="en">Sussex Publishers, LLC</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#chocolate_craving"/>
         <schema:WebSite xml:lang="en">Psychology Today</schema:WebSite>
         <schema:url xml:lang="en">Why Do I Crave Chocolate During My Period?</schema:url>
         <schema:url>https://www.psychologytoday.com/us/blog/comfort-cravings/201402/why-do-i-crave-chocolate-during-my-period</schema:url>
@@ -57933,6 +58802,8 @@
         <dc:creator>Robert Weiss</dc:creator>
         <terms:issued>4 April 2014</terms:issued>
         <terms:publisher xml:lang="en">Sussex Publishers, LLC</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#nymphomaniac"/>
         <terms:title xml:lang="en">Nymphomaniac—A Realistic Look at Female Hypersexuality?</terms:title>
         <schema:WebSite xml:lang="en">Psychology Today</schema:WebSite>
         <schema:url>https://www.psychologytoday.com/us/blog/love-and-sex-in-the-digital-age/201404/nymphomaniac-realistic-look-female-hypersexuality</schema:url>
@@ -57945,6 +58816,8 @@
     <owl:Class rdf:about="https://www.psychologytoday.com/us/conditions/hypersexuality-sex-addiction">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <terms:issued>6 March 2018</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex_addiction"/>
         <terms:title xml:lang="en">Hypersexuality (Sex Addiction)</terms:title>
         <schema:WebSite xml:lang="en">Psychology Today</schema:WebSite>
         <schema:url>https://www.psychologytoday.com/us/conditions/hypersexuality-sex-addiction</schema:url>
