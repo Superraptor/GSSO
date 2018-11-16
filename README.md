@@ -6,11 +6,11 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 ## Contributing
 
-Please feel free to contribute! If there is a term or terms that include unsatisfactory information, broken links, derogatory terminology that is note appropriately marked, please contact us!
+Please feel free to contribute! If there is a term or terms that include unsatisfactory information, broken links, derogatory terminology that is not appropriately marked, please contact us!
 
 ## Authors
 
-* Clair Kronk
+* Clair Kronk (clair.kronk@gmail.com)
 
 ## License
 
