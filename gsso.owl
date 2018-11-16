@@ -1591,6 +1591,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#WIKISOURCE -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#WIKISOURCE">
+        <preferred-name xml:lang="en">Wikisource</preferred-name>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#YOUTUBE -->
 
     <owl:AnnotationProperty rdf:about="https://github.com/Superraptor/GSSO#YOUTUBE">
@@ -2442,6 +2451,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Albania -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Albania">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <NCIT>C16271</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223644008</SCTID>
+        <preferred-name xml:lang="en">Albania</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southeastern Europe, bordering the Adriatic and Ionian Seas, between Greece and Montenegro.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Albanian_sworn_virgin -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Albanian_sworn_virgin">
@@ -2905,6 +2927,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Asia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Asia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <preferred-name xml:lang="en">Asia</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Asian-American_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Asian-American_culture">
@@ -3170,13 +3201,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Bowery -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bowery">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Manhattan"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bowery</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bowery</WIKIPEDIA>
+        <preferred-name xml:lang="en">Bowery</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Bowery_Never_So_Wide_Open -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bowery_Never_So_Wide_Open">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
-        <terms:issued>26 October 1896</terms:issued>
+        <terms:issued>27 October 1898</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1940-7831"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Bowery"/>
         <terms:title xml:lang="en">Bowery Never So Wide Open</terms:title>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:pageStart>
+        <schema:url>https://www.newspapers.com/image/470017505</schema:url>
     </owl:Class>
     
 
@@ -3252,6 +3298,21 @@
         <rdfs:comment xml:lang="en">Caitlyn Marie Jenner is an American television personality and retired Olympic gold medal-winning decathlete. Jenner revealed her identity as a trans woman in April 2015, publicly announcing her name change from Bruce to Caitlyn in a July 2015 &quot;Vanity Fair&quot; cover story. Her name and gender change became official on September 25, 2015. She has been called the most famous openly transgender woman in the world.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Caitlyn_Jenner</WIKIPEDIA>
         <preferred-name>Caitlyn Jenner</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#California -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#California">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <MESH_UID>D002140</MESH_UID>
+        <NCIT>C43509</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224043007</SCTID>
+        <acronym xml:lang="en">CA</acronym>
+        <preferred-name xml:lang="en">California</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A state on the western coast of the United States. Its capital is Sacramento.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">State bounded on the east by Nevada and Arizona, on the south by Mexico and the Pacific Ocean on the south and west, and on the north by Oregon.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -3399,6 +3460,15 @@
         <WIKIDATA>Q979387</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Chaz_Bono</WIKIPEDIA>
         <preferred-name>Chaz Bono</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#China -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#China">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asia"/>
+        <preferred-name xml:lang="en">China</preferred-name>
     </owl:Class>
     
 
@@ -4050,6 +4120,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Europe -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Europe">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <preferred-name xml:lang="en">Europe</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#European-American_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#European-American_culture">
@@ -4145,17 +4224,54 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Florida -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Florida">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Florida</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Florida</WIKIPEDIA>
+        <preferred-name xml:lang="en">Florida</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Florida_Legislative_Investigation_Committee -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Florida_Legislative_Investigation_Committee">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Florida_Legislature"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#lavender_scare"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Florida_Legislative_Investigation_Committee</WIKIPEDIA>
+        <colloquial-term xml:lang="en">Johns Committee</colloquial-term>
+        <preferred-name xml:lang="en">Florida Legislative Investigation Committee</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Florida_Legislature -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Florida_Legislature">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Florida"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Florida_Legislature</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Florida_Legislature</WIKIPEDIA>
+        <preferred-name xml:lang="en">Florida Legislative</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Fools_Make_Mock_at_Sin -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Fools_Make_Mock_at_Sin">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
         <terms:issued>4 April 1901</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#008604858"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Paresis_Hall"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#general_paresis_of_the_insane"/>
         <terms:title xml:lang="en">&quot;Fools Make Mock at Sin&quot;</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">539</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">539</schema:pageStart>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</schema:volumeNumber>
+        <GOOGLE_BOOKS>fTUxAQAAMAAJ</GOOGLE_BOOKS>
     </owl:Class>
     
 
@@ -4625,6 +4741,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#India -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#India">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asia"/>
+        <preferred-name xml:lang="en">India</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Indian_American_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Indian_American_culture">
@@ -4894,6 +5019,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Japan -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Japan">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asia"/>
+        <preferred-name xml:lang="en">Japan</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Japanese_American_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Japanese_American_culture">
@@ -5156,6 +5290,7 @@
         <dc:creator>Pete Yost</dc:creator>
         <terms:issued>9 February 2014</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#11528217"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#same-sex_marriage"/>
         <terms:title xml:lang="en">Justice Dept. applies same-sex rights to itself</terms:title>
         <schema:pageEnd>A7</schema:pageEnd>
         <schema:pageStart>A7</schema:pageStart>
@@ -6217,6 +6352,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Manhattan -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Manhattan">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#New_York_City"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Manhattan</WIKIPEDIA>
+        <preferred-name xml:lang="en">Manhattan</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Marche_trans_de_Montréal -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Marche_trans_de_Montréal">
@@ -6333,8 +6478,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Massachusetts">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <MESH_UID>D008404</MESH_UID>
+        <NCIT>C43463</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224066008</SCTID>
         <acronym xml:lang="en">MA</acronym>
         <preferred-name xml:lang="en">Massachusetts</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A state in the northeast United States. Its capital is Boston.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">State bounded on the north by New Hampshire and Vermont, on the east by the Atlantic Ocean, on the south by Connecticut and Rhode Island, and on the west by New York.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Commonwealth of Massachusetts</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -6713,6 +6863,58 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#New_York -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#New_York">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <MESH_UID>D009518</MESH_UID>
+        <NCIT>C43468</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420278009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_(state)</WIKIPEDIA>
+        <acronym xml:lang="en">NY</acronym>
+        <preferred-name xml:lang="en">New York</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A state in the northeastern United States. Its capital is Albany.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">State bounded on the north by Lake Ontario and Canada, on the east by Vermont, Massachusetts, and Connecticut, on the south by the Atlantic Ocean, New Jersey, and Pennsylvania, and on the west by Pennsylvania, Lake Erie, and Canada.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#New_York_City -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#New_York_City">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#New_York"/>
+        <MESH_UID>D009519</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420278009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_City</WIKIPEDIA>
+        <acronym xml:lang="en">NYC</acronym>
+        <preferred-name xml:lang="en">New York City</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">City located at the mouth of the Hudson River, in New York State.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#New_York_State_Assembly -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#New_York_State_Assembly">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#New_York_State_Legislature"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_State_Assembly</WIKIPEDIA>
+        <preferred-name xml:lang="en">New York State Assembly</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#New_York_State_Legislature -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#New_York_State_Legislature">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#New_York"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:New_York_State_Legislature</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_State_Legislature</WIKIPEDIA>
+        <preferred-name xml:lang="en">New York State Legislature</preferred-name>
+        <shortened-term xml:lang="en">New York Legislature</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Nonbinary.org -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Nonbinary.org">
@@ -6741,6 +6943,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#North_America">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
         <NCIT>C26275</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/North_America</WIKIPEDIA>
         <preferred-name xml:lang="en">North America</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">North America is a continent in the western hemisphere of Earth, bordered to the west by the Pacific Ocean, the east by the Atlantic Ocean, the north by the Arctic Ocean, and connected at the south to South America by the Isthmus of Panama.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -7009,6 +7212,7 @@
         <schema:founder>James T. &quot;Biff&quot; Ellison</schema:founder>
         <schema:founder>Mike Ryan</schema:founder>
         <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</schema:foundingDate>
+        <schema:location rdf:resource="https://github.com/Superraptor/GSSO#Bowery"/>
         <schema:location xml:lang="en">32 Cooper Square, New York City, New York, United States</schema:location>
         <schema:location xml:lang="en">392 Bowery, New York City, New York, United States</schema:location>
         <WIKIDATA>Q46996833</WIKIDATA>
@@ -7154,6 +7358,16 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">Palarie</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Parlare</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Parlary</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Portugal -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Portugal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <preferred-name xml:lang="en">Portugal</preferred-name>
     </owl:Class>
     
 
@@ -7770,6 +7984,7 @@
         <dc:creator>Douglas C. McMurtrie</dc:creator>
         <terms:issued>June 1914</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#009789713"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Spain"/>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="en">Sexual Inversion among Women in Spain</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
@@ -7909,6 +8124,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#SoxH_gene">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#SOX_gene"/>
         <preferred-name xml:lang="en">SoxH gene</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Spain -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Spain">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <preferred-name xml:lang="en">Spain</preferred-name>
     </owl:Class>
     
 
@@ -8130,6 +8355,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#magazine_article"/>
         <terms:issued>19 April 1862</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#100912118"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#literature"/>
         <terms:title xml:lang="en">The Misfortunes of Timothy Riddle</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">990</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">811</schema:pageEnd>
@@ -8198,6 +8424,8 @@
         <dc:creator>Rodney Martin</dc:creator>
         <terms:issued>13 August 2009</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#233144716"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#opposite-sex_marriage"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#same-sex_marriage"/>
         <terms:title xml:lang="en">The real threat to traditional marriage</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:pageStart>
@@ -8570,6 +8798,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#North_America"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223688001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/United_States</WIKIPEDIA>
         <acronym xml:lang="en">U.S.A.</acronym>
         <acronym xml:lang="en">USA</acronym>
         <preferred-name xml:lang="en">United States of America</preferred-name>
@@ -8926,8 +9155,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
         <terms:issued>28 September 1895</terms:issued>
         <terms:source xml:lang="en">Woman&apos;s Voice and Public School Champion</terms:source>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#viraginity_(female)"/>
         <terms:title xml:lang="en">What is a Viragint?</terms:title>
         <schema:location xml:lang="en">Boston, Massachusetts, United States</schema:location>
+        <schema:url>http://tinyurl.galegroup.com/tinyurl/769JrX</schema:url>
         <GALE>ZKHLLB617508493</GALE>
     </owl:Class>
     
@@ -8949,6 +9180,9 @@
         <dc:creator>Bayard Taylor</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1880</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">G. P. Putnam&apos;s Sons</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#China"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#India"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Japan"/>
         <terms:title xml:lang="en">A Visit to India, China, and Japan in the Year 1853</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1880</schema:datePublished>
         <GOOGLE_BOOKS>Zd5I2NPnj7QC</GOOGLE_BOOKS>
@@ -8961,6 +9195,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ZdtEAAAAYAAJ">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#government_report"/>
         <terms:publisher xml:lang="en">James B. Lyon</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#New_York_City"/>
         <terms:title xml:lang="en">Report of the Special Committee of the Assembly Appointed to Investigate the Public Offices and Departments of the City of New York and of the Counties Therein Included</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1900</schema:datePublished>
         <schema:location xml:lang="en">Albany, New York, New York City</schema:location>
@@ -13801,6 +14036,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#breast -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#breast">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#region_of_pectoral_part_of_chest"/>
+        <schema:alternateName xml:lang="en">breasts</schema:alternateName>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9601</FMA>
+        <NCIT>C12971</NCIT>
+        <UBERON>UBERON:0000310</UBERON>
+        <preferred-name xml:lang="en">breast</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">One of two hemispheric projections of variable size situated in the subcutaneous layer over the pectoralis major muscle on either side of the chest.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#breast_binding -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#breast_binding">
@@ -13821,6 +14070,20 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#envy"/>
         <preferred-name xml:lang="en">breast envy</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The sentiment of desiring feminine breasts.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#breast_feeding -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#breast_feeding">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#breast"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10006247</MEDDRA>
+        <MESH_UID>D001942</MESH_UID>
+        <NCIT>C25596</NCIT>
+        <alternative-spelling xml:lang="en">breastfeeding</alternative-spelling>
+        <preferred-name xml:lang="en">breast feeding</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The nursing of an infant at the breast.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19658,6 +19921,7 @@
         <preferred-name xml:lang="fr">efféminement</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The quality of being effeminate.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">effeminateness</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">effemination</oboInOwl1:hasSynonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#effeminacy"/>
@@ -21988,11 +22252,31 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#female_masculinity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_masculinity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculinity"/>
+        <preferred-name xml:lang="en">female masculinity</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#female_masking -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_masking">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
         <preferred-name xml:lang="en">female masking</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#female_physical_attractiveness -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_physical_attractiveness">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physical_attractiveness"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Female_beauty</WIKIPEDIA>
+        <preferred-name xml:lang="en">female physical attractiveness</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">female beauty</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -22475,6 +22759,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fiat_object_part">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#material_entity"/>
         <preferred-name xml:lang="en">fiat object part</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#fiction -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fiction">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#literature"/>
+        <preferred-name xml:lang="en">fiction</preferred-name>
     </owl:Class>
     
 
@@ -27164,6 +27457,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#history_of_women_in_the_United_States -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#history_of_women_in_the_United_States">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#women&apos;s_history"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:History_of_women_in_the_United_States</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/History_of_women_in_the_United_States</WIKIPEDIA>
+        <preferred-name xml:lang="en">history of women in the United States</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#histotrophic_viviparity -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#histotrophic_viviparity">
@@ -27677,7 +27981,6 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#animal_behavior"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_behavior</WIKIPEDIA>
         <alternative-spelling xml:lang="en">human behaviour</alternative-spelling>
         <preferred-name xml:lang="en">human behavior</preferred-name>
@@ -27694,6 +27997,17 @@
         <schema:alternateName xml:lang="en">human bodies</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human_body</WIKIPEDIA>
         <preferred-name xml:lang="en">human body</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human_breast -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_breast">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#breast"/>
+        <MESH_UID>D001940</MESH_UID>
+        <preferred-name xml:lang="en">human breast</preferred-name>
+        <shortened-term xml:lang="en">breast</shortened-term>
     </owl:Class>
     
 
@@ -28132,6 +28446,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_social_behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_behavior"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_behavior"/>
+        <schema:alternateName xml:lang="en">human social behaviour</schema:alternateName>
+        <preferred-name xml:lang="en">human social behavior</preferred-name>
     </owl:Class>
     
 
@@ -31231,6 +31548,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_history">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#women&apos;s_history"/>
         <preferred-name xml:lang="en">lesbian history</preferred-name>
     </owl:Class>
     
@@ -31241,6 +31559,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_history_in_the_United_States">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_the_United_States"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#history_of_women_in_the_United_States"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_history"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_history_in_the_United_States</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/History_of_lesbianism_in_the_United_States</WIKIPEDIA>
@@ -31610,6 +31929,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#literature -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#literature">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#arts"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Literature</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Literature</WIKIPEDIA>
+        <preferred-name xml:lang="en">literature</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lived_experience -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lived_experience">
@@ -31883,6 +32213,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#male_femininity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_femininity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#femininity"/>
+        <preferred-name xml:lang="en">male femininity</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#male_gaze -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_gaze">
@@ -31962,6 +32301,17 @@
         <preferred-name xml:lang="la">hysteria masculina</preferred-name>
         <preferred-name xml:lang="en">male hysteria</preferred-name>
         <oboInOwl1:hasSynonym xml:lang="en">traumatic hysteria</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#male_physical_attractiveness -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_physical_attractiveness">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#physical_attractiveness"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Male_beauty</WIKIPEDIA>
+        <preferred-name xml:lang="en">male physical attractiveness</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">male beauty</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -40813,6 +41163,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Auguste_Ambroise_Tardieu"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Herculine_Barbin"/>
         <terms:publisher xml:lang="fr">J.-B. Ballière et Fils</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Herculine_Barbin"/>
         <terms:title xml:lang="en">Forensics of Identity Involving Deformities of the Sexual Organs, Along With the Memoirs and Impressions of an Individual Whose Sex Was Misidentified</terms:title>
         <terms:title xml:lang="fr">Question médico-légale de l&apos;identité dans ses rapport avec les vices de conformation des organes sexuels, contenant les souvenirs et impressions d&apos;un individu dont le sexe avait été méconnu</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</schema:datePublished>
@@ -41168,6 +41519,26 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homicide"/>
         <preferred-name xml:lang="de">Königsmord</preferred-name>
         <preferred-name xml:lang="en">regicide</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#region_of_anterior_chest -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#region_of_anterior_chest">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subdivision_of_thorax"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73101</FMA>
+        <preferred-name xml:lang="en">region of anterior chest</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#region_of_pectoral_part_of_chest -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#region_of_pectoral_part_of_chest">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#region_of_anterior_chest"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61478</FMA>
+        <preferred-name xml:lang="en">region of pectoral part of chest</preferred-name>
     </owl:Class>
     
 
@@ -42333,6 +42704,15 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#knowledge_field"/>
         <schema:alternateName xml:lang="en">sciences</schema:alternateName>
         <preferred-name xml:lang="en">science</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#science_fiction -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#science_fiction">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fiction"/>
+        <WIKIPEDIA xml:lang="en">science fiction</WIKIPEDIA>
     </owl:Class>
     
 
@@ -46640,12 +47020,62 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#subdivision_of_body_proper -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#subdivision_of_body_proper">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subdivision_of_cardinal_body_part"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231430</FMA>
+        <preferred-name xml:lang="en">subdivision of body proper</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#subdivision_of_cardinal_body_part -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#subdivision_of_cardinal_body_part">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#postnatal_anatomical_structure"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67504</FMA>
+        <preferred-name xml:lang="en">subdivision of cardinal body part</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#subdivision_of_epidermis -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#subdivision_of_epidermis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#tissue_component_of_epithelium"/>
         <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70593</FMA>
         <preferred-name xml:lang="en">subdivision of epidermis</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#subdivision_of_front_of_trunk -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#subdivision_of_front_of_trunk">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subdivision_of_trunk"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">329023</FMA>
+        <preferred-name xml:lang="en">subdivision of front of trunk</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#subdivision_of_thorax -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#subdivision_of_thorax">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subdivision_of_front_of_trunk"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20358</FMA>
+        <preferred-name xml:lang="en">subdivision of thorax</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#subdivision_of_trunk -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#subdivision_of_trunk">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subdivision_of_body_proper"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25054</FMA>
+        <preferred-name xml:lang="en">subdivision of trunk</preferred-name>
     </owl:Class>
     
 
@@ -47225,6 +47655,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tH87AQAAMAAJ">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#government_publication"/>
         <terms:publisher xml:lang="en">James B. Lyon</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#New_York_State_Assembly"/>
         <terms:title xml:lang="en">Documents of the Assembly of the State of New York</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1901</schema:datePublished>
         <schema:location xml:lang="en">Albany, New York, United States</schema:location>
@@ -48379,6 +48810,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <preferred-name xml:lang="en">transgender awareness</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Awareness and/or consciousness of the transgender community and being transgender.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_breast_feeding -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_breast_feeding">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#breast_feeding"/>
+        <schema:alternateName xml:lang="en">transgender breastfeeding</schema:alternateName>
+        <preferred-name xml:lang="en">transgender breast feeding</preferred-name>
     </owl:Class>
     
 
@@ -49981,6 +50422,15 @@
         <preferred-name xml:lang="en">uterus didelphys</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A uterine malformation where the uterus is present as a paired organ, as the embryogenetic fusion of the Müllerian ducts failed to occur.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">didelphys uterus</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#utopian_fiction -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#utopian_fiction">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fiction"/>
+        <preferred-name xml:lang="en">utopian fiction</preferred-name>
     </owl:Class>
     
 
@@ -51655,6 +52105,7 @@
         <dc:creator>Frank S. Caprio</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">The Citadel Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_sexual_behavior"/>
         <terms:title xml:lang="en">Sexual Behavior: Psycho-Legal Aspects</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">000977057</HATHITRUST>
@@ -51667,6 +52118,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#001183287">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Richard Paul Jodrell</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#language"/>
         <terms:title xml:lang="en">Philology on the English Language</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1820</schema:datePublished>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">001183287</HATHITRUST>
@@ -51769,8 +52221,11 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#002080887">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Xavier Mayne</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#uranism"/>
         <terms:title xml:lang="en">The Intersexes: A History of Similisexualism as a Problem in Social Life</terms:title>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">002080887</HATHITRUST>
+        <WIKISOURCE xml:lang="en">https://en.wikisource.org/wiki/The_Intersexes:_A_History_of_Similisexualism_as_a_Problem_in_Social_Life</WIKISOURCE>
     </owl:Class>
     
 
@@ -51805,6 +52260,7 @@
         <dc:creator xml:lang="en">LaForest E. Potter</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1933</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">National Library Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
         <terms:title xml:lang="en">Strange Loves: A Study in Sexual Abnormalities</terms:title>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">003499372</HATHITRUST>
     </owl:Class>
@@ -51869,6 +52325,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#007125040">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>George Pratt</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#language"/>
         <terms:title xml:lang="en">A Grammar and Dictionary of the Samoan Language, with English and Samoan Vocabulary</terms:title>
         <schema:bookEdition xml:lang="en">3, Revised</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1893</schema:datePublished>
@@ -51881,6 +52338,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#007653940">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#virgin"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#virginity"/>
         <terms:title xml:lang="en">The Way of a Virgin</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</schema:datePublished>
         <schema:editor>C. Brovan</schema:editor>
@@ -51944,6 +52403,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Rose Wilder Lane</dc:creator>
         <terms:publisher xml:lang="en">Chapman &amp; Dodd Limited</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Albania"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Albanian_sworn_virgin"/>
         <terms:title xml:lang="en">The Peaks of Shala: Being a Record of Certain Wanderings among the Hill-Tribes of Albania</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</schema:datePublished>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">008648938</HATHITRUST>
@@ -52090,7 +52551,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>William Dalrymple</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1777</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Portugal"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Spain"/>
         <terms:title xml:lang="en">Travels through Spain and Portugal in 1774; with a Short Account of the Spanish Expedition against Algiers, in 1775</terms:title>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</schema:numberOfPages>
+        <GOOGLE_BOOKS>WhZUAAAAcAAJ</GOOGLE_BOOKS>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">010824925</HATHITRUST>
     </owl:Class>
     
@@ -52805,6 +53270,7 @@
         <dc:creator>Zil Goldstein</dc:creator>
         <terms:issued>1 January 2018</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2380-193X"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_breast_feeding"/>
         <terms:title xml:lang="en">Case Report: Induced Lactation in a Transgender Woman</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</schema:pageEnd>
@@ -53773,6 +54239,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Edward Eggleston</dc:creator>
         <terms:publisher xml:lang="en">Charles Scribner&apos;s Sons</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#children&apos;s_literature"/>
         <terms:title xml:lang="en">The Hoosier School-Boy</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1883</schema:datePublished>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100542209</HATHITRUST>
@@ -53799,6 +54266,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#100912118">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#magazine"/>
         <terms:title xml:lang="en">Family Herald</terms:title>
+        <schema:alternateName xml:lang="en">The Family Herald: A Domestic Magazine of Useful Information and Amusement</schema:alternateName>
+        <schema:location xml:lang="en">London, England</schema:location>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100912118</HATHITRUST>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Family_Herald</WIKIPEDIA>
     </owl:Class>
@@ -53826,6 +54295,7 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1909</terms:dateCopyrighted>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1911</terms:issued>
         <terms:publisher xml:lang="en">G. &amp; C. Merriam Company</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#language"/>
         <terms:title xml:lang="en">Webster&apos;s New International Dictionary of the English Language</terms:title>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102110660</HATHITRUST>
     </owl:Class>
@@ -54043,6 +54513,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>David Lindsay</dc:creator>
         <terms:publisher xml:lang="en">Methuen &amp; Co.</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#science_fiction"/>
         <terms:title xml:lang="en">A Voyage to Arcturus</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</schema:datePublished>
@@ -54693,6 +55164,10 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Hubert Selby, Jr.</dc:creator>
         <terms:publisher xml:lang="en">Grove Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#domestic_violence"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gang_rape"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transvestism"/>
         <terms:title xml:lang="en">Last Exit to Brooklyn</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</schema:datePublished>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">320</schema:numberOfPages>
@@ -55166,6 +55641,10 @@
         <terms:dateCopyrighted>March 1905</terms:dateCopyrighted>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1905</terms:issued>
         <terms:publisher xml:lang="en">Chicago Medical Book Co.</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#effeminacy"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#religion"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_desire"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#viraginity_(female)"/>
         <terms:title xml:lang="en">Religion and Lust</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:bookEdition>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233</schema:numberOfPages>
@@ -55189,6 +55668,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#387AQAAMAAJ">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#government_publication"/>
         <terms:publisher xml:lang="en">James B. Lyon</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#New_York_State_Assembly"/>
         <terms:title xml:lang="en">Documents of the Assembly of the State of New York</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1901</schema:datePublished>
         <schema:location xml:lang="en">Albany, New York, United States</schema:location>
@@ -55813,6 +56293,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#6m00AQAAMAAJ">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#government_report"/>
         <terms:publisher xml:lang="en">James B. Lyon</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#New_York_City"/>
         <terms:title xml:lang="en">Report of the Special Committee of the Assembly Appointed to Investigate the Public Offices and Departments of the City of New York and of the Counties Therein Included</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1900</schema:datePublished>
         <schema:location xml:lang="en">Albany, New York, New York City</schema:location>
@@ -55829,6 +56310,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#George_W._Henry"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1941</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">P. B. Hoeber, Inc.</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
         <terms:title xml:lang="en">Sex Variants: A Study of Homosexual Patterns</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">003517086</HATHITRUST>
@@ -56083,6 +56565,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#John_Money"/>
         <terms:publisher xml:lang="en">Oxford University Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#heterosexuality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexology"/>
         <terms:title xml:lang="en">Gay, Straight, and In-Between: The Sexology of Erotic Orientation</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:datePublished>5 May 1988</schema:datePublished>
@@ -56133,12 +56618,17 @@
         <terms:DDC>741.5/973 22</terms:DDC>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</terms:issued>
         <terms:publisher>Jonathan Cape</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_role"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#psychological_abuse"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_orientation"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#suicide"/>
         <terms:title xml:lang="en">Fun Home: A Family Tragicomic</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:datePublished>14 September 2006</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780224080514</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</schema:numberOfPages>
         <GOOGLE_BOOKS>H8W3TTX8iGAC</GOOGLE_BOOKS>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Fun_Home</WIKIPEDIA>
     </owl:Class>
     
 
@@ -56183,6 +56673,9 @@
         <dc:creator>Laura L. Behling</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</terms:issued>
         <terms:publisher xml:lang="en">University of Illinois Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#female_masculinity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#history_of_women_in_the_United_States"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="en">The Masculine Woman in American, 1890-1935</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780252026270</schema:isbn>
@@ -56265,6 +56758,8 @@
         <dc:creator>Kate Swift</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</terms:issued>
         <terms:publisher xml:lang="en">Anchor Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender-inclusive_language"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexism"/>
         <terms:title xml:lang="en">Words and Women</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780385048576</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197</schema:numberOfPages>
@@ -56278,6 +56773,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780385423977">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Naomi Wolf</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#female_physical_attractiveness"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#feminism"/>
         <terms:title xml:lang="en">The Beauty Myth</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780385423977</schema:isbn>
@@ -56293,6 +56790,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>Marge Piercy</dc:creator>
         <terms:publisher xml:lang="en">Alfred A. Knopf</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#science_fiction"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#utopian_fiction"/>
         <terms:title xml:lang="en">Woman on the Edge of Time</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780394499864</schema:isbn>
@@ -56606,6 +57105,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Alison_Bechdel"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</terms:issued>
         <terms:publisher xml:lang="en">Firebrand Books</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
         <terms:title xml:lang="en">Dykes To Watch Out For</terms:title>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780932379184</schema:isbn>
         <acronym xml:lang="en">DTWOF</acronym>
@@ -56750,6 +57250,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781450356206">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conference_proceedings"/>
         <terms:publisher xml:lang="en">Association for Computing Machinery</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human–computer_interaction"/>
         <terms:title xml:lang="en">Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</terms:title>
         <schema:datePublished>21 April 2018</schema:datePublished>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781450356206</schema:isbn>
@@ -56860,7 +57361,11 @@
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_sexuality"/>
         <terms:title xml:lang="en">The International Encyclopedia of Human Sexuality</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
+        <schema:datePublished>June 2015</schema:datePublished>
+        <schema:editor>Anne Bolin</schema:editor>
+        <schema:editor>Patricia Whelehan</schema:editor>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781786842992</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1632</schema:numberOfPages>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">985403957</OCLC>
     </owl:Class>
     
@@ -57091,6 +57596,7 @@
         <dc:creator>John McCaslin</dc:creator>
         <terms:issued>2 October 1995</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0732-8494"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#genderqueer"/>
         <terms:title xml:lang="en">A Nation Inside the Beltway</terms:title>
         <schema:pageEnd>A8</schema:pageEnd>
         <schema:pageStart>A8</schema:pageStart>
@@ -57130,6 +57636,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Barnstable_County,_Massachusetts">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Massachusetts"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Barnstable_County,_Massachusetts</WIKIPEDIA>
         <preferred-name xml:lang="en">Barnstable County, Massachusetts</preferred-name>
         <shortened-term xml:lang="en">Barnstable County</shortened-term>
     </owl:Class>
@@ -57489,6 +57996,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Provincetown,_Massachusetts">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Barnstable_County,_Massachusetts"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Provincetown,_Massachusetts</WIKIPEDIA>
         <preferred-name xml:lang="en">Provincetown, Massachusetts</preferred-name>
         <shortened-term xml:lang="en">P&apos;town</shortened-term>
         <shortened-term xml:lang="en">P-town</shortened-term>
@@ -57519,10 +58027,12 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#newspaper_article"/>
         <dc:creator>Carey Goldberg</dc:creator>
         <terms:issued>11 June 1999</terms:issued>
-        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#Public_Lives;_Issues_of_Gender,_From_Pronouns_to_Murder"/>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1553-8095"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Riki_Anne_Wilchins"/>
         <terms:title xml:lang="en">Public Lives; Issues of Gender, From Pronouns to Murder</terms:title>
         <schema:pageEnd>B00002</schema:pageEnd>
         <schema:pageStart>B00002</schema:pageStart>
+        <schema:url>https://web.archive.org/web/20170219173407/https://www.nytimes.com/1999/06/11/nyregion/public-lives-issues-of-gender-from-pronouns-to-murder.html</schema:url>
     </owl:Class>
     
 
@@ -57800,6 +58310,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#children&apos;s_literature -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#children&apos;s_literature">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#literature"/>
+        <MESH_UID>D020482</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Children%27s_literature</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Children%27s_literature</WIKIPEDIA>
+        <preferred-name xml:lang="en">children&apos;s literature</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">juvenile literature</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#chromosome_XXX/Down_syndrome -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chromosome_XXX/Down_syndrome">
@@ -57887,6 +58410,20 @@
         <schema:url>http://www.transgirlnextdoor.com/</schema:url>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Trans_Girl_Next_Door</WIKIPEDIA>
         <preferred-name xml:lang="en">Trans Girl Next Door</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#human–computer_interaction -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human–computer_interaction">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction</WIKIPEDIA>
+        <acronym xml:lang="en">HCI</acronym>
+        <alternative-spelling xml:lang="en">human computer interaction</alternative-spelling>
+        <alternative-spelling xml:lang="en">human-computer interaction</alternative-spelling>
+        <preferred-name xml:lang="en">human–computer interaction</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">computer human interaction</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -58148,6 +58685,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#women&apos;s_history -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#women&apos;s_history">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_history"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Women%27s_history</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Women%27s_history</WIKIPEDIA>
+        <preferred-name xml:lang="en">women&apos;s history</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#women&apos;s_rights -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#women&apos;s_rights">
@@ -58202,8 +58750,11 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#government_report"/>
         <dc:creator xml:lang="en">Florida Legislative Investigation Committee</dc:creator>
         <terms:issued>January 1964</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Florida_Legislative_Investigation_Committee"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homophobic_propaganda"/>
         <terms:title xml:lang="en">Homosexuality and Citizenship in Florida</terms:title>
         <schema:url>https://ia601901.us.archive.org/34/items/ReportJan1964/ReportJan1964.pdf</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homosexuality_and_Citizenship_in_Florida</WIKIPEDIA>
         <colloquial-term xml:lang="en">Purple Pamphlet</colloquial-term>
     </owl:Class>
     
@@ -58658,6 +59209,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#government_report"/>
         <terms:publisher xml:lang="de">Bundesministeriums für Familie, Senioren, Frauen und Jugend</terms:publisher>
         <terms:publisher xml:lang="en">Federal Ministry for Family Affairs, Senior Citizens, Women and Youth</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Transsexuellengesetz"/>
         <terms:title xml:lang="en">Report on Reform of the Transsexuals Act (Transsexuellengesetz)</terms:title>
         <schema:url>https://web.archive.org/web/20180822005256/https://www.bmfsfj.de/blob/119714/868b768ed3bf80b514219b9a2aeb3a8c/report-on-reform-of-the-transsexuals-act-data.pdf</schema:url>
     </owl:Class>
