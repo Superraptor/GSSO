@@ -2280,6 +2280,9 @@
         <dc:creator>James Weir, Jr.</dc:creator>
         <terms:issued>September 1895</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0003-0147"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#viraginity_(female)"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#viragint_(female)"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#women&apos;s_suffrage"/>
         <terms:title xml:lang="en">The Effect of Female Suffrage on Posterity</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">345</schema:issueNumber>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:numberOfPages>
@@ -2779,6 +2782,7 @@
         <dc:creator>Q. W. Hunter</dc:creator>
         <terms:issued>November 1913</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1743-9191"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
         <terms:title xml:lang="en">Anent So-Called Androgynism</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">399</schema:pageEnd>
@@ -3116,6 +3120,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator>Robert Wilson Shufeldt</dc:creator>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_biography"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#bottom"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#pederasty"/>
         <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460</schema:pageEnd>
@@ -5579,6 +5586,27 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_autobiography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_autobiography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_biography"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#autobiography"/>
+        <schema:alternateName xml:lang="en">LGBT autobiographies</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_autobiographies</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT autobiography</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_biography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_biography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biography"/>
+        <preferred-name xml:lang="en">LGBT biography</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_civil_rights -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_civil_rights">
@@ -7144,6 +7172,7 @@
         <dc:creator>Ramon L. Rodriguez</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1178-7074"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hypersexuality_in_Parkinson&apos;s_disease"/>
         <terms:title xml:lang="en">Prevalence of hypersexual behavior in Parkinson’s disease patients: Not restricted to males and dopamine agonist use</terms:title>
         <schema:datePublished>30 July 2009</schema:datePublished>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</schema:pageEnd>
@@ -7441,6 +7470,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:issued>July 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
         <terms:title xml:lang="en">Protest from an Androgyne</terms:title>
         <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schema:issueNumber>
@@ -8209,6 +8239,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:issued>December 1920</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000047551"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
         <terms:title xml:lang="en">Studies in Androgynism</terms:title>
         <schema:editor>Victor Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</schema:issueNumber>
@@ -8304,6 +8335,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:issued>October 1918</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#fairy"/>
         <terms:title xml:lang="en">The Fairie Boy</terms:title>
         <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</schema:issueNumber>
@@ -8321,6 +8353,8 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:issued>June 1919</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="en">The Female-Impersonator</terms:title>
         <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
@@ -12058,6 +12092,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#autobiography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#autobiography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#personal_narrative"/>
+        <schema:alternateName xml:lang="en">autobiographies</schema:alternateName>
+        <MESH_UID>D020493</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Autobiography</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Autobiographies</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/List_of_autobiographies</WIKIPEDIA>
+        <preferred-name xml:lang="en">autobiography</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Works consisting of self-described accounts.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#autobiographyofa00lind -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#autobiographyofa00lind">
@@ -12067,6 +12116,7 @@
         <terms:publisher xml:lang="en">Medico-Legal Journal</terms:publisher>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_autobiography"/>
         <terms:title xml:lang="en">Autobiography of an Androgyne</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:bookEdition>
         <schema:editor>Alfred W. Herzog</schema:editor>
@@ -13006,6 +13056,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#biography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#biography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#publication_format"/>
+        <schema:alternateName xml:lang="en">biographies</schema:alternateName>
+        <MESH_UID>D019215</MESH_UID>
+        <preferred-name xml:lang="en">biography</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Works consisting of an account of the events, works, and achievements, personal and professional, during a person&apos;s life. It includes articles on the activities and accomplishments of living persons as well as the presentation of an obituary.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#biological_entity -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#biological_entity">
@@ -13367,6 +13429,15 @@
         <owl:annotatedTarget xml:lang="en">place of birth</owl:annotatedTarget>
         <acronym xml:lang="en">POB</acronym>
     </owl:Axiom>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bisexual_autobiography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_autobiography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_autobiography"/>
+        <preferred-name xml:lang="en">bisexual autobiography</preferred-name>
+    </owl:Class>
     
 
 
@@ -18438,6 +18509,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#democratic_rights -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#democratic_rights">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#civil_rights"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Democratic_rights</WIKIPEDIA>
+        <preferred-name xml:lang="en">democratic rights</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#demonym -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#demonym">
@@ -19132,7 +19213,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#docking">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#genital-genital_rubbing"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mutal_masturbation"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mutual_masturbation"/>
         <preferred-name xml:lang="en">docking</preferred-name>
     </owl:Class>
     
@@ -22117,6 +22198,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#female_breast -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_breast">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#breast"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19898</FMA>
+        <preferred-name xml:lang="en">female breast</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#female_cisgender_identity -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_cisgender_identity">
@@ -23132,6 +23223,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#formal_specification -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#formal_specification">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#functional_specification"/>
+        <SIO>SIO:000621</SIO>
+        <preferred-name xml:lang="en">formal specification</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A formal specification is a mathematical description of software or hardware that may be used to develop an implementation.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#fornication -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fornication">
@@ -23411,6 +23513,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#functional_specification -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#functional_specification">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#specification"/>
+        <SIO>SIO:000315</SIO>
+        <preferred-name xml:lang="en">functional specification</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A functional specification is a specification that describes the characteristics of an object.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#functional_voice_disorder -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#functional_voice_disorder">
@@ -23562,6 +23675,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_autobiography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_autobiography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_autobiography"/>
+        <preferred-name xml:lang="en">gay autobiography</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_bar -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_bar">
@@ -23702,6 +23824,15 @@
         <preferred-name xml:lang="en">gay male-related media</preferred-name>
         <shortened-term xml:lang="en">gay-related media</shortened-term>
         <oboInOwl1:hasExactSynonym xml:lang="en">gay (male) media</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_autobiography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_autobiography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_autobiography"/>
+        <preferred-name xml:lang="en">gay male autobiography</preferred-name>
     </owl:Class>
     
 
@@ -28250,6 +28381,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#human_phenotype -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_phenotype">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#phenotype"/>
+        <preferred-name xml:lang="en">human phenotype</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#human_physical_appearance -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_physical_appearance">
@@ -31494,6 +31634,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbian_autobiography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_autobiography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_autobiography"/>
+        <preferred-name xml:lang="en">lesbian autobiography</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbian_community -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_community">
@@ -32178,6 +32327,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Tanner_scale"/>
         <preferred-name xml:lang="en">male Tanner scale</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">male Tanner stages</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#male_breast -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_breast">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#breast"/>
+        <FMA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19901</FMA>
+        <preferred-name xml:lang="en">male breast</preferred-name>
     </owl:Class>
     
 
@@ -33417,6 +33576,17 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">meiotic cell cycle</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">meiotic cell division</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">reproductive cell division</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#memoir -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#memoir">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#autobiography"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Memoirs</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Memoir</WIKIPEDIA>
+        <preferred-name xml:lang="en">memoir</preferred-name>
     </owl:Class>
     
 
@@ -34735,9 +34905,9 @@
     
 
 
-    <!-- https://github.com/Superraptor/GSSO#mutal_masturbation -->
+    <!-- https://github.com/Superraptor/GSSO#mutual_masturbation -->
 
-    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mutal_masturbation">
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mutual_masturbation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-penetrative_sexual_intercourse"/>
         <acronym xml:lang="en">MM</acronym>
         <preferred-name xml:lang="en">mutual masturbation</preferred-name>
@@ -36452,6 +36622,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#video"/>
         <schema:alternateName xml:lang="en">online videos</schema:alternateName>
         <preferred-name xml:lang="en">online video</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ontology -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ontology">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#formal_specification"/>
+        <SIO>SIO:001391</SIO>
+        <preferred-name xml:lang="en">ontology</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An ontology is a formal specification of entities, their attributes and relationships.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -38373,6 +38554,18 @@
         <WIKIDATA>Q1071027</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Personal_name</WIKIPEDIA>
         <preferred-name xml:lang="en">personal name</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#personal_narrative -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#personal_narrative">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biography"/>
+        <schema:alternateName xml:lang="en">personal narratives</schema:alternateName>
+        <MESH_UID>D062210</MESH_UID>
+        <preferred-name xml:lang="en">personal narrative</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Works consisting of accounts of individual experience in relation to a particular field or of participation in related activities.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40913,7 +41106,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#publication_format">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#publication"/>
         <schema:alternateName xml:lang="en">publication formats</schema:alternateName>
+        <MESH_UID>D052180</MESH_UID>
         <preferred-name xml:lang="en">publication format</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Specific genre of publication.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -45679,6 +45874,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#social_determinants_of_health -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_determinants_of_health">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_status"/>
+        <MESH_UID>D064890</MESH_UID>
+        <acronym xml:lang="en">SDH</acronym>
+        <acronym xml:lang="en">SDOH</acronym>
+        <acronym xml:lang="en">SDoH</acronym>
+        <preferred-name xml:lang="en">social determinants of health</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The circumstances in which people are born, grow up, live, work, and age, as well as the systems put in place to deal with illness. These circumstances are in turn shaped by a wider set of forces: economics, social policies, and politics.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">health social determinants</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#social_entity -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_entity">
@@ -47173,6 +47383,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#suffrage -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#suffrage">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#democratic_rights"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Suffrage</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Suffrage</WIKIPEDIA>
+        <preferred-name xml:lang="en">suffrage</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#suggestiveness -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#suggestiveness">
@@ -47803,6 +48024,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#temporary_insanity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mental_disorder_defense"/>
         <preferred-name xml:lang="en">temporary insanity</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#terminology -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#terminology">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#vocabulary"/>
+        <SIO>SIO:001396</SIO>
+        <preferred-name xml:lang="en">terminology</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A terminology is a set of terms used for a specified application.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -48578,7 +48810,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trans-feminine">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminine_spectrum_gender_identity"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
+        <alternative-spelling xml:lang="en">transfeminine</alternative-spelling>
         <preferred-name xml:lang="en">trans-feminine</preferred-name>
+        <shortened-term xml:lang="en">transfem</shortened-term>
     </owl:Class>
     
 
@@ -48597,7 +48831,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#trans-masculine">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#masculine_spectrum_gender_identity"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
+        <alternative-spelling xml:lang="en">transmasculine</alternative-spelling>
         <preferred-name xml:lang="en">trans-masculine</preferred-name>
+        <shortened-term xml:lang="en">transmasc</shortened-term>
     </owl:Class>
     
 
@@ -48638,6 +48874,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transfeminine_experience">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_experience"/>
         <preferred-name xml:lang="en">transfeminine experience</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transfeminine_person -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transfeminine_person">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-feminine"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <alternative-spelling xml:lang="en">trans-feminine person</alternative-spelling>
+        <preferred-name xml:lang="en">transfeminine person</preferred-name>
     </owl:Class>
     
 
@@ -48804,6 +49051,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#transgender_autobiography -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_autobiography">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_autobiography"/>
+        <preferred-name xml:lang="en">transgender autobiography</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#transgender_awareness -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_awareness">
@@ -48889,6 +49145,15 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <schema:alternateName xml:lang="en">transgender experiences</schema:alternateName>
         <preferred-name xml:lang="en">transgender experience</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_female_breast -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_female_breast">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_breast"/>
+        <preferred-name xml:lang="en">transgender female breast</preferred-name>
     </owl:Class>
     
 
@@ -48995,6 +49260,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#transgender_male_breast -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_male_breast">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#male_breast"/>
+        <preferred-name xml:lang="en">transgender male breast</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#transgender_male_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_male_culture">
@@ -49011,8 +49285,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_man">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#male_transgender_identity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#man"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-masculine"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transmasculine_person"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
@@ -49174,8 +49447,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_woman">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_transgender_identity"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-feminine"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transfeminine_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20140214024253/https://abcnews.go.com/blogs/headlines/2014/02/heres-a-list-of-58-gender-options-for-facebook-users"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180104013648/http://transhealth.ucsf.edu/pdf/Transgender-PGACG-6-17-16.pdf"/>
@@ -49248,6 +49520,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transmasculine_experience">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_experience"/>
         <preferred-name xml:lang="en">transmasculine experience</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transmasculine_person -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transmasculine_person">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#trans-masculine"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <alternative-spelling xml:lang="en">trans-masculine person</alternative-spelling>
+        <preferred-name xml:lang="en">transmasculine person</preferred-name>
     </owl:Class>
     
 
@@ -49527,7 +49810,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#tribadism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#genital-genital_rubbing"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mutal_masturbation"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mutual_masturbation"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#Sexual_Inversion_among_Women_in_Spain"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000620730"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
@@ -50962,6 +51245,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#vocabulary -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vocabulary">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#formal_specification"/>
+        <SIO>SIO:001080</SIO>
+        <preferred-name xml:lang="en">vocabulary</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A vocabulary is a collection of terms.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#vocal_abuse -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vocal_abuse">
@@ -52326,6 +52620,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <dc:creator>George Pratt</dc:creator>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#language"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#vocabulary"/>
         <terms:title xml:lang="en">A Grammar and Dictionary of the Samoan Language, with English and Samoan Vocabulary</terms:title>
         <schema:bookEdition xml:lang="en">3, Revised</schema:bookEdition>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1893</schema:datePublished>
@@ -52699,6 +52994,8 @@
         <dc:creator>Terry Langendoen</dc:creator>
         <terms:issued>March 2003</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1381-3439"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#linguistics"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#ontology"/>
         <terms:title xml:lang="en">A Linguistic Ontology for the Semantic Web</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</schema:pageEnd>
@@ -52758,6 +53055,7 @@
         <terms:issued>March 1972</terms:issued>
         <terms:publisher xml:lang="de">Springer-Verlag</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1432-1203"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Klinefelter_syndrome"/>
         <terms:title xml:lang="en">Different chromosome variants of Klinefelter&apos;s syndrome and plasma testosterone</terms:title>
         <schema:datePublished>1 January 1972</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
@@ -52778,6 +53076,9 @@
         <dc:creator>Jae M. Sevelius</dc:creator>
         <terms:issued>1 June 2013</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0360-0025"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_affirmation"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#woman_of_color"/>
         <terms:title xml:lang="en">Gender Affirmation: A Framework for Conceptualizing Risk Behavior among Transgender Women of Color</terms:title>
         <schema:issueNumber>11-12</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">689</schema:pageEnd>
@@ -52821,6 +53122,8 @@
         <dc:creator>Zil Goldstein</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2167-4825"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_female_breast"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_male_breast"/>
         <terms:title xml:lang="en">Breast Imaging of Transgender Individuals: A Review</terms:title>
         <schema:datePublished>18 January 2018</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
@@ -52861,6 +53164,8 @@
         <dc:creator>Jaclyn M. White</dc:creator>
         <dc:creator>Roger D. Weiss</dc:creator>
         <dc:creator>Sari L. Reisner</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#substance-related_disorder"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:title xml:lang="en">Substance Use and Treatment of Substance Use Disorders in a Community Sample of Transgender Adults</terms:title>
         <schema:datePublished>22 April 2015</schema:datePublished>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146</schema:pageEnd>
@@ -52884,6 +53189,10 @@
         <dc:creator>Stephen T. Russell</dc:creator>
         <terms:dateAccepted>1 February 2018</terms:dateAccepted>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1054-139X"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#chosen_name"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#mental_depression"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#suicidal_ideation"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_youth"/>
         <terms:title xml:lang="en">Chosen Name Use Is Linked to Reduced Depressive Symptoms, Suicidal Ideation, and Suicidal Behavior Among Transgender Youth</terms:title>
         <schema:datePublished>30 March 2018</schema:datePublished>
         <DOI>10.1016/j.jadohealth.2018.02.003</DOI>
@@ -52901,6 +53210,7 @@
         <terms:dateAccepted>14 January 2011</terms:dateAccepted>
         <terms:issued>March 2012</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0892-1997"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#voice_masculinization"/>
         <terms:title xml:lang="en">On Pubescent Voice Change in Males</terms:title>
         <schema:datePublished>18 May 2011</schema:datePublished>
         <schema:datePublished>20 May 2011</schema:datePublished>
@@ -52951,6 +53261,7 @@
         <dc:creator>Małgorzata Krajewska-Walasek</dc:creator>
         <terms:dateAccepted>11 June 2013</terms:dateAccepted>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0031-3939"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_tetraploidy"/>
         <terms:title xml:lang="pl">Tetraploidia w erze kariotypowania molekularnego - o czym należy pamiętać</terms:title>
         <terms:title xml:lang="en">Tetraploidy in the era of molecular karyotyping – What we need to remember</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:issueNumber>
@@ -52993,6 +53304,7 @@
         <dc:creator>Luk Gijs</dc:creator>
         <dc:creator>Michiel W Hengeveld</dc:creator>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1532-8384"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_disorder"/>
         <terms:title xml:lang="en">Classification of sexual dysfunctions: Towards DSM-V and ICD-11</terms:title>
         <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
@@ -53010,6 +53322,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1016/S0140-6736(00)31851-7">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <terms:issued>15 October 1836</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#hermaphrodite"/>
         <terms:title xml:lang="en">Description of an Hermaphrodite</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">685</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</schema:pageEnd>
@@ -53035,6 +53348,8 @@
         <terms:issued>February 2012</terms:issued>
         <terms:publisher xml:lang="en">American Psychological Association</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1939-1846"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_health_disparities"/>
         <terms:title xml:lang="en">An Invariant Dimensional Liability Model of Gender Differences in Mental Disorder Prevalence: Evidence From a National Sample</terms:title>
         <schema:datePublished>15 August 2011</schema:datePublished>
         <schema:datePublished>February 2012</schema:datePublished>
@@ -53209,6 +53524,7 @@
         <dc:creator>Liesl Therona</dc:creator>
         <terms:dateAccepted>18 March 2013</terms:dateAccepted>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1464-5351"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transmasculine_person"/>
         <terms:title xml:lang="en">Experiences of female partners of masculine-identifying trans persons</terms:title>
         <schema:datePublished>13 May 2013</schema:datePublished>
         <schema:issueNumber xml:lang="en">Supplement 1</schema:issueNumber>
@@ -53291,6 +53607,7 @@
         <dc:creator>Patricia P. Rieker</dc:creator>
         <terms:issued>October 2005</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1758-5368"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_health_disparities"/>
         <terms:title xml:lang="en">Rethinking Gender Differences in Health: Why We Need to Integrate Social and Biological Perspectives</terms:title>
         <schema:datePublished>1 October 2005</schema:datePublished>
         <schema:issueNumber xml:lang="en">Special Issue 2</schema:issueNumber>
@@ -53367,6 +53684,8 @@
         <dc:creator>Willem H. Ouwehand</dc:creator>
         <terms:issued>4 January 2017</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1362-4962"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human_phenotype"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#ontology"/>
         <terms:title xml:lang="en">The Human Phenotype Ontology in 2017</terms:title>
         <schema:issueNumber xml:lang="en">Database Issue</schema:issueNumber>
         <schema:pageEnd>D876</schema:pageEnd>
@@ -53406,6 +53725,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator>Soumyajit Mazumder</dc:creator>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1540-5907"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#civil_rights"/>
         <terms:title xml:lang="en">The Persistent Effect of U.S. Civil Rights Protests on Political Attitudes</terms:title>
         <schema:datePublished>30 August 2018</schema:datePublished>
         <DOI>10.1111/ajps.12384</DOI>
@@ -53424,6 +53745,9 @@
         <dc:creator>Susan Howell</dc:creator>
         <terms:issued>June 2011</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1651-2227"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#48,XXXY_syndrome"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#48,XXYY_syndrome"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#49,XXXXY_syndrome"/>
         <terms:title xml:lang="en">48,XXYY, 48,XXXY and 49,XXXXY syndromes: not just variants of Klinefelter syndrome</terms:title>
         <schema:datePublished>8 April 2011</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
@@ -53488,6 +53812,8 @@
         <dc:creator>Samantha Jaroszewski</dc:creator>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:dateCopyrighted>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#9781450356206"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#human–computer_interaction"/>
         <terms:title xml:lang="en">&quot;Genderfluid&quot; or &quot;Attack Helicopter&quot;: Responsible HCI Research Practice with Non-binary Gender Variation in Online Communities</terms:title>
         <schema:datePublished>21 April 2018</schema:datePublished>
         <DOI>10.1145/3173574.3173881</DOI>
@@ -53503,6 +53829,7 @@
         <dc:creator>Dieter Kotzot</dc:creator>
         <terms:issued>June 2011</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1661-5433"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Klinefelter_syndrome"/>
         <terms:title xml:lang="en">Chromosomal Variants in Klinefelter Syndrome</terms:title>
         <schema:datePublished>29 April 2011</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
@@ -53564,6 +53891,8 @@
         <dc:creator>Richard R. Troiden</dc:creator>
         <terms:issued>1 May 1979</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2372-9708"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#androgynous_gender_expression"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
         <terms:title xml:lang="en">Androgyny: A Neglected Dimension of Homosexuality</terms:title>
         <schema:datePublished>1 May 1979</schema:datePublished>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</schema:pageEnd>
@@ -53621,6 +53950,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1177/0959354396064005">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator>Mary Brown Parlee</dc:creator>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
         <terms:title xml:lang="en">Situated Knowledges of Personal Embodiment: Transgender Activists&apos; and Psychological Theorists&apos; Perspectives on `Sex&apos; and `Gender&apos;</terms:title>
         <schema:datePublished>1 November 1996</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:issueNumber>
@@ -53640,6 +53972,8 @@
         <dc:creator>Vanessa E. Munro</dc:creator>
         <terms:issued>15 September 2009</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0964-6639"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#rape"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sociosexual_script"/>
         <schema:datePublished>1 September 2009</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291</schema:pageStart>
@@ -53660,6 +53994,7 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</terms:dateCopyrighted>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1687-9856"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#47,XXY/46,XX_mosaic_Klinefelter_syndrome"/>
         <terms:title xml:lang="en">A rare 47 XXY/46 XX mosaicism with clinical features of Klinefelter syndrome</terms:title>
         <schema:datePublished>2 June 2016</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
@@ -53687,6 +54022,7 @@
         <dc:creator>Wylie C. Hembree</dc:creator>
         <terms:dateAccepted>4 June 2009</terms:dateAccepted>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1945-7197"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_hormone_therapy"/>
         <terms:title xml:lang="en">Endocrine Treatment of Transsexual Persons:An Endocrine Society Clinical Practice Guideline</terms:title>
         <schema:datePublished>1 September 2009</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</schema:issueNumber>
@@ -53706,6 +54042,12 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</terms:dateCopyrighted>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1527-9375"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#butch"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#female_masculinity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#male_transgender_identity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#masculine_spectrum_gender_identity"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#trans-masculine"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
         <terms:title xml:lang="en">Transgender Butch: Butch/FTM Border Wars and the Masculine Continuum</terms:title>
         <schema:datePublished>1 April 1998</schema:datePublished>
         <schema:editor>Susan Stryker</schema:editor>
@@ -53743,6 +54085,8 @@
         <dc:creator>Andrew Reynolds</dc:creator>
         <dc:creator>Logan S. Casey</dc:creator>
         <terms:issued>January 2017</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_variant"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender"/>
         <terms:title xml:lang="en">Standing Out: Transgender and Gender Variant Candidates and Elected Officials Around the World</terms:title>
         <schema:url>https://web.archive.org/web/20180201065407/https://lgbtqrightsrep.files.wordpress.com/2015/10/lgbt_report_trans_v4.pdf</schema:url>
         <DOI>10.13140/RG.2.2.18846.95041</DOI>
@@ -53800,6 +54144,7 @@
         <dc:creator>Yu Lin</dc:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1932-6203"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#ontology"/>
         <terms:title xml:lang="en">The Ontology for Biomedical Investigations</terms:title>
         <schema:datePublished>29 April 2016</schema:datePublished>
         <schema:editor>Yu Xue</schema:editor>
@@ -53844,6 +54189,7 @@
         <dc:creator>Marcel Frym</dc:creator>
         <terms:issued>December 1955</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0008-1221"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sex_law"/>
         <terms:title xml:lang="en">The Sexual Psychopath Act in Practice: A Critical Discussion</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:issueNumber>
         <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</schema:volumeNumber>
@@ -53864,6 +54210,8 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</terms:dateCopyrighted>
         <terms:issued>August 2011</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1541-0048"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#cause_of_death"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#social_determinants_of_health"/>
         <terms:title xml:lang="en">Estimated Deaths Attributable to Social Factors in the United States</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</schema:issueNumber>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1456</schema:pageStart>
@@ -53933,6 +54281,10 @@
         <dc:publisher xml:lang="en">University of Illinois Press</dc:publisher>
         <terms:issued>January 1896</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1939-8298"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#arts"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#religion"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#reproductive_organ"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_behavior"/>
         <terms:title xml:lang="en">Sex and Art</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226</schema:pageEnd>
@@ -53953,6 +54305,7 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</terms:issued>
         <terms:publisher xml:lang="en">Duke University Press</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1527-2133"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#thon"/>
         <terms:title xml:lang="en">Thon: That&apos;s the Forewho</terms:title>
         <schema:alternateName xml:lang="en">Thon—That&apos;s the Forewho</schema:alternateName>
         <schema:issueNumber>3/4</schema:issueNumber>
@@ -53976,6 +54329,8 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</terms:issued>
         <terms:publisher xml:lang="en">Wiley</terms:publisher>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1468-0009"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_history_in_the_United_States"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
         <terms:title xml:lang="en">American Physicians&apos; Earliest Writings about Homosexuals, 1880-1900</terms:title>
         <schema:issueNumber xml:lang="en">Supplement 1. Framing Disease: The Creation and Negotiation of Explanatory Schemes</schema:issueNumber>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</schema:numberOfPages>
@@ -53996,6 +54351,7 @@
         <dc:creator>Fred R. Shapiro</dc:creator>
         <terms:issued>Autumn 1988</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1527-2133"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
         <terms:title xml:lang="en">Earlier Citations for Terms Characterizing Homosexuals</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285</schema:pageEnd>
@@ -57568,6 +57924,7 @@
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
         <terms:issued>November 1921</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#fairy"/>
         <terms:title xml:lang="en">A Fairie&apos;s Reply to Dr Lichtenstein</terms:title>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">542</schema:pageEnd>
         <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">539</schema:pageStart>
@@ -57769,6 +58126,15 @@
         <dc:creator>Chas. Everett Warren</dc:creator>
         <terms:issued>December 1891</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000642403"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Lesbian_love"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Sapphic_love"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#bestiality"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#mammary_intercourse"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#masturbation"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#penis-in-anus_intercourse"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_abuse"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sodomy"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#tribadism"/>
         <terms:title xml:lang="en">Genocatachresia. (Genos—Sex, and Katachresis—Abuse). Its Forms, Causes, Results, and Treatment.</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">340</schema:pageEnd>
@@ -58012,6 +58378,9 @@
         <dc:creator>William Lee Howard</dc:creator>
         <terms:issued>April 1897</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000504306"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#psychic_hermaphroditism"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_perversion"/>
         <terms:title xml:lang="en">Psychical Hermaphroditism: A Few Notes on Sexual Perversion, with Two Clinical Cases of Sexual Inversion</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</schema:pageEnd>
@@ -58154,6 +58523,7 @@
         <dc:creator>Perry M. Lichtenstein</dc:creator>
         <terms:issued>August 1921</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000535766"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#fairy"/>
         <terms:title xml:lang="en">The &apos;Fairy&apos; and the Lady Lover</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">374</schema:pageEnd>
@@ -58171,6 +58541,8 @@
         <dc:creator>James G. Kiernan</dc:creator>
         <terms:issued>November 1921</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#009789713"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#fag"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#fairy"/>
         <terms:title xml:lang="en">The &quot;Fairy&quot; or &quot;Fag&quot;</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">686</schema:pageEnd>
@@ -58188,6 +58560,7 @@
         <terms:issued>November 1918</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#000529545"/>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Jennie_June"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#suicide"/>
         <terms:title xml:lang="en">The Girl-Boy&apos;s Suicide</terms:title>
         <schema:editor>William J. Robinson</schema:editor>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:issueNumber>
@@ -58203,9 +58576,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#The_Murk_Manual:_How_to_Understand_Medical_Writing_on_Intersex">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Raphael_Carter"/>
-        <terms:issued rdf:resource="https://github.com/Superraptor/GSSO#intersex"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1086-4873"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#intersex"/>
         <terms:title xml:lang="en">The Murk Manual: How to Understand Medical Writing on Intersex</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:issueNumber>
         <schema:pagination>10, 30</schema:pagination>
@@ -58249,6 +58622,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1913</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#100431730"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gay_autobiography"/>
         <terms:title xml:lang="de">Welcher Wert kommt den Erzählungen und Autobiographien der Homosexuellen zu?</terms:title>
         <terms:title xml:lang="en">What Value Shall We Give to the Narratives and Autobiographies of Homosexuals?</terms:title>
         <schema:issueNumber>1-2</schema:issueNumber>
@@ -58718,6 +59092,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#women&apos;s_suffrage -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#women&apos;s_suffrage">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#suffrage"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Women%27s_suffrage</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Women%27s_suffrage</WIKIPEDIA>
+        <preferred-name xml:lang="en">women&apos;s suffrage</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">female suffrage</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">woman suffrage</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#womyn&apos;s_land -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#womyn&apos;s_land">
@@ -59013,6 +59400,7 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</terms:dateCopyrighted>
         <terms:issued>November 2006</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#1550-5952"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#compulsive_sexual_behavior"/>
         <terms:title xml:lang="en">Understanding and Managing Compulsive Sexual Behaviors</terms:title>
         <schema:datePublished>1 November 2006</schema:datePublished>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</schema:issueNumber>
@@ -59143,6 +59531,7 @@
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">University of Southern California</terms:publisher>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender_and_sexual_minorities"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#terminology"/>
         <terms:title xml:lang="en">LGBT Terminology</terms:title>
         <schema:WebSite xml:lang="en">University of Southern California</schema:WebSite>
         <schema:url>https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology</schema:url>
