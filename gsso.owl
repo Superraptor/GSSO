@@ -28415,7 +28415,7 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
         <schema:alternateName xml:lang="en">homophobic</schema:alternateName>
-        <rdfs:comment xml:lang="en">n the 1990s, behavioral scientists William O&apos;Donohue and Christine Caselles argued that the term homophobia was pejorative. In 2012, the Associated Press Stylebook was revised to advise against using -phobia words in non-clinical ways, and AP editor Dave Minthorn suggested replacing &quot;homophobic&quot; with &quot;anti-gay&quot;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">In the 1990s, behavioral scientists William O&apos;Donohue and Christine Caselles argued that the term homophobia was pejorative. In 2012, the Associated Press Stylebook was revised to advise against using -phobia words in non-clinical ways, and AP editor Dave Minthorn suggested replacing &quot;homophobic&quot; with &quot;anti-gay&quot;.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homophobia</WIKIPEDIA>
         <preferred-name xml:lang="en">homophobia</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Fear of, dislike of or prejudice against gay people.</oboInOwl1:hasDefinition>
