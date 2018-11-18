@@ -2381,6 +2381,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Adolescent_Family_Life_Act -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Adolescent_Family_Life_Act">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_law"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781483370422"/>
+        <terms:title xml:lang="en">A bill to provide for reconciliation pursuant to section 301 of the First Concurrent Resolution on the Budget for the Fiscal Year 1982</terms:title>
+        <schema:location xml:lang="en">United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Adolescent_Family_Life_Act</WIKIPEDIA>
+        <acronym xml:lang="en">AFLA</acronym>
+        <preferred-name xml:lang="en">Adolescent Family Life Act</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#African-American_LGBT_community -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#African-American_LGBT_community">
@@ -2612,7 +2626,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#voluntary_health_agency"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781483370422"/>
         <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1921</schema:dateCreated>
-        <schema:founder>Margaret Sanger</schema:founder>
+        <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Margaret_Sanger"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Birth_Control_League</WIKIPEDIA>
         <acronym xml:lang="en">ABCL</acronym>
         <followed-by rdf:resource="https://github.com/Superraptor/GSSO#Planned_Parenthood"/>
@@ -3324,6 +3338,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#COLAGE">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_family_and_peer_support_group"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781580053822"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
         <schema:url>http://colage.org/</schema:url>
         <WIKIPEDIA>https://en.wikipedia.org/wiki/COLAGE</WIKIPEDIA>
         <former-term xml:lang="en">Children of Lesbians and Gays Everywhere</former-term>
@@ -4247,6 +4262,27 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Family_Equality_Council -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Family_Equality_Council">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_family_and_peer_support_group"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_political_advocacy_group"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781483370422"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Family_Equality_Council</WIKIPEDIA>
+        <former-term xml:lang="en">Family Pride</former-term>
+        <former-term xml:lang="en">Gay Fathers Coalition</former-term>
+        <former-term xml:lang="en">Gay and Lesbian Parents Coalition International</former-term>
+        <preferred-name xml:lang="en">Family Equality Council</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#Family_Equality_Council"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#former-term"/>
+        <owl:annotatedTarget xml:lang="en">Gay and Lesbian Parents Coalition International</owl:annotatedTarget>
+        <acronym xml:lang="en">GLPCI</acronym>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Fantasia_Fair -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Fantasia_Fair">
@@ -4553,6 +4589,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Warren_Court_case"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Griswold_v._Connecticut</WIKIPEDIA>
         <preferred-name xml:lang="en">Griswold v. Connecticut</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Guttmacher_Institute -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Guttmacher_Institute">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_research_institute"/>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1968</schema:dateCreated>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Guttmacher_Institute</WIKIPEDIA>
+        <preferred-name xml:lang="en">Guttmacher Institute</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Alan Guttmacher Institute</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -5986,11 +6034,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_parenting -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_parenting">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#parenting"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_parenting</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT parenting</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_political_advocacy_group -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_political_advocacy_group">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_advocacy_group"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#political_advocacy_group"/>
+        <schema:alternateName xml:lang="en">LGBT political advocacy groups</schema:alternateName>
         <preferred-name xml:lang="en">LGBT political advocacy group</preferred-name>
     </owl:Class>
     
@@ -6514,6 +6573,23 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Marfanoid_habitus">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#habitus"/>
         <preferred-name xml:lang="en">Marfanoid habitus</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Margaret_Sanger -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Margaret_Sanger">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nurse"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_educator"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#women&apos;s_rights_activist"/>
+        <schema:birthDate>14 September 1879</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Corning, New York, United States</schema:birthPlace>
+        <schema:deathDate>6 September 1966</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Tucson, Arizona, United States</schema:deathPlace>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Margaret_Sanger</WIKIPEDIA>
+        <preferred-name>Margaret Sanger</preferred-name>
     </owl:Class>
     
 
@@ -14299,6 +14375,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bothie">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#child"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781580053822"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
         <preferred-name xml:lang="en">bothie</preferred-name>
         <slang-term xml:lang="en">bothie</slang-term>
         <oboInOwl1:hasDefinition xml:lang="en">A person with one male and one female parent, both of whom identify as LGBTQIA+.</oboInOwl1:hasDefinition>
@@ -18338,6 +18415,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#culturally_queer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#queer"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781580053822"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
         <preferred-name xml:lang="en">culturally queer</preferred-name>
     </owl:Class>
     
@@ -24536,6 +24614,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gayby_boom -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gayby_boom">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_parents"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
+        <preferred-name xml:lang="en">gayby boom</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A sudden increase in the number of same-sex parents.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gaydar -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gaydar">
@@ -27346,6 +27435,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#health_educator -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_educator">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#healthcare_professional"/>
+        <schema:alternateName xml:lang="en">health educators</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">409974004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Health_educators</WIKIPEDIA>
+        <preferred-name xml:lang="en">health educator</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#health_inequality -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_inequality">
@@ -27360,6 +27461,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_law">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#law"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Health_law</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Health_law</WIKIPEDIA>
         <preferred-name xml:lang="en">health law</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Health law is the federal, state, and local law, rules, regulations and other jurisprudence among providers, payers and vendors to the health care industry and its patients; and delivery of health care services; all with an emphasis on operations, regulatory and transactional legal issues.</oboInOwl1:hasDefinition>
@@ -27787,6 +27889,15 @@
         <rdfs:comment xml:lang="en">A transgender woman who is attracted solely to men is heterosexual. Likewise, a transgender man who is attracted solely to women is also heterosexual.</rdfs:comment>
         <preferred-name xml:lang="en">heterosexual orientation</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A strong pattern of sexual attraction experienced by a man for a woman or a woman for a man.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#heterosexual_parents -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#heterosexual_parents">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#parent"/>
+        <preferred-name xml:lang="en">heterosexual parents</preferred-name>
     </owl:Class>
     
 
@@ -28224,11 +28335,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#homo-hesitant -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homo-hesitant">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
+        <preferred-name xml:lang="en">homo-hesitant</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#homo-hostile -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#homo-hostile">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781580053822"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
         <antonym rdf:resource="https://github.com/Superraptor/GSSO#gay-friendly"/>
         <preferred-name xml:lang="en">homo-hostile</preferred-name>
     </owl:Class>
@@ -28288,6 +28411,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781580053822"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
         <schema:alternateName xml:lang="en">homophobic</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homophobia</WIKIPEDIA>
         <preferred-name xml:lang="en">homophobia</preferred-name>
@@ -34147,6 +34271,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#medical_research_institute -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_research_institute">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#research_institute"/>
+        <schema:alternateName xml:lang="en">medical research institutes</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Medical_research_institutes</WIKIPEDIA>
+        <preferred-name xml:lang="en">medical research institute</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#medical_restraint -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_restraint">
@@ -34812,6 +34947,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mitten">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#glove"/>
         <preferred-name xml:lang="en">mitten</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#mixed-orientation_marriage -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mixed-orientation_marriage">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#marriage"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Mixed-orientation_marriage</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">mixed orientation marriage</alternative-spelling>
+        <preferred-name xml:lang="en">mixed-orientation marriage</preferred-name>
     </owl:Class>
     
 
@@ -42053,6 +42200,8 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.3384/confero.2001-4562.13v1i21e"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781483370422"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/save/https://medium.com/colage/my-queerspawn-documentary-18-years-later-eeeb53bb60cc"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
+        <terms:isReferencedBy rdf:resource="https://www.quora.com/Why-do-you-identify-with-the-term-queerspawn-child-of-queer-parents"/>
         <rdfs:comment xml:lang="en">This term is sometimes used by such people as a self-descriptor, but may also be considered derogatory in many circimstances.</rdfs:comment>
         <acronym xml:lang="en">QS</acronym>
         <alternative-spelling xml:lang="en">Queer Spawn</alternative-spelling>
@@ -43430,6 +43579,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#same-sex_parenting -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_parenting">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_parenting"/>
+        <preferred-name xml:lang="en">same-sex parenting</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#same-sex_parents -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_parents">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#parent"/>
+        <derogatory-term xml:lang="en">homosexual parents</derogatory-term>
+        <preferred-name xml:lang="en">same-sex parents</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#same-sex_sexual_attraction -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_sexual_attraction">
@@ -44527,6 +44695,17 @@
         <preferred-name xml:lang="en">sex differentiation</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The process in developing sex- or gender-specific tissue, organ, or function after sex determination processes have set the sex of the gonads. Major areas of sex differentiation occur in the reproductive tract (genitalia) and the brain.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">sexual differentiation</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sex_educator -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_educator">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_educator"/>
+        <schema:alternateName xml:lang="en">sex educators</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sex_educators</WIKIPEDIA>
+        <preferred-name xml:lang="en">sex educator</preferred-name>
     </owl:Class>
     
 
@@ -56625,6 +56804,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#1940-5030 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1940-5030">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="en">Arizona Board of Regents</terms:publisher>
+        <terms:title xml:lang="en">The Embryo Project Encyclopedia</terms:title>
+        <schema:issn>1940-5030</schema:issn>
+        <schema:license xml:lang="en">CC BY-NC-SA 3.0</schema:license>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#1940-7831 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1940-7831">
@@ -57514,6 +57705,21 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_karyotype"/>
         <causes rdf:resource="https://github.com/Superraptor/GSSO#chromosome_XXX/Down_syndrome"/>
         <preferred-name xml:lang="en">48,XXX,+21</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#48203307 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#48203307">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Margaret_Sanger"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781483370422"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1914</terms:issued>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#contraception"/>
+        <terms:title xml:lang="en">Family Limitation</terms:title>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48203307</OCLC>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Family_Limitation</WIKIPEDIA>
     </owl:Class>
     
 
@@ -60119,6 +60325,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#women&apos;s_rights_activist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#women&apos;s_rights_activist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_rights_activist"/>
+        <preferred-name xml:lang="en">women&apos;s rights activist</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#women&apos;s_studies -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#women&apos;s_studies">
@@ -60773,6 +60988,17 @@
     
 
 
+    <!-- https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>ESC</dc:creator>
+        <schema:datePosted>1 August 2004</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html</schema:url>
+    </owl:Class>
+    
+
+
     <!-- https://www.psychologytoday.com/us/blog/comfort-cravings/201402/why-do-i-crave-chocolate-during-my-period -->
 
     <owl:Class rdf:about="https://www.psychologytoday.com/us/blog/comfort-cravings/201402/why-do-i-crave-chocolate-during-my-period">
@@ -60814,6 +61040,17 @@
         <terms:title xml:lang="en">Hypersexuality (Sex Addiction)</terms:title>
         <schema:WebSite xml:lang="en">Psychology Today</schema:WebSite>
         <schema:url>https://www.psychologytoday.com/us/conditions/hypersexuality-sex-addiction</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://www.quora.com/Why-do-you-identify-with-the-term-queerspawn-child-of-queer-parents -->
+
+    <owl:Class rdf:about="https://www.quora.com/Why-do-you-identify-with-the-term-queerspawn-child-of-queer-parents">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#queerspawn"/>
+        <terms:title xml:lang="en">Why do you identify with the term queerspawn (child of queer parents)?</terms:title>
+        <schema:url>https://www.quora.com/Why-do-you-identify-with-the-term-queerspawn-child-of-queer-parents</schema:url>
     </owl:Class>
     
 
