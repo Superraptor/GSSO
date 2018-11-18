@@ -11511,6 +11511,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anti-LGBTQ_bias">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_bias"/>
         <preferred-name xml:lang="en">anti-LGBTQ bias</preferred-name>
+        <oboInOwl1:hasNarrowSynonym xml:lang="en">anti-LGBT bias</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
     
 
@@ -13656,6 +13657,7 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology"/>
         <schema:alternateName xml:lang="en">biphobic</schema:alternateName>
         <preferred-name xml:lang="en">biphobia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Biphobia is aversion toward bisexuality and toward bisexual people as a social group or as individuals.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#biphobia"/>
@@ -28413,8 +28415,12 @@
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181118171237/https://www.phrases.org.uk/bulletin_board/33/messages/670.html"/>
         <schema:alternateName xml:lang="en">homophobic</schema:alternateName>
+        <rdfs:comment xml:lang="en">n the 1990s, behavioral scientists William O&apos;Donohue and Christine Caselles argued that the term homophobia was pejorative. In 2012, the Associated Press Stylebook was revised to advise against using -phobia words in non-clinical ways, and AP editor Dave Minthorn suggested replacing &quot;homophobic&quot; with &quot;anti-gay&quot;.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homophobia</WIKIPEDIA>
         <preferred-name xml:lang="en">homophobia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Fear of, dislike of or prejudice against gay people.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">anti-gay bias</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">gayphobia</oboInOwl1:hasSynonym>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#homophobia"/>
@@ -32563,6 +32569,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lesbophobia</WIKIPEDIA>
         <alternative-spelling xml:lang="en">lesbiphobia</alternative-spelling>
         <preferred-name xml:lang="en">lesbophobia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Fear, dislike or hatred of lesbians.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -50591,6 +50598,7 @@
         <preferred-name xml:lang="en">transphobia</preferred-name>
         <preferred-name xml:lang="fr">transphobie</preferred-name>
         <preferred-name xml:lang="zh">跨性别恐惧症</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Fear of, dislike of or prejudice against trans* people.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">genderphobia</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
