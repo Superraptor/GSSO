@@ -25700,8 +25700,8 @@
         <schema:alternateName xml:lang="en">gender non-conforming people</schema:alternateName>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conforming"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#gender_non-conformity"/>
-        <preferred-name xml:lang="en">A person who considers themself to be gender non-conforming or someone who expresses gender nonconformity to some extent.</preferred-name>
         <preferred-name xml:lang="en">gender non-conforming person</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person who considers themself to be gender non-conforming or someone who expresses gender nonconformity to some extent.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
