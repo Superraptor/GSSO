@@ -2295,6 +2295,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#AIDS-related_complex -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#AIDS-related_complex">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus_infection"/>
+        <EFO>EFO:0007137</EFO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10001513</MEDDRA>
+        <MESH_UID>D000386</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/AIDS-related_complex</WIKIPEDIA>
+        <acronym xml:lang="en">ARC</acronym>
+        <alternative-spelling xml:lang="en">AIDS related complex</alternative-spelling>
+        <preferred-name xml:lang="en">AIDS-related complex</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A prodromal phase of infection with the human immunodeficiency virus (HIV). Laboratory criteria separating AIDS-related complex (ARC) from AIDS include elevated or hyperactive B-cell humoral immune responses, compared to depressed or normal antibody reactivity in AIDS; follicular or mixed hyperplasia in ARC lymph nodes, leading to lymphocyte degeneration and depletion more typical of AIDS; evolving succession of histopathological lesions such as localization of Kaposi&apos;s sarcoma, signaling the transition to the full-blown AIDS.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#AIDS_Awareness_Week -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#AIDS_Awareness_Week">
@@ -2302,6 +2318,52 @@
         <WIKIDATA>Q28135104</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/AIDS_Awareness_Week</WIKIPEDIA>
         <preferred-name xml:lang="en">AIDS Awareness Week</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#AIDS_activism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#AIDS_activism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_activism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:AIDS_activism</WIKIPEDIA>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#AIDS_activist"/>
+        <preferred-name xml:lang="en">AIDS activism</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">HIV/AIDS activism</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#AIDS_activist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#AIDS_activist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_activist"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:HIV/AIDS_activists</WIKIPEDIA>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#AIDS_activism"/>
+        <preferred-name xml:lang="en">AIDS activist</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">HIV/AIDS activist</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#AIDS_education -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#AIDS_education">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_education"/>
+        <preferred-name xml:lang="en">AIDS education</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">HIV/AIDS education</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#AIDS_organization -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#AIDS_organization">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_organization"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:HIV/AIDS_organizations</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">AIDS organisation</alternative-spelling>
+        <preferred-name xml:lang="en">AIDS organization</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">HIV/AIDS organization</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -3062,6 +3124,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#BDSM_community -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#BDSM_community">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#BDSM"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#community"/>
+        <preferred-name xml:lang="en">BDSM community</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Babylon_the_Great -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Babylon_the_Great">
@@ -3329,6 +3401,18 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/List_of_United_States_Supreme_Court_cases_by_the_Burger_Court</WIKIPEDIA>
         <named-after>Warren E. Burger</named-after>
         <preferred-name xml:lang="en">Burger Court case</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#CD-ROM -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#CD-ROM">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Compact_Disc"/>
+        <MESH_UID>D016251</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/CD-ROM</WIKIPEDIA>
+        <preferred-name xml:lang="en">CD-ROM</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Compact Disk Read Only Memory</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -3751,6 +3835,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Compact_Disc -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Compact_Disc">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#120_mm_disc"/>
+        <MESH_UID>D016250</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Compact_disc</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Compact_disc</WIKIPEDIA>
+        <acronym xml:lang="en">CD</acronym>
+        <alternative-spelling xml:lang="en">Compact Disk</alternative-spelling>
+        <preferred-name xml:lang="en">Compact Disc</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Convention_on_the_recognition_of_decisions_recording_a_sex_reassignment -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Convention_on_the_recognition_of_decisions_recording_a_sex_reassignment">
@@ -3824,6 +3922,19 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#deoxyribonucleic_acid"/>
         <schema:alternateName xml:lang="en">DNA structures</schema:alternateName>
         <preferred-name xml:lang="en">DNA structure</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#DVD -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#DVD">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#120_mm_disc"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:DVD</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/DVD</WIKIPEDIA>
+        <preferred-name xml:lang="en">DVD</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">digital versatile disc</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">digital video disc</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -3979,6 +4090,18 @@
         <preferred-name xml:lang="en">DiGeorge syndrome</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">DiGeorge&apos;s syndrome</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">pharyngeal pouch syndrome</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Diagnostic_and_Statistical_Manual_of_Mental_Disorders -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Diagnostic_and_Statistical_Manual_of_Mental_Disorders">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_manual"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Diagnostic_and_Statistical_Manual_of_Mental_Disorders</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diagnostic_and_Statistical_Manual_of_Mental_Disorders</WIKIPEDIA>
+        <acronym xml:lang="en">DSM</acronym>
+        <preferred-name xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</preferred-name>
     </owl:Class>
     
 
@@ -5573,6 +5696,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#film"/>
         <preferred-name xml:lang="en">LGBT-related film</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_internet_forum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_internet_forum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet_forum"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_Internet_forums</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related internet forum</preferred-name>
     </owl:Class>
     
 
@@ -9072,6 +9205,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/U-Haul_lesbian</WIKIPEDIA>
         <preferred-name xml:lang="en">U-Haul lesbian</preferred-name>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">U-Haul syndrome</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -9085,6 +9219,19 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">A12</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Charlottesville rally</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Charlottesville riots</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#United_Nations -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#United_Nations">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#international_organization"/>
+        <MESH_UID>D014480</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:United_Nations</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/United_Nations</WIKIPEDIA>
+        <acronym xml:lang="en">UN</acronym>
+        <preferred-name xml:lang="en">United Nations</preferred-name>
     </owl:Class>
     
 
@@ -9313,6 +9460,21 @@
         <oboInOwl1:hasExactSynonym xml:lang="en">Pitt syndrome</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">Pitt-Rogers-Danks syndrome</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">chromosome 4p16.3 deletion syndrome</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#World_Health_Organization -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#World_Health_Organization">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_Nations"/>
+        <MESH_UID>D014944</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:World_Health_Organization</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/World_Health_Organization</WIKIPEDIA>
+        <acronym xml:lang="en">WHO</acronym>
+        <alternative-spelling xml:lang="en">World Health Organisation</alternative-spelling>
+        <preferred-name xml:lang="en">World Health Organization</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A specialized agency of the United Nations designed as a coordinating authority on international health work; its aim is to promote the attainment of the highest possible level of health by all peoples.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9794,6 +9956,7 @@
         <acronym xml:lang="en">AIDS</acronym>
         <derogatory-term xml:lang="en">GRID</derogatory-term>
         <derogatory-term xml:lang="en">gay-related immune deficiency</derogatory-term>
+        <has-cause rdf:resource="https://github.com/Superraptor/GSSO#human_immunodeficiency_virus"/>
         <historical-term xml:lang="en">GRID</historical-term>
         <historical-term xml:lang="en">gay-related immune deficiency</historical-term>
         <preferred-name xml:lang="en">acquired immune deficiency syndrome</preferred-name>
@@ -9982,6 +10145,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#adopted_child">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#child"/>
+        <schema:alternateName xml:lang="en">adopted children</schema:alternateName>
         <preferred-name xml:lang="en">adopted child</preferred-name>
     </owl:Class>
     
@@ -11800,6 +11964,16 @@
         <preferred-name xml:lang="en">aromantic orientation</preferred-name>
         <shortened-term xml:lang="en">aromantic</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">Lack of romantic attraction towards anyone.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#aromatic_compound -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#aromatic_compound">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cyclic_compound"/>
+        <CHEBI>CHEBI:33655</CHEBI>
+        <preferred-name xml:lang="en">aromatic compound</preferred-name>
     </owl:Class>
     
 
@@ -14783,6 +14957,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#bulletin_board_system -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bulletin_board_system">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet_forum"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bulletin_board_system</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bulletin_board_systems</WIKIPEDIA>
+        <acronym xml:lang="en">BBS</acronym>
+        <preferred-name xml:lang="en">bulletin board system</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">computer bulletin board service</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#bulletin_board_system"/>
+        <owl:annotatedProperty rdf:resource="https://github.com/Superraptor/GSSO#oboInOwl:hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">computer bulletin board service</owl:annotatedTarget>
+        <acronym xml:lang="en">CBBS</acronym>
+    </owl:Axiom>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bullying -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bullying">
@@ -17160,6 +17353,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#computer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#device"/>
         <schema:alternateName xml:lang="en">computers</schema:alternateName>
+        <MESH_UID>D003201</MESH_UID>
         <NCIT>C16464</NCIT>
         <OBI>OBI:0400107</OBI>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">706692004</SCTID>
@@ -17177,6 +17371,17 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Computer_networks</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Computer_network</WIKIPEDIA>
         <preferred-name xml:lang="en">computer network</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#computer_peripheral -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#computer_peripheral">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer"/>
+        <MESH_UID>D016287</MESH_UID>
+        <preferred-name xml:lang="en">computer peripheral</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Various units or machines that operate in combination or in conjunction with a computer but are not physically part of it. Peripheral devices typically display computer data, store data from the computer and return the data to the computer on demand, prepare data for human use, or acquire data from a source and convert it to a form usable by a computer.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -17199,6 +17404,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scientist"/>
         <schema:alternateName xml:lang="en">computer scientists</schema:alternateName>
         <preferred-name xml:lang="en">computer scientist</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#computer_storage_device -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#computer_storage_device">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer_peripheral"/>
+        <MESH_UID>D016248</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Computer_storage_devices</WIKIPEDIA>
+        <preferred-name xml:lang="en">computer storage device</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Devices capable of receiving data, retaining data for an indefinite or finite period of time, and supplying data upon demand.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18558,6 +18775,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#cyclic_compound -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cyclic_compound">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#molecule"/>
+        <CHEBI>CHEBI:33595</CHEBI>
+        <preferred-name xml:lang="en">cyclic compound</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#cyema -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cyema">
@@ -19208,6 +19435,24 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#diesel_dyke">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <preferred-name xml:lang="en">diesel dyke</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#diethylstilbestrol -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#diethylstilbestrol">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-steroidal_estrogen"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#polyphenol"/>
+        <CHEBI>CHEBI:41922</CHEBI>
+        <MESH_UID>D004054</MESH_UID>
+        <NCIT>C433</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">396026002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diethylstilbestrol</WIKIPEDIA>
+        <preferred-name xml:lang="en">diethylstilbestrol</preferred-name>
+        <shortened-term xml:lang="en">DES</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A synthetic nonsteroidal estrogen used in the treatment of menopausal and postmenopausal disorders. It was also used formerly as a growth promoter in animals. According to the Fourth Annual Report on Carcinogens (NTP 85-002, 1985), diethylstilbestrol has been listed as a known carcinogen.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A synthetic, nonsteroidal form of estrogen. A well-known teratogen and carcinogen, diethylstilbestrol inhibits the hypothalamic-pituitary-gonadal axis, thereby blocking the testicular synthesis of testosterone, lowering plasma testosterone, and inducing a chemical castration.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -27340,6 +27585,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#health_activism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_activism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#activism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Health_activism</WIKIPEDIA>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#health_activist"/>
+        <preferred-name xml:lang="en">health activism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#health_activist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_activist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#activist"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Health_activists</WIKIPEDIA>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#health_activism"/>
+        <preferred-name xml:lang="en">health activist</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#health_advocacy -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_advocacy">
@@ -27437,6 +27704,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#health_education -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_education">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#educational_activity"/>
+        <MESH_UID>D006266</MESH_UID>
+        <NCIT>C16664</NCIT>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#health_educator"/>
+        <preferred-name xml:lang="en">health education</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Education that increases the awareness and favorably influences the attitudes and knowledge relating to the improvement of health on a personal or community basis.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Health information provided to individuals or communities designed to reduce ill health and enhance good health by influencing beliefs, attitudes and behavior.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#health_educator -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_educator">
@@ -27444,6 +27725,7 @@
         <schema:alternateName xml:lang="en">health educators</schema:alternateName>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">409974004</SCTID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Health_educators</WIKIPEDIA>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#health_education"/>
         <preferred-name xml:lang="en">health educator</preferred-name>
     </owl:Class>
     
@@ -27467,6 +27749,19 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Health_law</WIKIPEDIA>
         <preferred-name xml:lang="en">health law</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Health law is the federal, state, and local law, rules, regulations and other jurisprudence among providers, payers and vendors to the health care industry and its patients; and delivery of health care services; all with an emphasis on operations, regulatory and transactional legal issues.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#health_organization -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_organization">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organization"/>
+        <STY>T093</STY>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Medical_and_health_organizations</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">health organisation</alternative-spelling>
+        <preferred-name xml:lang="en">health organization</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">health care related organization</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -31030,6 +31325,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#internet_forum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet_forum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet"/>
+        <schema:alternateName xml:lang="en">internet forums</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Internet_forums</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Internet_forum</WIKIPEDIA>
+        <preferred-name xml:lang="en">internet forum</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#internet_gaming_addiction -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#internet_gaming_addiction">
@@ -33459,6 +33766,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#manual -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#manual">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#publication"/>
+        <SIO>SIO:000161</SIO>
+        <preferred-name xml:lang="en">manual</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A manual is a document that instructs on the usage of a device.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#manufactured_object -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#manufactured_object">
@@ -34188,6 +34506,27 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#medical_activism -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_activism">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_activism"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Medical_activism</WIKIPEDIA>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#medical_activist"/>
+        <preferred-name xml:lang="en">medical activism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#medical_activist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_activist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_activist"/>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#medical_activism"/>
+        <preferred-name xml:lang="en">medical activist</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#medical_device -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_device">
@@ -34239,6 +34578,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_law">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_law"/>
         <preferred-name xml:lang="en">medical law</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#medical_manual -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_manual">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#manual"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Medical_manuals</WIKIPEDIA>
+        <preferred-name xml:lang="en">medical manual</preferred-name>
     </owl:Class>
     
 
@@ -35083,6 +35432,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#molecular_entity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#chemical_entity"/>
+        <CHEBI>CHEBI:23367</CHEBI>
         <preferred-name xml:lang="en">molecular entity</preferred-name>
     </owl:Class>
     
@@ -35096,6 +35446,16 @@
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">734617007</SCTID>
         <preferred-name xml:lang="en">molecular messenger</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">chemical messenger</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#molecule -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#molecule">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#polyatomic_entity"/>
+        <CHEBI>CHEBI:25367</CHEBI>
+        <preferred-name xml:lang="en">molecule</preferred-name>
     </owl:Class>
     
 
@@ -36734,6 +37094,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#non-steroidal_estrogen -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#non-steroidal_estrogen">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#therapeutic_estrogen"/>
+        <NCIT>C2182</NCIT>
+        <preferred-name xml:lang="en">non-steroidal estrogen</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Estrogens that are not steroids, but have a structural configuration resembling steroids and may mimic steroidal estrogen effect or bind to estrogen receptors.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#nonhuman_rape -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nonhuman_rape">
@@ -37571,6 +37942,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#optical_storage_device -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#optical_storage_device">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer_storage_device"/>
+        <MESH_UID>D016249</MESH_UID>
+        <preferred-name xml:lang="en">optical storage device</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#oral_bottom -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#oral_bottom">
@@ -37718,6 +38099,16 @@
         <schema:alternateName xml:lang="en">organelles</schema:alternateName>
         <GO xml:lang="en">GO:0043226</GO>
         <preferred-name xml:lang="en">organelle</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#organic_aromatic_compound -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#organic_aromatic_compound">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#aromatic_compound"/>
+        <CHEBI>CHEBI:33659</CHEBI>
+        <preferred-name xml:lang="en">organic aromatic compound</preferred-name>
     </owl:Class>
     
 
@@ -39522,6 +39913,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#phenol -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#phenol">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organic_aromatic_compound"/>
+        <CHEBI>CHEBI:33853</CHEBI>
+        <preferred-name xml:lang="en">phenol</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#phenotype -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#phenotype">
@@ -40485,6 +40886,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#polyatomic_entity -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polyatomic_entity">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#molecular_entity"/>
+        <CHEBI>CHEBI:36357</CHEBI>
+        <preferred-name xml:lang="en">polyatomic entity</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#polygamous_marital_relationship -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polygamous_marital_relationship">
@@ -40548,6 +40959,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polynym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
         <preferred-name xml:lang="en">polynym</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#polyphenol -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polyphenol">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#phenol"/>
+        <CHEBI xml:lang="en">CHEBI:26195</CHEBI>
+        <preferred-name xml:lang="en">polyphenol</preferred-name>
     </owl:Class>
     
 
@@ -44706,12 +45127,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#sex_education -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_education">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_education"/>
+        <MESH_UID>D012736</MESH_UID>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#sex_educator"/>
+        <preferred-name xml:lang="en">sex education</preferred-name>
+        <shortened-term xml:lang="en">sex ed</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#sex_educator -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_educator">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_educator"/>
         <schema:alternateName xml:lang="en">sex educators</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sex_educators</WIKIPEDIA>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#sex_education"/>
         <preferred-name xml:lang="en">sex educator</preferred-name>
     </owl:Class>
     
@@ -49320,6 +49754,29 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#therapeutic_estrogen -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#therapeutic_estrogen">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#estrogen"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#therapeutic_hormone"/>
+        <NCIT>C483</NCIT>
+        <preferred-name xml:lang="en">therapeutic estrogen</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A class of natural or synthetic hormones that binds to a cytoplasmic receptor and initiates translocation of the hormone-receptor complex to the nucleus of target cells of tissues rich in estrogen receptors, including the endometrium, myometrium, oviduct, vagina, fallopian tube, cervix, brain, liver, placenta, ovarian cells, Leydigs cells, kidney, prostate, pancreas, heart, and skin.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#therapeutic_hormone -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#therapeutic_hormone">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hormone"/>
+        <NCIT>C548</NCIT>
+        <preferred-name xml:lang="en">therapeutic hormone</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any synthetic or animal-derived agent that is chemically identical or similar to an endogenous hormone with therapeutic application.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#therapeutic_procedure -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#therapeutic_procedure">
@@ -50325,6 +50782,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#transgender_men_breast_feeding -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_men_breast_feeding">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_breast_feeding"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20170326051552/https://www.cosmopolitan.com/sex-love/a63217/chestfeeding"/>
+        <alternative-spelling xml:lang="en">transgender men breastfeeding</alternative-spelling>
+        <preferred-name xml:lang="en">transgender men breast feeding</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">chestfeeding</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#transgender_mental_health -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_mental_health">
@@ -50487,6 +50956,16 @@
         <shortened-term xml:lang="en">trans-woman</shortened-term>
         <shortened-term xml:lang="en">transwoman</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">A woman who was assigned male at birth.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_women_breast_feeding -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_women_breast_feeding">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_breast_feeding"/>
+        <alternative-spelling xml:lang="en">transgender women breastfeeding</alternative-spelling>
+        <preferred-name xml:lang="en">transgender women breast feeding</preferred-name>
     </owl:Class>
     
 
@@ -53520,6 +53999,7 @@
     <!-- https://github.com/Superraptor/GSSO#001564136 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#001564136">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Diagnostic_and_Statistical_Manual_of_Mental_Disorders"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1968</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
@@ -54074,6 +54554,7 @@
         <dc:creator>Marshall D. Schechter</dc:creator>
         <terms:issued>July 1960</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0003-990X"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#adopted_child"/>
         <terms:title xml:lang="en">Observations on Adopted Children</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</schema:pageEnd>
@@ -54466,6 +54947,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#10.1038/d41586-018-07238-8 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1038/d41586-018-07238-8">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
+        <terms:title xml:lang="en">US proposal for defining gender has no basis in science</terms:title>
+        <schema:datePosted>30 October 2018</schema:datePosted>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7729</schema:issueNumber>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:pageStart>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">563</schema:volumeNumber>
+        <DOI>10.1038/d41586-018-07238-8</DOI>
+        <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30377332</PMID>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#10.1053/euhj.1999.2025 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1053/euhj.1999.2025">
@@ -54687,7 +55185,7 @@
         <dc:creator>Zil Goldstein</dc:creator>
         <terms:issued>1 January 2018</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2380-193X"/>
-        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_breast_feeding"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_women_breast_feeding"/>
         <terms:title xml:lang="en">Case Report: Induced Lactation in a Transgender Woman</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
         <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</schema:pageEnd>
@@ -56020,6 +56518,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:title xml:lang="en">International Journal of General Medicine</terms:title>
         <schema:issn>1178-7074</schema:issn>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#120_mm_disc -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#120_mm_disc">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#optical_storage_device"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:120_mm_discs</WIKIPEDIA>
+        <preferred-name xml:lang="en">120 mm disc</preferred-name>
     </owl:Class>
     
 
@@ -57939,6 +58447,7 @@
     <!-- https://github.com/Superraptor/GSSO#894927963 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#894927963">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Diagnostic_and_Statistical_Manual_of_Mental_Disorders"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
@@ -58032,12 +58541,14 @@
     <!-- https://github.com/Superraptor/GSSO#960936460 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#960936460">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Diagnostic_and_Statistical_Manual_of_Mental_Disorders"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schema:bookEdition>
+        <NCIT>C86967</NCIT>
         <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">960936460</OCLC>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diagnostic_and_Statistical_Manual_of_Mental_Disorders#DSM-III_(1980)</WIKIPEDIA>
         <shortened-term xml:lang="en">DSM-III</shortened-term>
@@ -58601,6 +59112,7 @@
     <!-- https://github.com/Superraptor/GSSO#9780890420188 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780890420188">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Diagnostic_and_Statistical_Manual_of_Mental_Disorders"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
@@ -58618,12 +59130,14 @@
     <!-- https://github.com/Superraptor/GSSO#9780890420614 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780890420614">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Diagnostic_and_Statistical_Manual_of_Mental_Disorders"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schema:bookEdition>
+        <NCIT>C86966</NCIT>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diagnostic_and_Statistical_Manual_of_Mental_Disorders#DSM-IV_(1994)</WIKIPEDIA>
         <print-isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780890420614</print-isbn>
         <shortened-term xml:lang="en">DSM-IV</shortened-term>
@@ -58634,12 +59148,14 @@
     <!-- https://github.com/Superraptor/GSSO#9780890425541 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780890425541">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Diagnostic_and_Statistical_Manual_of_Mental_Disorders"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
         <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</terms:dateCopyrighted>
         <terms:publisher xml:lang="en">American Psychiatric Association</terms:publisher>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#disease_of_mental_health"/>
         <terms:title xml:lang="en">Diagnostic and Statistical Manual of Mental Disorders</terms:title>
         <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schema:bookEdition>
+        <NCIT>C147964</NCIT>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/DSM-5</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diagnostic_and_Statistical_Manual_of_Mental_Disorders#DSM-5_(2013)</WIKIPEDIA>
         <print-isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780890425541</print-isbn>
@@ -60451,6 +60967,7 @@
     <owl:Class rdf:about="https://web.archive.org/web/20140214023359/https://www.facebook.com/help/276177272409629">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#gender"/>
         <terms:title xml:lang="en">How do I edit basic info on my Timeline and choose who can see it?</terms:title>
         <schema:WebSite rdf:resource="https://github.com/Superraptor/GSSO#Facebook"/>
         <schema:dateModified>14 February 2014</schema:dateModified>
@@ -60618,6 +61135,21 @@
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_the_United_States"/>
         <terms:title xml:lang="en">LGBTQ America: A Theme Study of Lesbian, Gay, Bisexual, Transgender, and Queer History</terms:title>
         <schema:url>https://web.archive.org/web/20170302043856/https://www.nps.gov/subjects/lgbtqheritage/upload/lgbtqtheme-heritage.pdf</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20170326051552/https://www.cosmopolitan.com/sex-love/a63217/chestfeeding -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20170326051552/https://www.cosmopolitan.com/sex-love/a63217/chestfeeding">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Kathryn Lindsay</dc:creator>
+        <terms:publisher xml:lang="en">Hearst Communications, Inc.</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_men_breast_feeding"/>
+        <terms:title xml:lang="en">How Do Trans Men Breastfeed Their Babies?</terms:title>
+        <schema:WebSite xml:lang="en">Cosmopolitan</schema:WebSite>
+        <schema:datePosted>24 August 2016</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20170326051552/https://www.cosmopolitan.com/sex-love/a63217/chestfeeding/</schema:url>
     </owl:Class>
     
 
