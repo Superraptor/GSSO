@@ -17268,8 +17268,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#organization"/>
         <schema:alternateName xml:lang="en">companies</schema:alternateName>
         <NCIT>C54131</NCIT>
-        <preferred-name xml:lang="en">Any formal business entity for profit, which may be a corporation, a partnership, association or individual proprietorship.</preferred-name>
         <preferred-name xml:lang="en">company</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Any formal business entity for profit, which may be a corporation, a partnership, association or individual proprietorship.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
