@@ -11033,6 +11033,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#amenorrhea -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#amenorrhea">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_disorder"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13938</DOID>
+        <HPO>HP:0000141</HPO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10001927</MEDDRA>
+        <MESH_UID>D000568</MESH_UID>
+        <NCIT>C61443</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14302001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Amenorrhea</WIKIPEDIA>
+        <preferred-name xml:lang="en">amenorrhea</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#anal_beads -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anal_beads">
@@ -12153,6 +12169,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#asexual_person -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#asexual_person">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#asexuality"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <preferred-name xml:lang="en">asexual person</preferred-name>
+        <slang-term xml:lang="en">ace</slang-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#asexual_reproduction -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#asexual_reproduction">
@@ -13019,7 +13046,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bacterial_disease">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#infectious_disease"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</DOID>
+        <EFO>EFO:0000771</EFO>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87628006</SCTID>
         <preferred-name xml:lang="en">bacterial disease</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">bacterial infectious disease</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -13634,6 +13665,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#parent"/>
         <preferred-name xml:lang="en">biological parent</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">natural parent</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#biological_phase -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#biological_phase">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biological_process"/>
+        <GO>GO:0044848</GO>
+        <preferred-name xml:lang="en">biological phase</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A distinct period or stage in a biological process or cycle.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -15491,6 +15533,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#central_nervous_system_disease -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#central_nervous_system_disease">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nervous_system_disease"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">331</DOID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Central_nervous_system_disease</WIKIPEDIA>
+        <preferred-name xml:lang="en">central nervous system disease</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#ceremonial_rape -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ceremonial_rape">
@@ -15917,6 +15970,29 @@
         <preferred-name xml:lang="en">chimerism</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A low number of circulating cells transferred from one individual to another. This often refers to fetal cells persisting in the material circulation and may play a role in the pathogenesis of autoimmune diseases.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">The occurrence in an individual of two or more cell populations of different chromosomal constitutions, derived from different individuals. This contrasts with mosaicism in which the different cell populations are derived from a single individual.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#chlamydial_dermatological_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chlamydial_dermatological_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#chlamydial_infection"/>
+        <schema:alternateName xml:lang="en">chlamydial dermatological disorders</schema:alternateName>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238372002</SCTID>
+        <preferred-name xml:lang="en">chlamydial dermatological disorder</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#chlamydial_infection -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#chlamydial_infection">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_due_to_gram-negative_bacteria"/>
+        <schema:alternateName xml:lang="en">chlamydial infections</schema:alternateName>
+        <MESH_UID>D002690</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105629000</SCTID>
+        <preferred-name xml:lang="en">chlamydial infection</preferred-name>
     </owl:Class>
     
 
@@ -19107,6 +19183,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#delayed_menarche -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#delayed_menarche">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menarche"/>
+        <HPO>HP:0012569</HPO>
+        <preferred-name xml:lang="en">delayed menarche</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#delayed_puberty -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#delayed_puberty">
@@ -19195,6 +19281,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#demonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
         <preferred-name xml:lang="en">demonym</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#demyelinating_disease -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#demyelinating_disease">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#neurodegenerative_disease"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3213</DOID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Demyelinating_disease</WIKIPEDIA>
+        <preferred-name xml:lang="en">demyelinating disease</preferred-name>
     </owl:Class>
     
 
@@ -19435,6 +19532,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#diesel_dyke">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <preferred-name xml:lang="en">diesel dyke</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#diestrus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#diestrus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#estrous_cycle_phase"/>
+        <preferred-name xml:lang="en">diestrus</preferred-name>
     </owl:Class>
     
 
@@ -19730,6 +19836,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health_condition"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pathologic_process"/>
         <schema:alternateName xml:lang="en">diseases</schema:alternateName>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</DOID>
+        <EFO>EFO:0000408</EFO>
         <MESH_TN xml:lang="en">C23.550.288</MESH_TN>
         <MESH_UID xml:lang="en">D004194</MESH_UID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64572001</SCTID>
@@ -19767,10 +19875,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#disease_due_to_gram-negative_bacteria -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disease_due_to_gram-negative_bacteria">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bacterial_disease"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">371583007</SCTID>
+        <preferred-name xml:lang="en">disease due to gram-negative bacteria</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">disease caused by gram-negative bacteria</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#disease_of_anatomical_entity -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#disease_of_anatomical_entity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</DOID>
         <preferred-name xml:lang="en">disease of anatomical entity</preferred-name>
     </owl:Class>
     
@@ -20413,6 +20533,21 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dysgenesis">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#growth_disorder"/>
         <preferred-name xml:lang="en">dysgenesis</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#dysmenorrhea -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#dysmenorrhea">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_disorder"/>
+        <HPO>HP:0100607</HPO>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">625.3</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10013934</MEDDRA>
+        <MESH_UID>D004412</MESH_UID>
+        <NCIT>C34559</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266599000</SCTID>
+        <preferred-name xml:lang="en">dysmenorrhea</preferred-name>
     </owl:Class>
     
 
@@ -21700,7 +21835,30 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#estrous_cycle">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_reproductive_cycles"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Estrous_cycle</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">oestrus cycle</alternative-spelling>
         <preferred-name xml:lang="en">estrous cycle</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#estrous_cycle_phase -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#estrous_cycle_phase">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biological_phase"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#estrous_cycle"/>
+        <preferred-name xml:lang="en">estrous cycle phase</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#estrus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#estrus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#estrous_cycle_phase"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Estrous_cycle#Estrus</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">oestrus</alternative-spelling>
+        <preferred-name xml:lang="en">estrus</preferred-name>
     </owl:Class>
     
 
@@ -22508,6 +22666,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#faggot -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#faggot">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fag"/>
+        <derogatory-term xml:lang="en">faggot</derogatory-term>
+        <preferred-name xml:lang="en">faggot</preferred-name>
+        <proper-term rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <shortened-term rdf:resource="https://github.com/Superraptor/GSSO#fag"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#failure_to_pass_as_desired_gender -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#failure_to_pass_as_desired_gender">
@@ -23169,6 +23339,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_reproductive_cycles">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reproductive_cycle"/>
         <schema:alternateName xml:lang="en">female reproductive cycle</schema:alternateName>
+        <rdfs:comment xml:lang="en">Note that the classification of &quot;female&quot; here is not in reference to gender, but rather reproductive anatomy related to the production and/or regulation of female gametes (eggs).</rdfs:comment>
         <TE>E1.0.2.0.0.0.1</TE>
         <preferred-name xml:lang="en">female reproductive cycles</preferred-name>
     </owl:Class>
@@ -23182,6 +23353,17 @@
         <schema:alternateName xml:lang="en">female reproductive organs</schema:alternateName>
         <UBERON>UBERON:0003134</UBERON>
         <preferred-name xml:lang="en">female reproductive organ</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#female_reproductive_system_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#female_reproductive_system_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reproductive_system_disorder"/>
+        <NCIT>C27020</NCIT>
+        <preferred-name xml:lang="en">female reproductive system disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-neoplastic or neoplastic disorder that affects the female genital system. Representative examples of non-neoplastic disorders include infection, endometriosis, and adenomyosis. Representative examples of neoplastic disorders include germ cell tumors, carcinoma, lymphoma, and sarcoma.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -23655,6 +23837,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#fictional_asexual_person -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fictional_asexual_person">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fictional_person"/>
+        <preferred-name xml:lang="en">fictional asexual person</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#fictional_bisexual_person -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fictional_bisexual_person">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fictional_person"/>
+        <preferred-name xml:lang="en">fictional bisexual person</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#fictional_event -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fictional_event">
@@ -23662,6 +23863,37 @@
         <schema:alternateName xml:lang="en">fictional events</schema:alternateName>
         <preferred-name xml:lang="en">fictional event</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Events which occur in a fiction.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#fictional_gay_man -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fictional_gay_man">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fictional_gay_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <preferred-name xml:lang="en">fictional gay man</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#fictional_gay_person -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fictional_gay_person">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fictional_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_person"/>
+        <preferred-name xml:lang="en">fictional gay person</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#fictional_lesbian -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fictional_lesbian">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fictional_gay_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
+        <preferred-name xml:lang="en">fictional lesbian</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">fictional gay woman</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -23689,6 +23921,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#fictional_transgender_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#fictional_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <preferred-name xml:lang="en">fictional transgender person</preferred-name>
     </owl:Class>
     
@@ -24769,7 +25002,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexual_orientation"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexuality"/>
         <schema:alternateName xml:lang="en">gay people</schema:alternateName>
         <rdfs:comment xml:lang="en">Note that transgender women who are attracted to women can be described as gay women (or lesbians; sometimes the term &quot;transbian&quot; is used). Equivalently, transgender men who are attracted to men can be described as gay men.</rdfs:comment>
         <derogatory-term rdf:resource="https://github.com/Superraptor/GSSO#homo"/>
@@ -29348,6 +29581,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#human_menstruation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_menstruation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstruation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Menstruation</WIKIPEDIA>
+        <preferred-name xml:lang="en">human menstruation</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#human_monosomy -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#human_monosomy">
@@ -30038,6 +30281,18 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hypomasculinity</WIKIPEDIA>
         <preferred-name xml:lang="en">hypomasculinity</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Hypomasculinity is a psychological term for the absence of male stereotypical behaviour, for example, the absence of the de-emphasising of feelings, relationships, etc.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hypomenorrhea -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hypomenorrhea">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10021032</MEDDRA>
+        <NCIT>C34719</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64206003</SCTID>
+        <preferred-name xml:lang="en">hypomenorrhea</preferred-name>
     </owl:Class>
     
 
@@ -30759,10 +31014,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#infectious_disease">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0050117</DOID>
         <EFO xml:lang="en">EFO:0005741</EFO>
+        <NCIT>C26726</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40733004</SCTID>
         <preferred-name xml:lang="en">infectious disease</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">communicable disease</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">disease by infectious agent</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">infective disorder</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">transmissible disease</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">disorder due to infection</oboInOwl1:hasSynonym>
@@ -31815,6 +32073,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#irregular_menstruation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#irregular_menstruation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_disorder"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstruation"/>
+        <NCIT>C35219</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Irregular_menstruation</WIKIPEDIA>
+        <preferred-name xml:lang="en">irregular menstruation</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#isodisomy -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#isodisomy">
@@ -31840,6 +32110,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#isolated_hypogonadotropic_hypogonadism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hypogonadotrophic_hypogonadism"/>
         <preferred-name xml:lang="en">isolated hypogonadotropic hypogonadism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#isolated_premature_menarche -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#isolated_premature_menarche">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#premature_menarche"/>
+        <NCIT>C120164</NCIT>
+        <preferred-name xml:lang="en">isolated premature menarche</preferred-name>
     </owl:Class>
     
 
@@ -32215,6 +32495,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lactation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#mammary_gland_cycle"/>
         <TE>E1.0.2.5.0.0.4</TE>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lactation</WIKIPEDIA>
         <preferred-name xml:lang="en">lactation</preferred-name>
     </owl:Class>
     
@@ -33286,6 +33567,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lymphogranuloma_venereum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lymphogranuloma_venereum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#chlamydial_dermatological_disorder"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13819</DOID>
+        <EFO>EFO:0007353</EFO>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">099.1</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10025297</MEDDRA>
+        <MESH_UID>D008219</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">186946009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lymphogranuloma_venereum</WIKIPEDIA>
+        <acronym xml:lang="en">LGV</acronym>
+        <preferred-name xml:lang="en">lymphogranuloma venereum</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#magazine -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#magazine">
@@ -33569,6 +33867,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_reproductive_cycles">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reproductive_cycle"/>
         <schema:alternateName xml:lang="en">male reproductive cycle</schema:alternateName>
+        <rdfs:comment xml:lang="en">Note that the classification of &quot;male&quot; here is not in reference to gender, but rather reproductive anatomy related to the production and/or regulation of male gametes (sperm).</rdfs:comment>
         <TE xml:lang="en">E1.0.3.0.0.0.1</TE>
         <preferred-name xml:lang="en">male reproductive cycles</preferred-name>
     </owl:Class>
@@ -33582,6 +33881,17 @@
         <schema:alternateName xml:lang="en">male reproductive organs</schema:alternateName>
         <UBERON>UBERON:0003135</UBERON>
         <preferred-name xml:lang="en">male reproductive organ</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#male_reproductive_system_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#male_reproductive_system_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#reproductive_system_disorder"/>
+        <NCIT>C27019</NCIT>
+        <preferred-name xml:lang="en">male reproductive system disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-neoplastic or neoplastic disorder that affects the male genital system. Representative examples of non-neoplastic disorders include infection, testicular torsion, and undescended testis. Representative examples of neoplastic disorders include germ cell tumors, carcinoma, lymphoma, and sarcoma.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -34723,6 +35033,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menarche">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#age"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_cycle_phase"/>
         <EFO>EFO:0003930</EFO>
         <GO>GO:0042696</GO>
         <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10027182</MEDDRA>
@@ -34732,6 +35043,7 @@
         <WIKIDATA>Q492514</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Menarche</WIKIPEDIA>
         <preferred-name xml:lang="en">menarche</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The beginning of the menstrual cycle; the first menstrual cycle in an individual.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasDefinition xml:lang="en">The first menstrual cycle marked by the initiation of menstruation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
@@ -34768,11 +35080,97 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#menopause -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menopause">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_cycle_phase"/>
+        <GO>GO:0042697</GO>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Menopause</WIKIPEDIA>
+        <preferred-name xml:lang="en">menopause</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Cessation of menstruation, occurring in (e.g.) the human female usually around the age of 50.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">climacteric</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#menorrhagia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menorrhagia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_disorder"/>
+        <HPO>HP:0000132</HPO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10027313</MEDDRA>
+        <MESH_UID>D008595</MESH_UID>
+        <NCIT>C26829</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">386692008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Heavy_menstrual_bleeding</WIKIPEDIA>
+        <preferred-name xml:lang="en">menorrhagia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Excessive uterine bleeding during menstruation.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">heavy menstrual bleeding</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#menstrual_cycle -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menstrual_cycle">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_reproductive_cycles"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Menstrual_cycle</WIKIPEDIA>
         <preferred-name xml:lang="en">menstrual cycle</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#menstrual_cycle_phase -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menstrual_cycle_phase">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biological_phase"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_cycle"/>
+        <GO>GO:0022601</GO>
+        <preferred-name xml:lang="en">menstrual cycle phase</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The progression of physiological phases, occurring in the endometrium during the menstrual cycle that recur at regular intervals during the reproductive years. The menstrual cycle is an ovulation cycle where the endometrium is shed if pregnancy does not occur.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#menstrual_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menstrual_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ovarian_non-neoplastic_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10027327</MEDDRA>
+        <NCIT>C34815</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Menstrual_disorders</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Menstrual_disorder</WIKIPEDIA>
+        <preferred-name xml:lang="en">menstrual disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A category of conditions related to menses.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#menstruation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menstruation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_cycle_phase"/>
+        <schema:alternateName xml:lang="en">menstruations</schema:alternateName>
+        <MESH_TN>G08.686.605.428</MESH_TN>
+        <MESH_TN>G08.686.617</MESH_TN>
+        <MESH_UID>D008598</MESH_UID>
+        <NCIT>C3232</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248957007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Menstruation_(mammal)</WIKIPEDIA>
+        <preferred-name xml:lang="en">menstruation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The normal physiologic discharge through the vagina of blood and mucosal tissues from the nonpregnant uterus.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The periodic shedding of the endometrium and associated menstrual bleeding in the menstrual cycle of humans and primates. Menstruation is due to the decline in circulating progesterone, and occurs at the late luteal phase when luteolysis of the corpus luteum takes place.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#menstruation_disturbance -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#menstruation_disturbance">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstruation"/>
+        <schema:alternateName xml:lang="en">menstruation disturbances</schema:alternateName>
+        <MESH_UID>D008599</MESH_UID>
+        <preferred-name xml:lang="en">menstruation disturbance</preferred-name>
     </owl:Class>
     
 
@@ -34919,11 +35317,37 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#metestrus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#metestrus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#estrous_cycle_phase"/>
+        <preferred-name xml:lang="en">metestrus</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#metric -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#metric">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#measure"/>
         <preferred-name xml:lang="en">metric</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#metrorrhagia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#metrorrhagia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#irregular_menstruation"/>
+        <HPO>HP:0100608</HPO>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">626.6</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10027514</MEDDRA>
+        <MESH_UID>D008796</MESH_UID>
+        <NCIT>C34818</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Intermenstrual_bleeding</WIKIPEDIA>
+        <preferred-name xml:lang="en">metrorrhagia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Abnormal uterine bleeding that is not related to menstruation, usually in females without regular menstrual cycle. The irregular and unpredictable bleeding usually comes from a dysfunctional endometrium.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">intermenstrual bleeding</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -35957,6 +36381,26 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#multiple_sclerosis -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#multiple_sclerosis">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#demyelinating_disease"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2377</DOID>
+        <EFO>EFO:0003885</EFO>
+        <ICD-10-CM>G35</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">340</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10028245</MEDDRA>
+        <MESH_UID>D009103</MESH_UID>
+        <NCIT>C3243</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24700007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Multiple_sclerosis</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Multiple_sclerosis</WIKIPEDIA>
+        <acronym xml:lang="en">MS</acronym>
+        <preferred-name xml:lang="en">multiple sclerosis</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#multiple_sensory_disability -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#multiple_sensory_disability">
@@ -36635,6 +37079,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#nervous_system_disease -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nervous_system_disease">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disease_of_anatomical_entity"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">863</DOID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Nervous_system_disease</WIKIPEDIA>
+        <preferred-name xml:lang="en">nervous system disease</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#neuraxis -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#neuraxis">
@@ -36666,6 +37121,16 @@
         <alternative-spelling xml:lang="en">neurointersexual body discrepancy</alternative-spelling>
         <preferred-name xml:lang="en">neuro-intersexual body discrepancy</preferred-name>
         <preferred-name xml:lang="de">neurointersexuelle Körperdiskrepanz</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#neurodegenerative_disease -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#neurodegenerative_disease">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#central_nervous_system_disease"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1289</DOID>
+        <preferred-name xml:lang="en">neurodegenerative disease</preferred-name>
     </owl:Class>
     
 
@@ -37729,6 +38194,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#oligomenorrhea -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#oligomenorrhea">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#irregular_menstruation"/>
+        <HPO>HP:0000876</HPO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10030294</MEDDRA>
+        <MESH_UID>D009839</MESH_UID>
+        <NCIT>C113341</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52073004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Oligomenorrhea</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">oligomenorrhoea</alternative-spelling>
+        <preferred-name xml:lang="en">oligomenorrhea</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#oncofertility -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#oncofertility">
@@ -38374,11 +38855,33 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#ovarian_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ovarian_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_reproductive_system_disorder"/>
+        <NCIT>C26841</NCIT>
+        <preferred-name xml:lang="en">ovarian disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-neoplastic or neoplastic disorder that affects the ovary. Representative examples of non-neoplastic disorders include endometriosis and polycystic ovarian disease. Representative examples of neoplastic disorders include ovarian surface epithelial-stromal tumors, germ cell tumors, and sex cord-stromal tumors.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#ovarian_follicle -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ovarian_follicle">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ovary"/>
         <preferred-name xml:lang="en">ovarian follicle</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ovarian_non-neoplastic_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ovarian_non-neoplastic_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ovarian_disorder"/>
+        <NCIT>C27627</NCIT>
+        <preferred-name xml:lang="en">ovarian non-neoplastic disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-neoplastic disorder that affects the ovary. Representative examples include endometriosis and polycystic ovarian disease.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40945,6 +41448,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#polymenorrhea -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polymenorrhea">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#irregular_menstruation"/>
+        <HPO>HP:0400007</HPO>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10070501</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52754008</SCTID>
+        <preferred-name xml:lang="en">polymenorrhea</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#polynucleotide -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polynucleotide">
@@ -41339,6 +41854,37 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#premature_menarche -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#premature_menarche">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menarche"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10077320</MEDDRA>
+        <NCIT>C113338</NCIT>
+        <preferred-name xml:lang="en">premature menarche</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#premature_menopause -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#premature_menopause">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menopause"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstrual_disorder"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10787</DOID>
+        <EFO>EFO:0009005</EFO>
+        <ICD-10-CM>E28.31</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">256.31</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10036601</MEDDRA>
+        <MESH_UID>D008594</MESH_UID>
+        <NCIT>C80099</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373717006</SCTID>
+        <preferred-name xml:lang="en">premature menopause</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The premature cessation of menses (menstruation) when the last menstrual period occurs in a woman under the age of 40. It is due to the depletion of ovarian follicles. Premature menopause can be caused by diseases; ovariectomy; radiation; chemicals; and chromosomal abnormalities.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#premature_pubarche -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#premature_pubarche">
@@ -41358,6 +41904,51 @@
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Vorzeitige_Thelarche</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Premature_thelarche</WIKIPEDIA>
         <preferred-name xml:lang="en">premature thelarche</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#premenstrual_dysphoric_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#premenstrual_dysphoric_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#premenstrual_syndrome"/>
+        <ICD-10-CM>F32.81</ICD-10-CM>
+        <MESH_UID>D065446</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Premenstrual_dysphoric_disorder</WIKIPEDIA>
+        <acronym xml:lang="en">PMDD</acronym>
+        <preferred-name xml:lang="en">premenstrual dysphoric disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A condition in which a woman suffers from severe depression, irritability, and tension before menstruation. Premenstrual dysphoric disorder (PMDD) may involve a wide range of physical or emotional symptoms, which are more severe and debilitating than those seen with premenstrual syndrome (PMS), and which include at least one mood-related symptom. Symptoms usually stop when, or shortly after, menstruation begins.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#premenstrual_syndrome -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#premenstrual_syndrome">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstruation_disturbance"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10036618</MEDDRA>
+        <MESH_UID>D011293</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Premenstrual_syndrome</WIKIPEDIA>
+        <acronym xml:lang="en">PMS</acronym>
+        <preferred-name xml:lang="en">premenstrual syndrome</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A combination of distressing physical, psychologic, or behavioral changes that occur during the luteal phase of the menstrual cycle. Symptoms of PMS are diverse (such as pain, water-retention, anxiety, cravings, and depression) and they diminish markedly 2 or 3 days after the initiation of menses.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#premenstrual_tension -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#premenstrual_tension">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#premenstrual_syndrome"/>
+        <DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">727</DOID>
+        <ICD-10-CM>N94.3</ICD-10-CM>
+        <ICD-9-CM rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">625.4</ICD-9-CM>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10036619</MEDDRA>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82639001</SCTID>
+        <acronym xml:lang="en">PMT</acronym>
+        <preferred-name xml:lang="en">premenstrual tension</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">premenstrual tension syndrome</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">premenstrual tension syndromes</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -41388,6 +41979,19 @@
         <preferred-name xml:lang="en">presumed consent</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">An institutional policy of granting authority to health personnel to perform procedures on patients or to remove organs from cadavers for transplantation unless an objection is registered by family members or by the patient prior to death. This also includes emergency care of minors without prior parental consent.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">consent, presumed</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#primary_amenorrhea -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#primary_amenorrhea">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#amenorrhea"/>
+        <HPO>HP:0000786</HPO>
+        <ICD-10-CM>N91.0</ICD-10-CM>
+        <NCIT>C113339</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Amenorrhea#Primary_amenorrhoea</WIKIPEDIA>
+        <preferred-name xml:lang="en">primary amenorrhea</preferred-name>
     </owl:Class>
     
 
@@ -41590,6 +42194,16 @@
         <preferred-name xml:lang="en">process addiction</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Addiction to a process such as a behavior.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">non-substance-related addiction</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#proestrus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#proestrus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#estrous_cycle_phase"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Estrous_cycle#Proestrus</WIKIPEDIA>
+        <preferred-name xml:lang="en">proestrus</preferred-name>
     </owl:Class>
     
 
@@ -43459,6 +44073,19 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#reproductive_system_disease">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#urogenital_system_disease"/>
         <preferred-name xml:lang="en">reproductive system disease</preferred-name>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#reproductive_system_disorder"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#reproductive_system_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#reproductive_system_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#disorder_of_anatomical_entity"/>
+        <NCIT>C4875</NCIT>
+        <preferred-name xml:lang="en">reproductive system disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-neoplastic or neoplastic disorder that affects the male or female genital system. Representative examples of non-neoplastic disorders include infection, testicular torsion, endometriosis, and adenomyosis. Representative examples of neoplastic disorders include germ cell tumors, carcinoma, lymphoma, and sarcoma.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#reproductive_system_disease"/>
     </owl:Class>
     
 
@@ -44406,6 +45033,19 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#second_person">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person_property"/>
         <preferred-name xml:lang="en">second person</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#secondary_amenorrhea -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#secondary_amenorrhea">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#amenorrhea"/>
+        <HPO>HP:0000869</HPO>
+        <ICD-10-CM>N91.1</ICD-10-CM>
+        <NCIT>C113340</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Amenorrhea#Secondary_amenorrhea</WIKIPEDIA>
+        <preferred-name xml:lang="en">secondary amenorrhea</preferred-name>
     </owl:Class>
     
 
@@ -50243,6 +50883,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#traggot -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#traggot">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#faggot"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <rdfs:comment xml:lang="en">Portmanteau of &quot;trans&quot; and &quot;faggot&quot;. Because &quot;faggot&quot; is considered highly derogatory, it is best to avoid usage of the word unless a part of that specific community.</rdfs:comment>
+        <derogatory-term xml:lang="en">traggot</derogatory-term>
+        <preferred-name xml:lang="en">traggot</preferred-name>
+        <slang-term xml:lang="en">traggot</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A gay trans man.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#training -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#training">
@@ -50333,6 +50987,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transphobia"/>
         <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary"/>
         <preferred-name xml:lang="en">trans panic defense</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transbian -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transbian">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_slang"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_slang"/>
+        <preferred-name xml:lang="en">transbian</preferred-name>
+        <slang-term xml:lang="en">transbian</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A trans lesbian.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -50645,6 +51311,26 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#transgender_female_lactation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_female_lactation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_lactation"/>
+        <preferred-name xml:lang="en">transgender female lactation</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_female_premenstrual_syndrome -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_female_premenstrual_syndrome">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transfeminine_experience"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_premenstrual_syndrome"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20180920011005/https://theestablishment.co/yes-trans-women-can-get-period-symptoms-e43a43979e8c"/>
+        <preferred-name xml:lang="en">transgender female premenstrual syndrome</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#transgender_flag -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_flag">
@@ -50729,6 +51415,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#transgender_lactation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_lactation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lactation"/>
+        <preferred-name xml:lang="en">transgender lactation</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#transgender_law -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_law">
@@ -50754,6 +51449,36 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Trans_men%27s_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender male culture</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">trans men&apos;s culture</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_male_lactation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_male_lactation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_lactation"/>
+        <preferred-name xml:lang="en">transgender male lactation</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_male_menstruation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_male_menstruation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_menstruation"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transmasculine_experience"/>
+        <terms:isReferencedBy rdf:resource="https://web.archive.org/web/20181104212417/https://everydayfeminism.com/2014/11/trans-guys-guide-menstruation"/>
+        <preferred-name xml:lang="en">transgender male menstruation</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_male_premenstrual_syndrome -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_male_premenstrual_syndrome">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_premenstrual_syndrome"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transmasculine_experience"/>
+        <preferred-name xml:lang="en">transgender male premenstrual syndrome</preferred-name>
     </owl:Class>
     
 
@@ -50790,6 +51515,15 @@
         <alternative-spelling xml:lang="en">transgender men breastfeeding</alternative-spelling>
         <preferred-name xml:lang="en">transgender men breast feeding</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">chestfeeding</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_menstruation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_menstruation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#menstruation"/>
+        <preferred-name xml:lang="en">transgender menstruation</preferred-name>
     </owl:Class>
     
 
@@ -50840,6 +51574,15 @@
         <owl:annotatedTarget rdf:resource="https://github.com/Superraptor/GSSO#androgyne"/>
         <rdfs:comment xml:lang="en">The term &quot;androgyne&quot; is not always considered offensive, but should generally be used with caution and only if someone explicitly uses that term to refer to themselves or their identity.</rdfs:comment>
     </owl:Axiom>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_premenstrual_syndrome -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_premenstrual_syndrome">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#premenstrual_syndrome"/>
+        <preferred-name xml:lang="en">transgender premenstrual syndrome</preferred-name>
+    </owl:Class>
     
 
 
@@ -52175,6 +52918,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#uterine_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#uterine_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_reproductive_system_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10046779</MEDDRA>
+        <NCIT>C26907</NCIT>
+        <preferred-name xml:lang="en">uterine disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-neoplastic or neoplastic disorder that affects the uterine corpus or the cervix. Representative examples of non-neoplastic disorders include endometritis and cervicitis. Representative examples of neoplastic disorders include endometrial carcinoma, carcinosarcoma, and cervical carcinoma.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#uterine_malformation -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#uterine_malformation">
@@ -52272,6 +53027,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_reproductive_cycles"/>
         <TE>E1.0.2.4.0.0.1</TE>
         <preferred-name xml:lang="en">vaginal cycle</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#vaginal_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vaginal_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_reproductive_system_disorder"/>
+        <MEDDRA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10061402</MEDDRA>
+        <NCIT>C26910</NCIT>
+        <preferred-name xml:lang="en">vaginal disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-neoplastic or neoplastic disorder that affects the vagina. Representative examples include vaginal infection, vaginal polyp, and vaginal squamous cell carcinoma.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -52934,6 +53701,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#vulva"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Vulval_vestibule</WIKIPEDIA>
         <preferred-name xml:lang="en">vulval vestibule</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#vulvar_disorder -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#vulvar_disorder">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#female_reproductive_system_disorder"/>
+        <NCIT>C27631</NCIT>
+        <preferred-name xml:lang="en">vulvar disorder</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A non-neoplastic or neoplastic disorder that affects the vulva. Representative examples include infection, Bartholin gland adenoma, and vulvar carcinoma.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -55185,6 +55963,7 @@
         <dc:creator>Zil Goldstein</dc:creator>
         <terms:issued>1 January 2018</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2380-193X"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_female_lactation"/>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_women_breast_feeding"/>
         <terms:title xml:lang="en">Case Report: Induced Lactation in a Transgender Woman</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schema:issueNumber>
@@ -61445,6 +62224,21 @@
     
 
 
+    <!-- https://web.archive.org/web/20180920011005/https://theestablishment.co/yes-trans-women-can-get-period-symptoms-e43a43979e8c -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20180920011005/https://theestablishment.co/yes-trans-women-can-get-period-symptoms-e43a43979e8c">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Sam Riedel</dc:creator>
+        <terms:publisher xml:lang="en">The Establishment</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#transgender_female_premenstrual_syndrome"/>
+        <terms:title xml:lang="en">Yes, Trans Women Can Get Period Symptoms</terms:title>
+        <schema:WebSite xml:lang="en">The Establishment</schema:WebSite>
+        <schema:datePosted>31 May 2016</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20180920011005/https://theestablishment.co/yes-trans-women-can-get-period-symptoms-e43a43979e8c/</schema:url>
+    </owl:Class>
+    
+
+
     <!-- https://web.archive.org/web/20180921011131/http://bir.brandeis.edu/bitstream/handle/10192/32261/BeanThesis2016.pdf?sequence=1&amp;isAllowed=y -->
 
     <owl:Class rdf:about="https://web.archive.org/web/20180921011131/http://bir.brandeis.edu/bitstream/handle/10192/32261/BeanThesis2016.pdf?sequence=1&amp;isAllowed=y">
@@ -61512,6 +62306,20 @@
         <terms:title xml:lang="en">LGBTTIQQ2SAA+ Definitions</terms:title>
         <schema:WebSite xml:lang="en">Revel &amp; Riot</schema:WebSite>
         <schema:url>https://web.archive.org/web/20181005223811/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20181104212417/https://everydayfeminism.com/2014/11/trans-guys-guide-menstruation -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20181104212417/https://everydayfeminism.com/2014/11/trans-guys-guide-menstruation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Wiley Reading</dc:creator>
+        <terms:publisher xml:lang="en">Everyday Feminism</terms:publisher>
+        <terms:title xml:lang="en">My Period and Me: A Trans Guy’s Guide to Menstruation</terms:title>
+        <schema:WebSite xml:lang="en">Everyday Feminism</schema:WebSite>
+        <schema:datePosted>4 November 2014</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20181104212417/https://everydayfeminism.com/2014/11/trans-guys-guide-menstruation/</schema:url>
     </owl:Class>
     
 
