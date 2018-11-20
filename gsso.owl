@@ -14250,9 +14250,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_media">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bisexuality-related_media</WIKIPEDIA>
         <preferred-name xml:lang="en">bisexuality-related media</preferred-name>
         <oboInOwl1:hasSynonym xml:lang="en">bisexual media</oboInOwl1:hasSynonym>
-        <oboInOwl1:hasSynonym xml:lang="en">https://en.wikipedia.org/wiki/Category:Bisexuality-related_media</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
