@@ -6734,7 +6734,7 @@
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9783823361145"/>
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1665</schema:birthDate>
         <schema:birthPlace xml:lang="en">France</schema:birthPlace>
-        <preferred-name xml:lang="en">Malaure was referred to as a &quot;hermaphrodite&quot;, hence her placement as an intersex person. However, this was a case of mistaken anatomy, as the doctor who &quot;discovered&quot; that she had a penis, had actually misdiagnosed a prolapsed womb.</preferred-name>
+        <rdfs:comment xml:lang="en">Malaure was referred to as a &quot;hermaphrodite&quot;, hence her placement as an intersex person. However, this was a case of mistaken anatomy, as the doctor who &quot;discovered&quot; that she had a penis, had actually misdiagnosed a prolapsed womb.</rdfs:comment>
         <preferred-name>Marguerite Malaure</preferred-name>
     </owl:Class>
     
@@ -21473,8 +21473,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#negative_emotion"/>
         <SIO>SIO:000834</SIO>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Envy</WIKIPEDIA>
-        <preferred-name xml:lang="en">Envy is an emotion that occurs when a person lacks another&apos;s (perceived) superior quality, achievement or possession and wishes that the other lacked it.</preferred-name>
         <preferred-name xml:lang="en">envy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Envy is an emotion that occurs when a person lacks another&apos;s (perceived) superior quality, achievement or possession and wishes that the other lacked it.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28091,9 +28091,9 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dyke"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#slangofveneryits03cary"/>
         <historical-term xml:lang="en">hedge on the dyke</historical-term>
-        <preferred-name xml:lang="en">Slang for female pubic hair.</preferred-name>
         <preferred-name xml:lang="en">hedge on the dyke</preferred-name>
         <slang-term xml:lang="en">hedge on the dyke</slang-term>
+        <oboInOwl1:hasDefinition xml:lang="en">Slang for female pubic hair.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#hedge_on_the_dyke"/>
@@ -39161,8 +39161,8 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pap_smear">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cytology_specimen_collection_procedure"/>
         <NCIT>C17348</NCIT>
-        <preferred-name xml:lang="en">The collecting of secretions and superficial cells of the body of uterus, cervix, and ovaries; examined with a microscope to detect any abnormal cells.</preferred-name>
         <preferred-name xml:lang="en">pap smear</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The collecting of secretions and superficial cells of the body of uterus, cervix, and ovaries; examined with a microscope to detect any abnormal cells.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">cervical smear</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">pap test</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">vaginal smear</oboInOwl1:hasExactSynonym>
@@ -45119,8 +45119,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#segregation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#discriminatory_abuse"/>
-        <preferred-name xml:lang="en">The separation of people (geographically, residentially, or in businesses, public transit, etc) into various categories which occurs due to social forces (culture, etc).</preferred-name>
         <preferred-name xml:lang="en">segregation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The separation of people (geographically, residentially, or in businesses, public transit, etc) into various categories which occurs due to social forces (culture, etc).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
