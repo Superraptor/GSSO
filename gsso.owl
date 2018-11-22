@@ -5601,6 +5601,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Kinsey_Institute">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexology_research_institute"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
+        <schema:url>https://www.kinseyinstitute.org/</schema:url>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Kinsey_Institute_for_Research_in_Sex,_Gender,_and_Reproduction</WIKIPEDIA>
         <named-after rdf:resource="https://github.com/Superraptor/GSSO#Alfred_Kinsey"/>
         <preferred-name xml:lang="en">Kinsey Institute</preferred-name>
@@ -5690,12 +5691,32 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_comic -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_comic">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_literature"/>
+        <schema:alternateName xml:lang="en">LGBT-related comics</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_comics</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related comic</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT-related_film -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_film">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#film"/>
         <preferred-name xml:lang="en">LGBT-related film</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_internet-based_work -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_internet-based_work">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
+        <preferred-name xml:lang="en">LGBT-related internet-based work</preferred-name>
     </owl:Class>
     
 
@@ -5742,6 +5763,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_magazine -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_magazine">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_periodical"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_magazines</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related magazine</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT-related_media -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_media">
@@ -5751,6 +5782,35 @@
         <preferred-name xml:lang="en">LGBT-related media</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">LGBTI-related media</oboInOwl1:hasBroadSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">LGBT media</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_musical -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_musical">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_theatre"/>
+        <preferred-name xml:lang="en">LGBT-related musical</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT-related musical play</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_musical_composition -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_musical_composition">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
+        <preferred-name xml:lang="en">LGBT-related musical composition</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_newspaper -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_newspaper">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_periodical"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_newspapers</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related newspaper</preferred-name>
     </owl:Class>
     
 
@@ -5767,12 +5827,86 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_play -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_play">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_theatre"/>
+        <preferred-name xml:lang="en">LGBT-related play</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_radio_program -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_radio_program">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_radio_programs</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related radio program</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT-related_riot -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_riot">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#riot"/>
         <schema:alternateName xml:lang="en">LGBT-related riots</schema:alternateName>
         <preferred-name xml:lang="en">LGBT-related riot</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_television_program -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_television_program">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_television</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related television program</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_theatre -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_theatre">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
+        <alternative-spelling xml:lang="en">LGBT-related theater</alternative-spelling>
+        <preferred-name xml:lang="en">LGBT-related theatre</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_video_game -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_video_game">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_media"/>
+        <schema:alternateName xml:lang="en">LGBT-related video games</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_video_games</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/List_of_video_games_with_LGBT_characters</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related video game</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Video games that feature LGBT characters as playable characters, as major characters essential to advancing the plot, or gameplay explorations of sexuality or gender that deviate from the hetero-normative.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT-related_website -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT-related_website">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_internet-based_work"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT-related_websites</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT-related website</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBTQ_Religious_Archives_Network -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBTQ_Religious_Archives_Network">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#digital_archive"/>
+        <schema:url>https://lgbtqreligiousarchives.org/</schema:url>
+        <acronym xml:lang="en">LGBT-RAN</acronym>
+        <preferred-name xml:lang="en">LGBTQ Religious Archives Network</preferred-name>
     </owl:Class>
     
 
@@ -6095,6 +6229,16 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_history_in_the_United_States</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_history_in_the_United_States</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT history in the United States</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_library_collection -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_library_collection">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#library_collection"/>
+        <preferred-name xml:lang="en">LGBT library collection</preferred-name>
+        <shortened-term xml:lang="en">LGBT collection</shortened-term>
     </owl:Class>
     
 
@@ -6491,6 +6635,7 @@
         <acronym xml:lang="en">LHA</acronym>
         <preferred-name xml:lang="en">Lesbian Herstory Archives</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The Lesbian Herstory Archives (LHA) is a New York City-based archive, community center, and museum dedicated to preserving lesbian history, located in Park Slope, Brooklyn.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">The Lesbian Herstory Archives</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -7058,6 +7203,19 @@
         <schema:url xml:lang="en">https://www.ngpa.org/</schema:url>
         <acronym xml:lang="en">NGPA</acronym>
         <preferred-name xml:lang="en">National Gay Pilots Association</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#National_Gay_and_Lesbian_Sports_Hall_of_Fame -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#National_Gay_and_Lesbian_Sports_Hall_of_Fame">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hall_of_fame"/>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</schema:dateCreated>
+        <schema:location xml:lang="en">Chicago, Illinois, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/National_Gay_and_Lesbian_Sports_Hall_of_Fame</WIKIPEDIA>
+        <preferred-name xml:lang="en">National Gay and Lesbian Sports Hall of Fame</preferred-name>
     </owl:Class>
     
 
@@ -7843,6 +8001,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Queermuseu">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#art_museum"/>
+        <WIKIPEDIA xml:lang="pt">https://pt.wikipedia.org/wiki/Queermuseu</WIKIPEDIA>
         <preferred-name xml:lang="en">Queer Museum</preferred-name>
         <preferred-name xml:lang="pt">Queermuseu</preferred-name>
     </owl:Class>
@@ -8420,6 +8579,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Sexual_Minorities_Archive -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sexual_Minorities_Archive">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <schema:location xml:lang="en">Holyoke, Massachusetts, United States</schema:location>
+        <schema:url>https://sexualminoritiesarchives.wordpress.com/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexual_Minorities_Archive</WIKIPEDIA>
+        <acronym xml:lang="en">SMA</acronym>
+        <preferred-name xml:lang="en">Sexual Minorities Archive</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Shigeyuki_Kihara -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Shigeyuki_Kihara">
@@ -8944,6 +9116,19 @@
         <shortened-term xml:lang="en">TG Archive</shortened-term>
         <oboInOwl1:hasDefinition xml:lang="en">The Transgender Archive began as the personal collection of Cristan Williams, and was donated to the Transgender Foundation of America in 2008 where the collection has continued to grow.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Houston Transgender Archive</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Transgender_Archives -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Transgender_Archives">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_archive"/>
+        <schema:location xml:lang="en">Victoria, British Columbia, Canada</schema:location>
+        <schema:url>https://www.uvic.ca/transgenderarchives/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Transgender_Archives_at_the_University_of_Victoria</WIKIPEDIA>
+        <preferred-name xml:lang="en">Transgender Archives</preferred-name>
+        <preferred-name xml:lang="en">Transgender Archives at the University of Victoria</preferred-name>
     </owl:Class>
     
 
@@ -12222,6 +12407,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#asexuality-related_website -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#asexuality-related_website">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_website"/>
+        <preferred-name xml:lang="en">asexuality-related website</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#asocial_personality -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#asocial_personality">
@@ -14008,6 +14202,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#bisexual_archive -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_archive">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <preferred-name xml:lang="en">bisexual archive</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bisexual_autobiography -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_autobiography">
@@ -14117,6 +14320,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#bisexual_museum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_museum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
+        <preferred-name xml:lang="en">bisexual museum</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bisexual_organization -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_organization">
@@ -14201,6 +14413,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#bisexual_youth -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_youth">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_youth"/>
+        <preferred-name xml:lang="en">bisexual youth</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bisexuality -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality">
@@ -14233,6 +14454,26 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#bisexuality-related_film -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_film">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_film"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality-related_media"/>
+        <preferred-name xml:lang="en">bisexuality-related film</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bisexuality-related_journal -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_journal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality-related_periodical"/>
+        <preferred-name xml:lang="en">bisexuality-related journal</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bisexuality-related_literature -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_literature">
@@ -14245,6 +14486,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#bisexuality-related_magazine -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_magazine">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality-related_periodical"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bisexuality-related_magazines</WIKIPEDIA>
+        <preferred-name xml:lang="en">bisexuality-related magazine</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#bisexuality-related_media -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_media">
@@ -14253,6 +14504,36 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bisexuality-related_media</WIKIPEDIA>
         <preferred-name xml:lang="en">bisexuality-related media</preferred-name>
         <oboInOwl1:hasSynonym xml:lang="en">bisexual media</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bisexuality-related_periodical -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_periodical">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_periodical"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality-related_literature"/>
+        <preferred-name xml:lang="en">bisexuality-related periodical</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bisexuality-related_television_program -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_television_program">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_television_program"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bisexuality-related_television_series</WIKIPEDIA>
+        <preferred-name xml:lang="en">bisexuality-related television program</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bisexuality-related_website -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexuality-related_website">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_website"/>
+        <preferred-name xml:lang="en">bisexuality-related website</preferred-name>
     </owl:Class>
     
 
@@ -24851,6 +25132,27 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_male-related_film -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male-related_film">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_film"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay-related_films</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay male-related film</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male-related_journal -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male-related_journal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male-related_periodical"/>
+        <preferred-name xml:lang="en">gay male-related journal</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_male-related_literature -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male-related_literature">
@@ -24864,6 +25166,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_male-related_magazine -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male-related_magazine">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male-related_periodical"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay_men%27s_magazines</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay male-related magazine</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gay men&apos;s magazine</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">gay men&apos;s magazines</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_male-related_media -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male-related_media">
@@ -24873,6 +25187,47 @@
         <preferred-name xml:lang="en">gay male-related media</preferred-name>
         <shortened-term xml:lang="en">gay-related media</shortened-term>
         <oboInOwl1:hasExactSynonym xml:lang="en">gay (male) media</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male-related_periodical -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male-related_periodical">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_periodical"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male-related_literature"/>
+        <preferred-name xml:lang="en">gay male-related periodical</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male-related_television_program -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male-related_television_program">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_television_program"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay-related_television_programs</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay male-related television program</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male-related_website -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male-related_website">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_website"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay_men%27s_websites</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay male-related website</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_archive -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_archive">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <preferred-name xml:lang="en">gay male archive</preferred-name>
+        <shortened-term xml:lang="en">gay archive</shortened-term>
     </owl:Class>
     
 
@@ -24948,6 +25303,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_male_museum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_museum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
+        <preferred-name xml:lang="en">gay male museum</preferred-name>
+        <shortened-term xml:lang="en">gay museum</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_male_speech -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_speech">
@@ -24955,6 +25320,16 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gay_male_speech</WIKIPEDIA>
         <preferred-name xml:lang="en">gay male speech</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Significant phonetic features produced by many gay men.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_youth -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_youth">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_youth"/>
+        <preferred-name xml:lang="en">gay male youth</preferred-name>
+        <shortened-term xml:lang="en">gay youth</shortened-term>
     </owl:Class>
     
 
@@ -27527,6 +27902,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hairpin">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hair_and_head_ornaments"/>
         <preferred-name xml:lang="en">hairpin</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#hall_of_fame -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hall_of_fame">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#museum"/>
+        <schema:alternateName xml:lang="en">halls of fame</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Halls_of_fame</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/List_of_halls_and_walks_of_fame</WIKIPEDIA>
+        <preferred-name xml:lang="en">hall of fame</preferred-name>
     </owl:Class>
     
 
@@ -31774,6 +32161,44 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#intersex-related_film -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex-related_film">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_film"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex-related_media"/>
+        <preferred-name xml:lang="en">intersex-related film</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#intersex-related_journal -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex-related_journal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex-related_periodical"/>
+        <preferred-name xml:lang="en">intersex-related journal</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#intersex-related_literature -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex-related_literature">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex-related_media"/>
+        <preferred-name xml:lang="en">intersex-related literature</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#intersex-related_magazine -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex-related_magazine">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex-related_periodical"/>
+        <preferred-name xml:lang="en">intersex-related magazine</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#intersex-related_media -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex-related_media">
@@ -31783,6 +32208,35 @@
         <preferred-name xml:lang="en">intersex-related media</preferred-name>
         <oboInOwl1:hasSynonym xml:lang="en">intersex media</oboInOwl1:hasSynonym>
         <oboInOwl1:hasSynonym xml:lang="en">works about intersex</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#intersex-related_periodical -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex-related_periodical">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_periodical"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex-related_literature"/>
+        <preferred-name xml:lang="en">intersex-related periodical</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#intersex-related_television_program -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex-related_television_program">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_television_program"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex-related_media"/>
+        <preferred-name xml:lang="en">intersex-related television program</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#intersex-related_website -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex-related_website">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_website"/>
+        <preferred-name xml:lang="en">intersex-related website</preferred-name>
     </owl:Class>
     
 
@@ -31886,6 +32340,17 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Intersex_rights_organizations</WIKIPEDIA>
         <alternative-spelling xml:lang="en">intersex rights organisation</alternative-spelling>
         <preferred-name xml:lang="en">intersex rights organization</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#intersex_studies -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#intersex_studies">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#queer_studies"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1177/2158244017745577"/>
+        <preferred-name xml:lang="en">intersex studies</preferred-name>
     </owl:Class>
     
 
@@ -32693,6 +33158,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#leather_subculture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#leather_subculture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_fetish-based_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Leather_subculture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Leather_subculture</WIKIPEDIA>
+        <preferred-name xml:lang="en">leather subculture</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#left-wing_politics -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#left-wing_politics">
@@ -32904,6 +33380,38 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbian-related_comic -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_comic">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_comic"/>
+        <schema:alternateName xml:lang="en">lesbian-related comics</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian-related_comics</WIKIPEDIA>
+        <preferred-name xml:lang="en">lesbian-related comic</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian-related_film -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_film">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_film"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian-related_films</WIKIPEDIA>
+        <preferred-name xml:lang="en">lesbian-related film</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian-related_journal -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_journal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian-related_periodical"/>
+        <preferred-name xml:lang="en">lesbian-related journal</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbian-related_literature -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_literature">
@@ -32916,6 +33424,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbian-related_magazine -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_magazine">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian-related_periodical"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian-related_magazines</WIKIPEDIA>
+        <preferred-name xml:lang="en">lesbian-related magazine</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbian-related_media -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_media">
@@ -32924,6 +33442,38 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian-related_media</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian-related media</preferred-name>
         <oboInOwl1:hasSynonym xml:lang="en">lesbian media</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian-related_periodical -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_periodical">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_periodical"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian-related_literature"/>
+        <preferred-name xml:lang="en">lesbian-related periodical</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian-related_television_program -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_television_program">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_television_program"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian-related_television_programs</WIKIPEDIA>
+        <preferred-name xml:lang="en">lesbian-related television program</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian-related_website -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian-related_website">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_website"/>
+        <schema:alternateName xml:lang="en">lesbian-related websites</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian-related_websites</WIKIPEDIA>
+        <preferred-name xml:lang="en">lesbian-related website</preferred-name>
     </owl:Class>
     
 
@@ -33035,6 +33585,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbian_museum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_museum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
+        <preferred-name xml:lang="en">lesbian museum</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbian_separatism -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_separatism">
@@ -33120,6 +33679,15 @@
         <derogatory-term xml:lang="en">lesbian until graduation</derogatory-term>
         <preferred-name xml:lang="en">lesbian until graduation</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A woman of high school or college age who is experimenting with or adopting a temporary lesbian or bisexual identity.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian_youth -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_youth">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_youth"/>
+        <preferred-name xml:lang="en">lesbian youth</preferred-name>
     </owl:Class>
     
 
@@ -33239,6 +33807,16 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Library</WIKIPEDIA>
         <preferred-name xml:lang="en">library</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#library_collection -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#library_collection">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#library"/>
+        <preferred-name xml:lang="en">library collection</preferred-name>
+        <shortened-term xml:lang="en">collection</shortened-term>
     </owl:Class>
     
 
@@ -37413,6 +37991,7 @@
     <!-- https://github.com/Superraptor/GSSO#non-binary_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#non-binary_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_culture"/>
         <alternative-spelling xml:lang="en">nonbinary culture</alternative-spelling>
         <preferred-name xml:lang="en">non-binary culture</preferred-name>
@@ -37449,6 +38028,7 @@
     <!-- https://github.com/Superraptor/GSSO#non-binary_person -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#non-binary_person">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_gender_identity"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <schema:alternateName xml:lang="en">non-binary people</schema:alternateName>
         <schema:alternateName xml:lang="en">non-binary persons</schema:alternateName>
@@ -45665,6 +46245,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#sex_archive -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_archive">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#archive"/>
+        <preferred-name xml:lang="en">sex archive</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#sex_chromosome -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_chromosome">
@@ -45864,6 +46453,17 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sex_life</WIKIPEDIA>
         <preferred-name xml:lang="de">Geschlechtsleben</preferred-name>
         <preferred-name xml:lang="en">sex life</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sex_museum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sex_museum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#museum"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sex_museums</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/List_of_sex_museums</WIKIPEDIA>
+        <preferred-name xml:lang="en">sex museum</preferred-name>
     </owl:Class>
     
 
@@ -46551,11 +47151,34 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#sexual_fetish-based_archive -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_fetish-based_archive">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_archive"/>
+        <preferred-name xml:lang="en">sexual fetish-based archive</preferred-name>
+        <shortened-term xml:lang="en">fetish archive</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#sexual_fetish-based_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_fetish-based_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexuality_and_gender_identity-based_cultures"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Fetish_subculture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Fetish_subculture</WIKIPEDIA>
         <preferred-name xml:lang="en">sexual fetish-based culture</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">fetish subculture</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#sexual_fetish-based_museum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexual_fetish-based_museum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_museum"/>
+        <preferred-name xml:lang="en">sexual fetish-based museum</preferred-name>
+        <shortened-term xml:lang="en">fetish museum</shortened-term>
     </owl:Class>
     
 
@@ -51120,6 +51743,40 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_comic -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_comic">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_comic"/>
+        <schema:alternateName xml:lang="en">transgender-related comics</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Transgender_and_transsexual-related_comics</WIKIPEDIA>
+        <preferred-name xml:lang="en">transgender-related comic</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">transgender and transsexual-related comics</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_film -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_film">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_film"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Transgender_in_film</WIKIPEDIA>
+        <preferred-name xml:lang="en">transgender-related film</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">transgender in film</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_journal -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_journal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender-related_periodical"/>
+        <preferred-name xml:lang="en">transgender-related journal</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#transgender-related_literature -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_literature">
@@ -51133,6 +51790,15 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_magazine -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_magazine">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender-related_periodical"/>
+        <preferred-name xml:lang="en">transgender-related magazine</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#transgender-related_media -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_media">
@@ -51141,6 +51807,60 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Transgender_and_transsexual-related_media</WIKIPEDIA>
         <preferred-name xml:lang="en">transgender-related media</preferred-name>
         <oboInOwl1:hasSynonym xml:lang="en">transgender and transsexual-related media</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_musical_composition -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_musical_composition">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_musical_composition"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Transgender_and_transsexual-related_music</WIKIPEDIA>
+        <preferred-name xml:lang="en">transgender-related musical composition</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_periodical -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_periodical">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_periodical"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender-related_literature"/>
+        <preferred-name xml:lang="en">transgender-related periodical</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_television_program -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_television_program">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_television_program"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Transgender_in_television</WIKIPEDIA>
+        <preferred-name xml:lang="en">transgender-related television program</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">transgender in television</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_theatre -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_theatre">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_theatre"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender-related_media"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Transgender_and_transsexual-related_theatre</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">transgender-related theater</alternative-spelling>
+        <preferred-name xml:lang="en">transgender-related theatre</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">transgender and transsexual-related theatre‎</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender-related_website -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender-related_website">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_website"/>
+        <preferred-name xml:lang="en">transgender-related website</preferred-name>
     </owl:Class>
     
 
@@ -51533,6 +52253,15 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_mental_health">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_health"/>
         <preferred-name xml:lang="en">transgender mental health</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#transgender_museum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#transgender_museum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
+        <preferred-name xml:lang="en">transgender museum</preferred-name>
     </owl:Class>
     
 
@@ -56363,6 +57092,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#10.1177/2158244017745577 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1177/2158244017745577">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator>Tiffany Jones</dc:creator>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#2158-2440"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#intersex_studies"/>
+        <terms:title xml:lang="en">Intersex Studies: A Systematic Review of International Health Literature</terms:title>
+        <schema:datePublished>1 April 2018</schema:datePublished>
+        <schema:datePublished>30 May 2018</schema:datePublished>
+        <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:issueNumber>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</schema:volumeNumber>
+        <DOI>10.1177/2158244017745577</DOI>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#10.1186/s13633-016-0029-3 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#10.1186/s13633-016-0029-3">
@@ -57215,7 +57961,7 @@
     <!-- https://github.com/Superraptor/GSSO#1089-4160 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1089-4160">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9891002</terms:NLM>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#lesbian_studies"/>
@@ -57397,8 +58143,8 @@
     <!-- https://github.com/Superraptor/GSSO#1434-4599 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1434-4599">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender-related_journal"/>
         <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101084025</terms:NLM>
         <terms:title xml:lang="en">International Journal of Transgenderism</terms:title>
         <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</schema:dateCreated>
@@ -57536,7 +58282,7 @@
     <!-- https://github.com/Superraptor/GSSO#1529-9724 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#1529-9724">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
         <terms:publisher xml:lang="en">Routledge</terms:publisher>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
@@ -58234,6 +58980,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#2158-2440 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2158-2440">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:NLM rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101565150</terms:NLM>
+        <terms:publisher xml:lang="en">SAGE Publications</terms:publisher>
+        <terms:title xml:lang="en">SAGE Open</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</schema:dateCreated>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">827827284</OCLC>
+        <WIKIPEDIA>Q18215981</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/SAGE_Open</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">Sage Open</alternative-spelling>
+        <electronic-issn>2158-2440</electronic-issn>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#2167-4825 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2167-4825">
@@ -58344,8 +59107,8 @@
     <!-- https://github.com/Superraptor/GSSO#2328-9260 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2328-9260">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT-related_journal"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender-related_journal"/>
         <terms:publisher xml:lang="en">Duke University Press</terms:publisher>
         <terms:title xml:lang="en">TSQ: Transgender Studies Quarterly</terms:title>
         <schema:alternateName xml:lang="en">Transgender Studies Quarterly</schema:alternateName>
@@ -60724,6 +61487,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Jean-Nickolaus_Tretter_Collection_in_Gay,_Lesbian,_Bisexual_and_Transgender_Studies -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Jean-Nickolaus_Tretter_Collection_in_Gay,_Lesbian,_Bisexual_and_Transgender_Studies">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_library_collection"/>
+        <schema:url>https://www.lib.umn.edu/tretter</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Jean-Nickolaus_Tretter_Collection_in_Gay,_Lesbian,_Bisexual_and_Transgender_Studies</WIKIPEDIA>
+        <preferred-name xml:lang="en">Jean-Nickolaus Tretter Collection in Gay, Lesbian, Bisexual and Transgender Studies</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">The Jean-Nickolaus Tretter Collection in Gay, Lesbian, Bisexual and Transgender Studies</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#L&apos;Histoire_de_la_sexualité">
@@ -60735,6 +61510,22 @@
         <WIKIDATA>Q2704365</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality</WIKIPEDIA>
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Histoire_de_la_sexualit%C3%A9</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Leather_Archives_&amp;_Museum -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Leather_Archives_&amp;_Museum">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_fetish-based_archive"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_fetish-based_museum"/>
+        <schema:founder>Chuck Renslow</schema:founder>
+        <schema:location xml:lang="en">Chicago, Illinois, United States</schema:location>
+        <schema:url xml:lang="en">https://leatherarchives.org/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Leather_Archives_and_Museum</WIKIPEDIA>
+        <acronym xml:lang="en">LA&amp;M</acronym>
+        <alternative-spelling xml:lang="en">Leather Archives and Museum</alternative-spelling>
+        <preferred-name xml:lang="en">Leather Archives &amp; Museum</preferred-name>
     </owl:Class>
     
 
@@ -60794,6 +61585,34 @@
         <terms:title xml:lang="en">Marrying yourself isn&apos;t that crazy</terms:title>
         <schema:pageEnd>D6</schema:pageEnd>
         <schema:pageStart>D6</schema:pageStart>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Museum_of_Trans_Hirstory_&amp;_Art -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Museum_of_Trans_Hirstory_&amp;_Art">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_museum"/>
+        <schema:founder>Chris E. Vargas</schema:founder>
+        <schema:url>http://www.sfmotha.org/</schema:url>
+        <acronym xml:lang="en">MOTHA</acronym>
+        <alternative-spelling xml:lang="en">Museum of Trans Hirstory and Art</alternative-spelling>
+        <preferred-name xml:lang="en">Museum of Trans Hirstory &amp; Art</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ONE_National_Gay_&amp;_Lesbian_Archives -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ONE_National_Gay_&amp;_Lesbian_Archives">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_archive"/>
+        <schema:location xml:lang="en">909 West Adams Boulevard, Los Angeles, California, United States 90007</schema:location>
+        <schema:url>https://one.usc.edu/</schema:url>
+        <alternative-spelling xml:lang="en">ONE National Gay and Lesbian Archives</alternative-spelling>
+        <preferred-name xml:lang="en">ONE National Gay &amp; Lesbian Archives</preferred-name>
+        <shortened-term xml:lang="en">ONE Archives</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">ONE National Gay &amp; Lesbian Archives at the USC Libraries</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">One Archive</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -61029,6 +61848,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Stonewall_National_Museum_&amp;_Archives">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</schema:dateCreated>
+        <schema:founder>Mark N. Silber</schema:founder>
+        <schema:location xml:lang="en">1300 East Sunrise Boulevard, Fort Lauderdale, Florida, United States 33304.</schema:location>
+        <schema:url>https://www.stonewall-museum.org/</schema:url>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Stonewall_National_Museum_%26_Archives</WIKIPEDIA>
         <acronym xml:lang="en">SNMA</acronym>
         <alternative-spelling xml:lang="en">Stonewall National Museum and Archives</alternative-spelling>
         <preferred-name xml:lang="en">Stonewall National Museum &amp; Archives</preferred-name>
