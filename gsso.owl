@@ -2466,6 +2466,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#African-American_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#African-American_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#African-American_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#black_LGBT_culture"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#African-American_LGBT_community"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_African-American_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">African-American LGBT culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT African-American culture</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#African-American_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#African-American_culture">
@@ -2718,6 +2732,34 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Civil_Liberties_Union</WIKIPEDIA>
         <acronym xml:lang="en">ACLU</acronym>
         <preferred-name xml:lang="en">American Civil Liberties Union</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#American_Indian_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Indian_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#American_Indian_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_LGBT_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_Native_American_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">American Indian LGBT culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT American Indian culture</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT Native American culture</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#American_Indian_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Indian_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_culture_in_the_United_States"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Native_American_culture</WIKIPEDIA>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#Indian_American_culture"/>
+        <preferred-name xml:lang="en">American Indian culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Amerindian culture</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Native American culture</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Pan-Indian culture</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -3031,10 +3073,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Asian-American_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Asian-American_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asian-American_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_Asian-American_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">Asian-American LGBT culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT Asian-American culture</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Asian-American_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Asian-American_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#American_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Asian-American_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">Asian-American culture</preferred-name>
     </owl:Class>
     
@@ -3044,6 +3099,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Asian_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#international_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Asian_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Culture_of_Asia</WIKIPEDIA>
         <preferred-name xml:lang="en">Asian culture</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">culture of Asia</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -3662,6 +3719,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Chinese_American_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asian-American_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Chinese-American_culture</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">Chinese-American culture</alternative-spelling>
         <preferred-name xml:lang="en">Chinese American culture</preferred-name>
     </owl:Class>
     
@@ -4475,6 +4534,29 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#First_Nations_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#First_Nations_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#First_Nations_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Canada"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_LGBT_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_First_Nations_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">First Nations LGBT culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT First Nations culture</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#First_Nations_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#First_Nations_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_culture_in_Canada"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:First_Nations_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">First Nations culture</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#First_World_privilege -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#First_World_privilege">
@@ -4936,6 +5018,53 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Hispanic_and_Latino_American_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Hispanic_and_Latino_American_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Hispanic_and_Latino_American_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Hispanic_and_Latino_LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_Hispanic_and_Latino_American_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">Hispanic and Latino American LGBT culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT Hispanic and Latino American culture</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Hispanic_and_Latino_American_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Hispanic_and_Latino_American_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Hispanic_and_Latino_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Hispanic_and_Latino_American_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">Hispanic and Latino American culture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Hispanic_and_Latino_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Hispanic_and_Latino_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Hispanic_and_Latino_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <preferred-name xml:lang="en">Hispanic and Latino LGBT culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT Hispanic and Latino culture</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Hispanic_and_Latino_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Hispanic_and_Latino_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ethnic_and_racial_cultures"/>
+        <rdfs:comment xml:lang="en">Although &quot;Hispanic&quot; and &quot;Latino&quot; are often used interchangeably, &quot;Hispanic&quot; is a narrower term that only refers to persons of Spanish-speaking origin or ancestry, while &quot;Latino&quot; is more frequently used to refer generally to anyone of Latin American origin or ancestry, including Brazilians.</rdfs:comment>
+        <rdfs:comment xml:lang="en">In a 2011 sutdy by the Pew Ressearch Center, it was found that the majority of Hispanic and Latino Americans preferred identification with their families&apos; country of origin, while only 24% preferred terms like &quot;Hispanic&quot; or &quot;Latino&quot;.</rdfs:comment>
+        <preferred-name xml:lang="en">Hispanic and Latino culture</preferred-name>
+        <oboInOwl1:hasNarrowSynonym xml:lang="en">Hispanic culture</oboInOwl1:hasNarrowSynonym>
+        <oboInOwl1:hasNarrowSynonym xml:lang="en">Latino culture</oboInOwl1:hasNarrowSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Holmes_and_Rahe_Stress_Scale -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Holmes_and_Rahe_Stress_Scale">
@@ -5062,6 +5191,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Indian_American_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asian-American_culture"/>
+        <alternative-spelling xml:lang="en">Indian-American culture</alternative-spelling>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#American_Indian_culture"/>
         <preferred-name xml:lang="en">Indian American culture</preferred-name>
     </owl:Class>
     
@@ -5341,6 +5472,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Japanese_American_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asian-American_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Japanese_American_culture</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">Japanese-American culture</alternative-spelling>
         <preferred-name xml:lang="en">Japanese Americn culture</preferred-name>
     </owl:Class>
     
@@ -5716,6 +5849,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Korean_American_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asian-American_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Korean-American_culture</WIKIPEDIA>
+        <alternative-spelling xml:lang="en">Korean-American culture</alternative-spelling>
         <preferred-name xml:lang="en">Korean American culture</preferred-name>
     </owl:Class>
     
@@ -6167,12 +6302,34 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Arizona -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Arizona">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Arizona, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Arizona</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Arizona</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Asia -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Asia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
         <schema:location xml:lang="en">Asia</schema:location>
         <preferred-name xml:lang="en">LGBT culture in Asia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Atlanta -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Atlanta">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Georgia"/>
+        <schema:location xml:lang="en">Atlanta, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Atlanta</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Atlanta</preferred-name>
     </owl:Class>
     
 
@@ -6195,6 +6352,17 @@
         <schema:location xml:lang="en">Austria</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Austria</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Austria</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Baltimore -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Baltimore">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Maryland"/>
+        <schema:location xml:lang="en">Baltimore, Maryland, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Baltimore</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Baltimore</preferred-name>
     </owl:Class>
     
 
@@ -6244,6 +6412,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Boston -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Boston">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Massachusetts"/>
+        <schema:location xml:lang="en">Boston, Massachusetts, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Boston</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Boston</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Brazil -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Brazil">
@@ -6270,6 +6449,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_California">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">California, United States</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_California</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in California</preferred-name>
     </owl:Class>
@@ -6283,6 +6463,17 @@
         <schema:location xml:lang="en">Canada</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Canada</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Canada</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Chicago -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Chicago">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Illinois"/>
+        <schema:location xml:lang="en">Chicago, Illinois, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Chicago</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Chicago</preferred-name>
     </owl:Class>
     
 
@@ -6316,6 +6507,28 @@
         <schema:location xml:lang="en">Colombia</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Colombia</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Colombia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Colorado -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Colorado">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Colorado, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Colorado</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Colorado</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Connecticut -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Connecticut">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Connecticut, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Connecticut</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Connecticut</preferred-name>
     </owl:Class>
     
 
@@ -6395,6 +6608,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Florida -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Florida">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Florida, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Florida</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Florida</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_France -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_France">
@@ -6402,6 +6626,17 @@
         <schema:location xml:lang="en">France</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_France</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in France</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Georgia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Georgia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Georgia, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Georgia_(U.S._state)</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Georgia</preferred-name>
     </owl:Class>
     
 
@@ -6428,6 +6663,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Hawaii -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Hawaii">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Hawaii, United States</schema:location>
+        <preferred-name xml:lang="en">LGBT culture in Hawaii</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Hong_Kong -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Hong_Kong">
@@ -6435,6 +6680,17 @@
         <schema:location xml:lang="en">Hong Kong, China</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_culture_in_Hong_Kong</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Hong Kong</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Houston -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Houston">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Texas"/>
+        <schema:location xml:lang="en">Houston, Texas, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Houston</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Houston</preferred-name>
     </owl:Class>
     
 
@@ -6450,6 +6706,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Illinois -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Illinois">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Illinois, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Illinois</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Illinois</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_India -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_India">
@@ -6458,6 +6725,17 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_India</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_culture_in_India</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in India</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Indiana -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Indiana">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Indiana, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Indiana</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Indiana</preferred-name>
     </owl:Class>
     
 
@@ -6566,6 +6844,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Los_Angeles -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Los_Angeles">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_California"/>
+        <schema:location xml:lang="en">Los Angeles, California, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Los_Angeles</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Los Angeles</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Louisiana -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Louisiana">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Louisiana, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Louisiana</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Louisiana</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Manchester -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Manchester">
@@ -6573,6 +6873,28 @@
         <schema:location xml:lang="en">Manchester, North West England, England, United Kingdom</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Manchester</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Manchester</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Maryland -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Maryland">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Maryland, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Maryland</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Maryland</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Massachusetts -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Massachusetts">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Massachusetts, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Massachusetts</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Massachusetts</preferred-name>
     </owl:Class>
     
 
@@ -6589,6 +6911,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Miami -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Miami">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Florida"/>
+        <schema:location xml:lang="en">Miami, Florida, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Miami</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Miami</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Michigan -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Michigan">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Michigan, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Michigan</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Michigan</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Milan -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Milan">
@@ -6600,10 +6944,44 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Minnesota -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Minnesota">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Minnesota, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Minnesota</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Minnesota</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Mississippi -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Mississippi">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Mississippi, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Mississippi</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Mississippi</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_New_Jersey -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_New_Jersey">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">New Jersey, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_New_Jersey</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in New Jersey</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_New_York -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_New_York">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">New York, United States</schema:location>
         <WIKIDATA>Q15267141</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_New_York_(state)</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in New York</preferred-name>
@@ -6655,6 +7033,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_North_Carolina -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_North_Carolina">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">North Carolina, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_North_Carolina</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in North Carolina</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Norway -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Norway">
@@ -6671,6 +7060,28 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Oceania">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
         <preferred-name xml:lang="en">LGBT culture in Oceania</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Oklahoma -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Oklahoma">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Oklahoma, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Oklahoma</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Oklahoma</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Oregon -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Oregon">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Oregon, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Oregon</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Oregon</preferred-name>
     </owl:Class>
     
 
@@ -6698,6 +7109,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Pennsylvania -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Pennsylvania">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Pennsylvania, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Pennsylvania</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Pennsylvania</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Philadelphia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Philadelphia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Pennsylvania"/>
+        <schema:location xml:lang="en">Philadelphia, Pennsylvania, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Philadelphia</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Philadelphia</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Poland -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Poland">
@@ -6705,6 +7138,17 @@
         <schema:location xml:lang="en">Poland</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Poland</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Poland</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Portland -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Portland">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Oregon"/>
+        <schema:location xml:lang="en">Portland, Oregon, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Portland,_Oregon</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Portland</preferred-name>
     </owl:Class>
     
 
@@ -6773,6 +7217,17 @@
         <schema:location xml:lang="en">Scotland, United Kingdom</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Scotland</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Scotland</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Seattle -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Seattle">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Washington"/>
+        <schema:location xml:lang="en">Seattle, Washington, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Seattle</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Seattle</preferred-name>
     </owl:Class>
     
 
@@ -6887,6 +7342,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Tennessee -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Tennessee">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Tennessee, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Tennessee</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Tennessee</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Texas -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Texas">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Texas, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Texas</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Texas</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Thailand -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Thailand">
@@ -6926,6 +7403,40 @@
         <schema:location xml:lang="en">Turkey</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Turkey</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Turkey</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Utah -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Utah">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Utah, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Utah</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Utah</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Washington -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Washington">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Washington, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Washington_(state)</WIKIPEDIA>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Washington,_D.C."/>
+        <preferred-name xml:lang="en">LGBT culture in Washington</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Wisconsin -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Wisconsin">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Wisconsin, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Wisconsin</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT culture in Wisconsin</preferred-name>
     </owl:Class>
     
 
@@ -8861,6 +9372,29 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_survey"/>
         <acronym xml:lang="en">NTDS</acronym>
         <preferred-name xml:lang="en">National Transgender Discrimination Survey</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Native_Hawaiian_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Native_Hawaiian_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Hawaii"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Native_Hawaiian_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_LGBT_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_Native_Hawaiian_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">Native Hawaiian LGBT culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT Native Hawaiian culture</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Native_Hawaiian_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Native_Hawaiian_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_culture_in_the_United_States"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Native_Hawaiian_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">Native Hawaiian culture</preferred-name>
     </owl:Class>
     
 
@@ -16301,6 +16835,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#black_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#culture_of_the_African_diaspora"/>
         <preferred-name xml:lang="en">black Canadian culture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#black_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#black_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#black_culture"/>
+        <preferred-name xml:lang="en">black LGBT culture</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT black culture</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -27143,6 +27688,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_culture_in_the_United_States">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">United States</schema:location>
         <preferred-name xml:lang="en">gay culture in the United States</preferred-name>
     </owl:Class>
     
@@ -27365,6 +27911,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_culture_in_the_United_States">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">United States</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay_culture_in_the_United_States</WIKIPEDIA>
         <preferred-name xml:lang="en">gay male culture in the United States</preferred-name>
         <shortened-term xml:lang="en">gay culture in the United States</shortened-term>
@@ -33469,6 +34016,69 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#indigenous_LGBT_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#indigenous_LGBT_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Indigenous_LGBT_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">indigenous LGBT culture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#indigenous_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#indigenous_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Indigenous_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Indigenous_culture</WIKIPEDIA>
+        <preferred-name xml:lang="en">indigenous culture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#indigenous_culture_in_Canada -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#indigenous_culture_in_Canada">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_culture_of_the_Americas"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Indigenous_culture_in_Canada</WIKIPEDIA>
+        <preferred-name xml:lang="en">indigenous culture in Canada</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#indigenous_culture_in_Mexico -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#indigenous_culture_in_Mexico">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_culture_of_the_Americas"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Indigenous_culture_of_Mexico</WIKIPEDIA>
+        <preferred-name xml:lang="en">indigenous culture in Mexico</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">indigenous culture of Mexico</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#indigenous_culture_in_the_United_States -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#indigenous_culture_in_the_United_States">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_culture_of_the_Americas"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Indigenous_culture_in_the_United_States</WIKIPEDIA>
+        <preferred-name xml:lang="en">indigenous culture in the United States</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#indigenous_culture_of_the_Americas -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#indigenous_culture_of_the_Americas">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#indigenous_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Indigenous_culture_of_the_Americas</WIKIPEDIA>
+        <preferred-name xml:lang="en">indigenous culture of the Americas</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#indirect_prostitution -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#indirect_prostitution">
@@ -35763,7 +36373,10 @@
     <!-- https://github.com/Superraptor/GSSO#lesbian_culture_in_California -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_California">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_California"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">California, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture_in_California</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture in California</preferred-name>
     </owl:Class>
     
@@ -35783,7 +36396,10 @@
     <!-- https://github.com/Superraptor/GSSO#lesbian_culture_in_New_York -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_New_York">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_New_York"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">New York, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture_in_New_York_(state)</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture in New York</preferred-name>
     </owl:Class>
     
@@ -35792,7 +36408,10 @@
     <!-- https://github.com/Superraptor/GSSO#lesbian_culture_in_Oregon -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_Oregon">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Oregon"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Oregon, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture_in_Oregon</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture in Oregon</preferred-name>
     </owl:Class>
     
@@ -35801,7 +36420,10 @@
     <!-- https://github.com/Superraptor/GSSO#lesbian_culture_in_Texas -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_Texas">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Texas"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Texas, United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture_in_Texas</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture in Texas</preferred-name>
     </owl:Class>
     
@@ -35822,6 +36444,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_the_United_States">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">United States</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture_in_the_United_States</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture in the United States</preferred-name>
     </owl:Class>
@@ -50683,6 +51306,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#sexuality_and_gender_identity-based_cultures">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#subculture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sexuality_and_gender_identity-based_cultures</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sexuality_and_gender_identity-based_cultures</WIKIPEDIA>
         <preferred-name xml:lang="en">sexuality and gender identity-based cultures</preferred-name>
     </owl:Class>
     
@@ -64617,6 +65242,18 @@
         <WIKIDATA>Q2704365</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_History_of_Sexuality</WIKIPEDIA>
         <WIKIPEDIA xml:lang="fr">https://fr.wikipedia.org/wiki/Histoire_de_la_sexualit%C3%A9</WIKIPEDIA>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Washington,_D.C. -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Washington,_D.C.">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <schema:location xml:lang="en">Washington, D.C., United States</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Washington,_D.C.</WIKIPEDIA>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Washington"/>
+        <preferred-name xml:lang="en">LGBT culture in Washington, D.C.</preferred-name>
     </owl:Class>
     
 
