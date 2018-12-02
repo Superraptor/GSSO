@@ -381,6 +381,14 @@
     
 
 
+    <!-- http://schema.org/GeoCoordinates -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/GeoCoordinates">
+        <preferred-name xml:lang="en">geographic coordinates</preferred-name>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://schema.org/Intangible -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/Intangible">
@@ -855,6 +863,15 @@
     
 
 
+    <!-- http://schema.org/latitude -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/latitude">
+        <preferred-name xml:lang="en">latitude</preferred-name>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/GeoCoordinates"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://schema.org/license -->
 
     <owl:AnnotationProperty rdf:about="http://schema.org/license">
@@ -869,6 +886,15 @@
     <owl:AnnotationProperty rdf:about="http://schema.org/location">
         <preferred-name xml:lang="en">location</preferred-name>
         <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/longitude -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/longitude">
+        <preferred-name xml:lang="en">longitude</preferred-name>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/GeoCoordinates"/>
     </owl:AnnotationProperty>
     
 
@@ -2457,6 +2483,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Africa -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Africa">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <MESH_TN>Z01.058</MESH_TN>
+        <MESH_UID>D000349</MESH_UID>
+        <NCIT>C26272</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223498002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Africa</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Africa</WIKIPEDIA>
+        <preferred-name xml:lang="en">Africa</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The continent located south of Europe and bordered to the west by the South Atlantic and to the east by the India Ocean.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The continent south of Europe, east of the Atlantic Ocean and west of the Indian Ocean.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#African-American_LGBT_community -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#African-American_LGBT_community">
@@ -2549,8 +2592,12 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Albania">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</schema:longitude>
         <NCIT>C16271</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223644008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Albania</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Albania</WIKIPEDIA>
         <preferred-name xml:lang="en">Albania</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A country in southeastern Europe, bordering the Adriatic and Ionian Seas, between Greece and Montenegro.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -2969,6 +3016,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Antarctica -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Antarctica">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-90</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</schema:longitude>
+        <NCIT>C18007</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223499005</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Antarctica</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Antarctica</WIKIPEDIA>
+        <preferred-name xml:lang="en">Antarctica</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The continent lying mostly south of the Antarctic Circle.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Antide_Collas -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Antide_Collas">
@@ -3068,7 +3131,15 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Asia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <MESH_TN>Z01.252</MESH_TN>
+        <MESH_UID>D001208</MESH_UID>
+        <NCIT>C26273</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223500001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Asia</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Asia</WIKIPEDIA>
         <preferred-name xml:lang="en">Asia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The largest of the continents. It was known to the Romans more specifically as what we know today as Asia Minor. The name comes from at least two possible sources: from the Assyrian asu (to rise) or from the Sanskrit usa (dawn), both with reference to its being the land of the rising sun, i.e., eastern as opposed to Europe, to the west.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The world&apos;s largest continent; it occupies the eastern part of the Eurasian landmass and its adjacent islands and is separated from Europe by the Ural Mountains.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -3149,6 +3220,25 @@
         <alternative-spelling xml:lang="en">Australian Lesbian &amp; Gay Archives</alternative-spelling>
         <preferred-name xml:lang="en">Australian Lesbian and Gay Archives</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The Australian Lesbian and Gay Archives is a volunteer, community-based repository of historical materials relating to the LGBTQIA+ experience in Australia.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Austria -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Austria">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.333333</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.333333</schema:longitude>
+        <MESH_UID>D001317</MESH_UID>
+        <NCIT>C16312</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223635007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Austria</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Austria</WIKIPEDIA>
+        <preferred-name xml:lang="en">Austria</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in central Europe, northeast of Italy and southeast of Germany.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country located in Central Europe, north of Italy and Slovenia. The capital is Vienna.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -3273,6 +3363,25 @@
         <named-after rdf:resource="https://github.com/Superraptor/GSSO#Alison_Bechdel"/>
         <preferred-name xml:lang="en">Bechdel test</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Bechdel–Wallace test</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Belarus -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Belarus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</schema:longitude>
+        <MESH_UID>D002094</MESH_UID>
+        <NCIT>C16372</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Belarus</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Belarus</WIKIPEDIA>
+        <preferred-name xml:lang="en">Belarus</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in Eastern Europe, east of Poland. The capital is Minsk.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in eastern Europe, east of Poland and north of Ukraine.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">Republic of Belarus</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -3466,6 +3575,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Bulgaria -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bulgaria">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.75</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.5</schema:longitude>
+        <MESH_UID>D002031</MESH_UID>
+        <NCIT>C16368</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223648006</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Bulgaria</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bulgaria</WIKIPEDIA>
+        <preferred-name xml:lang="en">Bulgaria</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in Southeastern Europe, bordering the Black Sea, between Romania and Turkey. The capital is Sofia.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southeastern Europe, bordering the Black Sea, between Romania and Turkey.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Bumble -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Bumble">
@@ -3548,9 +3676,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#California">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-120</schema:longitude>
         <MESH_UID>D002140</MESH_UID>
         <NCIT>C43509</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224043007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/California</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:California</WIKIPEDIA>
         <acronym xml:lang="en">CA</acronym>
         <preferred-name xml:lang="en">California</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A state on the western coast of the United States. Its capital is Sacramento.</oboInOwl1:hasDefinition>
@@ -3710,7 +3842,17 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#China">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asia"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</schema:longitude>
+        <MESH_UID>D002681</MESH_UID>
+        <NCIT>C16428</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223581004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:China</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/China</WIKIPEDIA>
         <preferred-name xml:lang="en">China</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in eastern Asia, bordering the East China Sea, Korea Bay, Yellow Sea, and South China Sea, south of Kazakhstan, Mongolia and Russia.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country spanning from central Asia to the Pacific Ocean.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -3995,6 +4137,42 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Croatia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Croatia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.166667</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.5</schema:longitude>
+        <MESH_UID>D017523</MESH_UID>
+        <NCIT>C16474</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223662004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Croatia</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Croatia</WIKIPEDIA>
+        <preferred-name xml:lang="en">Croatia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southeastern Europe, bordering the Adriatic Sea, between Bosnia and Herzegovina and Slovenia.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Czech_Republic -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Czech_Republic">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49.75</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.5</schema:longitude>
+        <MESH_UID>D018153</MESH_UID>
+        <NCIT>C17668</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223636008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Czech_Republic</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Czech_Republic</WIKIPEDIA>
+        <preferred-name xml:lang="en">Czech Republic</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in central Europe, southeast of Germany and southwest of Poland.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#DES_uterus -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#DES_uterus">
@@ -4174,6 +4352,25 @@
         <WIKIDATA>Q5257051</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Denim_Day</WIKIPEDIA>
         <preferred-name xml:lang="en">Denim Day</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Denmark -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Denmark">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</schema:longitude>
+        <MESH_UID>D003718</MESH_UID>
+        <NCIT>C16496</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223663009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Denmark</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Denmark</WIKIPEDIA>
+        <preferred-name xml:lang="en">Denmark</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in northern Europe, bordering the Baltic Sea and the North Sea, consisting of a peninsula on the north coast of Germany and several major islands.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in northern Europe, bordering the Baltic Sea and the North Sea. The capital is Copenhagen.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -4420,11 +4617,35 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#England -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#England">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_Kingdom"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.5</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.116667</schema:longitude>
+        <MESH_UID>D004739</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223664003</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:England</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/England</WIKIPEDIA>
+        <preferred-name xml:lang="en">England</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A part of Great Britain within the United Kingdom.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Europe -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Europe">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <MESH_TN>Z01.542</MESH_TN>
+        <MESH_UID>D005060</MESH_UID>
+        <NCIT>C26274</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223502009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Europe</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Europe</WIKIPEDIA>
         <preferred-name xml:lang="en">Europe</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The continent north of Africa, west of Asia and east of the Atlantic Ocean.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The continent whose boundaries are the Atlantic Ocean in the west, the Arctic Ocean to the north, the Ural Mountains and Ural River in the east, the Caspian Sea, Caucasus mountains and Black Sea in the southeast and the Mediterranean Sea in the south.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -4534,6 +4755,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Finland -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Finland">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</schema:longitude>
+        <MESH_UID>D005387</MESH_UID>
+        <NCIT>C16584</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223665002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Finland</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Finland</WIKIPEDIA>
+        <preferred-name xml:lang="en">Finland</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in northern Europe, bordering the Baltic Sea, Gulf of Bothnia, and Gulf of Finland, between Sweden and Russia. The capital is Helsinki.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in northern Europe, bordering the Baltic Sea, between Sweden and Russia.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#First_Nations_LGBT_culture -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#First_Nations_LGBT_culture">
@@ -4572,6 +4812,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Florida">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.1</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-81.6</schema:longitude>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Florida</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Florida</WIKIPEDIA>
         <preferred-name xml:lang="en">Florida</preferred-name>
@@ -4629,6 +4871,26 @@
         <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1963</schema:foundingDate>
         <acronym xml:lang="en">FPE</acronym>
         <preferred-name xml:lang="en">Foundation for Personality Expression</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#France -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#France">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:longitude>
+        <MESH_TN>Z01.542.286</MESH_TN>
+        <MESH_UID>D005602</MESH_UID>
+        <NCIT>C16592</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223666001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:France</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/France</WIKIPEDIA>
+        <preferred-name xml:lang="en">France</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in western Europe bordered by the Atlantic Ocean, the English Channel, the Mediterranean Sea, and the countries of Belgium, Germany, Italy, Spain, Switzerland, the principalities of Andorra and Monaco, and by the duchy of Luxembourg. Its capital is Paris.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in western Europe, bordering the Bay of Biscay and the English Channel, between Germany and Spain.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -4814,6 +5076,25 @@
         <schema:deathDate>23 May 1964</schema:deathDate>
         <schema:spouse>Eleanor Siebert Henry</schema:spouse>
         <preferred-name>George W. Henry</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Germany -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Germany">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</schema:longitude>
+        <MESH_UID>D005858</MESH_UID>
+        <NCIT>C16636</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223637004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Germany</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Germany</WIKIPEDIA>
+        <preferred-name xml:lang="en">Germany</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in central Europe, bordering the Baltic Sea and the North Sea, between the Netherlands and Poland, south of Denmark.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in central Europe, bordering the Baltic Sea and the North Sea, between the Netherlands and Poland, south of Denmark. The capital is Berlin.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5107,6 +5388,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Hungary -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Hungary">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</schema:longitude>
+        <MESH_UID>D006814</MESH_UID>
+        <NCIT>C16699</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223638009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Hungary</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hungary</WIKIPEDIA>
+        <preferred-name xml:lang="en">Hungary</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in Europe, northwest of Romania, south of Slovakia, and east of Austria. The capital is Budapest.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in central Europe, northwest of Romania and south of Slovakia.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Hypermasculinity_Inventory -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Hypermasculinity_Inventory">
@@ -5182,6 +5482,14 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#India">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asia"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</schema:longitude>
+        <MESH_UID>D007194</MESH_UID>
+        <NCIT>C16727</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223600005</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:India</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/India</WIKIPEDIA>
         <preferred-name xml:lang="en">India</preferred-name>
     </owl:Class>
     
@@ -5378,6 +5686,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Ireland -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ireland">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-8</schema:longitude>
+        <MESH_UID>D007494</MESH_UID>
+        <NCIT>C16757</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Republic_of_Ireland</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Republic_of_Ireland</WIKIPEDIA>
+        <preferred-name xml:lang="en">Ireland</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in western Europe, occupying five-sixths of the island of Ireland in the North Atlantic Ocean, west of Great Britain.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in western Europe, occupying five-sixths of the island of Ireland in the North Atlantic Ocean, west of Great Britain. The capital is Dublin.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Republic of Ireland</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Irish_Queer_Archive -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Irish_Queer_Archive">
@@ -5429,6 +5756,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Italy -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Italy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</schema:longitude>
+        <MESH_UID>D007558</MESH_UID>
+        <NCIT>C16761</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223668000</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Italy</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Italy</WIKIPEDIA>
+        <preferred-name xml:lang="en">Italy</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southern Europe, a peninsula extending into the central Mediterranean Sea, northeast of Tunisia. The capital is Rome.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southern Europe, occupying a peninsula extending into the central Mediterranean Sea, northeast of Tunisia.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Jaiyah_Saelua -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Jaiyah_Saelua">
@@ -5463,7 +5809,17 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Japan">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asia"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</schema:longitude>
+        <MESH_UID>D007564</MESH_UID>
+        <NCIT>C16764</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223583001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Japan</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Japan</WIKIPEDIA>
         <preferred-name xml:lang="en">Japan</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in eastern Asia, island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula. The capital is Tokyo.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in eastern Asia, occupying an island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -6285,6 +6641,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Africa">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Africa"/>
+        <schema:location xml:lang="en">Africa</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Africa</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Africa</preferred-name>
     </owl:Class>
     
@@ -6317,7 +6676,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Asia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Asia"/>
         <schema:location xml:lang="en">Asia</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Asia</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Asia</preferred-name>
     </owl:Class>
     
@@ -6592,7 +6953,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Europe">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Europe"/>
         <schema:location xml:lang="en">Europe</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Europe</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Europe</preferred-name>
     </owl:Class>
     
@@ -7028,6 +7391,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_North_America">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_North_America"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_North_America</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in North America</preferred-name>
     </owl:Class>
     
@@ -7059,6 +7424,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Oceania">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Oceania"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Oceania</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Oceania</preferred-name>
     </owl:Class>
     
@@ -7282,6 +7649,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_South_America">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_South_America"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_South_America</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in South America</preferred-name>
     </owl:Class>
     
@@ -7302,6 +7671,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Spain">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Spain"/>
         <schema:location xml:lang="en">Spain</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Spain</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Spain</preferred-name>
@@ -7581,6 +7951,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_Africa">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Africa"/>
         <schema:location xml:lang="en">Africa</schema:location>
         <preferred-name xml:lang="en">LGBT history in Africa</preferred-name>
     </owl:Class>
@@ -7591,6 +7962,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_Asia">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Asia"/>
         <schema:location xml:lang="en">Asia</schema:location>
         <preferred-name xml:lang="en">LGBT history in Asia</preferred-name>
     </owl:Class>
@@ -7714,6 +8086,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_Europe">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Europe"/>
         <schema:location xml:lang="en">Europe</schema:location>
         <preferred-name xml:lang="en">LGBT history in Europe</preferred-name>
     </owl:Class>
@@ -7926,6 +8299,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_North_America">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_North_America"/>
         <schema:location xml:lang="en">North America</schema:location>
         <preferred-name xml:lang="en">LGBT history in North America</preferred-name>
     </owl:Class>
@@ -7947,6 +8321,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_Oceania">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Oceania"/>
         <schema:location xml:lang="en">Oceania</schema:location>
         <preferred-name xml:lang="en">LGBT history in Oceania</preferred-name>
     </owl:Class>
@@ -8058,6 +8433,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_South_America">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_South_America"/>
         <schema:location xml:lang="en">South America</schema:location>
         <preferred-name xml:lang="en">LGBT history in South America</preferred-name>
     </owl:Class>
@@ -8079,6 +8455,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_Spain">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Spain"/>
         <schema:location xml:lang="en">Spain</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_history_in_Spain</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_history_in_Spain</WIKIPEDIA>
@@ -8238,6 +8615,81 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_history_in_the_United_States</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_history_in_the_United_States</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT history in the United States</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Africa -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Africa">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Africa"/>
+        <schema:location xml:lang="en">Africa</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_Africa</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT in Africa</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Asia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Asia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asia"/>
+        <schema:location xml:lang="en">Asia</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_Asia</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT in Asia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Europe -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Europe">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <schema:location xml:lang="en">Europe</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_Europe</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT in Europe</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_North_America -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_North_America">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#North_America"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_North_America</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT in North America</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Oceania -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Oceania">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Oceania"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_Oceania</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT in Oceania</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_South_America -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_South_America">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#South_America"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_South_America</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT in South America</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Spain -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Spain">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Spain"/>
+        <schema:location xml:lang="en">Spain</schema:location>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_Spain</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT in Spain</preferred-name>
     </owl:Class>
     
 
@@ -8604,6 +9056,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Latvia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Latvia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56.95</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.1</schema:longitude>
+        <MESH_UID>D007844</MESH_UID>
+        <NCIT>C16783</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223652006</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Latvia</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Latvia</WIKIPEDIA>
+        <preferred-name xml:lang="en">Latvia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in eastern Europe, bordering the Baltic Sea, between Estonia and Lithuania.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country located in Eastern Europe, bordering the Baltic Sea, between Estonia and Lithuania. The capital is Riga.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Lavender_Menace -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lavender_Menace">
@@ -8883,6 +9354,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Manhattan">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#New_York_City"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.790278</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-73.959722</schema:longitude>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Manhattan</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Manhattan</WIKIPEDIA>
         <preferred-name xml:lang="en">Manhattan</preferred-name>
     </owl:Class>
@@ -9022,9 +9496,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Massachusetts">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.3</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-71.8</schema:longitude>
         <MESH_UID>D008404</MESH_UID>
         <NCIT>C43463</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224066008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Massachusetts</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Massachusetts</WIKIPEDIA>
         <acronym xml:lang="en">MA</acronym>
         <preferred-name xml:lang="en">Massachusetts</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A state in the northeast United States. Its capital is Boston.</oboInOwl1:hasDefinition>
@@ -9444,6 +9922,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Netherlands -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Netherlands">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52.316667</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.55</schema:longitude>
+        <MESH_UID>D009426</MESH_UID>
+        <NCIT>C16903</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223672001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Netherlands</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Netherlands</WIKIPEDIA>
+        <preferred-name xml:lang="en">Netherlands</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in western Europe, bordering the North Sea, between Belgium and Germany.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Neutrois.com -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Neutrois.com">
@@ -9462,9 +9958,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#New_York">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-75</schema:longitude>
         <MESH_UID>D009518</MESH_UID>
         <NCIT>C43468</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420278009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:New_York_(state)</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_(state)</WIKIPEDIA>
         <acronym xml:lang="en">NY</acronym>
         <preferred-name xml:lang="en">New York</preferred-name>
@@ -9478,8 +9977,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#New_York_City">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#New_York"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.7127</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-74.0059</schema:longitude>
         <MESH_UID>D009519</MESH_UID>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420278009</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:New_York_City</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/New_York_City</WIKIPEDIA>
         <acronym xml:lang="en">NYC</acronym>
         <preferred-name xml:lang="en">New York City</preferred-name>
@@ -9537,10 +10039,34 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#North_America">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <MESH_TN>Z01.107.567</MESH_TN>
+        <MESH_UID>D009656</MESH_UID>
         <NCIT>C26275</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223503004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:North_America</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/North_America</WIKIPEDIA>
         <preferred-name xml:lang="en">North America</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">North America is a continent in the western hemisphere of Earth, bordered to the west by the Pacific Ocean, the east by the Atlantic Ocean, the north by the Arctic Ocean, and connected at the south to South America by the Isthmus of Panama.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The northern continent of the Western Hemisphere, extending northward from the Colombia-Panama border and including Central America, Mexico, Caribbean area, the United States, Canada and Greenland. The term often refers more narrowly to Mexico, continental United States, and Canada.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Norway -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Norway">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</schema:longitude>
+        <MESH_UID>D009664</MESH_UID>
+        <NCIT>C16920</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223673006</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Norway</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Norway</WIKIPEDIA>
+        <preferred-name xml:lang="en">Norway</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in northern Europe, bordering the North Sea and the North Atlantic Ocean, west of Sweden.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country located in northern Europe, bordering the North Sea and the Atlantic Ocean, west of Sweden. The capital is Oslo.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9551,6 +10077,22 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Roberts_Court_case"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Obergefell_v._Hodges</WIKIPEDIA>
         <preferred-name xml:lang="en">Obergefell v. Hodges</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Oceania -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Oceania">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <MESH_TN>Z01.678</MESH_TN>
+        <MESH_UID>D044349</MESH_UID>
+        <NCIT>C26276</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Oceania</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Oceania</WIKIPEDIA>
+        <preferred-name xml:lang="en">Oceania</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A term used to refer to Polynesia (including New Zealand), Melanesia (including New Guinea), Micronesia as a whole, and Australia.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The islands of the central and South Pacific, including Micronesia, Melanesia, Polynesia, and traditionally Australasia.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -9995,6 +10537,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Poland -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Poland">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</schema:longitude>
+        <MESH_UID>D011044</MESH_UID>
+        <NCIT>C17002</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223640004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Poland</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Poland</WIKIPEDIA>
+        <preferred-name xml:lang="en">Poland</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in central Europe, east of Germany.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in central Europe, east of Germany. The capital is Warsaw.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Polari -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Polari">
@@ -10016,7 +10577,16 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Portugal">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.7</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-9.183333</schema:longitude>
+        <MESH_UID>D011174</MESH_UID>
+        <NCIT>C17006</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223675004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Portugal</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Portugal</WIKIPEDIA>
         <preferred-name xml:lang="en">Portugal</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southwestern Europe, bordering the North Atlantic Ocean, west of Spain.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southwestern Europe, bordering the North Atlantic Ocean, west of Spain. The capital is Lisbon.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10340,6 +10910,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Romania -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Romania">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</schema:longitude>
+        <MESH_UID>D012383</MESH_UID>
+        <NCIT>C17108</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223655008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Romania</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Romania</WIKIPEDIA>
+        <preferred-name xml:lang="en">Romania</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southeastern Europe, bordering the Black Sea, between Bulgaria and Ukraine.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southeastern Europe, bordering the Black Sea, between Bulgaria and Ukraine. The capital is Bucharest.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Rosie_the_Riveter -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Rosie_the_Riveter">
@@ -10371,6 +10960,22 @@
         <MESH_UID>D012415</MESH_UID>
         <alternative-spelling xml:lang="en">Rubinstein Taybi syndrome</alternative-spelling>
         <preferred-name xml:lang="en">Rubinstein-Taybi syndrome</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Russia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Russia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</schema:longitude>
+        <MESH_UID>D012426</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Russia</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Russia</WIKIPEDIA>
+        <preferred-name xml:lang="en">Russia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country located in north Asia bordering the Arctic Ocean, extending from Europe (the portion west of the Urals) to the North Pacific Ocean. The capital is Moscow.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10612,6 +11217,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Scotland -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Scotland">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#United_Kingdom"/>
+        <MESH_UID>D012606</MESH_UID>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223678002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Scotland</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Scotland</WIKIPEDIA>
+        <preferred-name xml:lang="en">Scotland</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Second_Generation -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Second_Generation">
@@ -10620,6 +11238,24 @@
         <coined-by>Dan Cherubin</coined-by>
         <preferred-name xml:lang="en">Second Generation</preferred-name>
         <shortened-term xml:lang="en">Second Gen</shortened-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Serbia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Serbia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</schema:longitude>
+        <MESH_UID>D055771</MESH_UID>
+        <NCIT>C64377</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Serbia</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Serbia</WIKIPEDIA>
+        <preferred-name xml:lang="en">Serbia</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A republic in southeastern Europe, between Romania and Bosnia and Herzegovina.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A republic located south of Hungary, west of Romania and Bulgaria, and part of the former Yugoslavia. The capital is Belgrade.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10673,7 +11309,7 @@
         <dc:creator>Douglas C. McMurtrie</dc:creator>
         <terms:issued>June 1914</terms:issued>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#009789713"/>
-        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#Spain"/>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Spain"/>
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#sexual_inversion"/>
         <terms:title xml:lang="en">Sexual Inversion among Women in Spain</terms:title>
         <schema:issueNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schema:issueNumber>
@@ -10733,6 +11369,23 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_Security_number</WIKIPEDIA>
         <acronym xml:lang="en">SSN</acronym>
         <preferred-name xml:lang="en">Social Security number</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#South_America -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#South_America">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#continent"/>
+        <MESH_TN>Z01.107.757</MESH_TN>
+        <MESH_UID>D013020</MESH_UID>
+        <NCIT>C26277</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223504005</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:South_America</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/South_America</WIKIPEDIA>
+        <preferred-name xml:lang="en">South America</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">South America is a continent of the western hemisphere with most of its area in the southern hemisphere. It is situated between the Pacific Ocean and the Atlantic Ocean and is attached at the north to North America by the Isthmus of Panama.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The southern continent of the Western Hemisphere, extending southward from the Colombia-Panama border.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10835,7 +11488,17 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Spain">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-4</schema:longitude>
+        <MESH_TN>Z01.542.846</MESH_TN>
+        <MESH_UID>D013030</MESH_UID>
+        <NCIT>C17152</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223680008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Spain</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Spain</WIKIPEDIA>
         <preferred-name xml:lang="en">Spain</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southwestern Europe, bordering the Bay of Biscay, Mediterranean Sea, and North Atlantic Ocean, southwest of France.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Country located between France on the northeast and Portugal on the west and bordered by the Atlantic Ocean and the Mediterranean Sea. The capital is Madrid.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -10957,6 +11620,44 @@
         <schema:birthPlace xml:lang="en">Ft. Sill, Oklahoma, United States</schema:birthPlace>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Susan_Stryker</WIKIPEDIA>
         <preferred-name>Susan Stryker</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Sweden -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sweden">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</schema:longitude>
+        <MESH_UID>D013548</MESH_UID>
+        <NCIT>C17180</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223681007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Sweden</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Sweden</WIKIPEDIA>
+        <preferred-name xml:lang="en">Sweden</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in northern Europe, bordering the Baltic Sea, between Finland and Norway.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Country in northern Europe, bordering the Baltic Sea, between Finland and Norway. The capital is Stockholm.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Switzerland -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Switzerland">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.833333</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.333333</schema:longitude>
+        <MESH_UID>D013557</MESH_UID>
+        <NCIT>C17181</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223642007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Switzerland</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Switzerland</WIKIPEDIA>
+        <preferred-name xml:lang="en">Switzerland</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in Europe. It is bordered by Austria, France, Italy, Liechtenstein, and Germany. The capital is Bern.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in central Europe, east of France and north of Italy.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -11465,6 +12166,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Turkey -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Turkey">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.916667</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.833333</schema:longitude>
+        <MESH_TN>Z01.252.245.500.850</MESH_TN>
+        <MESH_UID>D014421</MESH_UID>
+        <NCIT>C17222</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Turkey</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Turkey</WIKIPEDIA>
+        <preferred-name xml:lang="en">Turkey</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southeastern Europe and southwestern Asia, between the Black Sea and Mediterranean Sea, east of Greece and north of Syria.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Turner_syndrome -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Turner_syndrome">
@@ -11554,6 +12273,27 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#United_Kingdom -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#United_Kingdom">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-3</schema:longitude>
+        <MESH_TN>Z01.542.363</MESH_TN>
+        <MESH_UID>D006113</MESH_UID>
+        <NCIT>C17233</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:United_Kingdom</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/United_Kingdom</WIKIPEDIA>
+        <acronym xml:lang="en">UK</acronym>
+        <preferred-name xml:lang="en">United Kingdom</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in western Europe, comprising islands, including England, Scotland, Wales, and the northern one-sixth of the island of Ireland, between the North Atlantic Ocean and the North Sea, northwest of France.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">Country in northwestern Europe including Great Britain and the northern one-sixth of Ireland, located between the North Sea and north Atlantic Ocean. The capital is London.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">United Kingdom of Great Britain and Northern Ireland</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#United_Nations -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#United_Nations">
@@ -11592,12 +12332,20 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#United_States_of_America">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#North_America"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-100</schema:longitude>
+        <MESH_TN>Z01.107.567.875</MESH_TN>
+        <MESH_UID>D014481</MESH_UID>
+        <NCIT>C17234</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223688001</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:United_States</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/United_States</WIKIPEDIA>
         <acronym xml:lang="en">U.S.A.</acronym>
         <acronym xml:lang="en">USA</acronym>
         <preferred-name xml:lang="en">United States of America</preferred-name>
         <shortened-term xml:lang="en">United States</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in North America between Canada and Mexico.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in North America, between Canada and Mexico, bordering both the North Atlantic Ocean and the North Pacific Ocean.</oboInOwl1:hasDefinition>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#United_States_of_America"/>
@@ -27674,10 +28422,33 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_culture_in_Europe -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_culture_in_Europe">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
+        <schema:location xml:lang="en">Europe</schema:location>
+        <preferred-name xml:lang="en">gay culture in Europe</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_culture_in_North_America -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_culture_in_North_America">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_North_America"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture"/>
+        <schema:location xml:lang="en">North America</schema:location>
+        <preferred-name xml:lang="en">gay culture in North America</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_culture_in_the_United_Kingdom -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_culture_in_the_United_Kingdom">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_Kingdom"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_Europe"/>
         <schema:location xml:lang="en">United Kingdom</schema:location>
         <preferred-name xml:lang="en">gay culture in the United Kingdom</preferred-name>
     </owl:Class>
@@ -27688,6 +28459,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_culture_in_the_United_States">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_North_America"/>
         <schema:location xml:lang="en">United States</schema:location>
         <preferred-name xml:lang="en">gay culture in the United States</preferred-name>
     </owl:Class>
@@ -27897,10 +28669,31 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_male_culture_in_Europe -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_culture_in_Europe">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_culture"/>
+        <schema:location xml:lang="en">Europe</schema:location>
+        <preferred-name xml:lang="en">gay male culture in Europe</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_culture_in_North_America -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_culture_in_North_America">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_culture"/>
+        <preferred-name xml:lang="en">gay male culture in North America</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_male_culture_in_the_United_Kingdom -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_culture_in_the_United_Kingdom">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_the_United_Kingdom"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_culture_in_Europe"/>
         <schema:location xml:lang="en">United Kingdom</schema:location>
         <preferred-name xml:lang="en">gay male culture in the United Kingdom</preferred-name>
     </owl:Class>
@@ -36393,6 +37186,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbian_culture_in_Europe -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_Europe">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture"/>
+        <schema:location xml:lang="en">Europe</schema:location>
+        <preferred-name xml:lang="en">lesbian culture in Europe</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbian_culture_in_New_York -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_New_York">
@@ -36401,6 +37205,16 @@
         <schema:location xml:lang="en">New York, United States</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture_in_New_York_(state)</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture in New York</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lesbian_culture_in_North_America -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_North_America">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture"/>
+        <schema:location xml:lang="en">North America</schema:location>
+        <preferred-name xml:lang="en">lesbian culture in North America</preferred-name>
     </owl:Class>
     
 
@@ -36433,6 +37247,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_the_United_Kingdom">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_the_United_Kingdom"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture_in_Europe"/>
         <schema:location xml:lang="en">United Kingdom</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture_in_the_United_Kingdom</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture in the United Kingdom</preferred-name>
@@ -36444,6 +37259,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_culture_in_the_United_States">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_culture_in_the_United_States"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian_culture_in_North_America"/>
         <schema:location xml:lang="en">United States</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Lesbian_culture_in_the_United_States</WIKIPEDIA>
         <preferred-name xml:lang="en">lesbian culture in the United States</preferred-name>
@@ -64982,7 +65798,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Barnstable_County,_Massachusetts">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Massachusetts"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.72</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-70.25</schema:longitude>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Barnstable_County,_Massachusetts</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Barnstable_County,_Massachusetts</WIKIPEDIA>
         <preferred-name xml:lang="en">Barnstable County, Massachusetts</preferred-name>
         <shortened-term xml:lang="en">Barnstable County</shortened-term>
     </owl:Class>
@@ -65445,6 +66264,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Provincetown,_Massachusetts">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Barnstable_County,_Massachusetts"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.058</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-70.179</schema:longitude>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Provincetown,_Massachusetts</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Provincetown,_Massachusetts</WIKIPEDIA>
         <preferred-name xml:lang="en">Provincetown, Massachusetts</preferred-name>
         <shortened-term xml:lang="en">P&apos;town</shortened-term>
