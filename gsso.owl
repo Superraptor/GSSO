@@ -2463,6 +2463,7 @@
     <!-- https://github.com/Superraptor/GSSO#Ada_Lovelace -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ada_Lovelace">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer_programmer"/>
         <schema:birthDate>10 December 1815</schema:birthDate>
         <schema:birthPlace xml:lang="en">London, England</schema:birthPlace>
@@ -2517,6 +2518,32 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Adolescent_Family_Life_Act</WIKIPEDIA>
         <acronym xml:lang="en">AFLA</acronym>
         <preferred-name xml:lang="en">Adolescent Family Life Act</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Afghan_culture -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Afghan_culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Afghanistan"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Afghan_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Culture_of_Afghanistan</WIKIPEDIA>
+        <preferred-name xml:lang="en">Afghan culture</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">culture of Afghanistan</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Afghanistan -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Afghanistan">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Asia"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</schema:longitude>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Afghanistan</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Afghanistan</WIKIPEDIA>
+        <preferred-name xml:lang="en">Afghanistan</preferred-name>
     </owl:Class>
     
 
@@ -2622,6 +2649,7 @@
     <!-- https://github.com/Superraptor/GSSO#Alan_Turing -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Alan_Turing">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#computer_scientist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <schema:alumniOf xml:lang="en">King&apos;s College</schema:alumniOf>
@@ -2658,6 +2686,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Albanian_sworn_virgin">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Balkan_sworn_virgin"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Albania"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781442275522"/>
         <schema:Quotation xml:lang="en">&quot;Because you are all a long way past marrying age in Albania, and their hair is long, so naturally these people think they are already married. But your hair is short, so they think you are a Sworn Virgin. In these mountains when a girl is old enough to marry and absolutely refuses to marry the man to whom she has been promised, she may escape the marriage by swearing before the chiefs of the two tribes an oath of life-long virginity, and she cuts her hair and takes a man&apos;s place in the tribe...&quot;</schema:Quotation>
         <schema:Quotation xml:lang="en">A girl can escape the husband to whom she has been sold in one way only. Should she resolutely refuse to be married to him she may, by tribe law, swear perpetual virginity before twelve witnesses, and she is then free and has certain privileges. In Maltsia e madhe she can inherit her father&apos;s land should he leave no son. From her it passes to the nearest heir male. She may dress as a man and carry arms, and often does so; she may also take blood vengeance as a man does : but this is seldom done, I believe... Among the other tribes she cannot inherit land, which passes straight to the next heir male. He however must pay her yearly out of the estate 300 okas (about 650 lbs.) of maize, 18 okas of rakia, and 30 okas of wine. Should he fail to do so she can enforce payment by an appeal to the Council of Elders. Among these tribes I saw no virgins who wore male attire, and was told it was customary. In Maltsia e madhe I met several. This practice of swearing virginity to avoid marriage with a man disliked prevails, I am told, among the Moslem as well as the Christian tribes. But I met no examples. I heard of one who had served in the Turkish army... In all parts a sworn virgin is allowed to eat with the men and is trusted as an equal, exchanges tobacco, and is generally &quot;Hail! fellow, well met,&quot; in striking contrast to the position of a married woman.</schema:Quotation>
@@ -2729,6 +2758,8 @@
     <!-- https://github.com/Superraptor/GSSO#Alfred_Kinsey -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Alfred_Kinsey">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -2768,6 +2799,7 @@
     <!-- https://github.com/Superraptor/GSSO#Allen_Irvin_Bernstein -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Allen_Irvin_Bernstein">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#soldier"/>
         <schema:alumniOf xml:lang="en">Tufts College</schema:alumniOf>
@@ -2895,8 +2927,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_Institute_of_Bisexuality">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_organization"/>
-        <schema:founder xml:lang="en">Fritz Klein</schema:founder>
+        <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Fritz_Klein"/>
         <schema:foundingDate>23 July 1998</schema:foundingDate>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/American_Institute_of_Bisexuality</WIKIPEDIA>
         <acronym xml:lang="en">AIB</acronym>
         <preferred-name xml:lang="en">American Institute of Bisexuality</preferred-name>
     </owl:Class>
@@ -2987,6 +3020,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#American_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:American_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Culture_of_the_United_States</WIKIPEDIA>
         <preferred-name xml:lang="en">American culture</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">culture of the United States</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -3091,6 +3126,7 @@
     <!-- https://github.com/Superraptor/GSSO#Anil_Aggrawal -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Anil_Aggrawal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#forensic_scientist"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Anil_Aggrawal</WIKIPEDIA>
         <preferred-name>Anil Aggrawal</preferred-name>
@@ -3101,6 +3137,7 @@
     <!-- https://github.com/Superraptor/GSSO#Ann_Fisher -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ann_Fisher">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguist"/>
         <schema:birthDate>9 December 1719</schema:birthDate>
         <schema:birthPlace xml:lang="en">Lorton, Cumberland, England</schema:birthPlace>
@@ -3339,10 +3376,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Athenian_pederasty -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Athenian_pederasty">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pederasty_in_ancient_Greece"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Athenian_pederasty</WIKIPEDIA>
+        <preferred-name xml:lang="en">Athenian pederasty</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Audrey_Mbugua -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Audrey_Mbugua">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#heterosexual_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:alumniOf xml:lang="en">KCA University</schema:alumniOf>
         <schema:alumniOf xml:lang="en">Maseno University</schema:alumniOf>
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</schema:birthDate>
@@ -3357,6 +3406,7 @@
     <!-- https://github.com/Superraptor/GSSO#Auguste_Ambroise_Tardieu -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Auguste_Ambroise_Tardieu">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#forensic_scientist"/>
         <schema:birthDate>10 March 1818</schema:birthDate>
         <schema:birthPlace xml:lang="en">Paris, France</schema:birthPlace>
@@ -3743,6 +3793,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#British_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:British_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">British culture</preferred-name>
     </owl:Class>
     
@@ -3914,7 +3965,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Canadian_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Canadian_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Culture_of_Canada</WIKIPEDIA>
         <preferred-name xml:lang="en">Canadian culture</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">culture of Canada</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -4084,7 +4138,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Chinese_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Chinese_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Chinese_culture</WIKIPEDIA>
         <preferred-name xml:lang="en">Chinese culture</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">culture of China</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -4092,6 +4149,7 @@
     <!-- https://github.com/Superraptor/GSSO#Christian_Hamburger -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Christian_Hamburger">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#endocrinologist"/>
         <schema:birthDate>19 February 1904</schema:birthDate>
         <schema:birthPlace xml:lang="en">Copenhagen, Denmark</schema:birthPlace>
@@ -4127,6 +4185,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Christiane_Völling">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#woman"/>
         <schema:birthDate>17 April 1959</schema:birthDate>
         <schema:nationality xml:lang="en">German</schema:nationality>
         <rdfs:comment xml:lang="en">Christiane Völling is the first intersex person known to have successfully sued for damages in a case brought for non-consensual surgical intervention described as a non-consensual sex reassignment.</rdfs:comment>
@@ -4211,7 +4270,7 @@
         <schema:deathDate>22 December 2012</schema:deathDate>
         <rdfs:comment xml:lang="en">Christopher Lee was a transgender activist and filmmaker in the San Francisco Bay Area community. He was also the co-founder of the San Francisco Transgender Film Festival (SFTFF). His death and the designation of his assigned gender at birth on his death certificate rather than his self-identified gender was the impetus behind the “Respect After Death Act” or AB 1577 Bill which was passed in California on 26 September 2014.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Christopher_Lee_(activist)</WIKIPEDIA>
-        <cause-of-death xml:lang="en">suicide</cause-of-death>
+        <cause-of-death rdf:resource="https://github.com/Superraptor/GSSO#suicide"/>
         <preferred-name>Christopher Lee</preferred-name>
     </owl:Class>
     
@@ -4355,6 +4414,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Cretan_pederasty -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Cretan_pederasty">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pederasty_in_ancient_Greece"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Cretan_pederasty</WIKIPEDIA>
+        <preferred-name xml:lang="en">Cretan pederasty</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Cri-Du-Chat_syndrome -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Cri-Du-Chat_syndrome">
@@ -4493,6 +4562,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Dana_Zzyym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_activist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_person"/>
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</schema:birthDate>
         <schema:birthPlace xml:lang="en">Michigan, United States</schema:birthPlace>
         <schema:nationality xml:lang="en">American</schema:nationality>
@@ -4507,6 +4577,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Danica_Roem">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journalist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#politician"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:birthDate>30 September 1984</schema:birthDate>
         <schema:birthPlace xml:lang="en">Manassas, Virginia, United States</schema:birthPlace>
         <rdfs:comment xml:lang="en">Danica Roem is an American journalist and politician of the Democratic Party. In the 2017 Virginia elections she was elected to the Virginia House of Delegates, winning the Democratic primary for the 13th district on June 13, and the general election on November 7. She is the first openly transgender person to be elected to the Virginia General Assembly, and in January 2018 became the first to both be elected and serve while openly transgender in any U.S. state legislature.</rdfs:comment>
@@ -4519,6 +4590,7 @@
     <!-- https://github.com/Superraptor/GSSO#David_Oliver_Cauldwell -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#David_Oliver_Cauldwell">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <schema:birthDate>17 June 1897</schema:birthDate>
         <schema:birthPlace xml:lang="en">Cleveland, Ohio, United States</schema:birthPlace>
@@ -4540,7 +4612,7 @@
         <schema:deathPlace xml:lang="en">Winnipeg, Manitoba, Canada</schema:deathPlace>
         <rdfs:comment xml:lang="en">David Peter Reimer was a Canadian man born male but reassigned as a girl and raised female following medical advice and intervention after his penis was accidentally destroyed during a botched circumcision in infancy. The psychologist John Money oversaw the case and reported the reassignment as successful and as evidence that gender identity is primarily learned. Reimer later went public with his story to help discourage similar medical practices. He committed suicide after suffering years of severe depression, financial instability, and a troubled marriage.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/David_Reimer</WIKIPEDIA>
-        <cause-of-death xml:lang="en">suicide</cause-of-death>
+        <cause-of-death rdf:resource="https://github.com/Superraptor/GSSO#suicide"/>
         <preferred-name>David Reimer</preferred-name>
     </owl:Class>
     
@@ -4574,6 +4646,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Dean_Hamer">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#geneticist"/>
         <schema:birthDate>29 May 1951</schema:birthDate>
         <schema:birthPlace xml:lang="en">Montclair, New Jersey, United States</schema:birthPlace>
@@ -4662,13 +4735,16 @@
     <!-- https://github.com/Superraptor/GSSO#Diane_Arbus -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Diane_Arbus">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#photographer"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#suicide_victim"/>
         <schema:birthDate>14 March 1923</schema:birthDate>
         <schema:birthPlace xml:lang="en">New York City, New York, United States</schema:birthPlace>
         <schema:deathDate>26 July 1971</schema:deathDate>
         <schema:deathPlace xml:lang="en">New York City, New York, United States</schema:deathPlace>
         <rdfs:comment xml:lang="en">Diane Arbus was an American photographer noted for photographs of marginalized people—dwarfs, giants, transgender people, nudists, circus performers—and others whose normality was perceived by the general populace as ugly or surreal. Her work has been described as consisting of formal manipulation characterized by blatant sensationalism.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Diane_Arbus</WIKIPEDIA>
+        <cause-of-death rdf:resource="https://github.com/Superraptor/GSSO#suicide"/>
         <preferred-name>Diane Arbus</preferred-name>
     </owl:Class>
     
@@ -4793,6 +4869,20 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Egypt -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Egypt">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Africa"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</schema:longitude>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Egypt</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Egypt</WIKIPEDIA>
+        <preferred-name xml:lang="en">Egypt</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Electra_complex -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Electra_complex">
@@ -4855,6 +4945,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_worker"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
         <schema:url>http://eminism.org/</schema:url>
         <preferred-name>Emi Koyama</preferred-name>
     </owl:Class>
@@ -4889,6 +4980,24 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/England</WIKIPEDIA>
         <preferred-name xml:lang="en">England</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A part of Great Britain within the United Kingdom.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Erich_Bethe -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Erich_Bethe">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#classical_philologist"/>
+        <schema:birthDate>2 May 1863</schema:birthDate>
+        <schema:birthPlace xml:lang="de">Stettin, Deutschland</schema:birthPlace>
+        <schema:birthPlace xml:lang="en">Szczecin, Germany</schema:birthPlace>
+        <schema:deathDate>19 October 1940</schema:deathDate>
+        <schema:deathPlace xml:lang="de">Leipzig, Deutschland</schema:deathPlace>
+        <schema:deathPlace xml:lang="en">Leipzig, Germany</schema:deathPlace>
+        <schema:familyName>Bethe</schema:familyName>
+        <schema:givenName>Erich</schema:givenName>
+        <preferred-name>Erich Bethe</preferred-name>
     </owl:Class>
     
 
@@ -4957,6 +5066,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Eve">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Adam_and_Eve"/>
+        <preferred-name>Eve</preferred-name>
     </owl:Class>
     
 
@@ -5256,6 +5366,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Fritz_Klein -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Fritz_Klein">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_rights_activist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
+        <schema:birthDate>27 December 1932</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Vienna, Austria</schema:birthPlace>
+        <schema:deathDate>24 May 2006</schema:deathDate>
+        <schema:deathPlace xml:lang="en">San Diego, California, United States</schema:deathPlace>
+        <schema:familyName>Klein</schema:familyName>
+        <schema:givenName>Fritz</schema:givenName>
+        <preferred-name>Fritz Klein</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Fuimaono_Karl_Pulotu-Endemann -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Fuimaono_Karl_Pulotu-Endemann">
@@ -5499,6 +5627,7 @@
     <!-- https://github.com/Superraptor/GSSO#George_W._Henry -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#George_W._Henry">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychiatrist"/>
         <schema:alternateName>George William Henry</schema:alternateName>
         <schema:alumniOf xml:lang="en">Johns Hopkins Medical School</schema:alumniOf>
@@ -5544,6 +5673,25 @@
         <rdfs:comment xml:lang="en">Gloria Marie Steinem is an American feminist, journalist, and social political activist who became nationally recognized as a leader and a spokeswoman for the American feminist movement in the late 1960s and early 1970s.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gloria_Steinem</WIKIPEDIA>
         <preferred-name>Gloria Steinem</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</schema:longitude>
+        <MESH_UID>D006115</MESH_UID>
+        <NCIT>C16645</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223651004</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Greece</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Greece</WIKIPEDIA>
+        <preferred-name xml:lang="en">Greece</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey. The capital is Athens.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">A country in southern Europe, bordering the Aegean, Ionian, and Mediterranean Seas, between Albania and Turkey.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -5647,6 +5795,7 @@
     <!-- https://github.com/Superraptor/GSSO#Harold_Gillies -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Harold_Gillies">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#otorhinolaryngologist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#plastic_surgeon"/>
         <schema:alumniOf xml:lang="en">Gonville and Caius College</schema:alumniOf>
@@ -5665,6 +5814,7 @@
     <!-- https://github.com/Superraptor/GSSO#Harry_Benjamin -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Harry_Benjamin">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <schema:birthDate>12 January 1885</schema:birthDate>
         <schema:birthPlace xml:lang="en">Berlin, Brandenburg, German Empire</schema:birthPlace>
@@ -5693,6 +5843,7 @@
     <!-- https://github.com/Superraptor/GSSO#Harry_Weston -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Harry_Weston">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#suicide_victim"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_man"/>
         <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1942</schema:deathDate>
         <schema:familyName>Weston</schema:familyName>
@@ -5707,6 +5858,7 @@
     <!-- https://github.com/Superraptor/GSSO#Havelock_Ellis -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Havelock_Ellis">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
@@ -5763,6 +5915,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Herculine_Barbin">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#suicide_victim"/>
         <schema:birthDate>8 November 1838</schema:birthDate>
         <schema:birthPlace xml:lang="en">Saint-Jean-d&apos;Angély, France</schema:birthPlace>
         <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</schema:deathDate>
@@ -5770,7 +5923,7 @@
         <rdfs:comment xml:lang="en">The birthday of Herculine Barbin is marked by the Intersex Day of Remembrance on 8 November. Barbin committed suicide in 1868.</rdfs:comment>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#Intersex_Day_of_Remembrance"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Herculine_Barbin</WIKIPEDIA>
-        <cause-of-death xml:lang="en">suicide</cause-of-death>
+        <cause-of-death rdf:resource="https://github.com/Superraptor/GSSO#suicide"/>
         <preferred-name>Herculine Barbin</preferred-name>
     </owl:Class>
     
@@ -5992,6 +6145,19 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Ida_Bauer -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ida_Bauer">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1822</schema:birthDate>
+        <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</schema:deathDate>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Dora_(case_study)</WIKIPEDIA>
+        <preferred-name>Ida Bauer</preferred-name>
+        <pseudonym>Dora</pseudonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Independent_State_of_Samoa -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Independent_State_of_Samoa">
@@ -6041,6 +6207,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Indian_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Indian_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Culture_of_India</WIKIPEDIA>
         <preferred-name xml:lang="en">Indian culture</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">culture of India</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -6300,6 +6468,8 @@
     <!-- https://github.com/Superraptor/GSSO#Isidor_Sadger -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Isidor_Sadger">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychoanalyst"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <schema:birthDate>29 October 1867</schema:birthDate>
         <schema:birthPlace xml:lang="en">Neu Sandez, Galicia</schema:birthPlace>
@@ -6373,6 +6543,7 @@
     <!-- https://github.com/Superraptor/GSSO#James_Dean -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#James_Dean">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#dykon"/>
         <schema:birthDate>8 February 1931</schema:birthDate>
         <schema:birthPlace xml:lang="en">Marion, Indiana, United States</schema:birthPlace>
@@ -6420,7 +6591,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Japanese_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Japanese_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Culture_of_Japan</WIKIPEDIA>
         <preferred-name xml:lang="en">Japanese culture</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">culture of Japan</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -6484,6 +6658,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Joey_Joleen_Mataele">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <rdfs:comment xml:lang="en">In 1992, Joey Joleen Mataele co-founded the Tonga Leitis Association, and became its executive director. She is also the Pacific Island Representative on the International Lesbian, Gay, Bisexual, Trans and Intersex Association Executive Board and Chairperson of the South Pacific MSM (Men Who Have Sex with Men) Network Group.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Joey_Joleen_Mataele</WIKIPEDIA>
         <preferred-name>Joey Joleen Mataele</preferred-name>
@@ -6494,12 +6669,14 @@
     <!-- https://github.com/Superraptor/GSSO#John_Money -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#John_Money">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <schema:birthDate>8 July 1921</schema:birthDate>
         <schema:birthPlace xml:lang="en">Morrinsville, New Zealand</schema:birthPlace>
         <schema:deathDate>7 July 2006</schema:deathDate>
         <schema:deathPlace xml:lang="en">Towson, Maryland, United States</schema:deathPlace>
         <rdfs:comment xml:lang="en">John William Money was a psychologist, sexologist and author, specializing in research into sexual identity and biology of gender. He was one of the first scientists to study the psychology of sexual fluidity and how the societal constructs of &quot;gender&quot; affect an individual. Recent academic studies have criticized Money&apos;s work in many respects, particularly in regards to his involvement with the sex-reassignment of David Reimer and his eventual suicide.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/John_Money</WIKIPEDIA>
         <preferred-name>John Money</preferred-name>
     </owl:Class>
     
@@ -6508,6 +6685,7 @@
     <!-- https://github.com/Superraptor/GSSO#John_Rechy -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#John_Rechy">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#novelist"/>
         <schema:alumniOf xml:lang="en">Texas Western College</schema:alumniOf>
         <schema:birthDate>10 March 1931</schema:birthDate>
@@ -6570,6 +6748,8 @@
     <!-- https://github.com/Superraptor/GSSO#Jonathan_Ned_Katz -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Jonathan_Ned_Katz">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historian"/>
         <schema:alumniOf xml:lang="en">Antioch College</schema:alumniOf>
         <schema:alumniOf xml:lang="en">City College of New York</schema:alumniOf>
@@ -6645,6 +6825,7 @@
     <!-- https://github.com/Superraptor/GSSO#Judy_Garland -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Judy_Garland">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_icon"/>
         <schema:birthDate>10 June 1922</schema:birthDate>
         <schema:birthPlace xml:lang="en">Grand Rapids, Minnesota, United States</schema:birthPlace>
@@ -6798,6 +6979,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Karl_Heinrich_Ulrichs">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <schema:birthDate>28 August 1825</schema:birthDate>
         <schema:birthPlace xml:lang="en">Aurich, Kingdom of Hanover</schema:birthPlace>
@@ -6822,6 +7004,31 @@
         <preferred-name xml:lang="en">Kinsey Institute</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The Kinsey Institute for Research in Sex, Gender, and Reproduction (often shortened to The Kinsey Institute) was a nonprofit research institute at Indiana University until November 30, 2016, when it merged with Indiana University.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">Kinsey Institute for Research in Sex, Gender, and Reproduction</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Kinsey_scale -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Kinsey_scale">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scale_of_sexual_orientation"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Alfred_Kinsey"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Kinsey_scale</WIKIPEDIA>
+        <named-after rdf:resource="https://github.com/Superraptor/GSSO#Alfred_Kinsey"/>
+        <preferred-name xml:lang="en">Kinsey scale</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Heterosexual–Homosexual Rating Scale</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Klein_Sexual_Orientation_Grid -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Klein_Sexual_Orientation_Grid">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scale_of_sexual_orientation"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Fritz_Klein"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Klein_Sexual_Orientation_Grid</WIKIPEDIA>
+        <acronym xml:lang="en">KSOG</acronym>
+        <preferred-name xml:lang="en">Klein Sexual Orientation Grid</preferred-name>
     </owl:Class>
     
 
@@ -6861,7 +7068,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Korean_culture">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#national_culture"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Korean_culture</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Culture_of_Korea</WIKIPEDIA>
         <preferred-name xml:lang="en">Korean culture</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">culture of Korea</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -7163,6 +7373,7 @@
     <!-- https://github.com/Superraptor/GSSO#LGBT_History_Month -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_History_Month">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_event"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#commemorative_month"/>
         <rdfs:comment xml:lang="en">Observed in the United States and Canada in October, and in the United Kingdom in February.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_History_Month</WIKIPEDIA>
@@ -7342,6 +7553,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Albania -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Albania">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Albania"/>
+        <schema:location xml:lang="en">Albania</schema:location>
+        <preferred-name xml:lang="en">LGBT culture in Albania</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Argentina -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Argentina">
@@ -7513,6 +7735,7 @@
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Canada -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Canada">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Canadian_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_North_America"/>
         <schema:location xml:lang="en">Canada</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Canada</WIKIPEDIA>
@@ -7788,6 +8011,7 @@
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_India -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_India">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Indian_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Asia"/>
         <schema:location xml:lang="en">India</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_India</WIKIPEDIA>
@@ -7857,6 +8081,7 @@
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Japan -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Japan">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Japanese_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Asia"/>
         <schema:location xml:lang="en">Japan</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Japan</WIKIPEDIA>
@@ -8042,6 +8267,17 @@
         <schema:location xml:lang="en">Mississippi, United States</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_culture_in_Mississippi</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT culture in Mississippi</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_Montenegro -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_Montenegro">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Montenegro"/>
+        <schema:location xml:lang="en">Montenegro</schema:location>
+        <preferred-name xml:lang="en">LGBT culture in Montenegro</preferred-name>
     </owl:Class>
     
 
@@ -8618,6 +8854,7 @@
     <!-- https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_in_the_United_States">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#American_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_North_America"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_the_United_States_of_America"/>
         <schema:location xml:lang="en">United States</schema:location>
@@ -8683,6 +8920,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#First_Nations_LGBT_culture"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Plains_Indians_LGBT_culture"/>
         <preferred-name xml:lang="en">LGBT culture of the Blackfoot tribe</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_culture_of_the_Crow_Nation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_culture_of_the_Crow_Nation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#American_Indian_LGBT_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Plains_Indians_LGBT_culture"/>
+        <preferred-name xml:lang="en">LGBT culture of the Crow Nation</preferred-name>
+        <shortened-term xml:lang="en">LGBT culture of the Crow</shortened-term>
+        <oboInOwl1:hasExactSynonym xml:lang="en">LGBT culture of the Apsáalooke</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -8963,6 +9212,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_history_in_Egypt -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_Egypt">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_Africa"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Egypt"/>
+        <schema:location xml:lang="en">Egypt</schema:location>
+        <preferred-name xml:lang="en">LGBT history in Egypt</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_history_in_England -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_England">
@@ -9024,6 +9284,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_Greece">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Greece"/>
         <schema:location xml:lang="en">Greece</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_history_in_Greece</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_history_in_Greece</WIKIPEDIA>
@@ -9248,6 +9509,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_history_in_Peru">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_South_America"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Peru"/>
         <schema:location xml:lang="en">Peru</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_history_in_Peru</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/LGBT_history_in_Peru</WIKIPEDIA>
@@ -9527,6 +9789,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Afghanistan -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Afghanistan">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Afghanistan"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Asia"/>
+        <schema:location xml:lang="en">Afghanistan</schema:location>
+        <preferred-name xml:lang="en">LGBT in Afghanistan</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_in_Africa -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Africa">
@@ -9534,6 +9807,17 @@
         <schema:location xml:lang="en">Africa</schema:location>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_Africa</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT in Africa</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Albania -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Albania">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Albania"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Europe"/>
+        <schema:location xml:lang="en">Albania</schema:location>
+        <preferred-name xml:lang="en">LGBT in Albania</preferred-name>
     </owl:Class>
     
 
@@ -9572,6 +9856,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Egypt -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Egypt">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Egypt"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Africa"/>
+        <schema:location xml:lang="en">Egypt</schema:location>
+        <preferred-name xml:lang="en">LGBT in Egypt</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_in_Europe -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Europe">
@@ -9590,6 +9885,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Polynesia"/>
         <schema:location xml:lang="en">French Polynesia</schema:location>
         <preferred-name xml:lang="en">LGBT in French Polynesia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Greece"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Europe"/>
+        <schema:location xml:lang="en">Greece</schema:location>
+        <preferred-name xml:lang="en">LGBT in Greece</preferred-name>
     </owl:Class>
     
 
@@ -9621,6 +9927,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Jordan">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Jordan"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Asia"/>
         <schema:location xml:lang="en">Jordan</schema:location>
         <preferred-name xml:lang="en">LGBT in Jordan</preferred-name>
     </owl:Class>
@@ -9648,6 +9955,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Montenegro -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Montenegro">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Montenegro"/>
+        <preferred-name xml:lang="en">LGBT in Montenegro</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_in_North_America -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_North_America">
@@ -9664,6 +9981,17 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Oceania"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_in_Oceania</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT in Oceania</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_Peru -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_Peru">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_South_America"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Peru"/>
+        <schema:location xml:lang="en">Peru</schema:location>
+        <preferred-name xml:lang="en">LGBT in Peru</preferred-name>
     </owl:Class>
     
 
@@ -9727,6 +10055,50 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Tahiti"/>
         <schema:location xml:lang="en">Tahiti</schema:location>
         <preferred-name xml:lang="en">LGBT in Tahiti</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_ancient_Egypt -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_ancient_Egypt">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_Egypt"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_Egypt"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_LGBT_history"/>
+        <preferred-name xml:lang="en">LGBT in ancient Egypt</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_ancient_Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_ancient_Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Greece"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_Greece"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_LGBT_history"/>
+        <preferred-name xml:lang="en">LGBT in ancient Greece</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_ancient_Peru -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_ancient_Peru">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_Peru"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_Peru"/>
+        <preferred-name xml:lang="en">LGBT in ancient Peru</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_in_ancient_Rome -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_in_ancient_Rome">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_Italy"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_Rome"/>
+        <preferred-name xml:lang="en">LGBT in ancient Rome</preferred-name>
     </owl:Class>
     
 
@@ -9830,6 +10202,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nightclub"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_nightclubs</WIKIPEDIA>
         <preferred-name xml:lang="en">LGBT nightclub</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#LGBT_nobility -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_nobility">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nobility"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_nobility</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT nobility</preferred-name>
     </owl:Class>
     
 
@@ -10114,6 +10496,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#LGBT_royalty -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_royalty">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#royalty"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:LGBT_royalty</WIKIPEDIA>
+        <preferred-name xml:lang="en">LGBT royalty</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#LGBT_sex_worker -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#LGBT_sex_worker">
@@ -10394,6 +10786,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Leelah_Alcorn -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Leelah_Alcorn">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#suicide_victim"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
+        <schema:birthDate>15 November 1997</schema:birthDate>
+        <schema:birthPlace xml:lang="en">King Mills, Ohio, United States</schema:birthPlace>
+        <schema:deathDate>28 December 2014</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Lebanon, Ohio, United States</schema:deathPlace>
+        <schema:nationality xml:lang="en">American</schema:nationality>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Suicide_of_Leelah_Alcorn</WIKIPEDIA>
+        <cause-of-death rdf:resource="https://github.com/Superraptor/GSSO#suicide"/>
+        <preferred-name>Leelah Alcorn</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Lentivirus -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Lentivirus">
@@ -10602,6 +11011,7 @@
     <!-- https://github.com/Superraptor/GSSO#Magnus_Hirschfeld -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Magnus_Hirschfeld">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781412964517"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781786842992"/>
@@ -10790,6 +11200,7 @@
     <!-- https://github.com/Superraptor/GSSO#Mary_Shelley -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Mary_Shelley">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#novelist"/>
         <schema:birthDate>30 August 1797</schema:birthDate>
         <schema:birthPlace xml:lang="en">Somers Town, London, England</schema:birthPlace>
@@ -10961,6 +11372,7 @@
     <!-- https://github.com/Superraptor/GSSO#Michel_Foucault -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Michel_Foucault">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historian"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#philosopher"/>
         <schema:alumniOf xml:lang="en">University of Paris</schema:alumniOf>
@@ -11021,8 +11433,34 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Montenegrin_sworn_virgin">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Balkan_sworn_virgin"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_in_Montenegro"/>
         <schema:location xml:lang="en">Montenegro</schema:location>
         <preferred-name xml:lang="en">Montenegrin sworn virgin</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Montenegro -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Montenegro">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Europe"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#country"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.5</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3</schema:longitude>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Montenegro</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Montenegro</WIKIPEDIA>
+        <preferred-name xml:lang="en">Montenegro</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Multidimensional_Scale_of_Sexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Multidimensional_Scale_of_Sexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scale_of_sexual_orientation"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Scales_of_sexual_orientation#Multidimensional_Scale_of_Sexuality_(MSS)</WIKIPEDIA>
+        <acronym xml:lang="en">MSS</acronym>
+        <preferred-name xml:lang="en">Multidimensional Scale of Sexuality</preferred-name>
     </owl:Class>
     
 
@@ -11084,6 +11522,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Natalie_Wynn">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#internet_celebrity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pansexual_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:birthDate>21 October 1988</schema:birthDate>
         <schema:birthPlace xml:lang="en">Arlington, Virginia, United States</schema:birthPlace>
@@ -11329,6 +11768,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Nell_Kimball">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sex_worker"/>
         <schema:birthDate>14 June 1854</schema:birthDate>
         <schema:birthPlace xml:lang="en">Illinois, United States</schema:birthPlace>
@@ -11676,6 +12116,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Oscar_Wilde">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#poet"/>
         <schema:alumniOf xml:lang="en">Magdalen College</schema:alumniOf>
         <schema:alumniOf xml:lang="en">Trinity College</schema:alumniOf>
@@ -11982,6 +12423,7 @@
     <!-- https://github.com/Superraptor/GSSO#Paul_R._McHugh -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Paul_R._McHugh">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychiatrist"/>
         <schema:alumniOf xml:lang="en">Harvard College</schema:alumniOf>
         <schema:alumniOf xml:lang="en">Harvard Medical School</schema:alumniOf>
@@ -11990,6 +12432,24 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Paul_R._McHugh</WIKIPEDIA>
         <preferred-name>Paul R. McHugh</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">McHugh opposes sex reassignment surgery for transgender people. In 1979, he shut down the gender identity clinic at Johns Hopkins, saying that another researcher found that most of the people he tracked down who had undergone this type of surgery &quot;were contented with what they had done and that only a few regretted it. But in every other respect, they were little changed in their psychological condition. They had much the same problems with relationships, work, and emotions as before. The hope that they would emerge now from their emotional difficulties to flourish psychologically had not been fulfilled.&quot; He has said that medical treatment for transgender youth is “like performing liposuction on an anorexic child”, described post-operative transgender women as “caricatures of women” because the surgery failed to change many of their male traits, and stated that “The transgendered suffer a disorder of &apos;assumption.&apos;” McHugh considers homosexuality to be an “erroneous desire&quot; and supported California Proposition 8. He co-authored a criticism of medical treatment for transgender youth published by the American College of Pediatricians, an offshoot of the American Academy of Pediatrics which has been designated as a hate group by the Southern Poverty Law Center.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Peru -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Peru">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#South_America"/>
+        <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-10</schema:latitude>
+        <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-76</schema:longitude>
+        <MESH_UID>D010568</MESH_UID>
+        <NCIT>C16972</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223721003</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Peru</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Peru</WIKIPEDIA>
+        <preferred-name xml:lang="en">Peru</preferred-name>
+        <oboInOwl1:hasDefinition>A country in western South America, bordering the South Pacific Ocean, and located between Chile and Ecuador.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition>A country in western South America, bordering the South Pacific Ocean, between Chile and Ecuador.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -12254,6 +12714,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Rachel_Crandall">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_woman"/>
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</schema:birthDate>
         <schema:birthPlace xml:lang="en">Michigan, United States</schema:birthPlace>
         <rdfs:comment xml:lang="en">Rachel Crandall founded International Transgender Day of Visibility in 2009 as a reaction to the lack of LGBT holidays celebrating transgender people, citing the frustration that the only well-known transgender-centered holiday was the Transgender Day of Remembrance which mourned the murders of transgender people, but did not acknowledge and celebrate living members of the transgender community.</rdfs:comment>
@@ -12285,6 +12746,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Randall_L._Sell">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biologist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#public_health_researcher"/>
         <schema:alumniOf xml:lang="en">Harvard University</schema:alumniOf>
         <schema:alumniOf xml:lang="en">University of Pennsylvania</schema:alumniOf>
@@ -12299,6 +12762,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Raphael_Carter">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_person"/>
+        <rdfs:comment xml:lang="en">Not much is known about Carter, but it has been noted that they do &quot;not identity as male or female&quot;.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Raphael_Carter</WIKIPEDIA>
         <preferred-name>Raphael Carter</preferred-name>
     </owl:Class>
@@ -12308,6 +12773,8 @@
     <!-- https://github.com/Superraptor/GSSO#Ray_Blanchard -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ray_Blanchard">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychologist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <schema:alumniOf xml:lang="en">University of Illinois</schema:alumniOf>
         <schema:alumniOf xml:lang="en">University of Pennsylvania</schema:alumniOf>
@@ -12395,6 +12862,7 @@
     <!-- https://github.com/Superraptor/GSSO#Richard_von_Krafft-Ebing -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Richard_von_Krafft-Ebing">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychiatrist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexologist"/>
         <schema:alumniOf xml:lang="en">Heidelberg University</schema:alumniOf>
@@ -12510,6 +12978,21 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Ronni_Sanlo -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ronni_Sanlo">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
+        <schema:birthDate>20 March 1948</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Miami, Florida, United States</schema:birthPlace>
+        <schema:familyName>Sanlo</schema:familyName>
+        <schema:givenName>Ronni</schema:givenName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ronni_Sanlo</WIKIPEDIA>
+        <preferred-name>Ronni Sanlo</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Rosie_the_Riveter -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Rosie_the_Riveter">
@@ -12561,10 +13044,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Russian_nobility -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Russian_nobility">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nobility"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Russian_nobility</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Russian_nobility</WIKIPEDIA>
+        <preferred-name xml:lang="en">Russian nobility</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Ruth_Baldacchino -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Ruth_Baldacchino">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#intersex_rights_activist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#non-binary_person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#transgender_rights_activist"/>
         <schema:alumniOf xml:lang="en">University College Dublin</schema:alumniOf>
         <schema:alumniOf xml:lang="en">University of Malta</schema:alumniOf>
@@ -12771,6 +13266,7 @@
     <!-- https://github.com/Superraptor/GSSO#Sappho -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sappho">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#poet"/>
         <schema:birthDate xml:lang="en">c. 630 BCE</schema:birthDate>
         <schema:birthPlace xml:lang="en">Lesbos, Greece</schema:birthPlace>
@@ -12785,7 +13281,9 @@
     <!-- https://github.com/Superraptor/GSSO#Sarah_Schulman -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sarah_Schulman">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journalist"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#lesbian"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#novelist"/>
         <schema:alumniOf xml:lang="en">Empire State College</schema:alumniOf>
         <schema:alumniOf xml:lang="en">University of Chicago</schema:alumniOf>
@@ -12839,6 +13337,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Sell_Assessment_of_Sexual_Orientation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sell_Assessment_of_Sexual_Orientation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scale_of_sexual_orientation"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Randall_L._Sell"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Scales_of_sexual_orientation#Sell_Assessment_of_Sexual_Orientation_(SASO)</WIKIPEDIA>
+        <acronym xml:lang="en">SASO</acronym>
+        <preferred-name xml:lang="en">Sell Assessment of Sexual Orientation</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Serbia -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Serbia">
@@ -12857,6 +13367,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#Sergei_Pankejeff -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sergei_Pankejeff">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Russian_nobility"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
+        <schema:birthDate>24 December 1886</schema:birthDate>
+        <schema:birthPlace xml:lang="en">Odessa, Russian Empire</schema:birthPlace>
+        <schema:deathDate>7 May 1979</schema:deathDate>
+        <schema:deathPlace xml:lang="en">Vienna, Austria</schema:deathPlace>
+        <schema:nationality xml:lang="en">Russian</schema:nationality>
+        <WIKIPEDIA>https://en.wikipedia.org/wiki/Sergei_Pankejeff</WIKIPEDIA>
+        <preferred-name>Sergei Pankejeff</preferred-name>
+        <pseudonym xml:lang="en">Wolf Man</pseudonym>
+        <pseudonym xml:lang="de">Wolfsmann</pseudonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#Servicemembers_Legal_Defense_Network -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Servicemembers_Legal_Defense_Network">
@@ -12864,6 +13392,21 @@
         <acronym xml:lang="en">SLDN</acronym>
         <modern-term rdf:resource="https://github.com/Superraptor/GSSO#OutServe-SLDN"/>
         <preferred-name xml:lang="en">Servicemembers Legal Defense Network</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#Sex_Orientation_Scale -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sex_Orientation_Scale">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_scale"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Harry_Benjamin"/>
+        <rdfs:comment xml:lang="en">Note that the Benjamin scale does not reflect a modern understanding of gender identity and is not useful as a contemporary diagnostic tool, especially due to its conflation of gender identity with sexual orientation.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Benjamin_scale</WIKIPEDIA>
+        <acronym xml:lang="en">S.O.S.</acronym>
+        <acronym xml:lang="en">SOS</acronym>
+        <preferred-name xml:lang="en">Sex Orientation Scale</preferred-name>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Benjamin scale</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -12947,6 +13490,7 @@
     <!-- https://github.com/Superraptor/GSSO#Sigmund_Freud -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Sigmund_Freud">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#psychoanalyst"/>
         <schema:alumniOf xml:lang="en">University of Vienna</schema:alumniOf>
         <schema:birthDate>6 May 1856</schema:birthDate>
@@ -12964,6 +13508,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Simone_de_Beauvoir">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_woman"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#feminist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#novelist"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#philosopher"/>
@@ -13280,6 +13825,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Susan_Brownmiller">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#author"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_woman"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#journalist"/>
         <schema:birthDate>15 February 1935</schema:birthDate>
         <schema:birthPlace xml:lang="en">Brooklyn, New York, United States</schema:birthPlace>
@@ -15855,7 +16401,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#allonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">allonyms</schema:alternateName>
         <preferred-name xml:lang="en">allonym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Another person&apos;s name used as a pseudonym by the author of a work.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -16361,6 +16909,92 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#ancient_Egypt -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ancient_Egypt">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_land"/>
+        <MESH_TN>Z01.586.035.325</MESH_TN>
+        <MESH_UID>D000076144</MESH_UID>
+        <preferred-name xml:lang="en">ancient Egypt</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A civilization of ancient Northeastern Africa, concentrated along the lower reaches of the Nile River in the area of Egypt. It was active from 3100 B.C. until its conquest by Alexander the Great in 332 B.C.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Egypt, Ancient</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ancient_Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ancient_Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Greece"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_land"/>
+        <MESH_TN>Z01.586.035.519</MESH_TN>
+        <MESH_UID>D000076145</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ancient_Greece</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Ancient_Greece</WIKIPEDIA>
+        <preferred-name xml:lang="en">ancient Greece</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A civilization extant from about 1200 BC. to the death of Alexander the Great, in 323 B.C. It extended from the Greek city states to North Africa and eastward to the Indus River.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Greece, Ancient</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ancient_LGBT_history -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ancient_LGBT_history">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_history"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Ancient_LGBT_history</WIKIPEDIA>
+        <preferred-name xml:lang="en">ancient LGBT history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ancient_Peru -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ancient_Peru">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_land"/>
+        <preferred-name xml:lang="en">ancient Peru</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ancient_Rome -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ancient_Rome">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ancient_land"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ancient_Rome</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Ancient_Rome</WIKIPEDIA>
+        <preferred-name xml:lang="en">ancient Rome</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ancient_history -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ancient_history">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#history"/>
+        <MESH_TN>K01.400.470</MESH_TN>
+        <MESH_UID>D049690</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ancient_history</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Ancient_history</WIKIPEDIA>
+        <preferred-name xml:lang="en">ancient history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#ancient_land -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ancient_land">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#historical_geographic_location"/>
+        <schema:alternateName xml:lang="en">ancient lands</schema:alternateName>
+        <MESH_TN>Z01.586.035</MESH_TN>
+        <MESH_UID>D018436</MESH_UID>
+        <preferred-name xml:lang="en">ancient land</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Geographical sites known to be extant in a remote period in the history of civilization, familiar as the names of ancient countries and empires.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#androgen -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#androgen">
@@ -16821,7 +17455,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#anonymity_pseudonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">anonymity pseudonyms</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Multiple-use_name</WIKIPEDIA>
         <preferred-name xml:lang="en">anonymity pseudonym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A name used by many different people to protect anonymity.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">multiple-user name</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -17758,7 +18396,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#athletic_nickname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nickname"/>
+        <schema:alternateName xml:lang="en">athletic nicknames</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Athletic_nickname</WIKIPEDIA>
         <preferred-name xml:lang="en">athletic nickname</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The athletic nickname of a university or college within the United States is the name officially adopted by that institution for at least the members of its athletic teams.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18208,7 +18849,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#avonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">avonyms</schema:alternateName>
         <preferred-name xml:lang="en">avonym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The name of one&apos;s grandfather.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18218,7 +18861,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#avonymic_surname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#avonym"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surname"/>
+        <schema:alternateName xml:lang="en">avonymic surnames</schema:alternateName>
         <preferred-name xml:lang="en">avonymic surname</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A surname formed from the name of one&apos;s grandfather.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -18359,6 +19004,8 @@
     <!-- https://github.com/Superraptor/GSSO#bacha_posh -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bacha_posh">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Afghan_culture"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing_in_Afghanistan"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <schema:location xml:lang="en">Afghanistan</schema:location>
         <schema:location xml:lang="en">Pakistan</schema:location>
@@ -18414,6 +19061,7 @@
     <!-- https://github.com/Superraptor/GSSO#badé -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#badé">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_culture_of_the_Crow_Nation"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#third_gender"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780803247871"/>
@@ -18581,7 +19229,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#basic_need">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#need"/>
         <schema:alternateName xml:lang="en">basic needs</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Basic_needs</WIKIPEDIA>
         <preferred-name xml:lang="en">basic need</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Things which are necessary to live; minimum required needs for a standard of living.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19369,7 +20019,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#birth_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">birth names</schema:alternateName>
+        <alternative-spelling xml:lang="en">birthname</alternative-spelling>
         <preferred-name xml:lang="en">birth name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A name assigned to a child shortly after birth.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -19669,7 +20322,20 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_rights_activist">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_rights_activist"/>
+        <schema:alternateName xml:lang="en">bisexual rights activists</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bisexual_rights_activists</WIKIPEDIA>
         <preferred-name xml:lang="en">bisexual rights activist</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#bisexual_royalty -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#bisexual_royalty">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_royalty"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexual_person"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Bisexual_royalty</WIKIPEDIA>
+        <preferred-name xml:lang="en">bisexual royalty</preferred-name>
     </owl:Class>
     
 
@@ -20953,7 +21619,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#calling_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hypocorism"/>
+        <schema:alternateName xml:lang="en">calling names</schema:alternateName>
+        <rdfs:comment xml:lang="en">For example, using &quot;Bob&quot; instead of &quot;Robert&quot; or &quot;Peggy&quot; instead of &quot;Margaret&quot;.</rdfs:comment>
         <preferred-name xml:lang="en">calling name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The name by which a person is normally identified in conversation.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -21917,6 +22586,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1016/j.jadohealth.2018.02.003"/>
         <schema:Quotation xml:lang="en">For transgender youth who choose a name different from the one given at birth, use of their chosen name in multiple contexts affirms their gender identity and reduces mental health risks known to be high in this group.</schema:Quotation>
+        <schema:alternateName xml:lang="en">chosen names</schema:alternateName>
         <rdfs:comment xml:lang="en">Note that it is demeaning and highly inappropriate to put a transgender person&apos;s chosen name in quotation marks.</rdfs:comment>
         <preferred-name xml:lang="en">chosen name</preferred-name>
     </owl:Class>
@@ -21924,7 +22594,7 @@
         <owl:annotatedSource rdf:resource="https://github.com/Superraptor/GSSO#chosen_name"/>
         <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
         <owl:annotatedTarget xml:lang="en">For transgender youth who choose a name different from the one given at birth, use of their chosen name in multiple contexts affirms their gender identity and reduces mental health risks known to be high in this group.</owl:annotatedTarget>
-        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#10.1016/j.jadohealth.2018.02.003"/>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#10.1016/j.jadohealth.2018.02.003"/>
     </owl:Axiom>
     
 
@@ -22275,6 +22945,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cisgender_man">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cisgender_person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#man"/>
         <schema:alternateName xml:lang="en">cisgender men</schema:alternateName>
         <preferred-name xml:lang="en">cisgender man</preferred-name>
@@ -22499,7 +23170,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#clan_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">clan names</schema:alternateName>
         <preferred-name xml:lang="en">clan name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The name of one&apos;s clan, particularly used as a personal identifier (similar to a surname).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -22517,11 +23190,25 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#class_conflict -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#class_conflict">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_class"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_conflict"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Class_conflict</WIKIPEDIA>
+        <preferred-name xml:lang="en">class conflict</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">class struggle</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">class warfare</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#class_discrimination -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#class_discrimination">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cultural_bias"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#discriminatory_abuse"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_class"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9781580053822"/>
         <WIKIDATA>Q1414964</WIKIDATA>
         <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Klassismus</WIKIPEDIA>
@@ -22543,6 +23230,34 @@
         <WIKIDATA>Q332758</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Class_ring</WIKIPEDIA>
         <preferred-name xml:lang="en">class ring</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#classical_philologist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#classical_philologist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#philologist"/>
+        <schema:alternateName xml:lang="en">classical philologists</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Classical_philologists</WIKIPEDIA>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#classical_philology"/>
+        <preferred-name xml:lang="en">classical philologist</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#classical_philology -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#classical_philology">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#philology"/>
+        <MESH_TN>K01.517.732.477</MESH_TN>
+        <MESH_UID>D010681</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Classical_philology</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Classics#Philology</WIKIPEDIA>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#classical_philologist"/>
+        <preferred-name xml:lang="en">classical philology</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The study of ancient Greek and Roman literature, including grammar, etymology, criticism, literary history, and language and linguistic history.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasExactSynonym xml:lang="en">philology, classical</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
 
@@ -23105,7 +23820,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#collective_nickname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nickname"/>
+        <schema:alternateName xml:lang="en">collective nicknames</schema:alternateName>
         <alternative-spelling xml:lang="en">collective nickname</alternative-spelling>
+        <oboInOwl1:hasDefinition xml:lang="en">Nicknames attributed to multiple people or groups of people.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -23114,7 +23831,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#collective_pseudonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">collective pseudonyms</schema:alternateName>
         <preferred-name xml:lang="en">collective pseudonym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A pseudonym shared by two or more persons, such as coauthors of a work.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -23240,6 +23959,20 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#month"/>
         <schema:alternateName xml:lang="en">commemorative months</schema:alternateName>
         <preferred-name xml:lang="en">commemorative month</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#commencement -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#commencement">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#ceremony"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#graduation"/>
+        <preferred-name xml:lang="en">commencement</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The ceremony during which graduation occurs.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">convocation</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">graduation</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">invocation</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -23637,6 +24370,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#conflict">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#motivation"/>
+        <schema:alternateName xml:lang="en">conflicts</schema:alternateName>
         <preferred-name xml:lang="en">conflict</preferred-name>
     </owl:Class>
     
@@ -23900,7 +24634,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#connotation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#semantic_meaning"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Connotation</WIKIPEDIA>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#denotation"/>
         <preferred-name xml:lang="en">connotation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A meaning of a word or phrase that is suggested or implied, as opposed to a denotation, or literal meaning. A characteristic of words or phrases, or of the contexts that words and phrases are used in.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -24050,6 +24786,8 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#geographic_location"/>
         <schema:alternateName xml:lang="en">continents</schema:alternateName>
         <NCIT>C76349</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Continents</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Continent</WIKIPEDIA>
         <preferred-name xml:lang="en">continent</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">One of the large landmasses of the earth.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -24284,6 +25022,8 @@
         <schema:alternateName xml:lang="en">countries</schema:alternateName>
         <NCIT>C25464</NCIT>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223369002</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Countries</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Country</WIKIPEDIA>
         <preferred-name xml:lang="en">country</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -24543,6 +25283,36 @@
         <owl:annotatedTarget xml:lang="en">Investigation of the death of John W. Lemke, which disclosed what is apparently an extremely interesting psychopathic problem of transvestism, or &quot;cross dressing,&quot; was officially concluded yesterday.</owl:annotatedTarget>
         <terms:source rdf:resource="https://github.com/Superraptor/GSSO#Probe_Confirms_Suicide_Theory_in_Lemke_Case"/>
     </owl:Axiom>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cross-dressing_in_Afghanistan -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cross-dressing_in_Afghanistan">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing_in_Asia"/>
+        <schema:location xml:lang="en">Afghanistan</schema:location>
+        <preferred-name xml:lang="en">cross-dressing in Afghanistan</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cross-dressing_in_Asia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cross-dressing_in_Asia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
+        <schema:location xml:lang="en">Asia</schema:location>
+        <preferred-name xml:lang="en">cross-dressing in Asia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#cross-dressing_in_Europe -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#cross-dressing_in_Europe">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dressing"/>
+        <schema:location xml:lang="en">Europe</schema:location>
+        <preferred-name xml:lang="en">cross-dressing in Europe</preferred-name>
+    </owl:Class>
     
 
 
@@ -25470,7 +26240,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#demonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">demonyms</schema:alternateName>
         <preferred-name xml:lang="en">demonym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A name for an inhabitant or native of a specific place, usually derived from the name of the place.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -25490,7 +26262,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#denotation">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#semantic_meaning"/>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#connotation"/>
         <preferred-name xml:lang="en">denotation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The primary, surface, literal, or explicit meaning of signifier such as a word, phrase, or symbol; that which a word denotes, as contrasted with its connotation; the aggregate or set of objects of which a word may be predicated.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -26580,8 +27354,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#double_surname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surname"/>
+        <schema:alternateName xml:lang="en">double surnames</schema:alternateName>
         <preferred-name xml:lang="en">double surname</preferred-name>
         <oboInOwl1:hasBroadSynonym xml:lang="en">compound surname</oboInOwl1:hasBroadSynonym>
+        <oboInOwl1:hasDefinition xml:lang="en">A surname that is more than one word, being typically two words.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">double-barrelled surname</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -27186,9 +27962,28 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#education -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#education">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#educational_activity"/>
+        <MESH_TN>I02</MESH_TN>
+        <MESH_UID>D004493</MESH_UID>
+        <NCIT>C16529</NCIT>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">409073007</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Education</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Education</WIKIPEDIA>
+        <preferred-name xml:lang="en">education</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Acquisition of knowledge as a result of instruction in a formal course of study.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasDefinition xml:lang="en">The activities of educating or instructing or teaching; activities that impart knowledge or skill.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#training"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#education_event -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#education_event">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#education"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#event"/>
         <schema:alternateName xml:lang="en">education events</schema:alternateName>
         <preferred-name xml:lang="en">education event</preferred-name>
@@ -28340,6 +29135,7 @@
         <schema:alternateName xml:lang="en">ethical principles</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Ethical_principles</WIKIPEDIA>
         <preferred-name xml:lang="en">ethical principle</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Principles which inform ethics and ethical decision-making.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -28528,7 +29324,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ethnonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">ethnonyms</schema:alternateName>
         <preferred-name xml:lang="en">ethnonym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The name of an ethnic group, nation, nationality, tribe, tribal alliance, clan, or other ethnic community.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -30406,7 +31204,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#feudal_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">feudal names</schema:alternateName>
         <preferred-name xml:lang="en">feudal name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A name referring to the holding of land or property.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -31027,6 +31827,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#freudstheoriesof00hitsiala -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#freudstheoriesof00hitsiala">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>C. R. Payne</dc:creator>
+        <dc:creator>Eduard Hitschmann</dc:creator>
+        <dc:publisher xml:lang="en">Journal of Nervous and Mental Disease Publishing Company</dc:publisher>
+        <terms:dateCopyrighted rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1913</terms:dateCopyrighted>
+        <terms:title xml:lang="en">Freud&apos;s Theories of the Neuroses</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1913</schema:datePublished>
+        <rdfs:comment xml:lang="en">Number 17 of the Nervous and Mental Disease Monograph Series.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Translated by Dr. C. R. Payne (Westport, N. Y.).</rdfs:comment>
+        <rdfs:comment xml:lang="en">With introduction by Ernest Jones, M.D., M.R.C.P., of London.</rdfs:comment>
+        <INTERNET_ARCHIVE>freudstheoriesof00hitsiala</INTERNET_ARCHIVE>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#friend -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#friend">
@@ -31195,7 +32013,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#full_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">full names</schema:alternateName>
         <preferred-name xml:lang="en">full name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The first name, any middle names, and surname of a person.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -31550,6 +32370,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_history_in_Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_history_in_Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_history_in_Greece"/>
+        <schema:location xml:lang="en">Greece</schema:location>
+        <preferred-name xml:lang="en">gay history in Greece</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_history_in_the_United_States -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_history_in_the_United_States">
@@ -31823,6 +32653,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gay_male_history_in_Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_history_in_Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history_in_Greece"/>
+        <schema:location xml:lang="en">Greece</schema:location>
+        <preferred-name xml:lang="en">gay male history in Greece</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#gay_male_history_in_New_York -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_history_in_New_York">
@@ -31860,6 +32700,30 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_museum"/>
         <preferred-name xml:lang="en">gay male museum</preferred-name>
         <shortened-term xml:lang="en">gay museum</shortened-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_nobility -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_nobility">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_nobility"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay_nobility</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay male nobility</preferred-name>
+        <shortened-term xml:lang="en">gay nobility</shortened-term>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#gay_male_royalty -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gay_male_royalty">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_royalty"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_man"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gay_royalty</WIKIPEDIA>
+        <preferred-name xml:lang="en">gay male royalty</preferred-name>
+        <shortened-term xml:lang="en">gay royalty</shortened-term>
     </owl:Class>
     
 
@@ -33898,6 +34762,18 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#gentry -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#gentry">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#upper_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Gentry</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Gentry</WIKIPEDIA>
+        <preferred-name xml:lang="en">gentry</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#geographic_feature -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#geographic_feature">
@@ -34070,10 +34946,13 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#given_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#full_name"/>
+        <schema:alternateName xml:lang="en">given names</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#birth_name"/>
+        <preferred-name xml:lang="en">A first name, a name chosen for a child, usually by the child&apos;s parents; a forename.</preferred-name>
         <preferred-name xml:lang="en">given name</preferred-name>
-        <oboInOwl1:hasExactSynonym xml:lang="en">Christian name</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">first name</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">forename</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasRelatedSynonym xml:lang="en">Christian name</oboInOwl1:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -34289,6 +35168,20 @@
         <schema:alternateName xml:lang="en">government reports</schema:alternateName>
         <preferred-name xml:lang="en">government report</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A report issued by a state, nation, or other governing body.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#graduation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#graduation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#education_event"/>
+        <NCIT>C52581</NCIT>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Graduation</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Graduation</WIKIPEDIA>
+        <preferred-name xml:lang="en">graduation</preferred-name>
+        <preferred-name xml:lang="en">graduations</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Conferral or receipt of an academic degree or diploma marking the completion of a defined set of coursework.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -35194,7 +36087,8 @@
     <!-- https://github.com/Superraptor/GSSO#health_education -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#health_education">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#educational_activity"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#education"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#health"/>
         <MESH_UID>D006266</MESH_UID>
         <NCIT>C16664</NCIT>
         <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#health_educator"/>
@@ -35801,6 +36695,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#high_society -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#high_society">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#upper_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:High_society</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/High_society_(social_class)</WIKIPEDIA>
+        <preferred-name xml:lang="en">high society</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#hijabophobia -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hijabophobia">
@@ -35974,6 +36879,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#historical_gender-neutral_pronoun">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender-neutral_pronoun"/>
         <preferred-name xml:lang="en">historical gender-neutral pronoun</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#historical_geographic_location -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#historical_geographic_location">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#geographic_location"/>
+        <schema:alternateName xml:lang="en">historical geographic locations</schema:alternateName>
+        <MESH_TN>Z01.586</MESH_TN>
+        <MESH_UID>D017516</MESH_UID>
+        <preferred-name xml:lang="en">historical geographic location</preferred-name>
     </owl:Class>
     
 
@@ -37602,7 +38519,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hyphenated_surname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#double_surname"/>
+        <schema:alternateName xml:lang="en">hyphenated surnames</schema:alternateName>
         <preferred-name xml:lang="en">hyphenated surname</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A surname which contain a hyphen, usually between two surnames.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -37627,7 +38546,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#hypocorism">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nickname"/>
+        <schema:alternateName xml:lang="en">hypocorisms</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Hypocorism</WIKIPEDIA>
         <preferred-name xml:lang="en">hypocorism</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A term of endearment such as a pet name.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">hypocoristicon</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -38635,6 +39558,21 @@
         <NCIT>C3671</NCIT>
         <preferred-name xml:lang="en">injury</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#innate_bisexuality -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#innate_bisexuality">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#autobiographyofa00lind"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#freudstheoriesof00hitsiala"/>
+        <rdfs:comment xml:lang="en">Although the term itself was coined by Freud, it was based on work by his associate Wilhelm Fliess.</rdfs:comment>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Innate_bisexuality</WIKIPEDIA>
+        <coined-by rdf:resource="https://github.com/Superraptor/GSSO#Sigmund_Freud"/>
+        <preferred-name xml:lang="en">innate bisexuality</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">predisposition to bisexuality</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -39870,6 +40808,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Justice</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Justice</WIKIPEDIA>
         <preferred-name xml:lang="en">justice</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The ideal of fairness, impartiality, etc., especially with regard to the punishment of wrongdoing.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40154,6 +41093,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#landed_gentry -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#landed_gentry">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gentry"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Landed_gentry</WIKIPEDIA>
+        <preferred-name xml:lang="en">landed gentry</preferred-name>
+        <shortened-term xml:lang="en">gentry</shortened-term>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#language -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#language">
@@ -40252,6 +41202,21 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#quaternary_syphilis"/>
         <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266133006</SCTID>
         <preferred-name xml:lang="en">late quaternary neurosyphilis</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lavender_graduation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lavender_graduation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_event"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#graduation"/>
+        <schema:founder rdf:resource="https://github.com/Superraptor/GSSO#Ronni_Sanlo"/>
+        <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</schema:foundingDate>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lavender_Graduation</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ronni_Sanlo#&apos;Lavender_Graduation&apos;</WIKIPEDIA>
+        <preferred-name xml:lang="en">lavender graduation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">An annual graduation conducted at some universities to honor LGBTQIA+ students and acknowledge their accomplishments and contributions.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40486,7 +41451,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#legal_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">legal names</schema:alternateName>
+        <rdfs:comment xml:lang="en">In many situations, the legal name is the same as the birth name. However, individuals may change their names in some cases, especially if they are transgender (in order to have a name which feels more comfortable and fitting to their identity). In this case, the legal name may be the same as the transgender person&apos;s affirmed or chosen name.</rdfs:comment>
         <preferred-name xml:lang="en">legal name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The name of a natural person recognized on official records, especially as recorded on a birth certificate or as allowed to changed by legal process.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -40922,6 +41890,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#lesbian_history_in_Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_history_in_Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history_in_Greece"/>
+        <schema:location xml:lang="en">Greece</schema:location>
+        <preferred-name xml:lang="en">lesbian history in Greece</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#lesbian_history_in_the_United_States -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lesbian_history_in_the_United_States">
@@ -41296,6 +42274,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
         <schema:alternateName xml:lang="en">linguists</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Linguists</WIKIPEDIA>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#linguistics"/>
         <preferred-name xml:lang="en">linguist</preferred-name>
     </owl:Class>
     
@@ -41364,6 +42343,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_science"/>
         <MESH_UID>D008037</MESH_UID>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Linguistics</WIKIPEDIA>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#linguist"/>
         <preferred-name xml:lang="en">linguistics</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The science of language, including phonetics, phonology, morphology, syntax, semantics, pragmatics, and historical linguistics.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -41584,6 +42564,16 @@
         <WIKIDATA>Q1033548</WIKIDATA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Love_hotel</WIKIPEDIA>
         <preferred-name xml:lang="en">love hotel</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#lower_middle_class -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#lower_middle_class">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#middle_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Lower_middle_class</WIKIPEDIA>
+        <preferred-name xml:lang="en">lower middle class</preferred-name>
     </owl:Class>
     
 
@@ -42759,7 +43749,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#matronym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">matronyms</schema:alternateName>
         <preferred-name xml:lang="en">matronym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The name of someone&apos;s mother.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -42769,7 +43761,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#matronymic_surname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#matronym"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surname"/>
+        <schema:alternateName xml:lang="en">matronymic surnames</schema:alternateName>
         <preferred-name xml:lang="en">matronymic surname</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A surname formed from the name of one&apos;s mother.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">matrilineal surname</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">matriname</oboInOwl1:hasExactSynonym>
     </owl:Class>
@@ -43077,6 +44071,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#need"/>
         <schema:alternateName xml:lang="en">medical needs</schema:alternateName>
         <preferred-name xml:lang="en">medical need</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Necessary medical treatment or care needed to sustain quality of life or to keep one alive.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -43133,6 +44128,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#medical_scale">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scale"/>
+        <schema:alternateName xml:lang="en">medical scales</schema:alternateName>
         <preferred-name xml:lang="en">medical scale</preferred-name>
     </owl:Class>
     
@@ -43651,11 +44647,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#middle_class -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#middle_class">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Middle_class</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Middle_class</WIKIPEDIA>
+        <preferred-name xml:lang="en">middle class</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#middle_name -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#middle_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#full_name"/>
+        <schema:alternateName xml:lang="en">middle names</schema:alternateName>
         <preferred-name xml:lang="en">middle name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A name between the given name and the family name or surname.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -44114,15 +45123,6 @@
     
 
 
-    <!-- https://github.com/Superraptor/GSSO#moniker -->
-
-    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#moniker">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#nickname"/>
-        <preferred-name xml:lang="en">moniker</preferred-name>
-    </owl:Class>
-    
-
-
     <!-- https://github.com/Superraptor/GSSO#monogamous_marital_relationship -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#monogamous_marital_relationship">
@@ -44147,7 +45147,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#mononym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">mononyms</schema:alternateName>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#polynym"/>
         <preferred-name xml:lang="en">mononym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A single name by which a person, thing etc is known.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -45273,7 +46276,10 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#need">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conceptual_entity"/>
         <schema:alternateName xml:lang="en">needs</schema:alternateName>
+        <WIKIDATA>Q190258</WIKIDATA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Need</WIKIPEDIA>
         <preferred-name xml:lang="en">need</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A need is something that is necessary for an organism to live a healthy life. Needs are distinguished from wants in that, in the case of a need, a deficiency causes a clear adverse outcome: a dysfunction or death.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -45679,7 +46685,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nickname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">nicknames</schema:alternateName>
         <preferred-name xml:lang="en">nickname</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A familiar, invented given name for a person or thing used instead of the actual name of the person or thing.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasSynonym xml:lang="en">moniker</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -45760,6 +46769,18 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nitrogen_molecular_entity">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pnictogen_molecular_entity"/>
         <preferred-name xml:lang="en">nitrogen molecular entity</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#nobility -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#nobility">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#upper_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Nobility</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Nobility</WIKIPEDIA>
+        <preferred-name xml:lang="en">nobility</preferred-name>
     </owl:Class>
     
 
@@ -47209,6 +48230,8 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#orthonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">orthonyms</schema:alternateName>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
         <preferred-name xml:lang="en">orthonym</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">The real name of a person who uses a pseudonym.</oboInOwl1:hasDefinition>
     </owl:Class>
@@ -47500,8 +48523,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#paedonym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">paedonyms</schema:alternateName>
         <coined-by xml:lang="en">Edward Burnett Tylor</coined-by>
         <preferred-name xml:lang="en">paedonym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A name for an adult derived from that of a child, especially that of the eldest child.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">teknonym</oboInOwl1:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
@@ -48306,7 +49331,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#patronym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">patronyms</schema:alternateName>
         <preferred-name xml:lang="en">patronym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The name of someone&apos;s father.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -48316,7 +49343,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#patronymic_surname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#patronym"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#surname"/>
+        <schema:alternateName xml:lang="en">patronymic surnames</schema:alternateName>
         <preferred-name xml:lang="en">patronymic surname</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A surname formed from the name of one&apos;s father.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">patriname</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -48365,9 +49394,10 @@
     <!-- https://github.com/Superraptor/GSSO#pederasty -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pederasty">
-        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_sexual_orientation"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexuality"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#000977057"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#009670128"/>
+        <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#23216250"/>
         <terms:isReferencedBy rdf:resource="https://github.com/Superraptor/GSSO#9780028659602"/>
         <schema:alternateName xml:lang="en">paederasty</schema:alternateName>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pederasty</WIKIPEDIA>
@@ -48375,6 +49405,19 @@
         <different-from xml:lang="fr">pédérastie</different-from>
         <preferred-name xml:lang="en">pederasty</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">Socratic love</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#pederasty_in_ancient_Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pederasty_in_ancient_Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_male_history_in_Greece"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pederasty"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Greece"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Pederasty_in_ancient_Greece</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Pederasty_in_ancient_Greece</WIKIPEDIA>
+        <preferred-name xml:lang="en">pederasty in ancient Greece</preferred-name>
     </owl:Class>
     
 
@@ -48494,9 +49537,12 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pen_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">pen names</schema:alternateName>
+        <alternative-spelling xml:lang="en">pen-name</alternative-spelling>
         <alternative-spelling xml:lang="en">penname</alternative-spelling>
         <preferred-name xml:lang="fr">nom de plume</preferred-name>
         <preferred-name xml:lang="en">pen name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A fictitious name used by an author in place of their actual name.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -49124,7 +50170,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#pet_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#hypocorism"/>
+        <schema:alternateName xml:lang="en">pet names</schema:alternateName>
+        <rdfs:comment xml:lang="en">Note that some people particularly dislike pet names, as they may seem demeaning in some contexts.</rdfs:comment>
         <preferred-name xml:lang="en">pet name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A nickname (often replacing a person&apos;s first name) used to express fondness or familiarity (especially in romantic and/or sexual relationships).</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -49183,6 +50232,33 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#biological_sex"/>
         <PATO>PATO:0001894</PATO>
         <preferred-name xml:lang="en">phenotypic sex</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#philologist -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#philologist">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <schema:alternateName xml:lang="en">philologists</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Philologists</WIKIPEDIA>
+        <practices rdf:resource="https://github.com/Superraptor/GSSO#philology"/>
+        <preferred-name xml:lang="en">philologist</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#philology -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#philology">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#literature"/>
+        <MESH_TN>K01.517.732</MESH_TN>
+        <MESH_UID>D010680</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Philology</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Philology</WIKIPEDIA>
+        <practiced-by rdf:resource="https://github.com/Superraptor/GSSO#philologist"/>
+        <preferred-name xml:lang="en">philology</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The study of literature in its widest sense, including grammar, etymology, criticism, literary history, language history, linguistic history, systems of writing, and anything else that is relevant to literature or language viewed as literature. Philology as a discipline has both philosophical and scientific overtones.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -50248,7 +51324,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#polynym">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#anthroponym"/>
+        <schema:alternateName xml:lang="en">polynyms</schema:alternateName>
+        <antonym rdf:resource="https://github.com/Superraptor/GSSO#mononym"/>
         <preferred-name xml:lang="en">polynym</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A name consisting of multiple words.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -51800,6 +52879,17 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#psychosocial_status -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychosocial_status">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_status"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87996002</SCTID>
+        <preferred-name xml:lang="en">psychosocial status</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">psychosocial condition</oboInOwl1:hasSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#psychotic_disorder -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#psychotic_disorder">
@@ -52727,7 +53817,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#regnal_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">regnal names</schema:alternateName>
         <preferred-name xml:lang="en">regnal name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A name, which need not be the person&apos;s birth name, used by a monarch or pope during their reign.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -53414,7 +54506,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#ring_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">ring names</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Ring_name</WIKIPEDIA>
         <preferred-name xml:lang="en">ring name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A ring name is a name assumed for professional purposes by a professional wrestler, martial artist or boxer.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -53605,6 +54700,16 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#bondage"/>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Rope_bondage</WIKIPEDIA>
         <preferred-name xml:lang="en">rope bondage</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#royalty -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#royalty">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#person"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#upper_class"/>
+        <preferred-name xml:lang="en">royalty</preferred-name>
     </owl:Class>
     
 
@@ -53824,6 +54929,63 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#same-sex_sexuality_in_Asia -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_sexuality_in_Asia">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_Asia"/>
+        <derogatory-term xml:lang="en">Asian homosexuality</derogatory-term>
+        <derogatory-term xml:lang="en">homosexuality in Asia</derogatory-term>
+        <preferred-name xml:lang="en">same-sex sexuality in Asia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Egypt -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Egypt">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_ancient_Egypt"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homosexuality_in_ancient_Egypt</WIKIPEDIA>
+        <derogatory-term xml:lang="en">homosexuality in ancient Egypt</derogatory-term>
+        <preferred-name xml:lang="en">same-sex sexuality in ancient Egypt</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Greece -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Greece">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_ancient_Greece"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gay_history_in_Greece"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homosexuality_in_ancient_Greece</WIKIPEDIA>
+        <derogatory-term xml:lang="en">ancient Greek homosexuality</derogatory-term>
+        <derogatory-term xml:lang="en">homosexuality in ancient Greece</derogatory-term>
+        <preferred-name xml:lang="en">same-sex sexuality in ancient Greece</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Peru -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Peru">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_ancient_Peru"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homosexuality_in_ancient_Peru</WIKIPEDIA>
+        <derogatory-term xml:lang="en">homosexuality in ancient Peru</derogatory-term>
+        <preferred-name xml:lang="en">same-sex sexuality in ancient Peru</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Rome -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_sexuality_in_ancient_Rome">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#LGBT_in_ancient_Rome"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Homosexuality_in_ancient_Rome</WIKIPEDIA>
+        <derogatory-term xml:lang="en">homosexuality in ancient Rome</derogatory-term>
+        <preferred-name xml:lang="en">same-sex sexuality in ancient Rome</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#same-sex_wedding -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#same-sex_wedding">
@@ -53880,8 +55042,21 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#scale">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#conceptual_entity"/>
+        <schema:alternateName xml:lang="en">scales</schema:alternateName>
         <preferred-name xml:lang="en">scale</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">An ordered reference standard used to measure incremental changes.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#scale_of_sexual_orientation -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#scale_of_sexual_orientation">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#medical_scale"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#sexual_orientation"/>
+        <schema:alternateName xml:lang="en">scales of sexual orientation</schema:alternateName>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Scales_of_sexual_orientation</WIKIPEDIA>
+        <preferred-name xml:lang="en">scale of sexual orientation</preferred-name>
     </owl:Class>
     
 
@@ -54112,8 +55287,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#screen_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">screen names</schema:alternateName>
         <alternative-spelling xml:lang="en">screenname</alternative-spelling>
         <preferred-name xml:lang="en">screen name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A pseudonym used for internet communications.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -54437,7 +55614,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#semantic_meaning">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#meaning"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#semantics"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Meaning_(linguistics)#Semantic_meaning</WIKIPEDIA>
         <preferred-name xml:lang="en">semantic meaning</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Meaning which focuses on what the grammar and vocabulary of words denote, rather than what they might imply.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -55554,6 +56734,7 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#connotation"/>
         <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#sexual_suggestiveness"/>
         <preferred-name xml:lang="en">sexual connotation</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A meaning of a word or phrase that is suggested or implied to be sexual, as opposed its literal meaning, which may or may not be sexual in nature.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -57211,6 +58392,24 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#social_class -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_class">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <schema:alternateName xml:lang="en">social classes</schema:alternateName>
+        <MESH_TN>I01.880.853.996.755</MESH_TN>
+        <MESH_TN>N01.824.782</MESH_TN>
+        <MESH_UID>D012923</MESH_UID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Social_classes</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_class</WIKIPEDIA>
+        <preferred-name xml:lang="en">social class</preferred-name>
+        <shortened-term xml:lang="en">class</shortened-term>
+        <oboInOwl1:hasDefinition xml:lang="en">A stratum of people with similar position and prestige; includes social stratification. Social class is measured by criteria such as education, occupation, and income.</oboInOwl1:hasDefinition>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#socioeconomic_status"/>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#social_communication -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_communication">
@@ -57705,8 +58904,11 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#social_status">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#status"/>
+        <SCTID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82996008</SCTID>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Social_status</WIKIPEDIA>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Social_status</WIKIPEDIA>
         <preferred-name xml:lang="en">social status</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">social condition</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -57830,6 +59032,19 @@
         <preferred-name xml:lang="en">sociocultural evolution</preferred-name>
         <oboInOwl1:hasExactSynonym xml:lang="en">cultural evolution</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">sociocultural evolutionism</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#socioeconomic_status -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#socioeconomic_status">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_status"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Socioeconomic_status</WIKIPEDIA>
+        <acronym xml:lang="en">SES</acronym>
+        <alternative-spelling xml:lang="en">socio-economic status</alternative-spelling>
+        <preferred-name xml:lang="en">socioeconomic status</preferred-name>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#social_class"/>
     </owl:Class>
     
 
@@ -58481,7 +59696,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#stage_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">stage names</schema:alternateName>
+        <rdfs:comment xml:lang="en">Most often used by actors and musicians.</rdfs:comment>
         <preferred-name xml:lang="en">stage name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The pseudonym of an entertainer.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -58590,6 +59808,21 @@
         <NCIT>C25688</NCIT>
         <preferred-name xml:lang="en">status</preferred-name>
         <oboInOwl1:hasDefinition xml:lang="en">A condition or state at a particular time.</oboInOwl1:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#status_group -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#status_group">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_group"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_status"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Status_group</WIKIPEDIA>
+        <different-from rdf:resource="https://github.com/Superraptor/GSSO#social_class"/>
+        <preferred-name xml:lang="de">Stand</preferred-name>
+        <preferred-name xml:lang="en">status group</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">status class</oboInOwl1:hasSynonym>
+        <oboInOwl1:hasSynonym xml:lang="en">status estate</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -59313,7 +60546,9 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#surname">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#full_name"/>
+        <schema:alternateName xml:lang="en">surnames</schema:alternateName>
         <preferred-name xml:lang="en">surname</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">The name a person shares with other members of that person&apos;s family, distinguished from that person&apos;s given name or names; a family name.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">family name</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">last name</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">lastname</oboInOwl1:hasExactSynonym>
@@ -60577,6 +61812,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#training">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#educational_activity"/>
         <preferred-name xml:lang="en">training</preferred-name>
+        <oboInOwl1:hasRelatedSynonym rdf:resource="https://github.com/Superraptor/GSSO#education"/>
     </owl:Class>
     
 
@@ -62441,6 +63677,16 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#underclass -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#underclass">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Underclass</WIKIPEDIA>
+        <preferred-name xml:lang="en">underclass</preferred-name>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#underdressing -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#underdressing">
@@ -62562,6 +63808,7 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#unisex">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#gender_neutrality"/>
         <preferred-name xml:lang="en">unisex</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Designed to be suitable for any sex or gender; also not distinguished on the basis of sex or gender.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -62575,6 +63822,7 @@
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Unisex_clothing</WIKIPEDIA>
         <WIKIPEDIA xml:lang="es">https://es.wikipedia.org/wiki/Moda_unisex</WIKIPEDIA>
         <preferred-name xml:lang="en">unisex clothing</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Clothing designed to be suitable for any sex or gender.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">gender-neutral clothing</oboInOwl1:hasExactSynonym>
     </owl:Class>
     
@@ -62585,7 +63833,9 @@
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#unisex_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#given_name"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#unisex"/>
+        <schema:alternateName xml:lang="en">unisex names</schema:alternateName>
         <preferred-name xml:lang="en">unisex name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A given name which is not strongly associated with a particular gender.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasExactSynonym xml:lang="en">androgynous name</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasExactSynonym xml:lang="en">epicene name</oboInOwl1:hasExactSynonym>
         <oboInOwl1:hasRelatedSynonym xml:lang="en">gender-neutral name</oboInOwl1:hasRelatedSynonym>
@@ -62654,6 +63904,28 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#information_resource"/>
         <schema:alternateName xml:lang="en">unstructured knowledge resources</schema:alternateName>
         <preferred-name xml:lang="en">unstructured knowledge resource</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#upper_class -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#upper_class">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Upper_class</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Upper_class</WIKIPEDIA>
+        <preferred-name xml:lang="en">upper class</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#upper_middle_class -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#upper_middle_class">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#middle_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Upper_middle_class</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Upper_middle_class</WIKIPEDIA>
+        <preferred-name xml:lang="en">upper middle class</preferred-name>
     </owl:Class>
     
 
@@ -62917,8 +64189,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#user_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">user names</schema:alternateName>
         <alternative-spelling xml:lang="en">username</alternative-spelling>
         <preferred-name xml:lang="en">user name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">A person&apos;s identification on an individual computer system.</oboInOwl1:hasDefinition>
         <oboInOwl1:hasNarrowSynonym xml:lang="en">login name</oboInOwl1:hasNarrowSynonym>
     </owl:Class>
     
@@ -63821,8 +65095,10 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#war_name">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#pseudonym"/>
+        <schema:alternateName xml:lang="en">war names</schema:alternateName>
         <preferred-name xml:lang="fr">nom de guerre</preferred-name>
         <preferred-name xml:lang="en">war name</preferred-name>
+        <oboInOwl1:hasDefinition xml:lang="en">Pseudonyms used during wars.</oboInOwl1:hasDefinition>
     </owl:Class>
     
 
@@ -64284,6 +65560,18 @@
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#linguistic_property"/>
         <schema:alternateName xml:lang="en">word classes</schema:alternateName>
         <preferred-name xml:lang="en">word class</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#working_class -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#working_class">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#social_class"/>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Category:Working_class</WIKIPEDIA>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Working_class</WIKIPEDIA>
+        <preferred-name xml:lang="en">working class</preferred-name>
+        <oboInOwl1:hasSynonym xml:lang="en">labouring class</oboInOwl1:hasSynonym>
     </owl:Class>
     
 
@@ -65091,6 +66379,23 @@
         <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
         <terms:title xml:lang="en">Strange Loves: A Study in Sexual Abnormalities</terms:title>
         <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">003499372</HATHITRUST>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#0035-449X -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#0035-449X">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_journal"/>
+        <terms:publisher xml:lang="de">J.D. Sauerländers Verlag</terms:publisher>
+        <terms:title xml:lang="de">Rheinische Museum für Philologie</terms:title>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1832</schema:dateCreated>
+        <HATHITRUST rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">009786315</HATHITRUST>
+        <OCLC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">972812043</OCLC>
+        <WIKIPEDIA xml:lang="de">https://de.wikipedia.org/wiki/Rheinisches_Museum_f%C3%BCr_Philologie</WIKIPEDIA>
+        <acronym xml:lang="de">RhM</acronym>
+        <former-term xml:lang="de">Rheinisches Museum für Philologie, Geschichte und griechische Philosophie</former-term>
+        <print-isbn>0035-449X</print-isbn>
     </owl:Class>
     
 
@@ -69130,6 +70435,31 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#23216250 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#23216250">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#scholarly_article"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Erich_Bethe"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1907</terms:issued>
+        <terms:publisher xml:lang="de">J.D. Sauerländers Verlag</terms:publisher>
+        <terms:source rdf:resource="https://github.com/Superraptor/GSSO#0035-449X"/>
+        <terms:title xml:lang="de">Die dorische Knabenliebe: Ihre Ethik und ihre Idee</terms:title>
+        <terms:title xml:lang="en">The Doric Boy-Love: Its Ethics and Ideology</terms:title>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</schema:numberOfPages>
+        <schema:pageEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">475</schema:pageEnd>
+        <schema:pageStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">438</schema:pageStart>
+        <schema:url>https://www.jstor.org/stable/23216250</schema:url>
+        <schema:volumeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</schema:volumeNumber>
+        <JSTOR rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23216250</JSTOR>
+        <alternative-spelling xml:lang="de">DIE DORISCHE KNABENLIEBE: IHRE ETHIK UND IHRE IDEE</alternative-spelling>
+        <alternative-spelling xml:lang="de">Die dorische Knabenliebe, ihre Ethik und ihre Idee</alternative-spelling>
+        <oboInOwl1:hasExactSynonym xml:lang="en">Dorian Boy-Love: Its Ethic, Its Idea</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">The Dorian Love of Boys, Its Ethic, Its Idea</oboInOwl1:hasExactSynonym>
+        <oboInOwl1:hasExactSynonym xml:lang="en">The Doric pederasty: their ethics and their ideas</oboInOwl1:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#2328-9260 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#2328-9260">
@@ -70346,6 +71676,22 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9780226551951 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780226551951">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:publisher xml:lang="en">University of Chicago Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#homosexuality"/>
+        <terms:title xml:lang="en">Homosexualities</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:bookEdition>
+        <schema:datePublished>15 July 2002</schema:datePublished>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780226551951</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">507</schema:numberOfPages>
+        <GOOGLE_BOOKS>GfH6Nc8HHFwC</GOOGLE_BOOKS>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9780231074889 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780231074889">
@@ -70378,6 +71724,21 @@
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780252026270</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</schema:numberOfPages>
         <GOOGLE_BOOKS>CHiQwNyLLN0C</GOOGLE_BOOKS>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9780252067402 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780252067402">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator>William A. Percy</dc:creator>
+        <terms:publisher xml:lang="en">University of Illinois Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#pederasty_in_ancient_Greece"/>
+        <terms:title xml:lang="en">Pederasty and Pedagogy in Archaic Greece</terms:title>
+        <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</schema:datePublished>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</schema:numberOfPages>
+        <GOOGLE_BOOKS>TCvoj1efp8UC</GOOGLE_BOOKS>
     </owl:Class>
     
 
@@ -70780,6 +72141,23 @@
     
 
 
+    <!-- https://github.com/Superraptor/GSSO#9780815305484 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780815305484">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <terms:publisher xml:lang="en">Taylor &amp; Francis</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#same-sex_sexuality_in_Asia"/>
+        <terms:title xml:lang="en">Asian Homosexuality</terms:title>
+        <schema:datePublished>1 December 1992</schema:datePublished>
+        <schema:editor>Stephen Donaldson</schema:editor>
+        <schema:editor>Wayne R. Dynes</schema:editor>
+        <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9780815305484</schema:isbn>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">368</schema:numberOfPages>
+        <GOOGLE_BOOKS>UgKQ4KNDjsgC</GOOGLE_BOOKS>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Superraptor/GSSO#9780815319207 -->
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9780815319207">
@@ -71156,6 +72534,23 @@
         <schema:editor>Marilyn J. Coleman</schema:editor>
         <schema:isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781483370422</schema:isbn>
         <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2144</schema:numberOfPages>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Superraptor/GSSO#9781560230335 -->
+
+    <owl:Class rdf:about="https://github.com/Superraptor/GSSO#9781560230335">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#book"/>
+        <dc:creator rdf:resource="https://github.com/Superraptor/GSSO#Fritz_Klein"/>
+        <terms:publisher xml:lang="en">Haworth Press</terms:publisher>
+        <terms:subject rdf:resource="https://github.com/Superraptor/GSSO#bisexuality"/>
+        <terms:title xml:lang="en">The Bisexual Option</terms:title>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schema:bookEdition>
+        <schema:datePublished>9 October 1993</schema:datePublished>
+        <schema:numberOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</schema:numberOfPages>
+        <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/The_Bisexual_Option</WIKIPEDIA>
+        <print-isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9781560230335</print-isbn>
     </owl:Class>
     
 
@@ -71628,6 +73023,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Chevalier_d&apos;Éon">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#Freemason"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#cross-dresser"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#diplomat"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#soldier"/>
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#spy"/>
@@ -72415,6 +73811,7 @@
 
     <owl:Class rdf:about="https://github.com/Superraptor/GSSO#Women&apos;s_History_Month">
         <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#commemorative_month"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#women&apos;s_event"/>
         <rdfs:comment xml:lang="en">Celebrated during March in the United States, the United Kingdom, and Australia (in order to correspond with International Women&apos;s Day on 8 March). It is celebrated during October in Canada, corresponding with the celebration of Persons Day on 18 October.</rdfs:comment>
         <WIKIPEDIA xml:lang="en">https://en.wikipedia.org/wiki/Women%27s_History_Month</WIKIPEDIA>
         <preferred-name xml:lang="en">Women&apos;s History Month</preferred-name>
@@ -73477,6 +74874,33 @@
     
 
 
+    <!-- https://web.archive.org/web/20161218172630/https://www.livescience.com/13620-gay-caveman-story-overblown.html -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20161218172630/https://www.livescience.com/13620-gay-caveman-story-overblown.html">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#online_article"/>
+        <dc:creator>Stephanie Pappas</dc:creator>
+        <terms:publisher xml:lang="en">Purch Group, Inc.</terms:publisher>
+        <terms:title xml:lang="en">&apos;Gay Caveman&apos; Story Overblown, Archaeologists Say</terms:title>
+        <schema:WebSite xml:lang="en">Live Science</schema:WebSite>
+        <schema:datePosted>7 April 2011</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20161218172630/https://www.livescience.com/13620-gay-caveman-story-overblown.html</schema:url>
+    </owl:Class>
+    
+
+
+    <!-- https://web.archive.org/web/20170103165705/https://ancientbodies.wordpress.com/2011/04/07/gay-caveman-wrecking-a-perfectly-good-story -->
+
+    <owl:Class rdf:about="https://web.archive.org/web/20170103165705/https://ancientbodies.wordpress.com/2011/04/07/gay-caveman-wrecking-a-perfectly-good-story">
+        <rdfs:subClassOf rdf:resource="https://github.com/Superraptor/GSSO#blog_post"/>
+        <dc:creator>Rosemary A. Joyce</dc:creator>
+        <terms:title xml:lang="en">“Gay Caveman”: Wrecking a perfectly good story</terms:title>
+        <schema:WebSite xml:lang="en">Ancient Bodies, Ancient Lives</schema:WebSite>
+        <schema:datePosted>7 April 2011</schema:datePosted>
+        <schema:url>https://web.archive.org/web/20170103165705/https://ancientbodies.wordpress.com/2011/04/07/gay-caveman-wrecking-a-perfectly-good-story/</schema:url>
+    </owl:Class>
+    
+
+
     <!-- https://web.archive.org/web/20170118095220/http://www.genderpsychology.org:80/transsexual/hbsoc_1990.html -->
 
     <owl:Class rdf:about="https://web.archive.org/web/20170118095220/http://www.genderpsychology.org:80/transsexual/hbsoc_1990.html">
@@ -74283,9 +75707,12 @@
         <schema:alternateName xml:lang="en">euphemisms</schema:alternateName>
     </rdf:Description>
     <rdf:Description rdf:about="https://github.com/Superraptor/GSSO#pseudonym">
+        <schema:alternateName xml:lang="en">pseudonyms</schema:alternateName>
         <preferred-name xml:lang="en">pseudonym</preferred-name>
         <different-from rdf:resource="https://github.com/Superraptor/GSSO#heteronym"/>
         <oboInOwl1:hasSynonym xml:lang="en">alias</oboInOwl1:hasSynonym>
+        <rdfs:seeAlso rdf:resource="https://github.com/Superraptor/GSSO#orthonym"/>
+        <oboInOwl1:hasDefinition xml:lang="en">A fictitious name, as those used by writers and movie stars.</oboInOwl1:hasDefinition>
     </rdf:Description>
 </rdf:RDF>
 
