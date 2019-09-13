@@ -9,6 +9,7 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 * 1.0.1b (12 September 2019)
 * 1.0.1c (13 September 2019)
 * 1.0.1d (13 September 2019)
+* 1.0.1e (13 September 2019)
 
 ## Contributing
 
