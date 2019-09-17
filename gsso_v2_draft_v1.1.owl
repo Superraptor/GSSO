@@ -4018,6 +4018,28 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004895>
         <http://purl.bioontology.org/ontology/GSSO/000785>
     
     
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004896>
+
+    Annotations: 
+        obo:IAO_0000115 "The insertion of an object or objects into the anus as part of sexual behavior."@en,
+        rdfs:label "anal penetration by object"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/229021001"^^xsd:anyURI,
+        oboInOwl:hasSynonym "anal penetration using an object"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/000784>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004897>
+
+    Annotations: 
+        rdfs:label "sexual minority youth"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2004011606"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/001455>
+    
+    
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C100055>
 
     Annotations: 
@@ -4505,6 +4527,7 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16423>
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D002648"^^xsd:anyURI,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16423"^^xsd:anyURI,
         schema:alternateName "children"@en,
+        obo:IAO_0000115 "A person 6 to 12 years of age."@en,
         
             Annotations: schema:alternateName "daughters"@en, 
                          schema:gender <http://purl.bioontology.org/ontology/GSSO/000089>
@@ -4820,6 +4843,7 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17598>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17600>
 
     Annotations: 
+        obo:IAO_0000115 "A person having attained full growth or maturity. Adults are of 19 through 44 years of age."@en,
         schema:alternateName "adults"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000328"^^xsd:anyURI,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/133936004"^^xsd:anyURI,
@@ -5044,10 +5068,13 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20587>
     Annotations: 
         rdfs:label "age group"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/STY/T096>,
-        Property:P1149 "HM721",
+        obo:IAO_0000115 "Subgroups of populations based on age."@en,
         Property:P5191 <http://purl.org/sig/ont/fma/fma0328408>,
+        Property:P1149 "HM721",
         schema:alternateName "age groups"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20587"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D009273"^^xsd:anyURI,
+        obo:IAO_0000115 "Persons classified by age from birth (infant, newborn) to octogenarians and older (aged, 80 and over)."@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85002083"^^xsd:anyURI
     
     SubClassOf: 
@@ -5351,6 +5378,7 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27954>
 
     Annotations: 
         schema:alternateName "adolescents"@en,
+        obo:IAO_0000115 "A person 13 to 18 years of age."@en,
         rdfs:label "adolescent"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000293"^^xsd:anyURI,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/133937008"^^xsd:anyURI
@@ -6335,8 +6363,9 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90516>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91107>
 
     Annotations: 
-        rdfs:label "young adult"@en,
+        obo:IAO_0000115 "A person between 19 and 24 years of age."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D055815"^^xsd:anyURI,
+        rdfs:label "young adult"@en,
         schema:alternateName "young adults"@en
     
     SubClassOf: 
@@ -10884,16 +10913,16 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000419>
 Class: <http://purl.bioontology.org/ontology/GSSO/000420>
 
     Annotations: 
-        wiki:Q1823134 "QL761",
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2431958"^^xsd:anyURI,
         rdfs:label "animal sexual behavior"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Animal_sexual_behaviour"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85120721"^^xsd:anyURI,
         obo:IAO_0000115 "Sexual behavior, both reproductively and non-reproductively motivated, observed in members of the kingdom Animalia."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D012726"^^xsd:anyURI,
         schema:alternateName "animal sexual behaviors"@en,
         oboInOwl:hasSynonym "sexual behavior in animals"@en,
+        Property:P1149 "QL761",
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000413>,
-        Property:P1149 "http://id.loc.gov/authorities/subjects/sh85120721"^^xsd:anyURI,
         Property:P703 <http://purl.bioontology.org/ontology/STY/T008>,
         Property:P5191 <http://purl.bioontology.org/ontology/MESH/D001522>,
         oboInOwl:hasSynonym "animal sex behavior"@en
@@ -20671,14 +20700,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001249>
         
             Annotations: terms:source <https://catalog.hathitrust.org/Record/100470674>
         Property:P1683 "Bestiality: Sexual intercourse with all living animals except man."@en,
-        rdfs:label "zoophilic behavior"@en,
         
             Annotations: terms:isReferencedBy <https://catalog.hathitrust.org/Record/003517086>, 
                          oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q830532"^^xsd:anyURI, 
-                         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85013441", 
+                         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85013441"^^xsd:anyURI, 
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/81463002"^^xsd:anyURI, 
                          Property:P699 "http://purl.obolibrary.org/obo/DOID_9336"^^xsd:anyURI
         oboInOwl:hasSynonym "bestiality"@en,
+        rdfs:label "zoophilic behavior"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/001250>,
         obo:IAO_0000115 "Sexual relations between a person and an animal as the result of zoophilic interests."@en,
         Property:P5191 <http://purl.obolibrary.org/obo/GO_0007610>
@@ -22513,8 +22542,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001449>
             Annotations: terms:isReferencedBy <https://doi.org/10.5694/mja2.50259>, 
                          schema:alternateName "adult transgender individuals"@en
         oboInOwl:hasSynonym "adult transgender individual"@en,
+        
+            Annotations: schema:alternateName "transgendered adults"@en
+        terms:replaces "transgendered adult"@en,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0028>,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0014>,
+        obo:IAO_0000115 "An adult person who is transgender."@en,
         rdfs:label "transgender adult"@en,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0033>
     
@@ -22559,11 +22592,23 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001451>
 Class: <http://purl.bioontology.org/ontology/GSSO/001452>
 
     Annotations: 
+        Property:P1149 "HQ793-HQ799.9",
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Youth"^^xsd:anyURI,
+        obo:IAO_0000115 "The time of life between childhood and maturity. This period overlaps with adolescence."@en,
+        schema:alternateName "youths"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Youth"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "youngsters"@en
+        oboInOwl:hasRelatedSynonym "youngster"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/youth"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2014001310"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85149310"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "young people"@en, 
+                         schema:alternateName "young persons"@en
+        oboInOwl:hasRelatedSynonym "young person"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17471"^^xsd:anyURI,
         rdfs:label "youth"@en
     
@@ -22574,6 +22619,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001452>
 Class: <http://purl.bioontology.org/ontology/GSSO/001453>
 
     Annotations: 
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85085868"^^xsd:anyURI,
         rdfs:label "minority youth"@en
     
     SubClassOf: 
@@ -22636,10 +22682,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001457>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/lesbianYouth"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh95001078"^^xsd:anyURI,
         rdfs:label "lesbian youth"@en,
         oboInOwl:hasBroadSynonym "gay and lesbian youth"@en
     
     SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004897>,
         <http://purl.bioontology.org/ontology/GSSO/001456>
     
     
@@ -22647,13 +22695,16 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001458>
 
     Annotations: 
         rdfs:label "gay male youth"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh88007920"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/gayYouth"^^xsd:anyURI,
         Property:P1813 "gay youth"@en,
-        oboInOwl:hasBroadSynonym "gay and lesbian youth"@en
+        oboInOwl:hasBroadSynonym "gay and lesbian youth"@en,
+        Property:P1149 "HQ76.27.Y68"
     
     SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004897>,
         <http://purl.bioontology.org/ontology/GSSO/001456>
     
     
@@ -22663,9 +22714,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001459>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         dc:identifier "http://homosaurus.org/v2/bisexualYouth"^^xsd:anyURI,
-        rdfs:label "bisexual youth"@en
+        rdfs:label "bisexual youth"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh97003789"^^xsd:anyURI
     
     SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004897>,
         <http://purl.bioontology.org/ontology/GSSO/001456>
     
     
@@ -22675,17 +22728,22 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001460>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/transgenderYouth"^^xsd:anyURI,
+        Property:P1813 "trans youth"@en,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0011>,
+        terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0031>,
+        terms:isReferencedBy <https://doi.org/10.1089/trgh.2018.0002>,
+        
+            Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2001000392"^^xsd:anyURI
+        terms:replaces "transsexual youth"@en,
         rdfs:label "transgender youth"@en,
         terms:isReferencedBy <https://doi.org/10.1007/s11126-019-09653-0>,
         obo:IAO_0000115 "Transgender youth are children and adolescents who are transgender and/or transsexual. Because transgender youth are usually dependent on their parents for care, shelter, financial support, and other needs, and because most doctors are reluctant to provide medical treatments to them, transgender youth face different challenges compared to adults."@en,
-        terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0031>,
         terms:isReferencedBy <https://doi.org/10.1080/15265161.2019.1618949>,
-        terms:isReferencedBy <https://doi.org/10.1089/trgh.2018.0002>,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2007003739"^^xsd:anyURI,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0019>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Transgender_youth"^^xsd:anyURI,
-        terms:replaces "transsexual youth"@en,
-        terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0037>
+        terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0037>,
+        terms:replaces "transgendered youth"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001456>,
@@ -22695,6 +22753,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001460>
 Class: <http://purl.bioontology.org/ontology/GSSO/001461>
 
     Annotations: 
+        Property:P1813 "trans and GNC youth"@en,
         rdfs:label "transgender and gender nonconforming youth"@en
     
     SubClassOf: 
@@ -22761,6 +22820,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001466>
 Class: <http://purl.bioontology.org/ontology/GSSO/001467>
 
     Annotations: 
+        
+            Annotations: schema:alternateName "trans adolescents"@en
+        Property:P1813 "trans adolescent"@en,
         rdfs:label "transgender adolescent"@en,
         schema:alternateName "transgender adolescents"@en,
         terms:isReferencedBy <https://doi.org/10.1016/j.jadohealth.2019.03.009>,
@@ -22853,6 +22915,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001474>
     Annotations: 
         schema:alternateName "minority adults"@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17600>,
+        obo:IAO_0000115 "An adult person belonging to any of various minority groups."@en,
         rdfs:label "minority adult"@en
     
     SubClassOf: 
@@ -22863,7 +22926,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001475>
 
     Annotations: 
         rdfs:label "ethnic minority adult"@en,
-        schema:alternateName "ethnic minority adults"@en
+        schema:alternateName "ethnic minority adults"@en,
+        obo:IAO_0000115 "An adult person belonging to any of various ethnic minority groups."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001474>
@@ -22873,6 +22937,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001476>
 
     Annotations: 
         Property:P1813 "GSM adults"@en,
+        obo:IAO_0000115 "An adult person belonging to any of various gender and/or sexual minority groups."@en,
         rdfs:label "gender and sexual minority adults"@en
     
     SubClassOf: 
@@ -22882,6 +22947,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001476>
 Class: <http://purl.bioontology.org/ontology/GSSO/001477>
 
     Annotations: 
+        obo:IAO_0000115 "An adult person who is part of the LGBTQIA+ community or has an identity or identities considered LGBTQIA+."@en,
         rdfs:label "LGBTQ adults"@en,
         oboInOwl:hasBroadSynonym "LGBTQIA+ adults"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000586>,
@@ -22941,10 +23007,17 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001480>
 Class: <http://purl.bioontology.org/ontology/GSSO/001481>
 
     Annotations: 
+        
+            Annotations: schema:alternateName "transgendered young adults"@en
+        terms:replaces "transgendered young adult"@en,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2018.0002>,
         schema:alternateName "transgender young adults"@en,
+        obo:IAO_0000115 "A young adult who is transgender."@en,
         rdfs:label "transgender young adult"@en,
-        terms:isReferencedBy <https://doi.org/10.1016/j.adaj.2019.03.025>
+        terms:isReferencedBy <https://doi.org/10.1016/j.adaj.2019.03.025>,
+        
+            Annotations: schema:alternateName "trans young adults"@en
+        Property:P1813 "trans young adult"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001449>,
@@ -22959,6 +23032,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001482>
         oboInOwl:hasRelatedSynonym "transgender male adult"@en,
         schema:alternateName "transmasculine adults"@en,
         rdfs:label "transmasculine adult"@en,
+        obo:IAO_0000115 "An adult person who is transmasculine, usually a transgender man."@en,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2018.0017>
     
     SubClassOf: 
@@ -27050,6 +27124,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001782>
 Class: <http://purl.bioontology.org/ontology/GSSO/001783>
 
     Annotations: 
+        obo:IAO_0000115 "A young adult who is part of the LGBTQIA+ community or has an identity or identities considered LGBTQIA+."@en,
         oboInOwl:hasSynonym "young LGBTQ adults"@en,
         rdfs:label "LGBTQ young adults"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000586>,
@@ -29480,6 +29555,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001955>
 Class: <http://purl.bioontology.org/ontology/GSSO/001960>
 
     Annotations: 
+        obo:IAO_0000115 "A child whose parents are in a heterosexual relationship or who are of different sexes and married to one another."@en,
         schema:alternateName "children of heterosexual parents"@en,
         rdfs:label "child of heterosexual parents"@en,
         
@@ -29499,6 +29575,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001961>
             Annotations: schema:alternateName "children of gays"@en, 
                          Property:P1813 "COG"@en
         Property:P1813 "child of gays"@en,
+        obo:IAO_0000115 "A child whose parents are in a gay relationship or who are of the same sex and married to one another."@en,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001956>,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001957>,
         
@@ -29519,6 +29596,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001962>
         rdfs:label "foster child"@en,
         oboInOwl:hasNarrowSynonym "foster son"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/39062003"^^xsd:anyURI,
+        obo:IAO_0000115 "Individual who is unable to live safely with his or her family, usually due to abuse or neglect in the family home."@en,
         oboInOwl:hasNarrowSynonym "foster daughter"@en,
         schema:alternateName "foster children"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000073921"^^xsd:anyURI
@@ -29534,6 +29612,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001963>
         schema:alternateName "legal children"@en,
         rdfs:label "legal child"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/14469008"^^xsd:anyURI,
+        obo:IAO_0000115 "A child legally belonging to particular parents who may or may not be biological parents."@en,
         oboInOwl:hasNarrowSynonym "legal son"@en
     
     SubClassOf: 
@@ -29547,6 +29626,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001964>
         schema:alternateName "adopted children"@en,
         oboInOwl:hasNarrowSynonym "adopted daughter"@en,
         rdfs:label "adopted child"@en,
+        obo:IAO_0000115 "Individual who becomes a child of a family by means of legal action."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000073922"^^xsd:anyURI,
         oboInOwl:hasNarrowSynonym "adopted son"@en
     
@@ -29558,6 +29638,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001965>
 
     Annotations: 
         oboInOwl:hasNarrowSynonym "biological son"@en,
+        obo:IAO_0000115 "A child born to their parents, being genetically related to them and/or birthed by them."@en,
         schema:alternateName "biological children"@en,
         oboInOwl:hasNarrowSynonym "biological daughter"@en,
         rdfs:label "biological child"@en
@@ -29571,6 +29652,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001966>
     Annotations: 
         rdfs:label "surrogate child"@en,
         schema:alternateName "surrogate children"@en,
+        obo:IAO_0000115 "A child born to someone via the process of surrogacy."@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/22387007"^^xsd:anyURI,
         
             Annotations: schema:alternateName "surrogate sons"@en, 
@@ -29588,9 +29670,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001966>
 Class: <http://purl.bioontology.org/ontology/GSSO/001967>
 
     Annotations: 
-        oboInOwl:hasExactSynonym "step child"@en,
         schema:alternateName "stepchildren"@en,
+        
+            Annotations: schema:alternateName "step children"@en
+        oboInOwl:hasExactSynonym "step child"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/86764008"^^xsd:anyURI,
+        obo:IAO_0000115 "The offspring of one's spouse, but not one's own offspring, neither biological nor through adoption."@en,
         
             Annotations: Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/8674003"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "stepson"@en,
@@ -29998,6 +30083,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001994>
 Class: <http://purl.bioontology.org/ontology/GSSO/001995>
 
     Annotations: 
+        obo:IAO_0000115 "An adult person who is transfeminine, usually a transgender woman."@en,
         rdfs:label "transfeminine adult"@en,
         
             Annotations: schema:alternateName "transgender female adults"@en
@@ -32239,6 +32325,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002199>
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3254959"^^xsd:anyURI,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85110232"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Race_(human_categorization)"^^xsd:anyURI,
+        obo:IAO_0000115 "Race is a characteristic of an individual defined by some culturally-defined combination of heritable phenotypic characteristics, geographic ancestry, physical appearance, ethnicity, and social status."@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/103579009"^^xsd:anyURI,
         schema:alternateName "races"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17049"^^xsd:anyURI,
@@ -40863,8 +40950,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003139>
 
     Annotations: 
         rdfs:label "public law"@en,
-        oboInOwl:hasDbXref "http://id.loc.gov/authorities/subjects/sh85108696"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Public_law"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Public_law"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85108696"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003136>
@@ -48006,7 +48093,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003764>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Goth_subculture"^^xsd:anyURI,
         oboInOwl:hasSynonym "gothic culture"@en,
         
-            Annotations: oboInOwl:hasDbXref "http://id.loc.gov/authorities/subjects/sh00002006"^^xsd:anyURI
+            Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh00002006"^^xsd:anyURI
         oboInOwl:hasSynonym "goth culture"@en,
         schema:alternateName "https://en.wikipedia.org/wiki/Goth_subculture"^^xsd:anyURI,
         rdfs:label "goth subculture"@en
@@ -48296,6 +48383,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003798>
 
     Annotations: 
         rdfs:label "occupational group"@en,
+        obo:IAO_0000115 "Members of the various professions (e.g., physicians) or occupations (e.g., police)."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71549"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D009274"^^xsd:anyURI,
         schema:alternateName "occupational groups"@en
     
@@ -55155,7 +55244,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004510>
 Class: <http://purl.bioontology.org/ontology/GSSO/004511>
 
     Annotations: 
-        rdfs:label "minority child"@en
+        obo:IAO_0000115 "A childhood-aged person belonging to any of various minority groups."@en,
+        rdfs:label "minority child"@en,
+        schema:alternateName "minority children"@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16423>
@@ -55164,6 +55255,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004511>
 Class: <http://purl.bioontology.org/ontology/GSSO/004512>
 
     Annotations: 
+        schema:alternateName "ethnic minority children"@en,
+        obo:IAO_0000115 "An childhood-aged person belonging to any of various ethnic minority groups."@en,
         rdfs:label "ethnic minority child"@en
     
     SubClassOf: 
@@ -55173,7 +55266,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004512>
 Class: <http://purl.bioontology.org/ontology/GSSO/004513>
 
     Annotations: 
-        rdfs:label "gender nonconforming youth"@en
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2018000095"^^xsd:anyURI,
+        oboInOwl:hasExactSynonym "gender-nonconforming youth"@en,
+        rdfs:label "gender nonconforming youth"@en,
+        Property:P1813 "GNC youth"@en,
+        oboInOwl:hasExactSynonym "gender non-conforming youth"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001461>
@@ -58067,8 +58164,9 @@ Class: <http://purl.bioontology.org/ontology/MESH/D007223>
 
     Annotations: 
         rdfs:label "infant"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D007223"^^xsd:anyURI,
         schema:alternateName "infants"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D007223"^^xsd:anyURI
+        obo:IAO_0000115 "A child between 1 and 23 months of age."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20587>
