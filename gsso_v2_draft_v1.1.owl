@@ -3305,10 +3305,21 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004847>
     Annotations: 
         rdfs:label "breast hypertrophy"@en,
         Property:P699 "http://purl.obolibrary.org/obo/DOID_10688"^^xsd:anyURI,
+        oboInOwl:hasNarrowSynonym "gestational breast hypertrophy"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3125"^^xsd:anyURI,
-        oboInOwl:hasSynonym "hypertrophy of breast"@en,
+        obo:IAO_0000115 "Excessive enlargement of one or both breasts. Causes include pregnancy, obesity, and penicillamine therapy. It may result in neck, back, and shoulder pain."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Breast_hypertrophy"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q924002"^^xsd:anyURI,
+        obo:IAO_0000115 "A rare medical condition of the breast connective tissues in which the breasts become excessively large."@en,
+        
+            Annotations: oboInOwl:hasNarrowSynonym "hypertrophy of breast, NOS"@en
+        oboInOwl:hasSynonym "hypertrophy of breast"@en,
+        oboInOwl:hasNarrowSynonym "breast hypertrophy in infancy"@en,
+        
+            Annotations: oboInOwl:hasNarrowSynonym "familial juvenile hypertrophy of the breast"@en, 
+                         oboInOwl:hasSynonym "juvenile hypertrophy of the breast"@en, 
+                         oboInOwl:hasSynonym "virginal mammary hypertrophy"@en
+        oboInOwl:hasNarrowSynonym "virginal breast hypertrophy"@en,
         Property:P3841 "http://purl.obolibrary.org/obo/HP_0010313"^^xsd:anyURI
     
     SubClassOf: 
@@ -3955,6 +3966,56 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004891>
     
     SubClassOf: 
         <http://bioportal.bioontology.org/ontology/GSSO/004890>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004892>
+
+    Annotations: 
+        obo:IAO_0000115 "Breast hypertrophy in which excessive tissue weighs less than 1.5 kilograms (3.3 lbs.)."@en,
+        oboInOwl:hasNarrowSynonym "juvenile macromastia"@en,
+        Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10064841"^^xsd:anyURI,
+        rdfs:label "macromastia"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/C536821"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004847>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004893>
+
+    Annotations: 
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/372285001"^^xsd:anyURI,
+        oboInOwl:hasNarrowSynonym "juvenile gigantomastia"@en,
+        rdfs:label "gigantomastia"@en,
+        obo:IAO_0000115 "Breast hypertrophy in which excessive tissue weighs greater than than 1.5 kilograms (3.3 lbs.)."@en,
+        oboInOwl:hasNarrowSynonym "gigantomastia in infancy"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/C536821"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004847>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004894>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sex_position#Multiple_penetration"^^xsd:anyURI,
+        rdfs:label "multiple penetration"@en,
+        obo:IAO_0000115 "Sexual behavior during which a person is sexually penetrated multiple times concurrently."@en,
+        oboInOwl:hasNarrowSynonym "double penetration"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/000783>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004895>
+
+    Annotations: 
+        obo:IAO_0000115 "Penetration of the vagina with two anatomical parts (typically penises) or objects."@en,
+        rdfs:label "double vaginal penetration"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004894>,
+        <http://purl.bioontology.org/ontology/GSSO/000785>
     
     
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C100055>
@@ -5881,10 +5942,14 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51776>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51977>
 
     Annotations: 
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D030881"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "disclosed"@en,
+        oboInOwl:hasRelatedSynonym "disclose"@en,
         rdfs:label "disclosure"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D030881"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "disclosing"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51977"^^xsd:anyURI,
         obo:IAO_0000115 "The making known of a fact that had previously been hidden; release of information."@en,
+        oboInOwl:hasRelatedSynonym "discloses"@en,
         obo:IAO_0000115 "Revealing of information, by oral or written communication."@en
     
     SubClassOf: 
@@ -6034,7 +6099,10 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64914>
     Annotations: 
         obo:IAO_0000115 "Shift the position or location of; take out of."@en,
         rdfs:label "removal"@en,
+        oboInOwl:hasRelatedSynonym "removed"@en,
+        oboInOwl:hasRelatedSynonym "removing"@en,
         oboInOwl:hasRelatedSynonym "remove"@en,
+        oboInOwl:hasRelatedSynonym "removes"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64914"^^xsd:anyURI
     
     SubClassOf: 
@@ -6097,7 +6165,10 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73432>
 
     Annotations: 
         rdfs:label "enlargement"@en,
-        Property:P486 "The act of increasing (something) in size or volume or quantity or scope."@en,
+        oboInOwl:hasRelatedSynonym "enlarges"@en,
+        oboInOwl:hasRelatedSynonym "enlarge"@en,
+        oboInOwl:hasRelatedSynonym "enlarging"@en,
+        obo:IAO_0000115 "The act of increasing (something) in size or volume or quantity or scope."@en,
         schema:alternateName "enlargements"@en
     
     SubClassOf: 
@@ -6227,8 +6298,12 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84361>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84377>
 
     Annotations: 
+        oboInOwl:hasRelatedSynonym "develop"@en,
         obo:IAO_0000115 "The act of improving by expanding or enlarging or refining."@en,
-        rdfs:label "development"@en
+        rdfs:label "development"@en,
+        oboInOwl:hasRelatedSynonym "developed"@en,
+        oboInOwl:hasRelatedSynonym "develops"@en,
+        oboInOwl:hasRelatedSynonym "developing"@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25404>
@@ -15296,9 +15371,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000783>
 Class: <http://purl.bioontology.org/ontology/GSSO/000784>
 
     Annotations: 
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/2145000"^^xsd:anyURI,
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000762>,
-        rdfs:label "anal penetration"@en,
-        obo:IAO_0000115 "The insertion of a body part or other object into the anus as part of sexual behavior."@en
+        obo:IAO_0000115 "The insertion of a body part or other object into the anus as part of sexual behavior."@en,
+        rdfs:label "anal penetration"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000783>
@@ -15690,6 +15766,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000814>
 Class: <http://purl.bioontology.org/ontology/GSSO/000815>
 
     Annotations: 
+        oboInOwl:hasNarrowSynonym "The insertion of a finger or fingers into an orifice (for example, the vagina or anus) as part of sexual behavior."@en,
         rdfs:label "digital penetration"@en
     
     SubClassOf: 
@@ -15700,7 +15777,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000816>
 
     Annotations: 
         rdfs:label "anal penetration by finger"@en,
+        obo:IAO_0000115 "The insertion of a finger or fingers into the anus as part of sexual behavior."@en,
         oboInOwl:hasSynonym "digital anal penetration"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/285110007"^^xsd:anyURI,
         oboInOwl:hasSynonym "anal penetration using finger"@en
     
     SubClassOf: 
@@ -19461,6 +19540,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001151>
     Annotations: 
         rdfs:label "sexual minority man"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2014001993"^^xsd:anyURI,
+        Property:P1813 "SMM"@en,
         schema:alternateName "sexual minority men"@en
     
     SubClassOf: 
@@ -19709,7 +19789,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001170>
 
     Annotations: 
         oboInOwl:hasSynonym "anal penetration using tongue"@en,
-        rdfs:label "anal penetration by tongue"@en
+        obo:IAO_0000115 "The insertion of a tongue into the anus as part of sexual behavior."@en,
+        rdfs:label "anal penetration by tongue"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/229020000"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000784>,
@@ -19719,8 +19801,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001170>
 Class: <http://purl.bioontology.org/ontology/GSSO/001171>
 
     Annotations: 
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/229018003"^^xsd:anyURI,
         oboInOwl:hasSynonym "anal penetration using penis"@en,
-        rdfs:label "anal penetration by penis"@en
+        rdfs:label "anal penetration by penis"@en,
+        obo:IAO_0000115 "The insertion of a penis into the anus as part of sexual behavior."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000784>
@@ -19731,6 +19815,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001172>
     Annotations: 
         rdfs:label "vaginal penetration by finger"@en,
         oboInOwl:hasSynonym "digital vaginal penetration"@en,
+        obo:IAO_0000115 "The insertion of a finger or fingers into the vagina as part of sexual behavior."@en,
         oboInOwl:hasSynonym "vaginal penetration using finger"@en
     
     SubClassOf: 
@@ -19742,6 +19827,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001173>
 
     Annotations: 
         oboInOwl:hasSynonym "vaginal penetration using tongue"@en,
+        obo:IAO_0000115 "The insertion of a tongue into the vagina as part of sexual behavior."@en,
         rdfs:label "vaginal penetration by tongue"@en
     
     SubClassOf: 
@@ -19753,6 +19839,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001174>
 
     Annotations: 
         rdfs:label "immissio penis in anum"@la,
+        obo:IAO_0000115 "The first moment of initial entry of the erect penis into the anus."@en,
         oboInOwl:hasExactSynonym "immissio penis in anuum"@la,
         rdfs:label "anal intromission"@en
     
@@ -22261,10 +22348,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001383>
 Class: <http://purl.bioontology.org/ontology/GSSO/001384>
 
     Annotations: 
+        obo:IAO_0000115 "Penetration of the anus with two anatomical parts (typically penises) or objects."@en,
+        Property:P1813 "DAP"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q62016427"^^xsd:anyURI,
         rdfs:label "double anal penetration"@en
     
     SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004894>,
         <http://purl.bioontology.org/ontology/GSSO/000784>
     
     
@@ -23883,10 +23973,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001555>
         oboInOwl:hasBroadSynonym "prominent clitoris"@en,
         Property:P5191 <http://purl.org/sig/ont/fma/fma9909>,
         Property:P3841 "http://purl.obolibrary.org/obo/HP_0008665"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1774784"^^xsd:anyURI,
         oboInOwl:hasSynonym "macroclitoris"@en,
         oboInOwl:hasBroadSynonym "clitoral enlargement"@en,
         oboInOwl:hasSynonym "hypertrophy of clitoris"@en,
         Property:P4229 "N90.8",
+        obo:IAO_0000115 "An abnormal enlargement of the clitoris that is mostly congenital or acquired, though deliberately induced clitoris enlargement as a form of female genital body modification is achieved through various uses of anabolic steroids, including testosterone."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Clitoromegaly"^^xsd:anyURI,
         Property:P927 <http://purl.org/sig/ont/fma/fma9909>
     
@@ -25791,7 +25883,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001675>
 Class: <http://purl.bioontology.org/ontology/GSSO/001676>
 
     Annotations: 
+        obo:IAO_0000115 "A growth or enlargement of some part of an organism's morphology."@en,
         Property:P1813 "enlargement"@en,
+        schema:alternateName "morphological enlargements"@en,
         rdfs:label "morphological enlargement"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/442021009"^^xsd:anyURI
     
@@ -25803,6 +25897,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001677>
 
     Annotations: 
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/441880008"^^xsd:anyURI,
+        obo:IAO_0000115 "Morphological enlargement present at birth."@en,
         rdfs:label "congenital enlargement"@en
     
     SubClassOf: 
@@ -25812,6 +25907,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001677>
 Class: <http://purl.bioontology.org/ontology/GSSO/001678>
 
     Annotations: 
+        obo:IAO_0000115 "Morphological enlargement acquired after birth."@en,
         rdfs:label "acquired enlargement"@en
     
     SubClassOf: 
@@ -25821,8 +25917,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001678>
 Class: <http://purl.bioontology.org/ontology/GSSO/001679>
 
     Annotations: 
+        oboInOwl:hasSynonym "penile enlargement"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Penis_enlargement"^^xsd:anyURI,
-        rdfs:label "penis enlargement"@en
+        oboInOwl:hasRelatedSynonym "male enhancement"@en,
+        rdfs:label "penis enlargement"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q620958"^^xsd:anyURI,
+        obo:IAO_0000115 "Any technique aimed to increase the size of a human penis."@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2007006547"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001678>
@@ -26983,7 +27084,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001785>
     Annotations: 
         rdfs:label "health service"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D006296"^^xsd:anyURI,
-        schema:alternateName "health services"@en
+        schema:alternateName "health services"@en,
+        obo:IAO_0000115 "Services for the diagnosis and treatment of disease and the maintenance of health."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47920>
@@ -26996,9 +27098,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001786>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/prep"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Pre-exposure_prophylaxis"^^xsd:anyURI,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Pre-exposure_prophylaxis"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7239230"^^xsd:anyURI,
         Property:P1813 "PrEP"@en,
+        rdfs:comment "Note that this term typically, but not always, refers to the specific use of antiviral drugs as a strategy for HIV/AIDS prevention."@en,
+        obo:IAO_0000115 "The use of drugs to prevent disease in people who have not yet been exposed to a disease-causing agent, usually a virus."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D065129"^^xsd:anyURI
     
     SubClassOf: 
@@ -27008,6 +27113,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001786>
 Class: <http://purl.bioontology.org/ontology/GSSO/001787>
 
     Annotations: 
+        obo:IAO_0000115 "One of a number of HIV prevention strategies for people who are HIV negative but who also have higher-than-average risk of contracting HIV, including sexually active adults at increased risk of HIV (e.g. men who have sex with men), people who engage in injection drug use (see drug injection), and serodiscordant sexually active couples.["@en,
         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10073527"^^xsd:anyURI,
         oboInOwl:hasSynonym "AIDS pre-exposure prophylaxis"@en,
         Property:P1813 "pre-exposure prophylaxis"@en,
@@ -37394,8 +37500,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002892>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Personal_development"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Personal_development"^^xsd:anyURI,
         rdfs:label "personal development"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Personal_development"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q10998095"^^xsd:anyURI,
+        obo:IAO_0000115 "A process in which persons improve their awareness and identity, evelop talents and potential, build human capital and facilitate employability, enhance the quality of life and contribute to the realization of dreams and aspirations. Personal development takes place over the course of a person's entire life."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84377>
@@ -37406,7 +37514,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002893>
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Career_development"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Career_development"^^xsd:anyURI,
-        rdfs:label "career development"@en
+        rdfs:label "career development"@en,
+        obo:IAO_0000115 "The lifelong process of managing learning, work, leisure, and transitions in order to move toward a personally determined and evolving preferred future."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5038939"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002892>
@@ -37415,7 +37525,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002893>
 Class: <http://purl.bioontology.org/ontology/GSSO/002894>
 
     Annotations: 
-        rdfs:label "career advancement"@en
+        rdfs:label "career advancement"@en,
+        obo:IAO_0000115 "Progression upward over the course of an individual's career."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002893>
@@ -37427,6 +37538,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002895>
         schema:alternateName "career plateaus"@en,
         rdfs:label "career plateau"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85020257"^^xsd:anyURI,
+        obo:IAO_0000115 "A situation in which a person has reached the highest level of their career possible."@en,
         Property:P1149 "HF5384.5"
     
     SubClassOf: 
@@ -37436,9 +37548,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002895>
 Class: <http://purl.bioontology.org/ontology/GSSO/002896>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1048886"^^xsd:anyURI,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2006004750"^^xsd:anyURI,
         rdfs:label "glass ceiling"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Glass_ceiling"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Glass_ceiling"^^xsd:anyURI,
+        obo:IAO_0000115 "A metaphor used to represent an invisible barrier that keeps a given demographic (typically applied to minorities) from rising beyond a certain level in a hierarchy. The metaphor was first coined by feminists in reference to barriers in the careers of high-achieving women."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002895>
@@ -37448,6 +37562,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002897>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bamboo_ceiling"^^xsd:anyURI,
+        
+            Annotations: dc:date 2005
+        Property:P3938 "Jane Hyun",
+        obo:IAO_0000115 "A metaphor used to describe the combination of individual, cultural, and organizational factors that impede Asian Americans' career progress inside organizations."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q4853417"^^xsd:anyURI,
         rdfs:label "bamboo ceiling"@en
     
     SubClassOf: 
@@ -37457,7 +37576,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002897>
 Class: <http://purl.bioontology.org/ontology/GSSO/002898>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5058387"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Celluloid_ceiling"^^xsd:anyURI,
+        obo:IAO_0000115 "A metaphor for the underrepresentation of women in hiring and employment in Hollywood. The term reflects the metaphor of the \"glass ceiling,\" which describes an invisible barrier that keeps a given demographic (typically women, although the term can apply to any protected group) from rising beyond a certain level in a hierarchy."@en,
         rdfs:label "celluloid ceiling"@en
     
     SubClassOf: 
@@ -38547,6 +38668,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002993>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Domestic_violence"^^xsd:anyURI,
+        obo:IAO_0000115 "Violence or other abuse by one person against another in a domestic setting, such as in marriage or cohabitation."@en,
         oboInOwl:hasRelatedSynonym "intrafamily violence"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Domestic_violence"^^xsd:anyURI,
         rdfs:label "domestic violence"@en,
@@ -38572,22 +38694,24 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002993>
 Class: <http://purl.bioontology.org/ontology/GSSO/002994>
 
     Annotations: 
+        oboInOwl:hasSynonym "abuse of children"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Child_abuse"^^xsd:anyURI,
+        terms:replaces "child cruelty"@en,
+        Property:P1149 "RC569.5.C55",
+        
+            Annotations: oboInOwl:hasSynonym "maltreatment of children"@en
+        oboInOwl:hasBroadSynonym "child maltreatment"@en,
+        rdfs:label "child abuse"@en,
+        obo:IAO_0000115 "Physical, sexual, and/or psychological maltreatment or neglect of a child or children, especially by a parent or a caregiver. Child abuse may include any act or failure to act by a parent or a caregiver that results in actual or potential harm to a child, and can occur in a child's home, or in the organizations, schools or communities the child interacts with."@en,
         terms:replaces "cruelty to children"@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Violence_against_children"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "violence against children"@en,
-        oboInOwl:hasSynonym "abuse of children"@en,
-        Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10008509"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Child_abuse"^^xsd:anyURI,
+        Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10008509"^^xsd:anyURI,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85023348"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Child_abuse"^^xsd:anyURI,
-        Property:P1149 "HV6626.5-HV6626.54",
-        terms:replaces "child cruelty"@en,
-        
-            Annotations: oboInOwl:hasSynonym "maltreatment of children"@en
-        oboInOwl:hasBroadSynonym "child maltreatment"@en,
-        Property:P1149 "RC569.5.C55",
-        rdfs:label "child abuse"@en
+        rdfs:comment "The terms child abuse and child maltreatment are often used interchangeably, although some researchers make a distinction between them, treating child maltreatment as an umbrella term to cover neglect, exploitation, and trafficking."@en,
+        Property:P1149 "HV6626.5-HV6626.54"
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002993>
@@ -38612,6 +38736,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002995>
                          oboInOwl:hasSynonym "abuse of same-sex partner"@en, 
                          wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2005020201"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "same-sex partner abuse"@en,
+        obo:IAO_0000115 "Domestic violence by a current or former spouse or partner in an intimate relationship against the other spouse or partner."@en,
         oboInOwl:hasNarrowSynonym "different-sex partner abuse"@en,
         oboInOwl:hasSynonym "partner violence"@en,
         
@@ -38626,6 +38751,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002995>
 Class: <http://purl.bioontology.org/ontology/GSSO/002996>
 
     Annotations: 
+        obo:IAO_0000115 "The perpetration or threat of an act of violence by at least one member of an married couple on the other member in the context of marriage."@en,
         Property:P1149 "HV6626-HV6626.23",
         rdfs:label "marital abuse"@en,
         
@@ -38662,6 +38788,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002996>
 Class: <http://purl.bioontology.org/ontology/GSSO/002997>
 
     Annotations: 
+        obo:IAO_0000115 "The perpetration or threat of an act of violence by at least one member of an unmarried couple on the other member in the context of dating or courtship. It also arises when one partner tries to maintain power and control over the other through abuse or violence, for example when a relationship has broken down. This abuse or violence can take a number of forms, such as sexual assault, sexual harassment, threats, physical violence, verbal, mental, or emotional abuse, social sabotage, and stalking. In extreme cases it may manifest in date rape. It can include psychological abuse, emotional blackmail, sexual abuse, physical abuse and psychological manipulation."@en,
         
             Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh89000056"^^xsd:anyURI
         oboInOwl:hasSynonym "dating violence"@en,
@@ -38677,12 +38804,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002998>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "aged abuse"@en,
+        obo:IAO_0000115 "A single, or repeated act, or lack of appropriate action, occurring within any relationship where there is an expectation of trust, which causes harm or distress to an older person."@en,
         rdfs:label "elder abuse"@en,
         oboInOwl:hasSynonym "abuse of the elderly"@en,
         oboInOwl:hasBroadSynonym "elder maltreatment"@en,
-        Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10014347"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D004552"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Elder_abuse"^^xsd:anyURI
+        Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10014347"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Elder_abuse"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q427883"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002993>
@@ -38693,6 +38822,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002999>
     Annotations: 
         oboInOwl:hasRelatedSynonym "teenage dating violence"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Teen_dating_violence"^^xsd:anyURI,
+        obo:IAO_0000115 "The physical, sexual, or psychological/emotional abuse (or violence) within a dating relationship among adolescents."@en,
         oboInOwl:hasRelatedSynonym "adolescent dating violence"@en,
         rdfs:label "teenage dating abuse"@en,
         oboInOwl:hasRelatedSynonym "teen dating violence"@en,
@@ -38705,22 +38835,25 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002999>
 Class: <http://purl.bioontology.org/ontology/GSSO/003000>
 
     Annotations: 
-        rdfs:label "child sexual abuse"@en,
-        Property:P1149 "RA1141.5",
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85023376"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Child_sexual_abuse"^^xsd:anyURI,
-        Property:P1149 "RC560.C46",
         
             Annotations: oboInOwl:hasRelatedSynonym "child molesting"@en, 
                          oboInOwl:hasRelatedSynonym "molestation of children"@en, 
                          oboInOwl:hasRelatedSynonym "molesting of children"@en
         terms:replaces "child molestation"@en,
+        obo:IAO_0000115 "A form of child abuse in which an adult or older adolescent abuses a child for sexual stimulation. Sexual abuse refers to the participation of a child in a sexual act aimed toward the physical gratification or the financial profit of the person committing the act. Forms of child sexual abuse include asking or pressuring a child to engage in sexual activities (regardless of the outcome), indecent exposure of the genitals to a child, displaying pornography to a child, actual sexual contact with a child, physical contact with the child's genitals, viewing of the child's genitalia without physical contact, or using a child to produce child pornography."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q26553"^^xsd:anyURI,
+        Property:P1813 "CSA"@en,
+        oboInOwl:hasSynonym "sexual abuse of children"@en,
+        rdfs:label "child sexual abuse"@en,
+        Property:P1149 "RA1141.5",
+        Property:P1149 "RC560.C46",
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D002650"^^xsd:anyURI,
         Property:P1149 "HV6570-HV6570.9",
         oboInOwl:hasExactSynonym "sexual child abuse"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Child_sexual_abuse"^^xsd:anyURI,
-        Property:P1149 "RJ506.C48",
-        oboInOwl:hasSynonym "sexual abuse of children"@en
+        Property:P1149 "RJ506.C48"
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002994>
@@ -38733,11 +38866,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003001>
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/sexualViolence"^^xsd:anyURI,
         
-            Annotations: oboInOwl:hasSynonym "sex abuse"@en, 
+            Annotations: obo:IAO_0000115 "Abusive sexual behavior by one person upon another. It is often perpetrated using force or by taking advantage of another."@en, 
+                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sexual_abuse"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q43414"^^xsd:anyURI, 
+                         oboInOwl:hasSynonym "sex abuse"@en, 
                          Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10040461"^^xsd:anyURI, 
                          Property:P4229 "T74.2"
         oboInOwl:hasRelatedSynonym "sexual abuse"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sexual_violence"^^xsd:anyURI,
+        obo:IAO_0000115 "Any sexual act or attempt to obtain a sexual act by violence or coercion, acts to traffic a person or acts directed against a person's sexuality, regardless of the relationship to the victim."@en,
         rdfs:label "sexual violence"@en
     
     SubClassOf: 
@@ -38792,7 +38929,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003003>
 Class: <http://purl.bioontology.org/ontology/GSSO/003004>
 
     Annotations: 
-        rdfs:label "self-directed violence"@en
+        rdfs:label "self-directed violence"@en,
+        obo:IAO_0000115 "Violent actions committed upon oneself."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>
@@ -38803,7 +38941,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003005>
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Violence#Collective_violence"^^xsd:anyURI,
         rdfs:label "collective violence"@en,
-        Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>
+        Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
+        obo:IAO_0000115 "Any kind of violence committed by larger groups of persons or political/social entities."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>
@@ -38827,6 +38966,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003006>
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
         oboInOwl:hasRelatedSynonym "institutional violence"@en,
         oboInOwl:hasRelatedSynonym "institutionalized violence"@en,
+        obo:IAO_0000115 "A form of violence wherein some social structure or social institution may harm people by preventing them from meeting their basic needs."@en,
         
             Annotations: dc:date 1969
         Property:P3938 "Johan Galtung"
@@ -38838,6 +38978,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003006>
 Class: <http://purl.bioontology.org/ontology/GSSO/003007>
 
     Annotations: 
+        obo:IAO_0000115 "A type of violence committed by individuals or groups preying on economically disadvantaged individuals."@en,
         rdfs:label "economic violence"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Economic_violence"^^xsd:anyURI,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>
@@ -38849,6 +38990,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003007>
 Class: <http://purl.bioontology.org/ontology/GSSO/003008>
 
     Annotations: 
+        obo:IAO_0000115 "Violence against individual persons."@en,
         oboInOwl:hasRelatedSynonym "personal abuse"@en,
         rdfs:label "interpersonal violence"@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/000925>,
@@ -38894,8 +39036,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003009>
 Class: <http://purl.bioontology.org/ontology/GSSO/003010>
 
     Annotations: 
+        obo:IAO_0000115 "A state of armed conflict between states, governments, societies and informal paramilitary groups, such as mercenaries, insurgents and militias. It is generally characterized by extreme violence, aggression, destruction, and mortality, using regular or irregular military forces."@en,
         rdfs:label "war"@en,
-        schema:alternateName "wars"@en
+        schema:alternateName "wars"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/War"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q198"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000936>
@@ -38904,10 +39049,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003010>
 Class: <http://purl.bioontology.org/ontology/GSSO/003011>
 
     Annotations: 
+        obo:IAO_0000115 "A form of political violence expressly motivated by ethnic hatred and ethnic conflict."@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
         rdfs:label "ethnic violence"@en,
+        obo:IAO_0000115 "Violence or other hostile behavior arising when an ethnic group either feels itself under threat, or where it seeks to assert its superiority or dominance over other groups."@en,
+        oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/000933>,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D064868"^^xsd:anyURI,
-        oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/000933>
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ethnic_violence"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q13634374"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003006>
@@ -38929,6 +39078,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003012>
         
             Annotations: Property:P486 "http://purl.bioontology.org/ontology/MESH/D000074386"^^xsd:anyURI
         oboInOwl:hasSynonym "gender-based violence"@en,
+        obo:IAO_0000115 "The term used to denote harm inflicted upon individuals and groups that is connected to normative understandings of their gender. This connection can be in the form of cultural understandings of gender roles, both institutional and structural forces that endorse violence based on gender and societal influences that shape violent events along gender lines. While the term is often used synonymously with ‘violence against women’, gendered violence can and does occur for people of all genders including men, women, male and female children and gender diverse individuals."@en,
         oboInOwl:hasSynonym "gender violence"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         rdfs:label "gendered violence"@en,
@@ -38942,6 +39092,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003013>
 
     Annotations: 
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
+        obo:IAO_0000115 "A term that covers phenomena where religion is either the subject or the object of violent behavior. Religious violence is violence that is motivated by, or in reaction to, religious precepts, texts, or doctrines of a target or attacker. It includes violence against religious institutions, people, objects, or events. Religious violence does not refer exclusively to acts committed by religious groups, but includes acts committed by secular groups against religious groups."@en,
         rdfs:label "religious violence"@en
     
     SubClassOf: 
@@ -38952,6 +39103,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003014>
 
     Annotations: 
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
+        obo:IAO_0000115 "Violence between different cultures or among different aspects of cultures (art, ideology, language, etc.)."@en,
         rdfs:label "cultural violence"@en
     
     SubClassOf: 
@@ -38962,13 +39114,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003015>
 
     Annotations: 
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
+        obo:IAO_0000115 "The systematic mistreatment of an individual or group by another individual or group. The most common forms are religious persecution, racism and political persecution, though there is naturally some overlap between these terms. The inflicting of suffering, harassment, imprisonment, internment, fear, or pain are all factors that may establish persecution, but not all suffering will necessarily establish persecution."@en,
+        oboInOwl:hasRelatedSynonym "persecutive behavior"@en,
+        rdfs:label "persecutive violence"@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Persecution"^^xsd:anyURI, 
                          oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Persecution"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q851824"^^xsd:anyURI, 
                          wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85100050"^^xsd:anyURI
-        oboInOwl:hasRelatedSynonym "persecution"@en,
-        oboInOwl:hasRelatedSynonym "persecutive behavior"@en,
-        rdfs:label "persecutive violence"@en
+        oboInOwl:hasRelatedSynonym "persecution"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003006>
@@ -39019,6 +39173,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003018>
         rdfs:label "LGBTQ violence"@en,
         oboInOwl:hasRelatedSynonym "anti-queer violence"@en,
         oboInOwl:hasRelatedSynonym "queerphobic violence"@en,
+        obo:IAO_0000115 "Violence against lesbian, gay, bisexual, and trangender people (as well as other sexual and gender minorities) motivated by hateful attitudes towards their existence. Such violence can take many forms such as intimidation, assault, or lynching."@en,
         
             Annotations: oboInOwl:hasSynonym "anti-LGBT violence"@en
         oboInOwl:hasNarrowSynonym "LGBT violence"@en,
@@ -39170,6 +39325,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003029>
         oboInOwl:hasSynonym "intersibling abuse"@en,
         rdfs:label "sibling abuse"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q4207933"^^xsd:anyURI,
+        obo:IAO_0000115 "The physical, psychological, or sexual abuse of one sibling by another."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sibling_abuse"^^xsd:anyURI,
         Property:P1149 "RJ507.S53",
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh92003383"^^xsd:anyURI
@@ -39185,6 +39341,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003030>
         oboInOwl:hasExactSynonym "psychological child abuse"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh87006784"^^xsd:anyURI,
         Property:P1149 "RC569.5.P75",
+        obo:IAO_0000115 "Spurning, terrorizing, isolating, exploiting, corrupting, denying emotional responsiveness, or neglect or a repeated pattern of caregiver behavior or extreme incident(s) that convey to children that they are worthless, flawed, unloved, unwanted, endangered, or only of value in meeting another's needs."@en,
+        obo:IAO_0000115 "Nonaccidental verbal or symbolic acts by a child's parent or caregiver that result, or have reasonable potential to result, in significant psychological harm to the child."@en,
         rdfs:label "child psychological abuse"@en
     
     SubClassOf: 
@@ -39195,6 +39353,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003031>
 
     Annotations: 
         rdfs:label "violence by location"@en,
+        obo:IAO_0000115 "Types of violence organized by location where violent event takes place."@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>
     
     SubClassOf: 
@@ -39208,8 +39367,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003032>
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85106948"^^xsd:anyURI,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
         oboInOwl:hasRelatedSynonym "violence in prisons"@en,
+        obo:IAO_0000115 "Violence that occurs in prison either between inmates, between inmates and guards, or that is self-inflicted by an inmate."@en,
         rdfs:label "prison violence"@en,
-        Property:P1149 "HV9025"
+        Property:P1149 "HV9025",
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q21016010"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003031>
@@ -39220,10 +39381,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003033>
     Annotations: 
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85118445"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "violence in schools"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1145436"^^xsd:anyURI,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
         Property:P1149 "LB3013.3-LB3013.34",
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/School_violence"^^xsd:anyURI,
-        rdfs:label "school violence"@en
+        rdfs:label "school violence"@en,
+        obo:IAO_0000115 "Violence encompassing physical violence, including student-on-student fighting and corporal punishment; psychological violence, including verbal abuse; sexual violence, including rape and sexual harassment; many forms of bullying, including cyberbullying; and carrying weapons in school. It is widely held to have become a serious problem in recent decades in many countries, especially where weapons such as guns or knives are involved. It includes violence between school students as well as physical attacks by students on school staff."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003031>
@@ -39235,6 +39398,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003034>
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh93006501"^^xsd:anyURI,
         rdfs:label "campus violence"@en,
         Property:P1149 "LB2345-LB2345.3",
+        obo:IAO_0000115 "Violence encompassing physical violence, including student-on-student fighting and corporal punishment; psychological violence, including verbal abuse; sexual violence, including rape and sexual harassment; many forms of bullying, including cyberbullying; and carrying weapons in institutions of higher learning such as colleges and universities. It is widely held to have become a serious problem in recent decades in many countries, especially where weapons such as guns or knives are involved. It includes violence between school students as well as physical attacks by students on school staff."@en,
         oboInOwl:hasRelatedSynonym "college campus violence"@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>
     
@@ -39246,6 +39410,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003035>
 
     Annotations: 
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003032>,
+        obo:IAO_0000115 "Violence that occurs in prison upon transgender persons, whether inflicted by other inmates, inflicted by guards, or inflicted upon the person themselves (potentially due to increased gender dysphoria in prison settings, for example)."@en,
         rdfs:label "transphobic prison violence"@en
     
     SubClassOf: 
@@ -39256,6 +39421,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003035>
 Class: <http://purl.bioontology.org/ontology/GSSO/003036>
 
     Annotations: 
+        obo:IAO_0000115 "Types of violence organized by kind of weapon utilized by the abuser or inciter of such violence."@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
         rdfs:label "violence by weapon"@en
     
@@ -39266,12 +39432,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003036>
 Class: <http://purl.bioontology.org/ontology/GSSO/003037>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5618454"^^xsd:anyURI,
+        obo:IAO_0000115 "Violence committed with the use of a gun (firearm or small arm). Gun-related violence may or may not be considered criminal. Criminal violence includes homicide (except when and where ruled justifiable), assault with a deadly weapon, and suicide, or attempted suicide, depending on jurisdiction. Non-criminal violence includes accidental or unintentional injury and death (except perhaps in cases of criminal negligence). Also generally included in gun violence statistics are military or para-military activities."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Gun_violence"^^xsd:anyURI,
         rdfs:label "gun violence"@en,
         oboInOwl:hasSynonym "gun-based violence"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000078402"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Gun_violence"^^xsd:anyURI,
-        Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>
+        Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
+        oboInOwl:hasSynonym "gun-related violence"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003036>
@@ -39311,6 +39480,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003040>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "mental abuse"@en,
+        obo:IAO_0000115 "A form of abuse and/or violence, characterized by a person subjecting or exposing another person to behavior that may result in psychological trauma, including anxiety, chronic depression, or post-traumatic stress disorder. It is often associated with situations of power imbalance in abusive relationships, and may include bullying, gaslighting, and abuse in the workplace."@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Psychological_abuse"^^xsd:anyURI, 
                          oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Psychological_abuse"^^xsd:anyURI, 
@@ -40247,6 +40417,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003105>
 Class: <http://purl.bioontology.org/ontology/GSSO/003106>
 
     Annotations: 
+        obo:IAO_0000115 "The process in which persons (usually children) learn to interact with others in social situations."@en,
         rdfs:label "social development"@en,
         oboInOwl:hasNarrowSynonym "social development in children"@en
     
@@ -40262,7 +40433,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003107>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Socialization"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Socialization"^^xsd:anyURI,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C88512"^^xsd:anyURI,
-        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2001008649"^^xsd:anyURI
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2001008649"^^xsd:anyURI,
+        obo:IAO_0000115 "The process of internalizing the norms and ideologies of society."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003106>
@@ -40271,6 +40443,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003107>
 Class: <http://purl.bioontology.org/ontology/GSSO/003108>
 
     Annotations: 
+        obo:IAO_0000115 "The learning of behavior and attitudes considered appropriate for a given societal gender role. The behavior that is seen to be appropriate for each gender is largely determined by societal, cultural and economic values in a given society. Gender socialization can therefore vary considerably among societies with different values."@en,
         oboInOwl:hasRelatedSynonym "gender and socialization"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Socialization#Gender_socialization"^^xsd:anyURI,
         
@@ -40510,7 +40683,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003125>
 
     Annotations: 
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
-        rdfs:label "violence by abuser"@en
+        rdfs:label "violence by abuser"@en,
+        obo:IAO_0000115 "Types of violence organized by kind of abuser or inciter of such violence."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003006>
@@ -40520,13 +40694,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003126>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Abuse_of_power#Police_officers"^^xsd:anyURI,
+        obo:IAO_0000115 "One of several forms of police misconduct which involves undue violence by police members. Widespread police brutality exists in many countries and territories, even those that prosecute it. Although illegal, it can be performed under the color of law."@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
+        rdfs:label "police violence"@en,
+        oboInOwl:hasRelatedSynonym "police abuse"@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Police_brutality"^^xsd:anyURI, 
-                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Police_brutality"^^xsd:anyURI
-        oboInOwl:hasRelatedSynonym "police brutality"@en,
-        rdfs:label "police violence"@en,
-        oboInOwl:hasRelatedSynonym "police abuse"@en
+                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Police_brutality"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1996993"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "police brutality"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003125>
@@ -40536,7 +40712,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003127>
 
     Annotations: 
         rdfs:label "police raid"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q6130595"^^xsd:anyURI,
+        obo:IAO_0000115 "A visit by police or other law-enforcement officers - often in the early morning or late at night, with the aim of using the element of surprise in an attempt to arrest suspects believed to be likely to hide evidence, resist arrest, be politically sensitive, or simply be elsewhere during the day."@en,
         schema:alternateName "police raids"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Police_raid"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/policeRaids"^^xsd:anyURI
@@ -40548,8 +40727,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003127>
 Class: <http://purl.bioontology.org/ontology/GSSO/003128>
 
     Annotations: 
-        oboInOwl:hasNarrowSynonym "anti-gay police raid"@en,
+        
+            Annotations: schema:alternateName "anti-LGBT police raids"@en
+        oboInOwl:hasNarrowSynonym "anti-LGBT police raid"@en,
+        obo:IAO_0000115 "A visit of a primarily LGBTQIA+ residence (such as a gay bar) by police or other law-enforcement officers, often in the early morning or late at night, with the aim of using the element of surprise in an attempt to arrest suspects believed to be likely to hide evidence, resist arrest, be politically sensitive, or simply be elsewhere during the day."@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003127>,
+        
+            Annotations: schema:alternateName "anti-gay police raids"@en
+        oboInOwl:hasNarrowSynonym "anti-gay police raid"@en,
         rdfs:label "anti-LGBTQ police raid"@en,
         schema:alternateName "anti-LGBTQ police raids"@en
     
@@ -40976,7 +41161,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003168>
 Class: <http://purl.bioontology.org/ontology/GSSO/003169>
 
     Annotations: 
-        rdfs:label "gender-based terrorism"@en
+        rdfs:label "gender-based terrorism"@en,
+        obo:IAO_0000115 "The use or threatened use of force or violence against persons based on their gender identity, role, and/or expression in violation of criminal laws for purposes of intimidation, coercion, or ransom, in support of political or social objectives."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003009>
@@ -41346,6 +41532,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003201>
 Class: <http://purl.bioontology.org/ontology/GSSO/003202>
 
     Annotations: 
+        obo:IAO_0000115 "An intersectional field between human biology and politics. It is a political wisdom taking into consideration the administration of life and a locality's populations as its subject."@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Biopolitics"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Biopolitics"^^xsd:anyURI,
@@ -42317,10 +42504,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003286>
 Class: <http://purl.bioontology.org/ontology/GSSO/003287>
 
     Annotations: 
-        
-            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Identity_formation"^^xsd:anyURI
-        oboInOwl:hasRelatedSynonym "identity formation"@en,
         rdfs:label "identity development"@en,
+        obo:IAO_0000115 "The development of the distinct personality of an individual regarded as a persisting entity (known as personal continuity) in a particular stage of life in which individual characteristics are possessed and by which a person is recognized or known (such as the establishment of a reputation). This process defines individuals to others and themselves. Pieces of the person's actual identity include a sense of continuity, a sense of uniqueness from others, and a sense of affiliation."@en,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Identity_formation"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1095779"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "identity formation"@en,
         oboInOwl:hasSynonym "individuation"@en
     
     SubClassOf: 
@@ -42330,6 +42519,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003287>
 Class: <http://purl.bioontology.org/ontology/GSSO/003288>
 
     Annotations: 
+        oboInOwl:hasRelatedSynonym "development of sexual orientation"@en,
+        oboInOwl:hasNarrowSynonym "sexual minority identity development"@en,
+        obo:IAO_0000115 "The development of one's sexuality, including sexual orientation and interests, among other things."@en,
+        oboInOwl:hasRelatedSynonym "sexual orientation development"@en,
         rdfs:label "sexual identity development"@en,
         oboInOwl:hasSynonym "development of sexual identity"@en
     
@@ -42340,8 +42533,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003288>
 Class: <http://purl.bioontology.org/ontology/GSSO/003289>
 
     Annotations: 
+        oboInOwl:hasRelatedSynonym "patterns of gender development"@en,
+        oboInOwl:hasNarrowSynonym "gender identity development in adolescence"@en,
         rdfs:label "gender identity development"@en,
-        oboInOwl:hasSynonym "development of gender identity"@en
+        oboInOwl:hasSynonym "development of gender identity"@en,
+        oboInOwl:hasNarrowSynonym "gender identity development in children"@en,
+        oboInOwl:hasRelatedSynonym "gender identity development theory"@en,
+        obo:IAO_0000115 "Development of one's self-concept of gender."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003287>
@@ -42351,7 +42549,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003290>
 
     Annotations: 
         rdfs:label "interpersonal identity development"@en,
-        oboInOwl:hasSynonym "interpersonal identity formation"@en
+        oboInOwl:hasSynonym "interpersonal identity formation"@en,
+        obo:IAO_0000115 "Development of any of various interpersonal identities, or identities based on relationships with others (for example, sexual orientation identity)."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003287>
@@ -42531,6 +42730,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003305>
 
     Annotations: 
         rdfs:label "identity disclosure"@en,
+        obo:IAO_0000115 "A process of communication by which one person reveals information about their identity to another."@en,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/003306>
     
     SubClassOf: 
@@ -42540,8 +42740,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003305>
 Class: <http://purl.bioontology.org/ontology/GSSO/003307>
 
     Annotations: 
+        obo:IAO_0000115 "A process of communication by which one person reveals information about themself to another. The information can be descriptive or evaluative, and can include thoughts, feelings, aspirations, goals, failures, successes, fears, and dreams, as well as one's likes, dislikes, and favorites."@en,
+        rdfs:label "self-disclosure"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Self-disclosure"^^xsd:anyURI,
-        rdfs:label "self-disclosure"@en
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2892912"^^xsd:anyURI
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51977>
@@ -42551,6 +42753,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003308>
 
     Annotations: 
         rdfs:label "gender identity disclosure"@en,
+        obo:IAO_0000115 "A process of communication by which one person reveals information about their gender identity to another."@en,
         oboInOwl:hasRelatedSynonym "gender disclosure"@en
     
     SubClassOf: 
@@ -42560,6 +42763,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003308>
 Class: <http://purl.bioontology.org/ontology/GSSO/003309>
 
     Annotations: 
+        obo:IAO_0000115 "A process of communication by which one person reveals information about their sexual identity to another."@en,
         oboInOwl:hasRelatedSynonym "sexuality disclosure"@en,
         oboInOwl:hasRelatedSynonym "sexual orientation disclosure"@en,
         rdfs:label "sexual identity disclosure"@en
@@ -43705,9 +43909,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003411>
 Class: <http://purl.bioontology.org/ontology/GSSO/003412>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1044045"^^xsd:anyURI,
         rdfs:label "emotional labor"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Emotional_labor"^^xsd:anyURI,
-        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
+        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        obo:IAO_0000115 "The process of managing feelings and expressions to fulfill the emotional requirements of a job."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003411>
@@ -43716,8 +43922,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003412>
 Class: <http://purl.bioontology.org/ontology/GSSO/003413>
 
     Annotations: 
+        oboInOwl:hasRelatedSynonym "erasing"@en,
         rdfs:label "erasure"@en,
+        oboInOwl:hasRelatedSynonym "erase"@en,
         obo:IAO_0000115 "Removal of all traces of something; obliteration."@en,
+        oboInOwl:hasRelatedSynonym "erases"@en,
+        oboInOwl:hasRelatedSynonym "erased"@en,
         oboInOwl:hasRelatedSynonym "invisibility"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
     
@@ -43728,9 +43938,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003413>
 Class: <http://purl.bioontology.org/ontology/GSSO/003414>
 
     Annotations: 
+        obo:IAO_0000115 "A heteronormative cultural practice where queer people are erased from cultural narratives. Queer erasure (inclusive of lesbian, gay, bisexual, transgender and asexual erasure) is used in both scholarly and popular media texts when referring to issues of visibility and exclusion, such as in the case of AIDS research that does not include lesbian populations."@en,
+        oboInOwl:hasNarrowSynonym "LGBT erasure"@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Queer_erasure"^^xsd:anyURI, 
-                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Queer_erasure"^^xsd:anyURI
+                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Queer_erasure"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q56282687"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "queer erasure"@en,
         rdfs:label "LGBTQ erasure"@en
     
@@ -43741,6 +43954,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003414>
 Class: <http://purl.bioontology.org/ontology/GSSO/003415>
 
     Annotations: 
+        oboInOwl:hasNarrowSynonym "A cultural practice where asexual people are erased from cultural narratives."@en,
         rdfs:label "asexual erasure"@en
     
     SubClassOf: 
@@ -43750,7 +43964,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003415>
 Class: <http://purl.bioontology.org/ontology/GSSO/003416>
 
     Annotations: 
+        obo:IAO_0000115 "the tendency to ignore, remove, falsify, or reexplain evidence of bisexuality in history, academia, the news media, and other primary sources. In its most extreme form, bisexual erasure can include the belief that bisexuality does not exist."@en,
         oboInOwl:hasRelatedSynonym "bisexual invisibility"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2916372"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bisexual_erasure"^^xsd:anyURI,
         rdfs:label "bisexual erasure"@en
     
@@ -43761,6 +43977,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003416>
 Class: <http://purl.bioontology.org/ontology/GSSO/003417>
 
     Annotations: 
+        oboInOwl:hasNarrowSynonym "A cultural practice where gay people, particular gay men, are erased from cultural narratives."@en,
         oboInOwl:hasSynonym "homosexual erasure"@en,
         rdfs:label "gay erasure"@en
     
@@ -43771,6 +43988,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003417>
 Class: <http://purl.bioontology.org/ontology/GSSO/003418>
 
     Annotations: 
+        oboInOwl:hasNarrowSynonym "A cultural practice where intersex people are erased from cultural narratives."@en,
         rdfs:label "intersex erasure"@en
     
     SubClassOf: 
@@ -43781,7 +43999,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003419>
 
     Annotations: 
         rdfs:label "transgender erasure"@en,
-        Property:P1813 "trans erasure"@en
+        Property:P1813 "trans erasure"@en,
+        obo:IAO_0000115 "A cultural practice where transgender people are erased from cultural narratives. Transgender persons may also be ignored within the LGBTQIA+ community and their identity may not be acknowledged."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003414>
@@ -43792,7 +44011,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003420>
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Lesbian_erasure"^^xsd:anyURI,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000381>,
-        rdfs:label "lesbian erasure"@en
+        obo:IAO_0000115 "The tendency to ignore, remove, falsify, or reexplain evidence of lesbianism in history, academia, the news media, and other primary sources. Lesbians may also be ignored within the LGBTQIA+ community and their identity may not be acknowledged."@en,
+        rdfs:label "lesbian erasure"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q65049330"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003414>
@@ -44041,6 +44262,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003440>
 Class: <http://purl.bioontology.org/ontology/GSSO/003443>
 
     Annotations: 
+        obo:IAO_0000115 "Therapeutic, nutritional, environmental, social and/or behavioral interventions at the societal, community, organizational or individual levels to reduce, modify or stop the course of something."@en,
         oboInOwl:hasRelatedSynonym "preventative technique"@en,
         rdfs:label "prevention"@en
     
@@ -44051,6 +44273,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003443>
 Class: <http://purl.bioontology.org/ontology/GSSO/003444>
 
     Annotations: 
+        obo:IAO_0000115 "Preventing or hindering persons or other entities from accessing something, such as particular information or resources."@en,
         
             Annotations: terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>, 
                          oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Gatekeeper"^^xsd:anyURI, 
@@ -44067,6 +44290,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003444>
 Class: <http://purl.bioontology.org/ontology/GSSO/003445>
 
     Annotations: 
+        obo:IAO_0000115 "The controlling of access to health services, usually by primary care providers; often used in managed care settings to reduce utilization of expensive services and reduce referrals."@en,
         
             Annotations: oboInOwl:hasRelatedSynonym "medical gatekeepers"@en, 
                          oboInOwl:hasRelatedSynonym "medical gatekeeping"@en, 
@@ -44350,6 +44574,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003467>
 
     Annotations: 
         rdfs:label "direct prostitution"@en,
+        obo:IAO_0000115 "Prostitution services with a primary purpose being the exchange of sexual intercourse for pay."@en,
         oboInOwl:hasRelatedSynonym "direct sex industry"@en
     
     SubClassOf: 
@@ -44372,7 +44597,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003469>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Forced_prostitution"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Forced_prostitution"^^xsd:anyURI,
         oboInOwl:hasSynonym "involuntary prostitution"@en,
-        rdfs:label "forced prostitution"@en
+        rdfs:label "forced prostitution"@en,
+        obo:IAO_0000115 "Prostitution and/or sexual slavery that takes place as a result of coercion by a third party. Forced prostitution is a crime against the person because of the violation of the victim's rights of movement through coercion and because of their commercial exploitation."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003466>
@@ -44384,6 +44610,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003470>
         oboInOwl:hasRelatedSynonym "religious prostitution"@en,
         rdfs:label "sacred prostitution"@en,
         oboInOwl:hasRelatedSynonym "shrine prostitution"@en,
+        rdfs:comment "Some scholars prefer the terms \"sacred sex\" or \"sacred sexual rites\" to \"sacred prostitution\" in cases where payment for services was not involved."@en,
+        obo:IAO_0000115 "Sexual rites consisting of sexual intercourse or other sexual activity performed in the context of religious worship, perhaps as a form of fertility rite or divine marriage (hieros gamos)."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sacred_prostitution"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "cult prostitution"@en,
         oboInOwl:hasRelatedSynonym "temple prostitution"@en
@@ -44399,6 +44627,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003471>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Child_prostitution"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Child_prostitution"^^xsd:anyURI,
         oboInOwl:hasBroadSynonym "children and prostitution"@en,
+        obo:IAO_0000115 "Prostitution involving a child, and it is a form of commercial sexual exploitation of children."@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85107629"^^xsd:anyURI
     
     SubClassOf: 
@@ -44408,6 +44637,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003471>
 Class: <http://purl.bioontology.org/ontology/GSSO/003472>
 
     Annotations: 
+        obo:IAO_0000115 "Prostitution involving an adolescent, and it is a form of commercial sexual exploitation of adolescents."@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh93007105"^^xsd:anyURI,
         rdfs:label "adolescent prostitution"@en,
         
@@ -44421,7 +44651,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003472>
 Class: <http://purl.bioontology.org/ontology/GSSO/003473>
 
     Annotations: 
-        rdfs:label "juvenile prostitution"@en
+        rdfs:label "juvenile prostitution"@en,
+        obo:IAO_0000115 "Forced prostitution of individuals under the age of 18."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003469>,
@@ -44431,6 +44662,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003473>
 Class: <http://purl.bioontology.org/ontology/GSSO/003474>
 
     Annotations: 
+        obo:IAO_0000115 "Types of prostitution organized by the gender of the clients and/or sex workers."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Prostitution_by_gender"^^xsd:anyURI,
         rdfs:label "prostitution by gender"@en
     
@@ -44444,6 +44676,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003475>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/femaleProstitution"^^xsd:anyURI,
+        obo:IAO_0000115 "Prostitution in which the sex worker or workers are female."@en,
         rdfs:label "female prostitution"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Female_prostitution"^^xsd:anyURI
     
@@ -44457,6 +44690,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003476>
         rdfs:label "male prostitution"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Male_prostitution"^^xsd:anyURI,
         Property:P1149 "HQ119-HQ119.4",
+        obo:IAO_0000115 "Prostitution in which the sex worker or workers are male."@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/maleProstitution"^^xsd:anyURI,
@@ -44470,8 +44704,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003476>
 Class: <http://purl.bioontology.org/ontology/GSSO/003477>
 
     Annotations: 
+        obo:IAO_0000115 "Sex work services engaged in by students, particularly those in institutions of higher learning, for a variety of purposes ranging from drug addiction to financial instability arising from college loans."@en,
         rdfs:label "student prostitution"@en,
-        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2008008555"^^xsd:anyURI
+        oboInOwl:hasSynonym "student sex work"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2008008555"^^xsd:anyURI,
+        oboInOwl:hasSynonym "student's prostitution"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003466>
@@ -44482,6 +44719,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003478>
     Annotations: 
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/003463>,
         rdfs:label "same-sex male prostitution"@en,
+        obo:IAO_0000115 "Prostitution in which the sex worker or workers are male and the client or clients are male."@en,
         terms:replaces "homosexual male prostitution"@en
     
     SubClassOf: 
@@ -44492,6 +44730,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003479>
 
     Annotations: 
         oboInOwl:hasSynonym "heterosexual male prostitution"@en,
+        obo:IAO_0000115 "Prostitution in which the sex worker or workers are male and the client or clients are female."@en,
         rdfs:label "different-sex male prostitution"@en
     
     SubClassOf: 
@@ -44501,6 +44740,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003479>
 Class: <http://purl.bioontology.org/ontology/GSSO/003480>
 
     Annotations: 
+        obo:IAO_0000115 "Prostitution in which the sex worker or workers are female and the client or clients are male."@en,
         oboInOwl:hasSynonym "heterosexual female prostitution"@en,
         rdfs:label "different-sex female prostitution"@en
     
@@ -44512,6 +44752,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003481>
 
     Annotations: 
         terms:replaces "homosexual female prostitution"@en,
+        obo:IAO_0000115 "Prostitution in which the sex worker or workers are female and the client or clients are female."@en,
         rdfs:label "same-sex female prostitution"@en
     
     SubClassOf: 
@@ -44523,7 +44764,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003482>
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Street_prostitution"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "outdoor prostitution"@en,
-        rdfs:label "street prostitution"@en
+        rdfs:label "street prostitution"@en,
+        obo:IAO_0000115 "Direct prostitution in which clients are passively sought in outdoor public places, such as particular street corners."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003467>
@@ -44532,6 +44774,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003482>
 Class: <http://purl.bioontology.org/ontology/GSSO/003483>
 
     Annotations: 
+        obo:IAO_0000115 "Direct prostitution in which clients are actively sought in venues such as clubs and hotels; alternatively prostitution in which clients actively seek out indoor areas where sex workers are present (such as brothels)."@en,
         rdfs:label "indoor prostitution"@en
     
     SubClassOf: 
@@ -44541,6 +44784,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003483>
 Class: <http://purl.bioontology.org/ontology/GSSO/003484>
 
     Annotations: 
+        obo:IAO_0000115 "Prostitution which takes place in a specified building for such practices, i.e. a brothel."@en,
         oboInOwl:hasRelatedSynonym "brothel work"@en,
         rdfs:label "brothel prostitution"@en
     
@@ -44554,6 +44798,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003485>
         
             Annotations: schema:alternateName "escort services"@en
         oboInOwl:hasRelatedSynonym "escort service"@en,
+        obo:IAO_0000115 "Prostitution in which sex workers are contacted (usually by phone) by clients and travel to mutually agreed upon premises."@en,
         rdfs:label "escort prostitution"@en
     
     SubClassOf: 
@@ -44574,7 +44819,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003486>
                          Property:P3095 "webcam model"@en
         oboInOwl:hasNarrowSynonym "webcam modeling"@en,
         oboInOwl:hasSynonym "internet prostitution"@en,
-        rdfs:label "virtual prostitution"@en
+        rdfs:label "virtual prostitution"@en,
+        obo:IAO_0000115 "Performance of sex work streamed or otherwise sent virtually via the internet in engage for money or other material items."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003468>
@@ -44592,6 +44838,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003487>
 Class: <http://purl.bioontology.org/ontology/GSSO/003488>
 
     Annotations: 
+        obo:IAO_0000115 "Sex work engaged in via telephone, usually related to, but not limited to, simply describing sexual acts in great detail."@en,
         oboInOwl:hasRelatedSynonym "phone sex operation"@en,
         oboInOwl:hasNarrowSynonym "cell phone prostitution"@en,
         rdfs:label "telephone prostitution"@en,
@@ -44604,7 +44851,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003488>
 Class: <http://purl.bioontology.org/ontology/GSSO/003489>
 
     Annotations: 
-        rdfs:label "massage parlor-related prostitution"@en
+        rdfs:label "massage parlor-related prostitution"@en,
+        obo:IAO_0000115 "Sex work taking place in places toted primarily as massage parlors."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003468>
@@ -44613,7 +44861,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003489>
 Class: <http://purl.bioontology.org/ontology/GSSO/003490>
 
     Annotations: 
-        rdfs:label "opportunistic prostitution"@en
+        rdfs:label "opportunistic prostitution"@en,
+        obo:IAO_0000115 "Sex work in which someone may sporadically engage in, when and if, a particular client could potentially become available."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003468>
@@ -44622,6 +44871,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003490>
 Class: <http://purl.bioontology.org/ontology/GSSO/003491>
 
     Annotations: 
+        obo:IAO_0000115 "Sex work engaged in for the purposes of pornographic filming."@en,
         oboInOwl:hasNarrowSynonym "pornographic film performing"@en,
         rdfs:label "pornographic prostitution"@en
     
@@ -44635,7 +44885,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003492>
         rdfs:label "dance prostitution"@en,
         
             Annotations: oboInOwl:hasSynonym "contact dancing"@en
-        oboInOwl:hasNarrowSynonym "lap dancing"@en
+        oboInOwl:hasNarrowSynonym "lap dancing"@en,
+        obo:IAO_0000115 "Erotic dancing in close quarters which may or may not involve sexual contact, but usually at least implies some form of sexuality."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003468>
@@ -44644,6 +44895,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003492>
 Class: <http://purl.bioontology.org/ontology/GSSO/003493>
 
     Annotations: 
+        obo:IAO_0000115 "Sex work engaged in where the client and the sex worker are separated by some physical boundary, i.e. the sex worker is exhibited to the client."@en,
         rdfs:label "peepshow prostitution"@en
     
     SubClassOf: 
@@ -44664,7 +44916,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003495>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Go-go_dancing"^^xsd:anyURI,
-        rdfs:label "go-go dancing"@en
+        
+            Annotations: schema:alternateName "go-go dancers"@en
+        Property:P3095 "go-go dancer"@en,
+        rdfs:label "go-go dancing"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q862488"^^xsd:anyURI,
+        obo:IAO_0000115 "A form of dancing engaged in for the purpose of crowd entertainment at nightclubs or other venues where music is played."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003494>
@@ -44674,7 +44931,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003496>
 
     Annotations: 
         rdfs:label "strip dancing"@en,
-        oboInOwl:hasSynonym "stripteasing"@en
+        oboInOwl:hasSynonym "stripteasing"@en,
+        obo:IAO_0000115 "Erotic dancing in which the performer or performers gradually undress, either partially or completely, in a sexually suggestive manner."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003494>
@@ -44686,7 +44944,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003497>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/sexTourism"^^xsd:anyURI,
+        obo:IAO_0000115 "Trips organized from within the tourism sector, or from outside this sector but using its structures and networks, with the primary purpose of effecting a commercial sexual relationship by the tourist with residents at the destination"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Sex_tourism"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q663016"^^xsd:anyURI,
         rdfs:label "sex tourism"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sex_tourism"^^xsd:anyURI
     
@@ -44697,7 +44957,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003497>
 Class: <http://purl.bioontology.org/ontology/GSSO/003498>
 
     Annotations: 
-        rdfs:label "male sex tourism"@en
+        rdfs:label "male sex tourism"@en,
+        obo:IAO_0000115 "Sex tourism by men who travel intending to engage in sexual activities with one or more locals, usually female sex workers."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003497>
@@ -44706,8 +44967,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003498>
 Class: <http://purl.bioontology.org/ontology/GSSO/003499>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5442770"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Female_sex_tourism"^^xsd:anyURI,
-        rdfs:label "female sex tourism"@en
+        rdfs:label "female sex tourism"@en,
+        obo:IAO_0000115 "Sex tourism by women who travel intending to engage in sexual activities with one or more locals, usually male sex workers. Female sex tourists may seek aspects of the sexual relationship not shared by male sex tourists, such as perceived romance and intimacy."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003497>
@@ -44717,8 +44980,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003500>
 
     Annotations: 
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/003471>,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q4208342"^^xsd:anyURI,
         Property:P1813 "CST"@en,
         rdfs:label "child sex tourism"@en,
+        obo:IAO_0000115 "Tourism for the purpose of engaging in the prostitution of children, which is commercially facilitated child sexual abuse."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Child_sex_tourism"^^xsd:anyURI
     
     SubClassOf: 
@@ -45717,9 +45982,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003579>
 Class: <http://purl.bioontology.org/ontology/GSSO/003580>
 
     Annotations: 
-        rdfs:label "online service"@en,
+        schema:alternateName "online services"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Online_services"^^xsd:anyURI,
-        schema:alternateName "online services"@en
+        rdfs:label "online service"@en,
+        obo:IAO_0000115 "A service provided online or by the internet."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47920>
@@ -45728,6 +45994,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003580>
 Class: <http://purl.bioontology.org/ontology/GSSO/003581>
 
     Annotations: 
+        obo:IAO_0000115 "A service for matchmaking between potential couples, with a view toward romance and/or marriage between them."@en,
         schema:alternateName "dating services"@en,
         rdfs:label "dating service"@en
     
@@ -45738,7 +46005,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003581>
 Class: <http://purl.bioontology.org/ontology/GSSO/003582>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Online_dating_service"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Online_dating_services"^^xsd:anyURI,
         schema:alternateName "online dating services"@en,
+        obo:IAO_0000115 "A company that provides specific mechanisms (generally websites or applications) for online dating through the use of Internet-connected personal computers or mobile devices. Such companies offer a wide variety of unmoderated matchmaking services, most of which are profile-based."@en,
         rdfs:label "online dating service"@en
     
     SubClassOf: 
@@ -45885,7 +46155,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003594>
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Racially_motivated_violence"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "racially motivated violence"@en,
         rdfs:label "racial violence"@en,
-        Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>
+        Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214>,
+        obo:IAO_0000115 "A form of political violence expressly motivated by racial hatred and race conflict."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003006>
@@ -46459,7 +46730,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003641>
 Class: <http://purl.bioontology.org/ontology/GSSO/003642>
 
     Annotations: 
-        rdfs:label "intersectional politics"@en
+        rdfs:label "intersectional politics"@en,
+        obo:IAO_0000115 "Political activities which openly acknowledge how aspects of sociopolitical identity discrimination overlap (for example, race and gender)."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003201>
@@ -46472,6 +46744,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003643>
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Identity_politics"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Identity_politics"^^xsd:anyURI,
+        obo:IAO_0000115 "A political approach and analysis based on people prioritizing the concerns most relevant to their particular racial, religious, ethnic, sexual, social, cultural or other identity, and forming exclusive political alliances with others of this group, instead of engaging in more traditional, broad-based party politics."@en,
         Property:P1813 "IDPOL"@en
     
     SubClassOf: 
@@ -46481,6 +46754,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003643>
 Class: <http://purl.bioontology.org/ontology/GSSO/003644>
 
     Annotations: 
+        obo:IAO_0000115 "Political activities based upon cultural designations, groups, and/or relationships between said entities."@en,
         rdfs:label "cultural politics"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Cultural_politics"^^xsd:anyURI
     
@@ -46635,7 +46909,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003657>
     Annotations: 
         oboInOwl:hasSynonym "race oppression"@en,
         rdfs:label "racial oppression"@en,
-        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>,
+        obo:IAO_0000115 "Oppression based primarily upon racial categories."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003656>
@@ -46644,6 +46919,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003657>
 Class: <http://purl.bioontology.org/ontology/GSSO/003658>
 
     Annotations: 
+        obo:IAO_0000115 "Oppression based primarily upon social class."@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/002801>,
         rdfs:label "class oppression"@en
@@ -46655,8 +46931,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003658>
 Class: <http://purl.bioontology.org/ontology/GSSO/003659>
 
     Annotations: 
-        rdfs:label "gender oppression"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>,
+        rdfs:label "gender oppression"@en,
+        obo:IAO_0000115 "Oppression based primarily upon gender roles, gender norms, gender identity, gender expression, or other manifestations of gender."@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17357>
     
     SubClassOf: 
@@ -46668,6 +46945,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003660>
     Annotations: 
         rdfs:label "age oppression"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>,
+        obo:IAO_0000115 "Oppression based primarily upon age."@en,
         Property:P5191 <http://purl.org/sig/ont/fma/fma0328408>
     
     SubClassOf: 
@@ -46679,6 +46957,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003661>
     Annotations: 
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/002842>,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>,
+        obo:IAO_0000115 "Oppression based primarily upon sexuality."@en,
         rdfs:label "sexuality oppression"@en
     
     SubClassOf: 
@@ -46689,7 +46968,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003662>
 
     Annotations: 
         rdfs:label "religious oppression"@en,
-        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>,
+        obo:IAO_0000115 "Oppression based primarily upon religion, religious sect, or particular religious beliefs."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003656>
@@ -46700,6 +46980,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003663>
     Annotations: 
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/003655>,
         rdfs:label "internalized oppression"@en,
+        obo:IAO_0000115 "Oppression in which an oppressed group comes to use against itself the methods of the oppressor. Internalized oppression occurs when one group of people recognizes a distinct inequality of value compared to another group of people and, as a result, desires to be like the more highly valued group."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Internalized_oppression"^^xsd:anyURI,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/002849>,
         terms:isReferencedBy <https://web.archive.org/web/20190807165352/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions/>,
@@ -47932,6 +48213,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003788>
         rdfs:label "post-exposure prophylaxis"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D056990"^^xsd:anyURI,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/409516001"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1361206"^^xsd:anyURI,
+        obo:IAO_0000115 "Any preventive medical treatment started after exposure to a pathogen in order to prevent the infection from occurring."@en,
         Property:P1813 "PEP"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Post-exposure_prophylaxis"^^xsd:anyURI
     
@@ -47942,6 +48225,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003788>
 Class: <http://purl.bioontology.org/ontology/GSSO/003789>
 
     Annotations: 
+        obo:IAO_0000115 "Any of various antiretroviral medications taken after potential HIV exposure to prevent infection."@en,
         
             Annotations: oboInOwl:hasExactSynonym "HIV post exposure prophylaxis"@en, 
                          Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10052361"^^xsd:anyURI
@@ -48208,7 +48492,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003819>
 
     Annotations: 
         rdfs:label "marketing by target group"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Marketing_by_target_group"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Marketing_by_target_group"^^xsd:anyURI,
+        obo:IAO_0000115 "Marketing types organized by intended and/or actual target audience."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53292>
@@ -48218,7 +48503,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003820>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/LGBT_marketing"^^xsd:anyURI,
+        obo:IAO_0000115 "The act of marketing to LGBTQIA+ customers, either with dedicated ads or general ads, or through sponsorships of LGBTQIA+ organizations and events, or through the targeted use of any other element of the marketing mix."@en,
         oboInOwl:hasNarrowSynonym "LGBT marketing"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3854862"^^xsd:anyURI,
         rdfs:label "LGBTQ marketing"@en
     
     SubClassOf: 
@@ -48298,7 +48585,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003834>
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         oboInOwl:hasSynonym "politics of respectability"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Respectability_politics"^^xsd:anyURI,
-        rdfs:label "respectability politics"@en
+        rdfs:label "respectability politics"@en,
+        obo:IAO_0000115 "Attempts by marginalized groups to police their own members and show their social values as being continuous and compatible with dominant values rather than challenging the mainstream for what they see as its failure to accept difference."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003644>
@@ -48307,6 +48595,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003834>
 Class: <http://purl.bioontology.org/ontology/GSSO/003835>
 
     Annotations: 
+        obo:IAO_0000115 "Respectability politics in the context of the LGBTQIA+ community is the assimilation of LGBTQIA+ or otherwise marginalized people based on sexuality into hegemonic and heteronormative society. This can be achieved by downplaying stereotypes or behaviors associated with homosexuality (e.g. crossdressing or flamboyant dressing, public displays of same sex affection) or participating in heterosexual institutions."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Respectability_politics#LGBT_respectability_politics"^^xsd:anyURI,
         rdfs:label "LGBTQ respectability politics"@en,
         oboInOwl:hasNarrowSynonym "LGBT respectability politics"@en
     
@@ -48888,6 +49178,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003894>
                          Property:P486 "http://purl.bioontology.org/ontology/MESH/D062985"^^xsd:anyURI
         oboInOwl:hasSynonym "health service for transgender persons"@en,
         schema:alternateName "transgender health services"@en,
+        obo:IAO_0000115 "Access to specialized care for transgender populations. Health systems organized to take account of the special healthcare needs of marginalized groups who may face barriers in accessing health services."@en,
         rdfs:label "transgender health service"@en
     
     SubClassOf: 
@@ -49245,6 +49536,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003922>
 Class: <http://purl.bioontology.org/ontology/GSSO/003923>
 
     Annotations: 
+        obo:IAO_0000115 "A theory which states that a connection exists between various types of oppression, specifically classism, racism, and sexism. It hypothesizes that all three types of oppression need to be overcome at once."@en,
+        oboInOwl:hasRelatedSynonym "triple exploitation"@en,
         rdfs:label "triple oppression"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Triple_oppression"^^xsd:anyURI
     
@@ -49547,6 +49840,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003951>
 Class: <http://purl.bioontology.org/ontology/GSSO/003954>
 
     Annotations: 
+        obo:IAO_0000115 "A cultural practice where nonbinary people are erased from cultural narratives. Nonbinary persons may also be ignored within the LGBTQIA+ community (and even within the transgender community) and their identity may not be acknowledged."@en,
         oboInOwl:hasExactSynonym "non-binary erasure"@en,
         rdfs:label "nonbinary erasure"@en
     
@@ -49626,6 +49920,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003960>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/vaginalFisting"^^xsd:anyURI,
+        obo:IAO_0000115 "The insertion of a hand into the vagina as part of sexual behavior."@en,
         rdfs:label "vaginal penetration by hand"@en,
         oboInOwl:hasRelatedSynonym "vaginal fisting"@en,
         oboInOwl:hasSynonym "brachiovaginal penetration"@en
@@ -49640,11 +49935,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003961>
     Annotations: 
         rdfs:label "anal penetration by hand"@en,
         oboInOwl:hasRelatedSynonym "anal fisting"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/229019006"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/analFisting"^^xsd:anyURI,
         oboInOwl:hasSynonym "brachioproctic insertion"@en,
-        oboInOwl:hasSynonym "anal penetration using hand"@en
+        oboInOwl:hasSynonym "anal penetration using hand"@en,
+        obo:IAO_0000115 "The insertion of a hand into the anus as part of sexual behavior."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000784>,
@@ -49658,6 +49955,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003962>
         oboInOwl:hasRelatedSynonym "fist-fucking"@en,
         oboInOwl:hasRelatedSynonym "handballing"@en,
         oboInOwl:hasRelatedSynonym "fisting"@en,
+        obo:IAO_0000115 "The insertion of a hand (or fist) into an orifice (for example, the vagina or anus) as part of sexual behavior."@en,
         rdfs:label "manual penetration"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -52615,6 +52913,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004271>
     Annotations: 
         rdfs:label "partner service"@en,
         schema:alternateName "partner services"@en,
+        obo:IAO_0000115 "A commercial experience that blurs the boundaries between a financial transaction and a romantic relationship. It ranges from a transactional sex relationship to a client paying a sex worker to pretend to be their partner during the session."@en,
         rdfs:comment "Because persons involved in this service may or may not exchange sex services, this term is classified outside of sex work. However, if sex work-related services are involved then the experience becomes sex work."@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Girlfriend_experience"^^xsd:anyURI, 
@@ -58103,7 +58402,8 @@ Class: <http://purl.bioontology.org/ontology/MESH/D011314>
     Annotations: 
         schema:alternateName "preventive health services"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D011314"^^xsd:anyURI,
-        rdfs:label "preventive health service"@en
+        rdfs:label "preventive health service"@en,
+        obo:IAO_0000115 "Services designed for health promotion."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001785>
@@ -58807,6 +59107,7 @@ Class: <http://purl.bioontology.org/ontology/MESH/D054525>
 Class: <http://purl.bioontology.org/ontology/MESH/D055502>
 
     Annotations: 
+        obo:IAO_0000115 "Methods to detect and address an existing disease prior to the appearance of symptoms. Examples include treatment of hypertension (a risk factor for many cardiovascular diseases), cancer screenings."@en,
         rdfs:label "secondary prevention"@en
     
     SubClassOf: 
@@ -58816,7 +59117,8 @@ Class: <http://purl.bioontology.org/ontology/MESH/D055502>
 Class: <http://purl.bioontology.org/ontology/MESH/D055512>
 
     Annotations: 
-        rdfs:label "tertiary prevention"@en
+        rdfs:label "tertiary prevention"@en,
+        obo:IAO_0000115 "Methods to reduce the harm of symptomatic disease, such as disability or death, through rehabilitation and treatment. Examples include surgical procedures that halt the spread or progression of disease."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/MESH/D011314>
