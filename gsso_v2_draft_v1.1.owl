@@ -2218,8 +2218,8 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004765>
 Class: <http://bioportal.bioontology.org/ontology/GSSO/004766>
 
     Annotations: 
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D004325"^^xsd:anyURI,
         rdfs:label "dream"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D004325"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Dream"^^xsd:anyURI,
         schema:alternateName "dreams"@en,
         oboInOwl:hasRelatedSynonym "dreams"@en,
@@ -4033,12 +4033,298 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004896>
 Class: <http://bioportal.bioontology.org/ontology/GSSO/004897>
 
     Annotations: 
-        rdfs:label "sexual minority youth"@en,
         obo:IAO_0000115 "An adolescent person belonging to any of various sexual minority groups."@en,
+        rdfs:label "sexual minority youth"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2004011606"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001455>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004898>
+
+    Annotations: 
+        obo:IAO_0000115 "Romantic attraction which one does not want to have reciprocated."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        rdfs:label "lithromantic"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/000713>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004899>
+
+    Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        rdfs:label "panromantic"@en,
+        obo:IAO_0000115 "Romantic attraction to persons of any gender and/or regardless of their gender."@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/000713>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004900>
+
+    Annotations: 
+        oboInOwl:hasRelatedSynonym "relationship orientation"@en,
+        rdfs:label "sociosexual orientation"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sociosexual_orientation"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q17157349"^^xsd:anyURI,
+        obo:IAO_0000115 "The individual difference in the willingness to engage in sexual activity outside of a committed relationship."@en
+    
+    SubClassOf: 
+        <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19332>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004901>
+
+    Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        rdfs:label "monoamory"@en,
+        oboInOwl:hasRelatedSynonym "monoamorous"@en,
+        obo:IAO_0000115 "Relationship practices in which one only has one intimate partnership at a time."@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004900>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004902>
+
+    Annotations: 
+        oboInOwl:hasRelatedSynonym "polyamorous"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
+        rdfs:label "polyamory"@en,
+        obo:IAO_0000115 "Relationship practices in which one has more than one intimate partnership simultaneously."@en,
+        Property:P1813 "poly"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004900>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004903>
+
+    Annotations: 
+        rdfs:label "asexual and biromantic person"@en,
+        schema:alternateName "asexual and biromantic persons"@en,
+        
+            Annotations: schema:alternateName "bi-asexuals"@en
+        Property:P1813 "bi-asexual"@en,
+        schema:alternateName "asexual and biromantic people"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004906>,
+        <http://purl.bioontology.org/ontology/GSSO/000387>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004904>
+
+    Annotations: 
+        oboInOwl:hasSynonym "gay-A"@en,
+        schema:alternateName "asexual and homoromantic people"@en,
+        
+            Annotations: schema:alternateName "homo-asexuals"@en
+        Property:P1813 "homo-asexual"@en,
+        rdfs:label "asexual and homoromantic person"@en,
+        schema:alternateName "asexual and homoromantic persons"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004907>,
+        <http://purl.bioontology.org/ontology/GSSO/000387>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004905>
+
+    Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        rdfs:label "asexual and heteroromantic person"@en,
+        oboInOwl:hasSynonym "straight-A"@en,
+        
+            Annotations: schema:alternateName "hetero-asexuals"@en
+        Property:P1813 "hetero-asexual"@en,
+        schema:alternateName "asexual and heteroromantic persons"@en,
+        schema:alternateName "asexual and heteroromantic people"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004908>,
+        <http://purl.bioontology.org/ontology/GSSO/000387>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004906>
+
+    Annotations: 
+        rdfs:label "biromantic person"@en,
+        schema:alternateName "biromantic persons"@en,
+        schema:alternateName "biromantic people"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003101>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004907>
+
+    Annotations: 
+        rdfs:label "homoromantic person"@en,
+        schema:alternateName "homoromantic people"@en,
+        schema:alternateName "homoromantic persons"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003101>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004908>
+
+    Annotations: 
+        schema:alternateName "heteroromantic persons"@en,
+        rdfs:label "heteroromantic person"@en,
+        schema:alternateName "heteroromantic people"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003101>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004909>
+
+    Annotations: 
+        rdfs:label "primary sexual attraction"@en,
+        obo:IAO_0000115 "Instant sense of sexual attraction."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        oboInOwl:hasRelatedSynonym "love at first sight"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/001219>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004910>
+
+    Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        rdfs:label "secondary sexual attraction"@en,
+        obo:IAO_0000115 "Sexual attraction which becomes stronger based on the quality and length of the relationship."@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/001219>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004911>
+
+    Annotations: 
+        Property:P3938 "Anthony Bogaert",
+        obo:IAO_0000115 "Sexuality in which a person can be aroused by sexual material (such as pornography) and who participates in sex acts like masturbation, but otherwise has no interest in having a sexual partner or external sexual interactions."@en,
+        rdfs:label "autochorisexuality"@en,
+        oboInOwl:hasSynonym "autochorissexuality"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>, 
+                         oboInOwl:hasSynonym "autochorissexual"@en, 
+                         schema:alternateName "autochorisexuals"@en
+        oboInOwl:hasRelatedSynonym "autochorisexual"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/000711>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004912>
+
+    Annotations: 
+        rdfs:label "compulsory sexuality"@en,
+        obo:IAO_0000115 "The belief that every person should be either sexually available or in a sexual relationship."@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/000419>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004913>
+
+    Annotations: 
+        obo:IAO_0000115 "One who advocates for asexual people."@en,
+        oboInOwl:hasRelatedSynonym "AS3"@en,
+        schema:alternateName "asexuality advocates"@en,
+        rdfs:label "asexuality advocate"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/002009>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004914>
+
+    Annotations: 
+        rdfs:label "open defecation"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Open_defecation"^^xsd:anyURI,
+        obo:IAO_0000115 "The human practice of defecating outside (in the open environment) rather than into a toilet. People may choose fields, bushes, forests, ditches, streets, canals or other open space for defecation. They do so because either they do not have a toilet readily accessible or due to traditional cultural practices."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q17072861"^^xsd:anyURI
+    
+    SubClassOf: 
+        obo:GO_0030421
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004915>
+
+    Annotations: 
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
+        oboInOwl:hasRelatedSynonym "brown shower"@en,
+        rdfs:label "erotic defecation"@en,
+        obo:IAO_0000115 "Defecation considered erotic and/or sexual in nature."@en
+    
+    SubClassOf: 
+        obo:GO_0030421
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004916>
+
+    Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
+        obo:IAO_0000115 "A bondage technique which involves the securing of one's hair in order to limit the mobility of one's head."@en,
+        rdfs:label "hair bondage"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/001303>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004917>
+
+    Annotations: 
+        rdfs:label "informed consent"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
+    
+    SubClassOf: 
+        <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25460>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004918>
+
+    Annotations: 
+        schema:alumniOf "BDSM events"@en,
+        rdfs:label "BDSM event"@en,
+        obo:IAO_0000115 "Events pertaining to or focused on BDSM or some aspects of BDSM."@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/000991>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004919>
+
+    Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
+        rdfs:label "play party"@en,
+        obo:IAO_0000115 "A gathering of persons for the purpose of engaging in BDSM."@en,
+        schema:alternateName "play parties"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004918>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004920>
+
+    Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
+        obo:IAO_0000115 "A polyamorous group of persons committed to one another, not having sexual and/or romantic ties to others outside of the group."@en,
+        rdfs:label "polyfidelity"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/004688>
     
     
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C100055>
@@ -4363,6 +4649,7 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C155696>
         terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
         Property:P1889 <http://purl.obolibrary.org/obo/GO_0019954>,
         Property:P1813 "A"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         oboInOwl:hasSynonym "asexual orientation"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
         rdfs:label "asexual"@en,
@@ -4796,6 +5083,7 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17357>
         terms:isReferencedBy <https://web.archive.org/web/20180310211422/https://www.pflag.org/glossary>,
         Property:P1659 <http://purl.bioontology.org/ontology/MESH/D005783>,
         schema:alternateName "genders"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         Property:P5191 "gendre"@fr
     
     SubClassOf: 
@@ -5249,6 +5537,7 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25457>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25460>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Consent"^^xsd:anyURI,
         obo:IAO_0000115 "Permission to do something."@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25460"^^xsd:anyURI,
@@ -5430,8 +5719,9 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28344>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28421>
 
     Annotations: 
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012723"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sex"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012723"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -5445,8 +5735,8 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28421>
         rdfs:comment "\"Sex\" is an extremely complicated term with many different meanings, both historical and contemporarily, as well as colloquially. This entry is a placeholder when it is unclear whether biological sex or psychological sex (gender) is being referred to; hence, why \"gender\" is a subclass of it."@en,
         Property:P1889 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84361>,
         terms:isReferencedBy <http://web.archive.org/web/20060619163743/http://cydathria.com:80/ms_donna/tg_def.html>,
-        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85120549"^^xsd:anyURI,
         terms:isReferencedBy <https://web.archive.org/web/20150129083316/http://web.archive.org:80/web/19990427014012/www.chaparraltree.com/raq/angels.shtml>,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85120549"^^xsd:anyURI,
         Property:P1889 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17357>
     
     SubClassOf: 
@@ -7119,14 +7409,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000089>
             Annotations: Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/446141000124107"^^xsd:anyURI
         terms:replaces "identifies as female gender"@en,
         rdfs:label "female gender identity"@en,
-        obo:IAO_0000115 "Having an identity considered female."@en,
         Property:P1813 "female"@en,
+        obo:IAO_0000115 "Having an identity considered female."@en,
         
             Annotations: schema:identifier "http://purl.obolibrary.org/obo/OMRSE_00000138"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "female gender identity datum"@en,
         
             Annotations: schema:alternateName "female identities"@en
         Property:P1813 "female identity"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
     
     SubClassOf: 
@@ -7144,6 +7435,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000090>
             Annotations: Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/446151000124109"^^xsd:anyURI
         terms:replaces "identifies as male gender"@en,
         rdfs:label "male gender identity"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
             Annotations: schema:alternateName "male identities"@en
@@ -7204,6 +7496,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000093>
         terms:isReferencedBy <https://web.archive.org/web/20190816225156/https://www.hrc.org/resources/glossary-of-terms>,
         terms:replaces <http://purl.bioontology.org/ontology/GSSO/001290>,
         obo:IAO_0000115 "Usage of masculine, feminine, other gendered, ungendered, and ambiguous clothing, behavior, posture, mannerisms, speech patterns, and activites, among other things."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         oboInOwl:hasSynonym "androgynous"@en,
         oboInOwl:hasSynonym "androgyn"@en
     
@@ -7257,6 +7550,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000096>
         terms:replaces <http://purl.bioontology.org/ontology/GSSO/001287>,
         terms:isReferencedBy <https://doi.org/10.1080/15532739.2018.1428842>,
         terms:isReferencedBy <https://web.archive.org/web/20190825114006/https://myslutbox.com/queer-dictionary/>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         obo:IAO_0000115 "Not identifying with culturally conventional gender roles and categories of male or female; having changed gender identity from male to female or female to male, or identifying with elements of both, or having some other gender identity; or, pertaining to such people."@en,
         terms:isReferencedBy <https://web.archive.org/web/20190807165352/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions/>,
         obo:IAO_0000115 "Transgender people have a gender identity or gender expression that differs from their assigned sex. In some select cases, transgender people are sometimes called transsexual if they desire medical assistance to transition from one sex to another. \"Transgender\" is also an umbrella term: in addition to including people whose gender identity is the opposite of their assigned sex (trans men and trans women), it may include people who are not exclusively masculine or feminine (people who are genderqueer or non-binary, including bigender, pangender, genderfluid, or agender). Other definitions of transgender also include people who belong to a third gender, or else conceptualize transgender people as a third gender."@en,
@@ -7282,6 +7576,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000096>
         obo:IAO_0000115 "Having a gender (identity) which is different from the sex one was assigned at birth: being assigned male at birth but having a female gender or vice versa; or, pertaining to such people."@en,
         terms:isReferencedBy <https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary>,
         rdfs:comment "\"Transgender\" is an adjective and should not be formed into a collective noun. This terminology is often used by anti-transgender activists aiming to dehumanize transgender people."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Transgender"^^xsd:anyURI,
         terms:isReferencedBy <https://web.archive.org/web/20190816225156/https://www.hrc.org/resources/glossary-of-terms>
     
@@ -7393,6 +7688,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000109>
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary>,
         terms:isReferencedBy <https://web.archive.org/web/20190816225156/https://www.hrc.org/resources/glossary-of-terms>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         rdfs:comment "Intersex is an umbrella term with a complex history. It is usually used to refer to persons with congenital conditions which involve differences in the many intertwined processes of sexual development."@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45908"^^xsd:anyURI,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28421>,
@@ -7765,6 +8061,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000130>
 Class: <http://purl.bioontology.org/ontology/GSSO/000131>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         obo:IAO_0000115 "Genderqueer is a catch-all category for gender identities that are not exclusively masculine or feminine‍--identities which are outside the gender binary and cisnormativity."@en,
         
@@ -8200,9 +8497,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000177>
 Class: <http://purl.bioontology.org/ontology/GSSO/000178>
 
     Annotations: 
-        obo:IAO_0000115 "A group of internetworking methods, protocols, and specifications in the Internet protocol suite that are used to transport network packets from the originating host across network boundaries, if necessary, to the destination host specified by an IP address."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Internet_layer"^^xsd:anyURI,
-        rdfs:label "internet layer"@en
+        rdfs:label "internet layer"@en,
+        obo:IAO_0000115 "A group of internetworking methods, protocols, and specifications in the Internet protocol suite that are used to transport network packets from the originating host across network boundaries, if necessary, to the destination host specified by an IP address."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000175>
@@ -8594,10 +8891,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000233>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/LGBT_community"^^xsd:anyURI,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000586>,
         rdfs:label "LGBTQ community"@en,
+        oboInOwl:hasRelatedSynonym "queer community"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/queerCommunity"^^xsd:anyURI,
-        oboInOwl:hasRelatedSynonym "queer community"@en,
         schema:alternateName "LGBTQ communities"@en
     
     SubClassOf: 
@@ -8653,10 +8950,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000237>
     Annotations: 
         schema:alternateName "transgender communities"@en,
         obo:IAO_0000115 "A defined grouping of transgender persons, organizations, and subcultures, united by a common culture and social movements."@en,
-        terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
         
             Annotations: schema:alternateName "trans communities"@en
         Property:P1813 "trans community"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
         rdfs:label "transgender community"@en,
         
             Annotations: oboInOwl:hasSynonym "transexual community"@en, 
@@ -8736,15 +9033,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000242>
 Class: <http://purl.bioontology.org/ontology/GSSO/000243>
 
     Annotations: 
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q29641323"^^xsd:anyURI,
-        schema:alternateName "womyn's lands"@en,
         
             Annotations: schema:alternateName "women's lands"@en
         oboInOwl:hasSynonym "women's land"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q29641323"^^xsd:anyURI,
+        schema:alternateName "womyn's lands"@en,
+        rdfs:label "womyn's land"@en,
         
             Annotations: schema:alternateName "landdyke communities"@en
         oboInOwl:hasSynonym "landdyke community"@en,
-        rdfs:label "womyn's land"@en,
         rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/001180>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Womyn%27s_land"^^xsd:anyURI,
         
@@ -9113,9 +9410,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000268>
 
     Annotations: 
         rdfs:label "leather subculture"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000244>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         obo:IAO_0000115 "Practices and styles of dress organized around sexual activities that involve leather garments, such as leather jackets, vests, boots, chaps, harnesses, or other items."@en,
+        oboInOwl:hasSynonym "leather culture"@en,
         Property:P1813 "leather"@en
     
     SubClassOf: 
@@ -9529,7 +9828,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000304>
     Annotations: 
         schema:alternateName "phallic symbols"@en,
         rdfs:label "phallic symbol"@en,
-        obo:IAO_0000115 "Any of various symbols related to masculinity or male genitalia, especially the penis."@en
+        obo:IAO_0000115 "Any of various symbols related to masculinity or male genitalia, especially the penis."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000301>
@@ -9926,15 +10226,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000372>
 
     Annotations: 
         terms:replaces "female to male transsexual person on hormone therapy"@en,
-        rdfs:label "transgender man"@en,
-        terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
-        
-            Annotations: schema:alternateName "trans men"@en
-        Property:P1813 "trans man"@en,
         
             Annotations: terms:isReferencedBy <https://doi.org/10.1111/tbj.13417>, 
                          terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
                          terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>, 
                          oboInOwl:hasExactSynonym "female to male transgender person"@en, 
                          oboInOwl:hasRelatedSynonym "female to male"@en, 
                          oboInOwl:hasRelatedSynonym "female to male transgender"@en, 
@@ -9948,6 +10245,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000372>
                          Property:P1813 "female-to-male"@en, 
                          Property:P1813 "female-to-male transgender"@en
         terms:replaces "female-to-male transgender person"@en,
+        rdfs:label "transgender man"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
+        
+            Annotations: schema:alternateName "trans men"@en
+        Property:P1813 "trans man"@en,
         terms:isReferencedBy <https://doi.org/10.1016/j.urology.2019.06.010>,
         obo:IAO_0000115 "A man who was assigned female at birth."@en,
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
@@ -9960,8 +10262,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000372>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/FtMs"^^xsd:anyURI,
-        terms:replaces "female-to-male transsexual"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2018002395"^^xsd:anyURI,
+        terms:replaces "female-to-male transsexual"@en,
         
             Annotations: schema:alternateName "transmen"@en
         terms:replaces "transman"@en,
@@ -10267,9 +10569,23 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000384>
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0044>,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2016.0001>,
         terms:replaces <http://purl.bioontology.org/ontology/GSSO/003927>,
+        terms:isReferencedBy <https://doi.org/10.1089/apc.2019.0013>,
+        
+            Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
+        schema:identifier "http://homosaurus.org/v2/MtFs"^^xsd:anyURI,
+        terms:replaces <http://purl.bioontology.org/ontology/GSSO/002433>,
+        terms:replaces "surgically transgendered transsexual, male-to-female"@en,
+        terms:isReferencedBy <https://doi.org/10.1089/trgh.2018.0001>,
+        rdfs:comment "Note that, because \"transgender\" is an adjective, \"trans woman\" is preferable to \"transwoman\"."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary>,
+        oboInOwl:hasRelatedSynonym "transsexual woman"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2018002623"^^xsd:anyURI,
+        rdfs:label "transgender woman"@en,
         
             Annotations: terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
                          terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>, 
                          oboInOwl:hasRelatedSynonym "male to female"@en, 
                          oboInOwl:hasRelatedSynonym "male-to-female transgender individual"@en, 
                          oboInOwl:hasRelatedSynonym "male-to-female transgender individuals"@en, 
@@ -10284,18 +10600,6 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000384>
                          Property:P1813 "male-to-female"@en, 
                          Property:P1813 "male-to-female transgender"@en
         terms:replaces "male-to-female transgender person"@en,
-        terms:isReferencedBy <https://doi.org/10.1089/apc.2019.0013>,
-        
-            Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        schema:identifier "http://homosaurus.org/v2/MtFs"^^xsd:anyURI,
-        terms:replaces <http://purl.bioontology.org/ontology/GSSO/002433>,
-        terms:replaces "surgically transgendered transsexual, male-to-female"@en,
-        terms:isReferencedBy <https://doi.org/10.1089/trgh.2018.0001>,
-        rdfs:comment "Note that, because \"transgender\" is an adjective, \"trans woman\" is preferable to \"transwoman\"."@en,
-        terms:isReferencedBy <https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary>,
-        oboInOwl:hasRelatedSynonym "transsexual woman"@en,
-        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2018002623"^^xsd:anyURI,
-        rdfs:label "transgender woman"@en,
         terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
@@ -10371,11 +10675,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000387>
         
             Annotations: schema:alternateName "asexuals"@en
         Property:P1813 "asexual"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>, 
+                         schema:alternateName "amoebas"@en
+        oboInOwl:hasRelatedSynonym "amoeba"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Asexual_people"^^xsd:anyURI,
         Property:P1889 <http://purl.obolibrary.org/obo/GO_0019954>,
-        oboInOwl:hasRelatedSynonym "amoeba"@en,
-        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2016000237"^^xsd:anyURI,
         Property:P1659 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C155696>,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2016000237"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/asexualPeople"^^xsd:anyURI,
@@ -10805,7 +11112,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000410>
         obo:IAO_0000115 "Someone whose gender identity is only partly male, regardless of their assigned gender at birth. They may or may not identify as another gender in addition to feeling partially a boy or man. They may also define their identity as both male and genderless (agender)."@en,
         oboInOwl:hasExactSynonym "demi-boy"@en,
         rdfs:label "demiboy"@en,
-        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
+        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>, 
+                         schema:alternateName "demiguys"@en
+        oboInOwl:hasRelatedSynonym "demiguy"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000394>,
@@ -10818,6 +11129,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000411>
         oboInOwl:hasExactSynonym "demi-girl"@en,
         obo:IAO_0000115 "A person having a gender identity which is partially, but not wholly, female or feminine, whatever their assigned gender at birth. They may or may not identify as another gender in addition to feeling partially a girl or woman."@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         rdfs:label "demigirl"@en
     
     SubClassOf: 
@@ -14280,10 +14592,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000704>
     Annotations: 
         rdfs:label "pansexuality"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Pansexuality"^^xsd:anyURI,
-        oboInOwl:hasSynonym "omnisexuality"@en,
         obo:IAO_0000115 "A sexual orientation characterized by the potential for aesthetic attraction, romantic love and/or sexual desire for people, regardless of their gender identity or biological sex."@en,
+        oboInOwl:hasRelatedSynonym "pansexual"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q271534"^^xsd:anyURI,
-        terms:replaces "pansexualism"@en
+        terms:replaces "pansexualism"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         oboInOwl:hasRelatedSynonym "omnisexual"@en
+        oboInOwl:hasSynonym "omnisexuality"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000702>
@@ -14404,6 +14721,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000711>
         rdfs:label "gray asexuality"@en,
         oboInOwl:hasSynonym "gray sexuality"@en,
         obo:IAO_0000115 "The spectrum between asexuality and sexuality."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q8354594"^^xsd:anyURI
     
     SubClassOf: 
@@ -15211,6 +15529,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000771>
     Annotations: 
         
             Annotations: terms:isReferencedBy <https://books.google.com/books/?id=TYyGAAAAIAAJ>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
                          oboInOwl:hasRelatedSynonym "fellatant"@en, 
                          oboInOwl:hasRelatedSynonym "fellate"@en, 
                          oboInOwl:hasRelatedSynonym "fellatory"@en, 
@@ -15771,16 +16090,17 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000813>
 
     Annotations: 
         Property:P3095 "cunnilinctor"@en,
-        
-            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190718081539/http://www.sex-lexis.com/>, 
-                         oboInOwl:hasRelatedSynonym "cunnilinguistic"@en
-        oboInOwl:hasSynonym "cunnilingus"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cunnilingus"^^xsd:anyURI,
         
             Annotations: oboInOwl:hasRelatedSynonym "cunnilinctual"@en, 
                          oboInOwl:hasRelatedSynonym "cunnilingue"@en, 
                          oboInOwl:hasRelatedSynonym "cunnilinguing"@en
         oboInOwl:hasSynonym "cunnilinctus"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190718081539/http://www.sex-lexis.com/>, 
+                         oboInOwl:hasRelatedSynonym "cunnilinguistic"@en
+        oboInOwl:hasSynonym "cunnilingus"@en,
         
             Annotations: terms:isReferencedBy <https://books.google.com/books/?id=TYyGAAAAIAAJ>, 
                          oboInOwl:hasRelatedSynonym "cunnilinctrixes"@en, 
@@ -17487,8 +17807,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000947>
         obo:IAO_0000115 "Large public gatherings, marches, etc., organized for non-violent protest or affirmation in support of LGBTQ civil rights issues."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT_civil_rights_demonstrations"^^xsd:anyURI,
         schema:alternateName "LGBTQ civil rights demonstrations"@en,
-        rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/000939>,
         oboInOwl:hasNarrowSynonym "LGBT civil rights demonstration"@en,
+        rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/000939>,
         rdfs:label "LGBTQ civil rights demonstration"@en
     
     SubClassOf: 
@@ -18281,8 +18601,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001025>
 
     Annotations: 
         schema:alternateName "American ethnic groups"@en,
-        rdfs:label "American ethnic group"@en,
-        obo:IAO_0000115 "Any of various ethnic groups located primarily on either of the Americas."@en
+        obo:IAO_0000115 "Any of various ethnic groups located primarily on either of the Americas."@en,
+        rdfs:label "American ethnic group"@en
     
     SubClassOf: 
         <http://www.ebi.ac.uk/efo/EFO_0001799>
@@ -18400,8 +18720,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001034>
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q402913"^^xsd:anyURI,
         rdfs:label "Bengali"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bengalis"^^xsd:anyURI,
-        schema:alternateName "Bengalis"@en,
-        obo:IAO_0000115 "An Indo-Aryan ethnic group native to the Bengal region in South Asia, specifically in the eastern part of the Indian subcontinent, presently divided between Bangladesh and the Indian states of West Bengal, Tripura, Assam's Barak Valley, who speak Bengali, a language from the Indo-Aryan language family."@en
+        obo:IAO_0000115 "An Indo-Aryan ethnic group native to the Bengal region in South Asia, specifically in the eastern part of the Indian subcontinent, presently divided between Bangladesh and the Indian states of West Bengal, Tripura, Assam's Barak Valley, who speak Bengali, a language from the Indo-Aryan language family."@en,
+        schema:alternateName "Bengalis"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001029>
@@ -18440,8 +18760,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001037>
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85073143"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Koreans"^^xsd:anyURI,
         schema:alternateName "Koreans"@en,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q484464"^^xsd:anyURI,
         obo:IAO_0000115 "An East Asian ethnic group native to Korea and southwestern Manchuria. Koreans mainly live in the two Korean states: North Korea and South Korea (collectively and simply referred to as Korea)."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q484464"^^xsd:anyURI,
         rdfs:label "Korean"@en
     
     SubClassOf: 
@@ -19606,8 +19926,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001150>
         terms:replaces "erotic minority"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q589656"^^xsd:anyURI,
         schema:alternateName "sexual minorities"@en,
-        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2004003385"^^xsd:anyURI,
         rdfs:label "sexual minority"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2004003385"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sexual_minority"^^xsd:anyURI,
         obo:IAO_0000115 "A group whose sexual identity, orientation or practices differ from the majority of the surrounding society."@en,
         
@@ -19796,11 +20116,18 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001166>
 
     Annotations: 
         schema:alternateName "allosexual people"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         Property:P1813 "allo"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        
+            Annotations: schema:alternateName "allosexuals"@en
         Property:P1813 "allosexual"@en,
         rdfs:label "allosexual person"@en,
-        terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>
+        terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
+        
+            Annotations: schema:alternateName "sexual people"@en, 
+                         schema:alternateName "sexual persons"@en
+        oboInOwl:hasRelatedSynonym "sexual person"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004365>
@@ -19944,16 +20271,17 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001176>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "ass-blow"@en,
-        
-            Annotations: oboInOwl:hasExactSynonym "analingus"@en
-        oboInOwl:hasSynonym "anilingus"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Anilingus"^^xsd:anyURI,
         oboInOwl:hasExactSynonym "oral anal stimulation"@en,
         rdfs:label "oral-anal stimulation"@en,
         
             Annotations: oboInOwl:hasRelatedSynonym "anilinctual"@en, 
                          oboInOwl:hasRelatedSynonym "anilingue"@en
-        oboInOwl:hasRelatedSynonym "anilinctus"@en
+        oboInOwl:hasRelatedSynonym "anilinctus"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         oboInOwl:hasExactSynonym "analingus"@en
+        oboInOwl:hasSynonym "anilingus"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001175>
@@ -20484,14 +20812,17 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001228>
     Annotations: 
         rdfs:label "queerplatonic relationship"@en,
         obo:IAO_0000115 "Relationships that are not romantic in nature, but involve very close emotional connections that are often deeper or more intense than traditional friendship."@en,
-        schema:alternateName "queerplatonic relationships"@en,
         Property:P1813 "queerplatonic"@en,
-        oboInOwl:hasRelatedSynonym "quasiplatonic relationship"@en,
+        schema:alternateName "queerplatonic relationships"@en,
         Property:P1813 "QPR"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
+        
+            Annotations: schema:alternateName "quasiplatonic relationships"@en
+        oboInOwl:hasRelatedSynonym "quasiplatonic relationship"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q55104469"^^xsd:anyURI,
         terms:isReferencedBy <https://web.archive.org/web/20190711035412/https://lgbtq.unc.edu/sites/lgbtq.unc.edu/files/documents/Asexuality%20and%20Romantic%20Orientation%20May%202017.docx>,
-        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
+        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000828>
@@ -20750,18 +21081,19 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001248>
 Class: <http://purl.bioontology.org/ontology/GSSO/001249>
 
     Annotations: 
-        terms:replaces "zooerasty"@en,
-        schema:alternateName "zoophilic behaviors"@en,
-        
-            Annotations: terms:source <https://catalog.hathitrust.org/Record/100470674>
-        Property:P1683 "Bestiality: Sexual intercourse with all living animals except man."@en,
         
             Annotations: terms:isReferencedBy <https://catalog.hathitrust.org/Record/003517086>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
                          oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q830532"^^xsd:anyURI, 
                          wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85013441"^^xsd:anyURI, 
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/81463002"^^xsd:anyURI, 
                          Property:P699 "http://purl.obolibrary.org/obo/DOID_9336"^^xsd:anyURI
         oboInOwl:hasSynonym "bestiality"@en,
+        terms:replaces "zooerasty"@en,
+        schema:alternateName "zoophilic behaviors"@en,
+        
+            Annotations: terms:source <https://catalog.hathitrust.org/Record/100470674>
+        Property:P1683 "Bestiality: Sexual intercourse with all living animals except man."@en,
         rdfs:label "zoophilic behavior"@en,
         obo:IAO_0000115 "Sexual relations between a person and an animal as the result of zoophilic interests."@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/001250>,
@@ -20784,6 +21116,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001250>
         rdfs:label "zoophilia"@en,
         Property:P5191 "zoo-"@en,
         Property:P5191 "-philia"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q8392"^^xsd:anyURI,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/001249>,
         obo:IAO_0000115 "A paraphilia involving a sexual fixation on non-human animals."@en,
@@ -20961,6 +21294,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001261>
             Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
         dc:identifier 302.90,
         
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         oboInOwl:hasExactSynonym "water-sports"@en
+        oboInOwl:hasRelatedSynonym "watersports"@en,
+        
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/waterSports"^^xsd:anyURI,
         Property:P5191 "-philia"@en,
@@ -20971,9 +21308,6 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001261>
         obo:IAO_0000115 "A paraphilia in which sexual excitement is associated with the sight or thought of urine or urination."@en,
         Property:P663 302.9,
         Property:P3095 "urophile"@en,
-        
-            Annotations: oboInOwl:hasExactSynonym "water-sports"@en
-        oboInOwl:hasRelatedSynonym "watersports"@en,
         oboInOwl:hasRelatedSynonym "urophilic"@en,
         rdfs:label "urophilia"@en
     
@@ -20997,6 +21331,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001262>
 Class: <http://purl.bioontology.org/ontology/GSSO/001265>
 
     Annotations: 
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10034216"^^xsd:anyURI
+        Property:P3095 "pedophile"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q8388"^^xsd:anyURI,
         Property:P663 302.2,
         Property:P1692 302.2,
@@ -21012,9 +21350,6 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001265>
         dc:identifier 302.20,
         Property:P4229 "F65.4",
         rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/002183>,
-        
-            Annotations: Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10034216"^^xsd:anyURI
-        Property:P3095 "pedophile"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/84002002"^^xsd:anyURI,
         Property:P5191 "-philia"@en,
         oboInOwl:hasExactSynonym "paedophilia"@en,
@@ -21035,10 +21370,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001289>
 
     Annotations: 
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/001265>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         schema:alternateName "pedophilic behaviors"@en,
         Property:P5191 <http://purl.obolibrary.org/obo/GO_0007610>,
         rdfs:label "pedophilic behavior"@en,
         obo:IAO_0000115 "Sexual behavior involving young adolescents or children in a sense that is nonnormative and typically criminal in the given society, such as child rape in the contemporary United States."@en,
+        oboInOwl:hasRelatedSynonym "pedophilism"@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/002179>
     
     SubClassOf: 
@@ -21091,10 +21428,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001292>
 Class: <http://purl.bioontology.org/ontology/GSSO/001293>
 
     Annotations: 
-        Property:P3095 "sadist"@en,
         rdfs:label "sadism"@en,
         obo:IAO_0000115 "A condition in which there is a derivation of pleasure from inflicting pain, discomfort or humiliation on another person or persons."@en,
         Property:P1813 "S"@en,
+        
+            Annotations: schema:alternateName "sadists"@en
+        Property:P3095 "sadist"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasRelatedSynonym "sadistic"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -21134,7 +21474,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001295>
 
     Annotations: 
         obo:IAO_0000115 "Sadism and masochism: the enjoyment by one person of both inflicting and receiving pain."@en,
-        rdfs:label "sadomasochism"@en
+        rdfs:label "sadomasochism"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001291>,
@@ -21198,9 +21539,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001301>
         Property:P1813 "BD"@en,
         Property:P1813 "bd"@en,
         Property:P1813 "B & D"@en,
+        oboInOwl:hasExactSynonym "bondage & discipline"@en,
         Property:P1813 "b & d"@en,
         Property:P1813 "B&D"@en,
         obo:IAO_0000115 "A set of various sadomasochistic behaviors or activities involving a restrained partner or partners who is disciplined, either verbally, physically, or psychologically by another partner or partners."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         Property:P1813 "B-&-D"@en,
         Property:P1813 "B and D"@en,
         Property:P1813 "b and d"@en,
@@ -21244,6 +21587,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001303>
         rdfs:label "bondage"@en,
         oboInOwl:hasRelatedSynonym "sexual bondage"@en,
         Property:P1813 "B"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasRelatedSynonym "erotic bondage"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bondage_(BDSM)"^^xsd:anyURI,
         obo:IAO_0000115 "The practice of consensually tying, binding, or restraining a partner for erotic, aesthetic, or somatosensory stimulation. A partner may be physically restrained in a variety of ways, including the use of rope, cuffs, bondage tape, or self-adhering bandage."@en
@@ -21258,6 +21602,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001304>
         rdfs:label "discipline"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Discipline_(BDSM)"^^xsd:anyURI,
         obo:IAO_0000115 "The practice where the dominant sets rules for the submissive that they are expected to obey."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3029790"^^xsd:anyURI,
         Property:P1813 "D"@en
     
@@ -21298,6 +21643,18 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001307>
 
     Annotations: 
         rdfs:label "sexual fetishism"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         oboInOwl:hasRelatedSynonym "fetish"@en, 
+                         oboInOwl:hasRelatedSynonym "fetishes"@en, 
+                         oboInOwl:hasRelatedSynonym "fetishistic"@en, 
+                         oboInOwl:hasRelatedSynonym "fetishists"@en, 
+                         schema:alternateName "fetishisms"@en, 
+                         Property:P1692 302.81, 
+                         Property:P3095 "fetishist"@en, 
+                         Property:P4229 "F65.0", 
+                         Property:P663 302.81
+        Property:P1813 "fetishism"@en,
         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10016531"^^xsd:anyURI,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/59174009"^^xsd:anyURI,
         Property:P699 "http://purl.obolibrary.org/obo/DOID_1235"^^xsd:anyURI,
@@ -21309,17 +21666,6 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001307>
         
             Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
         dc:identifier 302.91,
-        
-            Annotations: oboInOwl:hasRelatedSynonym "fetish"@en, 
-                         oboInOwl:hasRelatedSynonym "fetishes"@en, 
-                         oboInOwl:hasRelatedSynonym "fetishistic"@en, 
-                         oboInOwl:hasRelatedSynonym "fetishists"@en, 
-                         schema:alternateName "fetishisms"@en, 
-                         Property:P1692 302.81, 
-                         Property:P3095 "fetishist"@en, 
-                         Property:P4229 "F65.0", 
-                         Property:P663 302.81
-        Property:P1813 "fetishism"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/fetishism"^^xsd:anyURI,
@@ -21775,6 +22121,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001333>
 Class: <http://purl.bioontology.org/ontology/GSSO/001334>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3482254"^^xsd:anyURI,
         rdfs:label "breast bondage"@en,
         obo:IAO_0000115 "A bondage technique which involves the tying of rope around a woman's breasts in a visually intricate and decorative pattern."@en,
@@ -21816,8 +22163,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001337>
 
     Annotations: 
         rdfs:label "self-bondage"@en,
+        oboInOwl:hasExactSynonym "self bondage"@en,
         obo:IAO_0000115 "The use of restraints on oneself for erotic pleasure. It is a form of erotic bondage which can be practiced alone."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Self-bondage"^^xsd:anyURI,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1547792"^^xsd:anyURI
     
     SubClassOf: 
@@ -21910,6 +22259,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001343>
 Class: <http://purl.bioontology.org/ontology/GSSO/001344>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "forced feminization"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q120779"^^xsd:anyURI,
         oboInOwl:hasSynonym "sissification"@en,
@@ -21924,6 +22274,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001344>
 Class: <http://purl.bioontology.org/ontology/GSSO/001346>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         obo:IAO_0000115 "Play in which one takes on a role and enacts or plays that role out."@en,
         rdfs:label "role play"@en,
         
@@ -21994,6 +22345,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001350>
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q591536"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Animal_roleplay"^^xsd:anyURI,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
+        Property:P1813 "animal play"@en,
         obo:IAO_0000115 "A form of roleplay where at least one participant plays the part of a non-human animal."@en,
         oboInOwl:hasExactSynonym "animal roleplay"@en,
         rdfs:label "animal role play"@en
@@ -22021,7 +22374,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001352>
         obo:IAO_0000115 "A subjective term for activity (sexual or mentally manipulative) that may challenge the conventional S.S.C. (safe, sane and consensual) scheme observed in BDSM; if one is aware of the risks and consequences and is willing to accept them, then the activity is considered RACK (risk-aware consensual kink)."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Edgeplay"^^xsd:anyURI,
         rdfs:label "edgeplay"@en,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3719118"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3719118"^^xsd:anyURI,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001347>
@@ -22032,6 +22386,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001353>
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3177880"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Knife_play"^^xsd:anyURI,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "knife play"@en,
         obo:IAO_0000115 "A form of consensual BDSM edgeplay involving knives, daggers, and swords as a source of physical and mental stimulation."@en
     
@@ -22043,9 +22398,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001354>
 
     Annotations: 
         rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/001374>,
+        oboInOwl:hasExactSynonym "blood play"@en,
         rdfs:label "bloodplay"@en,
         obo:IAO_0000115 "Any sexual activity involving the use of blood to create sexual arousal."@en,
-        obo:IAO_0000115 "Sexual activity in which a participant is deliberately cut so as to release blood."@en
+        obo:IAO_0000115 "Sexual activity in which a participant is deliberately cut so as to release blood."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001352>
@@ -22069,7 +22426,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001356>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Temperature_play#Fire_play"^^xsd:anyURI,
         rdfs:label "fire play"@en,
         obo:IAO_0000115 "A form of temperature play that involves using flame on or very close to, the skin."@en,
-        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004122>
+        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004122>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001355>
@@ -22081,6 +22439,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001357>
         obo:IAO_0000115 "A form of temperature play practiced in a BDSM context. The idea of wax play is to introduce a slight burning sensation to the skin."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2229305"^^xsd:anyURI,
         rdfs:label "wax play"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Wax_play"^^xsd:anyURI
     
     SubClassOf: 
@@ -22685,8 +23044,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001453>
 Class: <http://purl.bioontology.org/ontology/GSSO/001454>
 
     Annotations: 
-        rdfs:label "ethnic minority youth"@en,
-        obo:IAO_0000115 "A young person belonging to any of various ethnic minority groups."@en
+        obo:IAO_0000115 "A young person belonging to any of various ethnic minority groups."@en,
+        rdfs:label "ethnic minority youth"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001453>
@@ -22859,8 +23218,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001464>
 Class: <http://purl.bioontology.org/ontology/GSSO/001465>
 
     Annotations: 
-        oboInOwl:hasExactSynonym "transgender and gender non-conforming adolescents"@en,
         obo:IAO_0000115 "An adolescent person who is transgender or otherwise gender nonconforming."@en,
+        oboInOwl:hasExactSynonym "transgender and gender non-conforming adolescents"@en,
         rdfs:label "transgender and gender nonconforming adolescents"@en
     
     SubClassOf: 
@@ -22871,11 +23230,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001466>
 
     Annotations: 
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000586>,
+        obo:IAO_0000115 "An adolescent person who is part of the LGBTQIA+ community or has an identity or identities considered LGBTQIA+."@en,
         
             Annotations: oboInOwl:hasSynonym "gay, lesbian, bisexual and transgender adolescents"@en, 
                          oboInOwl:hasSynonym "gay, lesbian, bisexual, and transgender adolescents"@en
         oboInOwl:hasNarrowSynonym "GLBT adolescents"@en,
-        obo:IAO_0000115 "An adolescent person who is part of the LGBTQIA+ community or has an identity or identities considered LGBTQIA+."@en,
         rdfs:label "LGBTQ adolescents"@en,
         oboInOwl:hasBroadSynonym "LGBTQIA+ adolescents"@en,
         oboInOwl:hasBroadSynonym "LGBTQIA adolescents"@en,
@@ -22977,8 +23336,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001473>
 
     Annotations: 
         rdfs:label "transfeminine adolescent"@en,
-        schema:alternateName "transfeminine adolescents"@en,
-        obo:IAO_0000115 "An adolescent person who is transfeminine."@en
+        obo:IAO_0000115 "An adolescent person who is transfeminine."@en,
+        schema:alternateName "transfeminine adolescents"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000393>,
@@ -26172,6 +26531,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001687>
         
             Annotations: Property:P486 "http://purl.bioontology.org/ontology/MESH/D046289"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "non-therapeutic body modification"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "body modification"@en,
         obo:IAO_0000115 "The deliberate altering of the human anatomy or human physical appearance."@en
     
@@ -26950,6 +27310,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001745>
     Annotations: 
         Property:P1813 "aro"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
         rdfs:label "aromantic"@en,
@@ -26964,6 +27325,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001745>
 Class: <http://purl.bioontology.org/ontology/GSSO/001746>
 
     Annotations: 
+        obo:IAO_0000115 "Romantic attraction to men and women."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         rdfs:label "biromantic"@en
     
     SubClassOf: 
@@ -27393,6 +27756,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001799>
     Annotations: 
         obo:IAO_0000115 "A love of men; sexual attraction to men; male-oriented teleiophilia."@en,
         rdfs:label "androphilia"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
+        oboInOwl:hasRelatedSynonym "androsexual"@en,
         oboInOwl:hasRelatedSynonym "androphilic"@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Androphilia_and_gynephilia"^^xsd:anyURI
@@ -27401,8 +27767,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001799>
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
         Property:P5191 "-philia"@en,
         Property:P3095 "androphile"@en,
-        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
-        oboInOwl:hasRelatedSynonym "androsexual"@en
+        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001235>
@@ -27421,6 +27786,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001800>
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
         oboInOwl:hasSynonym "gynophilia"@en,
         oboInOwl:hasRelatedSynonym "gynecophilic"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
+        oboInOwl:hasRelatedSynonym "gynosexual"@en,
         oboInOwl:hasRelatedSynonym "gynesexuality"@en,
         oboInOwl:hasRelatedSynonym "gynephilic"@en,
         Property:P5191 "gyne-"@en,
@@ -28025,11 +28393,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001842>
 Class: <http://purl.bioontology.org/ontology/GSSO/001843>
 
     Annotations: 
+        oboInOwl:hasRelatedSynonym "nonlibidoism"@en,
         oboInOwl:hasSynonym "libido lack"@en,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001850>,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/248096004"^^xsd:anyURI,
         rdfs:label "lack of libido"@en,
-        Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10024422"^^xsd:anyURI
+        obo:IAO_0000115 "The state of not having sex drive or libido."@en,
+        Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10024422"^^xsd:anyURI,
+        rdfs:comment "Note that, depending on the context, not having libido may simply represent a state of asexuality, which is, in itself, not necessarily abnormal."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001844>
@@ -28061,7 +28432,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001846>
 
     Annotations: 
         rdfs:label "low libido"@en,
-        oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001839>
+        oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001839>,
+        terms:replaces <http://purl.bioontology.org/ontology/GSSO/002198>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001844>
@@ -32499,7 +32871,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002206>
     Annotations: 
         obo:IAO_0000115 "Sexual role play in which one of the participants acts out canine mannerisms and behaviors, which are sometimes associated with leather culture."@en,
         rdfs:label "puppy play"@en,
+        oboInOwl:hasRelatedSynonym "K-9 role play"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Animal_roleplay#Puppy_play"^^xsd:anyURI,
+        
+            Annotations: oboInOwl:hasExactSynonym "pup-play"@en
         Property:P1813 "pup play"@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/000268>
     
@@ -32584,6 +32960,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002212>
                          oboInOwl:hasSynonym "voluntary celibate"@en, 
                          schema:alternateName "celibates"@en
         Property:P3095 "celibate"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         obo:IAO_0000115 "The state of voluntarily being unmarried, sexually abstinent, or both, usually for religious reasons."@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -32620,6 +32997,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002215>
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Chastity"^^xsd:anyURI,
         oboInOwl:hasNarrowSynonym "premarital chastity"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
+        rdfs:comment "Note that \"chastity\" may also refer to a form of erotic sexual denial practiced in BDSM communities, wherein a person (usually the submissive) is denied sexual stimulation, sometimes by means of an exterenal device (such as a chastity belt or cock cage)."@en,
         obo:IAO_0000115 "The state of refraining from premarital and extramarital sex, for primarily religious and/or cultural reasons."@en,
         rdfs:label "chastity"@en,
         oboInOwl:hasNarrowSynonym "extramarital chastity"@en,
@@ -33968,7 +34347,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002330>
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/pangenderIdentity"^^xsd:anyURI,
         
-            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190807165352/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions/>, 
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190807165352/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions/>, 
                          Property:P1813 "pangender"@en
         oboInOwl:hasRelatedSynonym "pangender identity"@en
     
@@ -34064,6 +34444,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002336>
         Property:P1813 "B"@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/000405>,
         schema:alternateName "bigender identities"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
     
@@ -34110,11 +34491,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002338>
 Class: <http://purl.bioontology.org/ontology/GSSO/002339>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         oboInOwl:hasExactSynonym "gender-fluid identity"@en,
         oboInOwl:hasExactSynonym "gender fluid identity"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
         terms:isReferencedBy <https://web.archive.org/web/20190816225156/https://www.hrc.org/resources/glossary-of-terms>,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17357>,
-        terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
         oboInOwl:hasRelatedSynonym "genderfluid identity datum"@en,
         terms:isReferencedBy <https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary>,
         terms:isReferencedBy <https://web.archive.org/web/20190807165352/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions/>,
@@ -34122,9 +34504,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002339>
             Annotations: oboInOwl:hasExactSynonym "gender fluid"@en, 
                          oboInOwl:hasExactSynonym "gender-fluid"@en
         Property:P1813 "genderfluid"@en,
-        rdfs:label "genderfluid identity"@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/000406>,
         schema:alternateName "genderfluid identities"@en,
+        rdfs:label "genderfluid identity"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190825112846/https://filthy.media/lgbtq-slang-everyone-should-know>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
@@ -34159,6 +34541,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002342>
         terms:isReferencedBy <https://web.archive.org/web/20190825112846/https://filthy.media/lgbtq-slang-everyone-should-know>,
         oboInOwl:hasRelatedSynonym "agendered"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190825114006/https://myslutbox.com/queer-dictionary/>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         rdfs:label "agender identity"@en,
         schema:alternateName "agender identities"@en,
         obo:IAO_0000115 "A gender identity (or lack thereof) which may be described as lacking gender, genderless, gender neutral, neutrois, or unknown gender, among other descriptions."@en,
@@ -37400,6 +37783,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002870>
             Annotations: obo:IAO_0000115 "Prejudice against asexual and aromantic people."@en, 
                          rdfs:comment "Note that \"aphobia\" can also refer to fearlessness or lack of fear."@en
         oboInOwl:hasBroadSynonym "aphobia"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         Property:P3095 "acephobe"@en
     
     SubClassOf: 
@@ -37432,6 +37816,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002872>
         oboInOwl:hasExactSynonym "anti-sexualism"@en,
         oboInOwl:hasRelatedSynonym "demonization of sex"@en,
         obo:IAO_0000115 "Discrimination against, opposition of, or hostility towards any or all sexual behavior and sexuality."@en,
+        
+            Annotations: schema:alternateName "antisexuals"@en
+        oboInOwl:hasRelatedSynonym "antisexual"@en,
         oboInOwl:hasRelatedSynonym "anti-sex"@en
     
     SubClassOf: 
@@ -38787,7 +39174,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002988>
         rdfs:label "amatoromantic norm"@en,
         oboInOwl:hasRelatedSynonym "amatonormative"@en,
         
-            Annotations: terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>, 
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>, 
+                         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>, 
                          oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Amatonormativity"^^xsd:anyURI, 
                          Property:P3938 "Elizabeth Brake"
         oboInOwl:hasRelatedSynonym "amatonormativity"@en
@@ -40527,6 +40915,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003102>
     Annotations: 
         rdfs:label "aromantic person"@en,
         schema:alternateName "aromantic people"@en,
+        schema:alternateName "aromantic persons"@en,
         obo:IAO_0000115 "People who do not experience romantic attraction"@en
     
     SubClassOf: 
@@ -42371,9 +42760,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003266>
         rdfs:label "chosen family"@en,
         oboInOwl:hasRelatedSynonym "choice family"@en,
         schema:alternateName "chosen families"@en,
-        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Family#Family_of_choice"^^xsd:anyURI,
         obo:IAO_0000115 "The group of people in an individual's life that satisfies the typical role of family as a support system. The term differentiates between the \"family of origin\" (the biological family or that in which people are raised) and those that actively assume that ideal role."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Family#Family_of_choice"^^xsd:anyURI,
+        terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
             Annotations: schema:alternateName "families of choice"@en
         oboInOwl:hasSynonym "family of choice"@en
@@ -42533,19 +42922,21 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003278>
         Property:P4229 "F65.2",
         rdfs:label "exhibitionism"@en,
         oboInOwl:hasRelatedSynonym "exhibitionistic"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D005084"^^xsd:anyURI,
         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10015670"^^xsd:anyURI,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85046353"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Exhibitionism"^^xsd:anyURI,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94352"^^xsd:anyURI,
         
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         schema:alternateName "exhibitionists"@en
+        Property:P3095 "exhibitionist"@en,
+        
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/exhibitionism"^^xsd:anyURI,
         Property:P5191 "-ism"@en,
         Property:P699 "http://purl.obolibrary.org/obo/DOID_10236"^^xsd:anyURI,
-        
-            Annotations: schema:alternateName "exhibitionists"@en
-        Property:P3095 "exhibitionist"@en,
         oboInOwl:hasRelatedSynonym "active scopophilia"@en,
         Property:P1149 "HQ79"
     
@@ -42571,6 +42962,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003279>
         
             Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
         dc:identifier 302.82,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasRelatedSynonym "voyeuristic"@en,
         rdfs:label "voyeurism"@en,
         Property:P699 "http://purl.obolibrary.org/obo/DOID_10834"^^xsd:anyURI,
@@ -43049,6 +43441,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003315>
 Class: <http://purl.bioontology.org/ontology/GSSO/003316>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "online trolling"@en,
         Property:P1813 "trolling"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2015002174"^^xsd:anyURI,
@@ -43711,9 +44104,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003371>
 
     Annotations: 
         rdfs:label "vaginal ring"@en,
+        oboInOwl:hasSynonym "intravaginal ring"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Vaginal_ring"^^xsd:anyURI,
-        schema:alternateName "vaginal rings"@en,
-        oboInOwl:hasSynonym "intravaginal ring"@en
+        schema:alternateName "vaginal rings"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003370>
@@ -44428,6 +44821,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003440>
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Furry_fandom"^^xsd:anyURI,
         rdfs:label "furry fandom"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         
             Annotations: schema:alternateName "furries"@en
         Property:P3095 "furry"@en,
@@ -44988,8 +45382,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003486>
 
     Annotations: 
         oboInOwl:hasSynonym "online prostitution"@en,
+        oboInOwl:hasSynonym "internet prostitution"@en,
         
-            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Webcam_model"^^xsd:anyURI, 
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Webcam_model"^^xsd:anyURI, 
                          oboInOwl:hasSynonym "camming"@en, 
                          oboInOwl:hasSynonym "webcamming"@en, 
                          Property:P3095 "camboy"@en, 
@@ -44997,7 +45393,6 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003486>
                          Property:P3095 "camodel"@en, 
                          Property:P3095 "webcam model"@en
         oboInOwl:hasNarrowSynonym "webcam modeling"@en,
-        oboInOwl:hasSynonym "internet prostitution"@en,
         rdfs:label "virtual prostitution"@en,
         obo:IAO_0000115 "Performance of sex work streamed or otherwise sent virtually via the internet in engage for money or other material items."@en
     
@@ -46039,9 +46434,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003569>
 Class: <http://purl.bioontology.org/ontology/GSSO/003571>
 
     Annotations: 
-        Property:P1813 "gray asexual"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         oboInOwl:hasSynonym "gray ace"@en,
+        
+            Annotations: schema:alternateName "gray asexuals"@en
+        Property:P1813 "gray asexual"@en,
         rdfs:label "gray asexual person"@en
     
     SubClassOf: 
@@ -46056,7 +46453,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003572>
         schema:identifier "http://homosaurus.org/v2/demisexualPeople"^^xsd:anyURI,
         schema:alternateName "demisexual persons"@en,
         schema:alternateName "demisexual people"@en,
-        rdfs:label "demisexual person"@en
+        rdfs:label "demisexual person"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        
+            Annotations: schema:alternateName "demisexuals"@en
+        Property:P1813 "demisexual"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003571>
@@ -46077,7 +46478,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003573>
 Class: <http://purl.bioontology.org/ontology/GSSO/003574>
 
     Annotations: 
-        rdfs:label "demiromantic person"@en
+        rdfs:label "demiromantic person"@en,
+        schema:alternateName "demiromantic persons"@en,
+        schema:alternateName "demiromantic people"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003573>
@@ -46713,6 +47116,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003627>
         rdfs:label "heteroflexible"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         Property:P5191 "flexible"@en
     
     SubClassOf: 
@@ -46725,6 +47129,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003628>
         Property:P5191 "homosexual"@en,
         oboInOwl:hasRelatedSynonym "homoflexibility"@en,
         rdfs:label "homoflexible"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         obo:IAO_0000115 "Primarily homosexual, but with a limited amount of attraction to the opposite sex, or willingness to take part in a heterosexual activity."@en,
         Property:P5191 "flexible"@en
     
@@ -47229,13 +47634,16 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003673>
 Class: <http://purl.bioontology.org/ontology/GSSO/003678>
 
     Annotations: 
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         oboInOwl:hasRelatedSynonym "diaper lover"@en, 
+                         oboInOwl:hasRelatedSynonym "diaper lovers"@en, 
+                         schema:alternateName "diaper fetishists"@en
+        Property:P3095 "diaper fetishist"@en,
         oboInOwl:hasRelatedSynonym "nappy fetishism"@en,
         oboInOwl:hasRelatedSynonym "diaperism"@en,
         rdfs:label "diaper fetishism"@en,
         oboInOwl:hasRelatedSynonym "diaper fetish"@en,
-        
-            Annotations: schema:alternateName "diaper fetishists"@en
-        Property:P3095 "diaper fetishist"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Diaper_fetishism"^^xsd:anyURI,
         obo:IAO_0000115 "a type of garment fetish in which a person derives pleasure from the diaper and/or use of it."@en
     
@@ -47694,6 +48102,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003718>
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20190718081539/http://www.sex-lexis.com/>,
         rdfs:label "safe word"@en,
+        
+            Annotations: schema:alternateName "safety words"@en
+        oboInOwl:hasRelatedSynonym "safety word"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Safeword"^^xsd:anyURI,
         schema:alternateName "safe words"@en,
         
@@ -48492,10 +48904,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003799>
         obo:IAO_0000115 "A constituted body of persons empowered by a state to enforce the law, to protect the lives, liberty and possessions of citizens, and to prevent crime and civil disorder. Their lawful powers include arrest and the legitimized use of force. The term is most commonly associated with the police forces of a sovereign state that are authorized to exercise the police power of that state within a defined legal or territorial area of responsibility. Police forces are often defined as being separate from the military and other organizations involved in the defense of the state against foreign aggressors; however, gendarmerie are military units charged with civil policing."@en,
         rdfs:label "police"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D016495"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Police"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        schema:identifier "http://homosaurus.org/v2/police"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Police"^^xsd:anyURI
+        schema:identifier "http://homosaurus.org/v2/police"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003798>
@@ -49144,6 +49556,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003866>
         obo:IAO_0000115 "A social and philosophical movement that seeks to change cultural attitudes and norms around sexuality, promoting the recognition of sexuality (in the countless forms of expression) as a natural and healthy part of the human experience and emphasizing the importance of personal sovereignty, safer sex practices, and consensual sex (free from violence or coercion). It covers every aspect of sexual identity including gender expression, orientation, relationship to the body (body-positivity, nudity, choice), relationship-style choice, reproductive rights, and anything else society has lumped under the umbrella."@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/003862>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sex-positive_movement"^^xsd:anyURI,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
             Annotations: Property:P461 "sex negative"@en
@@ -51394,9 +51807,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004106>
 
     Annotations: 
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004100>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "breathplay"@en,
         obo:IAO_0000115 "Erotic asphyxiation; a sexual practice involving the intentional deprivation of oxygen to the brain by choking, hanging, or other means."@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004107>,
+        
+            Annotations: Property:P1813 "breath control"@en
         oboInOwl:hasRelatedSynonym "breath control play"@en,
         oboInOwl:hasExactSynonym "breath play"@en
     
@@ -51608,6 +52024,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004118>
 Class: <http://purl.bioontology.org/ontology/GSSO/004119>
 
     Annotations: 
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
+        oboInOwl:hasRelatedSynonym "auralism"@en,
         oboInOwl:hasRelatedSynonym "ecoutage"@en,
         oboInOwl:hasRelatedSynonym "ecouteuristic"@en,
         rdfs:label "ecouteurism"@en,
@@ -51796,7 +52215,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004135>
 
     Annotations: 
         
-            Annotations: schema:alternateName "golden showers"@en
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         schema:alternateName "golden showers"@en
         oboInOwl:hasRelatedSynonym "golden shower"@en,
         obo:IAO_0000115 "Urination considered erotic and/or sexual in nature."@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/001261>,
@@ -52302,10 +52722,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004172>
         rdfs:label "sexual diversity"@en,
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/004183>,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5110203"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sexual_diversity"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        schema:identifier "http://homosaurus.org/v2/sexualDiversity"^^xsd:anyURI
+        schema:identifier "http://homosaurus.org/v2/sexualDiversity"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sexual_diversity"^^xsd:anyURI
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62263>
@@ -52409,6 +52829,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004193>
 Class: <http://purl.bioontology.org/ontology/GSSO/004203>
 
     Annotations: 
+        obo:IAO_0000115 "Romantic attraction to persons of the same gender/sex."@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         rdfs:label "homoromantic"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>
     
@@ -52419,7 +52841,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004203>
 Class: <http://purl.bioontology.org/ontology/GSSO/004204>
 
     Annotations: 
-        rdfs:label "heteroromantic"@en
+        rdfs:label "heteroromantic"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        obo:IAO_0000115 "Romantic attraction to persons of a different gender/sex."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000713>
@@ -53124,6 +53548,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004272>
         schema:alternateName "glory holes"@en,
         oboInOwl:hasExactSynonym "glory-hole"@en,
         rdfs:label "glory hole"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Glory_hole_(sexual_slang)"^^xsd:anyURI
     
     SubClassOf: 
@@ -54758,6 +55183,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004429>
 Class: <http://purl.bioontology.org/ontology/GSSO/004430>
 
     Annotations: 
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
+        oboInOwl:hasRelatedSynonym "lolita"@en,
         rdfs:label "Lolita complex"@en,
         obo:IAO_0000115 "Attraction to young or prepubescent girls or the Japanese discourse or media focusing on such attraction."@en,
         oboInOwl:hasBroadSynonym <http://purl.bioontology.org/ontology/GSSO/001265>,
@@ -55258,8 +55686,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004503>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Model_minority"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3315586"^^xsd:anyURI,
         schema:alternateName "model minorities"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3315586"^^xsd:anyURI,
         obo:IAO_0000115 "A demographic group (whether based on ethnicity, race or religion) whose members are perceived to achieve a higher degree of socioeconomic success than the population average. This success is typically measured relatively by income, education, low criminality and high family/marital stability."@en,
         rdfs:label "model minority"@en
     
@@ -56866,8 +57294,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004674>
     Annotations: 
         rdfs:label "sham marriage"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Sham_marriage"^^xsd:anyURI,
-        schema:alternateName "sham marriages"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sham_marriage"^^xsd:anyURI,
+        schema:alternateName "sham marriages"@en,
         
             Annotations: schema:alternateName "fake marriages"@en
         oboInOwl:hasSynonym "fake marriage"@en
@@ -56937,6 +57365,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004684>
 Class: <http://purl.bioontology.org/ontology/GSSO/004685>
 
     Annotations: 
+        
+            Annotations: schema:alternateName "candualists"@en
+        Property:P3095 "candualist"@en,
         rdfs:label "candaulism"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Candaulism"^^xsd:anyURI,
         obo:IAO_0000115 "Candaulism is a sexual practice or fantasy in which a man exposes his female partner, or images of her, to other people for their voyeuristic pleasure."@en,
@@ -57151,9 +57582,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004701>
 Class: <http://purl.bioontology.org/ontology/GSSO/004703>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Swinging_(sexual_practice)"^^xsd:anyURI,
         rdfs:label "swinger lifestyle"@en,
+        
+            Annotations: schema:alternateName "swingers"@en
+        Property:P3095 "swinger"@en,
         
             Annotations: Property:P1813 "swinging"@en
         oboInOwl:hasSynonym "swinging lifestyle"@en,
@@ -60700,8 +61135,8 @@ Class: <http://purl.bioontology.org/ontology/NCBITAXON/9347>
 
     Annotations: 
         rdfs:label "eutherian"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Eutheria"^^xsd:anyURI,
         oboInOwl:hasSynonym "Eutheria"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Eutheria"^^xsd:anyURI,
         Property:P685 "http://purl.bioontology.org/ontology/NCBITAXON/9347"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000073566"^^xsd:anyURI,
         obo:IAO_0000115 "One of two mammalian clades with extant members that diverged in the Early Cretaceous or perhaps the Late Jurassic. Except for the North American Virginia opossum, which is a metatherian, all post-Miocene mammals indigenous to Europe, Africa, Asia, and North America north of Mexico are eutherians. Extant eutherians, their last common ancestor, and all extinct descendants of that ancestor are members of Placentalia."@en,
@@ -67025,8 +67460,8 @@ Class: obo:DOID_0050117
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q18123741"^^xsd:anyURI,
         schema:alternateName "diseases by infectious agent"@en,
         oboInOwl:hasSynonym "communicable disease"@en,
-        oboInOwl:hasSynonym "infectious disease"@en,
         rdfs:label "disease by infectious agent"@en,
+        oboInOwl:hasSynonym "infectious disease"@en,
         oboInOwl:hasSynonym "transmissible disease"@en,
         Property:P828 <http://purl.obolibrary.org/obo/IDO_0000586>,
         Property:P699 "http://purl.obolibrary.org/obo/DOID_0050117"^^xsd:anyURI
@@ -69719,8 +70154,8 @@ Class: obo:GO_0007291
     Annotations: 
         Property:P686 "http://purl.obolibrary.org/obo/GO_0007291"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q21136147"^^xsd:anyURI,
-        obo:IAO_0000115 "The resolution of the male germline syncytium or cyst into individual gametes by packaging each spermatid into its own plasma membrane."@en,
-        rdfs:label "sperm individualization"@en
+        rdfs:label "sperm individualization"@en,
+        obo:IAO_0000115 "The resolution of the male germline syncytium or cyst into individual gametes by packaging each spermatid into its own plasma membrane."@en
     
     SubClassOf: 
         obo:GO_0007286
@@ -69991,6 +70426,7 @@ Class: obo:GO_0007595
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q719426"^^xsd:anyURI,
         rdfs:label "lactation"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007774"^^xsd:anyURI,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Lactation"^^xsd:anyURI,
         obo:IAO_0000115 "The regulated release of milk from the mammary glands and the period of time that a mother lactates to feed her young."@en
     
@@ -70401,6 +70837,26 @@ Class: obo:GO_0030238
     
     SubClassOf: 
         obo:GO_0007530
+    
+    
+Class: obo:GO_0030421
+
+    Annotations: 
+        Property:P686 "http://purl.obolibrary.org/obo/GO_0030421"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Defecation"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q204015"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85036416"^^xsd:anyURI,
+        obo:IAO_0000115 "The expulsion of feces from the rectum."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62787"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/111989001"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "defecated"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D003672"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "defecating"@en,
+        rdfs:label "defecation"@en,
+        oboInOwl:hasRelatedSynonym "defecate"@en
+    
+    SubClassOf: 
+        obo:GO_0007588
     
     
 Class: obo:GO_0030703
@@ -71673,12 +72129,12 @@ Class: obo:PATO_0001995
 Class: obo:PATO_0002003
 
     Annotations: 
+        rdfs:label "population quality"@en,
+        schema:alternateName "population qualities"@en,
         
             Annotations: schema:alternateName "population characteristics"@en, 
                          Property:P486 "http://purl.bioontology.org/ontology/MESH/D011154"^^xsd:anyURI
-        oboInOwl:hasRelatedSynonym "population characteristic"@en,
-        rdfs:label "population quality"@en,
-        schema:alternateName "population qualities"@en
+        oboInOwl:hasRelatedSynonym "population characteristic"@en
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_000475>
@@ -73380,14 +73836,15 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000089>
             Annotations: Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/446141000124107"^^xsd:anyURI
         terms:replaces "identifies as female gender"@en,
         rdfs:label "female gender identity"@en,
-        obo:IAO_0000115 "Having an identity considered female."@en,
         Property:P1813 "female"@en,
+        obo:IAO_0000115 "Having an identity considered female."@en,
         
             Annotations: schema:identifier "http://purl.obolibrary.org/obo/OMRSE_00000138"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "female gender identity datum"@en,
         
             Annotations: schema:alternateName "female identities"@en
         Property:P1813 "female identity"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
     
     DifferentFrom: 
@@ -73405,6 +73862,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000090>
             Annotations: Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/446151000124109"^^xsd:anyURI
         terms:replaces "identifies as male gender"@en,
         rdfs:label "male gender identity"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
             Annotations: schema:alternateName "male identities"@en
@@ -73420,6 +73878,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000109>
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20181004191911/https://rationalwiki.org/wiki/Transgender_glossary>,
         terms:isReferencedBy <https://web.archive.org/web/20190816225156/https://www.hrc.org/resources/glossary-of-terms>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         rdfs:comment "Intersex is an umbrella term with a complex history. It is usually used to refer to persons with congenital conditions which involve differences in the many intertwined processes of sexual development."@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45908"^^xsd:anyURI,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28421>,
@@ -73736,7 +74195,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000167>
         schema:alternateName "unicorns"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
         obo:IAO_0000115 "A bisexual woman who engages in a sexual, but usually non-romantic, relationship with a heterosexual couple."@en,
-        rdfs:label "unicorn"@en
+        rdfs:label "unicorn"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/000151>,
@@ -74312,17 +74772,18 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000345>
 
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
+        terms:isReferencedBy <https://web.archive.org/web/20190816225156/https://www.hrc.org/resources/glossary-of-terms>,
+        Property:P1813 "Q"@en,
+        obo:IAO_0000115 "Pertaining to sexual behavior or identity (and/or to gender behavior or identity) which does not conform to conventional heterosexual norms, assumptions etc."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Queer"^^xsd:anyURI,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C155691"^^xsd:anyURI,
         terms:isReferencedBy <https://web.archive.org/web/20190825114006/https://myslutbox.com/queer-dictionary/>,
-        terms:isReferencedBy <https://web.archive.org/web/20190816225156/https://www.hrc.org/resources/glossary-of-terms>,
         terms:isReferencedBy <https://catalog.hathitrust.org/Record/001556831>,
-        Property:P1813 "Q"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         terms:isReferencedBy <https://web.archive.org/web/20190825112846/https://filthy.media/lgbtq-slang-everyone-should-know>,
         rdfs:label "queer"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Queer"^^xsd:anyURI,
-        obo:IAO_0000115 "Pertaining to sexual behavior or identity (and/or to gender behavior or identity) which does not conform to conventional heterosexual norms, assumptions etc."@en
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/000140>,
@@ -75007,10 +75468,15 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000704>
     Annotations: 
         rdfs:label "pansexuality"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Pansexuality"^^xsd:anyURI,
-        oboInOwl:hasSynonym "omnisexuality"@en,
         obo:IAO_0000115 "A sexual orientation characterized by the potential for aesthetic attraction, romantic love and/or sexual desire for people, regardless of their gender identity or biological sex."@en,
+        oboInOwl:hasRelatedSynonym "pansexual"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q271534"^^xsd:anyURI,
-        terms:replaces "pansexualism"@en
+        terms:replaces "pansexualism"@en,
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         oboInOwl:hasRelatedSynonym "omnisexual"@en
+        oboInOwl:hasSynonym "omnisexuality"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     DifferentFrom: 
         <http://purl.bioontology.org/ontology/GSSO/003676>
@@ -75201,8 +75667,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001002>
 
     Annotations: 
         Property:P1813 "FanFair"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Fantasia_Fair"^^xsd:anyURI,
-        rdfs:label "Fantasia Fair"@en
+        rdfs:label "Fantasia Fair"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Fantasia_Fair"^^xsd:anyURI
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/000988>,
@@ -75455,6 +75921,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001227>
         schema:alternateName "squishes"@en,
         rdfs:label "squish"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://web.archive.org/web/20190711035412/https://lgbtq.unc.edu/sites/lgbtq.unc.edu/files/documents/Asexuality%20and%20Romantic%20Orientation%20May%202017.docx>
     
     Types: 
@@ -75465,6 +75932,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001229>
 
     Annotations: 
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         rdfs:label "zucchini"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190711035412/https://lgbtq.unc.edu/sites/lgbtq.unc.edu/files/documents/Asexuality%20and%20Romantic%20Orientation%20May%202017.docx>,
         obo:IAO_0000115 "A queerplatonic partner."@en,
@@ -75486,7 +75954,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001236>
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         Property:P5191 "kink"@nl,
         rdfs:label "kink"@en,
-        oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001234>
+        oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001234>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/001243>
@@ -75522,7 +75991,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001243>
                          oboInOwl:hasSynonym "paraphilia (not otherwise specified)"@en, 
                          Property:P1692 302.9, 
                          Property:P663 302.9
-        oboInOwl:hasNarrowSynonym "paraphilia NOS"@en
+        oboInOwl:hasNarrowSynonym "paraphilia NOS"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/001244>
@@ -75608,6 +76078,10 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001264>
 Individual: <http://purl.bioontology.org/ontology/GSSO/001265>
 
     Annotations: 
+        
+            Annotations: terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10034216"^^xsd:anyURI
+        Property:P3095 "pedophile"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q8388"^^xsd:anyURI,
         Property:P663 302.2,
         Property:P1692 302.2,
@@ -75623,9 +76097,6 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001265>
         dc:identifier 302.20,
         Property:P4229 "F65.4",
         rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/002183>,
-        
-            Annotations: Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10034216"^^xsd:anyURI
-        Property:P3095 "pedophile"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/84002002"^^xsd:anyURI,
         Property:P5191 "-philia"@en,
         oboInOwl:hasExactSynonym "paedophilia"@en,
@@ -75808,6 +76279,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001283>
         dc:identifier "http://homosaurus.org/v2/transvestism"^^xsd:anyURI,
         
             Annotations: terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
                          terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>, 
                          terms:isReplacedBy <http://purl.bioontology.org/ontology/GSSO/001333>, 
                          rdfs:comment "Note that, as late as 1951, many clinicians still used this term to identify patients with severe gender dysphoria and those who requested genital gender confirmation surgery."@en, 
@@ -75844,13 +76316,14 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001285>
 Individual: <http://purl.bioontology.org/ontology/GSSO/001286>
 
     Annotations: 
+        terms:isReplacedBy <http://purl.bioontology.org/ontology/GSSO/001234>,
         
             Annotations: terms:isReferencedBy <https://catalog.hathitrust.org/Record/003517086>, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
                          oboInOwl:hasRelatedSynonym "perverts"@en, 
                          schema:alternateName "sexual perverts"@en, 
                          Property:P1813 "pervert"@en
         Property:P3095 "sexual pervert"@en,
-        terms:isReplacedBy <http://purl.bioontology.org/ontology/GSSO/001234>,
         schema:alternateName "sexual perversions"@en,
         
             Annotations: terms:source <https://www.worldcat.org/oclc/894927963>
@@ -75952,10 +76425,12 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001289>
 
     Annotations: 
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/001265>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         schema:alternateName "pedophilic behaviors"@en,
         Property:P5191 <http://purl.obolibrary.org/obo/GO_0007610>,
         rdfs:label "pedophilic behavior"@en,
         obo:IAO_0000115 "Sexual behavior involving young adolescents or children in a sense that is nonnormative and typically criminal in the given society, such as child rape in the contemporary United States."@en,
+        oboInOwl:hasRelatedSynonym "pedophilism"@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/002179>
     
     DifferentFrom: 
@@ -75973,6 +76448,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001290>
                          schema:bookEdition 20
         Property:P1036 155.334,
         Property:P3095 <http://purl.bioontology.org/ontology/GSSO/000404>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "androgyny"@en,
         
             Annotations: terms:isReferencedBy <http://purl.bioontology.org/ontology/GSSO/001751>
@@ -76890,6 +77366,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001440>
 
     Annotations: 
         rdfs:label "asexy"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         obo:IAO_0000115 "Typically, a person who asexual people tend to be attracted to for any of various reasons aside from sexual attraction."@en,
         oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/asexy#English"^^xsd:anyURI
     
@@ -76932,6 +77409,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001444>
     Annotations: 
         rdfs:label "transsexual"@en,
         terms:isReferencedBy <http://dx.doi.org/10.1300/J082v02n03_10>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         schema:alternateName "transsexuals"@en,
         terms:isReplacedBy <http://purl.bioontology.org/ontology/GSSO/000130>,
         terms:isReplacedBy <http://purl.bioontology.org/ontology/GSSO/000096>,
@@ -76958,6 +77436,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001444>
             Annotations: schema:alternateName "transexuals"@en
         oboInOwl:hasRelatedSynonym "transexual"@en,
         oboInOwl:hasNarrowSynonym "preoperative transsexual"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>
     
@@ -77104,6 +77583,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001589>
         
             Annotations: schema:alternateName "genitals"@en
         oboInOwl:hasRelatedSynonym "genital"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "genitalia"@en,
         obo:IAO_0000115 "The external and internal organs involved in the functions of reproduction."@en,
         
@@ -77613,10 +78093,14 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002188>
 Individual: <http://purl.bioontology.org/ontology/GSSO/002198>
 
     Annotations: 
+        
+            Annotations: schema:alternateName "hyposexuals"@en
+        oboInOwl:hasRelatedSynonym "hyposexual"@en,
         rdfs:label "hyposexuality"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000414>,
         Property:P461 <http://purl.bioontology.org/ontology/GSSO/001849>,
-        Property:P5191 "hypo-"@en
+        Property:P5191 "hypo-"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/002219>
@@ -77853,6 +78337,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002327>
 Individual: <http://purl.bioontology.org/ontology/GSSO/002340>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         Property:P5191 "trois"@fr,
         rdfs:label "neutrois"@en,
         
@@ -77865,8 +78350,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002340>
         Property:P3938 <http://purl.bioontology.org/ontology/GSSO/000408>,
         rdfs:comment "The earliest appearance of the term \"neutrois\" in any Usenet newsgroup is in a footer of a message posted by the user GoSpangs on 3 December 1996 (see here: https://groups.google.com/forum/message/raw?msg=soc.support.transgendered/ckLke9K-WtU/LuzuiVWEqTMJ). The footer also includes the name \"Holly A. Burnham\"."@en,
         oboInOwl:hasSynonym "gender neutrois"@en,
-        rdfs:comment "Probably blend of French \"neutre\" (neuter, neutral) and \"trois\" (three, as in third gender)."@en,
         oboInOwl:hasSynonym "neutrois gender identity"@en,
+        rdfs:comment "Probably blend of French \"neutre\" (neuter, neutral) and \"trois\" (three, as in third gender)."@en,
         rdfs:comment "Despite many sites claiming an \"H. A. Burnham\" coining and using the term \"neutrois\" in 1995, the earliest example in the Internet Archive appears to be from 2000 (although presumably the term preceded that)."@en,
         
             Annotations: terms:source <http://purl.bioontology.org/ontology/GSSO/000192>, 
@@ -78688,8 +79173,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002508>
 Individual: <http://purl.bioontology.org/ontology/GSSO/002509>
 
     Annotations: 
-        terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
         schema:dateCreated 1890,
+        terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
         schema:gender <http://purl.bioontology.org/ontology/GSSO/002451>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         terms:isReferencedBy <https://web.archive.org/web/20190710142953/http://www.english.illinois.edu/-people-/faculty/debaron/essays/epicene.htm>,
@@ -81991,6 +82476,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/003836>
 Individual: <http://purl.bioontology.org/ontology/GSSO/003841>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "sapiosexuality"@en,
         oboInOwl:hasRelatedSynonym "sapiosexual"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
@@ -82190,6 +82676,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/003927>
 Individual: <http://purl.bioontology.org/ontology/GSSO/003943>
 
     Annotations: 
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasRelatedSynonym "yonic"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Yoni"^^xsd:anyURI,
         rdfs:label "yoni"@en,
@@ -82253,6 +82740,14 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004003>
 Individual: <http://purl.bioontology.org/ontology/GSSO/004007>
 
     Annotations: 
+        
+            Annotations: obo:IAO_0000115 "A wife with an adulterous husband. In modern English it generally refers to a woman whose fetish is watching, and deriving sexual pleasure from watching, a man having sex with one or several women besides his girlfriend, fiancée, wife or other long-term female sex partner."@en, 
+                         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>, 
+                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cuckquean"^^xsd:anyURI, 
+                         oboInOwl:hasRelatedSynonym "cuckquean fetish"@en, 
+                         oboInOwl:hasRelatedSynonym "cuckquean fetishist"@en, 
+                         oboInOwl:hasRelatedSynonym "cuckqueanry"@en
+        oboInOwl:hasRelatedSynonym "cuckquean"@en,
         obo:IAO_0000115 "The husband of an adulterous wife. In evolutionary biology, the term is also applied to males who are unwittingly investing parental effort in offspring that are not genetically their own."@en,
         oboInOwl:hasRelatedSynonym "cuckhold fetishist"@en,
         oboInOwl:hasRelatedSynonym "cuckoldry"@en,
@@ -82263,13 +82758,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004007>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cuckold"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "cuckhold fetish"@en,
         oboInOwl:hasRelatedSynonym "cuckoldress"@en,
-        
-            Annotations: obo:IAO_0000115 "A wife with an adulterous husband. In modern English it generally refers to a woman whose fetish is watching, and deriving sexual pleasure from watching, a man having sex with one or several women besides his girlfriend, fiancée, wife or other long-term female sex partner."@en, 
-                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cuckquean"^^xsd:anyURI, 
-                         oboInOwl:hasRelatedSynonym "cuckquean fetish"@en, 
-                         oboInOwl:hasRelatedSynonym "cuckquean fetishist"@en, 
-                         oboInOwl:hasRelatedSynonym "cuckqueanry"@en
-        oboInOwl:hasRelatedSynonym "cuckquean"@en
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/004023>
@@ -82433,7 +82922,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004045>
         oboInOwl:hasRelatedSynonym "tribbing"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Tribadism"^^xsd:anyURI,
         rdfs:label "tribadism"@en,
-        oboInOwl:hasRelatedSynonym "tribady"@en
+        oboInOwl:hasRelatedSynonym "tribady"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/004046>
@@ -82897,11 +83387,11 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004183>
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/003565>,
         oboInOwl:hasSynonym "diverse sexualities and genders"@en,
         terms:hasPart <http://purl.bioontology.org/ontology/GSSO/003565>,
+        terms:hasPart <http://purl.bioontology.org/ontology/GSSO/004172>,
+        rdfs:label "DSG"@en,
         
             Annotations: Property:P1813 "GSD"@en
-        oboInOwl:hasRelatedSynonym "gender and sexual diversity"@en,
-        terms:hasPart <http://purl.bioontology.org/ontology/GSSO/004172>,
-        rdfs:label "DSG"@en
+        oboInOwl:hasRelatedSynonym "gender and sexual diversity"@en
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/000135>
@@ -83126,10 +83616,12 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004240>
 
     Annotations: 
         rdfs:label "cisgender"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cisgender"^^xsd:anyURI,
         
             Annotations: Property:P1813 "non-trans"@en
         oboInOwl:hasSynonym "non-transgender"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cisgender"^^xsd:anyURI,
+        terms:replaces "cisgendered"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         Property:P461 <http://purl.bioontology.org/ontology/GSSO/000096>
     
     
@@ -83157,8 +83649,9 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004273>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Slut"^^xsd:anyURI,
-        rdfs:label "slut"@en,
-        schema:alternateName "sluts"@en
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
+        schema:alternateName "sluts"@en,
+        rdfs:label "slut"@en
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/003210>
@@ -83919,6 +84412,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004661>
     Annotations: 
         schema:alternateName "metamours"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         rdfs:label "metamour"@en,
         obo:IAO_0000115 "In a polyamorous relationship, someone who is the partner of one's partner, but with whom one isn't in a romantic relationship with."@en
     
@@ -84009,6 +84503,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004707>
 
     Annotations: 
         Property:P3938 "Kerista Commune",
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         obo:IAO_0000115 "A joyful feeling when a partner invests in another romantic and/or sexual relationship."@en,
         rdfs:label "compersion"@en
     
@@ -90164,6 +90659,14 @@ Individual: <https://web.archive.org/web/20190711035412/https://lgbtq.unc.edu/si
         rdfs:label "Asexuality, Attraction, and Romantic Orientation"@en
     
     
+Individual: <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
+
+    Annotations: 
+        dc:title "BDSM And Kink Terminology: A To Z"@en,
+        rdfs:label "BDSM And Kink Terminology: A To Z"@en,
+        Property:P2699 "https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/"^^xsd:anyURI
+    
+    
 Individual: <https://web.archive.org/web/20190718081539/http://www.sex-lexis.com/>
 
     Annotations: 
@@ -90182,6 +90685,15 @@ Individual: <https://web.archive.org/web/20190728210238/https://www.pinknews.co.
         Property:P2699 "https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/"^^xsd:anyURI,
         dc:title "The Ultimate LGBT Glossary: all your questions answered"@en,
         schema:datePosted "2017-11-27T00:00:00"^^xsd:dateTime
+    
+    
+Individual: <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
+
+    Annotations: 
+        schema:url "https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon"^^xsd:anyURI,
+        terms:source "AVENwiki"@en,
+        rdfs:label "Lexicon (AVENwiki)"@en,
+        dc:title "Lexicon"@en
     
     
 Individual: <https://web.archive.org/web/20190805045215/https://www.asexuality.org/en/topic/88054-my-new-gender-neutral-pronoun-ay/>
@@ -90246,8 +90758,8 @@ Individual: <https://web.archive.org/web/20190825112846/https://filthy.media/lgb
 Individual: <https://web.archive.org/web/20190825114006/https://myslutbox.com/queer-dictionary/>
 
     Annotations: 
-        rdfs:label "Queer Dictionary"@en,
         terms:source "Slutbox"@en,
+        rdfs:label "Queer Dictionary"@en,
         dc:publisher "MUVA LUVA, LLC"@en,
         Property:P2699 "https://web.archive.org/web/20190825114006/https://myslutbox.com/queer-dictionary/"^^xsd:anyURI,
         Property:P50 "Amber Rose"@en,
