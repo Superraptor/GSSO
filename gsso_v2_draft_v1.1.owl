@@ -2698,6 +2698,7 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004805>
 
     Annotations: 
         schema:alternateName "casual sexual partners"@en,
+        obo:IAO_0000115 "Sexual partners in which sexual activities take place outside of the confines of romantically/sexually committed relationships."@en,
         rdfs:label "casual sexual partner"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228468006"^^xsd:anyURI
     
@@ -2713,7 +2714,8 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004806>
             Annotations: schema:alternateName "cross-generation sexual partners"@en
         oboInOwl:hasSynonym "same generation sexual partner"@en,
         rdfs:label "same generation sex partner"@en,
-        schema:alternateName "same generation sex partners"@en
+        schema:alternateName "same generation sex partners"@en,
+        obo:IAO_0000115 "Sexual partners who fall within the same age bracket, colloquially known as a generation."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001973>
@@ -2727,7 +2729,8 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004807>
             Annotations: schema:alternateName "cross-generation sexual partners"@en
         oboInOwl:hasSynonym "cross-generation sexual partner"@en,
         rdfs:label "cross-generation sex partner"@en,
-        schema:alternateName "cross-generation sex partners"@en
+        schema:alternateName "cross-generation sex partners"@en,
+        obo:IAO_0000115 "Sexual partners who fall in different age brackets, colloquially known as a generations."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001973>
@@ -4111,7 +4114,8 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004903>
             Annotations: schema:alternateName "bi-asexuals"@en
         Property:P1813 "bi-asexual"@en,
         schema:alternateName "asexual and biromantic people"@en,
-        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>
+        terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        obo:IAO_0000115 "A person who is asexual and biromantic."@en
     
     SubClassOf: 
         <http://bioportal.bioontology.org/ontology/GSSO/004906>,
@@ -4123,6 +4127,7 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004904>
     Annotations: 
         oboInOwl:hasSynonym "gay-A"@en,
         schema:alternateName "asexual and homoromantic people"@en,
+        obo:IAO_0000115 "A person who is asexual and homoromantic."@en,
         
             Annotations: schema:alternateName "homo-asexuals"@en
         Property:P1813 "homo-asexual"@en,
@@ -4140,6 +4145,7 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004905>
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
         rdfs:label "asexual and heteroromantic person"@en,
+        obo:IAO_0000115 "A person who is asexual and heteroromantic."@en,
         oboInOwl:hasSynonym "straight-A"@en,
         
             Annotations: schema:alternateName "hetero-asexuals"@en
@@ -4156,6 +4162,7 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004906>
 
     Annotations: 
         rdfs:label "biromantic person"@en,
+        obo:IAO_0000115 "A person who is biromantic."@en,
         schema:alternateName "biromantic persons"@en,
         schema:alternateName "biromantic people"@en
     
@@ -4168,7 +4175,8 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004907>
     Annotations: 
         rdfs:label "homoromantic person"@en,
         schema:alternateName "homoromantic people"@en,
-        schema:alternateName "homoromantic persons"@en
+        schema:alternateName "homoromantic persons"@en,
+        obo:IAO_0000115 "A person who is homoromantic."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003101>
@@ -4178,6 +4186,7 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004908>
 
     Annotations: 
         schema:alternateName "heteroromantic persons"@en,
+        obo:IAO_0000115 "A person who is heteroromantic."@en,
         rdfs:label "heteroromantic person"@en,
         schema:alternateName "heteroromantic people"@en
     
@@ -10634,6 +10643,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000384>
 Class: <http://purl.bioontology.org/ontology/GSSO/000385>
 
     Annotations: 
+        obo:IAO_0000115 "A cisgender woman."@en,
         schema:alternateName "cisgender women"@en,
         schema:gender <http://purl.bioontology.org/ontology/GSSO/000089>,
         rdfs:label "cisgender woman"@en,
@@ -20137,6 +20147,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001167>
 
     Annotations: 
         rdfs:label "person with a disease"@en,
+        obo:IAO_0000115 "People who do have any of various diseases."@en,
         terms:replaces "diseased person"@en,
         schema:alternateName "people with diseases"@en,
         
@@ -20152,7 +20163,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001168>
     Annotations: 
         rdfs:label "person with an infection"@en,
         schema:alternateName "people with infections"@en,
-        terms:replaces "infected person"@en
+        terms:replaces "infected person"@en,
+        obo:IAO_0000115 "A person who has any of various infections."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001167>
@@ -20190,7 +20202,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001169>
         oboInOwl:hasSynonym "person living with HIV/AIDS"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:People_with_HIV/AIDS"^^xsd:anyURI,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
-        rdfs:label "person with HIV"@en
+        rdfs:label "person with HIV"@en,
+        obo:IAO_0000115 "A person who is infected with HIV."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001168>
@@ -20330,6 +20343,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001183>
 
     Annotations: 
         rdfs:label "health activist"@en,
+        obo:IAO_0000115 "A person who advocates for people's health and access to health care."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Health_activists"^^xsd:anyURI,
         schema:alternateName "health activists"@en
     
     SubClassOf: 
@@ -20340,6 +20355,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001184>
 
     Annotations: 
         schema:alternateName "medical activists"@en,
+        obo:IAO_0000115 "A person who advocates for people's access to and quality of medical care."@en,
         rdfs:label "medical activist"@en
     
     SubClassOf: 
@@ -20349,11 +20365,17 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001184>
 Class: <http://purl.bioontology.org/ontology/GSSO/001185>
 
     Annotations: 
+        obo:IAO_0000115 "A person who advocates for the health of people with HIV/AIDS and their access to health care."@en,
         schema:alternateName "AIDS activists"@en,
         rdfs:label "AIDS activist"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:HIV/AIDS_activists"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        dc:identifier "http://homosaurus.org/v2/AIDSActivists"^^xsd:anyURI
+        dc:identifier "http://homosaurus.org/v2/AIDSActivists"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "HIV/AIDS activists"@en
+        oboInOwl:hasSynonym "HIV/AIDS activist"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh93005197"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001184>
@@ -20363,6 +20385,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001186>
 
     Annotations: 
         rdfs:label "health advocate"@en,
+        obo:IAO_0000115 "A person who supports others to make their voices heard, or ideally for them to speak up for themselves, in the arena of health and health care."@en,
         schema:alternateName "health advocates"@en
     
     SubClassOf: 
@@ -20373,7 +20396,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001187>
 
     Annotations: 
         rdfs:label "ideological advocate"@en,
-        schema:alternateName "ideological advocates"@en
+        schema:alternateName "ideological advocates"@en,
+        obo:IAO_0000115 "A person who supports others to make their voices heard, or ideally for them to speak up for themselves, in relationship to a particular ideology or ideologies."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19138>
@@ -20399,6 +20423,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001190>
 
     Annotations: 
         schema:alternateName "radical feminists"@en,
+        obo:IAO_0000115 "A person who follows any of various sub-ideologies within radical feminism."@en,
         rdfs:label "radical feminist"@en
     
     SubClassOf: 
@@ -20420,6 +20445,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001191>
         Property:P1813 "TERF"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         schema:alternateName "trans-exclusionary radical feminists"@en,
+        obo:IAO_0000115 "Radical feminists who exclude transgender women in their spaces and/or ideologies."@en,
         oboInOwl:hasRelatedSynonym "trans-exclusionary radfem activist"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>
     
@@ -20430,6 +20456,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001191>
 Class: <http://purl.bioontology.org/ontology/GSSO/001192>
 
     Annotations: 
+        obo:IAO_0000115 "Radical feminists who include transgender women in their spaces and/or ideologies."@en,
         rdfs:label "trans-inclusionary radical feminist"@en,
         schema:alternateName "trans-inclusionary radical feminists"@en
     
@@ -20442,6 +20469,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001193>
     Annotations: 
         rdfs:label "sex worker exclusionary radical feminist"@en,
         schema:alternateName "sex worker exclusionary radical feminists"@en,
+        obo:IAO_0000115 "Radical feminists who exclude female sex workers in their spaces and/or ideologies."@en,
         Property:P1813 "SWERF"@en
     
     SubClassOf: 
@@ -20452,7 +20480,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001194>
 
     Annotations: 
         rdfs:label "sex worker inclusionary radical feminist"@en,
-        schema:alternateName "sex worker inclusionary radical feminists"@en
+        schema:alternateName "sex worker inclusionary radical feminists"@en,
+        obo:IAO_0000115 "Radical feminists who include female sex workers in their spaces and/or ideologies."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001190>
@@ -20461,6 +20490,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001194>
 Class: <http://purl.bioontology.org/ontology/GSSO/001195>
 
     Annotations: 
+        obo:IAO_0000115 "Radical feminists who do not exclude persons, such as transgender women or female sex workers, from their spaces and/or ideologies."@en,
         Property:P1813 "NERF"@en,
         schema:alternateName "non-exclusionary radical feminists"@en,
         rdfs:label "non-exclusionary radical feminist"@en
@@ -22104,6 +22134,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001333>
         rdfs:label "cross-dresser"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
         schema:alternateName "cross-dressers"@en,
+        Property:P1889 <http://purl.bioontology.org/ontology/GSSO/000130>,
         Property:P699 "http://purl.obolibrary.org/obo/DOID_1233"^^xsd:anyURI,
         terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
         oboInOwl:hasRelatedSynonym <https://www.worldcat.org/oclc/1044778005>,
@@ -22112,7 +22143,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001333>
         oboInOwl:hasExactSynonym "crossdresser"@en,
         
             Annotations: terms:source <https://www.digitaltransgenderarchive.net/files/1831ck00f>
-        Property:P1683 "The fight against gender oppression has been joined for centuries, perhaps millennia. What's new today, is that it's moving into the arena of open political activism. And nope, this is not just one more civil rights struggle for one more narrowly-defined minority. It's about all of us who are genderqueer: diesel dykes and stone butches, leatherqueens and radical fairies, nelly fags, crossdressers, intersexed, transexuals, transvestites, transgendered, transgressively gendered, intersexed, and those of us whose gender expressions are so complex they haven't even been named yet."@en
+        Property:P1683 "The fight against gender oppression has been joined for centuries, perhaps millennia. What's new today, is that it's moving into the arena of open political activism. And nope, this is not just one more civil rights struggle for one more narrowly-defined minority. It's about all of us who are genderqueer: diesel dykes and stone butches, leatherqueens and radical fairies, nelly fags, crossdressers, intersexed, transexuals, transvestites, transgendered, transgressively gendered, intersexed, and those of us whose gender expressions are so complex they haven't even been named yet."@en,
+        obo:IAO_0000115 "A person who wears clothing which society considers appropriate only for members of a different sex."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001332>
@@ -22828,6 +22860,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001386>
 Class: <http://purl.bioontology.org/ontology/GSSO/001387>
 
     Annotations: 
+        obo:IAO_0000115 "Persons who advocate for any of various social changes and/or movements."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q8359428"^^xsd:anyURI,
         rdfs:label "social activist"@en,
         schema:alternateName "social activists"@en
@@ -22909,6 +22942,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001402>
 
     Annotations: 
         oboInOwl:hasSynonym "heterosexual cisgender person"@en,
+        obo:IAO_0000115 "A person who is cisgender and heterosexual."@en,
         
             Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>, 
                          terms:isReferencedBy <https://www.refinery29.com/en-us/lesbian-slang-terms-definitions>, 
@@ -22976,6 +23010,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001450>
         
             Annotations: schema:alternateName "transgender military veterans"@en
         oboInOwl:hasSynonym "transgender military veteran"@en,
+        obo:IAO_0000115 "A transgender person who is a veteran."@en,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2015.0002>,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2016.0040>,
         rdfs:label "transgender veteran"@en,
@@ -22994,6 +23029,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001451>
             Annotations: schema:alternateName "transgender people in the military"@en, 
                          schema:alternateName "transgender persons in the military"@en
         oboInOwl:hasRelatedSynonym "transgender person in the military"@en,
+        obo:IAO_0000115 "A transgender person who is part of and/or is employed by the military."@en,
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2015.0002>,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -23396,6 +23432,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001477>
 Class: <http://purl.bioontology.org/ontology/GSSO/001478>
 
     Annotations: 
+        obo:IAO_0000115 "A transgender person of color who is female."@en,
         oboInOwl:hasSynonym <https://doi.org/10.1089/trgh.2016.0034>,
         rdfs:label "transgender woman of color"@en,
         schema:alternateName "transgender women of color"@en
@@ -23409,6 +23446,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001478>
 Class: <http://purl.bioontology.org/ontology/GSSO/001479>
 
     Annotations: 
+        obo:IAO_0000115 "A transgender woman who is black."@en,
         oboInOwl:hasSynonym <https://doi.org/10.1089/trgh.2016.0005>,
         terms:isReferencedBy <https://doi.org/10.1097/JNC.0000000000000111>,
         rdfs:label "black transgender woman"@en,
@@ -23426,6 +23464,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001480>
     Annotations: 
         terms:isReferencedBy <https://doi.org/10.1089/trgh.2017.0007>,
         terms:isReferencedBy <https://doi.org/10.7326/AITC201907020>,
+        obo:IAO_0000115 "A medical patient who is transgender."@en,
         terms:isReferencedBy <https://doi.org/10.1177/1078345819857113>,
         rdfs:label "transgender patient"@en,
         schema:alternateName "transgender patients"@en,
@@ -25208,6 +25247,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001601>
         Property:P1813 "POC"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
         rdfs:label "person of color"@en,
+        obo:IAO_0000115 "A term used primarily, but not exclusively, in the United States to describe any person who is not considered white. The term encompasses all non-white people, emphasizing common experiences of systemic racism."@en,
         schema:alternateName "people of color"@en,
         
             Annotations: schema:alternateName "colored people"@en, 
@@ -25260,6 +25300,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001604>
                          Property:P1813 "TW sex worker"@en
         oboInOwl:hasNarrowSynonym "transgender woman sex worker"@en,
         schema:alternateName "transgender sex workers"@en,
+        obo:IAO_0000115 "Transgender persons employed as sex workers or otherwise engaged in sex work."@en,
         terms:replaces "transsexual prostitute"@en,
         terms:replaces "transgender prostitute"@en,
         rdfs:label "transgender sex worker"@en
@@ -25275,6 +25316,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001605>
             Annotations: schema:alternateName "transgender street prostitutes"@en
         terms:replaces "transgender street prostitute"@en,
         rdfs:label "transgender street sex worker"@en,
+        obo:IAO_0000115 "Transgender persons engaged in street prostitution and/or street sex work."@en,
         schema:alternateName "transgender street sex workers"@en
     
     SubClassOf: 
@@ -27388,18 +27430,21 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001762>
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20190807165352/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions/>,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000155>,
+        terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
+        schema:alternateName "drag queens"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
+        obo:IAO_0000115 "Performance artists, almost always male, who dress in women's clothing and often act with exaggerated femininity and in feminine gender roles with a primarily entertaining purpose. They often exaggerate make-up such as eyelashes for dramatic, comedic or satirical effect. Drag queens are closely associated with gay men and gay culture, but can be of any sexual orientation or gender identity. They vary widely by class, culture, and dedication, from professionals who star in films to people who try drag very occasionally."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q337084"^^xsd:anyURI,
+        terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
         rdfs:label "drag queen"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/dragQueens"^^xsd:anyURI,
-        terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
         terms:isReferencedBy <https://web.archive.org/web/20190825112846/https://filthy.media/lgbtq-slang-everyone-should-know>,
         terms:isReferencedBy <http://www.doi.org/10.2307/455061>,
-        schema:alternateName "drag queens"@en,
-        terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Drag_queen"^^xsd:anyURI,
         terms:isReferencedBy <https://www.jstor.org/stable/3811431>,
-        terms:isReferencedBy <https://catalog.hathitrust.org/Record/003517086>,
-        oboInOwl:hasRelatedSynonym <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>
+        terms:isReferencedBy <https://catalog.hathitrust.org/Record/003517086>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004062>
@@ -27408,6 +27453,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001762>
 Class: <http://purl.bioontology.org/ontology/GSSO/001763>
 
     Annotations: 
+        obo:IAO_0000115 "Mostly female performance artists who dress in masculine drag and personify male gender stereotypes as part of an individual or group routine. They are often lesbian, bisexual, transgender, genderqueer, or otherwise part of the LGBTQIA+ community. They may also be straight. A typical drag show may incorporate dancing, acting, stand-up comedy, and singing, either live or lip-synching to pre-recorded tracks. Drag kings often perform as exaggeratedly macho male characters, portray marginalized masculinities such as construction workers, rappers, or they will impersonate male celebrities like Elvis Presley, Michael Jackson, and Tim McGraw."@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/dragKings"^^xsd:anyURI,
@@ -27415,10 +27461,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001763>
         terms:isReferencedBy <https://web.archive.org/web/20190825112846/https://filthy.media/lgbtq-slang-everyone-should-know>,
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
         terms:isReferencedBy <https://web.archive.org/web/20190807165352/http://www.revelandriot.com/resources/lgbtq-and-trans-definitions/>,
+        terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
         terms:isReferencedBy <https://web.archive.org/web/20180710154122/https://lgbtrc.usc.edu/education/terminology>,
         rdfs:label "drag king"@en,
-        schema:alternateName "drag kings"@en,
-        oboInOwl:hasRelatedSynonym <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>
+        schema:alternateName "drag kings"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004062>
@@ -27427,6 +27473,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001763>
 Class: <http://purl.bioontology.org/ontology/GSSO/001769>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/drag_artist#English"^^xsd:anyURI,
+        obo:IAO_0000115 "A person who performs drag artistry."@en,
         schema:alternateName "drag artists"@en,
         rdfs:label "drag artist"@en
     
@@ -27485,6 +27533,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001773>
 Class: <http://purl.bioontology.org/ontology/GSSO/001774>
 
     Annotations: 
+        obo:IAO_0000115 "A transgender woman who is Latina."@en,
         schema:alternateName "Latina transgender women"@en,
         terms:isReferencedBy <https://doi.org/10.1007/s10461-019-02581-x>,
         rdfs:label "Latina transgender woman"@en
@@ -27497,6 +27546,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001774>
 Class: <http://purl.bioontology.org/ontology/GSSO/001778>
 
     Annotations: 
+        schema:alternateName "transgender men of color"@en,
+        obo:IAO_0000115 "A transgender person of color who is male."@en,
         rdfs:label "transgender man of color"@en
     
     SubClassOf: 
@@ -27586,6 +27637,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001784>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         dc:identifier "http://homosaurus.org/v2/transgenderChildren"^^xsd:anyURI,
+        obo:IAO_0000115 "A child who is transgender."@en,
         rdfs:label "transgender child"@en
     
     SubClassOf: 
@@ -27931,6 +27983,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001808>
 Class: <http://purl.bioontology.org/ontology/GSSO/001809>
 
     Annotations: 
+        obo:IAO_0000115 "An intersex person who is a medical patient."@en,
         rdfs:label "intersex patient"@en,
         
             Annotations: schema:alternateName "DSD patients"@en
@@ -28214,6 +28267,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001828>
         
             Annotations: schema:alternateName "addicts"@en
         terms:replaces "addict"@en,
+        obo:IAO_0000115 "A person who has any of various addictions."@en,
         rdfs:label "person with an addiction"@en,
         terms:replaces "addicted person"@en,
         schema:alternateName "people with addictions"@en
@@ -28242,7 +28296,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001829>
         
             Annotations: schema:alternateName "alcoholic people"@en, 
                          schema:alternateName "alcoholic persons"@en
-        terms:replaces "alcoholic person"@en
+        terms:replaces "alcoholic person"@en,
+        obo:IAO_0000115 "A person who has an addiction to alcohol."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001828>
@@ -28253,6 +28308,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001830>
     Annotations: 
         rdfs:label "person with cocaine addiction"@en,
         oboInOwl:hasRelatedSynonym "person with cocaine dependence"@en,
+        obo:IAO_0000115 "A person who has an addiction to cocaine."@en,
         
             Annotations: schema:alternateName "cocaine addicts"@en
         terms:replaces "cocaine addict"@en
@@ -28264,6 +28320,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001830>
 Class: <http://purl.bioontology.org/ontology/GSSO/001831>
 
     Annotations: 
+        obo:IAO_0000115 "A transgender person who is allosexual."@en,
         terms:replaces "previously asexual transsexual"@en,
         rdfs:label "allosexual transgender person"@en,
         schema:alternateName "allosexual transgender people"@en
@@ -28276,7 +28333,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001832>
 
     Annotations: 
         schema:alternateName "asexual transgender people"@en,
-        rdfs:label "asexual transgender person"@en
+        rdfs:label "asexual transgender person"@en,
+        obo:IAO_0000115 "A transgender person who is asexual."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000130>
@@ -28286,6 +28344,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001833>
 
     Annotations: 
         schema:alternateName "gay transgender people"@en,
+        obo:IAO_0000115 "A transgender person who is gay."@en,
         terms:replaces "previously heterosexual transsexual"@en,
         rdfs:label "gay transgender person"@en
     
@@ -28297,8 +28356,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001834>
 
     Annotations: 
         rdfs:label "heterosexual transgender person"@en,
-        schema:alternateName "heterosexual transgender people"@en,
-        terms:replaces "previously homosexual transsexual"@en
+        obo:IAO_0000115 "A transgender person who is heterosexual."@en,
+        terms:replaces "previously homosexual transsexual"@en,
+        schema:alternateName "heterosexual transgender people"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001936>
@@ -28308,7 +28368,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001835>
 
     Annotations: 
         rdfs:label "bisexual transgender person"@en,
-        schema:alternateName "bisexual transgender people"@en
+        schema:alternateName "bisexual transgender people"@en,
+        obo:IAO_0000115 "A transgender person who is bisexual."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001937>
@@ -28318,6 +28379,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001836>
 
     Annotations: 
         rdfs:label "pansexual transgender person"@en,
+        obo:IAO_0000115 "A transgender person who is pansexual."@en,
         schema:alternateName "pansexual transgender people"@en
     
     SubClassOf: 
@@ -29683,7 +29745,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001936>
 
     Annotations: 
         terms:replaces "previously bisexual transsexual"@en,
-        rdfs:label "monosexual transgender person"@en
+        rdfs:label "monosexual transgender person"@en,
+        obo:IAO_0000115 "A transgender person who is monosexual."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001831>
@@ -29692,7 +29755,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001936>
 Class: <http://purl.bioontology.org/ontology/GSSO/001937>
 
     Annotations: 
-        rdfs:label "polysexual transgender person"@en
+        rdfs:label "polysexual transgender person"@en,
+        obo:IAO_0000115 "A transgender person who is polysexual."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001831>
@@ -29701,6 +29765,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001937>
 Class: <http://purl.bioontology.org/ontology/GSSO/001938>
 
     Annotations: 
+        obo:IAO_0000115 "A transgender person who is gynephilic."@en,
         rdfs:label "gynephilic transgender person"@en
     
     SubClassOf: 
@@ -29710,7 +29775,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001938>
 Class: <http://purl.bioontology.org/ontology/GSSO/001939>
 
     Annotations: 
-        rdfs:label "androphilic transgender person"@en
+        rdfs:label "androphilic transgender person"@en,
+        obo:IAO_0000115 "A transgender person who is androphilic."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001936>
@@ -29780,7 +29846,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001945>
                          schema:alternateName "non-immediate family members"@en
         oboInOwl:hasSynonym "non-immediate family member"@en,
         rdfs:label "extended family member"@en,
-        schema:alternateName "extended family members"@en
+        schema:alternateName "extended family members"@en,
+        obo:IAO_0000115 "A member of one's extended family, i.e. outside of one's immediate family."@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41256>
@@ -29789,6 +29856,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001945>
 Class: <http://purl.bioontology.org/ontology/GSSO/001946>
 
     Annotations: 
+        obo:IAO_0000115 "A member of one's immediate family, such as one's spouse, parents, siblings, and children."@en,
         schema:alternateName "immediate family members"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/394854006"^^xsd:anyURI,
         rdfs:label "immediate family member"@en
@@ -29810,7 +29878,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001947>
             Annotations: schema:alternateName "paternal cousins"@en
         oboInOwl:hasNarrowSynonym "paternal cousin"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71410"^^xsd:anyURI,
-        schema:alternateName "cousins"@en
+        schema:alternateName "cousins"@en,
+        obo:IAO_0000115 "A child of one of a parent's siblings or their descendents."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001945>
@@ -29819,6 +29888,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001947>
 Class: <http://purl.bioontology.org/ontology/GSSO/001948>
 
     Annotations: 
+        obo:IAO_0000115 "A child of a child."@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71397"^^xsd:anyURI,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/86372007"^^xsd:anyURI,
         Property:P1813 "GC"@en,
@@ -29837,6 +29907,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001949>
     Annotations: 
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71385"^^xsd:anyURI,
         rdfs:label "grandparent"@en,
+        obo:IAO_0000115 "A parent of a parent."@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/38312007"^^xsd:anyURI,
         
             Annotations: Property:P1813 "grandpa"@en
@@ -29870,6 +29941,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001950>
                          Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71408"^^xsd:anyURI, 
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/34581001"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "niece"@en,
+        obo:IAO_0000115 "A child of a sibling."@en,
         schema:alternateName "nieflings"@en,
         rdfs:label "niefling"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Niece_and_nephew"^^xsd:anyURI,
@@ -29902,6 +29974,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001951>
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/38048003"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "uncle"@en,
         rdfs:label "pibling"@en,
+        obo:IAO_0000115 "A sibling of a parent."@en,
         oboInOwl:hasSynonym "ommer"@en,
         schema:alternateName "piblings"@en
     
@@ -29925,6 +29998,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001953>
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/mothers"^^xsd:anyURI,
         schema:alternateName "parents"@en,
+        obo:IAO_0000115 "A caretaker and/or immediate progenitor of a child."@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42709"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -29943,6 +30017,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001953>
 Class: <http://purl.bioontology.org/ontology/GSSO/001954>
 
     Annotations: 
+        obo:IAO_0000115 "A spouse or other person with whom one shares a domestic, romantic or sexual bond."@en,
         
             Annotations: oboInOwl:hasRelatedSynonym "enbyfriends"@en, 
                          oboInOwl:hasSynonym "enbyfriend"@en, 
@@ -29991,6 +30066,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001955>
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/27733009"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "sister"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sibling"^^xsd:anyURI,
+        obo:IAO_0000115 "A person who shares a parent."@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Brother"^^xsd:anyURI, 
                          schema:alternateName "brothers"@en, 
@@ -30151,6 +30227,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001968>
         
             Annotations: schema:alternateName "married partners"@en
         oboInOwl:hasSynonym "married partner"@en,
+        obo:IAO_0000115 "A partner in marriage."@en,
         rdfs:label "marital partner"@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Husband"^^xsd:anyURI, 
@@ -30176,6 +30253,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001969>
 
     Annotations: 
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/79508001"^^xsd:anyURI,
+        obo:IAO_0000115 "A person who is not one's biological sibling, but was legally and socially raised as if they were."@en,
         
             Annotations: schema:alternateName "adoptive brothers"@en, 
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/17925003"^^xsd:anyURI
@@ -30194,6 +30272,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001969>
 Class: <http://purl.bioontology.org/ontology/GSSO/001970>
 
     Annotations: 
+        obo:IAO_0000115 "A sibling through being in foster care of the same parent or parents."@en,
         rdfs:label "foster sibling"@en,
         
             Annotations: schema:alternateName "foster sisters"@en, 
@@ -30213,6 +30292,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001970>
 Class: <http://purl.bioontology.org/ontology/GSSO/001971>
 
     Annotations: 
+        obo:IAO_0000115 "A sibling, usually either biological or adoptive, who is legally considered as such."@en,
         schema:alternateName "legal siblings"@en,
         rdfs:label "legal sibling"@en,
         
@@ -30233,6 +30313,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001972>
 
     Annotations: 
         rdfs:label "stepsibling"@en,
+        obo:IAO_0000115 "The child of one's stepparent from another relationship."@en,
         
             Annotations: schema:alternateName "stepbrothers"@en, 
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/76087000"^^xsd:anyURI
@@ -30243,6 +30324,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001972>
             Annotations: schema:alternateName "stepsisters"@en, 
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/46363003"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "stepsister"@en,
+        oboInOwl:hasExactSynonym "step-sibling"@en,
         schema:alternateName "stepsiblings"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/88510002"^^xsd:anyURI
     
@@ -30253,11 +30335,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001972>
 Class: <http://purl.bioontology.org/ontology/GSSO/001973>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/sexual_partner#English"^^xsd:anyURI,
         Property:P5806 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C100812"^^xsd:anyURI,
-        oboInOwl:hasRelatedSynonym "allosexual partner"@en,
         
             Annotations: schema:alternateName "male sexual partners"@en
         oboInOwl:hasNarrowSynonym "male sexual partner"@en,
+        
+            Annotations: schema:alternateName "allosexual partners"@en
+        oboInOwl:hasRelatedSynonym "allosexual partner"@en,
         
             Annotations: schema:alternateName "sex partners"@en
         oboInOwl:hasSynonym "sex partner"@en,
@@ -30265,6 +30350,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001973>
         
             Annotations: schema:alternateName "female sexual partners"@en
         oboInOwl:hasNarrowSynonym "female sexual partner"@en,
+        obo:IAO_0000115 "A person with whom someone has had sex; a sex partner."@en,
         schema:alternateName "sexual partners"@en
     
     SubClassOf: 
@@ -30275,6 +30361,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001974>
 
     Annotations: 
         rdfs:label "partner of bisexual person"@en,
+        obo:IAO_0000115 "A person who is the partner of a bisexual person."@en,
         oboInOwl:hasNarrowSynonym "husband of bisexual person"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -30290,6 +30377,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001975>
 
     Annotations: 
         oboInOwl:hasNarrowSynonym "wife of gay person"@en,
+        obo:IAO_0000115 "A person who is the partner of a gay person."@en,
         oboInOwl:hasNarrowSynonym "husband of gay person"@en,
         rdfs:label "partner of gay person"@en,
         schema:alternateName "partners of gay people"@en,
@@ -30306,6 +30394,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001976>
 
     Annotations: 
         rdfs:label "partner of transgender person"@en,
+        obo:IAO_0000115 "The romantic and/or sexual partner of a transgender person."@en,
         schema:alternateName "partners of transgender people"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -30318,6 +30407,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001976>
 Class: <http://purl.bioontology.org/ontology/GSSO/001977>
 
     Annotations: 
+        obo:IAO_0000115 "The romantic and/or sexual partner of a cisgender person."@en,
         rdfs:label "partner of cisgender person"@en,
         schema:alternateName "partners of cisgender people"@en
     
@@ -30330,6 +30420,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001978>
     Annotations: 
         oboInOwl:hasNarrowSynonym "wife of heterosexual person"@en,
         oboInOwl:hasNarrowSynonym "husband of heterosexual person"@en,
+        obo:IAO_0000115 "A person who is the partner of a heterosexual person."@en,
         rdfs:label "partner of heterosexual person"@en,
         schema:alternateName "partners of heterosexual people"@en
     
@@ -30389,6 +30480,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001985>
 
     Annotations: 
         oboInOwl:hasNarrowSynonym "adoptive mother"@en,
+        obo:IAO_0000115 "A person who has adopted a child, as opposed to a biological parent or parents."@en,
         rdfs:label "adoptive parent"@en,
         schema:alternateName "adoptive parents"@en,
         
@@ -30410,6 +30502,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001986>
         
             Annotations: schema:alternateName "biological mothers"@en
         oboInOwl:hasNarrowSynonym "biological mother"@en,
+        obo:IAO_0000115 "A person from whom a child inherits one half of their DNA."@en,
         schema:alternateName "biological parents"@en
     
     SubClassOf: 
@@ -30429,6 +30522,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001987>
         
             Annotations: schema:alternateName "foster fathers"@en
         oboInOwl:hasNarrowSynonym "foster father"@en,
+        obo:IAO_0000115 "An adult who cares for a child who has been placed in foster care."@en,
         rdfs:label "foster parent"@en
     
     SubClassOf: 
@@ -30443,6 +30537,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001988>
             Annotations: schema:alternateName "legal fathers"@en
         oboInOwl:hasNarrowSynonym "legal father"@en,
         schema:alternateName "legal parents"@en,
+        obo:IAO_0000115 "A parent, usually either biological or adoptive, who is legally considered as such."@en,
         
             Annotations: schema:alternateName "legal mothers"@en
         oboInOwl:hasNarrowSynonym "legal mother"@en
@@ -30462,7 +30557,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001989>
         
             Annotations: schema:alternateName "single fathers"@en
         oboInOwl:hasNarrowSynonym "single father"@en,
-        rdfs:label "single parent"@en
+        rdfs:label "single parent"@en,
+        obo:IAO_0000115 "A parent who is the only guardian of offspring."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001953>
@@ -30471,6 +30567,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001989>
 Class: <http://purl.bioontology.org/ontology/GSSO/001990>
 
     Annotations: 
+        obo:IAO_0000115 "A person who provides biological material (egg and/or sperm), but not necessarily genetic material, or otherwise assists in the creation of a child (such as carrying the pregnancy to term for an egg/sperm combo that is not their own)."@en,
         
             Annotations: schema:alternateName "surrogate mothers"@en
         oboInOwl:hasNarrowSynonym "surrogate mother"@en,
@@ -30498,11 +30595,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001991>
 Class: <http://purl.bioontology.org/ontology/GSSO/001992>
 
     Annotations: 
+        obo:IAO_0000115 "A partner who is asexual."@en,
         rdfs:label "asexual partner"@en,
         schema:alternateName "asexual partners"@en
     
     SubClassOf: 
-        <http://purl.bioontology.org/ontology/GSSO/001954>
+        <http://purl.bioontology.org/ontology/GSSO/004059>
     
     
 Class: <http://purl.bioontology.org/ontology/GSSO/001993>
@@ -30513,6 +30611,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001993>
         
             Annotations: schema:alternateName "unmarried partners"@en
         oboInOwl:hasSynonym "unmarried partner"@en,
+        obo:IAO_0000115 "A partner through non-marital means or to whom one is not married."@en,
         schema:alternateName "nonmarital partners"@en
     
     SubClassOf: 
@@ -30523,7 +30622,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001994>
 
     Annotations: 
         schema:alternateName "fictive relatives"@en,
-        rdfs:label "fictive relative"@en
+        obo:IAO_0000115 "Relatives unrelated by birth and/or marriage, but with which one has an emotionally significant relationship similar to that of a family relationship."@en,
+        rdfs:label "fictive relative"@en,
+        rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/003266>
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21480>
@@ -30615,7 +30716,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002000>
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Human_rights_activists"^^xsd:anyURI,
         schema:alternateName "human rights activists"@en,
-        rdfs:label "human rights activist"@en
+        rdfs:label "human rights activist"@en,
+        obo:IAO_0000115 "Someone who advocates for human rights."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001387>
@@ -30626,6 +30728,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002001>
     Annotations: 
         schema:alternateName "minority rights activists"@en,
         rdfs:label "minority rights activist"@en,
+        obo:IAO_0000115 "Someone who advocates for minority rights."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Minority_rights_activists"^^xsd:anyURI
     
     SubClassOf: 
@@ -30639,6 +30742,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002002>
             Annotations: schema:alternateName "LGBT rights activists"@en
         oboInOwl:hasNarrowSynonym "LGBT rights activist"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT_rights_activists"^^xsd:anyURI,
+        obo:IAO_0000115 "Someone who advocates for LGBTQIA+ rights."@en,
         schema:alternateName "LGBTQ rights activists"@en,
         rdfs:label "LGBTQ rights activist"@en,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/002009>,
@@ -30653,6 +30757,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002002>
 Class: <http://purl.bioontology.org/ontology/GSSO/002003>
 
     Annotations: 
+        obo:IAO_0000115 "Someone who advocates for gay rights."@en,
         rdfs:label "gay rights activist"@en,
         schema:alternateName "gay rights activists"@en
     
@@ -30665,7 +30770,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002004>
     Annotations: 
         schema:alternateName "bisexual rights activists"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Bisexual_rights_activists"^^xsd:anyURI,
-        rdfs:label "bisexual rights activist"@en
+        rdfs:label "bisexual rights activist"@en,
+        obo:IAO_0000115 "Someone who advocates for bisexual rights."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002002>
@@ -30675,6 +30781,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002005>
 
     Annotations: 
         rdfs:label "transgender rights activist"@en,
+        obo:IAO_0000115 "Someone who advocates for transgender rights."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Transgender_rights_activists"^^xsd:anyURI,
         schema:alternateName "transgender rights activists"@en
     
@@ -30687,7 +30794,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002006>
     Annotations: 
         rdfs:label "intersex rights activist"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Intersex_rights_activists"^^xsd:anyURI,
-        schema:alternateName "intersex rights activists"@en
+        schema:alternateName "intersex rights activists"@en,
+        obo:IAO_0000115 "Someone who advocates for intersex rights."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002002>
@@ -30744,6 +30852,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002009>
 Class: <http://purl.bioontology.org/ontology/GSSO/002010>
 
     Annotations: 
+        obo:IAO_0000115 "A person who advocates for protection of the natural environment."@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Environmentalists"^^xsd:anyURI, 
                          oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Environmentalist"^^xsd:anyURI, 
@@ -30759,6 +30868,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002010>
 Class: <http://purl.bioontology.org/ontology/GSSO/002011>
 
     Annotations: 
+        obo:IAO_0000115 "Someone who advocates for sex workers' rights."@en,
         schema:alternateName "sex workers' rights activists"@en,
         rdfs:label "sex workers' rights activist"@en
     
@@ -30770,7 +30880,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002012>
 
     Annotations: 
         schema:alternateName "women's rights activists"@en,
-        rdfs:label "women's rights activist"@en
+        rdfs:label "women's rights activist"@en,
+        obo:IAO_0000115 "Someone who advocates for women's rights."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002000>
@@ -30780,10 +30891,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002013>
 
     Annotations: 
         schema:alternateName "suffragists"@en,
+        rdfs:label "suffragist"@en,
         
             Annotations: schema:alternateName "suffrage activists"@en
         oboInOwl:hasSynonym "suffrage activist"@en,
-        rdfs:label "suffragist"@en
+        obo:IAO_0000115 "A person who promotes suffrage."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001387>
@@ -30794,6 +30906,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002015>
     Annotations: 
         rdfs:label "internet activist"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Internet_activists"^^xsd:anyURI,
+        obo:IAO_0000115 "Persons who utilize the internet in order to support any of various forms of activism."@en,
         
             Annotations: schema:alternateName "cyberactivists"@en
         oboInOwl:hasRelatedSynonym "cyberactivist"@en,
@@ -30812,8 +30925,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002015>
 Class: <http://purl.bioontology.org/ontology/GSSO/002016>
 
     Annotations: 
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Political_activists"^^xsd:anyURI,
         rdfs:label "political activist"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Political_activists"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh88005959"^^xsd:anyURI,
+        obo:IAO_0000115 "Persons who advocate for any of various political changes and/or reforms."@en,
         schema:alternateName "political activists"@en
     
     SubClassOf: 
@@ -30924,6 +31039,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002024>
         schema:alternateName "gendered people"@en,
         schema:alternateName "gendered persons"@en,
         oboInOwl:hasRelatedSynonym "persons by gender"@en,
+        obo:IAO_0000115 "A person expressing and/or identifying with any of various genders."@en,
         rdfs:label "gendered person"@en
     
     SubClassOf: 
@@ -32331,7 +32447,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002166>
 Class: <http://purl.bioontology.org/ontology/GSSO/002167>
 
     Annotations: 
+        obo:IAO_0000115 "A cultural practice in parts of Afghanistan and Pakistan, in which some families without sons will pick a daughter to live and behave as a boy. This enables the child to behave more freely: attending school, escorting her sisters in public, and working. Bacha posh also allows the family to avoid the social stigma associated of not having any male children."@en,
         rdfs:label "bacha posh"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q4838695"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bacha_posh"^^xsd:anyURI
     
     SubClassOf: 
@@ -32695,7 +32813,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002191>
     Annotations: 
         schema:alternateName "Balkan sworn virgins"@en,
         Property:P1813 "sworn virgin"@en,
-        rdfs:label "Balkan sworn virgin"@en
+        rdfs:label "Balkan sworn virgin"@en,
+        obo:IAO_0000115 "Women who take a vow of chastity and wear male clothing in order to live as men in patriarchal northern Balkan society."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002190>,
@@ -32705,15 +32824,17 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002191>
 Class: <http://purl.bioontology.org/ontology/GSSO/002192>
 
     Annotations: 
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Albanian_sworn_virgins"^^xsd:anyURI,
         schema:alternateName "Albanian sworn virgins"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Albanian_sworn_virgins"^^xsd:anyURI,
         oboInOwl:hasSynonym "burrnesha"@sq,
         Property:P276 <http://purl.obolibrary.org/obo/GAZ_00002953>,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q16002379"^^xsd:anyURI,
         rdfs:label "Albanian sworn virgin"@en,
         Property:P1813 "sworn virgin"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        dc:identifier "http://homosaurus.org/v2/burrnesha"^^xsd:anyURI
+        dc:identifier "http://homosaurus.org/v2/burrnesha"^^xsd:anyURI,
+        obo:IAO_0000115 "Women who take a vow of chastity and wear male clothing in order to live as men in patriarchal northern Albanian society."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002191>
@@ -32724,7 +32845,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002193>
     Annotations: 
         Property:P276 <http://purl.obolibrary.org/obo/GAZ_00006898>,
         schema:alternateName "Montenegrin sworn virgins"@en,
-        rdfs:label "Montenegrin sworn virgin"@en
+        rdfs:label "Montenegrin sworn virgin"@en,
+        obo:IAO_0000115 "Women who take a vow of chastity and wear male clothing in order to live as men in patriarchal northern Montenegrin society."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002191>
@@ -32733,6 +32855,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002193>
 Class: <http://purl.bioontology.org/ontology/GSSO/002194>
 
     Annotations: 
+        Property:P1889 "Persons who cross-dress for the purposes of performance."@en,
         rdfs:label "performative cross-dresser"@en,
         schema:alternateName "performative cross-dressers"@en
     
@@ -32744,7 +32867,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002195>
 
     Annotations: 
         rdfs:label "cultural cross-dresser"@en,
-        schema:alternateName "cultural cross-dressers"@en
+        schema:alternateName "cultural cross-dressers"@en,
+        Property:P1889 "Persons who cross-dress for cultural reasons or purposes."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001333>
@@ -32754,7 +32878,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002196>
 
     Annotations: 
         schema:alternateName "disguised cross-dressers"@en,
-        rdfs:label "disguised cross-dresser"@en
+        rdfs:label "disguised cross-dresser"@en,
+        Property:P1889 "Persons who cross-dress for the purposes of disguise."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001333>
@@ -32766,7 +32891,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002197>
         schema:alternateName "wartime cross-dressers"@en,
         rdfs:label "wartime cross-dresser"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_wartime_cross-dressers"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Wartime_cross-dressers"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Wartime_cross-dressers"^^xsd:anyURI,
+        obo:IAO_0000115 "Persons who cross-dress during wartime under various circumstances and for various motives."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002196>
@@ -36144,6 +36270,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002751>
 
     Annotations: 
         schema:alternateName "heterosexual transgender women"@en,
+        obo:IAO_0000115 "A transgender woman who is heterosexual, i.e. attracted to men."@en,
         oboInOwl:hasSynonym "straight transgender woman"@en,
         rdfs:label "heterosexual transgender woman"@en,
         terms:replaces "Urning"@de,
@@ -36158,6 +36285,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002752>
     Annotations: 
         oboInOwl:hasSynonym "straight transgender man"@en,
         rdfs:label "heterosexual transgender man"@en,
+        obo:IAO_0000115 "A transgender man who is heterosexual, i.e. attracted to women."@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         terms:replaces "Urningin"@de
     
@@ -36180,7 +36308,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002753>
                          terms:replaces "effeminate heterosexual man"@en, 
                          terms:replaces "effeminate straight man"@en, 
                          Property:P1813 "cishet feminine man"@en
-        oboInOwl:hasNarrowSynonym "cisgender heterosexual feminine man"@en
+        oboInOwl:hasNarrowSynonym "cisgender heterosexual feminine man"@en,
+        obo:IAO_0000115 "A man who is cisgender and heterosexual."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001402>
@@ -36189,6 +36318,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002753>
 Class: <http://purl.bioontology.org/ontology/GSSO/002754>
 
     Annotations: 
+        obo:IAO_0000115 "A woman who is cisgender and heterosexual."@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         rdfs:label "cisgender heterosexual woman"@en,
         
@@ -40683,6 +40813,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003086>
         
             Annotations: terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>
         Property:P1813 "acearo"@en,
+        obo:IAO_0000115 "A person who is asexual and aromantic."@en,
         schema:alternateName "asexual and aromantic persons"@en
     
     SubClassOf: 
@@ -40797,6 +40928,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003095>
             Annotations: Property:P461 "neurologically typical person"@en, 
                          Property:P461 "neurotypical person"@en
         oboInOwl:hasRelatedSynonym "neuroatypical person"@en,
+        obo:IAO_0000115 "A person who experiences any of various disturbances in their mental health state or has problems of varying levels with their mental health."@en,
         
             Annotations: schema:alternateName "people with experience of mental and emotional distress"@en
         oboInOwl:hasBroadSynonym "person with experience of mental and emotional distress"@en,
@@ -40823,6 +40955,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003096>
         rdfs:label "person with autism"@en,
         schema:alternateName "persons with autism"@en,
         schema:alternateName "people with autism"@en,
+        obo:IAO_0000115 "A person who falls on the autism spectrum."@en,
         
             Annotations: terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>, 
                          Property:P1813 "autistic"@en
@@ -41103,7 +41236,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003114>
         
             Annotations: schema:alternateName "women on the autism spectrum"@en
         oboInOwl:hasRelatedSynonym "woman on the autism spectrum"@en,
-        rdfs:label "woman with autism"@en
+        rdfs:label "woman with autism"@en,
+        obo:IAO_0000115 "A female person who is on the autism spectrum."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003096>
@@ -41113,6 +41247,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003115>
 
     Annotations: 
         rdfs:label "man with autism"@en,
+        obo:IAO_0000115 "A male person who is on the autism spectrum."@en,
         
             Annotations: schema:alternateName "men on the autism spectrum"@en
         oboInOwl:hasRelatedSynonym "man on the autism spectrum"@en
@@ -41124,7 +41259,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003115>
 Class: <http://purl.bioontology.org/ontology/GSSO/003116>
 
     Annotations: 
-        rdfs:label "transgender person with autism"@en
+        rdfs:label "transgender person with autism"@en,
+        obo:IAO_0000115 "A transgender person who is on the autism spectrum."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003096>
@@ -41136,6 +41272,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003117>
         
             Annotations: schema:alternateName "nonbinary people on the autism spectrum"@en
         oboInOwl:hasRelatedSynonym "nonbinary person on the autism spectrum"@en,
+        obo:IAO_0000115 "A nonbinary person who is on the autism spectrum."@en,
         schema:alternateName "nonbinary people with autism"@en,
         rdfs:label "nonbinary person with autism"@en
     
@@ -45570,7 +45707,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003501>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Human_rights_organizations"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_human_rights_organisations"^^xsd:anyURI,
         schema:alternateName "human rights organizations"@en,
-        rdfs:label "human rights organization"@en
+        rdfs:label "human rights organization"@en,
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for human rights."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000232>
@@ -45581,7 +45719,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003502>
     Annotations: 
         schema:alternateName "civil rights organizations"@en,
         rdfs:label "civil rights organization"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Civil_rights_organizations"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Civil_rights_organizations"^^xsd:anyURI,
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for civil rights."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003501>
@@ -45602,6 +45741,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003503>
         oboInOwl:hasRelatedSynonym "LGBTQ civil rights organization"@en,
         schema:alternateName "LGBTQ rights organizations"@en,
         rdfs:label "LGBTQ rights organization"@en,
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for LGBTQIA+ rights."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT_rights_organizations"^^xsd:anyURI,
         
             Annotations: schema:alternateName "LGBT rights organizations"@en
@@ -45615,6 +45755,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003503>
 Class: <http://purl.bioontology.org/ontology/GSSO/003504>
 
     Annotations: 
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for gay rights."@en,
         schema:alternateName "gay rights organizations"@en,
         rdfs:label "gay rights organization"@en
     
@@ -45629,7 +45770,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003505>
         schema:alternateName "transgender rights organizations"@en,
         rdfs:label "transgender rights organization"@en,
         oboInOwl:hasExactSynonym "transgender-rights organization"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_transgender-rights_organizations"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_transgender-rights_organizations"^^xsd:anyURI,
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for transgender rights."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003503>,
@@ -45639,6 +45781,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003505>
 Class: <http://purl.bioontology.org/ontology/GSSO/003506>
 
     Annotations: 
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for lesbian rights."@en,
         rdfs:label "lesbian rights organization"@en,
         schema:alternateName "lesbian rights organizations"@en
     
@@ -45651,7 +45794,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003507>
 
     Annotations: 
         schema:alternateName "bisexual rights organizations"@en,
-        rdfs:label "bisexual rights organization"@en
+        rdfs:label "bisexual rights organization"@en,
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for bisexual rights."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003503>,
@@ -45664,6 +45808,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003508>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Intersex_rights_organizations"^^xsd:anyURI,
         rdfs:label "intersex rights organization"@en,
         schema:alternateName "intersex rights organizations"@en,
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for intersex rights."@en,
         
             Annotations: schema:alternateName "intersex civil rights advocacy groups"@en
         oboInOwl:hasRelatedSynonym "intersex civil rights advocacy group"@en
@@ -45677,6 +45822,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003509>
 
     Annotations: 
         schema:alternateName "identity-related organizations"@en,
+        obo:IAO_0000115 "Organizations related to particular identities or identifications (ethnic groups, gender and sexual minorities, etc.)."@en,
         rdfs:label "identity-related organization"@en
     
     SubClassOf: 
@@ -45686,6 +45832,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003509>
 Class: <http://purl.bioontology.org/ontology/GSSO/003510>
 
     Annotations: 
+        obo:IAO_0000115 "Organizations related to LGBTQIA+ people, whether in favor of them and their rights or opposed to them."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Lists_of_LGBT-related_organizations"^^xsd:anyURI,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_LGBT-related_organizations_and_conferences"^^xsd:anyURI, 
@@ -45708,6 +45855,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003511>
                          oboInOwl:hasRelatedSynonym "organizations that support LGBT people"@en, 
                          schema:alternateName "organizations that support LGBTQ people"@en
         oboInOwl:hasSynonym "organization that supports LGBTQ people"@en,
+        obo:IAO_0000115 "Organizations which support and advocate for LGBTQIA+ rights and/or people."@en,
         schema:alternateName "pro-LGBTQ organizations"@en,
         rdfs:label "pro-LGBTQ organization"@en,
         
@@ -45726,6 +45874,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003512>
     Annotations: 
         schema:alternateName "anti-LGBTQ organizations"@en,
         rdfs:label "anti-LGBTQ organization"@en,
+        obo:IAO_0000115 "Organizations opposed to LGBTQIA+ rights and/or people."@en,
         oboInOwl:hasSynonym "organization that opposes LGBTQ people"@en,
         oboInOwl:hasSynonym "organization that hinders LGBTQ people"@en
     
@@ -45736,6 +45885,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003512>
 Class: <http://purl.bioontology.org/ontology/GSSO/003513>
 
     Annotations: 
+        obo:IAO_0000115 "Anti-LGBTQIA+ organizations opposed to providing basic human and/or civil rights to LGBTQIA+ people."@en,
         rdfs:label "anti-LGBTQ rights organization"@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Organizations_that_oppose_LGBT_rights"^^xsd:anyURI, 
@@ -45759,7 +45909,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003514>
         oboInOwl:hasSynonym "organization that opposes same-sex marriage"@en,
         
             Annotations: schema:alternateName "anti-same-sex marriage organizations"@en
-        oboInOwl:hasSynonym "anti-same-sex marriage organization"@en
+        oboInOwl:hasSynonym "anti-same-sex marriage organization"@en,
+        obo:IAO_0000115 "Organizations opposed to gay marriage."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003513>
@@ -45769,6 +45920,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003515>
 
     Annotations: 
         oboInOwl:hasNarrowSynonym "LGBT health organization"@en,
+        obo:IAO_0000115 "LGBTQIA+ organizations focused on advocacy of LGBTQIA+ health."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT_health_organizations"^^xsd:anyURI,
         rdfs:label "LGBTQ health organization"@en,
         schema:alternateName "LGBTQ health organizations"@en
@@ -45781,8 +45933,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003516>
 
     Annotations: 
         schema:alternateName "LGBTQ professional organizations"@en,
-        oboInOwl:hasNarrowSynonym "LGBT professional organization"@en,
-        rdfs:label "LGBTQ professional organization"@en
+        obo:IAO_0000115 "An LGBTQIA+ organization which aims to further a LGBTQIA+ participation in a particular profession, the interests of LGBTQIA+ individuals engaged in that profession, and the public interest of LGBTQIA+ persons in such a profession."@en,
+        rdfs:label "LGBTQ professional organization"@en,
+        oboInOwl:hasNarrowSynonym "LGBT professional organization"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003524>
@@ -45803,8 +45956,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003517>
 Class: <http://purl.bioontology.org/ontology/GSSO/003518>
 
     Annotations: 
-        rdfs:label "LGBTQ youth organization"@en,
+        obo:IAO_0000115 "An LGBTQIA+ organization which supports and advocates for LGBTQIA+ youth."@en,
+        
+            Annotations: schema:alternateName "LGBT youth organizations"@en
         oboInOwl:hasNarrowSynonym "LGBT youth organization"@en,
+        rdfs:label "LGBTQ youth organization"@en,
         schema:alternateName "LGBTQ youth organizations"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT_youth_organizations"^^xsd:anyURI
     
@@ -45816,6 +45972,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003519>
 
     Annotations: 
         schema:alternateName "LGBTQ student organizations"@en,
+        obo:IAO_0000115 "An LGBTQIA+ organization which supports and advocates for LGBTQIA+ students."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT_student_organizations"^^xsd:anyURI,
         rdfs:label "LGBTQ student organization"@en,
         oboInOwl:hasNarrowSynonym "LGBT student organization"@en
@@ -45829,6 +45986,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003520>
     Annotations: 
         schema:alternateName "LGBTQ sports organizations"@en,
         oboInOwl:hasNarrowSynonym "LGBT sports organization"@en,
+        obo:IAO_0000115 "LGBTQIA+ organizations which support and advocate for LGBTQIA+ sportspeople and participation of LGBTQIA+ persons in sports."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT_sports_organizations"^^xsd:anyURI,
         rdfs:label "LGBTQ sports organization"@en
     
@@ -45841,6 +45999,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003521>
     Annotations: 
         rdfs:label "LGBTQ military-related organization"@en,
         oboInOwl:hasNarrowSynonym "LGBT military-related organization"@en,
+        obo:IAO_0000115 "LGBTQIA+ organizations focused on advocacy for LGBTQIA+ military service members and veterans."@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_LGBT_military_and_veteran_organizations"^^xsd:anyURI, 
                          oboInOwl:hasNarrowSynonym "LGBT military and veteran organization"@en, 
@@ -45860,6 +46019,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003522>
         schema:alternateName "LGBTQ business organizations"@en,
         oboInOwl:hasNarrowSynonym "LGBT business organization"@en,
         rdfs:label "LGBTQ business organization"@en,
+        obo:IAO_0000115 "LGBTQIA+ organizations focused on curation of and advocacy of LGBTQIA+ business owners."@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000586>
     
     SubClassOf: 
@@ -45872,6 +46032,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003523>
         schema:alternateName "LGBTQ arts organizations"@en,
         oboInOwl:hasNarrowSynonym "LGBT arts organization"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000586>,
+        obo:IAO_0000115 "LGBTQIA+ organizations focused on curation of and advocacy for LGBTQIA+ art."@en,
         rdfs:label "LGBTQ arts organization"@en
     
     SubClassOf: 
@@ -45881,6 +46042,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003523>
 Class: <http://purl.bioontology.org/ontology/GSSO/003524>
 
     Annotations: 
+        obo:IAO_0000115 "Pro-LGBTQIA+ organizations organized by their focus and/or purpose."@en,
         rdfs:label "LGBTQ organizations by focus"@en
     
     SubClassOf: 
@@ -45890,6 +46052,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003524>
 Class: <http://purl.bioontology.org/ontology/GSSO/003525>
 
     Annotations: 
+        obo:IAO_0000115 "Pro-LGBTQIA+ organizations organized by identity within the LGBTQIA+ community."@en,
         rdfs:label "LGBTQ organizations by identity"@en
     
     SubClassOf: 
@@ -45901,6 +46064,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003526>
     Annotations: 
         rdfs:label "bisexual organization"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Bisexual_organizations"^^xsd:anyURI,
+        obo:IAO_0000115 "Organizations primarily for bisexual people or which otherwise support bisexual people."@en,
         schema:alternateName "bisexual organizations"@en
     
     SubClassOf: 
@@ -45911,6 +46075,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003527>
 
     Annotations: 
         rdfs:label "asexual organization"@en,
+        obo:IAO_0000115 "Organizations primarily for asexual people or which otherwise support asexual people."@en,
         schema:alternateName "asexual organizations"@en
     
     SubClassOf: 
@@ -45920,9 +46085,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003527>
 Class: <http://purl.bioontology.org/ontology/GSSO/003528>
 
     Annotations: 
+        obo:IAO_0000115 "Organizations primarily for transgender people or which otherwise support transgender people."@en,
         schema:alternateName "transgender organizations"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Transgender_organizations"^^xsd:anyURI,
-        rdfs:label "transgender organization"@en
+        rdfs:label "transgender organization"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Transgender_organizations"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003525>
@@ -45932,6 +46098,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003529>
 
     Annotations: 
         schema:alternateName "lesbian organizations"@en,
+        obo:IAO_0000115 "Organizations primarily for lesbians or which otherwise support lesbians."@en,
         rdfs:label "lesbian organization"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Lesbian_organizations"^^xsd:anyURI,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000381>
@@ -45946,7 +46113,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003530>
         rdfs:label "gay men's organization"@en,
         schema:alternateName "gay men's organizations"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Gay_men%27s_organizations"^^xsd:anyURI,
-        oboInOwl:hasSynonym "gay male organization"@en
+        oboInOwl:hasSynonym "gay male organization"@en,
+        obo:IAO_0000115 "Organizations primarily for gay men or which otherwise support gay men."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003525>
@@ -45955,6 +46123,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003530>
 Class: <http://purl.bioontology.org/ontology/GSSO/003531>
 
     Annotations: 
+        obo:IAO_0000115 "Organizations primarily for intersex people or which otherwise support intersex people."@en,
         rdfs:label "intersex organization"@en,
         schema:alternateName "intersex organizations"@en
     
@@ -45966,8 +46135,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003532>
 
     Annotations: 
         schema:alternateName "LGBTQ medical organizations"@en,
+        
+            Annotations: schema:alternateName "LGBT medical organizations"@en
+        oboInOwl:hasNarrowSynonym "LGBT medical organization"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_LGBT_medical_organizations"^^xsd:anyURI,
-        rdfs:label "LGBTQ medical organization"@en
+        rdfs:label "LGBTQ medical organization"@en,
+        obo:IAO_0000115 "LGBTQIA+ organizations focused on advocacy of LGBTQIA+ persons in medical care and research."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003515>
@@ -45977,6 +46150,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003533>
 
     Annotations: 
         rdfs:label "gay liberation organization"@en,
+        obo:IAO_0000115 "Organizations which support or otherwise advocate for gay liberation."@en,
         
             Annotations: schema:alternateName "gay liberation groups"@en
         oboInOwl:hasRelatedSynonym "gay liberation group"@en,
@@ -46139,6 +46313,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003546>
         
             Annotations: Property:P1813 "QSA"@en
         oboInOwl:hasBroadSynonym "queer-straight alliance"@en,
+        obo:IAO_0000115 "A student-led or community-based organization, found in middle schools and high schools as well as colleges and universities, primarily in the United States and Canada, that is intended to provide a safe and supportive environment for LGBTQIA+ children, teenagers, and youth as well as their cisgender heterosexual allies."@en,
         
             Annotations: oboInOwl:hasExactSynonym "gender & sexualities alliance"@en
         oboInOwl:hasRelatedSynonym "genders and sexualities alliance"@en,
@@ -46291,6 +46466,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003558>
         schema:alternateName "gender variant people"@en,
         rdfs:label "gender variant person"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        rdfs:comment "Note that this definition may include agender persons, which \"gendered person\" does not."@en,
+        obo:IAO_0000115 "A person with a gender identity, expression, and/or role which is considered variant within the sociocultural understandings of gender within which that individual lives."@en,
         Property:P1813 "gender variant"@en
     
     SubClassOf: 
@@ -46467,6 +46644,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003573>
 
     Annotations: 
         oboInOwl:hasExactSynonym "gray romantic person"@en,
+        obo:IAO_0000115 "A person with a romantic orientation somewhere between aromantic and alloromantic."@en,
         Property:P1813 "gray-romantic"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         rdfs:label "gray-romantic person"@en
@@ -46480,7 +46658,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003574>
     Annotations: 
         rdfs:label "demiromantic person"@en,
         schema:alternateName "demiromantic persons"@en,
-        schema:alternateName "demiromantic people"@en
+        schema:alternateName "demiromantic people"@en,
+        obo:IAO_0000115 "A person who is demiromantic."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003573>
@@ -48401,6 +48580,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003744>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "transitioned transgender person"@en,
+        obo:IAO_0000115 "A transgender person has previously engaged in any of various transition processes and considers themselves to have completed those processes."@en,
         rdfs:label "post-transition transgender person"@en,
         oboInOwl:hasExactSynonym "posttransition transgender person"@en
     
@@ -48411,6 +48591,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003744>
 Class: <http://purl.bioontology.org/ontology/GSSO/003745>
 
     Annotations: 
+        obo:IAO_0000115 "A transgender person engaged in the process of social gender transition or any of its associated processes."@en,
+        schema:alternateName "socially transitioned transgender persons"@en,
+        schema:alternateName "socially transitioned transgender people"@en,
         rdfs:label "socially transitioned transgender person"@en
     
     SubClassOf: 
@@ -48420,7 +48603,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003745>
 Class: <http://purl.bioontology.org/ontology/GSSO/003746>
 
     Annotations: 
-        rdfs:label "medically transitioned transgender person"@en
+        schema:alternateName "medically transitioned transgender people"@en,
+        rdfs:label "medically transitioned transgender person"@en,
+        schema:alternateName "medically transitioned transgender persons"@en,
+        obo:IAO_0000115 "A transgender person engaged in the process of medical gender transition or any of its associated processes."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003744>
@@ -48431,6 +48617,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003747>
     Annotations: 
         oboInOwl:hasSynonym "transgender people by relationship to transition status"@en,
         rdfs:comment "Generally, it is unconsiderate and unnecessary to discuss a transgender person's transition status unprompted."@en,
+        obo:IAO_0000115 "Transgender persons as defined by transition types and/or processes."@en,
         rdfs:label "transgender people by transition status"@en
     
     SubClassOf: 
@@ -48441,6 +48628,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003748>
 
     Annotations: 
         rdfs:label "peri-transition transgender person"@en,
+        obo:IAO_0000115 "A transgender person currently engaged in any of various transition processes."@en,
         oboInOwl:hasExactSynonym "peritransition transgender person"@en,
         oboInOwl:hasRelatedSynonym "transitioning transgender person"@en
     
@@ -48452,7 +48640,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003749>
 
     Annotations: 
         rdfs:label "pre-transition transgender person"@en,
-        oboInOwl:hasExactSynonym "pretransition transgender person"@en
+        oboInOwl:hasExactSynonym "pretransition transgender person"@en,
+        obo:IAO_0000115 "A transgender person who would become engaged in any of various transition processes, who has yet to become involved in them."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003747>
@@ -48461,6 +48650,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003749>
 Class: <http://purl.bioontology.org/ontology/GSSO/003750>
 
     Annotations: 
+        schema:alternateName "surgically transitioned transgender persons"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/postOperative"^^xsd:anyURI,
@@ -48469,7 +48659,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003750>
                          Property:P1813 "post-op"@en, 
                          Property:P1813 "post-operative"@en
         oboInOwl:hasRelatedSynonym "postoperative transgender person"@en,
+        schema:alternateName "surgically transitioned transgender people"@en,
         rdfs:label "surgically transitioned transgender person"@en,
+        obo:IAO_0000115 "A transgender person who has previously engaged in the process of surgical gender transition or any of its associated processes."@en,
+        
+            Annotations: schema:alternateName "surgically transgendered transsexuals"@en
         terms:replaces "surgically transgendered transsexual"@en
     
     SubClassOf: 
@@ -48480,10 +48674,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003751>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/003790>,
+        obo:IAO_0000115 "A transgender person who has previously engaged in the process of medical gender transition or any of its associated processes, but has not engaged and does not plan on engaging in any surgical aspects of gender transition."@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/nonOperative"^^xsd:anyURI,
+        schema:alternateName "non-surgically transitioned transgender persons"@en,
         rdfs:label "non-surgically transitioned transgender person"@en,
+        schema:alternateName "non-surgically transitioned transgender people"@en,
         
             Annotations: terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>, 
                          Property:P1813 "non-op"@en, 
@@ -48497,7 +48694,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003751>
 Class: <http://purl.bioontology.org/ontology/GSSO/003752>
 
     Annotations: 
-        rdfs:label "pre-medical-transition transgender person"@en
+        rdfs:label "pre-medical-transition transgender person"@en,
+        schema:alternateName "pre-medical-transition transgender people"@en,
+        schema:alternateName "pre-medical-transition transgender persons"@en,
+        obo:IAO_0000115 "A transgender person who would like to become engaged in the process of medical gender transition or any of its associated processes."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003749>
@@ -48506,7 +48706,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003752>
 Class: <http://purl.bioontology.org/ontology/GSSO/003753>
 
     Annotations: 
-        rdfs:label "pre-social-transition transgender person"@en
+        obo:IAO_0000115 "A transgender person who would like to become engaged in the process of social gender transition or any of its associated processes."@en,
+        rdfs:label "pre-social-transition transgender person"@en,
+        schema:alternateName "pre-social-transition transgender people"@en,
+        schema:alternateName "pre-social-transition transgender persons"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003749>
@@ -48515,6 +48718,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003753>
 Class: <http://purl.bioontology.org/ontology/GSSO/003754>
 
     Annotations: 
+        schema:alternateName "pre-surgical-transition transgender people"@en,
+        obo:IAO_0000115 "A transgender person who would like to become engaged in the process of surgical gender transition or any of its associated processes."@en,
         rdfs:label "pre-surgical-transition transgender person"@en,
         
             Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>, 
@@ -48523,6 +48728,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003754>
                          Property:P1813 "pre-operative"@en
         oboInOwl:hasSynonym "preoperative transgender person"@en,
         rdfs:comment "A transgender person's operation status is private. It is inappropriate to discuss their status unprompted. Only use \"pre-op\" or \"pre-operative\" if there is first discussion about the topic and the person indicates that they do plan on obtaining surgery at some point; otherwise, use non-operative."@en,
+        schema:alternateName "pre-surgical-transition transgender persons"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/preOperative"^^xsd:anyURI
@@ -48916,6 +49122,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003799>
 Class: <http://purl.bioontology.org/ontology/GSSO/003800>
 
     Annotations: 
+        obo:IAO_0000115 "A person who is employed in a particular profession."@en,
         schema:alternateName "employed people"@en,
         rdfs:label "employed person"@en,
         schema:alternateName "employed persons"@en
@@ -48928,6 +49135,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003801>
 
     Annotations: 
         oboInOwl:hasNarrowSynonym "policeman"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q384593"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Police_officer"^^xsd:anyURI,
+        obo:IAO_0000115 "A warranted law employee of a police force. In most countries, \"police officer\" is a generic term not specifying a particular rank. In some, the use of the rank \"officer\" is legally reserved for military personnel."@en,
         
             Annotations: schema:alternateName "law enforcement officers"@en
         oboInOwl:hasRelatedSynonym "law enforcement officer"@en,
@@ -50701,6 +50911,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003976>
 
     Annotations: 
         schema:alternateName "persons with albinism"@en,
+        obo:IAO_0000115 "A person who is albino or who has a condition known as albinism."@en,
         schema:alternateName "people with albinism"@en,
         rdfs:label "person with albinism"@en,
         
@@ -51432,6 +51643,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004047>
 Class: <http://purl.bioontology.org/ontology/GSSO/004058>
 
     Annotations: 
+        obo:IAO_0000115 "Sexual partners organized by their role and/or roles during sexual activities."@en,
         rdfs:label "sexual partners by role"@en
     
     SubClassOf: 
@@ -51441,6 +51653,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004058>
 Class: <http://purl.bioontology.org/ontology/GSSO/004059>
 
     Annotations: 
+        schema:alternateName "Partners organized primarily by sexual orientation and/or sexuality. Note that this includes asexual persons."@en,
         oboInOwl:hasRelatedSynonym "sexual partners by sexuality"@en,
         rdfs:label "sexual partners by sexual orientation"@en
     
@@ -51454,6 +51667,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004060>
         oboInOwl:hasRelatedSynonym "passive role"@en,
         rdfs:label "receptive partner"@en,
         schema:alternateName "receptive partners"@en,
+        obo:IAO_0000115 "The sexual partner who is penetrated by the penetrative partner."@en,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/000343>,
         oboInOwl:hasSynonym "receiver"@en
     
@@ -51468,6 +51682,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004061>
         rdfs:label "penetrative partner"@en,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/000346>,
         schema:alternateName "penetrative partners"@en,
+        obo:IAO_0000115 "The sexual partner who engages in penetrative sexual behavior."@en,
         oboInOwl:hasSynonym "giver"@en
     
     SubClassOf: 
@@ -51478,7 +51693,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004062>
 
     Annotations: 
         rdfs:label "drag performer"@en,
-        schema:alternateName "drag performers"@en
+        schema:alternateName "drag performers"@en,
+        obo:IAO_0000115 "A person who performs in drag."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002194>
@@ -52492,6 +52708,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004156>
 
     Annotations: 
         rdfs:label "partner of gay man"@en,
+        schema:alternateName "A person who is the partner of a gay man."@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/partnersOfGayMen"^^xsd:anyURI,
@@ -52519,6 +52736,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004157>
         
             Annotations: schema:alternateName "partners of gay women"@en
         oboInOwl:hasSynonym "partner of gay woman"@en,
+        schema:alternateName "A person who is the partner of a lesbian."@en,
         schema:alternateName "partners of lesbians"@en
     
     SubClassOf: 
@@ -52528,6 +52746,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004157>
 Class: <http://purl.bioontology.org/ontology/GSSO/004158>
 
     Annotations: 
+        schema:alternateName "A person who is the partner of a bisexual woman."@en,
         
             Annotations: oboInOwl:hasBroadSynonym "her wife"@en
         oboInOwl:hasNarrowSynonym "wife of bisexual woman"@en,
@@ -52548,6 +52767,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004159>
         
             Annotations: oboInOwl:hasBroadSynonym "his husband"@en
         oboInOwl:hasNarrowSynonym "husband of bisexual man"@en,
+        schema:alternateName "A person who is the partner of a bisexual man."@en,
         
             Annotations: oboInOwl:hasBroadSynonym "his wife"@en
         oboInOwl:hasNarrowSynonym "wife of bisexual man"@en,
@@ -52564,6 +52784,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004160>
             Annotations: oboInOwl:hasBroadSynonym "her husband"@en
         oboInOwl:hasNarrowSynonym "husband of heterosexual woman"@en,
         oboInOwl:hasNarrowSynonym "wife of heterosexual woman"@en,
+        schema:alternateName "A person who is the partner of a heterosexual woman."@en,
         schema:alternateName "partners of heterosexual women"@en,
         rdfs:label "partner of heterosexual woman"@en
     
@@ -52579,7 +52800,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004161>
         
             Annotations: oboInOwl:hasBroadSynonym "his wife"@en
         oboInOwl:hasNarrowSynonym "wife of heterosexual man"@en,
-        oboInOwl:hasNarrowSynonym "husband of heterosexual man"@en
+        oboInOwl:hasNarrowSynonym "husband of heterosexual man"@en,
+        schema:alternateName "A person who is the partner of a heterosexual man."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001978>
@@ -52588,7 +52810,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004161>
 Class: <http://purl.bioontology.org/ontology/GSSO/004162>
 
     Annotations: 
-        rdfs:label "partner of asexual person"@en
+        obo:IAO_0000115 "A person who is the partner of an asexual person."@en,
+        rdfs:label "partner of asexual person"@en,
+        schema:alternateName "partners of asexual people"@en,
+        schema:alternateName "partners of asexual persons"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004059>
@@ -52597,6 +52822,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004162>
 Class: <http://purl.bioontology.org/ontology/GSSO/004163>
 
     Annotations: 
+        schema:alternateName "partners of pansexual persons"@en,
+        schema:alternateName "partners of pansexual people"@en,
+        obo:IAO_0000115 "A person who is the partner of a pansexual person."@en,
         rdfs:label "partner of pansexual person"@en
     
     SubClassOf: 
@@ -54448,6 +54676,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004363>
 Class: <http://purl.bioontology.org/ontology/GSSO/004364>
 
     Annotations: 
+        obo:IAO_0000115 "Persons organized primarily by their status of having or not having any of various diseases."@en,
         rdfs:label "persons by disease status"@en
     
     SubClassOf: 
@@ -54458,6 +54687,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004365>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "persons by sexual orientation"@en,
+        obo:IAO_0000115 "Persons organized by their sexuality and/or sexual orientation."@en,
         rdfs:label "persons by sexuality"@en
     
     SubClassOf: 
@@ -54467,7 +54697,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004365>
 Class: <http://purl.bioontology.org/ontology/GSSO/004366>
 
     Annotations: 
-        rdfs:label "persons by romantic orientation"@en
+        rdfs:label "persons by romantic orientation"@en,
+        obo:IAO_0000115 "Persons organized by their given romantic orientation or orientations."@en
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_000498>
@@ -54487,7 +54718,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004367>
 Class: <http://purl.bioontology.org/ontology/GSSO/004368>
 
     Annotations: 
-        rdfs:label "cisgender person with autism"@en
+        rdfs:label "cisgender person with autism"@en,
+        obo:IAO_0000115 "A cisgender person who is on the autism spectrum."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003096>
@@ -54496,6 +54728,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004368>
 Class: <http://purl.bioontology.org/ontology/GSSO/004369>
 
     Annotations: 
+        schema:alternateName "transfeminine people with autism"@en,
+        obo:IAO_0000115 "A transfeminine person who is on the autism spectrum."@en,
+        schema:alternateName "transfeminine persons with autism"@en,
         rdfs:label "transfeminine person with autism"@en
     
     SubClassOf: 
@@ -54505,7 +54740,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004369>
 Class: <http://purl.bioontology.org/ontology/GSSO/004370>
 
     Annotations: 
-        rdfs:label "transmasculine person with autism"@en
+        rdfs:label "transmasculine person with autism"@en,
+        obo:IAO_0000115 "A transmasculine person who is on the autism spectrum."@en,
+        schema:alternateName "transmasculine people with autism"@en,
+        schema:alternateName "transmasculine persons with autism"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003116>
@@ -54514,7 +54752,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004370>
 Class: <http://purl.bioontology.org/ontology/GSSO/004371>
 
     Annotations: 
-        rdfs:label "person without a disease"@en
+        obo:IAO_0000115 "People who do not have any of various diseases."@en,
+        schema:alternateName "people without diseases"@en,
+        rdfs:label "person without a disease"@en,
+        schema:alternateName "persons without diseases"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004364>
@@ -54523,6 +54764,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004371>
 Class: <http://purl.bioontology.org/ontology/GSSO/004372>
 
     Annotations: 
+        obo:IAO_0000115 "A person who does not have a given infection."@en,
         rdfs:label "person without an infection"@en
     
     SubClassOf: 
@@ -54532,7 +54774,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004372>
 Class: <http://purl.bioontology.org/ontology/GSSO/004373>
 
     Annotations: 
-        rdfs:label "person without HIV"@en
+        rdfs:label "person without HIV"@en,
+        obo:IAO_0000115 "A person who does not have HIV."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004372>
@@ -55731,6 +55974,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004506>
 Class: <http://purl.bioontology.org/ontology/GSSO/004507>
 
     Annotations: 
+        obo:IAO_0000115 "A man who is not intersex."@en,
         schema:alternateName "dyadic men"@en,
         rdfs:label "dyadic man"@en
     
@@ -55742,7 +55986,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004508>
 
     Annotations: 
         schema:alternateName "dyadic women"@en,
-        rdfs:label "dyadic woman"@en
+        rdfs:label "dyadic woman"@en,
+        obo:IAO_0000115 "A woman who is not intersex."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001203>
@@ -55753,6 +55998,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004509>
     Annotations: 
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000109>,
         schema:alternateName "intersex children"@en,
+        obo:IAO_0000115 "A child who is intersex."@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16423>,
         rdfs:label "intersex child"@en
     
@@ -55767,6 +56013,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004510>
         oboInOwl:hasSynonym "Guevedoces"@es,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/001546>,
         schema:alternateName "Guevedoce children"@en,
+        obo:IAO_0000115 "Boys in a small community in the Dominican Republic whose penises appear to miraculously appear at the onset of puberty at around age twelve, causing them to be mistaken as girls until that point."@en,
         terms:isReferencedBy <https://web.archive.org/web/20190905170636/https://www.bbc.com/news/magazine-34290981>,
         rdfs:label "Guevedoce child"@en,
         Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16423>
@@ -56085,6 +56332,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004538>
     Annotations: 
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000395>,
         schema:alternateName "intersex nonbinary people"@en,
+        obo:IAO_0000115 "An intersex person who identifies as nonbinary."@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000109>,
         rdfs:label "intersex nonbinary person"@en,
         schema:alternateName "intersex nonbinary persons"@en,
@@ -56279,8 +56527,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004553>
 
     Annotations: 
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48647"^^xsd:anyURI,
-        obo:IAO_0000115 "A university is an institution of higher education and research which grants academic degrees in a variety of subjects and provides both undergraduate education and postgraduate education."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3918"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/University"^^xsd:anyURI,
         rdfs:label "university"@en,
+        obo:IAO_0000115 "A university is an institution of higher education and research which grants academic degrees in a variety of subjects and provides both undergraduate education and postgraduate education."@en,
         schema:alternateName "universities"@en
     
     SubClassOf: 
@@ -56290,7 +56540,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004553>
 Class: <http://purl.bioontology.org/ontology/GSSO/004554>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Educational_organization"^^xsd:anyURI,
+        obo:IAO_0000115 "Organizations which provide educational services."@en,
         rdfs:label "educational organization"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Educational_organizations"^^xsd:anyURI,
         schema:alternateName "educational organizations"@en
     
     SubClassOf: 
@@ -56310,7 +56563,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004555>
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41206"^^xsd:anyURI,
         rdfs:label "institutional organization"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Institutes"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Institute"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Institute"^^xsd:anyURI,
+        obo:IAO_0000115 "An organizational body created to serve a particular purpose."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000232>
@@ -56362,7 +56616,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004566>
 Class: <http://purl.bioontology.org/ontology/GSSO/004568>
 
     Annotations: 
+        obo:IAO_0000115 "An organization that exists to promote an academic discipline, profession, or a group of related disciplines such as the arts and science."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_learned_societies"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q955824"^^xsd:anyURI,
         schema:alternateName "learned societies"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Learned_society"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Learned_societies"^^xsd:anyURI,
         rdfs:label "learned society"@en
     
     SubClassOf: 
@@ -56375,6 +56634,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004569>
         schema:alternateName "historical societies"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Historical_society"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_historical_societies"^^xsd:anyURI,
+        obo:IAO_0000115 "Societies whose membership is limited to historians."@en,
         rdfs:label "historical society"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Historical_societies"^^xsd:anyURI
     
@@ -56386,6 +56646,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004570>
 
     Annotations: 
         schema:alternateName "medical societies"@en,
+        obo:IAO_0000115 "Societies whose membership is limited to physicians."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D012955"^^xsd:anyURI,
         rdfs:label "medical society"@en
     
@@ -56397,8 +56658,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004571>
 
     Annotations: 
         rdfs:label "scientific society"@en,
-        schema:alternateName "scientific societies"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012958"^^xsd:anyURI
+        obo:IAO_0000115 "Societies whose membership is limited to scientists."@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012958"^^xsd:anyURI,
+        schema:alternateName "scientific societies"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004568>
@@ -56408,7 +56670,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004573>
 
     Annotations: 
         schema:alternateName "psychological societies"@en,
-        rdfs:label "psychological society"@en
+        rdfs:label "psychological society"@en,
+        obo:IAO_0000115 "Societies whose membership is limited to psychologists."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004571>
@@ -56421,6 +56684,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004574>
             Annotations: schema:alternateName "sexology societies"@en
         oboInOwl:hasSynonym "sexology society"@en,
         schema:alternateName "sexological societies"@en,
+        obo:IAO_0000115 "Societies whose membership is limited to sexologists."@en,
         rdfs:label "sexological society"@en
     
     SubClassOf: 
@@ -56854,9 +57118,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004615>
 
     Annotations: 
         rdfs:label "non-profit organization"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Nonprofit_organization"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Non-profit_organizations"^^xsd:anyURI,
         oboInOwl:hasExactSynonym "nonprofit organization"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D009939"^^xsd:anyURI,
-        schema:alternateName "non-profit organizations"@en
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q163740"^^xsd:anyURI,
+        schema:alternateName "non-profit organizations"@en,
+        obo:IAO_0000115 "An organization dedicated to furthering a particular social cause or advocating for a shared point of view. In economic terms, it is an organization that uses its surplus of the revenues to further achieve its ultimate objective, rather than distributing its income to the organization's shareholders, leaders, or members."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000232>
@@ -56865,6 +57133,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004615>
 Class: <http://purl.bioontology.org/ontology/GSSO/004616>
 
     Annotations: 
+        obo:IAO_0000115 "Non-profit organizations concerned with various aspects of health, e.g., education, promotion, treatment, services, etc."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D014837"^^xsd:anyURI,
         rdfs:label "voluntary health agency"@en,
         schema:alternateName "voluntary health agencies"@en
@@ -56962,6 +57231,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004637>
         
             Annotations: schema:alternateName "professional associations"@en
         oboInOwl:hasSynonym "professional association"@en,
+        obo:IAO_0000115 "An organization which aims to further a particular profession, the interests of individuals engaged in that profession, and the public interest."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Professional_associations"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Professional_association"^^xsd:anyURI,
         schema:alternateName "professional organizations"@en
@@ -56976,6 +57246,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004638>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Medical_association"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Medical_associations"^^xsd:anyURI,
         schema:alternateName "medical associations"@en,
+        obo:IAO_0000115 "A trade association that brings together practitioners of a particular geographical area (a country, region, province). In common-law countries, they are often grouped by medical specialties (cardiologists, family doctors, etc.)."@en,
         rdfs:label "medical association"@en
     
     SubClassOf: 
@@ -56985,6 +57256,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004638>
 Class: <http://purl.bioontology.org/ontology/GSSO/004639>
 
     Annotations: 
+        obo:IAO_0000115 "Professional associations formed of and for psychiatrists."@en,
         schema:alternateName "psychiatric associations"@en,
         rdfs:label "psychiatric association"@en
     
@@ -56995,9 +57267,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004639>
 Class: <http://purl.bioontology.org/ontology/GSSO/004640>
 
     Annotations: 
-        oboInOwl:hasRelatedSynonym "psychology-related professional association"@en,
         rdfs:label "psychological association"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Psychology-related_professional_associations"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "psychology-related professional associations"@en
+        oboInOwl:hasRelatedSynonym "psychology-related professional association"@en,
+        obo:IAO_0000115 "Professional associations formed of and for psychologists."@en,
         oboInOwl:hasSynonym "psychology association"@en,
         schema:alternateName "psychological associations"@en
     
@@ -57018,6 +57293,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004641>
 Class: <http://purl.bioontology.org/ontology/GSSO/004642>
 
     Annotations: 
+        obo:IAO_0000115 "Professional associations formed of and for sexologists."@en,
         rdfs:label "sexological association"@en,
         schema:alternateName "sexological associations"@en
     
@@ -57029,7 +57305,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004643>
 
     Annotations: 
         rdfs:label "bar association"@en,
-        schema:alternateName "bar associations"@en
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bar_association"^^xsd:anyURI,
+        obo:IAO_0000115 "A professional association of lawyers. Some bar associations are responsible for the regulation of the legal profession in their jurisdiction; others are professional organizations dedicated to serving their members; in many cases, they are both. In many Commonwealth jurisdictions, the bar association comprises lawyers who are qualified as barristers or advocates in particular, versus solicitors."@en,
+        schema:alternateName "bar associations"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1865205"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Bar_associations"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004637>
@@ -57704,6 +57984,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004717>
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
         schema:alternateName "friends with benefits"@en,
+        obo:IAO_0000115 "A friend with whom one participates in sexual activities with."@en,
         rdfs:label "friend with benefits"@en,
         Property:P1813 "FWB"@en,
         oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/004718>
@@ -57753,7 +58034,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004725>
         schema:alternateName "primary partners"@en,
         
             Annotations: Property:P1813 "MSO"@en
-        oboInOwl:hasSynonym "most significant other"@en
+        oboInOwl:hasSynonym "most significant other"@en,
+        obo:IAO_0000115 "A partner in a polyamorous relationship who is noted as having a higher degree of emotional and/or sexual involvement than a non-primary partner."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001954>
@@ -57783,6 +58065,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004728>
 
     Annotations: 
         schema:alternateName "non-primary partners"@en,
+        obo:IAO_0000115 "A partner in a polyamorous relationship who is noted as having a lower degree of emotional and/or sexual involvement than a primary partner."@en,
         terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
         
             Annotations: schema:alternateName "OSO"@en
@@ -57797,6 +58080,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004730>
 
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
+        obo:IAO_0000115 "A partner in a polyamorous relationship who is noted as having a lower degree of emotional and/or sexual involvement than a primary partner but a higher degree than that of a tertiary partner."@en,
         rdfs:label "secondary partner"@en,
         schema:alternateName "secondary partners"@en,
         Property:P1813 "secondary"@en
@@ -57811,7 +58095,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004731>
         terms:isReferencedBy <https://web.archive.org/web/20190620090009/https://www.morethantwo.com/polyglossary.html>,
         schema:alternateName "tertiary partners"@en,
         Property:P1813 "tertiary"@en,
-        rdfs:label "tertiary partner"@en
+        rdfs:label "tertiary partner"@en,
+        obo:IAO_0000115 "A partner in a polyamorous relationship who is noted as having a lower degree of emotional and/or sexual involvement than a secondary partner."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004728>
@@ -78048,7 +78333,9 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002037>
 Individual: <http://purl.bioontology.org/ontology/GSSO/002167>
 
     Annotations: 
+        obo:IAO_0000115 "A cultural practice in parts of Afghanistan and Pakistan, in which some families without sons will pick a daughter to live and behave as a boy. This enables the child to behave more freely: attending school, escorting her sisters in public, and working. Bacha posh also allows the family to avoid the social stigma associated of not having any male children."@en,
         rdfs:label "bacha posh"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q4838695"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bacha_posh"^^xsd:anyURI
     
     DifferentFrom: 
@@ -90403,6 +90690,15 @@ Individual: <https://web.archive.org/web/20180719054340/http://www.ncai.org/poli
     
     Types: 
         <http://semanticscience.org/resource/SIO_001170>
+    
+    
+Individual: <https://web.archive.org/web/20180826181134/http://www.netanelganin.com/projects/QueerLCSH/QueerLCSH.html>
+
+    Annotations: 
+        Property:P170 "Netanel Ganin",
+        Property:P2699 "https://web.archive.org/web/20180826181134/http://www.netanelganin.com/projects/QueerLCSH/QueerLCSH.html"^^xsd:anyURI,
+        rdfs:label "QueerLCSH"@en,
+        dc:title "QueerLCSH"@en
     
     
 Individual: <https://web.archive.org/web/20180921011131/http://bir.brandeis.edu/bitstream/handle/10192/32261/BeanThesis2016.pdf?sequence=1&isAllowed=y>
