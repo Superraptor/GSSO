@@ -10293,9 +10293,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000373>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/heterosexualMen"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "straight men"@en
+        oboInOwl:hasSynonym "straight man"@en,
         rdfs:label "heterosexual man"@en,
         schema:gender <http://purl.bioontology.org/ontology/GSSO/000090>,
-        oboInOwl:hasSynonym "straight man"@en,
         obo:IAO_0000115 "Someone with a male gender identity who is attracted to those with female gender identities."@en,
         schema:alternateName "heterosexual men"@en
     
@@ -10727,6 +10729,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000388>
 Class: <http://purl.bioontology.org/ontology/GSSO/000389>
 
     Annotations: 
+        schema:alternateName "cisgender persons"@en,
         rdfs:label "cisgender person"@en,
         obo:IAO_0000115 "A cisgender/cissexual person: one whose gender matches his or her biological sex."@en,
         
@@ -10746,13 +10749,18 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000390>
         
             Annotations: schema:alternateName "heterosexuals"@en
         Property:P1813 "heterosexual"@en,
-        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/001592>,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/heterosexuals"^^xsd:anyURI,
+        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/001592>,
+        schema:alternateName "heterosexual persons"@en,
         obo:IAO_0000115 "A person who is attracted to people of gender identities other than their own, typically used to refer to those with female gender identities who are attracted to those with male gender identities, or vice versa."@en,
+        rdfs:label "heterosexual person"@en,
         schema:alternateName "heterosexual people"@en,
-        rdfs:label "heterosexual person"@en
+        
+            Annotations: schema:alternateName "straight people"@en, 
+                         schema:alternateName "straight persons"@en
+        oboInOwl:hasSynonym "straight person"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001166>
@@ -16334,8 +16342,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000829>
 Class: <http://purl.bioontology.org/ontology/GSSO/000830>
 
     Annotations: 
-        oboInOwl:hasRelatedSynonym "housemate"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Roommate"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "housemates"@en
+        oboInOwl:hasRelatedSynonym "housemate"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q14754454"^^xsd:anyURI,
         obo:IAO_0000115 "A person with whom one shares a living facility such as a room or dormitory typically without being family or romantically involved."@en,
         rdfs:label "roommate"@en,
@@ -16349,7 +16359,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000831>
 
     Annotations: 
         rdfs:label "PSSSLQ"@en,
-        oboInOwl:hasExactSynonym "person of same sex sharing living quarters"@en
+        oboInOwl:hasSynonym "person of same sex sharing living quarters"@en,
+        oboInOwl:hasRelatedSynonym "people of sex sex sharing living quarters"@en,
+        obo:IAO_0000115 "A person of the same sex/gender (a man living with a man or a woman living with a woman) with whom one shares living quarters."@en,
+        oboInOwl:hasRelatedSynonym "persons of sex sex sharing living quarters"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000830>
@@ -16358,10 +16371,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000831>
 Class: <http://purl.bioontology.org/ontology/GSSO/000832>
 
     Annotations: 
+        oboInOwl:hasRelatedSynonym "persons of opposite sex sharing living quarters"@en,
         rdfs:label "POSSLQ"@en,
         Property:P3938 "United States Census Bureau"@en,
-        oboInOwl:hasExactSynonym "person of opposite sex sharing living quarters"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7120037"^^xsd:anyURI,
+        oboInOwl:hasSynonym "person of opposite sex sharing living quarters"@en,
+        obo:IAO_0000115 "A person of the \"opposite\" sex (a man living with a woman or a woman living with a man) with whom one shares living quarters."@en,
+        oboInOwl:hasRelatedSynonym "people of opposite sex sharing living quarters"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/POSSLQ"^^xsd:anyURI
     
     SubClassOf: 
@@ -20127,11 +20143,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001166>
     Annotations: 
         schema:alternateName "allosexual people"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728223155/http://wiki.asexuality.org/Lexicon>,
+        schema:alternateName "allosexual persons"@en,
         Property:P1813 "allo"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
             Annotations: schema:alternateName "allosexuals"@en
         Property:P1813 "allosexual"@en,
+        obo:IAO_0000115 "A person who is not asexual; a person who experiences sexual attraction."@en,
         rdfs:label "allosexual person"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>,
         
@@ -22116,6 +22134,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001331>
 Class: <http://purl.bioontology.org/ontology/GSSO/001332>
 
     Annotations: 
+        schema:alternateName "clothed persons"@en,
         obo:IAO_0000115 "A person who is wearing or wears clothing."@en,
         rdfs:label "clothed person"@en,
         schema:alternateName "clothed people"@en
@@ -22950,7 +22969,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001402>
                          oboInOwl:hasExactSynonym "cis-het"@en
         Property:P1813 "cishet"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
-        rdfs:label "cisgender heterosexual person"@en
+        schema:alternateName "cisgender heterosexual people"@en,
+        rdfs:label "cisgender heterosexual person"@en,
+        schema:alternateName "cisgender heterosexual persons"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000389>
@@ -25229,6 +25250,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001597>
 Class: <http://purl.bioontology.org/ontology/GSSO/001600>
 
     Annotations: 
+        obo:IAO_0000115 "A woman who engages in sexual activity with transgender men."@en,
         terms:replaces <http://purl.bioontology.org/ontology/GSSO/001599>,
         rdfs:label "woman who has sex with transgender men"@en,
         schema:gender <http://purl.bioontology.org/ontology/GSSO/000089>,
@@ -27559,6 +27581,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001778>
 Class: <http://purl.bioontology.org/ontology/GSSO/001779>
 
     Annotations: 
+        obo:IAO_0000115 "A woman who identifies as queer."@en,
         rdfs:label "queer woman"@en,
         terms:isReferencedBy <https://doi.org/10.1080/10894160.2019.1622932>,
         schema:alternateName "queer women"@en,
@@ -27574,10 +27597,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001779>
 Class: <http://purl.bioontology.org/ontology/GSSO/001780>
 
     Annotations: 
+        rdfs:label "queer man"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/queerMen"^^xsd:anyURI,
-        rdfs:label "queer man"@en,
+        obo:IAO_0000115 "A man who identifies as queer."@en,
         schema:alternateName "queer men"@en
     
     SubClassOf: 
@@ -27588,11 +27612,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001780>
 Class: <http://purl.bioontology.org/ontology/GSSO/001781>
 
     Annotations: 
+        obo:IAO_0000115 "A person who identifies as queer in terms of gender identity and/or sexual orientation."@en,
         schema:alternateName "queer people"@en,
         rdfs:label "queer person"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        schema:identifier "http://homosaurus.org/v2/queerPeople"^^xsd:anyURI
+        schema:identifier "http://homosaurus.org/v2/queerPeople"^^xsd:anyURI,
+        schema:alternateName "queer persons"@en
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_000498>
@@ -46468,6 +46494,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003558>
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         rdfs:comment "Note that this definition may include agender persons, which \"gendered person\" does not."@en,
         obo:IAO_0000115 "A person with a gender identity, expression, and/or role which is considered variant within the sociocultural understandings of gender within which that individual lives."@en,
+        schema:alternateName "gender variant persons"@en,
         Property:P1813 "gender variant"@en
     
     SubClassOf: 
@@ -46611,12 +46638,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003569>
 Class: <http://purl.bioontology.org/ontology/GSSO/003571>
 
     Annotations: 
+        schema:alternateName "gray asexual persons"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        obo:IAO_0000115 "A person who falls on the spectrum between asexuality and allosexuality (sexuality)."@en,
         oboInOwl:hasSynonym "gray ace"@en,
         
             Annotations: schema:alternateName "gray asexuals"@en
         Property:P1813 "gray asexual"@en,
-        rdfs:label "gray asexual person"@en
+        rdfs:label "gray asexual person"@en,
+        schema:alternateName "gray asexual people"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004365>
@@ -46628,6 +46658,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003572>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/demisexualPeople"^^xsd:anyURI,
+        obo:IAO_0000115 "A person who does not experience sexual attraction to another unless they have formed a specific emotional connection with that person."@en,
         schema:alternateName "demisexual persons"@en,
         schema:alternateName "demisexual people"@en,
         rdfs:label "demisexual person"@en,
@@ -50633,8 +50664,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003950>
 Class: <http://purl.bioontology.org/ontology/GSSO/003951>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Victims"^^xsd:anyURI,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh87002435"^^xsd:anyURI,
         rdfs:label "victim"@en,
+        oboInOwl:hasRelatedSynonym "A person who is harmed by another or who suffers from a calamity."@en,
         oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/victim#English"^^xsd:anyURI,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         schema:alternateName "victims"@en
@@ -53012,6 +53045,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004185>
     Annotations: 
         schema:alternateName "queer people of color"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190430234600/https://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/>,
+        obo:IAO_0000115 "A person of color who identifies as queer."@en,
         rdfs:label "queer person of color"@en,
         Property:P1813 "QPOC"@en
     
@@ -54677,6 +54711,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004364>
 
     Annotations: 
         obo:IAO_0000115 "Persons organized primarily by their status of having or not having any of various diseases."@en,
+        oboInOwl:hasSynonym "people by disease status"@en,
         rdfs:label "persons by disease status"@en
     
     SubClassOf: 
@@ -54687,6 +54722,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004365>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "persons by sexual orientation"@en,
+        oboInOwl:hasSynonym "people by sexuality"@en,
         obo:IAO_0000115 "Persons organized by their sexuality and/or sexual orientation."@en,
         rdfs:label "persons by sexuality"@en
     
@@ -54698,7 +54734,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004366>
 
     Annotations: 
         rdfs:label "persons by romantic orientation"@en,
-        obo:IAO_0000115 "Persons organized by their given romantic orientation or orientations."@en
+        obo:IAO_0000115 "Persons organized by their given romantic orientation or orientations."@en,
+        oboInOwl:hasSynonym "people by romantic orientation"@en
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_000498>
@@ -56132,6 +56169,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004519>
 Class: <http://purl.bioontology.org/ontology/GSSO/004520>
 
     Annotations: 
+        schema:alternateName "men who have sex with transgender women"@en,
+        obo:IAO_0000115 "A man who engages in sexual activity with transgender women."@en,
         rdfs:label "man who has sex with transgender women"@en
     
     SubClassOf: 
@@ -56695,7 +56734,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004575>
 
     Annotations: 
         schema:alternateName "genocide victims"@en,
-        rdfs:label "genocide victim"@en
+        rdfs:label "genocide victim"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Genocide_victims"^^xsd:anyURI,
+        obo:IAO_0000115 "A person who is the victim of genocide. A person who is killed or dies as the result of genocide."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004577>
@@ -56705,9 +56746,16 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004576>
 
     Annotations: 
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh99003379"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:People_who_died_in_the_Holocaust"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Holocaust_victims"^^xsd:anyURI,
+        obo:IAO_0000115 "A person who was killed during or who died as a result of the Holocaust."@en,
+        
+            Annotations: schema:alternateName "people who died in the Holocaust"@en, 
+                         schema:alternateName "persons who died in the Holocaust"@en
+        oboInOwl:hasSynonym "person who died in the Holocaust"@en,
         rdfs:label "Holocaust victim"@en,
-        schema:alternateName "Holocaust victims"@en
+        schema:alternateName "Holocaust victims"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5883980"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004575>
@@ -56717,8 +56765,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004577>
 
     Annotations: 
         schema:alternateName "murder victims"@en,
+        
+            Annotations: schema:alternateName "homicide victims"@en
+        oboInOwl:hasRelatedSynonym "homicide victim"@en,
         obo:IAO_0000115 "A person who has been murdered."@en,
-        rdfs:label "murder victim"@en
+        rdfs:label "murder victim"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Murder_victims"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003951>
@@ -59784,6 +59836,9 @@ Class: <http://purl.bioontology.org/ontology/MESH/D017516>
         rdfs:label "historical geographic location"@en,
         schema:alternateName "historical geographic locations"@en,
         obo:IAO_0000115 "Countries known in remote history (as Byzantium) or former names of countries reflecting political changes in the 19th or 20th century (as Germany, East)."@en,
+        
+            Annotations: schema:alternateName "historical geographical locations"@en
+        oboInOwl:hasSynonym "historical geographical location"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D017516"^^xsd:anyURI
     
     SubClassOf: 
@@ -68637,10 +68692,11 @@ Class: obo:GAZ_00000448
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Location"^^xsd:anyURI,
         schema:alternateName "geographic locations"@en,
         rdfs:label "geographic location"@en,
-        obo:IAO_0000115 "The continents and countries situated on those continents; the United States and each of the constituent states arranged by region; Canada and each of its provinces; Australia and each of its states; the major bodies of water and major islands on both hemispheres; and selected major cities."@en,
         
-            Annotations: Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/308916002"^^xsd:anyURI
+            Annotations: schema:alternateName "environmental and geographical locations"@en, 
+                         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/308916002"^^xsd:anyURI
         oboInOwl:hasBroadSynonym "environmental or geographical location"@en,
+        obo:IAO_0000115 "The continents and countries situated on those continents; the United States and each of the constituent states arranged by region; Canada and each of its provinces; Australia and each of its states; the major bodies of water and major islands on both hemispheres; and selected major cities."@en,
         
             Annotations: schema:alternateName "geographical locations"@en
         oboInOwl:hasExactSynonym "geographical location"@en,
@@ -68658,6 +68714,7 @@ Class: obo:GAZ_00000457
 
     Annotations: 
         oboInOwl:hasDbXref "http://purl.bioontology.org/ontology/MESH/D000349"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26272"^^xsd:anyURI,
         obo:IAO_0000115 "The continent located south of Europe and bordered to the west by the South Atlantic and to the east by the India Ocean."@en,
         rdfs:label "Africa"@en,
         
@@ -68665,9 +68722,12 @@ Class: obo:GAZ_00000457
         Property:P1036 960,
         obo:IAO_0000115 "The continent south of Europe, east of the Atlantic Ocean and west of the Indian Ocean."@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85001531"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Africans"@en
+        Property:P1549 "African"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Africa"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q15"^^xsd:anyURI,
-        Property:P1549 "African"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223498002"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Africa"^^xsd:anyURI
     
     SubClassOf: 
@@ -68767,10 +68827,14 @@ Class: obo:GAZ_00000465
 Class: obo:GAZ_00000466
 
     Annotations: 
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Indian_subcontinent"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q60140"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Indians"@en
         Property:P1549 "Indian"@en,
-        rdfs:label "Indian subcontinent"@en
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Indian_subcontinent"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223506007"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q60140"^^xsd:anyURI,
+        rdfs:label "Indian subcontinent"@en,
+        obo:IAO_0000115 "A southern region and peninsula of Asia, mostly situated on the Indian Plate and projecting southwards into the Indian Ocean from the Himalayas. Geologically, the Indian subcontinent is related to the land mass that rifted from Gondwana and merged with the Eurasian plate nearly 55 million years ago. Geographically, it is the peninsular region in south-central Asia delineated by the Himalayas in the north, the Hindu Kush in the west, and the Arakanese in the east. Politically, the Indian subcontinent includes Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka."@en
     
     SubClassOf: 
         obo:GAZ_00002472
@@ -68805,8 +68869,11 @@ Class: obo:GAZ_00000553
         
             Annotations: schema:bookEdition 20
         Property:P1036 968,
-        rdfs:label "South Africa"@en,
+        
+            Annotations: schema:alternateName "South Africans"@en
         Property:P1549 "South African"@en,
+        rdfs:label "South Africa"@en,
+        obo:IAO_0000115 "The geographical area of Africa comprising Angola; Botswana; Lesotho; Malawi; Mozambique; Namibia; South Africa; Swaziland; Zambia; and Zimbabwe."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27394"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Southern_Africa"^^xsd:anyURI,
         oboInOwl:hasSynonym "Southern Africa"@en
@@ -68820,13 +68887,16 @@ Class: obo:GAZ_00000554
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q4412"^^xsd:anyURI,
         oboInOwl:hasSynonym "Western Africa"@en,
-        Property:P1549 "West African"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000354"^^xsd:anyURI,
         
             Annotations: schema:bookEdition 20
         Property:P1036 966,
+        obo:IAO_0000115 "The geographical area of Africa comprising Benin; Burkina Faso; Capo Verde, Cote D'Ivoire; Gambia; Ghana; Guinea; Guinea Bissau; Liberia; Mali; Mauritania; Niger; Nigeria; Senegal; Sierra Leone; and Togo."@en,
         rdfs:label "West Africa"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/West_Africa"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/West_Africa"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "West Africans"@en
+        Property:P1549 "West African"@en
     
     SubClassOf: 
         obo:GAZ_00000587
@@ -68835,13 +68905,17 @@ Class: obo:GAZ_00000554
 Class: obo:GAZ_00000555
 
     Annotations: 
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/North_Africa"^^xsd:anyURI,
+        obo:IAO_0000115 "The northernmost region of the African continent, separated by the Sahara from Sub-Saharan Africa."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000352"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/North_Africa"^^xsd:anyURI,
+        obo:IAO_0000115 "The geographical area of Africa comprising Algeria; Egypt; Libya; Morocco and Tunisia. It includes also the vast deserts and oases of the Sahara. It is often referred to as North Africa or the Maghreb."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27381"^^xsd:anyURI,
-        rdfs:label "North Africa"@en,
         
             Annotations: schema:bookEdition 20
         Property:P1036 961,
+        rdfs:label "North Africa"@en,
+        
+            Annotations: schema:alternateName "North Africans"@en
         Property:P1549 "North African"@en,
         oboInOwl:hasSynonym "Northern Africa"@en
     
@@ -68852,13 +68926,16 @@ Class: obo:GAZ_00000555
 Class: obo:GAZ_00000556
 
     Annotations: 
-        Property:P1549 "East African"@en,
+        obo:IAO_0000115 "A vast geographical and geological feature, approximately 6,000 km in length, which runs from northern Syria in Southwest Asia to central Mozambique in East Africa. Caused by the geological process of rifting, it is a complex feature where several plates of the earth's crust join. The rift valley varies in width from thirty to one hundred km, and in depth from a few hundred to several thousand meters."@en,
         oboInOwl:hasSynonym "Eastern Africa"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27407"^^xsd:anyURI,
         
             Annotations: schema:bookEdition 20
         Property:P1036 967.6,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000351"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "East Africans"@en
+        Property:P1549 "East African"@en,
         rdfs:label "East Africa"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/East_Africa"^^xsd:anyURI
     
@@ -68873,11 +68950,14 @@ Class: obo:GAZ_00000559
         
             Annotations: schema:bookEdition 20
         Property:P1036 959,
-        Property:P1549 "Southeast Asian"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Southeast_Asia"^^xsd:anyURI,
         oboInOwl:hasSynonym "Southeastern Asia"@en,
+        
+            Annotations: schema:alternateName "Southeast Asians"@en
+        Property:P1549 "Southeast Asian"@en,
         rdfs:label "Southeast Asia"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D001210"^^xsd:anyURI
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D001210"^^xsd:anyURI,
+        obo:IAO_0000115 "A subregion of Asia, consisting of the countries that are geographically south of China and Japan, east of India, west of Papua New Guinea, and north of Australia. Southeast Asia is bordered to the north by East Asia, to the west by South Asia and the Bay of Bengal, to the east by Oceania and the Pacific Ocean, and to the south by Australia and the Indian Ocean."@en
     
     SubClassOf: 
         obo:GAZ_00000465
@@ -68886,11 +68966,17 @@ Class: obo:GAZ_00000559
 Class: obo:GAZ_00000567
 
     Annotations: 
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16563"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ethiopia"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q115"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Ethiopians"@en
+        Property:P1549 "Ethiopian"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223517008"^^xsd:anyURI,
+        obo:IAO_0000115 "An independent state in eastern Africa. Ethiopia is located in the Horn of Africa and is bordered on the north and northeast by Eritrea, on the east by Djibouti and Somalia, on the south by Kenya, and on the west and southwest by Sudan. Its capital is Addis Ababa."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D005002"^^xsd:anyURI,
         rdfs:label "Ethiopia"@en,
-        Property:P1549 "Ethiopian"@en
+        obo:IAO_0000115 "A country in eastern Africa, between Somalia and Sudan."@en
     
     SubClassOf: 
         obo:GAZ_00000555
@@ -68899,12 +68985,18 @@ Class: obo:GAZ_00000567
 Class: obo:GAZ_00000584
 
     Annotations: 
-        Property:P1549 "Malian"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223563002"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Mali"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D008302"^^xsd:anyURI,
         Property:P1549 "Malinese"@en,
+        obo:IAO_0000115 "A country in western Africa, east of Mauritania and south of Algeria. Its capital is Bamako. From 1904-1920 it was known as Upper Senegal-Niger; prior to 1958, as French Sudan; 1958-1960 as the Sudanese Republic and 1959-1960 it joined Senegal in the Mali Federation. It became an independent republic in 1960."@en,
+        
+            Annotations: schema:alternateName "Malians"@en
+        Property:P1549 "Malian"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16816"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q912"^^xsd:anyURI,
-        rdfs:label "Mali"@en
+        rdfs:label "Mali"@en,
+        obo:IAO_0000115 "A country in western Africa, southwest of Algeria and east of Mauritania."@en
     
     SubClassOf: 
         obo:GAZ_00000555
@@ -68913,10 +69005,17 @@ Class: obo:GAZ_00000584
 Class: obo:GAZ_00000585
 
     Annotations: 
-        Property:P1549 "Nigerien"@en,
+        obo:IAO_0000115 "A republic in western Africa, north of Nigeria and west of Chad. Its capital is Niamey."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Niger"^^xsd:anyURI,
         rdfs:label "Niger"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1032"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223526006"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in western Africa, southeast of Algeria and north of Nigeria."@en,
+        
+            Annotations: schema:alternateName "Nigeriens"@en
+        Property:P1549 "Nigerien"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D009548"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16916"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Niger"^^xsd:anyURI
     
     SubClassOf: 
@@ -68926,10 +69025,16 @@ Class: obo:GAZ_00000585
 Class: obo:GAZ_00000586
 
     Annotations: 
+        obo:IAO_0000115 "A country in central Africa, south of Libya, between Niger and Sudan."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D002596"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16412"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223523003"^^xsd:anyURI,
         rdfs:label "Chad"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Chad"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q657"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic in central Africa, east of Niger, west of Sudan and south of Libya. Its capital is N'Djamena."@en,
+        
+            Annotations: schema:alternateName "Chadians"@en
         Property:P1549 "Chadian"@en
     
     SubClassOf: 
@@ -68940,14 +69045,19 @@ Class: obo:GAZ_00000587
 
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q132959"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/409988000"^^xsd:anyURI,
         
             Annotations: schema:bookEdition 20
         Property:P1036 967,
-        Property:P1549 "Sub-Saharan African"@en,
         rdfs:label "Sub-Saharan Africa"@en,
+        
+            Annotations: schema:alternateName "Sub-Saharan Africans"@en
+        Property:P1549 "Sub-Saharan African"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sub-Saharan_Africa"^^xsd:anyURI,
         oboInOwl:hasSynonym "Africa South of the Sahara"@en,
+        oboInOwl:hasExactSynonym "Subsaharan Africa"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85001667"^^xsd:anyURI,
+        obo:IAO_0000115 "All of Africa except Northern Africa."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D017954"^^xsd:anyURI
     
     SubClassOf: 
@@ -68960,8 +69070,11 @@ Class: obo:GAZ_00000588
         
             Annotations: schema:bookEdition 20
         Property:P1036 967,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Central_Africa"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Central Africans"@en
         Property:P1549 "Central African"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Central_Africa"^^xsd:anyURI,
+        obo:IAO_0000115 "The geographical area of Africa comprising Cameroon; Central African Republic; Chad; Congo; Equatorial Guinea; Gabon; and Democratic Republic of the Congo."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000350"^^xsd:anyURI,
         rdfs:label "Central Africa"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27433"^^xsd:anyURI
@@ -68973,11 +69086,17 @@ Class: obo:GAZ_00000588
 Class: obo:GAZ_00000905
 
     Annotations: 
+        
+            Annotations: schema:alternateName "Burkinabés"@en
+        Property:P1549 "Burkinabé"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223554004"^^xsd:anyURI,
         rdfs:label "Burkina Faso"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q965"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Burkina_Faso"^^xsd:anyURI,
-        Property:P1549 "Burkinabé"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D002050"^^xsd:anyURI
+        obo:IAO_0000115 "A country in western Africa, between Mali and Ghana."@en,
+        obo:IAO_0000115 "A republic in western Africa, south and east of Mali and west of Niger. Its capital is Ouagadougou. It was formerly called Upper Volta until 1984."@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D002050"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16369"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00000554
@@ -68986,12 +69105,18 @@ Class: obo:GAZ_00000905
 Class: obo:GAZ_00000906
 
     Annotations: 
+        obo:IAO_0000115 "A republic in western Africa, south of Mali and Burkina Faso, bordered by Ghana on the east. Its administrative capital is Abidjan and Yamoussoukro has been the official capital since 1983. The country was formerly called Ivory Coast."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223561000"^^xsd:anyURI,
         rdfs:label "Ivory Coast"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1008"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in western Africa, bordering the North Atlantic Ocean, between Ghana and Liberia."@en,
         rdfs:label "Côte d'Ivoire"@fr,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ivory_Coast"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Ivorians"@en
         Property:P1549 "Ivorian"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007560"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ivory_Coast"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16762"^^xsd:anyURI,
         oboInOwl:hasExactSynonym "Cote d'Ivoire"@en
     
     SubClassOf: 
@@ -69001,12 +69126,17 @@ Class: obo:GAZ_00000906
 Class: obo:GAZ_00000907
 
     Annotations: 
-        oboInOwl:hasSynonym "the Gambia"@en,
+        
+            Annotations: schema:alternateName "Gambians"@en
         Property:P1549 "Gambian"@en,
+        obo:IAO_0000115 "A republic in western Africa, constituting an enclave within Senegal extending on both sides of the Gambia River. Its capital is Banjul, formerly Bathurst."@en,
+        oboInOwl:hasSynonym "the Gambia"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1005"^^xsd:anyURI,
+        rdfs:label "Gambia"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D005714"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/The_Gambia"^^xsd:anyURI,
-        rdfs:label "Gambia"@en
+        obo:IAO_0000115 "A country in western Africa, bordering the North Atlantic Ocean and surrounded by Senegal."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16598"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00000554
@@ -69015,11 +69145,17 @@ Class: obo:GAZ_00000907
 Class: obo:GAZ_00000908
 
     Annotations: 
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q117"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ghana"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q117"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223557006"^^xsd:anyURI,
         rdfs:label "Ghana"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D005869"^^xsd:anyURI,
-        Property:P1549 "Ghanaian"@en
+        obo:IAO_0000115 "A country in western Africa, bordering the Gulf of Guinea, between Cote d'Ivoire and Togo."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26330"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Ghanaians"@en
+        Property:P1549 "Ghanaian"@en,
+        obo:IAO_0000115 "A republic in western Africa, south of Burkina Faso and west of Togo. Its capital is Accra."@en
     
     SubClassOf: 
         obo:GAZ_00000554
@@ -69028,11 +69164,19 @@ Class: obo:GAZ_00000908
 Class: obo:GAZ_00000910
 
     Annotations: 
+        obo:IAO_0000115 "A republic in western Africa, south of Senegal and west of Guinea. Its capital is Bissau."@en,
         rdfs:label "Guinea-Bissau"@en,
+        
+            Annotations: oboInOwl:hasExactSynonym "Bissau Guinean"@en, 
+                         oboInOwl:hasRelatedSynonym "Bissau-Guineans"@en, 
+                         schema:alternateName "Bissau-Guineans"@en
+        Property:P1549 "Bissau-Guinean"@en,
+        obo:IAO_0000115 "A country in western Africa, bordering the North Atlantic Ocean, between Guinea and Senegal."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223560004"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Guinea-Bissau"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1007"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D006169"^^xsd:anyURI,
-        Property:P1549 "Bissau-Guinean"@en
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16656"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00000554
@@ -69041,11 +69185,18 @@ Class: obo:GAZ_00000910
 Class: obo:GAZ_00000912
 
     Annotations: 
-        Property:P1549 "Nigerian"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16917"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Nigeria"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223565009"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D009549"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic in western Africa, south of Niger between Benin and Cameroon. Its capital is Abuja."@en,
         rdfs:label "Nigeria"@en,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1033"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Nigeria"^^xsd:anyURI
+        obo:IAO_0000115 "A country in western Africa, bordering the Gulf of Guinea, between Benin and Cameroon."@en,
+        
+            Annotations: schema:alternateName "Nigerians"@en
+        Property:P1549 "Nigerian"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Nigeria"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1033"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00000554
@@ -69055,10 +69206,14 @@ Class: obo:GAZ_00000913
 
     Annotations: 
         Property:P1549 "Senegalese"@en,
+        obo:IAO_0000115 "A republic in western Africa, southwest of Mauritania and east of Mali. Its capital is Dakar."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Senegal"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D012675"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17121"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1041"^^xsd:anyURI,
-        rdfs:label "Senegal"@en
+        rdfs:label "Senegal"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223567001"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Mauritania."@en
     
     SubClassOf: 
         obo:GAZ_00000554
@@ -69067,11 +69222,15 @@ Class: obo:GAZ_00000913
 Class: obo:GAZ_00000915
 
     Annotations: 
+        obo:IAO_0000115 "A republic in western Africa, lying between Ghana on its west and Benin on its east. Its capital is Lome."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17202"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q945"^^xsd:anyURI,
+        rdfs:label "Togo"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D014037"^^xsd:anyURI,
         Property:P1549 "Togolese"@en,
-        rdfs:label "Togo"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Togo"^^xsd:anyURI
+        obo:IAO_0000115 "A country in western Africa, bordering the Gulf of Guinea, between Benin and Ghana."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Togo"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223570002"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00000554
@@ -69080,11 +69239,16 @@ Class: obo:GAZ_00000915
 Class: obo:GAZ_00001086
 
     Annotations: 
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17266"^^xsd:anyURI,
+        Property:P1813 "DRC"@en,
+        obo:IAO_0000115 "A country in central Africa, northeast of Angola."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q974"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Democratic_Republic_of_the_Congo"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D015023"^^xsd:anyURI,
+        rdfs:label "Democratic Republic of the Congo"@en,
         Property:P1549 "Congolese"@en,
-        rdfs:label "Democratic Republic of the Congo"@en
+        obo:IAO_0000115 "A republic in central Africa, east of the Republic of the Congo, south of the Central African Republic and north of Angola and Zambia. The capital is Kinshasa."@en
     
     SubClassOf: 
         obo:GAZ_00000588
@@ -69093,10 +69257,16 @@ Class: obo:GAZ_00001086
 Class: obo:GAZ_00001090
 
     Annotations: 
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D002063"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q967"^^xsd:anyURI,
-        rdfs:label "Burundi"@en,
+        
+            Annotations: schema:alternateName "Burundians"@en
         Property:P1549 "Burundian"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D002063"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223520000"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic in eastern Africa bounded on the north by Rwanda and on the south by Tanzania. Its capital is Bujumbura."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q967"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16371"^^xsd:anyURI,
+        rdfs:label "Burundi"@en,
+        obo:IAO_0000115 "A country in central Africa, east of the Democratic Republic of the Congo and south of Rwanda."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Burundi"^^xsd:anyURI,
         
             Annotations: schema:bookEdition 20
@@ -69109,14 +69279,20 @@ Class: obo:GAZ_00001090
 Class: obo:GAZ_00001093
 
     Annotations: 
+        
+            Annotations: schema:alternateName "Cameroonians"@en
+        Property:P1549 "Cameroonian"@en,
+        obo:IAO_0000115 "A republic in central Africa lying east of Chad and the Central African Republic and west of Nigeria. The capital is Yaounde."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cameroon"^^xsd:anyURI,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D002163"^^xsd:anyURI,
         rdfs:label "Cameroon"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D002163"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223521001"^^xsd:anyURI,
         
             Annotations: schema:bookEdition 20
         Property:P1036 967.11,
-        Property:P1549 "Cameroonian"@en,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1009"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1009"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16379"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in western Africa, bordering the Gulf of Guinea, between Equatorial Guinea and Nigeria."@en
     
     SubClassOf: 
         obo:GAZ_00000588
@@ -69125,9 +69301,16 @@ Class: obo:GAZ_00001093
 Class: obo:GAZ_00001094
 
     Annotations: 
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17151"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic in southern Africa, the southernmost part of Africa. It has three capitals: Pretoria (administrative), Cape Town (legislative), and Bloemfontein (judicial). Officially the Republic of South Africa since 1960, it was called the Union of South Africa 1910-1960."@en,
+        
+            Annotations: schema:alternateName "South Africans"@en
+        Property:P1549 "South African"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q258"^^xsd:anyURI,
         rdfs:label "Republic of South Africa"@en,
-        Property:P1549 "South African"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223549008"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:South_Africa"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southern Africa, at the southern tip of the continent of Africa."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/South_Africa"^^xsd:anyURI,
         Property:P1813 "South Africa"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D013019"^^xsd:anyURI
@@ -69142,10 +69325,16 @@ Class: obo:GAZ_00001095
         
             Annotations: schema:bookEdition 20
         Property:P1036 967.3,
+        
+            Annotations: schema:alternateName "Angolans"@en
         Property:P1549 "Angolan"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223544003"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16292"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q916"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic in southern Africa, southwest of Democratic Republic of the Congo and west of Zambia. Its capital is Luanda."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Angola"^^xsd:anyURI,
         rdfs:label "Angola"@en,
+        obo:IAO_0000115 "A country in southern Africa, bordering the South Atlantic Ocean, between Namibia and Democratic Republic of the Congo."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D000810"^^xsd:anyURI
     
     SubClassOf: 
@@ -69155,11 +69344,17 @@ Class: obo:GAZ_00001095
 Class: obo:GAZ_00001098
 
     Annotations: 
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Lesotho"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D008295"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Lesotho"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223548000"^^xsd:anyURI,
+        obo:IAO_0000115 "A kingdom in southern Africa, within the republic of SOUTH AFRICA. Its capital is Maseru."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16787"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Sasothos"@en
         Property:P1549 "Basotho"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1013"^^xsd:anyURI,
-        rdfs:label "Lesotho"@en
+        rdfs:label "Lesotho"@en,
+        obo:IAO_0000115 "A country in southern Africa, an enclave of South Africa."@en
     
     SubClassOf: 
         obo:GAZ_00000553
@@ -69168,11 +69363,17 @@ Class: obo:GAZ_00001098
 Class: obo:GAZ_00001099
 
     Annotations: 
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17179"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223550008"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Eswatini"^^xsd:anyURI,
         rdfs:label "Eswatini"@en,
         oboInOwl:hasSynonym "Swaziland"@en,
-        Property:P1549 "Swazi"@en,
+        obo:IAO_0000115 "A kingdom in southern Africa, west of MOZAMBIQUE. Its capital is Mbabane. The area was settled by the Swazi branch of the Zulu nation in the early 1880's, with its independence guaranteed by the British and Transvaal governments in 1881 and 1884. With limited self-government introduced in 1962, it became independent in 1968. Swazi is the Zulu name for the people who call themselves Swati, from Mswati, the name of a 16th century king, from a word meaning stick or rod."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D013541"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Swazis"@en
+        Property:P1549 "Swazi"@en,
+        obo:IAO_0000115 "A country in southern Africa, between Mozambique and South Africa."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1050"^^xsd:anyURI
     
     SubClassOf: 
@@ -69184,9 +69385,16 @@ Class: obo:GAZ_00001101
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Kenya"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007630"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Kenya"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223534000"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q114"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16769"^^xsd:anyURI,
         rdfs:label "Kenya"@en,
-        Property:P1549 "Kenyan"@en
+        
+            Annotations: schema:alternateName "Kenyans"@en
+        Property:P1549 "Kenyan"@en,
+        obo:IAO_0000115 "A republic in eastern Africa, south of Ethiopia, west of Somalia with Tanzania to its south, and coastline on the Indian Ocean. Its capital is Nairobi."@en,
+        obo:IAO_0000115 "A country in eastern Africa, bordering the Indian Ocean, between Somalia and Tanzania."@en
     
     SubClassOf: 
         obo:GAZ_00000556
@@ -69195,10 +69403,17 @@ Class: obo:GAZ_00001101
 Class: obo:GAZ_00001102
 
     Annotations: 
-        Property:P1549 "Ugandan"@en,
+        obo:IAO_0000115 "A country in eastern Africa, west of Kenya."@en,
         rdfs:label "Uganda"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D014454"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Ugandans"@en
+        Property:P1549 "Ugandan"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17228"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1036"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic in eastern Africa, south of Sudan and west of Kenya. Its capital is Kampala."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223538002"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Uganda"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Uganda"^^xsd:anyURI
     
     SubClassOf: 
@@ -69208,11 +69423,17 @@ Class: obo:GAZ_00001102
 Class: obo:GAZ_00001105
 
     Annotations: 
+        obo:IAO_0000115 "A republic in southern Africa east of Zambia and Mozambique. Its capital is Lilongwe. It was formerly called Nyasaland."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223540007"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16813"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Malawians"@en
+        Property:P1549 "Malawian"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1020"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southern Africa, east of Zambia and west of Mozambique and Tanzania."@en,
         rdfs:label "Malawi"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Malawi"^^xsd:anyURI,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D008295"^^xsd:anyURI,
-        Property:P1549 "Malawian"@en
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D008295"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00000556
@@ -69221,10 +69442,16 @@ Class: obo:GAZ_00001105
 Class: obo:GAZ_00001106
 
     Annotations: 
-        Property:P1549 "Zimbabwean"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223551007"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q954"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic in southern Africa, east of Zambia and Botswana and west of Mozambique. Its capital is Harare. It was formerly called Rhodesia and Southern Rhodesia."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17268"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Zimbabweans"@en
+        Property:P1549 "Zimbabwean"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Zimbabwe"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D015030"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southern Africa, between South Africa and Zambia, west of Mozambique."@en,
         rdfs:label "Zimbabwe"@en
     
     SubClassOf: 
@@ -69235,8 +69462,12 @@ Class: obo:GAZ_00002464
 
     Annotations: 
         oboInOwl:hasSynonym "Southwestern Asia"@en,
+        rdfs:comment "Note that this term is in limited use, as it significantly overlaps with the Middle East (or the Near East), the main difference usually being the exclusion of the majority of Egypt, which would be counted as part of North Africa (that is, Egypt without the Sinai Peninsula), and of European Turkey and the inclusion of the Caucasus."@en,
+        
+            Annotations: schema:alternateName "Southwest Asians"@en
         Property:P1549 "Southwest Asian"@en,
-        rdfs:label "Southwest Asia"@en
+        rdfs:label "Southwest Asia"@en,
+        obo:IAO_0000115 "The westernmost subregion of Asia."@en
     
     SubClassOf: 
         obo:GAZ_00000465
@@ -69247,6 +69478,8 @@ Class: obo:GAZ_00002466
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Levant"^^xsd:anyURI,
         rdfs:label "Levant"@en,
+        obo:IAO_0000115 "A large area in the Middle East, roughly bounded on the north by the Taurus Mountains, on the west by the Mediterranean Sea, on the east by Upper Mesopotamia, and on the south by the Arabian Desert."@en,
+        obo:IAO_0000115 "An approximate historical geographical term referring to a large area in the Eastern Mediterranean, primarily in Western Asia. In its narrowest sense, it is equivalent to the historical region of Syria. In its widest historical sense, the Levant included all of the eastern Mediterranean with its islands; that is, it included all of the countries along the Eastern Mediterranean shores, extending from Greece to Cyrenaica."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q81483"^^xsd:anyURI
     
     SubClassOf: 
@@ -69258,8 +69491,12 @@ Class: obo:GAZ_00002467
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Arabian_Peninsula"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q31945"^^xsd:anyURI,
-        rdfs:label "Arabian Peninsula"@en,
-        Property:P1549 "Arabian"@en
+        obo:IAO_0000115 "A peninsula of Western Asia situated northeast of Africa on the Arabian plate. From a geographical perspective, it is considered a subcontinent of Asia."@en,
+        obo:IAO_0000115 "A peninsula in Southwest Asia at the junction of Africa and Asia consisting mainly of desert. The coasts of the peninsula are, on the west the Red Sea and the Gulf of Aqaba, on the southeast the Arabian Sea (part of the Indian Ocean), and on the northeast, the Gulf of Oman, the Strait of Hormuz, and the Persian Gulf. Its northern limit is defined by the Zagros collision zone, a mountainous uplift where a continental collision between the Arabian Plate and Asia is occurring. It merges with the Syrian Desert with no clear line of demarcation."@en,
+        
+            Annotations: schema:alternateName "Arabians"@en
+        Property:P1549 "Arabian"@en,
+        rdfs:label "Arabian Peninsula"@en
     
     SubClassOf: 
         obo:GAZ_00002464
@@ -69270,8 +69507,11 @@ Class: obo:GAZ_00002471
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/East_Asia"^^xsd:anyURI,
         oboInOwl:hasSynonym "Eastern Asia"@en,
-        rdfs:label "East Asia"@en,
+        
+            Annotations: schema:alternateName "East Asians"@en
         Property:P1549 "East Asian"@en,
+        rdfs:label "East Asia"@en,
+        obo:IAO_0000115 "The eastern subregion of Asia, defined in both geographical and ethno-cultural terms. The region includes China, Hong Kong, Macau, Japan, Mongolia, North Korea, South Korea and Taiwan. People indigenous to the region are known as East Asians. China, Japan, Korea, and Vietnam belong to the East Asian cultural sphere."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27231"^^xsd:anyURI
     
     SubClassOf: 
@@ -69281,7 +69521,10 @@ Class: obo:GAZ_00002471
 Class: obo:GAZ_00002472
 
     Annotations: 
+        
+            Annotations: schema:alternateName "South Asians"@en
         Property:P1549 "South Asian"@en,
+        obo:IAO_0000115 "The southern region of the Asian continent, which comprises the sub-Himalayan SAARC (South Asian Association for Regional Cooperation) countries and, for some authorities, adjoining countries to the west and east. Topographically, it is dominated by the Indian Plate, which rises above sea level as Nepal and northern parts of India situated south of the Himalayas and the Hindu Kush. South Asia is bounded on the south by the Indian Ocean and on land (clockwise, from west) by West Asia, Central Asia, East Asia, and Southeast Asia."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q771405"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/South_Asia"^^xsd:anyURI,
         rdfs:label "South Asia"@en,
@@ -69294,8 +69537,11 @@ Class: obo:GAZ_00002472
 Class: obo:GAZ_00002474
 
     Annotations: 
+        obo:IAO_0000115 "Country in the Middle East, bordering the Mediterranean Sea, between Lebanon and Turkey. The capital is Damascus."@en,
         Property:P1549 "Syrian"@en,
         rdfs:label "Syria"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223617003"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17182"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D013593"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q858"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Syria"^^xsd:anyURI
@@ -69308,10 +69554,14 @@ Class: obo:GAZ_00002476
 
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q801"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16760"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in the Middle East, bordering the Mediterranean Sea, between Egypt and Lebanon."@en,
         rdfs:label "Israel"@en,
         Property:P1549 "Israeli"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223609006"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Israel"^^xsd:anyURI,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D007557"^^xsd:anyURI
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D007557"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in the Middle East, bordering the Mediterranean Sea, between Egypt and Lebanon. The capital is Jerusalem."@en
     
     SubClassOf: 
         obo:GAZ_00002466
@@ -69320,7 +69570,11 @@ Class: obo:GAZ_00002476
 Class: obo:GAZ_00002478
 
     Annotations: 
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16784"^^xsd:anyURI,
         Property:P1549 "Lebanese"@en,
+        obo:IAO_0000115 "A country in the Middle East, bordering the Mediterranean Sea, between Israel and Syria."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223612009"^^xsd:anyURI,
+        obo:IAO_0000115 "A country located in the Middle East, bordering the Mediterranean Sea, between Israel and Syria. The capital is Beirut."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q822"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007861"^^xsd:anyURI,
         rdfs:label "Lebanon"@en,
@@ -69464,10 +69718,14 @@ Class: obo:GAZ_00002729
 Class: obo:GAZ_00002747
 
     Annotations: 
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223583001"^^xsd:anyURI,
         rdfs:label "Japan"@en,
+        obo:IAO_0000115 "A country in eastern Asia, island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula. The capital is Tokyo."@en,
+        obo:IAO_0000115 "A country in eastern Asia, occupying an island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16764"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q17"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Japan"^^xsd:anyURI,
         Property:P1549 "Japanese"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Japan"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007564"^^xsd:anyURI
     
     SubClassOf: 
@@ -69478,9 +69736,12 @@ Class: obo:GAZ_00002800
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Korean_Peninsula"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Koreans"@en
         Property:P1549 "Korean"@en,
         rdfs:label "Korean Peninsula"@en,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q483134"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q483134"^^xsd:anyURI,
+        obo:IAO_0000115 "A peninsula located in East Asia. It extends southwards for about 1,100 km (680 mi) from continental Asia into the Pacific Ocean and is surrounded by the Sea of Japan (East Sea) to the east and the Yellow Sea (West Sea) to the west, the Korea Strait connecting the two bodies of water."@en
     
     SubClassOf: 
         obo:GAZ_00002471
@@ -69490,9 +69751,13 @@ Class: obo:GAZ_00002801
 
     Annotations: 
         rdfs:label "North Korea"@en,
+        
+            Annotations: schema:alternateName "North Koreans"@en
+        Property:P1549 "North Korean"@en,
+        oboInOwl:hasSynonym "Democratic People's Republic of Korea"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/North_Korea"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q423"^^xsd:anyURI,
-        Property:P1549 "North Korean"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16773"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D056911"^^xsd:anyURI
     
     SubClassOf: 
@@ -69503,9 +69768,15 @@ Class: obo:GAZ_00002802
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/South_Korea"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in eastern Asia, occupying the southern half of the Korean Peninsula, bordering the Sea of Japan and the Yellow Sea."@en,
+        
+            Annotations: schema:alternateName "South Koreans"@en
         Property:P1549 "South Korean"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223584007"^^xsd:anyURI,
+        oboInOwl:hasSynonym "Republic of Korea"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q884"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D056910"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16774"^^xsd:anyURI,
         rdfs:label "South Korea"@en
     
     SubClassOf: 
@@ -69544,10 +69815,16 @@ Class: obo:GAZ_00002828
 Class: obo:GAZ_00002839
 
     Annotations: 
+        
+            Annotations: schema:alternateName "Indians"@en
+        Property:P1549 "Indian"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223600005"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southern Asia, bordering the Arabian Sea and the Bay of Bengal, between Pakistan and China."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007194"^^xsd:anyURI,
         rdfs:label "India"@en,
+        obo:IAO_0000115 "A country in southern Asia, bordering the Arabian Sea and the Bay of Bengal, between Burma and Pakistan. The capitol is New Delhi."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q668"^^xsd:anyURI,
-        Property:P1549 "Indian"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16727"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/India"^^xsd:anyURI
     
     SubClassOf: 
@@ -69558,9 +69835,13 @@ Class: obo:GAZ_00002845
 
     Annotations: 
         Property:P1549 "Chinese"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223581004"^^xsd:anyURI,
         rdfs:label "China"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q148"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16428"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D002681"^^xsd:anyURI,
+        obo:IAO_0000115 "A country spanning from central Asia to the Pacific Ocean."@en,
+        obo:IAO_0000115 "A country in eastern Asia, bordering the East China Sea, Korea Bay, Yellow Sea, and South China Sea, south of Kazakhstan, Mongolia and Russia."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/China"^^xsd:anyURI
     
     SubClassOf: 
@@ -69571,9 +69852,12 @@ Class: obo:GAZ_00002846
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Northeast_Asia"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Northeast Asians"@en
+        Property:P1549 "Northeast Asian"@en,
         rdfs:label "Northeast Asia"@en,
         oboInOwl:hasSynonym "Northeastern Asia"@en,
-        Property:P1549 "Northeast Asian"@en,
+        obo:IAO_0000115 "A term to refer to a geographical subregion of Asia: the northeastern landmass and islands, bordering the Pacific Ocean. It includes the core countries of the ethno-cultural East Asia."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27243"^^xsd:anyURI
     
     SubClassOf: 
@@ -69887,8 +70171,14 @@ Class: obo:GAZ_00003727
 
     Annotations: 
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007214"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223589002"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Indonesians"@en
         Property:P1549 "Indonesian"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Indonesia"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic stretching from the Indian Ocean east to New Guinea, comprising six main islands: Java, Sumatra, Bali, Kalimantan (the Indonesian portion of the island of Borneo), Sulawesi (formerly known as the Celebes) and Irian Jaya (the western part of New Guinea). Its capital is Djakarta. The ethnic groups living there are largely Chinese, Arab, Eurasian, Indian, and Pakistani; 85% of the peoples are of the Islamic faith."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16728"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southeastern Asia, comprising the archipelago and islands between the Indian Ocean and the Pacific Ocean, north of Australia."@en,
         rdfs:label "Indonesia"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q252"^^xsd:anyURI
     
@@ -69900,9 +70190,13 @@ Class: obo:GAZ_00003744
 
     Annotations: 
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D013785"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223594002"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Thailand"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17192"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q869"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southeastern Asia, bordering the Andaman Sea and the Gulf of Thailand, southeast of Burma."@en,
         Property:P1549 "Thai"@en,
+        obo:IAO_0000115 "Formerly known as Siam, this is a Southeast Asian nation at the center of the Indochina peninsula. Bangkok is the capital city."@en,
         rdfs:label "Thailand"@en
     
     SubClassOf: 
@@ -69912,13 +70206,20 @@ Class: obo:GAZ_00003744
 Class: obo:GAZ_00003750
 
     Annotations: 
+        obo:IAO_0000115 "A country in Southern Asia, bordering the Bay of Bengal, between Burma and India. The capital is Dhaka."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16323"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q902"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223598004"^^xsd:anyURI,
         
             Annotations: schema:bookEdition 20
         Property:P1036 954.92,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bangladesh"^^xsd:anyURI,
         rdfs:label "Bangladesh"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D001459"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bangladesh"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Bangladeshis"@en
+        Property:P1549 "Bangladeshi"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D001459"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southern Asia, bordering the Bay of Bengal, between Burma and India."@en
     
     SubClassOf: 
         obo:GAZ_00000466
@@ -69927,12 +70228,16 @@ Class: obo:GAZ_00003750
 Class: obo:GAZ_00003756
 
     Annotations: 
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17252"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southeastern Asia, bordering the Gulf of Thailand, Gulf of Tonkin, and South China Sea, as well as China, Laos, and Cambodia. The capital is Hanoi."@en,
         rdfs:label "Vietnam"@en,
         oboInOwl:hasExactSynonym "Viet Nam"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q881"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223595001"^^xsd:anyURI,
         Property:P1549 "Vietnamese"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D014744"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Vietnam"^^xsd:anyURI,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D014744"^^xsd:anyURI
+        obo:IAO_0000115 "A country in southeastern Asia, bordering the Gulf of Thailand, Gulf of Tonkin, and South China Sea, alongside China, Laos, and Cambodia."@en
     
     SubClassOf: 
         obo:GAZ_00000559
@@ -69941,10 +70246,16 @@ Class: obo:GAZ_00003756
 Class: obo:GAZ_00003902
 
     Annotations: 
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223591005"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D008296"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q833"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Malaysians"@en
         Property:P1549 "Malaysian"@en,
+        obo:IAO_0000115 "A parliamentary democracy with a constitutional monarch in southeast Asia, consisting of 11 states (West Malaysia) on the Malay Peninsula and two states (East Malaysia) on the island of Borneo. It is also called the Federation of Malaysia. Its capital is Kuala Lumpur. Before 1963 it was the Union of Malaya. It reorganized in 1948 as the Federation of Malaya, becoming independent from British Malaya in 1957 and becoming Malaysia in 1963 as a federation of Malaya, Sabah, Sarawak, and Singapore (which seceded in 1965). The form Malay- probably derives from the Tamil malay, mountain, with reference to its geography."@en,
         rdfs:label "Malaysia"@en,
+        obo:IAO_0000115 "A country in southeastern Asia bordering Indonesia and the South China Sea, occupying a peninsula south of Thailand and the northern one-third of the island of Borneo."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16814"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Malaysia"^^xsd:anyURI
     
     SubClassOf: 
@@ -69954,11 +70265,17 @@ Class: obo:GAZ_00003902
 Class: obo:GAZ_00003923
 
     Annotations: 
+        obo:IAO_0000115 "A country in southeastern Asia, comprised of the southern tip of the Malaysian peninsula and nearby islands between Malaysia and Indonesia."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q334"^^xsd:anyURI,
-        rdfs:label "Singapore"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012846"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Singaporeans"@en
         Property:P1549 "Singaporean"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Singapore"^^xsd:anyURI
+        rdfs:label "Singapore"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17134"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223593008"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012846"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Singapore"^^xsd:anyURI,
+        obo:IAO_0000115 "Country of islands in Southeastern Asia, islands between Malaysia and Indonesia. The capital is Singapore."@en
     
     SubClassOf: 
         obo:GAZ_00000559
@@ -69968,10 +70285,16 @@ Class: obo:GAZ_00003924
 
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q854"^^xsd:anyURI,
-        Property:P1549 "Sri Lankan"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17163"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223604001"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sri_Lanka"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Sri Lankans"@en
+        Property:P1549 "Sri Lankan"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D013188"^^xsd:anyURI,
         rdfs:label "Sri Lanka"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D013188"^^xsd:anyURI
+        obo:IAO_0000115 "Country in southern Asia, an island in the Indian Ocean, south of India. The capital is Colombo."@en,
+        obo:IAO_0000115 "A country in southern Asia, occupying an island in the Indian Ocean, southeast of India."@en
     
     SubClassOf: 
         obo:GAZ_00000466
@@ -69980,11 +70303,17 @@ Class: obo:GAZ_00003924
 Class: obo:GAZ_00004399
 
     Annotations: 
+        
+            Annotations: schema:alternateName "Nepalis"@en
+        Property:P1549 "Nepali"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223602002"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q837"^^xsd:anyURI,
+        obo:IAO_0000115 "County located in southern Asia, between China and India. The capital is Kathmandu."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16901"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Nepal"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D009390"^^xsd:anyURI,
         Property:P1549 "Nepalese"@en,
-        Property:P1549 "Nepali"@en,
+        obo:IAO_0000115 "A country in southern Asia, between China and India, west of Bhutan."@en,
         rdfs:label "Nepal"@en
     
     SubClassOf: 
@@ -69995,8 +70324,14 @@ Class: obo:GAZ_00004474
 
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q794"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in the Middle East, bordering the Gulf of Oman, the Persian Gulf, and the Caspian Sea, between Iraq and Pakistan."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16755"^^xsd:anyURI,
+        obo:IAO_0000115 "A country bordering the Gulf of Oman, the Persian Gulf, and the Caspian Sea, between Iraq and Pakistan. The capital is Tehran."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007492"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Iranians"@en
         Property:P1549 "Iranian"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223607008"^^xsd:anyURI,
         rdfs:label "Iran"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Iran"^^xsd:anyURI
     
@@ -70009,9 +70344,15 @@ Class: obo:GAZ_00004483
     Annotations: 
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007493"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Iraq"^^xsd:anyURI,
-        rdfs:label "Iraq"@en,
+        
+            Annotations: schema:alternateName "Iraqis"@en
         Property:P1549 "Iraqi"@en,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q796"^^xsd:anyURI
+        obo:IAO_0000115 "A country bordering the Persian Gulf, between Iran and Kuwait. The capital is Baghdad."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223608003"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in the Middle East, bordering the Persian Gulf, between Iran and Syria."@en,
+        rdfs:label "Iraq"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q796"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16756"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00002464
@@ -70020,14 +70361,20 @@ Class: obo:GAZ_00004483
 Class: obo:GAZ_00004525
 
     Annotations: 
+        obo:IAO_0000115 "A country in southeastern Asia, comprised of an archipelago between the Philippine Sea and the South China Sea, east of Vietnam."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223592003"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Philippines"^^xsd:anyURI,
         
-            Annotations: oboInOwl:hasRelatedSynonym "Filipina"@en
+            Annotations: oboInOwl:hasRelatedSynonym "Filipina"@en, 
+                         oboInOwl:hasRelatedSynonym "Filipinas"@en, 
+                         schema:alternateName "Filipinos"@en
         Property:P1549 "Filipino"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16978"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q928"^^xsd:anyURI,
         oboInOwl:hasExactSynonym "the Philippines"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D010679"^^xsd:anyURI,
         rdfs:label "Philippines"@en,
+        obo:IAO_0000115 "A country in southeastern Asia, archipelago between the Philippine Sea and the South China Sea, and east of Vietnam. The capital is Manila."@en,
         Property:P1549 "Philippine"@en
     
     SubClassOf: 
@@ -70037,11 +70384,17 @@ Class: obo:GAZ_00004525
 Class: obo:GAZ_00005246
 
     Annotations: 
+        obo:IAO_0000115 "A country in southern Asia, bordering the Arabian Sea, between India on the east and Iran and Afghanistan on the west and China in the north."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16949"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D010154"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q843"^^xsd:anyURI,
+        obo:IAO_0000115 "A country located in southern Asia, bordering the Arabian Sea, between India on the east and Iran and Afghanistan on the west and China in the north. The capital is Islamabad."@en,
         rdfs:label "Pakistan"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Pakistan"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "Pakistanis"@en
         Property:P1549 "Pakistani"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Pakistan"^^xsd:anyURI
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223603007"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00000466
@@ -70051,10 +70404,16 @@ Class: obo:GAZ_00005283
 
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q842"^^xsd:anyURI,
+        obo:IAO_0000115 "A sultanate on the southeast coast of the Arabian peninsula. Its capital is Masqat. Before the 16th century it was ruled by independent emirs but was captured and controlled by the Portuguese 1508-1648. In 1741 it was recovered by a descendent of Yemen's imam. After its decline in the 19th century, it became virtually a political and economic dependency within the British Government of India, retaining close ties with Great Britain by treaty from 1939 to 1970 when it achieved autonomy. The name was recorded by Pliny in the 1st century A.D. as Omana, said to be derived from the founder of the state, Oman ben Ibrahim al-Khalil."@en,
+        
+            Annotations: schema:alternateName "Omanis"@en
+        Property:P1549 "Omani"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D009850"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223613004"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Oman"^^xsd:anyURI,
         rdfs:label "Oman"@en,
-        Property:P1549 "Omani"@en
+        obo:IAO_0000115 "A country in the Middle East, bordering the Arabian Sea, southeast of Saudi Arabia."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16933"^^xsd:anyURI
     
     SubClassOf: 
         obo:GAZ_00002467
@@ -70063,13 +70422,17 @@ Class: obo:GAZ_00005283
 Class: obo:GAZ_00005341
 
     Annotations: 
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17184"^^xsd:anyURI,
+        obo:IAO_0000115 "A group of islands bordering the East China Sea, Philippine Sea, South China Sea, and Taiwan Strait, off the southeastern coast of China north of the Philippines."@en,
         
             Annotations: terms:replaces "Formosan"@en
         Property:P1549 "Taiwanese"@en,
+        obo:IAO_0000115 "Country in eastern Asia, islands bordering the East China Sea, Philippine Sea, South China Sea, and Taiwan Strait, north of the Philippines, off the southeastern coast of China. The capital is Taipei. The alternate country name is Republic of China."@en,
         rdfs:label "Republic of China"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Taiwan"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q865"^^xsd:anyURI,
         oboInOwl:hasSynonym "Taiwan"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/428675004"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D013624"^^xsd:anyURI
     
     SubClassOf: 
@@ -70121,10 +70484,16 @@ Class: obo:GAZ_00006888
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q424"^^xsd:anyURI,
         rdfs:label "Cambodia"@en,
         
+            Annotations: schema:alternateName "Cambodians"@en
+        Property:P1549 "Cambodian"@en,
+        obo:IAO_0000115 "A country in southeastern Asia, bordering the Gulf of Thailand, between Thailand, Vietnam, and Laos."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223588005"^^xsd:anyURI,
+        
             Annotations: schema:bookEdition 20
         Property:P1036 959.6,
-        Property:P1549 "Cambodian"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cambodia"^^xsd:anyURI,
+        obo:IAO_0000115 "A country located in Southeastern Asia, bordering the Gulf of Thailand, between Thailand, Vietnam, and Laos. The capital is Phnom Penh."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16378"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D002160"^^xsd:anyURI
     
     SubClassOf: 
@@ -70147,10 +70516,13 @@ Class: obo:GAZ_00006899
 
     Annotations: 
         Property:P1549 "Burmese"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16370"^^xsd:anyURI,
+        obo:IAO_0000115 "A republic of southeast Asia, northwest of Thailand, long familiar as Burma. Its capital is Yangon, formerly Rangoon. Inhabited by people of Mongolian stock and probably of Tibetan origin, by the 3d century A.D. it was settled by Hindus. The modern Burmese state was founded in the 18th century but was in conflict with the British during the 19th century. Made a crown colony of Great Britain in 1937, it was granted independence in 1947. In 1989 it became Myanmar. The name comes from myanma, meaning the strong, as applied to the Burmese people themselves."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Myanmar"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q836"^^xsd:anyURI,
         rdfs:label "Myanmar"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D002052"^^xsd:anyURI
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D002052"^^xsd:anyURI,
+        obo:IAO_0000115 "A country in southeastern Asia, bordering the Andaman Sea and the Bay of Bengal, southwest of China, between Bangladesh and Thailand."@en
     
     SubClassOf: 
         obo:GAZ_00000559
