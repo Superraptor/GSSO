@@ -2101,8 +2101,8 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004757>
         Property:P1692 "V69.2",
         schema:alternateName "high-risk sexual behaviors"@en,
         obo:IAO_0000115 "Sexual behavior that has a significantly high chance of resulting in the transmission of sexual infections, unplanned pregnancy, or other negative consequences."@en,
-        Property:P4229 "Z72.5",
         rdfs:label "high-risk sexual behavior"@en,
+        Property:P4229 "Z72.5",
         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10020082"^^xsd:anyURI
     
     SubClassOf: 
@@ -2200,16 +2200,16 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004764>
 Class: <http://bioportal.bioontology.org/ontology/GSSO/004765>
 
     Annotations: 
-        oboInOwl:hasRelatedSynonym "imagines"@en,
         rdfs:label "imagination"@en,
+        oboInOwl:hasRelatedSynonym "imagines"@en,
         oboInOwl:hasRelatedSynonym "imagining"@en,
         oboInOwl:hasRelatedSynonym "imagine"@en,
         schema:alternateName "imaginations"@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007092"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Imagination"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Imagination"^^xsd:anyURI,
-        oboInOwl:hasRelatedSynonym "imagined"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q34516"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "imagined"@en,
         obo:IAO_0000115 "A new pattern of perceptual or ideational material derived from past experience."@en
     
     SubClassOf: 
@@ -4625,6 +4625,320 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004964>
         <http://bioportal.bioontology.org/ontology/GSSO/004960>
     
     
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004968>
+
+    Annotations: 
+        obo:IAO_0000115 "Usage of gender language, such as pronouns, to refer to objects which do not express gender or sex at all (for example, referring to a boat as \"she\")."@en,
+        rdfs:label "metaphorical grammatical gender"@en,
+        Property:P1813 "metaphorical gender"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/002414>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004969>
+
+    Annotations: 
+        obo:IAO_0000115 "Something that misleads or distracts from a relevant or important question. It may be either a logical fallacy or a literary device that leads readers or audiences toward a false conclusion. A red herring may be used intentionally, as in mystery fiction or as part of rhetorical strategies (e.g., in politics), or may be used in argumentation inadvertently."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q572959"^^xsd:anyURI,
+        schema:alternateName "red herrings"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Red_herring"^^xsd:anyURI,
+        rdfs:label "red herring"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003998>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004970>
+
+    Annotations: 
+        rdfs:comment "Note that this term has several distinct means in various types of literature and a close reading is required to differentiate what is actually referred to."@en,
+        obo:IAO_0000115 "Providing a character implied to be queer or express queerness, only to be revealed as heterosexual and cisgender (such as Jughead Jones being coded as asexual in the TV series \"Riverdale\" and then later expressing heterosexuality)."@en,
+        obo:IAO_0000115 "In law, a preliminary prospectus (a document that advertises or describes in order to inform clients or other persons)."@en,
+        rdfs:label "pink herring"@en,
+        obo:IAO_0000115 "Use of homosexuality as a device to distract, as during the \"Lavender Scare\" of the 1950s in the United States."@en,
+        schema:alternateName "pink herrings"@en,
+        terms:isReferencedBy <http://doi.org/10.1080/00335630209384372>,
+        obo:IAO_0000115 "In psychoanalysis, the idea that sexual orientation actually reveals very little about a person's unconscious and is only focused on as a conceptualization of a cisnormative and heteronormative world"@en,
+        terms:isReferencedBy <https://books.google.com/books?id=gpNXDwAAQBAJ>
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004969>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004971>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7279753"^^xsd:anyURI,
+        obo:IAO_0000115 "Racism as practiced by persons who are part of the LGBTQiA+ community,"@en,
+        oboInOwl:hasNarrowSynonym "LGBT racism"@en,
+        
+            Annotations: oboInOwl:hasNarrowSynonym "racism in the LGBT community"@en
+        oboInOwl:hasSynonym "racism in the LGBTQ community"@en,
+        rdfs:label "LGBTQ racism"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Racism_in_the_LGBT_community"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/002798>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004972>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Gay_and_Lesbian_Kingdom_of_the_Coral_Sea_Islands"^^xsd:anyURI,
+        schema:dissolutionDate "2017-11-17T00:00:00"^^xsd:dateTime,
+        rdfs:label "Gay and Lesbian Kingdom of the Coral Sea Islands"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1423680"^^xsd:anyURI,
+        schema:dateCreated "2004-06-14T00:00:00"^^xsd:dateTime,
+        obo:IAO_0000115 "A micronation established as a symbolic political protest by a group of gay rights activists based in Australia. Declared in 2004 in response to the Australian government's refusal to recognise same-sex marriages, it was founded on Australia's external overseas Territory of the Coral Sea Islands, a group of uninhabited islets east of the Great Barrier Reef. The Kingdom was dissolved on 17 November 2017 following the decision made by the Australian people to legalise gay marriage."@en
+    
+    SubClassOf: 
+        obo:GAZ_00005917
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004974>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1262732"^^xsd:anyURI,
+        schema:alternateName "purges"@en,
+        rdfs:label "purge"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Purge"^^xsd:anyURI,
+        obo:IAO_0000115 "A removal of people who are considered undesirable by those in power from a government, another organization, their team leaders, or society as a whole."@en,
+        
+            Annotations: schema:alternateName "political purges"@en, 
+                         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85104426"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "political purge"@en
+    
+    SubClassOf: 
+        <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64914>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004975>
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasNarrowSynonym "anti-LGBT purge"@en, 
+                         oboInOwl:hasRelatedSynonym "anti-LGBT purges"@en, 
+                         schema:alternateName "anti-LGBTQ purges"@en
+        oboInOwl:hasSynonym "anti-LGBTQ purge"@en,
+        schema:alternateName "LGBTQ purges"@en,
+        rdfs:label "LGBTQ purge"@en,
+        obo:IAO_0000115 "A removal of LGBTQ persons by those in power from a government, another organization, their team leaders, or society as a whole."@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004974>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004976>
+
+    Annotations: 
+        obo:IAO_0000115 "A removal of primarily gay men by those in power from a government, another organization, their team leaders, or society as a whole."@en,
+        
+            Annotations: schema:alternateName "anti-gay purges"@en
+        oboInOwl:hasSynonym "anti-gay purge"@en,
+        rdfs:label "homophobic purge"@en,
+        
+            Annotations: schema:alternateName "gay purges"@en
+        oboInOwl:hasSynonym "gay purge"@en,
+        schema:alternateName "homophobic purges"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004975>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004977>
+
+    Annotations: 
+        schema:alternateName "lesbophobic purges"@en,
+        rdfs:label "lesbophobic purge"@en,
+        obo:IAO_0000115 "A removal of primarily gay women by those in power from a government, another organization, their team leaders, or society as a whole."@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004975>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004979>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/North_Caucasian_Federal_District"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:North_Caucasian_Federal_District"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q485161"^^xsd:anyURI,
+        obo:IAO_0000115 "One of the eight federal districts of Russia. It is located in extreme southern Russia, in the geographical area of the North Caucasus. The federal district was split from Southern Federal District on 19 January 2010."@en,
+        rdfs:label "North Caucasian Federal District"@en
+    
+    SubClassOf: 
+        obo:GAZ_00002721
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004980>
+
+    Annotations: 
+        
+            Annotations: schema:alternateName "personal hygiene products"@en
+        oboInOwl:hasSynonym "personal hygiene product"@en,
+        schema:alternateName "hygienic devices"@en,
+        
+            Annotations: schema:alternateName "feminine hygienic devices"@en
+        terms:replaces "feminine hygienic device"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Personal_hygiene_products"^^xsd:anyURI,
+        rdfs:label "hygienic device"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_000956>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004981>
+
+    Annotations: 
+        
+            Annotations: schema:alternateName "period products"@en
+        oboInOwl:hasSynonym "period product"@en,
+        
+            Annotations: schema:alternateName "menstrual hygiene products"@en
+        oboInOwl:hasSynonym "menstrual hygiene product"@en,
+        obo:IAO_0000115 "Personal care products used by menstruators during menstruation or vaginal discharge."@en,
+        rdfs:label "menstruation device"@en,
+        schema:alternateName "menstruation devices"@en,
+        
+            Annotations: schema:alternateName "feminine products"@en
+        terms:replaces "feminine product"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004980>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004982>
+
+    Annotations: 
+        rdfs:label "disposable menstruation device"@en,
+        schema:alternateName "disposable menstruation devices"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004981>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004983>
+
+    Annotations: 
+        schema:alternateName "reusable menstruation devices"@en,
+        rdfs:label "reusable menstruation device"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004981>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004984>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q976338"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "intravaginal menstrual pads"@en
+        oboInOwl:hasSynonym "intravaginal menstrual pad"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Tampon"^^xsd:anyURI,
+        rdfs:label "tampon"@en,
+        schema:alternateName "tampons"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004982>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004985>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Menstrual_cup"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q216997"^^xsd:anyURI,
+        schema:alternateName "menstrual cups"@en,
+        rdfs:label "menstrual cup"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004983>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004986>
+
+    Annotations: 
+        rdfs:label "menstrual pad"@en,
+        schema:alternateName "menstrual pads"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q235693"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "pads"@en
+        Property:P1813 "pad"@en,
+        oboInOwl:hasSynonym "sanitary napkin"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sanitary_napkin"^^xsd:anyURI,
+        oboInOwl:hasSynonym "sanitary pad"@en,
+        oboInOwl:hasSynonym "sanitary towel"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004982>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004987>
+
+    Annotations: 
+        schema:alternateName "international organizations"@en,
+        rdfs:label "international organization"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:International_organizations"^^xsd:anyURI,
+        obo:IAO_0000115 "Public international organizations and agencies of international government."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/International_organization"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q484652"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "international agencies"@en, 
+                         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85067357"^^xsd:anyURI, 
+                         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007390"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "international agency"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/000232>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004989>
+
+    Annotations: 
+        rdfs:label "set of cisgender female breasts"@en,
+        terms:hasPart <http://purl.bioontology.org/ontology/GSSO/000475>,
+        obo:IAO_0000115 "Breasts part of the body of a cisgender person who has a feminine gender identity or who has otherwise experienced breast development due to the presence of feminizing hormones."@en,
+        schema:alternateName "sets of cisgender female breasts"@en
+    
+    SubClassOf: 
+        <http://purl.org/sig/ont/fma/fma268898>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004990>
+
+    Annotations: 
+        schema:alternateName "sets of cisgender male breasts"@en,
+        terms:hasPart <http://purl.bioontology.org/ontology/GSSO/000474>,
+        obo:IAO_0000115 "Breasts part of the body of a cisgender person who has a masculine gender identity or who has otherwise not experienced breast development due to a lack of feminizing hormones."@en,
+        rdfs:label "set of cisgender male breasts"@en
+    
+    SubClassOf: 
+        <http://purl.org/sig/ont/fma/fma268896>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004991>
+
+    Annotations: 
+        terms:hasPart <http://purl.bioontology.org/ontology/GSSO/000472>,
+        schema:alternateName "sets of transgender female breasts"@en,
+        rdfs:label "set of transgender female breasts"@en,
+        obo:IAO_0000115 "Breasts part of the body of a transgender person who has a feminine gender identity or who has otherwise experienced breast development due to the presence of feminizing hormones."@en
+    
+    SubClassOf: 
+        <http://purl.org/sig/ont/fma/fma268898>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004992>
+
+    Annotations: 
+        obo:IAO_0000115 "Breasts part of the body of a transgender person who has a masculine gender identity or who has otherwise not experienced breast development due to a lack of feminizing hormones."@en,
+        rdfs:label "set of transgender male breasts"@en,
+        terms:hasPart <http://purl.bioontology.org/ontology/GSSO/000473>,
+        schema:alternateName "sets of transgender male breasts"@en
+    
+    SubClassOf: 
+        <http://purl.org/sig/ont/fma/fma268896>
+    
+    
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C100055>
 
     Annotations: 
@@ -5684,10 +5998,10 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21007>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Disability"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Disability"^^xsd:anyURI,
+        obo:IAO_0000115 "Any physical or mental impairment that interferes with an individual's ability to perform desired activities."@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2003007662"^^xsd:anyURI,
         schema:alternateName "disabilities"@en,
-        obo:IAO_0000115 "Any physical or mental impairment that interferes with an individual's ability to perform desired activities."@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Disability"^^xsd:anyURI,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         oboInOwl:hasRelatedSynonym "disabled"@en,
         rdfs:label "disability"@en
@@ -6611,8 +6925,8 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53292>
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D040541"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "marketed"@en,
         obo:IAO_0000115 "Activity involved in transfer of goods from producer to consumer or in the exchange of services."@en,
-        Property:P486 "https://en.wikipedia.org/wiki/Marketing"^^xsd:anyURI,
-        Property:P486 "https://en.wikipedia.org/wiki/Category:Marketing"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Marketing"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Marketing"^^xsd:anyURI,
         rdfs:label "marketing"@en
     
     SubClassOf: 
@@ -11067,8 +11381,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000389>
 
     Annotations: 
         schema:alternateName "cisgender persons"@en,
-        obo:IAO_0000115 "A cisgender/cissexual person: one whose gender matches his or her biological sex."@en,
         rdfs:label "cisgender person"@en,
+        obo:IAO_0000115 "A cisgender/cissexual person: one whose gender matches his or her biological sex."@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         dc:identifier "http://homosaurus.org/v2/cisgenderPeople"^^xsd:anyURI,
@@ -11152,8 +11466,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000394>
         schema:identifier "http://homosaurus.org/v2/transmasculinePeople"^^xsd:anyURI,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         schema:alternateName "transmasculine people"@en,
-        rdfs:label "transmasculine person"@en,
         oboInOwl:hasRelatedSynonym "trans masc"@en,
+        rdfs:label "transmasculine person"@en,
         obo:IAO_0000115 "Person with a transmasculine gender identity."@en,
         oboInOwl:hasRelatedSynonym "transmasculine"@en
     
@@ -12192,7 +12506,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000468>
     Annotations: 
         rdfs:label "medial surface of ovary"@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
-        Property:P1323 "A09.1.01.003"
+        Property:P1323 "A09.1.01.003",
+        obo:IAO_0000115 "The surface of the ovary close to the organ's midline."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma18591>
@@ -12203,7 +12518,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000469>
     Annotations: 
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
         rdfs:label "lateral surface of ovary"@en,
-        Property:P1323 "A09.1.01.004"
+        Property:P1323 "A09.1.01.004",
+        obo:IAO_0000115 "The surface of the ovary further from the organ's midline."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma18591>
@@ -12214,7 +12530,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000471>
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ostium_of_uterine_tube"^^xsd:anyURI,
         rdfs:label "uterine ostium of uterine tube"@en,
-        Property:P1323 "A09.1.02.009"
+        Property:P1323 "A09.1.02.009",
+        obo:IAO_0000115 "The opening located within the uterus at the uterotubal junction and accessible via hysteroscopy. Occlusion at this opening is referred to as proximal tubal occlusion."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma3724>
@@ -12225,6 +12542,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000472>
     Annotations: 
         obo:IAO_0000115 "A breast feminized due to hormones and/or surgery in a transgender woman."@en,
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000482>,
+        schema:alternateName <http://bioportal.bioontology.org/ontology/GSSO/004991>,
         rdfs:label "transgender female breast"@en
     
     SubClassOf: 
@@ -12234,8 +12552,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000472>
 Class: <http://purl.bioontology.org/ontology/GSSO/000473>
 
     Annotations: 
-        terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000483>,
         rdfs:label "transgender male breast"@en,
+        terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000483>,
+        schema:alternateName <http://bioportal.bioontology.org/ontology/GSSO/004992>,
         obo:IAO_0000115 "A breast masculinized due to surgery and/or hormones in a transgender man."@en
     
     SubClassOf: 
@@ -12247,6 +12566,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000474>
     Annotations: 
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000480>,
         obo:IAO_0000115 "A breast virilized in a cisgender man without external hormones and/or surgery."@en,
+        schema:alternateName <http://bioportal.bioontology.org/ontology/GSSO/004990>,
         rdfs:label "cisgender male breast"@en
     
     SubClassOf: 
@@ -12258,7 +12578,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000475>
     Annotations: 
         rdfs:label "cisgender female breast"@en,
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000481>,
-        obo:IAO_0000115 "A breast feminized in a cisgender woman without external hormones and/or surgery."@en
+        obo:IAO_0000115 "A breast feminized in a cisgender woman without external hormones and/or surgery."@en,
+        schema:alternateName <http://bioportal.bioontology.org/ontology/GSSO/004989>
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma19898>
@@ -21051,9 +21372,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001208>
 
     Annotations: 
         rdfs:label "group polarization"@en,
-        Property:P3938 "https://en.wikipedia.org/wiki/Group_polarization"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1551060"^^xsd:anyURI,
-        obo:IAO_0000115 "The tendency for a group to make decisions that are more extreme than the initial inclination of its members."@en
+        obo:IAO_0000115 "The tendency for a group to make decisions that are more extreme than the initial inclination of its members."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Group_polarization"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001207>
@@ -21064,7 +21385,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001209>
     Annotations: 
         rdfs:label "groupthink"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q751414"^^xsd:anyURI,
-        Property:P3938 "https://en.wikipedia.org/wiki/Groupthink"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Groupthink"^^xsd:anyURI,
         obo:IAO_0000115 "A psychological phenomenon that occurs within a group of people in which the desire for harmony or conformity in the group results in an irrational or dysfunctional decision-making outcome."@en
     
     SubClassOf: 
@@ -21075,11 +21396,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001210>
 
     Annotations: 
         obo:IAO_0000115 "Any enhancement of a motivated behavior in which individuals do the same thing with some degree of mutual stimulation and consequent coordination."@en,
-        Property:P3938 "https://en.wikipedia.org/wiki/Social_facilitation"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D012932"^^xsd:anyURI,
-        Property:P3938 "https://en.wikipedia.org/wiki/Social_facilitation_in_animals"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Social_facilitation"^^xsd:anyURI,
         rdfs:label "social facilitation"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1535412"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Social_facilitation_in_animals"^^xsd:anyURI,
         obo:IAO_0000115 "Improvement in individual performance when working with other people rather than alone. Compared to their performance when alone, when in the presence of others, they tend to perform better on simple or well-rehearsed tasks and worse on complex or new ones."@en
     
     SubClassOf: 
@@ -24281,8 +24602,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001498>
 Class: <http://purl.bioontology.org/ontology/GSSO/001500>
 
     Annotations: 
-        obo:IAO_0000115 "A genital phenotype that is not clearly assignable to a single sex."@en,
         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10001904"^^xsd:anyURI,
+        obo:IAO_0000115 "An external genital phenotype that is not clearly assignable to a single sex, i.e. not attributable to the production and/or maintenance, or other processes related to, gametes considered male or female."@en,
         rdfs:label "ambiguous external genitalia"@en,
         oboInOwl:hasRelatedSynonym "external genital ambiguity"@en,
         oboInOwl:hasSynonym "indeterminate external genitalia"@en,
@@ -27122,8 +27443,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001690>
 
     Annotations: 
         obo:IAO_0000115 "Any of various forms of ornamentation of the body or parts of the body."@en,
-        rdfs:label "body ornamentation"@en,
-        obo:IAO_0000115 "https://en.wikipedia.org/wiki/Body_ornamentation"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Body_ornamentation"^^xsd:anyURI,
+        rdfs:label "body ornamentation"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001687>
@@ -27678,8 +27999,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001731>
     Annotations: 
         oboInOwl:hasSynonym "supra-pubic pedicled abdominal flap phalloplasty"@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000989>,
-        oboInOwl:hasSynonym "supra-pubic phalloplasty"@en,
         rdfs:label "abdominal phalloplasty"@en,
+        oboInOwl:hasSynonym "supra-pubic phalloplasty"@en,
         obo:IAO_0000115 "Phalloplasty using a suprapubic abdominal flap."@en
     
     SubClassOf: 
@@ -28408,12 +28729,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001802>
 Class: <http://purl.bioontology.org/ontology/GSSO/001803>
 
     Annotations: 
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/75864003"^^xsd:anyURI,
         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10061472"^^xsd:anyURI,
+        schema:alternateName "psychiatric symptoms"@en,
         
             Annotations: schema:alternateName "psychiatric symptoms, NOS"@en
         oboInOwl:hasNarrowSynonym "psychiatric symptom, NOS"@en,
-        schema:alternateName "psychiatric symptoms"@en,
         rdfs:label "psychiatric symptom"@en,
+        obo:IAO_0000115 "A medical symptom primarily covered under the realm of psychiatry."@en,
         
             Annotations: Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10037180"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "psychiatric symptoms NEC"@en
@@ -28539,8 +28862,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001811>
         rdfs:label "physical disability"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Physical_disability"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1179623"^^xsd:anyURI,
-        oboInOwl:hasRelatedSynonym "physical handicap"@en,
-        obo:IAO_0000115 "A limitation on a person's physical functioning, mobility, dexterity or stamina."@en
+        obo:IAO_0000115 "A limitation on a person's physical functioning, mobility, dexterity or stamina."@en,
+        oboInOwl:hasRelatedSynonym "physical handicap"@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21007>
@@ -33854,8 +34177,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002228>
 Class: <http://purl.bioontology.org/ontology/GSSO/002229>
 
     Annotations: 
-        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/002365>,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/002365>,
         
             Annotations: dc:date 1837, 
                          rdfs:comment "Coined the French word \"féminisme\", not the English term \"feminism\"."@en
@@ -34751,7 +35074,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002303>
 
     Annotations: 
         rdfs:label "fakaleiti"@en,
-        Property:P1813 "https://en.wikipedia.org/wiki/Fakaleiti"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Fakaleiti"^^xsd:anyURI,
         oboInOwl:hasSynonym "fakafefine"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
@@ -35245,11 +35568,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002345>
             Annotations: schema:alternateName "areas of knowledge"@en, 
                          Property:P1813 "AOK"@en
         oboInOwl:hasRelatedSynonym "area of knowledge"@en,
+        obo:IAO_0000115 "A branch of knowledge."@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70772"^^xsd:anyURI,
-        oboInOwl:hasSynonym "field of knowledge"@en,
         
             Annotations: schema:alternateName "content areas"@en
         oboInOwl:hasRelatedSynonym "content area"@en,
+        oboInOwl:hasSynonym "field of knowledge"@en,
         schema:alternateName "knowledge fields"@en
     
     SubClassOf: 
@@ -35260,6 +35584,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002346>
 
     Annotations: 
         Property:P1149 "AZ",
+        obo:IAO_0000115 "Fields of inquiry in human constructs and concerns as opposed to natural processes and social relations. These are traditionally the study of literature, philosophy, and religion."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D006809"^^xsd:anyURI,
         rdfs:label "humanities"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85062913"^^xsd:anyURI,
@@ -35540,7 +35865,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002367>
 Class: <http://purl.bioontology.org/ontology/GSSO/002368>
 
     Annotations: 
-        rdfs:label "basic humanities"@en
+        rdfs:label "basic humanities"@en,
+        obo:IAO_0000115 "Humanities fields that form the basis of humanities studies; i.e. non-applied humanities."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002346>
@@ -35549,6 +35875,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002368>
 Class: <http://purl.bioontology.org/ontology/GSSO/002369>
 
     Annotations: 
+        obo:IAO_0000115 "Humanities fields that apply knowledge in specific contexts."@en,
         rdfs:label "applied humanities"@en
     
     SubClassOf: 
@@ -35792,8 +36119,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002389>
 
     Annotations: 
         rdfs:label "social history"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q908604"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Social_history"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Social_history"^^xsd:anyURI,
-        obo:IAO_0000115 "A field of history that looks at the lived experience of the past."@en
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85123948"^^xsd:anyURI,
+        obo:IAO_0000115 "A field of history that looks at the lived experience of the past."@en,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>,
+        Property:P1149 "HN"
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/MESH/D006664>
@@ -35803,9 +36135,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002390>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "queer history"@en,
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000586>,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>,
         rdfs:label "LGBTQ history"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/LGBT_history"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT_history"^^xsd:anyURI,
         obo:IAO_0000115 "A branch of social history which studies instances of lesbian, gay, bisexual, and transgender behavior and peoples throughout different cultures, with special regard to the persecution of such people. It also includes history of third gender roles and identities, history of intersex peoples, history of asexual individuals, and other related gender and sexual identities."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q17897"^^xsd:anyURI,
         oboInOwl:hasNarrowSynonym "LGBT history"@en
     
     SubClassOf: 
@@ -35815,7 +36151,16 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002390>
 Class: <http://purl.bioontology.org/ontology/GSSO/002391>
 
     Annotations: 
+        Property:P1149 "Z666.7",
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh96000740"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C52095"^^xsd:anyURI,
+        obo:IAO_0000115 "Structured data elements used to describe other data."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q180160"^^xsd:anyURI,
         schema:alternateName "metadata"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D000071253"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Metadata"^^xsd:anyURI,
+        obo:IAO_0000115 "Data about data; information that describes another set of data."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Metadata"^^xsd:anyURI,
         rdfs:label "metadatum"@en
     
     SubClassOf: 
@@ -35934,8 +36279,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002402>
         schema:alternateName "parts of speech"@en,
         Property:P1813 "POS"@en,
         Property:P1813 "PoS"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Part_of_speech"^^xsd:anyURI,
         rdfs:label "part of speech"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Part_of_speech"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Parts_of_speech"^^xsd:anyURI
     
     SubClassOf: 
@@ -37385,8 +37730,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002796>
 
     Annotations: 
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/002835>,
-        oboInOwl:hasSynonym "gender discrimination"@en,
         rdfs:label "gender-based discrimination"@en,
+        oboInOwl:hasSynonym "gender discrimination"@en,
         
             Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85120591"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "sex discrimination"@en,
@@ -37750,6 +38095,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002820>
     Annotations: 
         oboInOwl:hasRelatedSynonym "ignorant"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ignorance"^^xsd:anyURI,
+        obo:IAO_0000115 "A lack of knowledge and information. The word \"ignorant\" is an adjective that describes a person in the state of being unaware, and can describe individuals who deliberately ignore or disregard important information or facts, or individuals who are unaware of important information or facts. Ignorance can appear in three different types: factual ignorance (absence of knowledge of some fact), objectual ignorance (unacquaintance with some object), and technical ignorance (absence of knowledge of how to do something)."@en,
         rdfs:label "ignorance"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Ignorance"^^xsd:anyURI
     
@@ -38634,8 +38980,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002880>
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85148799"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "xenophobic"@en,
         oboInOwl:hasSynonym "xenophobia"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Xenophobia"^^xsd:anyURI,
         rdfs:label "xenophobic prejudice"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Xenophobia"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Xenophobia"^^xsd:anyURI
     
     SubClassOf: 
@@ -39333,8 +39679,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002937>
 Class: <http://purl.bioontology.org/ontology/GSSO/002938>
 
     Annotations: 
-        rdfs:label "social ideology"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Social_ideologies"^^xsd:anyURI,
+        rdfs:label "social ideology"@en,
         schema:alternateName "social ideologies"@en
     
     SubClassOf: 
@@ -41544,8 +41890,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003096>
         Property:P461 "allistic person"@en,
         rdfs:label "person with autism"@en,
         schema:alternateName "persons with autism"@en,
-        schema:alternateName "people with autism"@en,
         obo:IAO_0000115 "A person who falls on the autism spectrum."@en,
+        schema:alternateName "people with autism"@en,
         
             Annotations: terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>, 
                          Property:P1813 "autistic"@en
@@ -43162,6 +43508,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003231>
 Class: <http://purl.bioontology.org/ontology/GSSO/003234>
 
     Annotations: 
+        obo:IAO_0000115 "The anus, as it occurs in vertebrates."@en,
         Property:P703 <http://purl.bioontology.org/ontology/NCBITAXON/7742>,
         rdfs:label "vertebrate anus"@en
     
@@ -43173,6 +43520,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003235>
 
     Annotations: 
         Property:P703 <http://purl.bioontology.org/ontology/NCBITAXON/40674>,
+        obo:IAO_0000115 "The anus, as it occurs in mammals."@en,
         rdfs:label "mammalian anus"@en
     
     SubClassOf: 
@@ -43183,7 +43531,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003236>
 
     Annotations: 
         Property:P703 <http://purl.bioontology.org/ontology/NCBITAXON/9443>,
-        rdfs:label "primate anus"@en
+        rdfs:label "primate anus"@en,
+        obo:IAO_0000115 "The anus, as it occurs in primates."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003235>
@@ -43192,6 +43541,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003236>
 Class: <http://purl.bioontology.org/ontology/GSSO/003237>
 
     Annotations: 
+        obo:IAO_0000115 "The anus, as it occurs in humans."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Human_anus"^^xsd:anyURI,
         rdfs:label "human anus"@en,
         Property:P703 <http://purl.bioontology.org/ontology/NCBITAXON/9606>
@@ -44632,6 +44982,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003350>
 Class: <http://purl.bioontology.org/ontology/GSSO/003352>
 
     Annotations: 
+        obo:IAO_0000115 "A form of contraceptive which is injected into the body, usually either in the muscle or under the skin."@en,
         schema:alternateName "injectable contraceptives"@en,
         rdfs:label "injectable contraceptive"@en
     
@@ -44643,10 +44994,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003353>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Progestogen-only_injectable_contraceptive"^^xsd:anyURI,
+        schema:dateCreated 1957,
+        obo:IAO_0000115 "A form of hormonal contraception and progestogen-only contraception that are administered by injection and providing long-lasting birth control."@en,
         rdfs:label "progestogen-only injectable contraceptive"@en,
         
             Annotations: schema:alternateName "POICs"@en
         Property:P1813 "POIC"@en,
+        
+            Annotations: schema:alternateName "progestogen only injectable contraceptives"@en
         oboInOwl:hasExactSynonym "progestogen only injectable contraceptive"@en,
         schema:alternateName "progestogen-only injectable contraceptives"@en
     
@@ -44660,7 +45015,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003354>
         
             Annotations: schema:alternateName "CICs"@en
         Property:P1813 "CIC"@en,
+        obo:IAO_0000115 "A form of hormonal birth control. They consist of monthly injections of combined formulations containing an estrogen and a progestin to prevent pregnancy."@en,
         rdfs:label "combined injectable contraceptive"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Combined_injectable_contraceptives"^^xsd:anyURI,
         schema:dateCreated "c. 1980"@en,
         schema:alternateName "combined injectable contraceptives"@en
     
@@ -44754,7 +45111,19 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003362>
 Class: <http://purl.bioontology.org/ontology/GSSO/003363>
 
     Annotations: 
+        
+            Annotations: schema:alternateName "birth control pills"@en
+        terms:replaces "birth control pill"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Combined_oral_contraceptive_pill"^^xsd:anyURI,
+        terms:replaces "the pill"@en,
         rdfs:label "combined oral contraceptive"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q817281"^^xsd:anyURI,
+        obo:IAO_0000115 "A type of birth control that is designed to be taken orally. It includes a combination of an estrogen (usually ethinylestradiol) and a progestogen (specifically a progestin). When taken correctly, it alters the menstrual cycle to eliminate ovulation and prevent pregnancy."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Combined_oral_contraceptives"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "combined oral contraceptive pills"@en, 
+                         Property:P1813 "COCP"@en
+        oboInOwl:hasRelatedSynonym "combined oral contraceptive pill"@en,
         schema:alternateName "combined oral contraceptives"@en
     
     SubClassOf: 
@@ -44764,9 +45133,23 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003363>
 Class: <http://purl.bioontology.org/ontology/GSSO/003364>
 
     Annotations: 
-        oboInOwl:hasSynonym "progestogen only oral contraceptive"@en,
+        
+            Annotations: schema:alternateName "progestogen-only contraceptive pills"@en
+        oboInOwl:hasRelatedSynonym "progestogen-only contraceptive pill"@en,
+        obo:IAO_0000115 "Contraceptive pills that contain only synthetic progestogens (progestins) and do not contain estrogen. They are colloquially known as mini pills."@en,
+        schema:dateCreated 1968,
+        obo:IAO_0000115 "An oral contraceptive containing only the hormone progestogen."@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/169467008"^^xsd:anyURI,
         schema:alternateName "progestogen oral contraceptives"@en,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Progestogen-only_pill"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q977536"^^xsd:anyURI, 
+                         schema:alternateName "progestogen-only pills"@en, 
+                         Property:P1813 "POP"@en
+        oboInOwl:hasRelatedSynonym "progestogen-only pill"@en,
+        
+            Annotations: schema:alternateName "progestogen only oral contraceptives"@en
+        oboInOwl:hasSynonym "progestogen only oral contraceptive"@en,
         rdfs:label "progestogen oral contraceptive"@en
     
     SubClassOf: 
@@ -44780,6 +45163,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003365>
             Annotations: schema:alternateName "contraceptives for topical use"@en
         oboInOwl:hasSynonym "contraceptive for topical use"@en,
         schema:alternateName "topical contraceptives"@en,
+        obo:IAO_0000115 "A contraceptive administered via the surface of the skin, with minimal penetration of the skin layer."@en,
         Property:P267 "G02B",
         rdfs:label "topical contraceptive"@en
     
@@ -44794,7 +45178,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003366>
         
             Annotations: schema:alternateName "gynecologial drugs"@en
         oboInOwl:hasSynonym "gynecologial drug"@en,
-        schema:alternateName "gynecological drugs"@en
+        schema:alternateName "gynecological drugs"@en,
+        obo:IAO_0000115 "A drug prescribed for gynecological use; that is, for an affected area or areas studied primarily in gynecology."@en
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_010038>
@@ -44804,8 +45189,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003367>
 
     Annotations: 
         schema:alternateName "intrauterine contraceptives"@en,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>,
         Property:P267 "G02BA",
-        rdfs:label "intrauterine contraceptive"@en
+        rdfs:label "intrauterine contraceptive"@en,
+        obo:IAO_0000115 "A contraceptive which is placed inside the uterus."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003365>
@@ -44814,9 +45201,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003367>
 Class: <http://purl.bioontology.org/ontology/GSSO/003368>
 
     Annotations: 
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000996>,
         Property:P267 "G02BB",
         schema:alternateName "intravaginal contraceptives"@en,
-        rdfs:label "intravaginal contraceptive"@en
+        rdfs:label "intravaginal contraceptive"@en,
+        obo:IAO_0000115 "A contraceptive which is placed inside the vagina."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003365>
@@ -44827,7 +45216,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003369>
     Annotations: 
         rdfs:label "transdermal contraceptive"@en,
         schema:alternateName "transdermal contraceptives"@en,
-        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/413116005"^^xsd:anyURI
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/413116005"^^xsd:anyURI,
+        obo:IAO_0000115 "A contraceptive administered via the surface of the skin, with maximum penetration of the skin layer in efforts to exert effects on deeper tissues."@en
     
     SubClassOf: 
         obo:CHEBI_49323
@@ -44987,13 +45377,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003388>
 Class: <http://purl.bioontology.org/ontology/GSSO/003389>
 
     Annotations: 
-        rdfs:label "birth name"@en,
         
             Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>, 
                          terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>, 
+                         oboInOwl:hasRelatedSynonym "necronyms"@en, 
+                         oboInOwl:hasSynonym "necronym"@en, 
                          schema:alternateName "deadnames"@en, 
                          Property:P1659 <http://purl.bioontology.org/ontology/GSSO/003394>
         oboInOwl:hasNarrowSynonym "deadname"@en,
+        rdfs:label "birth name"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/446231000124108"^^xsd:anyURI
     
     SubClassOf: 
@@ -45027,8 +45419,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003392>
 Class: <http://purl.bioontology.org/ontology/GSSO/003393>
 
     Annotations: 
-        Property:P1748 "https://en.wikipedia.org/wiki/Passing_(gender)#Gender_attribution"^^xsd:anyURI,
         obo:IAO_0000115 "Process in which gender is assigned to an individual without asking that person their gender identity."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Passing_(gender)#Gender_attribution"^^xsd:anyURI,
         rdfs:label "gender attribution"@en,
         
             Annotations: terms:isReferencedBy <https://web.archive.org/web/20190728210238/https://www.pinknews.co.uk/2017/11/27/the-ultimate-lgbt-glossary-all-your-questions-answered/>, 
@@ -49421,7 +49813,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003764>
         
             Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh00002006"^^xsd:anyURI
         oboInOwl:hasSynonym "goth culture"@en,
-        schema:alternateName "https://en.wikipedia.org/wiki/Goth_subculture"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Goth_subculture"^^xsd:anyURI,
         rdfs:label "goth subculture"@en
     
     SubClassOf: 
@@ -50205,9 +50597,16 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003848>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Science"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012586"^^xsd:anyURI,
+        Property:P1149 "Q",
         rdfs:label "science"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85118553"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "scientific"@en,
         schema:alternateName "sciences"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Science"^^xsd:anyURI
+        obo:IAO_0000115 "The intellectual and practical activity encompassing the systematic study of the structure and behaviour of the physical and natural world through observation and experiment."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Science"^^xsd:anyURI,
+        obo:IAO_0000115 "The study of natural phenomena by observation, measurement, and experimentation."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61397"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002345>
@@ -51365,19 +51764,19 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003959>
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/288501000119105"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "parent child estrangement"@en,
         rdfs:label "familial rejection"@en,
+        oboInOwl:hasNarrowSynonym "paternal rejection"@en,
         
             Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85097998"^^xsd:anyURI, 
                          Property:P1149 "BF723.P26"
         oboInOwl:hasNarrowSynonym "parental rejection"@en,
-        oboInOwl:hasNarrowSynonym "paternal rejection"@en,
         obo:IAO_0000115 "Social rejection by one's family."@en,
         
-            Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85082105"^^xsd:anyURI
-        oboInOwl:hasNarrowSynonym "maternal rejection"@en,
-        
             Annotations: obo:IAO_0000115 "The loss of a previously existing relationship between family members, through physical and/or emotional distancing, often to the extent that there is little or no communication between the individuals involved for a prolonged period."@en, 
-                         rdfs:label "https://en.wikipedia.org/wiki/Family_estrangement"^^xsd:anyURI
-        oboInOwl:hasRelatedSynonym "familial estrangement"@en
+                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Family_estrangement"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "familial estrangement"@en,
+        
+            Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85082105"^^xsd:anyURI
+        oboInOwl:hasNarrowSynonym "maternal rejection"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003700>
@@ -52531,9 +52930,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004096>
         
             Annotations: schema:alternateName "respiratory symptoms, NOS"@en
         oboInOwl:hasNarrowSynonym "respiratory symptom, NOS"@en,
-        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/161920001"^^xsd:anyURI,
         rdfs:label "respiratory symptom"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/161920001"^^xsd:anyURI,
+        obo:IAO_0000115 "A medical symptom primarily affecting the respiratory system."@en,
         schema:alternateName "respiratory symptoms"@en,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Symptoms_and_signs:_Respiratory_system"^^xsd:anyURI
+        oboInOwl:hasBroadSynonym "respiratory system symptoms and signs"@en,
         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10075535"^^xsd:anyURI,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004097>
     
@@ -52544,7 +52947,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004096>
 Class: <http://purl.bioontology.org/ontology/GSSO/004097>
 
     Annotations: 
+        obo:IAO_0000115 "A medical sign primarily affecting the respiratory system."@en,
         rdfs:label "respiratory sign"@en,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Symptoms_and_signs:_Respiratory_system"^^xsd:anyURI
+        oboInOwl:hasBroadSynonym "respiratory system symptoms and signs"@en,
         schema:alternateName "respiratory signs"@en,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004096>
     
@@ -52600,16 +53007,17 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004100>
 
     Annotations: 
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004107>,
-        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004106>,
         
             Annotations: oboInOwl:hasSynonym "sexual asphyxiation"@en
         oboInOwl:hasSynonym "sexual asphyxia"@en,
+        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004106>,
         rdfs:label "erotic asphyxia"@en,
         oboInOwl:hasSynonym "erotic hypoxia"@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Erotic_asphyxiation"^^xsd:anyURI, 
                          oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q603780"^^xsd:anyURI
         oboInOwl:hasSynonym "erotic asphyxiation"@en,
+        obo:IAO_0000115 "The intentional restriction of oxygen to the brain for the purposes of sexual arousal."@en,
         oboInOwl:hasSynonym "sexual hypoxia"@en
     
     SubClassOf: 
@@ -52620,14 +53028,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004101>
 
     Annotations: 
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85010060"^^xsd:anyURI,
-        Property:P1149 "RC560.A97",
         rdfs:label "autoerotic asphyxia"@en,
+        Property:P1149 "RC560.A97",
         oboInOwl:hasSynonym "autoerotic hypoxia"@en,
+        obo:IAO_0000115 "The intentional restriction of oxygen to one's own brain for the purposes of sexual arousal."@en,
         Property:P1149 "RA1082",
-        oboInOwl:hasSynonym "autoerotic asphyxiation"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        dc:identifier "http://homosaurus.org/v2/autoeroticAsphyxiation"^^xsd:anyURI
+        dc:identifier "http://homosaurus.org/v2/autoeroticAsphyxiation"^^xsd:anyURI,
+        oboInOwl:hasSynonym "autoerotic asphyxiation"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004100>
@@ -52719,9 +53128,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004107>
         rdfs:label "asphyxiophilia"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/765151006"^^xsd:anyURI,
         Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004100>,
-        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004106>,
-        oboInOwl:hasRelatedSynonym "asphyxiophilic"@en,
         obo:IAO_0000115 "Erotic asphyxiation; a fetish involving asphyxia at the moment of orgasm."@en,
+        oboInOwl:hasRelatedSynonym "asphyxiophilic"@en,
+        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004106>,
         
             Annotations: oboInOwl:hasRelatedSynonym "hypoxyphilic"@en
         oboInOwl:hasRelatedSynonym "hypoxyphilia"@en
@@ -53127,7 +53536,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004136>
     Annotations: 
         Property:P3841 "http://purl.obolibrary.org/obo/HP_0011458"^^xsd:anyURI,
         schema:alternateName "abdominal symptoms"@en,
-        rdfs:label "abdominal symptom"@en
+        rdfs:label "abdominal symptom"@en,
+        obo:IAO_0000115 "A medical symptom primarily affecting the abdominal region."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/000495>
@@ -53137,15 +53547,19 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004137>
 
     Annotations: 
         rdfs:label "vomiting"@en,
-        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3442"^^xsd:anyURI,
+        obo:IAO_0000115 "The forcible expulsion of the contents of the stomach through the mouth."@en,
         Property:P4229 "R11.1",
         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10047700"^^xsd:anyURI,
         
             Annotations: Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10014542"^^xsd:anyURI
         oboInOwl:hasSynonym "emesis"@en,
-        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/422400008"^^xsd:anyURI,
         Property:P3841 "http://purl.obolibrary.org/obo/HP_0002013"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D014839"^^xsd:anyURI,
+        obo:IAO_0000115 "Forceful ejection of the contents of the stomach through the mouth."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Vomiting"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3442"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q127076"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/422400008"^^xsd:anyURI,
         oboInOwl:hasSynonym "throwing up"@en
     
     SubClassOf: 
@@ -53158,7 +53572,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004138>
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/45994004"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "Roman shower"@en,
         rdfs:label "erotic vomiting"@en,
-        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004120>
+        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/004120>,
+        obo:IAO_0000115 "Vomiting for the purposes of erotic and/or sexual enjoyment."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004137>
@@ -53367,7 +53782,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004153>
 Class: <http://purl.bioontology.org/ontology/GSSO/004154>
 
     Annotations: 
+        rdfs:comment "Note that \"female\" simply describes the gamete of the genital system, not the gender of the human to which the genital system belongs."@en,
         rdfs:label "hypoplastic female external genitalia"@en,
+        obo:IAO_0000115 "Underdeveloped or otherwise smaller than average external genitalia involved in the production/maintenance of female gametes or other processes involving female gametes."@en,
         Property:P3841 "http://purl.obolibrary.org/obo/HP_0012815"^^xsd:anyURI
     
     SubClassOf: 
@@ -53377,8 +53794,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004154>
 Class: <http://purl.bioontology.org/ontology/GSSO/004155>
 
     Annotations: 
+        obo:IAO_0000115 "Underdeveloped or otherwise smaller than average external genitalia involved in the production/maintenance of male gametes or other processes involving male gametes."@en,
         Property:P3841 "http://purl.obolibrary.org/obo/HP_0000050"^^xsd:anyURI,
-        rdfs:label "hypoplastic male external genitalia"@en
+        rdfs:label "hypoplastic male external genitalia"@en,
+        rdfs:comment "Note that \"male\" simply describes the gamete of the genital system, not the gender of the human to which the genital system belongs."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma45642>
@@ -54709,7 +55128,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004297>
 Class: <http://purl.bioontology.org/ontology/GSSO/004298>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q184485"^^xsd:anyURI,
         rdfs:label "performing art"@en,
+        obo:IAO_0000115 "Forms of art in which artists use their voices, bodies or inanimate objects to convey artistic expression. It is different from visual arts, which is when artists use paint, canvas or various materials to create physical or static art objects. Performing arts include a range of disciplines which are performed in front of a live audience."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Performing_arts"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85433"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Performing_arts"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85099818"^^xsd:anyURI,
         schema:alternateName "performing arts"@en
     
     SubClassOf: 
@@ -54719,7 +55144,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004298>
 Class: <http://purl.bioontology.org/ontology/GSSO/004299>
 
     Annotations: 
-        rdfs:label "dance"@en
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Dance"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85035659"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "dancing"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q11639"^^xsd:anyURI,
+        rdfs:label "dance"@en,
+        Property:P1149 "GV1580-GV1799.4",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Dance"^^xsd:anyURI,
+        schema:alternateName "dances"@en,
+        obo:IAO_0000115 "A performing art form consisting of purposefully selected sequences of human movement. This movement has aesthetic and symbolic value, and is acknowledged as dance by performers and observers within a particular culture. Dance can be categorized and described by its choreography, by its repertoire of movements, or by its historical period or place of origin."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004298>
@@ -54728,6 +55161,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004299>
 Class: <http://purl.bioontology.org/ontology/GSSO/004300>
 
     Annotations: 
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85088762"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Music"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q638"^^xsd:anyURI,
+        obo:IAO_0000115 "An art form and cultural activity whose medium is sound organized in time. General definitions of music include common elements such as pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the \"color\" of a musical sound). Different styles or types of music may emphasize, de-emphasize or omit some of these elements."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Music"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D009146"^^xsd:anyURI,
         rdfs:label "music"@en
     
     SubClassOf: 
@@ -54737,7 +55176,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004300>
 Class: <http://purl.bioontology.org/ontology/GSSO/004301>
 
     Annotations: 
-        rdfs:label "theatre"@en
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Theatre"^^xsd:anyURI,
+        rdfs:label "theatre"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Theatre"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q11635"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85134522"^^xsd:anyURI,
+        Property:P1149 "PN2000-PN3299"
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004298>
@@ -54746,7 +55190,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004301>
 Class: <http://purl.bioontology.org/ontology/GSSO/004302>
 
     Annotations: 
-        rdfs:label "subculture music"@en
+        rdfs:label "subculture music"@en,
+        obo:IAO_0000115 "Music associated with a particular subculture."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004300>
@@ -54835,7 +55280,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004311>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "LGBTQ-related musical composition"@en,
-        rdfs:label "LGBTQ-related music"@en
+        
+            Annotations: oboInOwl:hasNarrowSynonym "LGBT music"@en
+        oboInOwl:hasRelatedSynonym "LGBTQ music"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:LGBT-related_music"^^xsd:anyURI,
+        oboInOwl:hasNarrowSynonym "LGBT-related music"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q6457912"^^xsd:anyURI,
+        obo:IAO_0000115 "A grouping of musical genres that focus on the experiences of gender and sexual minorities as a product of the broad gay liberation movement."@en,
+        rdfs:label "LGBTQ-related music"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/LGBT_music"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004302>
@@ -54844,6 +55297,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004311>
 Class: <http://purl.bioontology.org/ontology/GSSO/004312>
 
     Annotations: 
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh89002771"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Musical_theatre"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Musical_theatre"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2743"^^xsd:anyURI,
+        obo:IAO_0000115 "A form of theatrical performance that combines songs, spoken dialogue, acting and dance."@en,
         rdfs:label "musical theatre"@en
     
     SubClassOf: 
@@ -54916,6 +55374,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004319>
 
     Annotations: 
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/105799003"^^xsd:anyURI,
+        schema:alternateName "household devices"@en,
         rdfs:label "household device"@en
     
     SubClassOf: 
@@ -54925,7 +55384,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004319>
 Class: <http://purl.bioontology.org/ontology/GSSO/004320>
 
     Annotations: 
-        rdfs:label "household accessory"@en
+        rdfs:label "household accessory"@en,
+        schema:alternateName "household accessories"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004319>
@@ -55105,8 +55565,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004336>
 Class: <http://purl.bioontology.org/ontology/GSSO/004337>
 
     Annotations: 
-        obo:IAO_0000115 "Sex toys meant for, or focused on, penile use."@en,
         oboInOwl:hasSynonym "penile sex toy"@en,
+        obo:IAO_0000115 "Sex toys meant for, or focused on, penile use."@en,
         rdfs:label "penile toy"@en
     
     SubClassOf: 
@@ -55472,7 +55932,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004374>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "performance dance"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1020618"^^xsd:anyURI,
         rdfs:label "concert dance"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Concert_dance"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Concert_dance"^^xsd:anyURI,
+        obo:IAO_0000115 "Dance performed for an audience. It is frequently performed in a theatre setting, though this is not a requirement, and it is usually choreographed and performed to set music."@en,
         oboInOwl:hasRelatedSynonym "theatre dance"@en
     
     SubClassOf: 
@@ -55482,7 +55946,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004374>
 Class: <http://purl.bioontology.org/ontology/GSSO/004375>
 
     Annotations: 
-        rdfs:label "ancient history"@en
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Ancient_history"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q41493"^^xsd:anyURI,
+        obo:IAO_0000115 "Ancient history as a term refers to the aggregate of past events from the beginning of writing and recorded human history and extending as far as the post-classical history. The phrase may be used either to refer to the period of time or the academic discipline. The span of recorded history is roughly 5,000 years, beginning with Sumerian Cuneiform script; the oldest discovered form of coherent writing from the protoliterate period around the 30th century BCE. Ancient History covers all continents inhabited by humans in the 3,000 BCE – 500 CE period."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ancient_history"^^xsd:anyURI,
+        rdfs:label "ancient history"@en,
+        Property:P1149 "D51-D90",
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85061232"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/MESH/D006664>
@@ -55491,7 +55962,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004375>
 Class: <http://purl.bioontology.org/ontology/GSSO/004376>
 
     Annotations: 
-        rdfs:label "cultural history"@en
+        rdfs:label "cultural history"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q858517"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Cultural_history"^^xsd:anyURI,
+        obo:IAO_0000115 "Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience. It examines the records and narrative descriptions of past matter, encompassing the continuum of events (occurring in succession and leading from the past to the present and even into the future) pertaining to a culture."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cultural_history"^^xsd:anyURI,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/MESH/D006664>
@@ -55500,7 +55976,16 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004376>
 Class: <http://purl.bioontology.org/ontology/GSSO/004377>
 
     Annotations: 
-        rdfs:label "history of clothing"@en
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2501507"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "history of fashion"@en,
+        rdfs:label "history of clothing"@en,
+        oboInOwl:hasSynonym "history of dress"@en,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/History_of_clothing_and_textiles"^^xsd:anyURI
+        oboInOwl:hasBroadSynonym "history of clothing and textiles"@en,
+        oboInOwl:hasSynonym "history of costume"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:History_of_clothing"^^xsd:anyURI,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004376>
@@ -55510,6 +55995,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004378>
 
     Annotations: 
         rdfs:label "history of cross-dressing"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/History_of_cross-dressing"^^xsd:anyURI,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>,
         oboInOwl:hasExactSynonym "history of crossdressing"@en
     
     SubClassOf: 
@@ -55519,7 +56006,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004378>
 Class: <http://purl.bioontology.org/ontology/GSSO/004379>
 
     Annotations: 
-        rdfs:label "gender history"@en
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Gender_history"^^xsd:anyURI,
+        Property:P5191 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17357>,
+        obo:IAO_0000115 "Gender history is a sub-field of history and gender studies, which looks at the past from the perspective of gender."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1517835"^^xsd:anyURI,
+        rdfs:label "gender history"@en,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002389>
@@ -55528,7 +56020,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004379>
 Class: <http://purl.bioontology.org/ontology/GSSO/004380>
 
     Annotations: 
-        rdfs:label "women's history"@en
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000369>,
+        rdfs:label "women's history"@en,
+        obo:IAO_0000115 "The study of the role that women have played in history and the methods required to do so. It includes the study of the history of the growth of woman's rights throughout recorded history, personal achievement over a period of time, the examination of individual and groups of women of historical significance, and the effect that historical events have had on women."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1279400"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Women%27s_history"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Women%27s_history"^^xsd:anyURI,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004379>
@@ -55537,7 +56035,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004380>
 Class: <http://purl.bioontology.org/ontology/GSSO/004381>
 
     Annotations: 
-        rdfs:label "men's history"@en
+        rdfs:label "men's history"@en,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>,
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000370>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004379>
@@ -55546,7 +56046,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004381>
 Class: <http://purl.bioontology.org/ontology/GSSO/004382>
 
     Annotations: 
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/004375>,
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000586>,
         oboInOwl:hasNarrowSynonym "ancient LGBT history"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/LGBT_history#Ancient_history"^^xsd:anyURI,
         rdfs:label "ancient LGBTQ history"@en
     
     SubClassOf: 
@@ -55567,6 +56070,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004384>
 
     Annotations: 
         rdfs:label "gay male history"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Gay_history"^^xsd:anyURI,
         Property:P1813 "gay history"@en
     
     SubClassOf: 
@@ -55586,6 +56090,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004385>
 Class: <http://purl.bioontology.org/ontology/GSSO/004386>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Transgender_history"^^xsd:anyURI,
+        obo:IAO_0000115 "Transgender history begins with transgender (in the broad sense, including non-binary and third-gender) people in ancient civilizations on every inhabited continent and continues to the present. Sumerian and Akkadian texts from 4500 years ago document transgender priests, and Assyrian texts document trans prostitutes; evidence suggests these gender roles go back to prehistoric times and may have a common origin with third gender roles that were accepted in America before European colonization, some of which (like Navajo nádleehi and Zuni lhamana) survived colonizers' hostility."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Transgender_history"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q24895664"^^xsd:anyURI,
         rdfs:label "transgender history"@en
     
     SubClassOf: 
@@ -55613,7 +56121,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004388>
 Class: <http://purl.bioontology.org/ontology/GSSO/004389>
 
     Annotations: 
-        rdfs:label "racial history"@en
+        rdfs:label "racial history"@en,
+        Property:P5191 <http://purl.bioontology.org/ontology/MESH/D006664>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002389>
@@ -56245,7 +56754,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004437>
 Class: <http://purl.bioontology.org/ontology/GSSO/004440>
 
     Annotations: 
-        rdfs:label "visual art"@en
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q36649"^^xsd:anyURI,
+        schema:alternateName "visual arts"@en,
+        rdfs:label "visual art"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85007461"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Visual_arts"^^xsd:anyURI,
+        obo:IAO_0000115 "Art forms such as painting, drawing, printmaking, sculpture, ceramics, photography, video, filmmaking, design, crafts, and architecture. Many artistic disciplines such as performing arts, conceptual art, textile arts also involve aspects of visual arts as well as arts of other types. Also included within the visual arts are the applied arts such as industrial design, graphic design, fashion design, interior design and decorative art."@en,
+        Property:P1149 "N",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Visual_arts"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/MESH/D001154>
@@ -58019,6 +58535,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004642>
     Annotations: 
         obo:IAO_0000115 "Professional associations formed of and for sexologists."@en,
         rdfs:label "sexological association"@en,
+        
+            Annotations: schema:alternateName "sexual health associations"@en
+        oboInOwl:hasRelatedSynonym "sexual health association"@en,
         schema:alternateName "sexological associations"@en
     
     SubClassOf: 
@@ -59266,9 +59785,16 @@ Class: <http://purl.bioontology.org/ontology/MESH/D001061>
 Class: <http://purl.bioontology.org/ontology/MESH/D001154>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Art"^^xsd:anyURI,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/The_arts"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "the arts"@en,
         rdfs:label "art"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85008324"^^xsd:anyURI,
         schema:alternateName "arts"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D001154"^^xsd:anyURI
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D001154"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Arts"^^xsd:anyURI,
+        obo:IAO_0000115 "A diverse range of human activities in creating visual, auditory or performing artifacts (artworks), expressing the author's imaginative, conceptual ideas, or technical skill, intended to be appreciated for their beauty or emotional power."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002368>
@@ -59706,7 +60232,13 @@ Class: <http://purl.bioontology.org/ontology/MESH/D006130>
 Class: <http://purl.bioontology.org/ontology/MESH/D006664>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:History"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/History"^^xsd:anyURI,
+        Property:P1149 "D",
         rdfs:label "history"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54625"^^xsd:anyURI,
+        obo:IAO_0000115 "Record and study of past events."@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85061212"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D006664"^^xsd:anyURI
     
     SubClassOf: 
@@ -59921,6 +60453,7 @@ Class: <http://purl.bioontology.org/ontology/MESH/D008091>
         schema:alternateName "literatures"@en,
         rdfs:label "literature"@en,
         Property:P1149 "PN45",
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D008091"^^xsd:anyURI,
         
             Annotations: schema:alternateName "literary works"@en
         oboInOwl:hasRelatedSynonym "literary work"@en
@@ -60187,7 +60720,13 @@ Class: <http://purl.bioontology.org/ontology/MESH/D012067>
 
     Annotations: 
         rdfs:label "religion"@en,
-        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012067"^^xsd:anyURI
+        Property:P1149 "BL48-BL50",
+        Property:P1149 "GN470-GN474",
+        schema:alternateName "religions"@en,
+        obo:IAO_0000115 "A set of beliefs concerning the nature, cause, and purpose of the universe, especially when considered as the creation of a superhuman agency. It usually involves devotional and ritual observances and often a moral code for the conduct of human affairs."@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85112549"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012067"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17085"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/002368>
@@ -60739,8 +61278,20 @@ Class: <http://purl.bioontology.org/ontology/MESH/D019991>
 
     Annotations: 
         schema:alternateName "databases"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Databases"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Database"^^xsd:anyURI,
         obo:IAO_0000115 "Work consisting of a structured file of information or a set of logically related data stored and retrieved using computer-based means."@en,
-        rdfs:label "database"@en
+        Property:P1149 "QA76.9.D32",
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q8513"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15426"^^xsd:anyURI,
+        Property:P1813 "DB"@en,
+        Property:P1149 "ZA4450-ZA4460",
+        rdfs:label "database"@en,
+        
+            Annotations: schema:alternateName "data bases"@en
+        oboInOwl:hasExactSynonym "data base"@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D019991"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh86007767"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/MESH/D052180>,
@@ -62621,8 +63172,8 @@ Class: <http://purl.bioontology.org/ontology/NCBITAXON/9526>
         oboInOwl:hasSynonym "Old World anthropoid"@en,
         Property:P685 "http://purl.bioontology.org/ontology/NCBITAXON/9526"^^xsd:anyURI,
         schema:alternateName "catarrhines"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Catarrhini"^^xsd:anyURI,
         obo:IAO_0000115 "The sister group to the New World monkeys, the Platyrrhini. The Platyrrhini emerged within \"monkeys\" by migration to South America from Afro-Arabia (the Old World), likely by ocean. With respect to the ones that stayed behind, Geoffroy in 1812 grouped the apes (hominoidea) and the Cercopithecoidea together and established the name Catarrhini, \"Old World monkeys\", or \"singes de l'Ancien continent\"."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Catarrhini"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D051079"^^xsd:anyURI,
         oboInOwl:hasSynonym "Catarrhini"@en,
         rdfs:label "catarrhine"@en
@@ -62886,6 +63437,7 @@ Class: <http://purl.org/sig/ont/fma/fma0329058>
         Property:P1402 "http://purl.org/sig/ont/fma/fma0329058"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q61650489"^^xsd:anyURI,
         schema:alternateName "sets of anatomical clusters"@en,
+        obo:IAO_0000115 "A group of individual anatomical clusters."@en,
         rdfs:label "set of anatomical clusters"@en
     
     SubClassOf: 
@@ -62919,6 +63471,8 @@ Class: <http://purl.org/sig/ont/fma/fma12237>
 
     Annotations: 
         schema:alternateName "organ cavities"@en,
+        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0002558"^^xsd:anyURI,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma12237"^^xsd:anyURI,
         rdfs:label "organ cavity"@en,
         obo:IAO_0000115 "Anatomical cavity, which is surrounded by all morphological parts of an organ; is continuous within the organ; contains one or more body substances."@en
     
@@ -63085,6 +63639,7 @@ Class: <http://purl.org/sig/ont/fma/fma17745>
         oboInOwl:hasSynonym "uterine cavity"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Uterine_cavity"^^xsd:anyURI,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma17745"^^xsd:anyURI,
         rdfs:label "cavity of uterus"@en
     
     SubClassOf: 
@@ -63108,7 +63663,10 @@ Class: <http://purl.org/sig/ont/fma/fma17759>
 
     Annotations: 
         rdfs:label "surface of uterus"@en,
-        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>,
+        obo:IAO_0000115 "The internal and external surfaces of the uterus."@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma17759"^^xsd:anyURI,
+        oboInOwl:hasSynonym "uterine surface"@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma24208>
@@ -63117,8 +63675,11 @@ Class: <http://purl.org/sig/ont/fma/fma17759>
 Class: <http://purl.org/sig/ont/fma/fma17769>
 
     Annotations: 
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>,
         oboInOwl:hasSynonym "vesicle surface of uterus"@en,
         rdfs:label "anterior surface of uterus"@en,
+        obo:IAO_0000115 "The anatomical surface which makes up the anterior part of the uterus."@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma17769"^^xsd:anyURI,
         Property:P1323 "A09.1.03.007"
     
     SubClassOf: 
@@ -63130,7 +63691,10 @@ Class: <http://purl.org/sig/ont/fma/fma17770>
     Annotations: 
         oboInOwl:hasSynonym "intestinal surface of uterus"@en,
         Property:P1323 "A09.1.03.006",
-        rdfs:label "posterior surface of uterus"@en
+        Property:P1402 "http://purl.org/sig/ont/fma/fma17770"^^xsd:anyURI,
+        obo:IAO_0000115 "The anatomical surface which makes up the posterior part of the uterus."@en,
+        rdfs:label "posterior surface of uterus"@en,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma37342>
@@ -63299,6 +63863,7 @@ Class: <http://purl.org/sig/ont/fma/fma18591>
         rdfs:label "surface of ovary"@en,
         oboInOwl:hasSynonym "ovary surface"@en,
         oboInOwl:hasSynonym "ovarian surface"@en,
+        obo:IAO_0000115 "The internal and external surfaces of the ovary."@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>
     
     SubClassOf: 
@@ -63486,6 +64051,7 @@ Class: <http://purl.org/sig/ont/fma/fma19898>
         obo:IAO_0000115 "Breast which has as its parts fibroglandular mass."@en,
         rdfs:label "female breast"@en,
         rdfs:comment "Note that the breast itself does not have gender, rather it is considered feminized due to the action of particular hormones."@en,
+        schema:alternateName <http://purl.org/sig/ont/fma/fma268898>,
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000478>
     
     SubClassOf: 
@@ -63499,6 +64065,7 @@ Class: <http://purl.org/sig/ont/fma/fma19901>
         rdfs:label "male breast"@en,
         obo:IAO_0000115 "Breast which has as its parts simple lactiferous duct."@en,
         rdfs:comment "Note that the breast itself does not have gender, rather it is considered virilized due to the action of particular hormones."@en,
+        schema:alternateName <http://purl.org/sig/ont/fma/fma268896>,
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000479>
     
     SubClassOf: 
@@ -63523,11 +64090,14 @@ Class: <http://purl.org/sig/ont/fma/fma19970>
 
     Annotations: 
         rdfs:label "vestibule of vagina"@en,
+        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0008330"^^xsd:anyURI,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000996>,
         schema:alternateName "vestibules of vagina"@en,
+        obo:IAO_0000115 "The space posterior to the glans clitoridis, between the labia minora; located within the vestibule are the openings of the vagina, the urethra, and the ducts of the lesser vestibular glands, the greater vestibular (Bartholin's) glands, and the paraurethral (Skene's) glands, which release mucus into the vestibule to maintain a moist, lubricated vestibular environment; the vestibule is also moistened by secretions from the cervical mucus glands located in the inferior region of the uterus."@en,
         Property:P1813 "vestibule"@en,
         Property:P1323 "A09.2.01.012",
-        oboInOwl:hasSynonym "vaginal vestibule"@en
+        oboInOwl:hasSynonym "vaginal vestibule"@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma19970"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma20192>
@@ -63677,7 +64247,8 @@ Class: <http://purl.org/sig/ont/fma/fma20192>
     Annotations: 
         schema:alternateName "vestibules"@en,
         rdfs:label "vestibule"@en,
-        obo:IAO_0000115 "Anatomical cavity that connects an organ cavity, organ cavity subdivision or cavity of body part subdivision to the exterior, completely or partially surrounded by organs or organ parts that are lined by epithelium."@en
+        obo:IAO_0000115 "Anatomical cavity that connects an organ cavity, organ cavity subdivision or cavity of body part subdivision to the exterior, completely or partially surrounded by organs or organ parts that are lined by epithelium."@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma20192"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma67552>
@@ -63907,9 +64478,13 @@ Class: <http://purl.org/sig/ont/fma/fma24201>
 Class: <http://purl.org/sig/ont/fma/fma24208>
 
     Annotations: 
+        Property:P1402 "http://purl.org/sig/ont/fma/fma24208"^^xsd:anyURI,
         obo:IAO_0000115 "Anatomical surface, which is the internal or external surface of an organ."@en,
         rdfs:label "surface of organ"@en,
         terms:hasPart <http://purl.org/sig/ont/fma/fma24210>,
+        
+            Annotations: schema:alternateName "organ surfaces"@en
+        oboInOwl:hasSynonym "organ surface"@en,
         schema:alternateName "surfaces of organ"@en
     
     SubClassOf: 
@@ -63921,6 +64496,7 @@ Class: <http://purl.org/sig/ont/fma/fma24210>
     Annotations: 
         terms:isPartOf <http://purl.org/sig/ont/fma/fma24208>,
         rdfs:label "region of surface of organ"@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma24210"^^xsd:anyURI,
         obo:IAO_0000115 "Anatomical surface, which is the subdivision of the surface of an organ."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q51880677"^^xsd:anyURI,
         schema:alternateName "regions of surface of organ"@en
@@ -63955,7 +64531,8 @@ Class: <http://purl.org/sig/ont/fma/fma242980>
         rdfs:label "bona fide anatomical surface"@en,
         Property:P5191 <http://purl.org/sig/ont/fma/fma24137>,
         schema:alternateName "bona fide anatomical surfaces"@en,
-        obo:IAO_0000115 "Anatomical surface which marks a physical discontinuity between two or more anatomical structures or is an interface between an anatomical space and one more anatomical structures."@en
+        obo:IAO_0000115 "Anatomical surface which marks a physical discontinuity between two or more anatomical structures or is an interface between an anatomical space and one more anatomical structures."@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma242980"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma24137>
@@ -63965,8 +64542,9 @@ Class: <http://purl.org/sig/ont/fma/fma242999>
 
     Annotations: 
         schema:alternateName "bona fide anatomical lines"@en,
+        obo:IAO_0000115 "Anatomical line which corresponds to the intersection of two bona fide anatomical surfaces."@en,
         rdfs:label "bona fide anatomical line"@en,
-        obo:IAO_0000115 "Anatomical line which corresponds to the intersection of two bona fide anatomical surfaces."@en
+        Property:P1402 "http://purl.org/sig/ont/fma/fma242999"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma9657>
@@ -64019,7 +64597,7 @@ Class: <http://purl.org/sig/ont/fma/fma25054>
 Class: <http://purl.org/sig/ont/fma/fma25245>
 
     Annotations: 
-        schema:alternateName "buttocks"@en,
+        schema:alternateName <http://purl.org/sig/ont/fma/fma76446>,
         rdfs:label "buttock"@en
     
     SubClassOf: 
@@ -64056,7 +64634,9 @@ Class: <http://purl.org/sig/ont/fma/fma268893>
 
     Annotations: 
         oboInOwl:hasRelatedSynonym "pair of breasts"@en,
+        terms:hasPart <http://purl.org/sig/ont/fma/fma9601>,
         Property:P1402 "http://purl.org/sig/ont/fma/fma268893"^^xsd:anyURI,
+        Property:P1813 "breasts"@en,
         rdfs:label "set of breasts"@en
     
     SubClassOf: 
@@ -64066,8 +64646,12 @@ Class: <http://purl.org/sig/ont/fma/fma268893>
 Class: <http://purl.org/sig/ont/fma/fma268896>
 
     Annotations: 
+        schema:alternateName "sets of male breasts"@en,
+        terms:hasPart <http://purl.org/sig/ont/fma/fma19901>,
+        obo:IAO_0000115 "Breasts part of the body of a person who has a masculine gender identity or who has otherwise not experienced breast development due to a lack of feminizing hormones."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma268896"^^xsd:anyURI,
-        rdfs:label "set of male breasts"@en
+        rdfs:label "set of male breasts"@en,
+        Property:P1813 "male breasts"@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma268893>
@@ -64076,8 +64660,12 @@ Class: <http://purl.org/sig/ont/fma/fma268896>
 Class: <http://purl.org/sig/ont/fma/fma268898>
 
     Annotations: 
+        obo:IAO_0000115 "Breasts part of the body of a person who has a feminine gender identity or who has otherwise experienced breast development due to the presence of feminizing hormones."@en,
+        terms:hasPart <http://purl.org/sig/ont/fma/fma19898>,
         rdfs:label "set of female breasts"@en,
-        Property:P1402 "http://purl.org/sig/ont/fma/fma268898"^^xsd:anyURI
+        Property:P1402 "http://purl.org/sig/ont/fma/fma268898"^^xsd:anyURI,
+        Property:P1813 "female breasts"@en,
+        schema:alternateName "sets of female breasts"@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma268893>
@@ -64089,6 +64677,7 @@ Class: <http://purl.org/sig/ont/fma/fma277722>
         schema:alternateName "sets of rugae"@en,
         rdfs:label "set of rugae"@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma277722"^^xsd:anyURI,
+        obo:IAO_0000115 "A grouping of rugae, ridges produced by the folding of the wall of an organ."@en,
         Property:P1813 "rugae"@en
     
     SubClassOf: 
@@ -64098,7 +64687,9 @@ Class: <http://purl.org/sig/ont/fma/fma277722>
 Class: <http://purl.org/sig/ont/fma/fma28606>
 
     Annotations: 
+        obo:IAO_0000115 "The cavity in the space of the prepuce, the area where the clitoral hood and foreskin originate."@en,
         schema:alternateName "preputial cavities"@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma28606"^^xsd:anyURI,
         rdfs:label "preputial cavity"@en
     
     SubClassOf: 
@@ -64108,7 +64699,9 @@ Class: <http://purl.org/sig/ont/fma/fma28606>
 Class: <http://purl.org/sig/ont/fma/fma29746>
 
     Annotations: 
+        obo:IAO_0000115 "The orifice existing between the rectum and the anus."@en,
         schema:alternateName "anorectal orifices"@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma29746"^^xsd:anyURI,
         rdfs:label "anorectal orifice"@en
     
     SubClassOf: 
@@ -64152,7 +64745,8 @@ Class: <http://purl.org/sig/ont/fma/fma304716>
     Annotations: 
         schema:alternateName "sets of hair of labial part of mouth"@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma304716"^^xsd:anyURI,
-        rdfs:label "set of hair of labial part of mouth"@en
+        rdfs:label "set of hair of labial part of mouth"@en,
+        obo:IAO_0000115 "Individual hairs on the labial part of the mouth taken together as a set."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma70741>
@@ -64203,7 +64797,10 @@ Class: <http://purl.org/sig/ont/fma/fma322142>
     Annotations: 
         rdfs:label "border of ovary"@en,
         oboInOwl:hasSynonym "ovarian border"@en,
-        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>
+        obo:IAO_0000115 "Any and all borders of the ovary, in particular the mesovarian (or anterior) border and the free (or posterior) border."@en,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/279908007"^^xsd:anyURI,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma322142"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma9657>
@@ -64251,6 +64848,8 @@ Class: <http://purl.org/sig/ont/fma/fma3724>
 
     Annotations: 
         Property:P1813 "orifice"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/91837002"^^xsd:anyURI,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma3724"^^xsd:anyURI,
         schema:alternateName "anatomical orifices"@en,
         Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0000161"^^xsd:anyURI,
         rdfs:label "anatomical orifice"@en,
@@ -64264,8 +64863,11 @@ Class: <http://purl.org/sig/ont/fma/fma3724>
 Class: <http://purl.org/sig/ont/fma/fma37342>
 
     Annotations: 
+        obo:IAO_0000115 "An anatomical surface which is a subdivision of the surface of the uterus."@en,
         schema:alternateName "regions of surface of uterus"@en,
-        rdfs:label "region of surface of uterus"@en
+        Property:P1402 "http://purl.org/sig/ont/fma/fma37342"^^xsd:anyURI,
+        rdfs:label "region of surface of uterus"@en,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma24210>
@@ -64314,7 +64916,8 @@ Class: <http://purl.org/sig/ont/fma/fma45640>
         oboInOwl:hasSynonym "genital system subdivision"@en,
         schema:alternateName "subdivisions of genital system"@en,
         terms:isPartOf <http://purl.obolibrary.org/obo/UBERON_3011048>,
-        terms:replaces <http://purl.bioontology.org/ontology/GSSO/001589>
+        terms:replaces <http://purl.bioontology.org/ontology/GSSO/001589>,
+        obo:IAO_0000115 "A part of the system of genitalia."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma78590>
@@ -64324,7 +64927,9 @@ Class: <http://purl.org/sig/ont/fma/fma45642>
 
     Annotations: 
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61599"^^xsd:anyURI,
+        obo:IAO_0000115 "An external genital phenotype related in some form or fashion to the product and/or maintenance of male gametes or other processes involving male metes."@en,
         oboInOwl:hasExactSynonym "external genitalia, male"@en,
+        rdfs:comment "Note that \"male\" simply describes the gamete of the genital system, not the gender of the human to which the genital system belongs."@en,
         oboInOwl:hasNarrowSynonym "male external genitalia, NOS"@en,
         oboInOwl:hasExactSynonym "external male genitalia"@en,
         Property:P1813 "male genitalia"@en,
@@ -64349,6 +64954,7 @@ Class: <http://purl.org/sig/ont/fma/fma45643>
             Annotations: schema:alternateName "external sex organs"@en
         terms:replaces "external sex organ"@en,
         rdfs:label "external genitalia"@en,
+        obo:IAO_0000115 "The outer organs related to sexual activity and/or reproductive processes."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma45643"^^xsd:anyURI
     
     SubClassOf: 
@@ -64365,7 +64971,9 @@ Class: <http://purl.org/sig/ont/fma/fma45649>
         Property:P1813 "female genitalia"@en,
         rdfs:label "female external genitalia"@en,
         oboInOwl:hasExactSynonym "external female genitalia"@en,
-        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61600"^^xsd:anyURI
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61600"^^xsd:anyURI,
+        rdfs:comment "Note that \"female\" simply describes the gamete of the genital system, not the gender of the human to which the genital system belongs."@en,
+        obo:IAO_0000115 "An external genital phenotype related in some form or fashion to the product and/or maintenance of female gametes or other processes involving female gametes."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma45643>
@@ -64377,6 +64985,7 @@ Class: <http://purl.org/sig/ont/fma/fma45652>
         
             Annotations: schema:alternateName "internal sex organs"@en
         terms:replaces "internal sex organ"@en,
+        obo:IAO_0000115 "The inner organs related to sexual activity and/or reproductive processes."@en,
         Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0004175"^^xsd:anyURI,
         rdfs:label "internal genitalia"@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma45652"^^xsd:anyURI,
@@ -64395,7 +65004,9 @@ Class: <http://purl.org/sig/ont/fma/fma45654>
         Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0003975"^^xsd:anyURI,
         oboInOwl:hasNarrowSynonym "female internal genitalia, NOS"@en,
         oboInOwl:hasExactSynonym "internal female genitalia"@en,
+        obo:IAO_0000115 "An internal genital phenotype related in some form or fashion to the product and/or maintenance of female gametes or other processes involving female gametes."@en,
         Property:P1323 "A09.1.00.001",
+        rdfs:comment "Note that \"female\" simply describes the gamete of the genital system, not the gender of the human to which the genital system belongs."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma45654"^^xsd:anyURI,
         rdfs:label "female internal genitalia"@en
     
@@ -64410,7 +65021,9 @@ Class: <http://purl.org/sig/ont/fma/fma45655>
         oboInOwl:hasExactSynonym "internal male genitalia"@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma45655"^^xsd:anyURI,
         rdfs:label "male internal genitalia"@en,
-        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0004054"^^xsd:anyURI
+        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0004054"^^xsd:anyURI,
+        obo:IAO_0000115 "An internal genital phenotype related in some form or fashion to the product and/or maintenance of male gametes or other processes involving male gametes."@en,
+        rdfs:comment "Note that \"male\" simply describes the gamete of the genital system, not the gender of the human to which the genital system belongs."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma45652>
@@ -64856,9 +65469,11 @@ Class: <http://purl.org/sig/ont/fma/fma66289>
 Class: <http://purl.org/sig/ont/fma/fma66290>
 
     Annotations: 
+        obo:IAO_0000115 "A boundary entity of the ovary, each instance of which has one spatial dimension."@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
         schema:alternateName "anatomical lines of ovary"@en,
-        rdfs:label "anatomical line of ovary"@en
+        rdfs:label "anatomical line of ovary"@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma66290"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma242999>
@@ -64895,8 +65510,8 @@ Class: <http://purl.org/sig/ont/fma/fma67135>
 Class: <http://purl.org/sig/ont/fma/fma67165>
 
     Annotations: 
-        obo:IAO_0000115 "Anatomical entity that has mass."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27043948"^^xsd:anyURI,
+        obo:IAO_0000115 "Anatomical entity that has mass."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma67165"^^xsd:anyURI,
         rdfs:label "material anatomical entity"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/698967008"^^xsd:anyURI,
@@ -64981,6 +65596,7 @@ Class: <http://purl.org/sig/ont/fma/fma70593>
 Class: <http://purl.org/sig/ont/fma/fma70741>
 
     Annotations: 
+        obo:IAO_0000115 "Individual hairs on the face taken together as a set."@en,
         rdfs:label "set of facial hairs"@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma70741"^^xsd:anyURI,
         Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0010165"^^xsd:anyURI,
@@ -64997,6 +65613,7 @@ Class: <http://purl.org/sig/ont/fma/fma70752>
         
             Annotations: Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/425441005"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "group of hairs"@en,
+        obo:IAO_0000115 "Individual hairs taken together as a set."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma70752"^^xsd:anyURI,
         terms:hasPart <http://purl.org/sig/ont/fma/fma53667>,
         Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0010164"^^xsd:anyURI,
@@ -65052,7 +65669,9 @@ Class: <http://purl.org/sig/ont/fma/fma75125>
 
     Annotations: 
         rdfs:label "free border of ovary"@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma75125"^^xsd:anyURI,
         Property:P1323 "A09.1.01.005",
+        obo:IAO_0000115 "The posterior border of the ovary."@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>
     
     SubClassOf: 
@@ -65063,8 +65682,10 @@ Class: <http://purl.org/sig/ont/fma/fma75126>
 
     Annotations: 
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma75126"^^xsd:anyURI,
         Property:P1323 "A09.1.01.006",
-        rdfs:label "mesovarian border of ovary"@en
+        rdfs:label "mesovarian border of ovary"@en,
+        obo:IAO_0000115 "The anterior border of the ovary."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma66290>
@@ -65073,9 +65694,12 @@ Class: <http://purl.org/sig/ont/fma/fma75126>
 Class: <http://purl.org/sig/ont/fma/fma75127>
 
     Annotations: 
-        terms:isPartOf <http://purl.obolibrary.org/obo/UBERON_0000995>,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>,
+        schema:alternateName "borders of uterus"@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma75127"^^xsd:anyURI,
         Property:P1323 "A09.1.03.005",
         oboInOwl:hasSynonym "uterine border"@en,
+        obo:IAO_0000115 "The portions of the uterus to which the broad ligament is attached."@en,
         rdfs:label "border of uterus"@en
     
     SubClassOf: 
@@ -65087,7 +65711,8 @@ Class: <http://purl.org/sig/ont/fma/fma75650>
     Annotations: 
         Property:P1402 "http://purl.org/sig/ont/fma/fma75650"^^xsd:anyURI,
         schema:alternateName "sets of anatomical folds"@en,
-        rdfs:label "set of anatomical folds"@en
+        rdfs:label "set of anatomical folds"@en,
+        obo:IAO_0000115 "A grouping of anatomical folds."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma78562>
@@ -65097,10 +65722,12 @@ Class: <http://purl.org/sig/ont/fma/fma76446>
 
     Annotations: 
         Property:P1402 "http://purl.org/sig/ont/fma/fma76446"^^xsd:anyURI,
+        terms:hasPart <http://purl.org/sig/ont/fma/fma25245>,
         oboInOwl:hasSynonym "buttocks"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q42165"^^xsd:anyURI,
         rdfs:label "set of buttocks"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Buttocks"^^xsd:anyURI,
+        obo:IAO_0000115 "The buttocks (singular: buttock) are two rounded portions of the anatomy, located on the posterior of the pelvic region of primates (including humans), and many other bipeds or quadrupeds, and comprise a layer of fat superimposed on the gluteus maximus and gluteus medius muscles."@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         dc:identifier "http://homosaurus.org/v2/buttocks"^^xsd:anyURI
@@ -65115,7 +65742,8 @@ Class: <http://purl.org/sig/ont/fma/fma76509>
         rdfs:label "set of hymenal caruncles"@en,
         terms:hasPart <http://purl.org/sig/ont/fma/fma78586>,
         Property:P1402 "http://purl.org/sig/ont/fma/fma76509"^^xsd:anyURI,
-        schema:alternateName "sets of hymenal caruncles"@en
+        schema:alternateName "sets of hymenal caruncles"@en,
+        obo:IAO_0000115 "A group of hymenal caruncles, considered together."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma78561>
@@ -65130,7 +65758,9 @@ Class: <http://purl.org/sig/ont/fma/fma76510>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Vaginal_rugae"^^xsd:anyURI,
         schema:alternateName "sets of vaginal rugae"@en,
         oboInOwl:hasNarrowSynonym "vaginal rugae, NOS"@en,
-        Property:P1402 "http://purl.org/sig/ont/fma/fma76510"^^xsd:anyURI
+        Property:P1402 "http://purl.org/sig/ont/fma/fma76510"^^xsd:anyURI,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000996>,
+        obo:IAO_0000115 "Structures of the vagina that are transverse ridges formed out of the supporting tissues and vaginal epithelium. Some conditions can cause the disappearance of vaginal rugae and are usually associated with childbirth and prolapse of pelvic structures."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma277722>
@@ -65151,7 +65781,10 @@ Class: <http://purl.org/sig/ont/fma/fma77049>
 
     Annotations: 
         Property:P1813 "abdominal ostium"@en,
-        rdfs:label "abdominal ostium of uterine tube"@en
+        rdfs:label "abdominal ostium of uterine tube"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ostium_of_uterine_tube"^^xsd:anyURI,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma77049"^^xsd:anyURI,
+        obo:IAO_0000115 "The opening in the infundibulum of uterine tube into the abdominal cavity. In ovulation, the oocyte enters the Fallopian tube through this opening. It is surrounded by fimbriae, which help in the collection of the oocyte. Occlusion of this opening is referred to as distal tubal occlusion."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma3724>
@@ -65225,7 +65858,9 @@ Class: <http://purl.org/sig/ont/fma/fma77296>
 Class: <http://purl.org/sig/ont/fma/fma78541>
 
     Annotations: 
+        obo:IAO_0000115 "A group of individual subdivisions of a cardinal body part."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma78541"^^xsd:anyURI,
+        schema:alternateName "sets of subdivisions of cardinal body parts"@en,
         rdfs:label "set of subdivisions of cardinal body part"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q41890459"^^xsd:anyURI
     
@@ -65238,6 +65873,7 @@ Class: <http://purl.org/sig/ont/fma/fma78561>
     Annotations: 
         Property:P1402 "http://purl.org/sig/ont/fma/fma78561"^^xsd:anyURI,
         schema:alternateName "sets of organ components"@en,
+        obo:IAO_0000115 "A grouping of components of an organ."@en,
         rdfs:label "set of organ components"@en
     
     SubClassOf: 
@@ -65247,6 +65883,7 @@ Class: <http://purl.org/sig/ont/fma/fma78561>
 Class: <http://purl.org/sig/ont/fma/fma78562>
 
     Annotations: 
+        obo:IAO_0000115 "A grouping of regions of an organ."@en,
         schema:alternateName "sets of organ regions"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27058128"^^xsd:anyURI,
         Property:P1402 "http://purl.org/sig/ont/fma/fma78562"^^xsd:anyURI,
@@ -65448,10 +66085,10 @@ Class: <http://purl.org/sig/ont/fma/fma9601>
                          schema:bookEdition 20
         Property:P1036 611.49,
         rdfs:label "breast"@en,
-        schema:alternateName "breasts"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        dc:identifier "http://homosaurus.org/v2/breasts"^^xsd:anyURI
+        dc:identifier "http://homosaurus.org/v2/breasts"^^xsd:anyURI,
+        schema:alternateName <http://purl.org/sig/ont/fma/fma268893>
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma61478>
@@ -65607,7 +66244,8 @@ Class: <http://semanticscience.org/resource/SIO_000015>
             Annotations: schema:alternateName "content entities"@en
         Property:P1813 "content entity"@en,
         rdfs:label "information content entity"@en,
-        obo:IAO_0000115 "A generically dependent continuant that is about some thing."@en
+        obo:IAO_0000115 "A generically dependent continuant that is about some thing."@en,
+        Property:P5191 <http://purl.obolibrary.org/obo/BFO_0000001>
     
     SubClassOf: 
         obo:BFO_0000030
@@ -68060,7 +68698,8 @@ Class: obo:BFO_0000024
     Annotations: 
         rdfs:label "fiat object part"@en,
         obo:IAO_0000115 "A material entity that is part of an object but is not demarcated by any physical discontinuities."@en,
-        schema:alternateName "fiat object parts"@en
+        schema:alternateName "fiat object parts"@en,
+        Property:P5191 <http://purl.obolibrary.org/obo/BFO_0000030>
     
     SubClassOf: 
         obo:BFO_0000040
@@ -68251,6 +68890,7 @@ Class: obo:CHEBI_23965
 Class: obo:CHEBI_24431
 
     Annotations: 
+        Property:P5191 <http://purl.obolibrary.org/obo/BFO_0000001>,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q43460564"^^xsd:anyURI,
         obo:IAO_0000115 "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances."@en,
         rdfs:label "chemical entity"@en,
@@ -69414,8 +70054,8 @@ Class: obo:DOID_1962
         schema:alternateName "fallopian tube diseases"@en,
         rdfs:label "fallopian tube disease"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q18554947"^^xsd:anyURI,
-        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0003889>,
-        Property:P699 "http://purl.obolibrary.org/obo/DOID_1962"^^xsd:anyURI
+        Property:P699 "http://purl.obolibrary.org/obo/DOID_1962"^^xsd:anyURI,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0003889>
     
     SubClassOf: 
         obo:DOID_229
@@ -71029,6 +71669,22 @@ Class: obo:GAZ_00002719
         obo:GAZ_00000464
     
     
+Class: obo:GAZ_00002721
+
+    Annotations: 
+        obo:IAO_0000115 "A transcontinental country extending over much of northern Eurasia. Russia shares land borders with the following countries (counter-clockwise from northwest to southeast): Norway, Finland, Estonia, Latvia, Lithuania (Kaliningrad Oblast), Poland (Kaliningrad Oblast), Belarus, Ukraine, Georgia, Azerbaijan, Kazakhstan, China, Mongolia and North Korea. The Russian Federation comprises 83 federal subjectsm 46 oblasts(provinces), 21 republics, 9 krais (territories), 4 autonomous okrugs (autonomous districts), one autonomous oblast, and two federal cities. The federal subjects are grouped into seven federal districts. These subjects are divided into districts (raions), cities/towns and urban-type settlements, and, at level 4, selsovets (rural councils), towns and urban-type settlements under the jurisdiction of the district and city districts."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q159"^^xsd:anyURI,
+        rdfs:label "Russia"@en,
+        
+            Annotations: schema:alternateName "Russians"@en
+        Property:P1549 "Russian"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Russia"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Russia"^^xsd:anyURI
+    
+    SubClassOf: 
+        obo:GAZ_00000460
+    
+    
 Class: obo:GAZ_00002729
 
     Annotations: 
@@ -71061,6 +71717,26 @@ Class: obo:GAZ_00002747
     
     SubClassOf: 
         obo:GAZ_00002471
+    
+    
+Class: obo:GAZ_00002784
+
+    Annotations: 
+        schema:alternateName "Australian territories"@en,
+        
+            Annotations: schema:alternateName "territories of Australia"@en
+        oboInOwl:hasSynonym "territory of Australia"@en,
+        obo:IAO_0000115 "Subdivisions of the country of Australia whose existence and governmental structure (if any) depend on federal legislation. The territories are distinguished for federal administrative purposes between internal territories, i.e. those within the Australian mainland, and external territories, although the differences among all the territories relate to population rather than location."@en,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:States_and_territories_of_Australia"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/States_and_territories_of_Australia"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q178712"^^xsd:anyURI, 
+                         schema:alternateName "state or territory of Australia"@en
+        oboInOwl:hasBroadSynonym "states and territories of Australia"@en,
+        rdfs:label "Australian territory"@en
+    
+    SubClassOf: 
+        obo:GAZ_00000463
     
     
 Class: obo:GAZ_00002800
@@ -71576,12 +72252,12 @@ Class: obo:GAZ_00002956
 
     Annotations: 
         schema:dateCreated "1993-01-01T00:00:00"^^xsd:dateTime,
-        rdfs:label "Slovakia"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17669"^^xsd:anyURI,
-        oboInOwl:hasSynonym "Slovak Republic"@en,
+        rdfs:label "Slovakia"@en,
         
             Annotations: schema:alternateName "Slovaks"@en
         Property:P1549 "Slovak"@en,
+        oboInOwl:hasSynonym "Slovak Republic"@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/223641000"^^xsd:anyURI,
         obo:IAO_0000115 "Created 1 January 1993 as a result of the division of Czechoslovakia into the Czech Republic and Slovakia."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q214"^^xsd:anyURI,
@@ -71941,6 +72617,20 @@ Class: obo:GAZ_00005863
         obo:GAZ_00000468
     
     
+Class: obo:GAZ_00005917
+
+    Annotations: 
+        obo:IAO_0000115 "A territory of Australia which includes a group of small and mostly uninhabited tropical islands and reefs in the Coral Sea, northeast of Queensland, Australia. The only inhabited island is Willis Island. The territory covers 780,000 km2, extending east and south from the outer edge of the Great Barrier Reef, and including Heralds Beacon Island, Osprey Reef, the Willis Group, and fifteen other reef/island groups."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q172216"^^xsd:anyURI,
+        Property:P1813 "Coral Sea Islands"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Coral_Sea_Islands"^^xsd:anyURI,
+        rdfs:label "Coral Sea Islands Territory"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Coral_Sea_Islands"^^xsd:anyURI
+    
+    SubClassOf: 
+        obo:GAZ_00002784
+    
+    
 Class: obo:GAZ_00006886
 
     Annotations: 
@@ -72018,6 +72708,36 @@ Class: obo:GAZ_00006899
         obo:GAZ_00000559
     
     
+Class: obo:GAZ_00008330
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Southern_Federal_District"^^xsd:anyURI,
+        rdfs:label "Southern Federal District"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Southern_Federal_District"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q483599"^^xsd:anyURI
+    
+    SubClassOf: 
+        obo:GAZ_00002721
+    
+    
+Class: obo:GAZ_00009088
+
+    Annotations: 
+        oboInOwl:hasSynonym "Chechnya"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Chechnya"^^xsd:anyURI,
+        rdfs:label "Chechen Republic"@en,
+        obo:IAO_0000115 "A Federal Subject of Russia located in the North Caucasus, and within 100 kilometres (62 miles) of the Caspian Sea. The capital of the republic is the city of Grozny."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Chechnya"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5187"^^xsd:anyURI,
+        oboInOwl:hasSynonym "Chechnya Republic"@en,
+        
+            Annotations: schema:alternateName "Chechnyans"@en
+        Property:P1549 "Chechnyan"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004979>
+    
+    
 Class: obo:GAZ_00281547
 
     Annotations: 
@@ -72069,10 +72789,10 @@ Class: obo:GO_0001197
 
     Annotations: 
         oboInOwl:hasExactSynonym "up-regulation of transcription from an RNA polymerase II promoter, mating-type specific"@en,
-        rdfs:label "positive regulation of mating-type specific transcription from RNA polymerase II promoter"@en,
         oboInOwl:hasExactSynonym "up regulation of transcription from an RNA polymerase II promoter, mating-type specific"@en,
-        oboInOwl:hasExactSynonym "upregulation of transcription from an RNA polymerase II promoter, mating-type specific"@en,
+        rdfs:label "positive regulation of mating-type specific transcription from RNA polymerase II promoter"@en,
         Property:P686 "http://purl.obolibrary.org/obo/GO_0001197"^^xsd:anyURI,
+        oboInOwl:hasExactSynonym "upregulation of transcription from an RNA polymerase II promoter, mating-type specific"@en,
         obo:IAO_0000115 "A positive regulation of transcription from RNA polymerase II promoter that results in positive regulation of mating type switching."@en,
         oboInOwl:hasNarrowSynonym "activation of transcription from an RNA polymerase II promoter, mating-type specific"@en,
         oboInOwl:hasNarrowSynonym "stimulation of transcription from an RNA polymerase II promoter, mating-type specific"@en
@@ -74691,6 +75411,7 @@ Class: obo:UBERON_0002330
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q28539636"^^xsd:anyURI,
         rdfs:label "exocrine system"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12957"^^xsd:anyURI,
+        obo:IAO_0000115 "A system of glands that secrete fluids delivered via ducts and tubes directly to organs including the skin."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma85539"^^xsd:anyURI,
         schema:alternateName "exocrine systems"@en,
         Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0002330"^^xsd:anyURI
@@ -75157,7 +75878,9 @@ Class: obo:UBERON_0013672
 Class: obo:UBERON_0013758
 
     Annotations: 
+        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0013758"^^xsd:anyURI,
         obo:IAO_0000115 "One of two openings in the uterine cervix."@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma20422"^^xsd:anyURI,
         rdfs:label "cervical os"@en
     
     SubClassOf: 
@@ -75167,10 +75890,12 @@ Class: obo:UBERON_0013758
 Class: obo:UBERON_0013759
 
     Annotations: 
+        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0013759"^^xsd:anyURI,
         
             Annotations: Property:P1323 "A09.1.03.013"
         oboInOwl:hasRelatedSynonym "histological internal os of cervix"@en,
         obo:IAO_0000115 "Opening of uterine cervix into the body of the uterus."@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma17747"^^xsd:anyURI,
         rdfs:label "internal cervical os"@en,
         
             Annotations: Property:P1323 "A09.1.03.009"
@@ -75184,6 +75909,8 @@ Class: obo:UBERON_0013760
 
     Annotations: 
         rdfs:label "external cervical os"@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma76836"^^xsd:anyURI,
+        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0013760"^^xsd:anyURI,
         obo:IAO_0000115 "Opening of uterine cervix into the vagina."@en
     
     SubClassOf: 
@@ -75573,13 +76300,13 @@ Individual: <http://bioportal.bioontology.org/ontology/GSSO/004955>
 Individual: <http://bioportal.bioontology.org/ontology/GSSO/004965>
 
     Annotations: 
-        obo:IAO_0000115 "A dominant or butch lesbian."@en,
         schema:alternateName "amy-johns"@en,
+        obo:IAO_0000115 "A dominant or butch lesbian."@en,
         rdfs:label "amy-john"@en,
+        oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/Amy-John#English"^^xsd:anyURI,
         
             Annotations: schema:alternateName "Amy-Johns"@en
         oboInOwl:hasExactSynonym "Amy-John"@en,
-        oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/Amy-John#English"^^xsd:anyURI,
         terms:isReferencedBy <https://books.google.com/books/?id=TYyGAAAAIAAJ>
     
     Types: 
@@ -75590,10 +76317,54 @@ Individual: <http://bioportal.bioontology.org/ontology/GSSO/004966>
 
     Annotations: 
         rdfs:label "ass-bandit"@en,
-        schema:alternateName "ass-bandits"@en,
         
             Annotations: schema:alternateName "arse-bandits"@en
-        oboInOwl:hasRelatedSynonym "arse-bandit"@en
+        oboInOwl:hasRelatedSynonym "arse-bandit"@en,
+        schema:alternateName "ass-bandits"@en
+    
+    
+Individual: <http://bioportal.bioontology.org/ontology/GSSO/004967>
+
+    Annotations: 
+        rdfs:label "Bowling Green Massacre"@en,
+        oboInOwl:hasExactSynonym "Bowling Green massacre"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bowling_Green_massacre"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q28652506"^^xsd:anyURI,
+        obo:IAO_0000115 "A fictitious incident mentioned by U.S. Counselor to the President Kellyanne Conway in interviews with Cosmopolitan and TMZ on January 29, 2017, and in an interview on the MSNBC news program Hardball with Chris Matthews on February 2, 2017. Conway cited it as justification for a travel and immigration ban from seven Muslim-majority countries enacted by United States President Donald Trump. However, no such massacre occurred. The day after the interview, Conway said she misspoke and had been referring to the 2011 arrest of two Iraqi refugees in Bowling Green, Kentucky, on charges including \"attempting to provide material support to terrorists and to al-Qaeda in Iraq\"."@en
+    
+    Types: 
+        <http://purl.bioontology.org/ontology/GSSO/000986>
+    
+    
+Individual: <http://bioportal.bioontology.org/ontology/GSSO/004973>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q39047152"^^xsd:anyURI,
+        rdfs:label "Rainbow Railroad"@en,
+        obo:IAO_0000115 "A Canadian charitable organization that helps lesbian, gay, bisexual, and transgender (LGBT) individuals escape violence and persecution in their home countries. In the past, they have helped individuals from the Caribbean, Africa, and the Middle East relocate to safer countries in Europe and North America. The organization was formed in 2006, with its name and concept inspired by the Underground Railroad that was used by African-American slaves to escape into free states."@en,
+        Property:P856 "http://rainbowrailroad.org/"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Rainbow_Railroad"^^xsd:anyURI
+    
+    Types: 
+        <http://purl.bioontology.org/ontology/GSSO/003503>
+    
+    
+Individual: <http://bioportal.bioontology.org/ontology/GSSO/004978>
+
+    Annotations: 
+        schema:location <http://purl.obolibrary.org/obo/GAZ_00009088>,
+        oboInOwl:hasSynonym "Chechnya's gay purge"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Anti-gay_purges_in_Chechnya"^^xsd:anyURI,
+        rdfs:label "Chechnyan anti-gay purges"@en,
+        oboInOwl:hasDbXref "anti-gay purge in Chechnya"@en,
+        oboInOwl:hasSynonym "Chechnyan anti-gay purge"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q29428404"^^xsd:anyURI,
+        obo:IAO_0000115 "Forced disappearances — secret abductions, imprisonment, torture — and extrajudicial killing by authorities targeting persons based on their perceived sexual orientation. An unknown number of people, who authorities detained on suspicion of being gay or bisexual, have reportedly died after being held in what human rights groups and eyewitnesses have called concentration camps."@en,
+        oboInOwl:hasSynonym "anti-gay purges in Chechnya"@en,
+        oboInOwl:hasRelatedSynonym "Chechnyan anti-LGBT purge"@en
+    
+    Types: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004976>
     
     
 Individual: <http://books.google.com/books/?id=aQtjAAAAMAAJ>
@@ -75635,6 +76406,21 @@ Individual: <http://doi.org/10.1016/j.repbio.2012.09.001>
         schema:volumeNumber 12,
         dc:title "Oviparity or viviparity? This is the question..."@en,
         terms:dateAccepted "2012-04-05T00:00:00"^^xsd:dateTime
+    
+    
+Individual: <http://doi.org/10.1080/00335630209384372>
+
+    Annotations: 
+        schema:pageEnd 244,
+        schema:issueNumber 2,
+        terms:isReferencedBy <https://portal.issn.org/resource/issn/0033-5630>,
+        schema:datePosted "2009-06-05T00:00:00"^^xsd:dateTime,
+        Property:P356 "http://doi.org/10.1080/00335630209384372"^^xsd:anyURI,
+        rdfs:label "Pink Herring & The Fourth Persona: J. Edgar Hoover's Sex Crime Panic"@en,
+        schema:pageStart 228,
+        dc:title "Pink Herring & The Fourth Persona: J. Edgar Hoover's Sex Crime Panic"@en,
+        schema:datePublished "May 2002"@en,
+        schema:volumeNumber 88
     
     
 Individual: <http://dx.doi.org/10.1016/j.neuropsychologia.2017.11.025>
@@ -75895,13 +76681,18 @@ Individual: <http://isni.org/isni/000000012146278X>
 Individual: <http://isni.org/isni/0000000121633745>
 
     Annotations: 
+        obo:IAO_0000115 "A specialized agency of the United Nations designed as a coordinating authority on international health work; its aim is to promote the attainment of the highest possible level of health by all peoples."@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D014944"^^xsd:anyURI,
         Property:P213 "http://isni.org/isni/0000000121633745"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7817"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/World_Health_Organization"^^xsd:anyURI,
         rdfs:label "World Health Organization"@en,
         Property:P214 "https://viaf.org/viaf/135618969"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:World_Health_Organization"^^xsd:anyURI,
-        Property:P1813 "WHO"@en
+        obo:IAO_0000115 "A United Nations agency established to coordinate international health activities and to help governments improve health services."@en,
+        Property:P1813 "WHO"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75419"^^xsd:anyURI,
+        terms:isPartOf <http://www.isni.org/isni/0000000123317789>
     
     
 Individual: <http://isni.org/isni/0000000121667523>
@@ -76760,7 +77551,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000201>
         schema:dateCreated 1997,
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000193>,
         rdfs:comment "Other suggestions for the name of the newsgroup included \"alt.fashion.crossdresser\", \"alt.support.cross-dress\", and \"rec.crossdressing\"."@en,
-        Property:P3938 "Steph Martin"
+        Property:P3938 "Steph Martin",
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/001362>
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/000191>
@@ -76793,7 +77585,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000204>
 
     Annotations: 
         rdfs:label "alt.support.crossdressing"@en,
-        terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000196>
+        terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/000196>,
+        Property:P5191 <http://purl.bioontology.org/ontology/GSSO/001362>
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/000191>
@@ -78010,7 +78803,9 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/000949>
     Annotations: 
         rdfs:label "White Night Riots"@en,
         dc:date "1979-05-21T00:00:00"^^xsd:dateTime,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/White_Night_riots"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2916092"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/White_Night_riots"^^xsd:anyURI,
+        obo:IAO_0000115 "A series of violent events sparked by an announcement of a lenient sentencing of Dan White for the assassinations of San Francisco Mayor George Moscone and of Harvey Milk, a member of the city's Board of Supervisors who was one of the first openly gay elected officials in the United States. The events took place on the night of May 21, 1979 (the night before what would have been Milk's 49th birthday) in San Francisco. Earlier that day, White had been convicted of voluntary manslaughter, the lightest possible conviction for his actions. That White was not convicted of first-degree murder (of which he was originally charged) had so outraged the city's gay community that it set off the most violent reaction by gay Americans since the 1969 Stonewall Riots in New York City (which is credited as the beginning of the modern gay rights movement in the United States)."@en
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/000939>
@@ -78163,6 +78958,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001009>
 Individual: <http://purl.bioontology.org/ontology/GSSO/001011>
 
     Annotations: 
+        obo:IAO_0000115 "An annual outdoor drag festival that began in the 1980s in Manhattan's East Village that took place on Labor Day. Traditionally the festival would act as the unofficial end to the summer for the gay community of New York City. The name refers to the 1969 Woodstock Festival."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7999717"^^xsd:anyURI,
         rdfs:label "Wigstock"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Wigstock"^^xsd:anyURI
     
@@ -78270,7 +79067,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001180>
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        schema:identifier "http://homosaurus.org/v2/womyn"^^xsd:anyURI
+        schema:identifier "http://homosaurus.org/v2/womyn"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3569775"^^xsd:anyURI
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/001181>
@@ -78280,7 +79078,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001181>
         rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/001180>,
         rdfs:label "womxn"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000369>,
-        rdfs:comment "\"Womxn\" was formed as a replacement for the oft criticized \"womyn\" in order to be more inclusive of transgender women and women of color (similar in use to \"Latinx\" instead of Latina or Latino)."@en
+        rdfs:comment "\"Womxn\" was formed as a replacement for the oft criticized \"womyn\" in order to be more inclusive of transgender women and women of color (similar in use to \"Latinx\" instead of Latina or Latino)."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q65090566"^^xsd:anyURI
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/001188>
@@ -78296,10 +79095,12 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001196>
 
     Annotations: 
         rdfs:label "womyn-born-womyn"@en,
+        obo:IAO_0000115 "A term developed during second-wave feminism to designate women who were identified as female at birth, were raised as girls, and identify as women (or womyn, a deliberately alternative spelling that challenges the centering of male as norm). Events and organizations that have womyn-born-womyn-only policies bar access to anyone who was assigned male at birth: men, trans women, and male children older than a determined age."@en,
         rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/001180>,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000369>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Womyn-born_womyn"^^xsd:anyURI,
-        Property:P1813 "WBW"@en
+        Property:P1813 "WBW"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q8031651"^^xsd:anyURI
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/001197>
@@ -78340,6 +79141,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001202>
     Annotations: 
         terms:isPartOf <http://purl.bioontology.org/ontology/GSSO/001201>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Folsom_Street_Fair"^^xsd:anyURI,
+        Property:P1813 "Folsom"@en,
         schema:foundingDate 1984,
         Property:P856 "http://folsomstreetfair.com/"^^xsd:anyURI,
         rdfs:label "Folsom Street Fair"@en,
@@ -80748,7 +81550,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002327>
         
             Annotations: Property:P1813 "FTX"@en
         oboInOwl:hasNarrowSynonym "female to X-gender"@en,
-        Property:P3938 <http://purl.bioontology.org/ontology/GSSO/000409>,
+        Property:P1659 <http://purl.bioontology.org/ontology/GSSO/000409>,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/ftxs"^^xsd:anyURI,
@@ -82191,9 +82993,9 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002568>
     Annotations: 
         gold:PossessivePronoun <http://purl.bioontology.org/ontology/GSSO/002571>,
         gold:ReflexivePronoun <http://purl.bioontology.org/ontology/GSSO/002572>,
+        gold:PossessivePronoun <http://purl.bioontology.org/ontology/GSSO/002570>,
         schema:gender <http://purl.bioontology.org/ontology/GSSO/002451>,
         schema:dateCreated "c. 1850"@en,
-        gold:PossessivePronoun <http://purl.bioontology.org/ontology/GSSO/002570>,
         rdfs:label "ne"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         terms:isReferencedBy <https://web.archive.org/web/20190710142953/http://www.english.illinois.edu/-people-/faculty/debaron/essays/epicene.htm>,
@@ -82426,8 +83228,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002590>
     Annotations: 
         terms:isReferencedBy <https://web.archive.org/web/20190710142953/http://www.english.illinois.edu/-people-/faculty/debaron/essays/epicene.htm>,
         oboInOwl:hasRelatedSynonym "himmer"@en,
-        schema:gender <http://purl.bioontology.org/ontology/GSSO/002451>,
         gold:ReflexivePronoun <http://purl.bioontology.org/ontology/GSSO/002592>,
+        schema:gender <http://purl.bioontology.org/ontology/GSSO/002451>,
         gold:PossessivePronoun <http://purl.bioontology.org/ontology/GSSO/002591>,
         rdfs:label "himer"@en,
         oboInOwl:hasSynonym "hymer"@en
@@ -83217,8 +84019,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002670>
         rdfs:label "un"@en,
         terms:isReferencedBy <https://web.archive.org/web/20190710142953/http://www.english.illinois.edu/-people-/faculty/debaron/essays/epicene.htm>,
         gold:PossessivePronoun <http://purl.bioontology.org/ontology/GSSO/002671>,
-        schema:gender <http://purl.bioontology.org/ontology/GSSO/002451>,
         schema:dateCreated 1868,
+        schema:gender <http://purl.bioontology.org/ontology/GSSO/002451>,
         Property:P5191 "un"@fr
     
     
@@ -83793,6 +84595,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002748>
 Individual: <http://purl.bioontology.org/ontology/GSSO/002749>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/viraginity#English"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "viragancy"@en,
         oboInOwl:hasRelatedSynonym "masculo-femininity"@en,
         Property:P3095 "viragint"@en,
@@ -84951,9 +85754,9 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/003872>
 Individual: <http://purl.bioontology.org/ontology/GSSO/003875>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sockpuppet_(Internet)"^^xsd:anyURI,
         rdfs:label "sockpuppet"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
-        rdfs:comment "https://en.wikipedia.org/wiki/Sockpuppet_(Internet)"^^xsd:anyURI,
         oboInOwl:hasExactSynonym "sock puppet"@en
     
     Types: 
@@ -85084,6 +85887,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/003920>
 Individual: <http://purl.bioontology.org/ontology/GSSO/003926>
 
     Annotations: 
+        obo:IAO_0000115 "A person, usually a woman, who is considered sexually promiscuous or engaging in sex work."@en,
         oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/whore#English"^^xsd:anyURI,
         schema:alternateName "whores"@en,
         rdfs:label "whore"@en
@@ -85132,7 +85936,9 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/003953>
 
     Annotations: 
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
-        rdfs:label "unisex"@en
+        rdfs:label "unisex"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Unisex"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q76976"^^xsd:anyURI
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/003956>
@@ -85354,8 +86160,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004045>
         oboInOwl:hasRelatedSynonym "tribbing"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Tribadism"^^xsd:anyURI,
         rdfs:label "tribadism"@en,
-        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
-        oboInOwl:hasRelatedSynonym "tribady"@en
+        oboInOwl:hasRelatedSynonym "tribady"@en,
+        terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/004046>
@@ -85843,6 +86649,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004189>
 
     Annotations: 
         rdfs:label "werk"@en,
+        obo:IAO_0000115 "Either an exclamation of approval or to do something excellently (often used in reference to dance or modeling)."@en,
         terms:isReferencedBy <https://web.archive.org/web/20190825112846/https://filthy.media/lgbtq-slang-everyone-should-know>
     
     Types: 
@@ -86040,8 +86847,15 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004237>
 Individual: <http://purl.bioontology.org/ontology/GSSO/004238>
 
     Annotations: 
+        Property:P1813 "TUA"@en,
+        oboInOwl:hasSynonym "The Transgender Usenet Archive"@en,
+        Property:P170 "Avery Dame",
         Property:P856 "http://transusenet.averydame.net/"^^xsd:anyURI,
         rdfs:label "Transgender Usenet Archive"@en
+    
+    Types: 
+        <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C114463>,
+        <http://purl.bioontology.org/ontology/GSSO/004218>
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/004240>
@@ -86195,7 +87009,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004455>
 
     Annotations: 
         rdfs:label "Vermont Queer Archives"@en,
-        Property:P856 "http://pridecentervt.org/resources-trandform/153-general-info/138-vermont-queer-archives"^^xsd:anyURI
+        Property:P856 "http://pridecentervt.org/resources-trandform/153-general-info/138-vermont-queer-archives"^^xsd:anyURI,
+        schema:address "255 South Champlain Street, Suite 12, Burlington, Vermont 05401, United States"@en
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/004150>
@@ -86435,6 +87250,7 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004501>
 Individual: <http://purl.bioontology.org/ontology/GSSO/004525>
 
     Annotations: 
+        obo:IAO_0000115 "A folk tale in which a person's vagina is said to contain teeth, with the associated implication that sexual intercourse might result in injury, emasculation, or castration for the person whose penis is involved. The topic of \"vagina dentata\" may also cover a rare medical condition affecting the vagina, in which case it is more accurately termed a vaginal dermoid cyst."@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000996>,
         rdfs:label "vagina dentata"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Vagina_dentata"^^xsd:anyURI
@@ -86730,10 +87546,15 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004626>
 
     Annotations: 
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2061273"^^xsd:anyURI,
+        obo:IAO_0000115 "An international umbrella organization representing sexological societies and sexologists worldwide. Founded in 1978 in Rome, Italy, the WAS main goal is to promote sexual health for all through sexological science."@en,
         terms:replaces "World Association for Sexology"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/World_Association_for_Sexual_Health"^^xsd:anyURI,
         rdfs:label "World Association for Sexual Health"@en,
-        Property:P1813 "WAS"@en
+        Property:P1813 "WAS"@en,
+        Property:P856 "http://www.worldsexology.org/"^^xsd:anyURI
+    
+    Types: 
+        <http://purl.bioontology.org/ontology/GSSO/004642>
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/004627>
@@ -87816,7 +88637,9 @@ Individual: <http://www.isni.org/0000000063942581>
 Individual: <http://www.isni.org/0000000063988950>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7934463"^^xsd:anyURI,
         Property:P27 <http://purl.bioontology.org/ontology/MESH/D014481>,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Virginia_Prince"^^xsd:anyURI,
         rdfs:label "Virginia Prince",
         Property:P213 "http://www.isni.org/0000000063988950"^^xsd:anyURI
     
@@ -88456,6 +89279,24 @@ Individual: <http://www.isni.org/0000000445350063>
         Property:P27 <http://purl.obolibrary.org/obo/GAZ_00002637>
     
     
+Individual: <http://www.isni.org/isni/0000000123317789>
+
+    Annotations: 
+        Property:P214 "https://viaf.org/viaf/144904638"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D014480"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:United_Nations"^^xsd:anyURI,
+        Property:P213 "http://www.isni.org/isni/0000000123317789"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/United_Nations"^^xsd:anyURI,
+        rdfs:label "United Nations"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1065"^^xsd:anyURI,
+        obo:IAO_0000115 "An intergovernmental organization tasked with maintaining international peace and security, developing friendly relations among nations, achieving international co-operation, and being a centre for harmonizing the actions of nations."@en,
+        Property:P1813 "UN"@en,
+        Property:P1813 "U.N."@en
+    
+    Types: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004987>
+    
+    
 Individual: <https://archive.org/details/autobiographyofa00lind>
 
     Annotations: 
@@ -88676,6 +89517,17 @@ Individual: <https://books.google.com/books?id=Zd5I2NPnj7QC>
     
     Types: 
         <http://semanticscience.org/resource/SIO_000106>
+    
+    
+Individual: <https://books.google.com/books?id=gpNXDwAAQBAJ>
+
+    Annotations: 
+        rdfs:label "Pink Herrings: Fantasy, Object Choice, and Sexuation"@en,
+        Property:P212 9780429917301,
+        schema:numberOfPages 176,
+        schema:datePublished 2018,
+        Property:P50 "Damien W. Riggs",
+        Property:P675 "https://books.google.com/books?id=gpNXDwAAQBAJ"^^xsd:anyURI
     
     
 Individual: <https://books.google.com/books?id=m2Mx9KyY-igC>
@@ -91284,6 +92136,16 @@ Individual: <https://portal.issn.org/resource/issn/0033-2836>
         dc:title "Psychoanalytic Review"@en
     
     
+Individual: <https://portal.issn.org/resource/issn/0033-5630>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7269302"^^xsd:anyURI,
+        dc:title "Quarterly Journal of Speech"@en,
+        schema:issn "https://portal.issn.org/resource/issn/0033-5630"^^xsd:anyURI,
+        rdfs:label "Quarterly Journal of Speech"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Quarterly_Journal_of_Speech"^^xsd:anyURI
+    
+    
 Individual: <https://portal.issn.org/resource/issn/0035-449X>
 
     Annotations: 
@@ -93830,8 +94692,8 @@ Individual: <https://www.worldcat.org/oclc/960936460>
 
     Annotations: 
         Property:P1813 "DSM-III"@en,
-        Property:P155 <https://catalog.hathitrust.org/Record/001564136>,
         terms:dateCopyrighted 1980,
+        Property:P155 <https://catalog.hathitrust.org/Record/001564136>,
         schema:bookEdition 3,
         Property:P156 <https://www.worldcat.org/oclc/16395933>,
         schema:datePublished 1980,
