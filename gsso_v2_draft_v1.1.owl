@@ -4780,6 +4780,10 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004980>
         
             Annotations: schema:alternateName "feminine hygienic devices"@en
         terms:replaces "feminine hygienic device"@en,
+        
+            Annotations: schema:alternateName "feminine hygiene products"@en, 
+                         Property:P486 "http://purl.bioontology.org/ontology/MESH/D053566"^^xsd:anyURI
+        terms:replaces "feminine hygiene product"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Personal_hygiene_products"^^xsd:anyURI,
         rdfs:label "hygienic device"@en
     
@@ -4937,6 +4941,1293 @@ Class: <http://bioportal.bioontology.org/ontology/GSSO/004992>
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma268896>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004993>
+
+    Annotations: 
+        rdfs:label "douche"@en,
+        
+            Annotations: schema:alternateName "douche devices"@en
+        oboInOwl:hasSynonym "douche device"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/336764006"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1673202"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15374"^^xsd:anyURI,
+        obo:IAO_0000115 "A device used to introduce a stream of water into the body for medical or hygienic reasons, or the stream of water itself."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Douche"^^xsd:anyURI,
+        obo:IAO_0000115 "A procedure in which a stream of liquid is introduced into a body cavity, most commonly the vagina, for medical or hygienic reasons."@en,
+        oboInOwl:hasRelatedSynonym "douching"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004980>,
+        <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16830>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004994>
+
+    Annotations: 
+        
+            Annotations: Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/464961004"^^xsd:anyURI
+        oboInOwl:hasNarrowSynonym "single-use vaginal douche"@en,
+        rdfs:label "vaginal douche"@en,
+        
+            Annotations: obo:IAO_0000115 "The washing of the vagina cavity or surface with a solution. Agents or drugs can be added to the irrigation solution."@en, 
+                         Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10064421"^^xsd:anyURI, 
+                         Property:P486 "http://purl.bioontology.org/ontology/MESH/D044364"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "vaginal douching"@en,
+        
+            Annotations: schema:alternateName "vaginal douche devices"@en
+        oboInOwl:hasSynonym "vaginal douche device"@en,
+        Property:P4229 96.44,
+        obo:IAO_0000115 "A douche utilized for the purposes of vaginal irrigation."@en,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000996>
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004993>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004995>
+
+    Annotations: 
+        rdfs:label "rectal douche"@en,
+        
+            Annotations: schema:alternateName "rectal douche devices"@en
+        oboInOwl:hasSynonym "rectal douche device"@en,
+        obo:IAO_0000115 "A device designed to rinse the rectum with the intent to clean it, in many cases in preparation for anal intercourse."@en,
+        
+            Annotations: oboInOwl:hasRelatedSynonym "anal douching"@en
+        oboInOwl:hasSynonym "anal douche"@en,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Rectal_douching"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q21072660"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "rectal douching"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004993>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004996>
+
+    Annotations: 
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228164001"^^xsd:anyURI,
+        Property:P1149 "TT669-TT678",
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85139631"^^xsd:anyURI,
+        oboInOwl:hasSynonym "underclothing"@en,
+        schema:alternateName "undergarments"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Undergarment"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Undergarments"^^xsd:anyURI,
+        Property:P1149 "GT2073",
+        rdfs:label "undergarment"@en,
+        
+            Annotations: schema:bookEdition 10
+        Property:P1036 646.42,
+        oboInOwl:hasSynonym "underclothes"@en,
+        terms:replaces "unmentionables"@en,
+        oboInOwl:hasSynonym "underwear"@en,
+        obo:IAO_0000115 "Any garment worn underneath others, especially one worn next to the skin; an item of underwear."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q198763"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003405>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004997>
+
+    Annotations: 
+        obo:IAO_0000115 "Clothing as sorted by primary anatomical usage."@en,
+        rdfs:label "clothing by anatomical entity"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003405>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004998>
+
+    Annotations: 
+        Property:P1149 "TS989-TS1025",
+        obo:IAO_0000115 "An item of clothing that is worn on the foot"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Footwear"^^xsd:anyURI,
+        Property:P927 <http://purl.org/sig/ont/fma/fma9664>,
+        rdfs:label "footwear"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Footwear"^^xsd:anyURI,
+        Property:P1149 "TT678.5",
+        oboInOwl:hasSynonym "footgear"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/88063004"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85050430"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q161928"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004997>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/004999>
+
+    Annotations: 
+        rdfs:label "handwear"@en,
+        obo:IAO_0000115 "Accessories worn on the hand."@en,
+        Property:P927 <http://purl.org/sig/ont/fma/fma9712>
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004997>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005000>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Headgear"^^xsd:anyURI,
+        Property:P1149 "GT2110-GT2112",
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85059483"^^xsd:anyURI,
+        obo:IAO_0000115 "Any element of clothing which is worn on one's head."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Headgear"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q14952"^^xsd:anyURI,
+        rdfs:label "headwear"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228244001"^^xsd:anyURI,
+        oboInOwl:hasSynonym "headdress"@en,
+        
+            Annotations: oboInOwl:hasExactSynonym "head-gear"@en
+        oboInOwl:hasSynonym "headgear"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004997>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005001>
+
+    Annotations: 
+        rdfs:label "neckwear"@en,
+        obo:IAO_0000115 "Various styles of clothing worn around the (human) neck."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Neckwear"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Neckwear"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85090571"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q6985603"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004997>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005002>
+
+    Annotations: 
+        rdfs:label "clothing by occasion"@en,
+        obo:IAO_0000115 "Clothing, as sorted by particular events or occasions."@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003405>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005003>
+
+    Annotations: 
+        oboInOwl:hasSynonym "nightclothes"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Nightwear"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1187616"^^xsd:anyURI,
+        rdfs:label "nightwear"@en,
+        obo:IAO_0000115 "Clothing designed to be worn while sleeping."@en,
+        oboInOwl:hasSynonym "nightdress"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Nightwear"^^xsd:anyURI,
+        oboInOwl:hasSynonym "sleepwear"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005002>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005004>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Swimsuits"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q212989"^^xsd:anyURI,
+        rdfs:label "swimwear"@en,
+        
+            Annotations: schema:alternateName "swimming costumes"@en
+        oboInOwl:hasSynonym "swimming costume"@en,
+        
+            Annotations: schema:alternateName "swimsuits"@en
+        oboInOwl:hasSynonym "swimsuit"@en,
+        
+            Annotations: schema:alternateName "swimming suits"@en
+        oboInOwl:hasSynonym "swimming suit"@en,
+        obo:IAO_0000115 "Items of clothing designed to be worn by people engaging in a water-based activity or water sports, such as swimming, diving and surfing, or sun-orientated activities, such as sun bathing."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Swimsuit"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005002>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005005>
+
+    Annotations: 
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85039509"^^xsd:anyURI,
+        schema:alternateName "fashion accessories"@en,
+        rdfs:label "fashion accessory"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Fashion_accessories"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1065579"^^xsd:anyURI,
+        Property:P1149 "TT649.8-TT668",
+        
+            Annotations: schema:alternateName "accessories"@en
+        Property:P1813 "accessory"@en,
+        
+            Annotations: schema:bookEdition 10
+        Property:P1036 646.48,
+        obo:IAO_0000115 "An item used to contribute, in a secondary manner, to the wearer's outfit, often used to complete an outfit and chosen to specifically complement the wearer's look."@en,
+        
+            Annotations: schema:alternateName "clothing accessories"@en
+        oboInOwl:hasSynonym "clothing accessory"@en,
+        
+            Annotations: schema:alternateName "dress accessories"@en
+        oboInOwl:hasSynonym "dress accessory"@en,
+        
+            Annotations: schema:alternateName "costume accessories"@en
+        oboInOwl:hasSynonym "costume accessory"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Fashion_accessory"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003405>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005006>
+
+    Annotations: 
+        rdfs:label "carried accessory"@en,
+        obo:IAO_0000115 "Clothing accessories that are primarily carried."@en,
+        schema:alternateName "carried accessories"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005005>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005007>
+
+    Annotations: 
+        rdfs:label "worn accessory"@en,
+        schema:alternateName "worn accessories"@en,
+        obo:IAO_0000115 "Clothing accessories that are primarily worn."@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005005>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005008>
+
+    Annotations: 
+        obo:IAO_0000115 "Clothing sorted by typically wearer's gender identity, expression, and/or role in a given societal context."@en,
+        oboInOwl:hasSynonym "gendered clothing"@en,
+        oboInOwl:hasSynonym "gender-specific clothing"@en,
+        rdfs:label "clothing by gender"@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003405>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005009>
+
+    Annotations: 
+        oboInOwl:hasSynonym "men's apparel"@en,
+        
+            Annotations: oboInOwl:hasExactSynonym "menswear"@en
+        oboInOwl:hasSynonym "men's wear"@en,
+        rdfs:label "men's clothing"@en,
+        oboInOwl:hasSynonym "clothing for men"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85083595"^^xsd:anyURI,
+        obo:IAO_0000115 "Clothing sorted by typically wearer's male gender identity, expression, and/or role in a given societal context."@en,
+        Property:P1149 "TT570-TT630",
+        
+            Annotations: schema:bookEdition 10
+        Property:P1036 646.32
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005008>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005010>
+
+    Annotations: 
+        Property:P1149 "GT1720",
+        obo:IAO_0000115 "Clothing sorted by typically wearer's female gender identity, expression, and/or role in a given societal context."@en,
+        rdfs:label "women's clothing"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2003012017"^^xsd:anyURI,
+        
+            Annotations: oboInOwl:hasExactSynonym "womenswear"@en
+        oboInOwl:hasSynonym "women's wear"@en,
+        oboInOwl:hasSynonym "women's apparel"@en,
+        oboInOwl:hasSynonym "clothing for women"@en,
+        
+            Annotations: schema:bookEdition 10
+        Property:P1036 646.34
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005008>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005011>
+
+    Annotations: 
+        rdfs:label "clothing by age group"@en,
+        obo:IAO_0000115 "Clothing, as sorted by the age group of the wearer."@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003405>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005012>
+
+    Annotations: 
+        Property:P1149 "TT635-TT645",
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85023582"^^xsd:anyURI,
+        Property:P1149 "GT1730",
+        oboInOwl:hasSynonym "kids' clothing"@en,
+        oboInOwl:hasSynonym "clothing for children"@en,
+        rdfs:label "children's clothing"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Children%27s_clothing"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Children%27s_clothing"^^xsd:anyURI,
+        obo:IAO_0000115 "Clothing designed for use by children."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2471487"^^xsd:anyURI,
+        
+            Annotations: schema:bookEdition 10
+        Property:P1036 646.36
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005011>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005013>
+
+    Annotations: 
+        rdfs:label "adult clothing"@en,
+        obo:IAO_0000115 "Clothing primarily utilized by adults."@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005011>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005014>
+
+    Annotations: 
+        oboInOwl:hasRelatedSynonym "baby clothing"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Infants%27_clothing"^^xsd:anyURI,
+        oboInOwl:hasSynonym "infants' clothing"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Infant_clothing"^^xsd:anyURI,
+        obo:IAO_0000115 "Clothing for infants."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q17152912"^^xsd:anyURI,
+        rdfs:label "infant clothing"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005011>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005015>
+
+    Annotations: 
+        obo:IAO_0000115 "Accessories worn on the arm."@en,
+        rdfs:label "armwear"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Armwear"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004997>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005016>
+
+    Annotations: 
+        rdfs:label "eyewear"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2015001346"^^xsd:anyURI,
+        Property:P927 <http://purl.org/sig/ont/fma/fma54448>,
+        obo:IAO_0000115 "Any device worn over the eyes."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Eyewear"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Eyewear"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5422874"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004997>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005017>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Clothing_by_material"^^xsd:anyURI,
+        rdfs:label "clothing by material"@en,
+        obo:IAO_0000115 "Clothing, as sorted by primary material or materials."@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003405>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005018>
+
+    Annotations: 
+        rdfs:label "leather garment"@en,
+        Property:P1149 "TT524",
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85075586"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Leather_clothing"^^xsd:anyURI,
+        obo:IAO_0000115 "Clothing made of leather."@en,
+        schema:alternateName "leather garments"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005017>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005019>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Latex_clothing"^^xsd:anyURI,
+        
+            Annotations: oboInOwl:hasExactSynonym "latex-wear"@en
+        oboInOwl:hasSynonym "latexwear"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1077151"^^xsd:anyURI,
+        schema:alternateName "latex garments"@en,
+        oboInOwl:hasSynonym "latex clothing"@en,
+        obo:IAO_0000115 "Clothing made of latex."@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh00003607"^^xsd:anyURI,
+        rdfs:label "latex garment"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005017>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005020>
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasExactSynonym "rubber wear"@en
+        oboInOwl:hasSynonym "rubberwear"@en,
+        rdfs:label "rubber garment"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2009007037"^^xsd:anyURI,
+        oboInOwl:hasSynonym "rubber clothing"@en,
+        obo:IAO_0000115 "Clothing made of rubber."@en,
+        schema:alternateName "rubber garments"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005017>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005021>
+
+    Annotations: 
+        schema:alternateName "PVC garments"@en,
+        oboInOwl:hasSynonym "PVC clothing"@en,
+        rdfs:label "PVC garment"@en,
+        oboInOwl:hasSynonym "vinyl clothing"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/PVC_clothing"^^xsd:anyURI,
+        obo:IAO_0000115 "Clothing made of the plastic polyvinyl chloride (PVC)."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q6547537"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005017>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005022>
+
+    Annotations: 
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Coin_purse"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1771699"^^xsd:anyURI, 
+                         schema:alternateName "coin purses"@en
+        oboInOwl:hasSynonym "coin purse"@en,
+        schema:alternateName "purses"@en,
+        obo:IAO_0000115 "A small bag for the purpose of carrying currency, usually coins."@en,
+        rdfs:comment "The term \"purse\" originally referred to a small bag for holding coins. In many English-speaking countries it is still used to refer to a small money bag. A \"handbag\" is a larger accessory that holds objects beyond currency, such as personal items. American English typically uses the terms purse and handbag interchangeably."@en,
+        rdfs:label "purse"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005006>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005023>
+
+    Annotations: 
+        schema:alternateName "handbags"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85058652"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q467505"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Handbag"^^xsd:anyURI,
+        rdfs:label "handbag"@en,
+        Property:P1149 "TT667",
+        obo:IAO_0000115 "A handled medium-to-large bag used to carry personal items."@en,
+        rdfs:comment "The term \"purse\" originally referred to a small bag for holding coins. In many English-speaking countries it is still used to refer to a small money bag. A \"handbag\" is a larger accessory that holds objects beyond currency, such as personal items. American English typically uses the terms purse and handbag interchangeably."@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005006>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005024>
+
+    Annotations: 
+        obo:IAO_0000115 "A bag, often with a strap. The strap is often worn so that it diagonally crosses the body, with the bag hanging on the opposite hip, rather than hanging directly down from the shoulder. They are traditionally used for carrying books. The back of a satchel extends to form a flap that folds over to cover the top and fastens in the front. Unlike a briefcase, a satchel is soft-sided."@en,
+        schema:alternateName "satchels"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3033123"^^xsd:anyURI,
+        rdfs:label "satchel"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Satchel"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005006>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005025>
+
+    Annotations: 
+        rdfs:label "briefcase"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Briefcase"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q915026"^^xsd:anyURI,
+        schema:alternateName "briefcases"@en,
+        obo:IAO_0000115 "A narrow hard-sided box-shaped bag or case used mainly for carrying papers and equipped with a handle."@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005006>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005026>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q41607"^^xsd:anyURI,
+        rdfs:label "umbrella"@en,
+        obo:IAO_0000115 "Cloth-covered frame used for protection against rain."@en,
+        oboInOwl:hasBroadSynonym "umbrellas and parasols"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Umbrella"^^xsd:anyURI,
+        Property:P1149 "GT2210",
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2003012083"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Umbrellas"^^xsd:anyURI,
+        schema:alternateName "umbrellas"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005006>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005027>
+
+    Annotations: 
+        Property:P1149 "http://id.loc.gov/authorities/subjects/sh2003012084"^^xsd:anyURI,
+        obo:IAO_0000115 "A small light umbrella used as protection from the sun."@en,
+        rdfs:label "parasol"@en,
+        oboInOwl:hasBroadSynonym "umbrellas and parasols"@en,
+        Property:P1149 "GT2210",
+        schema:alternateName "parasols"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005006>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005028>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1347864"^^xsd:anyURI,
+        rdfs:label "cane"@en,
+        schema:alternateName "canes"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/87405001"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Walking_stick"^^xsd:anyURI,
+        obo:IAO_0000115 "A device used primarily to aid walking, provide postural stability or support, or assist in maintaining a good posture, but some designs also serve as a fashion accessory, or are used for self-defense."@en,
+        
+            Annotations: schema:alternateName "walking canes"@en
+        oboInOwl:hasSynonym "walking cane"@en,
+        
+            Annotations: schema:alternateName "walking sticks"@en
+        oboInOwl:hasSynonym "walking stick"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005006>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005029>
+
+    Annotations: 
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85121735"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Shoes"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Shoe"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/43983001"^^xsd:anyURI,
+        obo:IAO_0000115 "Footwear made of a flat sole shaped to the contour of the foot, connected to an upper portion which may or may not completely cover or wrap around the foot."@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012775"^^xsd:anyURI,
+        Property:P1149 "TS989-TS1025",
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q22676"^^xsd:anyURI,
+        schema:alternateName "shoes"@en,
+        rdfs:label "shoe"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004998>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005030>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q161439"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/80919006"^^xsd:anyURI,
+        obo:IAO_0000115 "Small decorative items worn for personal adornment, such as brooches, rings, necklaces, earrings, pendants, bracelets, and cufflinks. Jewelry may be attached to the body or the clothes."@en,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D055498"^^xsd:anyURI,
+        Property:P1149 "NK7300-NK7695",
+        Property:P1149 "TS720-TS761",
+        rdfs:label "jewelry"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh00005946"^^xsd:anyURI,
+        Property:P1149 "GT2250-GT2281",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Jewellery"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85070195"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Jewellery"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005007>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005031>
+
+    Annotations: 
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh2003001411"^^xsd:anyURI,
+        schema:alternateName "hair ornaments"@en,
+        obo:IAO_0000115 "Jewelry worn in one's hair."@en,
+        rdfs:label "hair ornament"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005032>
+
+    Annotations: 
+        obo:IAO_0000115 "Jewelry worn in and/or around one's nose."@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85092761"^^xsd:anyURI,
+        rdfs:label "nose ornament"@en,
+        schema:alternateName "nose ornaments"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005033>
+
+    Annotations: 
+        obo:IAO_0000115 "Jewelry worn on one's hand or hands (or one's wrist or wrists)."@en,
+        schema:alternateName "hand ornaments"@en,
+        rdfs:label "hand ornament"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005034>
+
+    Annotations: 
+        obo:IAO_0000115 "Jewelry worn around one's neck."@en,
+        schema:alternateName "neck ornaments"@en,
+        rdfs:label "neck ornament"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005035>
+
+    Annotations: 
+        obo:IAO_0000115 "Jewelry worn around one's arm."@en,
+        schema:alternateName "arm ornaments"@en,
+        rdfs:label "arm ornament"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005036>
+
+    Annotations: 
+        obo:IAO_0000115 "Jewelry worn around one's finger or fingers."@en,
+        schema:alternateName "finger ornaments"@en,
+        rdfs:label "finger ornament"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005037>
+
+    Annotations: 
+        rdfs:label "head ornament"@en,
+        obo:IAO_0000115 "Jewelry worn upon one's head."@en,
+        schema:alternateName "head ornaments"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005038>
+
+    Annotations: 
+        rdfs:label "necklace"@en,
+        schema:alternateName "necklaces"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q189299"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Necklace"^^xsd:anyURI,
+        obo:IAO_0000115 "An article of jewelry that is worn around the neck, most often made of a string of precious metal, pearls, gems, beads or shells, and sometimes having a pendant attached."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Necklaces"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005034>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005039>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Choker"^^xsd:anyURI,
+        obo:IAO_0000115 "A close-fitting necklace worn around the neck. Chokers can be made of a variety of materials, including velvet, plastic, beads, latex, leather, metal, such as silver, gold or platinum, etc. They can be adorned in a variety of ways, including with sequins, studs, or a pendant."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1424519"^^xsd:anyURI,
+        obo:IAO_0000115 "A necklace 35 centimetres (14 in) to 41 centimetres (16 in) long that sits high on the neck."@en,
+        schema:alternateName "chokers"@en,
+        rdfs:label "choker"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005038>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005040>
+
+    Annotations: 
+        rdfs:label "princess necklace"@en,
+        obo:IAO_0000115 "A princess necklace is 45 centimetres (18 in) to 50 centimetres (20 in) long, longer than a choker, but shorter than a matinee."@en,
+        schema:alternateName "princess necklaces"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005038>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005041>
+
+    Annotations: 
+        schema:alternateName "matinee necklaces"@en,
+        obo:IAO_0000115 "A matinee length necklace is 56 centimetres (22 in) to 58 centimetres (23 in) long — typically a single strand that rests at the top of the cleavage."@en,
+        rdfs:label "matinee necklace"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005038>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005042>
+
+    Annotations: 
+        rdfs:label "opera necklace"@en,
+        obo:IAO_0000115 "An opera necklace is 75 centimetres (30 in) to 90 centimetres (35 in) long and sits at the breastbone."@en,
+        schema:alternateName "opera necklaces"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005038>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005043>
+
+    Annotations: 
+        obo:IAO_0000115 "A rope necklace is any necklace longer than opera length."@en,
+        rdfs:label "rope necklace"@en,
+        schema:alternateName "rope necklaces"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005038>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005044>
+
+    Annotations: 
+        schema:alternateName "lariat necklaces"@en,
+        obo:IAO_0000115 "A lariat is a very, very long variation on the rope, without a clasp, often worn draped multiple times around the neck; the ends can be crossed over, looped, or knotted in various ways. This type of necklace sometimes incorporates a loop at one or both ends to allow it to be worn in the style of a lasso, or it may be worn doubled over with the ends passed through the loop formed in the middle."@en,
+        rdfs:label "lariat necklace"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005038>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005045>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Necktie"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228197000"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q44416"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "ties"@en
+        Property:P1813 "tie"@en,
+        obo:IAO_0000115 "A long piece of cloth, worn, usually by men, for decorative purposes around the neck, resting under the shirt collar and knotted at the throat."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Neckties"^^xsd:anyURI,
+        rdfs:label "necktie"@en,
+        schema:alternateName "neckties"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005001>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005046>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q46847"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Rings"^^xsd:anyURI,
+        rdfs:label "finger ring"@en,
+        
+            Annotations: schema:alternateName "rings"@en
+        Property:P1813 "ring"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ring_(jewellery)"^^xsd:anyURI,
+        obo:IAO_0000115 "A circular band worn as a type of ornamental jewelry around the finger."@en,
+        schema:alternateName "finger rings"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005036>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005047>
+
+    Annotations: 
+        
+            Annotations: schema:alternateName "mangagement rings"@en
+        oboInOwl:hasNarrowSynonym "mangagement ring"@en,
+        schema:alternateName "engagement rings"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7929"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Engagement_ring"^^xsd:anyURI,
+        obo:IAO_0000115 "A ring indicating that the person wearing it is engaged to be married. A ring is presented as an engagement gift by a partner to their prospective spouse when they propose marriage or directly after a marriage proposal is accepted. It represents a formal agreement to future marriage."@en,
+        rdfs:label "engagement ring"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005046>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005048>
+
+    Annotations: 
+        schema:alternateName "wedding rings"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q842096"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Wedding_ring"^^xsd:anyURI,
+        obo:IAO_0000115 "A finger ring that indicates that its wearer is married. It is usually forged from metal, and traditionally is forged of gold or another precious metal."@en,
+        rdfs:label "wedding ring"@en,
+        
+            Annotations: schema:alternateName "wedding bands"@en
+        oboInOwl:hasSynonym "wedding band"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005046>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005050>
+
+    Annotations: 
+        obo:IAO_0000115 "A ring worn as a sign of chastity. The practice originated in the United States in the 1990s as part of the purity movement that gave rise to Christian-affiliated sexual abstinence groups. Wearing a purity ring is typically accompanied by a religious vow to practice abstinence until marriage. Chastity rings are part of the abstinence-only sex education movement and are intended to act as a physical reminder of their chastity vow."@en,
+        
+            Annotations: schema:alternateName "chastity rings"@en
+        oboInOwl:hasSynonym "chastity ring"@en,
+        schema:alternateName "purity rings"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1535307"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Purity_ring"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "promise rings"@en
+        oboInOwl:hasSynonym "promise ring"@en,
+        
+            Annotations: schema:alternateName "abstinence rings"@en
+        oboInOwl:hasSynonym "abstinence ring"@en,
+        rdfs:label "purity ring"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005046>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005051>
+
+    Annotations: 
+        rdfs:label "pre-engagement ring"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Pre-engagement_ring"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "promise rings"@en
+        oboInOwl:hasSynonym "promise ring"@en,
+        obo:IAO_0000115 "A ring given as a gift to a romantic partner to signify a commitment to a monogamous relationship, often as a precursor to an engagement ring."@en,
+        schema:alternateName "pre-engagement rings"@en,
+        
+            Annotations: schema:alternateName "friendship rings"@en
+        oboInOwl:hasSynonym "friendship ring"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q16938327"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005046>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005052>
+
+    Annotations: 
+        obo:IAO_0000115 "Jewelry worn upon one's toe or toes."@en,
+        rdfs:label "toe ornament"@en,
+        schema:alternateName "toe ornaments"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005053>
+
+    Annotations: 
+        obo:IAO_0000115 "A ring made out of metals and non-metals worn on any of the toes."@en,
+        rdfs:label "toe ring"@en,
+        schema:alternateName "toe rings"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q184493"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Toe_ring"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005052>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005055>
+
+    Annotations: 
+        schema:alternateName "eternity rings"@en,
+        
+            Annotations: schema:alternateName "infinity rings"@en
+        oboInOwl:hasSynonym "infinity ring"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Eternity_ring"^^xsd:anyURI,
+        obo:IAO_0000115 "A ring comprising a band of precious metal (usually gold) set with a continuous line of identically cut gemstones (usually diamonds) to symbolize neverending love, usually given by a spouse to their wife on the occasion of a significant anniversary."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5402803"^^xsd:anyURI,
+        rdfs:label "eternity ring"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005046>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005056>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q201664"^^xsd:anyURI,
+        obo:IAO_0000115 "An article of jewelry that is worn around the wrist."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bracelet"^^xsd:anyURI,
+        rdfs:label "bracelet"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Bracelets"^^xsd:anyURI,
+        schema:alternateName "bracelets"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005033>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005057>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Armband"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q680343"^^xsd:anyURI,
+        obo:IAO_0000115 "A piece of material worn around the arm over the sleeve or other clothing if present."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Armbands"^^xsd:anyURI,
+        schema:alternateName "armbands"@en,
+        rdfs:label "armband"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005035>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005058>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1455890"^^xsd:anyURI,
+        obo:IAO_0000115 "A decorative bracelet given by one person to another as a symbol of friendship."@en,
+        schema:alternateName "friendship bracelets"@en,
+        rdfs:label "friendship bracelet"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Friendship_bracelet"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005056>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005059>
+
+    Annotations: 
+        schema:alternateName "gloves"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Gloves"^^xsd:anyURI,
+        Property:P1149 "GT2170",
+        Property:P1149 "TT666",
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/52291003"^^xsd:anyURI,
+        rdfs:label "glove"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85055348"^^xsd:anyURI,
+        obo:IAO_0000115 "A garment covering the whole hand. Gloves usually have separate sheaths or openings for each finger and the thumb."@en,
+        Property:P1149 "TS2160",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Glove"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q169031"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/004999>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005060>
+
+    Annotations: 
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/261368003"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Hats"^^xsd:anyURI,
+        obo:IAO_0000115 "A head covering which is worn for various reasons, including protection against weather conditions, ceremonial reasons such as university graduation, religious reasons, safety, or as a fashion accessory."@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85059282"^^xsd:anyURI,
+        Property:P1149 "GT2110",
+        schema:alternateName "hats"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Hat"^^xsd:anyURI,
+        rdfs:label "hat"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q80151"^^xsd:anyURI,
+        Property:P1149 "TS2180-TS2193"
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005000>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005061>
+
+    Annotations: 
+        rdfs:label "shirt"@en,
+        schema:alternateName "shirts"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228194007"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003407>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005062>
+
+    Annotations: 
+        schema:alternateName "skirts"@en,
+        rdfs:label "skirt"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228217006"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003407>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005063>
+
+    Annotations: 
+        schema:alternateName "blouses"@en,
+        rdfs:label "blouse"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q152563"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228192006"^^xsd:anyURI,
+        obo:IAO_0000115 "a loose-fitting upper garment that is typically gathered at the waist or hips (by tight hem, pleats, parter, or belt) so that it hangs loosely (\"blouses\") over the wearer's body."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Blouse"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/GSSO/003407>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005064>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1149531"^^xsd:anyURI,
+        schema:alternateName "bonnets"@en,
+        rdfs:label "bonnet"@en,
+        obo:IAO_0000115 "Headwear usually tied under the chin and having a front brim."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bonnet_(headgear)"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005000>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005065>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Wigs"^^xsd:anyURI,
+        rdfs:label "wig"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/60110001"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q105507"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85146645"^^xsd:anyURI,
+        Property:P1149 "TT975",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Wig"^^xsd:anyURI,
+        Property:P1149 "GT2310",
+        schema:alternateName "wigs"@en,
+        obo:IAO_0000115 "A head covering made from human hair, animal hair, or synthetic fiber. Some people wear wigs to disguise baldness; a wig may be used as a less intrusive and less expensive alternative to medical therapies for restoring hair or for a religious reason."@en,
+        
+            Annotations: schema:alternateName "periwigs"@en
+        oboInOwl:hasSynonym "periwig"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005000>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005066>
+
+    Annotations: 
+        rdfs:label "cosmetic prosthesis"@en,
+        schema:alternateName "cosmetic prostheses"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/30661003"^^xsd:anyURI,
+        obo:IAO_0000115 "A prosthesis used to restore or improve a person's appearance, as opposed to purely functionality."@en
+    
+    SubClassOf: 
+        <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17598>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005067>
+
+    Annotations: 
+        schema:alternateName "crowns"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Crown_(headgear)"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Crowns_(headgear)"^^xsd:anyURI,
+        obo:IAO_0000115 "A traditional symbolic form of headwear, not hat, worn by a monarch or by a deity, for whom the crown traditionally represents power, legitimacy, victory, triumph, honor, and glory, as well as immortality, righteousness, and resurrection."@en,
+        rdfs:label "crown"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q170984"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005037>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005068>
+
+    Annotations: 
+        rdfs:label "diadem"@en,
+        obo:IAO_0000115 "An ornamental headband worn by monarchs and others as a badge of royalty."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q746591"^^xsd:anyURI,
+        schema:alternateName "diadems"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Diadem"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005037>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005069>
+
+    Annotations: 
+        obo:IAO_0000115 "A jeweled, ornamental crown worn during formal occasions."@en,
+        schema:alternateName "tiaras"@en,
+        rdfs:label "tiara"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q749249"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Tiara"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005037>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005070>
+
+    Annotations: 
+        obo:IAO_0000115 "Jewelry worn in, around, or upon one's ear or ears."@en,
+        rdfs:label "ear ornament"@en,
+        schema:alternateName "ear ornaments"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005030>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005071>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q168456"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85040426"^^xsd:anyURI,
+        Property:P1149 "NK7423.5",
+        rdfs:label "earring"@en,
+        obo:IAO_0000115 "A piece of jewelry attached to the ear via a piercing in the earlobe or another external part of the ear (except in the case of clip earrings, which clip onto the lobe)."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Earring"^^xsd:anyURI,
+        schema:alternateName "earrings"@en,
+        
+            Annotations: schema:alternateName "ear rings"@en
+        oboInOwl:hasExactSynonym "ear ring"@en,
+        Property:P1149 "GT2265"
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005070>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005072>
+
+    Annotations: 
+        Property:P1149 "TP500-TP660",
+        schema:alternateName "beverages"@en,
+        obo:IAO_0000115 "A liquid that is suitable for human consumption."@en,
+        Property:P1149 "TX815-TX817",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Drink"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Drinks"^^xsd:anyURI,
+        obo:IAO_0000115 "Liquids that are suitable for drinking."@en,
+        Property:P1149 "TX951",
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85058"^^xsd:anyURI,
+        rdfs:label "beverage"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85013504"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D001628"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q40050"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/STY/T168>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005073>
+
+    Annotations: 
+        rdfs:label "alcoholic beverage"@en,
+        obo:IAO_0000115 "A drink that contains ethanol, a type of alcohol produced by fermentation of grains, fruits, or other sources of sugar."@en,
+        
+            Annotations: schema:alternateName "alcoholic drinks"@en
+        oboInOwl:hasSynonym "alcoholic drink"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85003283"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Alcoholic_drink"^^xsd:anyURI,
+        schema:alternateName "alcoholic beverages"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q154"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Alcoholic_drinks"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005072>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005074>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_drinks#Non-alcoholic"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "non-alcoholic drinks"@en
+        oboInOwl:hasSynonym "non-alcoholic drink"@en,
+        obo:IAO_0000115 "Drinks that do not contain alcohol."@en,
+        schema:alternateName "non-alcoholic beverages"@en,
+        rdfs:label "non-alcoholic beverage"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005072>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005075>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Caffeinated_drinks"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "caffeinated drinks"@en
+        oboInOwl:hasSynonym "caffeinated drink"@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5017160"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Caffeinated_drink"^^xsd:anyURI,
+        obo:IAO_0000115 "A drink that contains caffeine, a stimulant that is legal and popular in most developed countries."@en,
+        schema:alternateName "caffeinated beverages"@en,
+        rdfs:label "caffeinated beverage"@en
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005072>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005076>
+
+    Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Coffee"^^xsd:anyURI,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85027699"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D003069"^^xsd:anyURI,
+        Property:P1149 "TP645",
+        Property:P1149 "GT2918",
+        obo:IAO_0000115 "A beverage made from ground Coffea beans (seeds) infused in hot water. It generally contains caffeine and theophylline unless it is decaffeinated."@en,
+        Property:P1149 "RM246",
+        Property:P1149 "SB269-SB270",
+        rdfs:label "coffee"@en,
+        Property:P1149 "TX415",
+        obo:IAO_0000115 "A brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/29263009"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q8486"^^xsd:anyURI,
+        Property:P1149 "TX583"
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005075>
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005077>
+
+    Annotations: 
+        schema:alternateName "cafés"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/257576005"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "cafes"@en
+        oboInOwl:hasExactSynonym "cafe"@en,
+        obo:IAO_0000115 "A small restaurant of any genre, sometimes synonymous with coffee shop, depending on the country."@en,
+        rdfs:label "café"@en
+    
+    SubClassOf: 
+        obo:ENVO_01000934
+    
+    
+Class: <http://bioportal.bioontology.org/ontology/GSSO/005078>
+
+    Annotations: 
+        schema:alternateName "coffeehouses"@en,
+        
+            Annotations: schema:alternateName "coffee houses"@en
+        oboInOwl:hasExactSynonym "coffee house"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85027714"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Coffeehouse"^^xsd:anyURI,
+        obo:IAO_0000115 "An establishment that primarily serves coffee, related coffee drinks (latte, cappuccino, espresso), and – depending on country – other drinks including alcoholic."@en,
+        Property:P1149 "NA7855",
+        rdfs:label "coffeehouse"@en,
+        Property:P5191 <http://bioportal.bioontology.org/ontology/GSSO/005076>,
+        Property:P1149 "TX901-TX910",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Coffeehouses"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005077>
     
     
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C100055>
@@ -5743,11 +7034,21 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17465>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17598>
 
     Annotations: 
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17598"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/53350007"^^xsd:anyURI,
+        
+            Annotations: Property:P486 "http://purl.bioontology.org/ontology/MESH/D019736"^^xsd:anyURI
+        oboInOwl:hasBroadSynonym "prostheses and implants"@en,
         
             Annotations: schema:alternateName "prosthetic devices"@en
         oboInOwl:hasSynonym "prosthetic device"@en,
         rdfs:label "prosthesis"@en,
-        schema:alternateName "protheses"@en
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85107615"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q181802"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Prosthesis"^^xsd:anyURI,
+        obo:IAO_0000115 "An artificial device that replaces a missing body part, which may be lost through trauma, disease, or a condition present at birth, or otherwise improves upon the function or aesthetic appearance of such a body part."@en,
+        schema:alternateName "protheses"@en,
+        Property:P1149 "RD130"
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16830>
@@ -6319,9 +7620,18 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28270>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28335>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Breast_implant"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q749053"^^xsd:anyURI,
+        obo:IAO_0000115 "A prosthesis used to change the size, shape, and contour of a person's breast. In reconstructive plastic surgery, breast implants can be placed to restore a natural looking breast mound for post–mastectomy breast reconstruction patients or to correct congenital defects and deformities of the chest wall. They are also used cosmetically to enhance or enlarge the appearance of the breast through breast augmentation surgery."^^xsd:anyURI,
         Property:P927 <http://purl.org/sig/ont/fma/fma9601>,
         rdfs:label "breast implant"@en,
-        schema:alternateName "breast implants"@en
+        
+            Annotations: Property:P1692 85.53
+        oboInOwl:hasNarrowSynonym "unilateral breast implant"@en,
+        schema:alternateName "breast implants"@en,
+        
+            Annotations: Property:P1692 85.54
+        oboInOwl:hasNarrowSynonym "bilateral breast implant"@en
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41075>
@@ -6606,13 +7916,13 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37986>
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/libido"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001854>,
         
             Annotations: oboInOwl:hasSynonym "finding of libido"@en, 
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/365965002"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "libido - finding"@en,
-        oboInOwl:hasRelatedSynonym <http://purl.bioontology.org/ontology/GSSO/001854>,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Libido"^^xsd:anyURI,
         rdfs:label "libido"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Libido"^^xsd:anyURI,
         Property:P5191 "libīdo"@la
     
     SubClassOf: 
@@ -6652,7 +7962,17 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41075>
 
     Annotations: 
         rdfs:label "implant"@en,
-        schema:alternateName "implants"@en
+        
+            Annotations: Property:P486 "http://purl.bioontology.org/ontology/MESH/D019736"^^xsd:anyURI
+        oboInOwl:hasBroadSynonym "prostheses and implants"@en,
+        obo:IAO_0000115 "A prosthesis placed permanently in tissue."@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/40388003"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q486975"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Implant_(medicine)"^^xsd:anyURI,
+        obo:IAO_0000115 "A medical device manufactured to replace a missing biological structure, support a damaged biological structure, or enhance an existing biological structure."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Implants_(medicine)"^^xsd:anyURI,
+        schema:alternateName "implants"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41075"^^xsd:anyURI
     
     SubClassOf: 
         <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17598>
@@ -6703,6 +8023,7 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42734>
 
     Annotations: 
+        obo:IAO_0000115 "A device designed to prevent conception through local or systemic effect, such as a barrier contraceptive, an intrauterine device, or a means of preventing ovulation."@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/348649005"^^xsd:anyURI,
         rdfs:label "contraceptive device"@en,
         schema:alternateName "contraceptive devices"@en,
@@ -7373,8 +8694,13 @@ Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92760>
 Class: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93088>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q25326508"^^xsd:anyURI,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93088"^^xsd:anyURI,
+        Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10058168"^^xsd:anyURI,
         schema:alternateName "penile implants"@en,
+        obo:IAO_0000115 "An implanted device that, usually, enables the penis to become erect. Most commonly used in the treatment of erectile dysfunction and Peyronie's disease, as opposed to artificial enlargement of the organ."@en,
         rdfs:label "penile implant"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Penile_implant"^^xsd:anyURI,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000989>
     
     SubClassOf: 
@@ -12518,8 +13844,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000469>
     Annotations: 
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
         rdfs:label "lateral surface of ovary"@en,
-        Property:P1323 "A09.1.01.004",
-        obo:IAO_0000115 "The surface of the ovary further from the organ's midline."@en
+        obo:IAO_0000115 "The surface of the ovary further from the organ's midline."@en,
+        Property:P1323 "A09.1.01.004"
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma18591>
@@ -13305,12 +14631,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/000526>
         rdfs:label "sexually transmitted disease"@en,
         schema:alternateName "sexually transmitted diseases"@en,
         
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Sexually_transmitted_diseases_and_infections"^^xsd:anyURI
+        oboInOwl:hasBroadSynonym "sexually transmitted diseases and infections‎"@en,
+        
             Annotations: schema:alternateName "sexually transmitted infectious diseases"@en, 
                          Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/8098009"^^xsd:anyURI
         oboInOwl:hasSynonym "sexually transmitted infectious disease"@en,
-        
-            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Sexually_transmitted_diseases_and_infections"^^xsd:anyURI
-        oboInOwl:hasBroadSynonym "sexually transmitted diseases and infections‎"@en,
         rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/000529>,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85142634"^^xsd:anyURI,
         
@@ -22067,8 +23393,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001257>
 Class: <http://purl.bioontology.org/ontology/GSSO/001258>
 
     Annotations: 
-        schema:alternateName "pedophilic disorders"@en,
         Property:P1930 302.2,
+        schema:alternateName "pedophilic disorders"@en,
         rdfs:label "pedophilic disorder"@en
     
     SubClassOf: 
@@ -27239,11 +28565,18 @@ Class: <http://purl.bioontology.org/ontology/GSSO/001673>
 Class: <http://purl.bioontology.org/ontology/GSSO/001674>
 
     Annotations: 
-        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000473>,
-        schema:alternateName "testicular implants"@en,
+        obo:IAO_0000115 "An artificial replacement for a testicle that has been lost either through surgery or injury. They can also be used in select masculinizing gender confirmation surgeries."@en,
         
-            Annotations: schema:alternateName "testicular prostheses"@en
+            Annotations: schema:alternateName "testicular prostheses"@en, 
+                         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/78498003"^^xsd:anyURI
         oboInOwl:hasRelatedSynonym "testicular prosthesis"@en,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000473>,
+        
+            Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Prosthetic_testicle"^^xsd:anyURI, 
+                         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q26777113"^^xsd:anyURI, 
+                         schema:alternateName "prosthetic testicles"@en
+        oboInOwl:hasRelatedSynonym "prosthetic testicle"@en,
+        schema:alternateName "testicular implants"@en,
         rdfs:label "testicular implant"@en
     
     SubClassOf: 
@@ -34012,6 +35345,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/002215>
 Class: <http://purl.bioontology.org/ontology/GSSO/002216>
 
     Annotations: 
+        obo:IAO_0000115 "A type of prosthetic created for the purpose of simulating an intact human hymen."@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Artificial_hymen"^^xsd:anyURI, 
                          schema:alternateName "artificial hymens"@en
@@ -42239,7 +43573,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003120>
         
             Annotations: schema:alternateName "recreation facilities"@en
         oboInOwl:hasSynonym "recreation facility"@en,
-        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/257657002"^^xsd:anyURI
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/257657002"^^xsd:anyURI,
+        obo:IAO_0000115 "A facility for recreation, an activity or activities of leisure."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003119>
@@ -42249,6 +43584,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003121>
 
     Annotations: 
         rdfs:label "entertainment venue"@en,
+        obo:IAO_0000115 "A venue which provides some form or multiple forms of entertainment."@en,
         oboInOwl:hasSynonym "entertainment industry venue"@en
     
     SubClassOf: 
@@ -42260,6 +43596,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003122>
     Annotations: 
         oboInOwl:hasExactSynonym "sex-on-premises venue"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sex_on_premises_venue"^^xsd:anyURI,
+        obo:IAO_0000115 "Any of various commercial venues expressly for engaging in public sex, as opposed to spaces such as parks which may be used for sexual behavior but are intended for general public use."@en,
         oboInOwl:hasRelatedSynonym "sex industry premises"@en,
         oboInOwl:hasRelatedSynonym "sex services premises"@en,
         oboInOwl:hasRelatedSynonym "sex industry venue"@en,
@@ -42277,7 +43614,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003123>
         oboInOwl:hasExactSynonym "MSM sex-on-premises venue"@en,
         rdfs:label "MSM sex on premises venue"@en,
         oboInOwl:hasSynonym "MSM SPOV"@en,
-        oboInOwl:hasSynonym "men who have sex with men SOPV"@en
+        oboInOwl:hasSynonym "men who have sex with men SOPV"@en,
+        obo:IAO_0000115 "Any of various commercial venues expressly for men engaging in public sex with other men, as opposed to spaces such as parks which may be used for sexual behavior but are intended for general public use."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003122>
@@ -45546,6 +46884,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003403>
 Class: <http://purl.bioontology.org/ontology/GSSO/003405>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Clothing"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Clothing"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "clothes"@en,
+        
+            Annotations: schema:alternateName "garments"@en, 
+                         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/272180002"^^xsd:anyURI
+        oboInOwl:hasSynonym "garment"@en,
         Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86930"^^xsd:anyURI,
         
             Annotations: wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85027160"^^xsd:anyURI, 
@@ -45554,9 +46899,12 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003405>
                          Property:P1149 "TT507", 
                          Property:P1149 "TX340"
         oboInOwl:hasBroadSynonym "clothing and dress"@en,
+        obo:IAO_0000115 "Fabric or other material used to cover the body. Distinctive apparel worn by members of an organization."@en,
+        obo:IAO_0000115 "A covering designed to be worn on the body."@en,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D003020"^^xsd:anyURI,
+        rdfs:label "clothing"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh99005081"^^xsd:anyURI,
-        rdfs:label "clothing"@en
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q11460"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/STY/T073>
@@ -45565,7 +46913,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003405>
 Class: <http://purl.bioontology.org/ontology/GSSO/003406>
 
     Annotations: 
-        rdfs:label "outer garment"@en
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228221004"^^xsd:anyURI,
+        rdfs:label "outer garment"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/List_of_outerwear"^^xsd:anyURI,
+        schema:alternateName "outer garments"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Outerwear"^^xsd:anyURI,
+        oboInOwl:hasSynonym "outerwear"@en,
+        obo:IAO_0000115 "Clothing (such as a dress) worn over one's underwear."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003405>
@@ -45574,7 +46928,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003406>
 Class: <http://purl.bioontology.org/ontology/GSSO/003407>
 
     Annotations: 
-        rdfs:label "indoor outer garment"@en
+        rdfs:label "indoor outer garment"@en,
+        
+            Annotations: schema:alternateName "outer house garments"@en
+        oboInOwl:hasSynonym "outer house garment"@en,
+        obo:IAO_0000115 "Clothing worn over one's undergarments, typically or primarily indoors."@en,
+        
+            Annotations: schema:bookEdition 10
+        Property:P1036 646.43,
+        schema:alternateName "indoor outer garments"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003406>
@@ -45583,6 +46945,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003407>
 Class: <http://purl.bioontology.org/ontology/GSSO/003408>
 
     Annotations: 
+        
+            Annotations: schema:alternateName "outer garments"@en
+        Property:P1813 "outer garment"@en,
+        
+            Annotations: schema:bookEdition 10
+        Property:P1036 646.45,
+        schema:alternateName "outdoor outer garments"@en,
+        obo:IAO_0000115 "Clothing (such as a rain jacket) worn over one's clothes, to protect them (e.g. against rain) when outside."@en,
         rdfs:label "outdoor outer garment"@en
     
     SubClassOf: 
@@ -45592,11 +46962,14 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003408>
 Class: <http://purl.bioontology.org/ontology/GSSO/003409>
 
     Annotations: 
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh97005993"^^xsd:anyURI,
         schema:alternateName "dresses"@en,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/228204008"^^xsd:anyURI,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
         rdfs:label "dress"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Dress"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Dresses"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Dresses"^^xsd:anyURI,
+        obo:IAO_0000115 "A garment consisting of a skirt with an attached bodice (or a matching bodice giving the effect of a one-piece garment). It consists of a top piece that covers the torso and hangs down over the legs. A dress can be any one-piece garment containing a skirt of any length and can be formal or casual."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003407>
@@ -46017,6 +47390,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003445>
 Class: <http://purl.bioontology.org/ontology/GSSO/003447>
 
     Annotations: 
+        obo:IAO_0000115 "A business whose primary function is the serving of alcoholic beverages for consumption on the premises."@en,
         rdfs:label "drinking establishment"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Drinking_establishment"^^xsd:anyURI,
         schema:alternateName "drinking establishments"@en,
@@ -46024,7 +47398,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003447>
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bar"^^xsd:anyURI, 
                          oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Bars"^^xsd:anyURI, 
-                         schema:alternateName "bars"@en
+                         oboInOwl:hasExactSynonym "drinking bars"@en, 
+                         oboInOwl:hasSynonym "drinking bar"@en, 
+                         schema:alternateName "bars"@en, 
+                         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/225733006"^^xsd:anyURI
         oboInOwl:hasNarrowSynonym "bar"@en
     
     SubClassOf: 
@@ -46050,6 +47427,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003448>
         
             Annotations: schema:alternateName "queer bars"@en
         oboInOwl:hasNarrowSynonym "queer bar"@en,
+        obo:IAO_0000115 "A business serving mostly LGBTQIA+ persons whose primary function is the serving of alcoholic beverages for consumption on the premises."@en,
         rdfs:label "LGBTQ drinking establishment"@en,
         schema:alternateName "LGBTQ drinking establishments"@en
     
@@ -48831,8 +50209,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/003678>
         oboInOwl:hasRelatedSynonym "diaperism"@en,
         rdfs:label "diaper fetishism"@en,
         oboInOwl:hasRelatedSynonym "diaper fetish"@en,
-        obo:IAO_0000115 "a type of garment fetish in which a person derives pleasure from the diaper and/or use of it."@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Diaper_fetishism"^^xsd:anyURI
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Diaper_fetishism"^^xsd:anyURI,
+        obo:IAO_0000115 "a type of garment fetish in which a person derives pleasure from the diaper and/or use of it."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/001309>
@@ -53145,6 +54523,10 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004108>
         schema:alternateName "urogenital implants"@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0004122>,
         rdfs:label "urogenital implant"@en,
+        
+            Annotations: schema:alternateName "genitourinary implants"@en
+        oboInOwl:hasSynonym "genitourinary implant"@en,
+        obo:IAO_0000115 "Implants which form part of the genitourinary system."@en,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/303497001"^^xsd:anyURI
     
     SubClassOf: 
@@ -53997,7 +55379,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004168>
                          Property:P1813 "gay bar"@en
         oboInOwl:hasNarrowSynonym "gay male bar"@en,
         rdfs:label "gay male drinking establishment"@en,
-        schema:alternateName "gay male drinking establishments"@en
+        schema:alternateName "gay male drinking establishments"@en,
+        obo:IAO_0000115 "A business serving mostly gay men whose primary function is the serving of alcoholic beverages for consumption on the premises."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/003448>
@@ -54006,6 +55389,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004168>
 Class: <http://purl.bioontology.org/ontology/GSSO/004169>
 
     Annotations: 
+        obo:IAO_0000115 "A business serving mostly lesbians whose primary function is the serving of alcoholic beverages for consumption on the premises."@en,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Lesbian_bar"^^xsd:anyURI, 
                          schema:alternateName "lesbian bars"@en
@@ -54208,6 +55592,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004209>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Brothels"^^xsd:anyURI,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/257574008"^^xsd:anyURI,
         schema:alternateName "brothels"@en,
+        obo:IAO_0000115 "A place where people engage in sexual activity with sex workers."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Brothel"^^xsd:anyURI
     
     SubClassOf: 
@@ -54219,6 +55604,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004210>
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Brothel#Sex_doll_brothel"^^xsd:anyURI,
         rdfs:label "sex doll brothel"@en,
+        obo:IAO_0000115 "A brothel which offers only dolls."@en,
         schema:alternateName "sex doll brothels"@en
     
     SubClassOf: 
@@ -54228,7 +55614,9 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004210>
 Class: <http://purl.bioontology.org/ontology/GSSO/004211>
 
     Annotations: 
+        obo:IAO_0000115 "A brothel attached to or otherwise related to members of the military, military units, or other military groups."@en,
         schema:alternateName "military brothels"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Brothel#Military_brothels"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Military_brothels"^^xsd:anyURI,
         rdfs:label "military brothel"@en
     
@@ -54243,6 +55631,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004212>
         
             Annotations: schema:alternateName "swinger clubs"@en
         oboInOwl:hasRelatedSynonym "swinger club"@en,
+        obo:IAO_0000115 "Formal or informal groups that organize sex-related activities, or establishments where patrons can engage in sex acts with other patrons. A sex club or swinger club differs from a brothel in that while sex club patrons pay an entrance fee and may pay an annual membership fee, they only have an opportunity to have sex with other patrons, not with sex workers."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Sex_club"^^xsd:anyURI,
         
             Annotations: schema:alternateName "lifestyle clubs"@en
@@ -54258,6 +55647,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004213>
     Annotations: 
         schema:alternateName "love hotels"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Love_hotel"^^xsd:anyURI,
+        obo:IAO_0000115 "A type of short-stay hotel found around the world operated primarily for the purpose of allowing guests privacy for sexual activities. The name originates from \"Hotel Love\" in Osaka, which was built in 1968 and had a rotating sign."@en,
         rdfs:label "love hotel"@en
     
     SubClassOf: 
@@ -54268,6 +55658,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004214>
 
     Annotations: 
         rdfs:label "WSW sex on premises venue"@en,
+        obo:IAO_0000115 "Any of various commercial venues expressly for women engaging in public sex with other women, as opposed to spaces such as parks which may be used for sexual behavior but are intended for general public use."@en,
         schema:alternateName "WSW sex on premises venues"@en
     
     SubClassOf: 
@@ -54401,10 +55792,15 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004224>
 
     Annotations: 
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/264370008"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q33506"^^xsd:anyURI,
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D009144"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Museums"^^xsd:anyURI,
-        rdfs:label "museum"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh00006830"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Museum"^^xsd:anyURI,
+        rdfs:label "museum"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85088723"^^xsd:anyURI,
+        obo:IAO_0000115 "An institution that cares for (conserves) a collection of artifacts and other objects of artistic, cultural, historical, or scientific importance."@en,
+        Property:P1149 "AM",
         schema:alternateName "museums"@en
     
     SubClassOf: 
@@ -54418,6 +55814,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004225>
         Property:P486 "http://purl.bioontology.org/ontology/MESH/D007990"^^xsd:anyURI,
         rdfs:label "library"@en,
         schema:alternateName "libraries"@en,
+        obo:IAO_0000115 "A curated collection of sources of information and similar resources, selected by experts and made accessible to a defined community for reference or borrowing. It provides physical or digital access to material, and may be a physical location or a virtual space, or both."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Library"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Libraries"^^xsd:anyURI
     
@@ -54429,6 +55826,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004226>
 
     Annotations: 
         rdfs:label "LGBTQ museum"@en,
+        obo:IAO_0000115 "A museum that covers LGBTQIA+ topics, including LGBTQIA+ history and culture."@en,
         
             Annotations: schema:alternateName "queer museums"@en
         oboInOwl:hasRelatedSynonym "queer museum"@en,
@@ -54449,7 +55847,8 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004227>
 
     Annotations: 
         schema:alternateName "lesbian museums"@en,
-        rdfs:label "lesbian museum"@en
+        rdfs:label "lesbian museum"@en,
+        obo:IAO_0000115 "A museum that covers lesbian topics, including lesbian history and culture."@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004226>
@@ -54462,6 +55861,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004228>
             Annotations: schema:alternateName "gay museums"@en
         Property:P1813 "gay museum"@en,
         schema:alternateName "gay male museums"@en,
+        obo:IAO_0000115 "A museum that covers gay male topics, including gay male history and culture."@en,
         rdfs:label "gay male museum"@en
     
     SubClassOf: 
@@ -54472,6 +55872,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004229>
 
     Annotations: 
         schema:alternateName "bisexual museums"@en,
+        obo:IAO_0000115 "A museum that covers bisexual topics, including bisexual history and culture."@en,
         rdfs:label "bisexual museum"@en
     
     SubClassOf: 
@@ -54481,6 +55882,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004229>
 Class: <http://purl.bioontology.org/ontology/GSSO/004230>
 
     Annotations: 
+        obo:IAO_0000115 "A museum that covers transgender topics, including transgender history and culture."@en,
         rdfs:label "transgender museum"@en,
         schema:alternateName "transgender museums"@en
     
@@ -54491,10 +55893,16 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004230>
 Class: <http://purl.bioontology.org/ontology/GSSO/004231>
 
     Annotations: 
+        Property:P1149 "Z675.M4",
         
             Annotations: schema:alternateName "health sciences libraries"@en
         oboInOwl:hasBroadSynonym "health sciences library"@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85082970"^^xsd:anyURI,
+        obo:IAO_0000115 "A library designed to assist physicians, health professionals, students, patients, consumers, medical researchers, and information specialists in finding health and scientific information to improve, update, assess, or evaluate health care."@en,
         rdfs:label "medical library"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Medical_library"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Medical_libraries"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q6150991"^^xsd:anyURI,
         schema:alternateName "medical libraries"@en
     
     SubClassOf: 
@@ -54504,7 +55912,11 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004231>
 Class: <http://purl.bioontology.org/ontology/GSSO/004233>
 
     Annotations: 
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85008026"^^xsd:anyURI,
         rdfs:label "art museum"@en,
+        obo:IAO_0000115 "A building or space for the display of art, usually from the museum's own collection."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q207694"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Art_museum"^^xsd:anyURI,
         schema:alternateName "art museums"@en
     
     SubClassOf: 
@@ -54514,7 +55926,13 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004233>
 Class: <http://purl.bioontology.org/ontology/GSSO/004234>
 
     Annotations: 
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Museum#History_museums"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "historical museums"@en
+        oboInOwl:hasSynonym "historical museum"@en,
         rdfs:label "history museum"@en,
+        obo:IAO_0000115 "A museum that covers the knowledge of history and its relevance to the present and future. Some cover specialized curatorial aspects of history or a particular locality; others are more general. Such museums contain a wide range of objects, including documents, artifacts of all kinds, art, archaeological objects. Antiquities museums specialize in more archaeological findings."@en,
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85061198"^^xsd:anyURI,
         schema:alternateName "history museums"@en
     
     SubClassOf: 
@@ -54879,6 +56297,7 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004272>
         schema:alternateName "glory holes"@en,
         oboInOwl:hasExactSynonym "glory-hole"@en,
         rdfs:label "glory hole"@en,
+        obo:IAO_0000115 "A hole in a wall, or other partition, often between public lavatory cubicles or adult video arcade booths and lounges, for people to engage in sexual activity or observe the person in the next cubicle while one or both parties masturbate."@en,
         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Glory_hole_(sexual_slang)"^^xsd:anyURI
     
@@ -55703,7 +57122,23 @@ Class: <http://purl.bioontology.org/ontology/GSSO/004350>
 Class: <http://purl.bioontology.org/ontology/GSSO/004351>
 
     Annotations: 
-        rdfs:label "cock ring"@en
+        
+            Annotations: schema:alternateName "shaft rings"@en
+        oboInOwl:hasSynonym "shaft ring"@en,
+        
+            Annotations: schema:alternateName "C rings"@en
+        Property:P1813 "C ring"@en,
+        obo:IAO_0000115 "A ring worn around the penis, usually at the base. The primary purpose of wearing a cock ring is to restrict the flow of blood from the erect penis in order to produce a stronger erection or to maintain an erection for a longer period of time."@en,
+        
+            Annotations: schema:alternateName "penis rings"@en
+        oboInOwl:hasSynonym "penis ring"@en,
+        
+            Annotations: schema:alternateName "cockrings"@en
+        oboInOwl:hasExactSynonym "cockring"@en,
+        rdfs:label "cock ring"@en,
+        schema:alternateName "cock rings"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Cock_ring"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q10807"^^xsd:anyURI
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/GSSO/004349>
@@ -62842,8 +64277,8 @@ Class: <http://purl.bioontology.org/ontology/NCBITAXON/7776>
 
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Gnathostomata"^^xsd:anyURI,
-        rdfs:label "gnathostome"@en,
         Property:P685 "http://purl.bioontology.org/ontology/NCBITAXON/7776"^^xsd:anyURI,
+        rdfs:label "gnathostome"@en,
         obo:IAO_0000115 "The jawed vertebrates. Gnathostome diversity comprises roughly 60,000 species, which accounts for 99% of all living vertebrates. In addition to opposing jaws, living gnathostomes have teeth, paired appendages, and a horizontal semicircular canal of the inner ear, along with physiological and cellular anatomical characters such as the myelin sheathes of neurons."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q26214"^^xsd:anyURI,
         oboInOwl:hasSynonym "Gnathostomata"@en,
@@ -63310,7 +64745,11 @@ Class: <http://purl.bioontology.org/ontology/STY/T073>
         rdfs:label "manufactured object"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q22809652"^^xsd:anyURI,
         schema:alternateName "manufactured objects"@en,
-        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325"^^xsd:anyURI
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97325"^^xsd:anyURI,
+        
+            Annotations: schema:alternateName "manufactured materials"@en, 
+                         Property:P486 "http://purl.bioontology.org/ontology/MESH/D008420"^^xsd:anyURI
+        oboInOwl:hasRelatedSynonym "manufactured material"@en
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/STY/T072>
@@ -63339,6 +64778,35 @@ Class: <http://purl.bioontology.org/ontology/STY/T167>
     
     SubClassOf: 
         <http://purl.bioontology.org/ontology/STY/T072>
+    
+    
+Class: <http://purl.bioontology.org/ontology/STY/T168>
+
+    Annotations: 
+        Property:P1149 "GN407-GN411.5",
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2095"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Food"^^xsd:anyURI,
+        obo:IAO_0000115 "Any material that can be ingested by an organism."@en,
+        Property:P1149 "RA601-RA602",
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85050184"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Foods"^^xsd:anyURI,
+        obo:IAO_0000115 "Substances taken in by the body to provide nourishment."@en,
+        schema:alternateName "foods"@en,
+        
+            Annotations: schema:alternateName "food materials"@en
+        oboInOwl:hasRelatedSynonym "food material"@en,
+        Property:P1149 "TX341-TX641",
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62695"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D005502"^^xsd:anyURI,
+        Property:P683 "http://purl.obolibrary.org/obo/CHEBI_33290"^^xsd:anyURI,
+        rdfs:label "food"@en,
+        
+            Annotations: schema:alternateName "foodstuffs"@en
+        oboInOwl:hasSynonym "foodstuff"@en,
+        obo:IAO_0000115 "A group of materials of either plant, animal or artificial origin containing essential body nutrients that can be ingested by an organism to produce energy, stimulate growth, and maintain life."@en
+    
+    SubClassOf: 
+        <http://purl.bioontology.org/ontology/STY/T167>
     
     
 Class: <http://purl.bioontology.org/ontology/STY/T194>
@@ -63437,8 +64905,8 @@ Class: <http://purl.org/sig/ont/fma/fma0329058>
         Property:P1402 "http://purl.org/sig/ont/fma/fma0329058"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q61650489"^^xsd:anyURI,
         schema:alternateName "sets of anatomical clusters"@en,
-        obo:IAO_0000115 "A group of individual anatomical clusters."@en,
-        rdfs:label "set of anatomical clusters"@en
+        rdfs:label "set of anatomical clusters"@en,
+        obo:IAO_0000115 "A group of individual anatomical clusters."@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma55652>
@@ -63513,6 +64981,37 @@ Class: <http://purl.org/sig/ont/fma/fma14065>
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma82472>
+    
+    
+Class: <http://purl.org/sig/ont/fma/fma14540>
+
+    Annotations: 
+        obo:IAO_0000115 "Organ segment which is regional part of large intestine."@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma14540"^^xsd:anyURI,
+        rdfs:label "segment of large intestine"@en,
+        schema:alternateName "segments of large intestine"@en
+    
+    SubClassOf: 
+        <http://purl.org/sig/ont/fma/fma86140>
+    
+    
+Class: <http://purl.org/sig/ont/fma/fma14544>
+
+    Annotations: 
+        Property:P1402 "http://purl.org/sig/ont/fma/fma14544"^^xsd:anyURI,
+        Property:P486 "http://purl.bioontology.org/ontology/MESH/D012007"^^xsd:anyURI,
+        oboInOwl:hasRelatedSynonym "rectal"@en,
+        rdfs:label "rectum"@en,
+        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0001052"^^xsd:anyURI,
+        obo:IAO_0000115 "The distal segment of the large intestine, between the sigmoid colon and the anal canal."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Rectum"^^xsd:anyURI,
+        obo:IAO_0000115 "The terminal portion of the gastrointestinal tract, extending from the rectosigmoid junction to the anal canal."@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12390"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q158716"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Rectum"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://purl.org/sig/ont/fma/fma14540>
     
     
 Class: <http://purl.org/sig/ont/fma/fma15703>
@@ -63663,9 +65162,9 @@ Class: <http://purl.org/sig/ont/fma/fma17759>
 
     Annotations: 
         rdfs:label "surface of uterus"@en,
-        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>,
         obo:IAO_0000115 "The internal and external surfaces of the uterus."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma17759"^^xsd:anyURI,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>,
         oboInOwl:hasSynonym "uterine surface"@en
     
     SubClassOf: 
@@ -63691,8 +65190,8 @@ Class: <http://purl.org/sig/ont/fma/fma17770>
     Annotations: 
         oboInOwl:hasSynonym "intestinal surface of uterus"@en,
         Property:P1323 "A09.1.03.006",
-        Property:P1402 "http://purl.org/sig/ont/fma/fma17770"^^xsd:anyURI,
         obo:IAO_0000115 "The anatomical surface which makes up the posterior part of the uterus."@en,
+        Property:P1402 "http://purl.org/sig/ont/fma/fma17770"^^xsd:anyURI,
         rdfs:label "posterior surface of uterus"@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000995>
     
@@ -64482,10 +65981,10 @@ Class: <http://purl.org/sig/ont/fma/fma24208>
         obo:IAO_0000115 "Anatomical surface, which is the internal or external surface of an organ."@en,
         rdfs:label "surface of organ"@en,
         terms:hasPart <http://purl.org/sig/ont/fma/fma24210>,
+        schema:alternateName "surfaces of organ"@en,
         
             Annotations: schema:alternateName "organ surfaces"@en
-        oboInOwl:hasSynonym "organ surface"@en,
-        schema:alternateName "surfaces of organ"@en
+        oboInOwl:hasSynonym "organ surface"@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma242980>
@@ -64798,8 +66297,8 @@ Class: <http://purl.org/sig/ont/fma/fma322142>
         rdfs:label "border of ovary"@en,
         oboInOwl:hasSynonym "ovarian border"@en,
         obo:IAO_0000115 "Any and all borders of the ovary, in particular the mesovarian (or anterior) border and the free (or posterior) border."@en,
-        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/279908007"^^xsd:anyURI,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
         Property:P1402 "http://purl.org/sig/ont/fma/fma322142"^^xsd:anyURI
     
     SubClassOf: 
@@ -64930,8 +66429,8 @@ Class: <http://purl.org/sig/ont/fma/fma45642>
         obo:IAO_0000115 "An external genital phenotype related in some form or fashion to the product and/or maintenance of male gametes or other processes involving male metes."@en,
         oboInOwl:hasExactSynonym "external genitalia, male"@en,
         rdfs:comment "Note that \"male\" simply describes the gamete of the genital system, not the gender of the human to which the genital system belongs."@en,
-        oboInOwl:hasNarrowSynonym "male external genitalia, NOS"@en,
         oboInOwl:hasExactSynonym "external male genitalia"@en,
+        oboInOwl:hasNarrowSynonym "male external genitalia, NOS"@en,
         Property:P1813 "male genitalia"@en,
         rdfs:label "male external genitalia"@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma45642"^^xsd:anyURI
@@ -64950,11 +66449,11 @@ Class: <http://purl.org/sig/ont/fma/fma45643>
         Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0004176"^^xsd:anyURI,
         terms:replaces "external genitals"@en,
         Property:P1813 <http://purl.bioontology.org/ontology/GSSO/001589>,
+        obo:IAO_0000115 "The outer organs related to sexual activity and/or reproductive processes."@en,
         
             Annotations: schema:alternateName "external sex organs"@en
         terms:replaces "external sex organ"@en,
         rdfs:label "external genitalia"@en,
-        obo:IAO_0000115 "The outer organs related to sexual activity and/or reproductive processes."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma45643"^^xsd:anyURI
     
     SubClassOf: 
@@ -65020,8 +66519,8 @@ Class: <http://purl.org/sig/ont/fma/fma45655>
         oboInOwl:hasNarrowSynonym "male internal genitalia, NOS"@en,
         oboInOwl:hasExactSynonym "internal male genitalia"@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma45655"^^xsd:anyURI,
-        rdfs:label "male internal genitalia"@en,
         Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0004054"^^xsd:anyURI,
+        rdfs:label "male internal genitalia"@en,
         obo:IAO_0000115 "An internal genital phenotype related in some form or fashion to the product and/or maintenance of male gametes or other processes involving male gametes."@en,
         rdfs:comment "Note that \"male\" simply describes the gamete of the genital system, not the gender of the human to which the genital system belongs."@en
     
@@ -65472,8 +66971,8 @@ Class: <http://purl.org/sig/ont/fma/fma66290>
         obo:IAO_0000115 "A boundary entity of the ovary, each instance of which has one spatial dimension."@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
         schema:alternateName "anatomical lines of ovary"@en,
-        rdfs:label "anatomical line of ovary"@en,
-        Property:P1402 "http://purl.org/sig/ont/fma/fma66290"^^xsd:anyURI
+        Property:P1402 "http://purl.org/sig/ont/fma/fma66290"^^xsd:anyURI,
+        rdfs:label "anatomical line of ovary"@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma242999>
@@ -65616,12 +67115,12 @@ Class: <http://purl.org/sig/ont/fma/fma70752>
         obo:IAO_0000115 "Individual hairs taken together as a set."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma70752"^^xsd:anyURI,
         terms:hasPart <http://purl.org/sig/ont/fma/fma53667>,
-        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0010164"^^xsd:anyURI,
         schema:alternateName "sets of hairs"@en,
+        Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0010164"^^xsd:anyURI,
+        rdfs:label "set of hairs"@en,
         
             Annotations: Property:P1554 "http://purl.obolibrary.org/obo/UBERON_0010164"^^xsd:anyURI
-        oboInOwl:hasSynonym "collection of hairs"@en,
-        rdfs:label "set of hairs"@en
+        oboInOwl:hasSynonym "collection of hairs"@en
     
     SubClassOf: 
         obo:UBERON_0034925,
@@ -65684,8 +67183,8 @@ Class: <http://purl.org/sig/ont/fma/fma75126>
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000992>,
         Property:P1402 "http://purl.org/sig/ont/fma/fma75126"^^xsd:anyURI,
         Property:P1323 "A09.1.01.006",
-        rdfs:label "mesovarian border of ovary"@en,
-        obo:IAO_0000115 "The anterior border of the ovary."@en
+        obo:IAO_0000115 "The anterior border of the ovary."@en,
+        rdfs:label "mesovarian border of ovary"@en
     
     SubClassOf: 
         <http://purl.org/sig/ont/fma/fma66290>
@@ -65755,10 +67254,10 @@ Class: <http://purl.org/sig/ont/fma/fma76510>
         rdfs:label "set of vaginal rugae"@en,
         Property:P1323 "A09.1.04.012",
         Property:P1813 "vaginal rugae"@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Vaginal_rugae"^^xsd:anyURI,
         schema:alternateName "sets of vaginal rugae"@en,
-        oboInOwl:hasNarrowSynonym "vaginal rugae, NOS"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Vaginal_rugae"^^xsd:anyURI,
         Property:P1402 "http://purl.org/sig/ont/fma/fma76510"^^xsd:anyURI,
+        oboInOwl:hasNarrowSynonym "vaginal rugae, NOS"@en,
         Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000996>,
         obo:IAO_0000115 "Structures of the vagina that are transverse ridges formed out of the supporting tissues and vaginal epithelium. Some conditions can cause the disappearance of vaginal rugae and are usually associated with childbirth and prolapse of pelvic structures."@en
     
@@ -65884,8 +67383,8 @@ Class: <http://purl.org/sig/ont/fma/fma78562>
 
     Annotations: 
         obo:IAO_0000115 "A grouping of regions of an organ."@en,
-        schema:alternateName "sets of organ regions"@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q27058128"^^xsd:anyURI,
+        schema:alternateName "sets of organ regions"@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma78562"^^xsd:anyURI,
         rdfs:label "set of organ regions"@en
     
@@ -67921,6 +69420,7 @@ Class: <http://semanticscience.org/resource/SIO_000956>
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1183543"^^xsd:anyURI
     
     SubClassOf: 
+        <http://purl.bioontology.org/ontology/STY/T073>,
         <http://semanticscience.org/resource/SIO_010462>
     
     
@@ -70469,6 +71969,7 @@ Class: obo:ENVO_00000000
 
     Annotations: 
         rdfs:label "geographic feature"@en,
+        obo:IAO_0000115 "Features of the Earth, typically those that were created naturally."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Geographical_feature"^^xsd:anyURI,
         schema:alternateName "geographic features"@en,
         
@@ -70486,7 +71987,13 @@ Class: obo:ENVO_00000002
             Annotations: schema:alternateName "artificial geographic features"@en
         oboInOwl:hasRelatedSynonym "artificial geographic feature"@en,
         rdfs:label "anthropogenic geographic feature"@en,
-        schema:alternateName "anthropogenic geographic features"@en
+        schema:alternateName "anthropogenic geographic features"@en,
+        
+            Annotations: oboInOwl:hasExactSynonym "man-made feature"@en, 
+                         oboInOwl:hasRelatedSynonym "man-made features"@en, 
+                         schema:alternateName "manmade features"@en
+        oboInOwl:hasSynonym "manmade feature"@en,
+        obo:IAO_0000115 "An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature. An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature."@en
     
     SubClassOf: 
         obo:ENVO_00000000
@@ -70495,6 +72002,7 @@ Class: obo:ENVO_00000002
 Class: obo:ENVO_00000070
 
     Annotations: 
+        obo:IAO_0000115 "A feature that has been constructed by deliberate human effort."@en,
         schema:alternateName "constructions"@en,
         rdfs:label "construction"@en
     
@@ -70506,11 +72014,14 @@ Class: obo:ENVO_00000073
 
     Annotations: 
         schema:alternateName "buildings"@en,
+        Property:P1748 "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80231"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Building"^^xsd:anyURI,
         
             Annotations: oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Buildings_and_structures"^^xsd:anyURI
         oboInOwl:hasBroadSynonym "buildings and structures"@en,
-        rdfs:label "building"@en
+        rdfs:label "building"@en,
+        obo:IAO_0000115 "A permanent walled and roofed construction."@en,
+        obo:IAO_0000115 "A structure that has a roof and walls and stands more or less permanently in one place."@en
     
     SubClassOf: 
         obo:ENVO_00000070
@@ -70532,6 +72043,7 @@ Class: obo:ENVO_01000781
 Class: obo:ENVO_01000813
 
     Annotations: 
+        obo:IAO_0000115 "A material part of an astronomical body."@en,
         schema:alternateName "astronomical body parts"@en,
         rdfs:label "astronomical body part"@en
     
@@ -70542,7 +72054,11 @@ Class: obo:ENVO_01000813
 Class: obo:ENVO_01000934
 
     Annotations: 
+        Property:P1149 "TX945-TX945.5",
+        wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85113249"^^xsd:anyURI,
+        obo:IAO_0000115 "A building within which food and drink are prepared and served to customers in exchange for money or other goods and/or services."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Restaurant"^^xsd:anyURI,
+        Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/257689006"^^xsd:anyURI,
         schema:alternateName "restaurants"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Restaurants"^^xsd:anyURI,
         rdfs:label "restaurant"@en
@@ -70556,6 +72072,7 @@ Class: obo:ENVO_01001222
     Annotations: 
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Commercial_buildings"^^xsd:anyURI,
         rdfs:label "commercial building"@en,
+        obo:IAO_0000115 "A building which is primarily used to facilitate the buying or selling of goods or services."@en,
         schema:alternateName "commercial buildings"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Commercial_building"^^xsd:anyURI
     
@@ -75894,8 +77411,8 @@ Class: obo:UBERON_0013759
         
             Annotations: Property:P1323 "A09.1.03.013"
         oboInOwl:hasRelatedSynonym "histological internal os of cervix"@en,
-        obo:IAO_0000115 "Opening of uterine cervix into the body of the uterus."@en,
         Property:P1402 "http://purl.org/sig/ont/fma/fma17747"^^xsd:anyURI,
+        obo:IAO_0000115 "Opening of uterine cervix into the body of the uterus."@en,
         rdfs:label "internal cervical os"@en,
         
             Annotations: Property:P1323 "A09.1.03.009"
@@ -76367,6 +77884,18 @@ Individual: <http://bioportal.bioontology.org/ontology/GSSO/004978>
         <http://bioportal.bioontology.org/ontology/GSSO/004976>
     
     
+Individual: <http://bioportal.bioontology.org/ontology/GSSO/005054>
+
+    Annotations: 
+        obo:IAO_0000115 "A specially designed ring which has been worn as a distinctive mark among BDSM practitioners, mainly in continental Europe — and especially the German-speaking countries — since the 1990s."@en,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q385876"^^xsd:anyURI,
+        rdfs:label "Ring of O"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Ring_of_O"^^xsd:anyURI
+    
+    Types: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005046>
+    
+    
 Individual: <http://books.google.com/books/?id=aQtjAAAAMAAJ>
 
     Annotations: 
@@ -76709,6 +78238,24 @@ Individual: <http://isni.org/isni/0000000121667523>
     
     Types: 
         <http://purl.bioontology.org/ontology/GSSO/004640>
+    
+    
+Individual: <http://isni.org/isni/0000000122225399>
+
+    Annotations: 
+        obo:IAO_0000115 "An American coffee company and coffeehouse chain. Starbucks was founded in Seattle, Washington in 1971."@en,
+        Property:P214 "https://viaf.org/viaf/141018612"^^xsd:anyURI,
+        oboInOwl:hasSynonym "Starbucks Coffee"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Starbucks"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Starbucks"^^xsd:anyURI,
+        rdfs:comment "Starbucks health insurance plans have covered gender confirmation surgery since 2012 and began covering a host of other surgeries once considered cosmetic in 2018. Such procedures included breast reduction or augmentation surgery, facial feminization surgeries, and hair transplantation."@en,
+        oboInOwl:hasSynonym "Starbucks Corporation"@en,
+        rdfs:label "Starbucks"@en,
+        Property:P213 "http://isni.org/isni/0000000122225399"^^xsd:anyURI,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q37158"^^xsd:anyURI
+    
+    Types: 
+        <http://bioportal.bioontology.org/ontology/GSSO/005078>
     
     
 Individual: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38025>
@@ -79065,17 +80612,17 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/001180>
         terms:isReplacedBy <http://purl.bioontology.org/ontology/GSSO/001181>,
         rdfs:label "womyn"@en,
         terms:isReferencedBy <https://www.worldcat.org/oclc/1044778005>,
+        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3569775"^^xsd:anyURI,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
-        schema:identifier "http://homosaurus.org/v2/womyn"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q3569775"^^xsd:anyURI
+        schema:identifier "http://homosaurus.org/v2/womyn"^^xsd:anyURI
     
     
 Individual: <http://purl.bioontology.org/ontology/GSSO/001181>
 
     Annotations: 
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Womxn"^^xsd:anyURI,
         rdfs:seeAlso <http://purl.bioontology.org/ontology/GSSO/001180>,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Womxn"^^xsd:anyURI,
         rdfs:label "womxn"@en,
         Property:P5191 <http://purl.bioontology.org/ontology/GSSO/000369>,
         rdfs:comment "\"Womxn\" was formed as a replacement for the oft criticized \"womyn\" in order to be more inclusive of transgender women and women of color (similar in use to \"Latinx\" instead of Latina or Latino)."@en,
@@ -83385,8 +84932,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/002604>
 Individual: <http://purl.bioontology.org/ontology/GSSO/002605>
 
     Annotations: 
-        rdfs:label "tey"@en,
         gold:PossessivePronoun <http://purl.bioontology.org/ontology/GSSO/002607>,
+        rdfs:label "tey"@en,
         gold:PossessivePronoun <http://purl.bioontology.org/ontology/GSSO/002608>,
         gold:PossessivePronoun <http://purl.bioontology.org/ontology/GSSO/002658>,
         gold:ReflexivePronoun <http://purl.bioontology.org/ontology/GSSO/002659>,
@@ -86848,8 +88395,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004238>
 
     Annotations: 
         Property:P1813 "TUA"@en,
-        oboInOwl:hasSynonym "The Transgender Usenet Archive"@en,
         Property:P170 "Avery Dame",
+        oboInOwl:hasSynonym "The Transgender Usenet Archive"@en,
         Property:P856 "http://transusenet.averydame.net/"^^xsd:anyURI,
         rdfs:label "Transgender Usenet Archive"@en
     
@@ -87251,8 +88798,8 @@ Individual: <http://purl.bioontology.org/ontology/GSSO/004525>
 
     Annotations: 
         obo:IAO_0000115 "A folk tale in which a person's vagina is said to contain teeth, with the associated implication that sexual intercourse might result in injury, emasculation, or castration for the person whose penis is involved. The topic of \"vagina dentata\" may also cover a rare medical condition affecting the vagina, in which case it is more accurately termed a vaginal dermoid cyst."@en,
-        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000996>,
         rdfs:label "vagina dentata"@en,
+        Property:P927 <http://purl.obolibrary.org/obo/UBERON_0000996>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Vagina_dentata"^^xsd:anyURI
     
     
