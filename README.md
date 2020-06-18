@@ -58,6 +58,10 @@ TBD
 
 ## Versioning
 
+Note that versions with "rdf_xml" in the title are in RDF/XML format, while those without utilize Manchester OWL syntax.
+
+Further, note that PURLs utilize the "1.0.1" syntax as to be backwards compatible with any of the 1.0.1 releases. The 1.0.0 release is not forward or backward compatible at the present time. It is recommended that users utilize 2.0.0.
+
 * 1.0.0 (24 June 2019)
 * 1.0.1a (11 September 2019)
 * 1.0.1b (12 September 2019)
