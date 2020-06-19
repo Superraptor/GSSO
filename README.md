@@ -6,7 +6,7 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 ### API Access
 
-The API for the GSSO can be accessed as part of the GSSO's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation).
+The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation).
 
 #### Getting Instances for a Class
 
