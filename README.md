@@ -6,7 +6,7 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 ### API Access
 
-The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation).
+The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation). Note that the following were written considering version 2.0.0.
 
 #### Getting Instances for a Class
 
@@ -69,6 +69,7 @@ Further, note that PURLs utilize the "1.0.1" syntax as to be backwards compatibl
 * 1.0.1d (13 September 2019)
 * 1.0.1e (13 September 2019)
 * 2.0.0 (18 June 2020)
+* 2.0.1 (22 July 2020)
 
 ## Contributing
 
