@@ -60,7 +60,11 @@ TBD
 
 Note that versions with "rdf_xml" in the title are in RDF/XML format, while those without utilize Manchester OWL syntax.
 
-Further, note that PURLs utilize the "1.0.1" syntax as to be backwards compatible with any of the 1.0.1 releases. The 1.0.0 release is not forward or backward compatible at the present time. It is recommended that users utilize 2.0.0.
+Further, note that PURLs utilize the "1.0.1" syntax as to be backwards compatible with any of the 1.0.1 releases. The 1.0.0 release is not forward or backward compatible at the present time. It is recommended that users utilize 2.0.0. 
+
+Version 2.0.1 was created in an attempt to fix PURLs within the NCBO BioPortal version of GSSO so as to be more accessible, but it did not load as expected. We are in contact with the NCBO BioPortal team to attempt to fix this. Version 2.0.2 was another failed attempt, and does not function correctly (and therefore has not been updated).
+
+Version 2.0.3 returns to the 2.0.0 PURLs and includes additional new Homosaurus mappings, mappings from the Leather Archives and Museum (LA&M), and mappings from the GLBT Historical Society's Archives.
 
 * 1.0.0 (24 June 2019)
 * 1.0.1a (11 September 2019)
@@ -70,10 +74,12 @@ Further, note that PURLs utilize the "1.0.1" syntax as to be backwards compatibl
 * 1.0.1e (13 September 2019)
 * 2.0.0 (18 June 2020)
 * 2.0.1 (22 July 2020)
+* 2.0.2 (N/A)
+* 2.0.3 (TBA)
 
 ## Contributing
 
-Please feel free to contribute! If there is a term or terms that include unsatisfactory information, broken links, derogatory terminology that is not appropriately marked, please contact us!
+Please feel free to contribute! If there is a term or terms that include unsatisfactory information, broken links, derogatory terminology that is not appropriately marked, please contact us! Additionally, we are attempting to include as much information from disparate archives as possible. If you or someone you know runs an LGBTQIA+ and/or sex archive with a controlled terminology, let us know!
 
 A very basic search/browse interface of version 1.0.0 is located [here](http://homepages.uc.edu/~kronkcj/gsso/) for the time being.
 
