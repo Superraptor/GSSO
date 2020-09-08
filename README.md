@@ -6,9 +6,11 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 ### API Access
 
-The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation). Note that the following were written considering version 2.0.0.
+The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation). Note that the following were written considering version 2.0.0, and will be updated for version 2.0.4.
 
 #### Getting Instances for a Class
+
+WARNING: These API calls are being updated in version 2.0.4. They will be updated once the transition period has concluded. Thank you for your patience!
 
 In order to get instances for a given class, the BioPortal concept ID should be created from the class ID, for example:
 
@@ -75,17 +77,16 @@ Version 2.0.3 returns to the 2.0.0 PURLs and includes additional new Homosaurus 
 * 2.0.0 (18 June 2020)
 * 2.0.1 (22 July 2020)
 * 2.0.2 (N/A)
-* 2.0.3 (TBA)
+* 2.0.3 (N/A)
+* 2.0.4 (TBA)
 
 ## Contributing
 
 Please feel free to contribute! If there is a term or terms that include unsatisfactory information, broken links, derogatory terminology that is not appropriately marked, please contact us! Additionally, we are attempting to include as much information from disparate archives as possible. If you or someone you know runs an LGBTQIA+ and/or sex archive with a controlled terminology, let us know!
 
-A very basic search/browse interface of version 1.0.0 is located [here](http://homepages.uc.edu/~kronkcj/gsso/) for the time being.
+A very basic search/browse interface of version 1.0.0 is located [here](http://homepages.uc.edu/~kronkcj/gsso/) for the time being. This site has been deprecated as of 2020. A new demo site is available [here](https://gsso.research.cchmc.org/).
 
-An alpha version of 1.0.1 is also available on the NCBO BioPortal [here](http://bioportal.bioontology.org/ontologies/GSSO).
-
-The beta version 2.0.0. is available at the same URL.
+An alpha version of 2.0.4 is also available on the NCBO BioPortal [here](http://bioportal.bioontology.org/ontologies/GSSO).
 
 ## Authors
 
