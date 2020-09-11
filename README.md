@@ -4,7 +4,11 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 ## Usage
 
-If you would like to use the raw OWL files here, it is recommended that you download the Protégé program [here](https://protege.stanford.edu/) and open it in that program. Alternatively you can access the system via the NCBO BioPortal API (explained below) or via our website: https://gsso.research.cchmc.org/.
+If you would like to use the raw OWL files here, it is recommended that you download the Protégé program [here](https://protege.stanford.edu/) and open it in that program. Alternatively you can access the system via the NCBO BioPortal API (explained below) or via our website: https://gsso.research.cchmc.org/. It is recommended to use the OWL format (which is RDF/XML from 2.0.5 onward).
+
+### Website
+
+TBD.
 
 ### API Access
 
@@ -146,7 +150,8 @@ Version 2.0.3 returns to the 2.0.0 PURLs and includes additional new Homosaurus 
 * 2.0.1 (22 July 2020)
 * 2.0.2 (N/A)
 * 2.0.3 (N/A)
-* 2.0.4 (TBA)
+* 2.0.4 (N/A)
+* 2.0.5 (TBA)
 
 ## Contributing
 

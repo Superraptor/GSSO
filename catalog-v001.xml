@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1536450742560" name="https://github.com/Superraptor/GSSO" uri="gsso.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="http://edamontology.org/" uri="EDAM.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="http://github.com/Superraptor/GSSO" uri="releases/1.0.0/gsso_v1.0.0_rdf_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="http://purl.bioontology.org/ontology/GSSO" uri="releases/2.0.1/gsso_v2.0.1_rdf_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="http://purl.obolibrary.org/obo/gsso.owl" uri="gsso.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="https://github.com/Superraptor/GSSO" uri="releases/1.0.1/gsso_v1.0.1e_rdf_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="shadowed:https://github.com/Superraptor/GSSO" uri="releases/1.0.0/gsso_v1.0.0_manchester.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="shadowed:https://github.com/Superraptor/GSSO" uri="releases/2.0.0/gsso_v2.0.0_rdf_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="shadowed:https://github.com/Superraptor/GSSO" uri="releases/2.0.4/gsso_v2.0.4_rdf_xml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1599855580255" name="shadowed:https://github.com/Superraptor/GSSO" uri="releases/2.0.3/gsso_v2.0.3_rdf_xml.owl"/>
     </group>
 </catalog>
