@@ -6,45 +6,83 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 ### API Access
 
-The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation). Note that the following were written considering version 2.0.0, and will be updated for version 2.0.4.
+The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation). Note that first you must create an NCBO BioPortal account and obtain an API key, in order for most of these calls to work.
 
 #### Getting Instances for a Class
 
-WARNING: These API calls are being updated in version 2.0.4. They will be updated once the transition period has concluded. Thank you for your patience!
-
-In order to get instances for a given class, the BioPortal concept ID should be created from the class ID, for example:
+In order to get instances for a given class, the BioPortal concept ID should be created from the class ID. After 2.0.4, URIs were changed to be OBO Foundry compliant. All IDs all the same, but the rest of the URI has changed, i.e.:
 
 ```
 http://purl.bioontology.org/ontology/GSSO/000047
 ```
 
-Becomes:
+And 
 
 ```
-http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FGSSO%2F000047
+http://purl.bioontology.org/ontology/GSSO/GSSO_000047
 ```
 
-The full URL for access is thus:
+Are now rendered as:
 
 ```
-http://data.bioontology.org/ontologies/GSSO/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FGSSO%2F000047/instances
+http://purl.obolibrary.org/obo/GSSO_000047
+```
+
+Because the BioPortal system requires encoded URLs, we will shift this into:
+
+```
+http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGSSO_000047
+```
+
+This can also be accomplished using any URL encoder, such as: https://www.urlencoder.org/.
+
+This is why the normal NCBO BioPortal link is rendered as:
+
+```
+https://bioportal.bioontology.org/ontologies/GSSO/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGSSO_000047
+```
+
+(however, note that `https://bioportal.bioontology.org/ontologies/GSSO/?p=classes&conceptid=http://purl.obolibrary.org/obo/GSSO_000047` will also work.)
+
+The full URL for access to the class is thus:
+
+```
+http://data.bioontology.org/ontologies/GSSO/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGSSO_000047/
 ```
 
 Note that this method will only grab instances from the current class, not from subclasses; i.e. the following:
 
 ```
-http://data.bioontology.org/ontologies/GSSO/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FGSSO%2F000140/instances
+http://data.bioontology.org/ontologies/GSSO/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGSSO_000140/instances
 ```
 
 Will pull LGBTQ slang, but not transgender slang.
 
+Note that if any of the following queries do not function, reattempt with just the identifier and note the full URL. Alternatively use the URL as a search term via the GSSO website itself if problems persist.
+
+For instance, the Homosaurus link mapping can be obtained using:
+
+```
+https://gsso.research.cchmc.org/#!/entry?iri=http://homosaurus.org/v2/LGBTQPeople
+```
+
+on the website.
+
 #### Getting GSSO from Homosaurus
 
-TBD
+Simply use the Homosaurus URI in the `q` parameter, for instance with `http://homosaurus.org/v2/LGBTQPeople`:
+
+```
+http://data.bioontology.org/search?q=http://homosaurus.org/v2/LGBTQPeople&ontologies=GSSO&also_search_properties=true
+```
 
 #### Getting GSSO from LCSH
 
-TBD
+Obtain an LCSH URI, such as `http://id.loc.gov/authorities/subjects/sh2007003708` and add it as follows:
+
+```
+http://data.bioontology.org/search?q=http://id.loc.gov/authorities/subjects/sh2007003708&ontologies=GSSO&also_search_properties=true
+```
 
 #### Getting GSSO from LCC
 
@@ -54,9 +92,37 @@ Getting the entry for "RC571" is implemented as follows:
 http://data.bioontology.org/search?q=RC571&ontologies=GSSO&also_search_properties=true
 ```
 
-#### Getting GSSO from Dewey Decimal System
+#### Getting GSSO from MeSH
 
-TBD
+MeSH such as `http://purl.bioontology.org/ontology/MESH/D063106` can be obtained with: 
+
+```
+http://data.bioontology.org/search?q=http://purl.bioontology.org/ontology/MESH/D063106&ontologies=GSSO&also_search_properties=true
+```
+
+#### Getting GSSO from Wikipedia
+
+If you have a Wikipedia page URL or a Wikidata URL, you can attempt to add it as follows:
+
+```
+http://data.bioontology.org/search?q=https://en.wikipedia.org/wiki/Document&ontologies=GSSO&also_search_properties=true
+```
+
+#### Getting GSSO from NCI Thesaurus
+
+If you have an identifier such as C19498, simply append it to `http://purl.obolibrary.org/obo/NCIT_`, then form the query as follows:
+
+```
+http://data.bioontology.org/search?q=http://purl.obolibrary.org/obo/NCIT_C19498&ontologies=GSSO&also_search_properties=true
+```
+
+#### Getting GSSO from SNOMED-CT
+
+If you have a SNOMED-CT identifier, such as `302960008`, append it to `http://purl.bioontology.org/ontology/SNOMEDCT/` and run the following:
+
+```
+http://data.bioontology.org/search?q=http://purl.bioontology.org/ontology/SNOMEDCT/302960008&ontologies=GSSO&also_search_properties=true
+```
 
 ## Versioning
 
