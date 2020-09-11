@@ -140,6 +140,8 @@ Version 2.0.1 was created in an attempt to fix PURLs within the NCBO BioPortal v
 
 Version 2.0.3 returns to the 2.0.0 PURLs and includes additional new Homosaurus mappings, mappings from the Leather Archives and Museum (LA&M), and mappings from the GLBT Historical Society's Archives.
 
+Versions 2.0.4 and 2.0.5 switch to OBO Foundry compliant PURLs, which will be maintained for all future versions.
+
 * 1.0.0 (24 June 2019)
 * 1.0.1a (11 September 2019)
 * 1.0.1b (12 September 2019)
