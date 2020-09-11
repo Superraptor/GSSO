@@ -4,6 +4,8 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 ## Usage
 
+If you would like to use the raw OWL files here, it is recommended that you download the Protégé program [here](https://protege.stanford.edu/) and open it in that program. Alternatively you can access the system via the NCBO BioPortal API (explained below) or via our website: https://gsso.research.cchmc.org/.
+
 ### API Access
 
 The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation). Note that first you must create an NCBO BioPortal account and obtain an API key, in order for most of these calls to work.
