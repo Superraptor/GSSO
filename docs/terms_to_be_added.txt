@@ -7,7 +7,7 @@
 - retribalization
 - restrictive covenant
 - resilience
-- reparation
+- reparation(s)
 - reconstruction
 - racial reasoning
 - racial realism / racial realist
@@ -91,7 +91,6 @@
 - anti-racialism
 - anti-anti-racism
 - anti-oppresion
-- Black Lives Matter (BLM)
 - Korean ginseng
 - Damiana tea concentrate
 - Vigorex forte
@@ -322,21 +321,11 @@
 - haptosis
 - furtling
 - gang bang
-- cultural colonialism
-- Demonic Other
-- double vision / double consciousness
-- Eurocentrism
-- Exotic other
-- hybridity / syncretism
+- syncretism
 - mimicry
 - negotiation
-- postcolonialism
-- postcolonial literary criticism
-- postcolonial literature
-- subalterns
 - unhomeliness
 - universalism
-- relationship minority(ies)
 - soft swap
 - hard swap
 - honeymooning
@@ -376,24 +365,19 @@
 - ochlophilia
 - handkerchief codes:
 	- add specific codes:
+		(code)
 		- black --> heavy SM
-		- blue, dark --> anal sex
-		- blue, light --> oral sex
-		- blue, robin's egg --> light SM
-		- brown --> coprophilia
+		- [X] blue, robin's egg --> light SM
 		- gray --> bondage
-		- green --> sex work
-		- lavender --> group sex
 		- lemon --> catheters
-		- maroon --> vampirism / menstruating
+		- [X] maroon --> vampirism / menstruating
 		- mustard --> food games
 		- olive grab --> costumes / military
-		- orange --> anything
-		- purple --> piercing
-		- red --> fisting
+		- [X] orange --> anything
+		- [X] purple --> piercing
 		- white --> novice
 		- white lace --> corsets, etc.
-		- yellow --> urophilia
+		(add _encoding_ --> handkerchief code)
 - harem(s)
 - gynecaeum
 - seraglio
@@ -840,3 +824,491 @@
 - necrobestialism
 - ophidicism
 - pseudozoophilia
+- tranecdote(s)
+- transgender-related stigma (TRS)
+- birth sex --> add note
+	- basically sex/gender on birth certificate
+		(at least according to some organizations)
+- "self-identified gender identity" (SIGI)
+- healthcare equality index (HEI)
+- LGBTQ-affirming health (LGBT-affirming health)
+- randomized controlled clinical trial (RCT)
+- clinical trial (CT)
+- affinity group(s) --> social/organizational groups for various 
+	affinities/identities
+- advertising
+- Alcoholism Center for Women
+- anti-nuclear movement
+- anti-Reagan movement
+- astrology
+- Braille
+- business
+- camp (as in a location)
+- Caribbean lesbian(s)
+- chorus(es)
+- college(s)
+- colleges and universities (broad syn. of "college")
+- craft(s) (as in, "arts and crafts")
+- Democratic Party [U.S.]
+- distributor(s)?
+- Equal Rights Amendment (ERA)
+- Freedom of Information Act (FOIA)
+- Gay Games
+- Pride celebration(s)
+	- narrow syn. Gay pride celebration(s)
+- graphic(s)?
+- humor
+- immigration
+- International Lesbian Movement
+- International Women's Day
+- Jewish lesbian(s)
+- land (as a geo-socio-political construct?)
+- Marches on Washington
+	- National March on Washington
+- marching band(s)
+- military
+- mime(s)
+- clown(s)
+- New York Women's School
+- nonviolence
+- Peace Corps
+- prison(s)
+- publisher(s) / press(es)
+- resistance
+- retreat(s) (as in the event a group of people go on)
+- school(s)
+- separatism (general concept)
+- socialism
+- Speakers Bureau
+- spinster(s)
+- stamp(s)
+- syllabi/syllabus
+- theater (in the sense of where stage plays/musicals are produced)
+- vegetarianism
+- women's buildings
+- women's encampment
+- women's political organization(s)
+- CARASA
+- shelter
+	- women's shelter(s)
+- anti-war movement(s)
+- organizing (activism process)
+- political movement(s)?
+- community struggle(s)
+- chemically free environment
+- recovery (in the context of drug/substance use?)
+- foster home(s)
+- foster care
+- parthenogenesis
+- custody / custody issue(s)
+- third world lesbian(s) --> needs a replacement term
+- alternative justice system
+- anarchy
+- animal right(s)
+- cross cultural perspective(s)
+- International/National Gay Archives
+	- Natalie Barney Edward Carpenter Library
+- GALAS(?)
+- New York Feminist Art Institute
+- Women's Building (Los Angeles)
+- atheism
+- journal/diary writing (process of writing in a personal
+	journal/diary?)
+- automobile repair(s)
+- aviation
+- band(s) [music]
+	- music band(s)?
+- bank(s) [financial]
+- carding(?)
+- bearded woman (bearded women)
+- bed and breakfast
+- Beijing + 5 Special Session, United Nations, June 2000
+- bias bill(s)?
+- bias incident(s)?
+- disabled woman / disabled man
+- disabled LGBTQ people
+	- disabled lesbians
+	- disabled gay men
+	- disabled transgender people
+	- disabled bisexual people
+- "physically challenged"?
+- book club(s)
+- booklist(s)
+- bookseller(s)
+
+- individual book stores / booksellers:
+	- Elysian Fields?
+	- Giovanni's Room?
+	- Beyond Words, Brooklyn
+	- Bluestockings
+	- Books Bohemia
+	- ClaireLight
+	- A Different Light
+	- Djuna Books
+	- Emma
+	- Feminist Herizon
+	- Herizon Books
+	- My Sister's Place
+	- ICI (Oakland, CA)
+	- Jane Addams
+	- Judith's Room
+	- Labyris
+	- Lammas
+	- Pandora Book Peddlers
+	- Old Wives Tales
+	- A Room Of Our Own
+	- Womanbooks
+	- Womanspace
+	- Women's Work
+- old wives tales --> replace with something?
+- Boy Scouts
+- Girl Scouts
+- Briggs Initiative
+- building takeovers
+- housing
+- A Calendar of Events for Lesbians and Gay People
+- Camp Sister Spirit
+- travel
+- celebration(s)
+- social life
+- chain letter(s)
+- chemically dependent
+- Cherry Grove
+- male child / male children
+- female child / female children
+- Christopher Street Liberation
+- Lesbian Pride Rally
+- Lesbian Pride Week
+- money
+- coalition(s)
+- co-counseling
+- collective process(es) / collective(s)
+- individual colleges/universities:
+	- Brown University
+	- City University of New York
+	- Columbia University / Barnard College
+	- Harvard University
+	- Hunter College
+	- University of Michigan / Oberlin
+	- New York University 
+	- Seven Sisters Schools
+	- Stanford University
+	- Yale University
+- Colorado Boycott
+- Commission on Human Rights
+- consciousness raising group(s)
+- consent form(s) / releases
+- constitution(s)
+- incorporation paper(s)
+- consumer(s)
+- contract(s)
+- credit union(s)
+- Cuban exile(s)
+- performance(s)
+- deaf
+- dying
+- defense committee
+- directory / directories
+- disc jockey(s) / DJs
+- distribution process
+- Old Lady Blue Jeans
+- job discrimination
+- (military) draft
+- militarism
+- "passing women"?
+- Dyke Marches
+- information economy
+- tax(es)
+- Rainbow Curriculum
+- ex-lesbian(s)
+- exhibit(s)
+- explorer(s)
+- fat liberation
+- FBI harassment
+- grand jury oppression
+- film criticism
+- Women Make Movies
+- international film festival
+- The NEW Festival
+- New York Gay and Lesbian Experimental Film Festival/MIX Fest
+- San Francisco International Lesbian and Gay Film Festival
+- women's film festival(s)
+- filmmaker(s)
+- protest(s) [event]
+- screening(s)
+- folklore
+- found image(s)
+- fund raising
+- funding
+- game(s)
+- gardening
+- government(s)
+- voting
+- graffiti
+- Greenwich Village
+- healing
+- "hobos"
+- Holocaust
+- hate mail
+- hotline(s)
+- house building
+- chronic fatigue syndrome
+- Initiative 13
+- intergenerational relationship(s)
+- interracial couple(s)
+- Irish American lesbian(s)
+- Islamic lesbian(s)
+- Italian American(s)
+- Jesse Jackson
+- Jewel Box Review
+- Jewish lesbian(s)
+- gay synagogue(s)
+- Congregation Beth Simchat Torah
+- union(s)
+- Stephanie Riethmiller case
+- Klu Klux Klan
+- The Ladder
+- Lambda Book Awards
+- Lavender Menace
+- Braschi Case
+- executive order(s)
+- gay teacher(s) / gay male teacher(s)
+- lesbian teacher(s)
+- GLIB Boston Supreme Court Hearing 1995
+- Association vs. Board of Education
+- Hardwick Decisions
+- State of Wisconsin
+- Upling vs. New York, 1990-1991
+- lawyer(s)
+- leadership
+- Left / Right / etc.
+- Supreme Court on Colorado Amendment 2
+- Briggs Amendment
+- Lesbian and Gay History Month
+- Lesbian Feminist Declaration of 1976
+- Lesbian Life Space (NY, 1973)
+- donor insemination(?)
+- narrative(s) / LGBTQ narrative(s)
+- Lesbian Mothers Custody Center
+- Lesbian Mothers National Defense FUnd
+- Lesbiana
+- Native American lesbians
+- Puerto Rican lesbians
+- single lesbians
+- Liberation News Service
+- mailing list(s)
+- martial art(S)
+- Fighting Woman News
+- self-defense
+- McCarthy Period
+- FBI surveillance
+- Amazon Media Project
+- midlife
+- Women's Pentagon Action
+- Moody Garden Gang
+- moral majority
+- motorcycle
+- mumia(?)
+- blues music
+- jazz music
+- classical music
+- LadySlipper Music
+- Olivia Records
+- Radical Rose Recording
+- Sisterfire
+- Womansound
+- drumming / drummers
+- punk music / hardcore music
+- New England Women's Musical Retreat
+- Alix Dobkin
+- Cris Williamson
+- Holly Near
+- Meg Christian
+- myth(s)
+- Nairobi Conference
+- name changing
+- National Lawyers Guild
+- Gay Caucus of Denver Guild
+- National Lesbian Conference
+- National March on Washington for Lesbian and Gay Rights
+- National Women's Conference
+- network(s)
+- New Alliance Party
+- nun(s)
+- Cardinal John O'Connor
+- opera
+- paperback(s)
+- peace camp(s)
+- penpal clubs
+- Peoples Convention
+- performance art
+- individual periodicals:
+	- Big Mama Rag
+	- The Body Politic
+	- Common Lives, Lesbian Lives
+	- Conditions
+	- DYKE and Tomato Publishing
+	- Gay Community News
+	- Heresies
+	- Circles of Lesbian Indexers(?)
+	- Lesbian Connection
+	- Lesbian Contradiction
+	- The Lesbian Insider/Insighter/Inciter
+	- The Lesbian Tide
+	- On Our Backs
+	- Plexus
+	- Signs
+	- Sinister Wisdom
+	- Sojourner
+	- Thirteenth Moon
+	- Womanews
+	- Women Writing News
+- LGBTQ photographers / lesbian photographer
+- police harassment
+- policewomen
+- David Dinkins
+- Edward Koch
+- power (theory)
+- homeless people / homeless women
+- Bedford Hills (NY)
+- letters from prisoners
+- prison narratives
+- political prisoner(s)
+- No More Cags
+- DC Hags / Sappho Sound (Toronto)
+- Statement of Gay Civil Rights
+- psychosurgery(?)
+- Alyson Publications
+- Arno Press
+- Cleis Press
+- The Crossing Press
+- Diana Press
+- The Feminist Press
+- Firebrand Press
+- Haworth Press/Harrington Park Press
+- Helaine Victoria Press, Inc.
+- Kitchen Table - Women of Color Press
+- Know, Inc. / 1st Things 1st
+- Metis Press
+- Mother Courage Press
+- Naiad Press
+- New Victoria Printers, Inc.
+- Out & Out Books
+- Persephone Press
+- Seal Press
+- Shameless Hussy Press
+- Spinsters Ink
+- Spinsters / Aunt Luke Books
+- Tower Press
+- Voilet Press
+- Women in Distribution
+- The Womens Press Collective
+- radical lesbian(s)
+- Take Back the Night
+- American Friends Service Committee
+- Biblical scholarship
+- Episcopalianism
+- gay ministries
+- goddess oriented religion
+- god / goddess / deity
+- interfaith(?)
+- Republicans (U.S.)
+- Blood Root
+- WOW Cafe
+- Country Places (retreats)
+- Rose News Service
+- runner(s) / running
+- rural lesbian(s)
+- sailing
+- salon(s)
+- Salvation Army
+- Harvey Milk High School
+- sculpture(s)
+- self-publishing
+- Seneca Falls
+- Annie Sprinkle
+- "The Scholar and the Feminist IX: Towards a Politics of Sexuality"
+- (Shere) Hite Report
+- Pat Califia
+- some more terms like:
+	- transgender man who formerly identified as a lesbian
+	- transgender woman who formerly identified as a gay man
+- sex panic
+- sex catalogue / sex toy catalogue
+- Susie Bright
+- sexuality workshops / classes(?)
+- Shopping Bag Ladies
+- Hull House Women
+- song(s)
+- sororities / fraternities / Greek life
+- spirituality
+- basketball
+- New York Liberty
+- tennis
+- flag football / football
+- rugby
+- golf
+- Pride Run
+- softball
+- track and field
+- statue
+- Stonewall 25
+- Stonewall History Project
+- suffrage movement(s)
+- switchboard(s)
+- Symbionese Liberation Army
+- audio tapes / video tapes
+- technology
+- telephone
+- Dixon Place
+- Medusa's Revenge
+- Theatre Rhinoceros
+- Three Dollar Bill
+- Its All Right To Be Woman Theatre
+- The Women's Experimental Theater
+- Five Lesbian Brothers
+- Gertrude Stein
+- Holly Hughes
+- La MaMa E.T.C.
+- P.S. 122
+- The Paris Project
+- Radical Feminist Lesbian Terroist Comedy Group
+- Sarah Schulman and MORE FIRE! Productions
+- Spiderwoman Theatre
+- Split Britches
+- Terry Baum
+- "The Captive"
+- "Last Summer at Bluefish Cove" / Jane Chambers
+- playwright(s)
+- Erickson Educational Foundation
+- Metropolitan Gender Network
+- personal account(s)
+- utopia(s)
+- Sylvia Lugo
+- Zapplorti Murder
+- Wages for Housework Movement
+- Weather Underground
+- Nyack Affair
+- Well of Loneliness
+- will(s)
+- testament(s)
+- witch(es)
+- woman's encampment
+- women's political organization(s)
+- announcement(s)
+- Lowell Mill Girl(s)
+- World Trade Center Attack 9/11/01
+- writing workshop(s)
+
+ADDING NEW PROPERTIES:
+- https://www.wikidata.org/wiki/Property:P5972
+	(translation)
+- https://www.wikidata.org/wiki/Property:P3295
+	(code)
+- https://www.wikidata.org/wiki/Property:P462
+	(color)
+- https://www.wikidata.org/wiki/Property:P3294
+	(encoding)
+
+ADDING NEW DEFINITIONS/NOTES:
+- label(s)
