@@ -1,0 +1,5818 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://purl.bioontology.org/ontology/GSSO/002280"
+    },
+    "SIO_000396" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000396"
+    },
+    "CHEBI_49323" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49323"
+    },
+    "DOID_0060038" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060038"
+    },
+    "GAZ_00001108" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001108"
+    },
+    "CHEBI_26835" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26835"
+    },
+    "CHEBI_37332" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37332"
+    },
+    "GO_0019953" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0019953"
+    },
+    "SIO_001170" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001170"
+    },
+    "fma61471" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma61471"
+    },
+    "DOID_4166" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_4166"
+    },
+    "GAZ_00002638" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002638"
+    },
+    "D046910" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D046910"
+    },
+    "C51277" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51277"
+    },
+    "UBERON_0001007" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001007"
+    },
+    "GO_0048646" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048646"
+    },
+    "fma15711" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma15711"
+    },
+    "CHEBI_33822" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33822"
+    },
+    "SIO_000856" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000856"
+    },
+    "SIO_000366" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000366"
+    },
+    "CHEBI_50898" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50898"
+    },
+    "C161904" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C161904"
+    },
+    "fma49184" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma49184"
+    },
+    "C42781" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42781"
+    },
+    "hasNarrowSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"
+    },
+    "dateAccepted" : {
+      "@id" : "http://purl.org/dc/terms/dateAccepted"
+    },
+    "UBERON_0000949" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000949"
+    },
+    "P932" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P932"
+    },
+    "CHEBI_31394" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31394"
+    },
+    "D014705" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D014705"
+    },
+    "fma55671" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55671"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/terms/abstract"
+    },
+    "BFO_0000019" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
+    },
+    "C18264" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18264"
+    },
+    "SIO_000166" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000166"
+    },
+    "GAZ_00003902" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003902"
+    },
+    "D001364" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D001364"
+    },
+    "CHEBI_135981" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_135981"
+    },
+    "C3101" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3101"
+    },
+    "GO_0007619" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007619"
+    },
+    "MFOMD_0000167" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOMD_0000167"
+    },
+    "C68806" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68806"
+    },
+    "GAZ_00001090" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001090"
+    },
+    "D015146" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D015146"
+    },
+    "CHEBI_50492" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50492"
+    },
+    "GO_0045894" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0045894"
+    },
+    "C16452" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16452"
+    },
+    "fma280562" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma280562"
+    },
+    "P683" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P683"
+    },
+    "SIO_000428" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000428"
+    },
+    "C28421" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28421"
+    },
+    "CHEBI_16330" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16330"
+    },
+    "SIO_000837" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000837"
+    },
+    "GAZ_00001106" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001106"
+    },
+    "D057235" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D057235"
+    },
+    "D012067" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012067"
+    },
+    "hasSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonym"
+    },
+    "C28270" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28270"
+    },
+    "C17705" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17705"
+    },
+    "hasURI" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasURI"
+    },
+    "PATO_0002204" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0002204"
+    },
+    "SIO_000823" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000823"
+    },
+    "SIO_000405" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000405"
+    },
+    "CHEBI_33261" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33261"
+    },
+    "fma17759" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17759"
+    },
+    "UBERON_0003981" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0003981"
+    },
+    "fma59816" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma59816"
+    },
+    "P3841" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P3841"
+    },
+    "fma81494" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma81494"
+    },
+    "C69055" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C69055"
+    },
+    "DOID_12129" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_12129"
+    },
+    "MasculineGender" : {
+      "@id" : "http://linguistics-ontology.org/gold/2010/MasculineGender"
+    },
+    "T204" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T204"
+    },
+    "CHEBI_33285" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33285"
+    },
+    "fma19986" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19986"
+    },
+    "GAZ_00002476" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002476"
+    },
+    "CHEBI_6809" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6809"
+    },
+    "fma54325" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54325"
+    },
+    "fma83356" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma83356"
+    },
+    "fma82485" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma82485"
+    },
+    "fma67536" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67536"
+    },
+    "affiliation" : {
+      "@id" : "https://schema.org/affiliation"
+    },
+    "CHEBI_68534" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_68534"
+    },
+    "fma24120" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24120"
+    },
+    "CHEBI_37577" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37577"
+    },
+    "T194" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T194"
+    },
+    "SIO_000136" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000136"
+    },
+    "CHEBI_51958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51958"
+    },
+    "DOID_0060118" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060118"
+    },
+    "isVersionOf" : {
+      "@id" : "http://purl.org/dc/terms/isVersionOf"
+    },
+    "D007223" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D007223"
+    },
+    "fma19969" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19969"
+    },
+    "pagination" : {
+      "@id" : "https://schema.org/pagination"
+    },
+    "fma15900" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma15900"
+    },
+    "D019494" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019494"
+    },
+    "C9335" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9335"
+    },
+    "P1149" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1149"
+    },
+    "GAZ_00006888" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00006888"
+    },
+    "P1651" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1651"
+    },
+    "GAZ_00002800" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002800"
+    },
+    "fma228667" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma228667"
+    },
+    "D004954" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D004954"
+    },
+    "SIO_000157" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000157"
+    },
+    "fma20367" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20367"
+    },
+    "fma75650" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma75650"
+    },
+    "GO_0032274" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0032274"
+    },
+    "fma29746" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma29746"
+    },
+    "GAZ_00000586" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000586"
+    },
+    "GAZ_00000448" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000448"
+    },
+    "fma305853" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma305853"
+    },
+    "GO_0044850" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0044850"
+    },
+    "fma322143" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma322143"
+    },
+    "GAZ_00002641" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002641"
+    },
+    "C119050" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C119050"
+    },
+    "CHEBI_36357" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36357"
+    },
+    "C120191" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120191"
+    },
+    "C17720" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17720"
+    },
+    "DOID_863" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_863"
+    },
+    "P1402" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1402"
+    },
+    "UBERON_0002365" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0002365"
+    },
+    "C154689" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C154689"
+    },
+    "GO_0005575" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0005575"
+    },
+    "P637" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P637"
+    },
+    "SIO_000475" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000475"
+    },
+    "fma54448" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54448"
+    },
+    "D019497" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019497"
+    },
+    "GAZ_00006899" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00006899"
+    },
+    "DOID_599" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_599"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "P61" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P61"
+    },
+    "GO_0000803" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0000803"
+    },
+    "CHEBI_49020" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49020"
+    },
+    "CL_0000657" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000657"
+    },
+    "SIO_000835" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000835"
+    },
+    "CHEBI_33832" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33832"
+    },
+    "UBERON_0000178" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000178"
+    },
+    "SIO_000498" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000498"
+    },
+    "GAZ_00001086" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001086"
+    },
+    "C93300" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93300"
+    },
+    "pageStart" : {
+      "@id" : "https://schema.org/pageStart"
+    },
+    "C25169" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25169"
+    },
+    "CHEBI_33579" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33579"
+    },
+    "C93067" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93067"
+    },
+    "C16478" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16478"
+    },
+    "SIO_000106" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000106"
+    },
+    "C17737" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17737"
+    },
+    "GO_0032505" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0032505"
+    },
+    "GO_0044703" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0044703"
+    },
+    "SIO_000394" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000394"
+    },
+    "CHEBI_51143" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+    },
+    "UBERON_0000992" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000992"
+    },
+    "GO_0002118" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0002118"
+    },
+    "C25662" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25662"
+    },
+    "D019480" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019480"
+    },
+    "GAZ_00001098" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001098"
+    },
+    "P5056" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P5056"
+    },
+    "DOID_8670" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_8670"
+    },
+    "fma0328408" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0328408"
+    },
+    "D060728" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D060728"
+    },
+    "CHEBI_61459" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61459"
+    },
+    "SIO_000262" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000262"
+    },
+    "GO_0007620" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007620"
+    },
+    "C27571" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27571"
+    },
+    "CHEBI_30879" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_30879"
+    },
+    "fma54250" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54250"
+    },
+    "C25377" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25377"
+    },
+    "SIO_001263" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001263"
+    },
+    "D001009" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D001009"
+    },
+    "P110" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P110"
+    },
+    "SIO_000302" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000302"
+    },
+    "D004328" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D004328"
+    },
+    "SIO_000510" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000510"
+    },
+    "CHEBI_35338" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35338"
+    },
+    "fma242980" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma242980"
+    },
+    "DOID_0060166" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060166"
+    },
+    "SIO_010071" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010071"
+    },
+    "UBERON_0010517" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0010517"
+    },
+    "SIO_000081" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000081"
+    },
+    "PATO_0001995" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0001995"
+    },
+    "P1810" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1810"
+    },
+    "D010684" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D010684"
+    },
+    "SIO_001281" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001281"
+    },
+    "D019601" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019601"
+    },
+    "fma64854" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma64854"
+    },
+    "C17048" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17048"
+    },
+    "GO_0005694" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0005694"
+    },
+    "C126362" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126362"
+    },
+    "savedBy" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#savedBy"
+    },
+    "C17047" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17047"
+    },
+    "CHEBI_33595" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33595"
+    },
+    "GO_0040007" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0040007"
+    },
+    "SIO_001373" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001373"
+    },
+    "C17826" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17826"
+    },
+    "UBERON_0013672" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0013672"
+    },
+    "GAZ_00002472" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002472"
+    },
+    "D012746" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012746"
+    },
+    "CHEBI_35350" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35350"
+    },
+    "P3095" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P3095"
+    },
+    "fma61764" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma61764"
+    },
+    "license" : {
+      "@id" : "https://schema.org/license"
+    },
+    "P3201" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P3201"
+    },
+    "fma46490" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma46490"
+    },
+    "UBERON_0002330" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0002330"
+    },
+    "GO_0019100" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0019100"
+    },
+    "P5331" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P5331"
+    },
+    "C16847" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16847"
+    },
+    "url" : {
+      "@id" : "https://schema.org/url"
+    },
+    "DOID_1574" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1574"
+    },
+    "SIO_001194" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001194"
+    },
+    "fma280556" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma280556"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    },
+    "DOID_14320" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_14320"
+    },
+    "Noun" : {
+      "@id" : "http://purl.org/linguistics/gold/Noun"
+    },
+    "CHEBI_23965" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23965"
+    },
+    "UBERON_0006652" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006652"
+    },
+    "D001154" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D001154"
+    },
+    "D056348" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D056348"
+    },
+    "fma9704" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9704"
+    },
+    "C16501" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16501"
+    },
+    "LinguisticProperty" : {
+      "@id" : "http://purl.org/linguistics/gold/LinguisticProperty"
+    },
+    "UBERON_0008812" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0008812"
+    },
+    "CHEBI_33836" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33836"
+    },
+    "DOID_0060131" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060131"
+    },
+    "P672" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P672"
+    },
+    "C34463" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34463"
+    },
+    "fma7144" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma7144"
+    },
+    "GAZ_00005246" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005246"
+    },
+    "CHEBI_9241" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_9241"
+    },
+    "CHEBI_83575" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83575"
+    },
+    "P50" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P50"
+    },
+    "C29867" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29867"
+    },
+    "LinguisticTaxon" : {
+      "@id" : "http://purl.org/linguistics/gold/LinguisticTaxon"
+    },
+    "fma45649" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45649"
+    },
+    "CHEBI_32863" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32863"
+    },
+    "P888" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P888"
+    },
+    "EFO_0004828" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0004828"
+    },
+    "C17708" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17708"
+    },
+    "DOID_48" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_48"
+    },
+    "GAZ_00004399" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00004399"
+    },
+    "fma5897" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma5897"
+    },
+    "DOID_345" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_345"
+    },
+    "C114463" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C114463"
+    },
+    "CHEBI_5686" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5686"
+    },
+    "fma280554" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma280554"
+    },
+    "P1696" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1696"
+    },
+    "UBERON_0001088" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001088"
+    },
+    "CHEBI_22645" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22645"
+    },
+    "GAZ_00006898" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00006898"
+    },
+    "fma18616" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18616"
+    },
+    "dateCreated" : {
+      "@id" : "https://schema.org/dateCreated"
+    },
+    "C16710" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16710"
+    },
+    "OBI_0000011" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000011"
+    },
+    "BFO_0000031" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+    },
+    "D008037" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008037"
+    },
+    "GAZ_00002942" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002942"
+    },
+    "GAZ_00000912" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000912"
+    },
+    "fma55665" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55665"
+    },
+    "startDate" : {
+      "@id" : "https://schema.org/startDate"
+    },
+    "CHEBI_51721" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51721"
+    },
+    "GAZ_00002719" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002719"
+    },
+    "CHEBI_33672" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33672"
+    },
+    "C17713" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17713"
+    },
+    "GAZ_00002466" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002466"
+    },
+    "pageEnd" : {
+      "@id" : "https://schema.org/pageEnd"
+    },
+    "CHEBI_36962" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36962"
+    },
+    "D000079102" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000079102"
+    },
+    "CHEBI_33661" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33661"
+    },
+    "fma19627" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19627"
+    },
+    "SIO_000924" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000924"
+    },
+    "UBERON_0018260" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0018260"
+    },
+    "differentFrom" : {
+      "@id" : "http://www.w3.org/2002/07/owl#differentFrom"
+    },
+    "PATO_0000273" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0000273"
+    },
+    "D020466" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D020466"
+    },
+    "fma55670" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55670"
+    },
+    "D004268" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D004268"
+    },
+    "DOID_13868" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_13868"
+    },
+    "T073" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T073"
+    },
+    "D003195" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003195"
+    },
+    "GO_0022414" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0022414"
+    },
+    "D012731" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012731"
+    },
+    "SIO_000815" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000815"
+    },
+    "DOID_334" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_334"
+    },
+    "P927" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P927"
+    },
+    "fma19972" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19972"
+    },
+    "CHEBI_36054" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36054"
+    },
+    "UBERON_0003889" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0003889"
+    },
+    "GO_0060986" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060986"
+    },
+    "globalLocationNumber" : {
+      "@id" : "https://schema.org/globalLocationNumber"
+    },
+    "Determiner" : {
+      "@id" : "http://purl.org/linguistics/gold/Determiner"
+    },
+    "C17005" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17005"
+    },
+    "P267" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P267"
+    },
+    "CHEBI_25693" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25693"
+    },
+    "CHEBI_25248" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25248"
+    },
+    "fma18255" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18255"
+    },
+    "C114182" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C114182"
+    },
+    "P1036" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1036"
+    },
+    "C3430" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3430"
+    },
+    "GAZ_00002938" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002938"
+    },
+    "CHEBI_35496" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35496"
+    },
+    "C26810" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26810"
+    },
+    "fma18652" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18652"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "GAZ_00002637" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002637"
+    },
+    "SIO_000846" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000846"
+    },
+    "fma70752" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma70752"
+    },
+    "fma20192" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20192"
+    },
+    "EFO_0003925" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0003925"
+    },
+    "GAZ_00000584" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000584"
+    },
+    "GAZ_00000464" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000464"
+    },
+    "GAZ_00000457" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000457"
+    },
+    "BFO_0000008" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000008"
+    },
+    "fma9661" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9661"
+    },
+    "SIO_000406" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000406"
+    },
+    "GO_0002376" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0002376"
+    },
+    "C19666" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19666"
+    },
+    "GAZ_00002949" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002949"
+    },
+    "D019478" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019478"
+    },
+    "D003267" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003267"
+    },
+    "fma18591" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18591"
+    },
+    "SIO_000616" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000616"
+    },
+    "GAZ_00000013" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000013"
+    },
+    "SIO_000915" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000915"
+    },
+    "fma321903" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma321903"
+    },
+    "SIO_000267" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000267"
+    },
+    "fma78561" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma78561"
+    },
+    "D000077823" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000077823"
+    },
+    "D012925" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012925"
+    },
+    "SIO_000411" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000411"
+    },
+    "GO_0007545" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007545"
+    },
+    "dateModified" : {
+      "@id" : "https://schema.org/dateModified"
+    },
+    "D006965" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006965"
+    },
+    "fma17745" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17745"
+    },
+    "C2182" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2182"
+    },
+    "D000076144" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000076144"
+    },
+    "CL_0000015" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000015"
+    },
+    "CHEBI_37948" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37948"
+    },
+    "C68637" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68637"
+    },
+    "D020465" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D020465"
+    },
+    "P639" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P639"
+    },
+    "EFO_0003919" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0003919"
+    },
+    "GO_0007286" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007286"
+    },
+    "references" : {
+      "@id" : "http://purl.org/dc/terms/references"
+    },
+    "P214" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P214"
+    },
+    "fma53667" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma53667"
+    },
+    "UBERON_0001346" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001346"
+    },
+    "SIO_000121" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000121"
+    },
+    "D015022" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D015022"
+    },
+    "GO_0032501" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0032501"
+    },
+    "DOID_5672" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_5672"
+    },
+    "BFO_0000024" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000024"
+    },
+    "C17600" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17600"
+    },
+    "isReplacedBy" : {
+      "@id" : "http://purl.org/dc/terms/isReplacedBy"
+    },
+    "CL_0000654" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000654"
+    },
+    "C25457" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25457"
+    },
+    "D005845" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D005845"
+    },
+    "GO_0007291" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007291"
+    },
+    "ENVO_00000091" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00000091"
+    },
+    "DOID_10939" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10939"
+    },
+    "python_name" : {
+      "@id" : "http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#python_name"
+    },
+    "fma18607" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18607"
+    },
+    "fma24877" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24877"
+    },
+    "D006470" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006470"
+    },
+    "D020507" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D020507"
+    },
+    "GAZ_00002478" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002478"
+    },
+    "GAZ_00002639" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002639"
+    },
+    "SIO_000116" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000116"
+    },
+    "GAZ_00006330" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00006330"
+    },
+    "CHEBI_26959" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26959"
+    },
+    "C536649" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/C536649"
+    },
+    "UBERON_0000463" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000463"
+    },
+    "SIO_000304" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000304"
+    },
+    "CHEBI_26766" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26766"
+    },
+    "height" : {
+      "@id" : "https://schema.org/height"
+    },
+    "GO_0030237" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0030237"
+    },
+    "C16453" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16453"
+    },
+    "C17176" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17176"
+    },
+    "D048708" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D048708"
+    },
+    "T167" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T167"
+    },
+    "P702" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P702"
+    },
+    "CHEBI_24431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    },
+    "GAZ_00000910" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000910"
+    },
+    "GO_0035112" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0035112"
+    },
+    "T008" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T008"
+    },
+    "fma20358" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20358"
+    },
+    "SIO_001028" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001028"
+    },
+    "CHEBI_50689" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50689"
+    },
+    "C43611" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43611"
+    },
+    "CHEBI_6716" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6716"
+    },
+    "fma73101" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma73101"
+    },
+    "GAZ_00002784" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002784"
+    },
+    "SIO_000070" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000070"
+    },
+    "CHEBI_50995" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50995"
+    },
+    "C16119" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16119"
+    },
+    "D014021" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D014021"
+    },
+    "P1659" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1659"
+    },
+    "CL_0000656" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000656"
+    },
+    "C160962" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C160962"
+    },
+    "C20461" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20461"
+    },
+    "SIO_000814" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000814"
+    },
+    "fma77054" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma77054"
+    },
+    "CHEBI_36080" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36080"
+    },
+    "GO_0032504" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0032504"
+    },
+    "GO_0048240" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048240"
+    },
+    "fma304716" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma304716"
+    },
+    "GAZ_00002941" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002941"
+    },
+    "GO_0051179" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0051179"
+    },
+    "DOID_6126" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_6126"
+    },
+    "fma0328412" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0328412"
+    },
+    "C54216" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54216"
+    },
+    "CHEBI_51689" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51689"
+    },
+    "CHEBI_25000" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25000"
+    },
+    "fma0328416" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0328416"
+    },
+    "CHEBI_50402" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50402"
+    },
+    "D011578" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D011578"
+    },
+    "fma20463" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20463"
+    },
+    "DOID_557" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_557"
+    },
+    "fma24201" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24201"
+    },
+    "CHEBI_60027" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60027"
+    },
+    "GAZ_00008284" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00008284"
+    },
+    "fma54237" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54237"
+    },
+    "GO_0060073" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060073"
+    },
+    "CHEBI_17347" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17347"
+    },
+    "UBERON_0000162" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000162"
+    },
+    "UBERON_3011048" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_3011048"
+    },
+    "GO_0009994" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0009994"
+    },
+    "hasVersion" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasVersion"
+    },
+    "D004723" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D004723"
+    },
+    "D012495" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012495"
+    },
+    "CHEBI_47909" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47909"
+    },
+    "DOID_92" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_92"
+    },
+    "DOID_1289" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1289"
+    },
+    "SIO_000845" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000845"
+    },
+    "GAZ_00002954" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002954"
+    },
+    "EFO_0004424" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0004424"
+    },
+    "SIO_000164" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000164"
+    },
+    "CHEBI_15841" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15841"
+    },
+    "CHEBI_33675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33675"
+    },
+    "C83190" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83190"
+    },
+    "CL_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000003"
+    },
+    "GO_0030703" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0030703"
+    },
+    "D013476" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D013476"
+    },
+    "CHEBI_35681" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35681"
+    },
+    "fma256133" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma256133"
+    },
+    "DOID_1100" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1100"
+    },
+    "UBERON_0001968" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001968"
+    },
+    "SIO_000853" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000853"
+    },
+    "C49157" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49157"
+    },
+    "PATO_0000955" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0000955"
+    },
+    "P6572" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P6572"
+    },
+    "D005817" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D005817"
+    },
+    "C16578" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16578"
+    },
+    "D009479" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D009479"
+    },
+    "fma17744" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17744"
+    },
+    "GAZ_00004277" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00004277"
+    },
+    "SIO_010335" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010335"
+    },
+    "C96985" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C96985"
+    },
+    "D013022" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D013022"
+    },
+    "SIO_000848" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000848"
+    },
+    "image" : {
+      "@id" : "https://schema.org/image"
+    },
+    "GAZ_00000559" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000559"
+    },
+    "C49163" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49163"
+    },
+    "fma17740" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17740"
+    },
+    "C17721" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17721"
+    },
+    "BFO_0000020" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000020"
+    },
+    "SIO_000275" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000275"
+    },
+    "C42734" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42734"
+    },
+    "D012660" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012660"
+    },
+    "C27648" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27648"
+    },
+    "CHEBI_47880" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47880"
+    },
+    "GO_0043226" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0043226"
+    },
+    "fma18626" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18626"
+    },
+    "SIO_000015" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000015"
+    },
+    "C100055" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C100055"
+    },
+    "fma18537" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18537"
+    },
+    "DOID_10685" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10685"
+    },
+    "UBERON_0001305" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001305"
+    },
+    "D014481" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D014481"
+    },
+    "UBERON_0011283" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0011283"
+    },
+    "CHEBI_26195" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26195"
+    },
+    "BFO_0000141" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000141"
+    },
+    "UBERON_0003134" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0003134"
+    },
+    "HP_0030220" : {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0030220"
+    },
+    "CHEBI_28689" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_28689"
+    },
+    "DOID_18" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_18"
+    },
+    "SIO_000838" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000838"
+    },
+    "C4875" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4875"
+    },
+    "RelativePronoun" : {
+      "@id" : "http://purl.org/linguistics/gold/RelativePronoun"
+    },
+    "GO_0048477" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048477"
+    },
+    "honorificPrefix" : {
+      "@id" : "https://schema.org/honorificPrefix"
+    },
+    "D002140" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D002140"
+    },
+    "CHEBI_33833" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33833"
+    },
+    "CHEBI_63299" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63299"
+    },
+    "DOID_535" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_535"
+    },
+    "GO_0050896" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0050896"
+    },
+    "deathPlace" : {
+      "@id" : "https://schema.org/deathPlace"
+    },
+    "CHEBI_24651" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24651"
+    },
+    "D014586" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D014586"
+    },
+    "fma62955" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma62955"
+    },
+    "DOID_0070003" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0070003"
+    },
+    "D019991" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019991"
+    },
+    "CHEBI_31560" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31560"
+    },
+    "SIO_000822" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000822"
+    },
+    "DOID_0060071" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060071"
+    },
+    "UBERON_0000179" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000179"
+    },
+    "CHEBI_36044" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36044"
+    },
+    "D008404" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008404"
+    },
+    "UBERON_0013515" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0013515"
+    },
+    "CL_0000408" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000408"
+    },
+    "UBERON_0000064" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000064"
+    },
+    "fma20169" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20169"
+    },
+    "C61009" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61009"
+    },
+    "DOID_934" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_934"
+    },
+    "C20182" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20182"
+    },
+    "fma70593" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma70593"
+    },
+    "deathDate" : {
+      "@id" : "https://schema.org/deathDate"
+    },
+    "SIO_000078" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000078"
+    },
+    "fma24137" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24137"
+    },
+    "UBERON_0013760" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0013760"
+    },
+    "SIO_000152" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000152"
+    },
+    "OGMS_0000014" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000014"
+    },
+    "dissolutionDate" : {
+      "@id" : "https://schema.org/dissolutionDate"
+    },
+    "C80239" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80239"
+    },
+    "fma75125" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma75125"
+    },
+    "C17817" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17817"
+    },
+    "UBERON_0000989" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000989"
+    },
+    "GAZ_00005917" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005917"
+    },
+    "SIO_010377" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010377"
+    },
+    "fma12274" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma12274"
+    },
+    "inverseOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#inverseOf"
+    },
+    "fma85355" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma85355"
+    },
+    "D052285" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D052285"
+    },
+    "fma19668" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19668"
+    },
+    "fma45643" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45643"
+    },
+    "D007021" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D007021"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "CHEBI_21731" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_21731"
+    },
+    "DOID_2510" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2510"
+    },
+    "CHEBI_60911" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60911"
+    },
+    "fma54640" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54640"
+    },
+    "DOID_2033" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2033"
+    },
+    "D008873" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008873"
+    },
+    "SIO_000863" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000863"
+    },
+    "C16960" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16960"
+    },
+    "fma19988" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19988"
+    },
+    "GAZ_00158460" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00158460"
+    },
+    "P1055" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1055"
+    },
+    "BFO_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+    },
+    "OGMS_0000061" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000061"
+    },
+    "PersonalPronoun" : {
+      "@id" : "http://purl.org/linguistics/gold/PersonalPronoun"
+    },
+    "IAO_0000311" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000311"
+    },
+    "fma18317" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18317"
+    },
+    "D003076" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003076"
+    },
+    "GO_0046903" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0046903"
+    },
+    "CHEBI_34386" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_34386"
+    },
+    "C28344" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28344"
+    },
+    "GAZ_00002802" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002802"
+    },
+    "fma62112" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma62112"
+    },
+    "CL_0000019" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000019"
+    },
+    "C74299" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74299"
+    },
+    "D012736" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012736"
+    },
+    "CHEBI_32988" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32988"
+    },
+    "SIO_000276" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000276"
+    },
+    "SIO_001168" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001168"
+    },
+    "SIO_000840" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000840"
+    },
+    "isPartOf" : {
+      "@id" : "http://purl.org/dc/terms/isPartOf"
+    },
+    "DOID_10155" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10155"
+    },
+    "fma18619" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18619"
+    },
+    "GAZ_00000468" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000468"
+    },
+    "fma18316" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18316"
+    },
+    "GO_0002377" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0002377"
+    },
+    "CHEBI_421707" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_421707"
+    },
+    "fma19234" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19234"
+    },
+    "DOID_3213" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_3213"
+    },
+    "SIO_000916" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000916"
+    },
+    "children" : {
+      "@id" : "https://schema.org/children"
+    },
+    "SIO_001004" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001004"
+    },
+    "CHEBI_33598" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33598"
+    },
+    "hasPart" : {
+      "@id" : "http://purl.org/dc/terms/hasPart"
+    },
+    "GO_0042698" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042698"
+    },
+    "UBERON_0001913" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001913"
+    },
+    "CHEBI_33597" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33597"
+    },
+    "isFormatOf" : {
+      "@id" : "http://purl.org/dc/terms/isFormatOf"
+    },
+    "DOID_732" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_732"
+    },
+    "SIO_000299" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000299"
+    },
+    "P1813" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1813"
+    },
+    "SIO_000410" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000410"
+    },
+    "SIO_000994" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000994"
+    },
+    "DOID_9256" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_9256"
+    },
+    "CL_0000255" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000255"
+    },
+    "GO_0048232" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048232"
+    },
+    "GAZ_00003561" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003561"
+    },
+    "DOID_219" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_219"
+    },
+    "familyName" : {
+      "@id" : "https://schema.org/familyName"
+    },
+    "DOID_3119" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_3119"
+    },
+    "sibling" : {
+      "@id" : "https://schema.org/sibling"
+    },
+    "D012733" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012733"
+    },
+    "D005783" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D005783"
+    },
+    "P686" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P686"
+    },
+    "P212" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P212"
+    },
+    "D013734" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D013734"
+    },
+    "UBERON_0036243" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0036243"
+    },
+    "UBERON_0000104" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000104"
+    },
+    "P594" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P594"
+    },
+    "fma17752" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17752"
+    },
+    "C19989" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19989"
+    },
+    "SIO_001024" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001024"
+    },
+    "CHEBI_18059" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18059"
+    },
+    "CHEBI_5523" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5523"
+    },
+    "SIO_000342" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000342"
+    },
+    "GAZ_00004108" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00004108"
+    },
+    "fma61775" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma61775"
+    },
+    "DOID_2030" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2030"
+    },
+    "D060786" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D060786"
+    },
+    "DOID_15" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_15"
+    },
+    "CHEBI_23367" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23367"
+    },
+    "fma77295" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma77295"
+    },
+    "D033142" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D033142"
+    },
+    "fma19975" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19975"
+    },
+    "SIO_001376" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001376"
+    },
+    "DOID_1766" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1766"
+    },
+    "C25636" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25636"
+    },
+    "DOID_8689" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_8689"
+    },
+    "fma18319" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18319"
+    },
+    "IAO_0000300" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000300"
+    },
+    "D012959" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012959"
+    },
+    "UBERON_0013522" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0013522"
+    },
+    "SIO_010038" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010038"
+    },
+    "fma86140" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma86140"
+    },
+    "P353" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P353"
+    },
+    "D007279" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D007279"
+    },
+    "CHEBI_521033" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_521033"
+    },
+    "D001424" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D001424"
+    },
+    "fma9658" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9658"
+    },
+    "fma19985" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19985"
+    },
+    "subjectOf" : {
+      "@id" : "https://schema.org/subjectOf"
+    },
+    "SIO_000056" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000056"
+    },
+    "fma75126" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma75126"
+    },
+    "CHEBI_38295" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38295"
+    },
+    "C41200" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41200"
+    },
+    "DOID_1561" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1561"
+    },
+    "SIO_000296" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000296"
+    },
+    "CHEBI_33582" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33582"
+    },
+    "GO_0007154" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007154"
+    },
+    "C25688" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25688"
+    },
+    "P112" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P112"
+    },
+    "C71894" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71894"
+    },
+    "GAZ_00000908" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000908"
+    },
+    "P461" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P461"
+    },
+    "UBERON_0006530" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006530"
+    },
+    "SIO_000850" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000850"
+    },
+    "CHEBI_135604" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_135604"
+    },
+    "CHEBI_37578" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37578"
+    },
+    "P1554" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1554"
+    },
+    "C94631" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94631"
+    },
+    "GO_0060004" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060004"
+    },
+    "equivalentProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#equivalentProperty"
+    },
+    "GAZ_00000553" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000553"
+    },
+    "UBERON_0004122" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0004122"
+    },
+    "C63629" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C63629"
+    },
+    "GAZ_00005341" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005341"
+    },
+    "DOID_10932" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10932"
+    },
+    "fma61478" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma61478"
+    },
+    "CHEBI_77727" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77727"
+    },
+    "GO_0007296" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007296"
+    },
+    "D008183" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008183"
+    },
+    "C120893" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120893"
+    },
+    "CHEBI_4903" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_4903"
+    },
+    "D001061" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D001061"
+    },
+    "EFO_0001382" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0001382"
+    },
+    "Taxon" : {
+      "@id" : "http://purl.org/linguistics/gold/Taxon"
+    },
+    "SIO_000864" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000864"
+    },
+    "DOID_10938" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10938"
+    },
+    "fma9338" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9338"
+    },
+    "CHEBI_33659" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33659"
+    },
+    "CHEBI_60004" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60004"
+    },
+    "GO_0000807" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0000807"
+    },
+    "CHEBI_47622" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47622"
+    },
+    "IndefiniteArticle" : {
+      "@id" : "http://purl.org/linguistics/gold/IndefiniteArticle"
+    },
+    "C92759" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92759"
+    },
+    "P1930" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1930"
+    },
+    "GO_0042696" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042696"
+    },
+    "EFO_0007786" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0007786"
+    },
+    "P698" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P698"
+    },
+    "hasSubset" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSubset"
+    },
+    "PATO_0002203" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0002203"
+    },
+    "OBI_0000181" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000181"
+    },
+    "DOID_10646" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10646"
+    },
+    "D008091" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008091"
+    },
+    "gender" : {
+      "@id" : "https://schema.org/gender"
+    },
+    "inSubset" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset"
+    },
+    "GAZ_00002474" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002474"
+    },
+    "C20188" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20188"
+    },
+    "SIO_000676" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000676"
+    },
+    "fma55107" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55107"
+    },
+    "D003144" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003144"
+    },
+    "D055787" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D055787"
+    },
+    "P4229" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P4229"
+    },
+    "SIO_000160" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000160"
+    },
+    "D060805" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D060805"
+    },
+    "C160956" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C160956"
+    },
+    "DOID_4090" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_4090"
+    },
+    "GO_0098579" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0098579"
+    },
+    "SIO_001398" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001398"
+    },
+    "D012425" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012425"
+    },
+    "SecondPerson" : {
+      "@id" : "http://purl.org/linguistics/gold/SecondPerson"
+    },
+    "C16118" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16118"
+    },
+    "UBERON_0006610" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006610"
+    },
+    "GO_0019098" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0019098"
+    },
+    "P688" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P688"
+    },
+    "CHEBI_62733" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62733"
+    },
+    "CHEBI_50858" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50858"
+    },
+    "C90516" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90516"
+    },
+    "fma45652" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45652"
+    },
+    "GAZ_00002956" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002956"
+    },
+    "DOID_0060072" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060072"
+    },
+    "CHEBI_38166" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38166"
+    },
+    "P356" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P356"
+    },
+    "SIO_000404" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000404"
+    },
+    "OBI_0400107" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0400107"
+    },
+    "GAZ_00000469" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000469"
+    },
+    "GO_0043229" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0043229"
+    },
+    "CL_0000675" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000675"
+    },
+    "D005860" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D005860"
+    },
+    "CHEBI_135907" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_135907"
+    },
+    "C25188" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25188"
+    },
+    "C18759" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18759"
+    },
+    "C3441" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3441"
+    },
+    "ENVO_01000934" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000934"
+    },
+    "fma45634" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45634"
+    },
+    "DOID_104" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_104"
+    },
+    "CHEBI_33302" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33302"
+    },
+    "GO_0009605" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0009605"
+    },
+    "UBERON_0000037" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000037"
+    },
+    "C64913" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64913"
+    },
+    "fma19973" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19973"
+    },
+    "C123937" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C123937"
+    },
+    "DOID_17" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_17"
+    },
+    "fma18307" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18307"
+    },
+    "P1693" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1693"
+    },
+    "SIO_001080" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001080"
+    },
+    "D006059" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006059"
+    },
+    "CHEBI_50743" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50743"
+    },
+    "SIO_000398" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000398"
+    },
+    "C27954" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27954"
+    },
+    "GAZ_00003750" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003750"
+    },
+    "D008678" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008678"
+    },
+    "CHEBI_33839" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33839"
+    },
+    "fma64183" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma64183"
+    },
+    "GAZ_00003558" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003558"
+    },
+    "C483" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C483"
+    },
+    "C18760" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18760"
+    },
+    "fma24210" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24210"
+    },
+    "fma18308" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18308"
+    },
+    "CHEBI_9464" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_9464"
+    },
+    "fma55457" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55457"
+    },
+    "fma74402" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma74402"
+    },
+    "D007713" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D007713"
+    },
+    "D000074384" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000074384"
+    },
+    "D000068116" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000068116"
+    },
+    "GO_0007565" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007565"
+    },
+    "fma19822" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19822"
+    },
+    "CHEBI_5062" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5062"
+    },
+    "CHEBI_63633" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63633"
+    },
+    "DOID_14042" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_14042"
+    },
+    "D017203" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D017203"
+    },
+    "CHEBI_16799" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16799"
+    },
+    "C20342" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20342"
+    },
+    "D055512" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D055512"
+    },
+    "CHEBI_50860" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50860"
+    },
+    "CHEBI_13601" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_13601"
+    },
+    "SIO_000859" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000859"
+    },
+    "ENVO_01000422" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000422"
+    },
+    "D000077230" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000077230"
+    },
+    "D009042" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D009042"
+    },
+    "GAZ_00001095" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001095"
+    },
+    "C17086" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17086"
+    },
+    "numberOfPages" : {
+      "@id" : "https://schema.org/numberOfPages"
+    },
+    "D009511" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D009511"
+    },
+    "fma20462" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20462"
+    },
+    "CHEBI_38261" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38261"
+    },
+    "fma37342" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma37342"
+    },
+    "T007" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T007"
+    },
+    "fma18306" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18306"
+    },
+    "CHEBI_49325" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_49325"
+    },
+    "P2562" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P2562"
+    },
+    "D066249" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D066249"
+    },
+    "BFO_0000040" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    },
+    "D019500" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019500"
+    },
+    "GO_0043232" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0043232"
+    },
+    "CHEBI_81568" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_81568"
+    },
+    "GAZ_00002846" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002846"
+    },
+    "ThirdPerson" : {
+      "@id" : "http://linguistics-ontology.org/gold/2010/ThirdPerson"
+    },
+    "GAZ_00004483" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00004483"
+    },
+    "CHEBI_23443" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23443"
+    },
+    "D011214" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D011214"
+    },
+    "UBERON_0000990" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000990"
+    },
+    "GAZ_00000463" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000463"
+    },
+    "C78209" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C78209"
+    },
+    "GAZ_00002929" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002929"
+    },
+    "GO_0019101" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0019101"
+    },
+    "P1690" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1690"
+    },
+    "DOID_8632" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_8632"
+    },
+    "SIO_000430" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000430"
+    },
+    "hasRelatedSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+    },
+    "D010700" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D010700"
+    },
+    "C92445" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92445"
+    },
+    "DOID_14110" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_14110"
+    },
+    "DOID_8704" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_8704"
+    },
+    "fma55268" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55268"
+    },
+    "C157802" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C157802"
+    },
+    "DOID_11257" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_11257"
+    },
+    "SIO_000849" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000849"
+    },
+    "C16529" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16529"
+    },
+    "CHEBI_78840" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78840"
+    },
+    "C73529" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73529"
+    },
+    "C19232" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19232"
+    },
+    "C15334" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15334"
+    },
+    "P6553" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P6553"
+    },
+    "fma9909" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9909"
+    },
+    "D003604" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003604"
+    },
+    "P1957" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1957"
+    },
+    "hasDate" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDate"
+    },
+    "fma19669" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19669"
+    },
+    "UBERON_0006590" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006590"
+    },
+    "CHEBI_33655" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33655"
+    },
+    "GO_0002440" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0002440"
+    },
+    "C19138" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19138"
+    },
+    "SIO_010341" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010341"
+    },
+    "fma18610" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18610"
+    },
+    "GAZ_00002839" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002839"
+    },
+    "EFO_0004554" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0004554"
+    },
+    "fma50705" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma50705"
+    },
+    "SIO_010441" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010441"
+    },
+    "fma45640" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45640"
+    },
+    "CHEBI_61458" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61458"
+    },
+    "SIO_001065" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001065"
+    },
+    "DOID_0060001" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060001"
+    },
+    "DOID_4189" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_4189"
+    },
+    "C15471" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15471"
+    },
+    "EFO_0000719" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0000719"
+    },
+    "FeminineGender" : {
+      "@id" : "http://purl.org/linguistics/gold/FeminineGender"
+    },
+    "DOID_3312" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_3312"
+    },
+    "SIO_000298" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000298"
+    },
+    "GAZ_00001094" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001094"
+    },
+    "C16624" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16624"
+    },
+    "fma12278" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma12278"
+    },
+    "D061108" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D061108"
+    },
+    "SIO_010000" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010000"
+    },
+    "fma62967" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma62967"
+    },
+    "CHEBI_22702" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22702"
+    },
+    "GO_0006810" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0006810"
+    },
+    "DOID_591" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_591"
+    },
+    "fma19667" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19667"
+    },
+    "DOID_778" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_778"
+    },
+    "D006984" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006984"
+    },
+    "fma20357" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20357"
+    },
+    "UBERON_0008847" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0008847"
+    },
+    "fma61584" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma61584"
+    },
+    "fma297487" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma297487"
+    },
+    "P685" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P685"
+    },
+    "DOID_162" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_162"
+    },
+    "GO_0048599" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048599"
+    },
+    "CHEBI_36840" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36840"
+    },
+    "SIO_000483" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000483"
+    },
+    "SIO_001396" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001396"
+    },
+    "fma66283" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma66283"
+    },
+    "UBERON_0000467" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000467"
+    },
+    "fma77049" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma77049"
+    },
+    "Pronominal" : {
+      "@id" : "http://purl.org/linguistics/gold/Pronominal"
+    },
+    "fma9579" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9579"
+    },
+    "D016422" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D016422"
+    },
+    "fma0326505" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0326505"
+    },
+    "GO_0060208" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060208"
+    },
+    "position" : {
+      "@id" : "https://schema.org/position"
+    },
+    "fma55099" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55099"
+    },
+    "C76240" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76240"
+    },
+    "C3009" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3009"
+    },
+    "CHEBI_22315" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22315"
+    },
+    "P828" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P828"
+    },
+    "GO_0009566" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0009566"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "C35408" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35408"
+    },
+    "SIO_000112" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000112"
+    },
+    "PATO_0000956" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0000956"
+    },
+    "fma77290" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma77290"
+    },
+    "D000312" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000312"
+    },
+    "C27564" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27564"
+    },
+    "GO_0060746" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060746"
+    },
+    "fma292317" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma292317"
+    },
+    "CHEBI_5132" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5132"
+    },
+    "P957" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P957"
+    },
+    "CHEBI_33256" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33256"
+    },
+    "givenName" : {
+      "@id" : "https://schema.org/givenName"
+    },
+    "LifO_0000063" : {
+      "@id" : "http://purl.obolibrary.org/obo/LifO_0000063"
+    },
+    "EFO_1002022" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_1002022"
+    },
+    "C28335" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28335"
+    },
+    "D006664" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006664"
+    },
+    "C92757" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92757"
+    },
+    "fma18302" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18302"
+    },
+    "D006266" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006266"
+    },
+    "name" : {
+      "@id" : "https://schema.org/name"
+    },
+    "GO_0001555" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0001555"
+    },
+    "fma9657" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9657"
+    },
+    "CHEBI_3992" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3992"
+    },
+    "SIO_000951" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000951"
+    },
+    "UBERON_0006644" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006644"
+    },
+    "fma76510" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma76510"
+    },
+    "CHEBI_63577" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63577"
+    },
+    "CHEBI_17263" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17263"
+    },
+    "fma15703" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma15703"
+    },
+    "GO_0009790" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0009790"
+    },
+    "UBERON_0006653" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006653"
+    },
+    "SIO_000855" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000855"
+    },
+    "C94607" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94607"
+    },
+    "ENVO_00000070" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00000070"
+    },
+    "P1449" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1449"
+    },
+    "SIO_001050" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001050"
+    },
+    "GAZ_00065136" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00065136"
+    },
+    "SIO_010378" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010378"
+    },
+    "fma19970" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19970"
+    },
+    "C25358" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25358"
+    },
+    "fma55108" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55108"
+    },
+    "C47891" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47891"
+    },
+    "SIO_000183" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000183"
+    },
+    "GO_0003014" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0003014"
+    },
+    "BFO_0000004" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000004"
+    },
+    "CHEBI_51061" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51061"
+    },
+    "CHEBI_135719" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_135719"
+    },
+    "P1542" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1542"
+    },
+    "CL_0000021" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000021"
+    },
+    "GO_0007283" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007283"
+    },
+    "CHEBI_35748" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35748"
+    },
+    "CHEBI_59793" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59793"
+    },
+    "GO_0007546" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007546"
+    },
+    "Article" : {
+      "@id" : "http://purl.org/linguistics/gold/Article"
+    },
+    "CHEBI_25806" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25806"
+    },
+    "CHEBI_90710" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_90710"
+    },
+    "P3590" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P3590"
+    },
+    "GO_0042006" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042006"
+    },
+    "CHEBI_17087" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17087"
+    },
+    "fma20374" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20374"
+    },
+    "SIO_000917" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000917"
+    },
+    "DOID_14566" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_14566"
+    },
+    "CL_0000018" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000018"
+    },
+    "GO_0044419" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0044419"
+    },
+    "SIO_000052" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000052"
+    },
+    "fma312869" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma312869"
+    },
+    "CHEBI_25549" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25549"
+    },
+    "fma75127" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma75127"
+    },
+    "replacedBy" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#replacedBy"
+    },
+    "fma55304" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55304"
+    },
+    "GAZ_00001099" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001099"
+    },
+    "fma54319" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54319"
+    },
+    "GAZ_00002932" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002932"
+    },
+    "SIO_000161" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000161"
+    },
+    "CHEBI_142773" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_142773"
+    },
+    "P170" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P170"
+    },
+    "DOID_10936" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10936"
+    },
+    "C19988" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19988"
+    },
+    "P3938" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P3938"
+    },
+    "CHEBI_17026" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_17026"
+    },
+    "fma0329023" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0329023"
+    },
+    "P746" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P746"
+    },
+    "UBERON_0018315" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0018315"
+    },
+    "GO_0048856" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048856"
+    },
+    "C72884" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C72884"
+    },
+    "DOID_1768" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1768"
+    },
+    "GAZ_00001999" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001999"
+    },
+    "DOID_10931" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10931"
+    },
+    "P2561" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P2561"
+    },
+    "fma49443" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma49443"
+    },
+    "fma54328" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54328"
+    },
+    "GAZ_00002560" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002560"
+    },
+    "C42767" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42767"
+    },
+    "PATO_0002003" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0002003"
+    },
+    "DOID_4737" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_4737"
+    },
+    "CHEBI_38101" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38101"
+    },
+    "CHEBI_29347" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_29347"
+    },
+    "C61497" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61497"
+    },
+    "D012827" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012827"
+    },
+    "datePosted" : {
+      "@id" : "https://schema.org/datePosted"
+    },
+    "C93157" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93157"
+    },
+    "fma0328417" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0328417"
+    },
+    "fma280564" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma280564"
+    },
+    "C93517" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93517"
+    },
+    "GO_0018992" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0018992"
+    },
+    "GAZ_00002563" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002563"
+    },
+    "consider" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#consider"
+    },
+    "P1844" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1844"
+    },
+    "GO_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0000003"
+    },
+    "DOID_1529" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1529"
+    },
+    "location" : {
+      "@id" : "https://schema.org/location"
+    },
+    "fma46472" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma46472"
+    },
+    "DefiniteArticle" : {
+      "@id" : "http://purl.org/linguistics/gold/DefiniteArticle"
+    },
+    "fma58817" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma58817"
+    },
+    "CHEBI_6427" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_6427"
+    },
+    "C85197" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85197"
+    },
+    "C16423" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16423"
+    },
+    "P5806" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P5806"
+    },
+    "SIO_000295" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000295"
+    },
+    "CHEBI_33671" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33671"
+    },
+    "GAZ_00002729" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002729"
+    },
+    "D006130" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006130"
+    },
+    "fma67504" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67504"
+    },
+    "D055502" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D055502"
+    },
+    "P2596" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P2596"
+    },
+    "D052286" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D052286"
+    },
+    "CHEBI_35875" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35875"
+    },
+    "MFOMD_0000024" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOMD_0000024"
+    },
+    "DOID_1962" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1962"
+    },
+    "P155" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P155"
+    },
+    "GO_0007588" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007588"
+    },
+    "D007273" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D007273"
+    },
+    "SIO_001118" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001118"
+    },
+    "UBERON_0011374" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0011374"
+    },
+    "C18230" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18230"
+    },
+    "fma18613" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18613"
+    },
+    "fma322868" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma322868"
+    },
+    "dateCopyrighted" : {
+      "@id" : "http://purl.org/dc/terms/dateCopyrighted"
+    },
+    "UBERON_0000000" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000000"
+    },
+    "fma286121" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma286121"
+    },
+    "CHEBI_46649" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_46649"
+    },
+    "CHEBI_27171" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27171"
+    },
+    "GAZ_00087083" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00087083"
+    },
+    "fma59652" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma59652"
+    },
+    "UBERON_3010259" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_3010259"
+    },
+    "GO_0032502" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0032502"
+    },
+    "C15277" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15277"
+    },
+    "fma0329033" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0329033"
+    },
+    "UBERON_0000211" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000211"
+    },
+    "address" : {
+      "@id" : "https://schema.org/address"
+    },
+    "C25404" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25404"
+    },
+    "IDO_0000586" : {
+      "@id" : "http://purl.obolibrary.org/obo/IDO_0000586"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "fma19639" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19639"
+    },
+    "fma83352" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma83352"
+    },
+    "D011528" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D011528"
+    },
+    "C16165" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16165"
+    },
+    "SIO_000185" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000185"
+    },
+    "C94194" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94194"
+    },
+    "C64914" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64914"
+    },
+    "GO_0001196" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0001196"
+    },
+    "CHEBI_7445" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_7445"
+    },
+    "UBERON_0006539" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006539"
+    },
+    "SIO_000075" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000075"
+    },
+    "P354" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P354"
+    },
+    "fma30320" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma30320"
+    },
+    "C25391" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25391"
+    },
+    "D009518" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D009518"
+    },
+    "CHEBI_19168" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_19168"
+    },
+    "DOID_365" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_365"
+    },
+    "GAZ_00000460" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000460"
+    },
+    "C124436" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C124436"
+    },
+    "GO_0007618" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007618"
+    },
+    "UBERON_0008845" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0008845"
+    },
+    "C25426" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25426"
+    },
+    "UBERON_0004885" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0004885"
+    },
+    "C20587" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20587"
+    },
+    "P1477" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1477"
+    },
+    "GO_0007530" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007530"
+    },
+    "GAZ_00003924" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003924"
+    },
+    "SIO_000105" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000105"
+    },
+    "fma23182" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma23182"
+    },
+    "GAZ_00005861" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005861"
+    },
+    "seasonNumber" : {
+      "@id" : "https://schema.org/seasonNumber"
+    },
+    "Dialect" : {
+      "@id" : "http://purl.org/linguistics/gold/Dialect"
+    },
+    "fma3724" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma3724"
+    },
+    "fma70741" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma70741"
+    },
+    "C21172" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21172"
+    },
+    "SIO_010003" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010003"
+    },
+    "C15332" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15332"
+    },
+    "GAZ_00002646" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002646"
+    },
+    "D024382" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D024382"
+    },
+    "CHEBI_31561" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31561"
+    },
+    "C42698" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42698"
+    },
+    "C51773" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51773"
+    },
+    "GAZ_00000907" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000907"
+    },
+    "BFO_0000015" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    },
+    "GAZ_00003101" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003101"
+    },
+    "GO_0007600" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007600"
+    },
+    "UBERON_0017623" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0017623"
+    },
+    "C25172" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25172"
+    },
+    "D016421" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D016421"
+    },
+    "C35117" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35117"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "C39766" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39766"
+    },
+    "inLanguage" : {
+      "@id" : "https://schema.org/inLanguage"
+    },
+    "hasOBONamespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"
+    },
+    "CHEBI_22712" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22712"
+    },
+    "D008603" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008603"
+    },
+    "GAZ_00000465" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000465"
+    },
+    "P1190" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1190"
+    },
+    "GAZ_00003797" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003797"
+    },
+    "SIO_010020" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010020"
+    },
+    "C84377" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84377"
+    },
+    "GO_0007275" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007275"
+    },
+    "fma78590" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma78590"
+    },
+    "D011203" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D011203"
+    },
+    "fma66289" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma66289"
+    },
+    "CHEBI_63161" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63161"
+    },
+    "fma83362" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma83362"
+    },
+    "C125005" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C125005"
+    },
+    "C91107" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91107"
+    },
+    "SIO_000138" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000138"
+    },
+    "GAZ_00002467" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002467"
+    },
+    "P837" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P837"
+    },
+    "fma18620" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18620"
+    },
+    "GO_0008283" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0008283"
+    },
+    "D050499" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D050499"
+    },
+    "UBERON_0006643" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006643"
+    },
+    "BFO_0000029" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000029"
+    },
+    "GO_0007542" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007542"
+    },
+    "DOID_1993" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1993"
+    },
+    "CHEBI_47788" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_47788"
+    },
+    "D000076145" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000076145"
+    },
+    "BFO_0000017" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000017"
+    },
+    "bookEdition" : {
+      "@id" : "https://schema.org/bookEdition"
+    },
+    "fma64989" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma64989"
+    },
+    "UBERON_0013249" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0013249"
+    },
+    "C26023" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26023"
+    },
+    "C107225" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C107225"
+    },
+    "GO_0040021" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0040021"
+    },
+    "PATO_0001434" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0001434"
+    },
+    "C61299" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61299"
+    },
+    "C95502" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C95502"
+    },
+    "GO_0019954" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0019954"
+    },
+    "GO_0042711" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042711"
+    },
+    "ENVO_01000813" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000813"
+    },
+    "HP_0008763" : {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0008763"
+    },
+    "CHEBI_33636" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33636"
+    },
+    "C16830" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16830"
+    },
+    "fma25245" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma25245"
+    },
+    "GAZ_00000556" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000556"
+    },
+    "fma77296" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma77296"
+    },
+    "fma268898" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma268898"
+    },
+    "GO_0048601" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048601"
+    },
+    "CHEBI_37143" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37143"
+    },
+    "CL_0000039" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000039"
+    },
+    "GAZ_00002852" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002852"
+    },
+    "D012928" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D012928"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "SIO_010379" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010379"
+    },
+    "GAZ_00002953" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002953"
+    },
+    "GO_0046543" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0046543"
+    },
+    "C16863" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16863"
+    },
+    "fma20423" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20423"
+    },
+    "C150720" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C150720"
+    },
+    "fma82472" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma82472"
+    },
+    "C93214" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93214"
+    },
+    "ENVO_01000426" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000426"
+    },
+    "D000077253" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000077253"
+    },
+    "C19332" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19332"
+    },
+    "C122899" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122899"
+    },
+    "C106497" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C106497"
+    },
+    "GAZ_00002928" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002928"
+    },
+    "fma9712" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9712"
+    },
+    "P571" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P571"
+    },
+    "GO_0000806" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0000806"
+    },
+    "fma0328418" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0328418"
+    },
+    "C74942" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74942"
+    },
+    "fma0328419" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0328419"
+    },
+    "C17453" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17453"
+    },
+    "D003220" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003220"
+    },
+    "birthPlace" : {
+      "@id" : "https://schema.org/birthPlace"
+    },
+    "SIO_000289" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000289"
+    },
+    "D008598" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008598"
+    },
+    "HP_0012412" : {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0012412"
+    },
+    "SIO_000612" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000612"
+    },
+    "UBERON_0000996" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000996"
+    },
+    "D006114" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006114"
+    },
+    "GO_0035176" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0035176"
+    },
+    "photo" : {
+      "@id" : "https://schema.org/photo"
+    },
+    "C2181" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2181"
+    },
+    "SIO_000817" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000817"
+    },
+    "C120206" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120206"
+    },
+    "C156660" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C156660"
+    },
+    "knowsLanguage" : {
+      "@id" : "https://schema.org/knowsLanguage"
+    },
+    "accrualMethod" : {
+      "@id" : "http://purl.org/dc/terms/accrualMethod"
+    },
+    "spouse" : {
+      "@id" : "https://schema.org/spouse"
+    },
+    "D020493" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D020493"
+    },
+    "SIO_000167" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000167"
+    },
+    "P575" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P575"
+    },
+    "hasOccupation" : {
+      "@id" : "https://schema.org/hasOccupation"
+    },
+    "CHEBI_24532" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24532"
+    },
+    "C41256" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41256"
+    },
+    "CHEBI_16670" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16670"
+    },
+    "D015205" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D015205"
+    },
+    "SIO_000181" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000181"
+    },
+    "C47920" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C47920"
+    },
+    "Q1823134" : {
+      "@id" : "https://www.wikidata.org/wiki/Q1823134"
+    },
+    "SIO_000847" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000847"
+    },
+    "D007802" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D007802"
+    },
+    "CHEBI_35497" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35497"
+    },
+    "DOID_121" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_121"
+    },
+    "BFO_0000002" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    },
+    "fma67619" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67619"
+    },
+    "C2931" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2931"
+    },
+    "GO_0030421" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0030421"
+    },
+    "PersonProperty" : {
+      "@id" : "http://purl.org/linguistics/gold/PersonProperty"
+    },
+    "CHEBI_73474" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_73474"
+    },
+    "GAZ_00005863" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005863"
+    },
+    "fma54327" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54327"
+    },
+    "GO_0030849" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0030849"
+    },
+    "GAZ_00002891" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002891"
+    },
+    "hasDefaultNamespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDefaultNamespace"
+    },
+    "C155696" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C155696"
+    },
+    "fma17769" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17769"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "fma12237" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma12237"
+    },
+    "D016911" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D016911"
+    },
+    "clipNumber" : {
+      "@id" : "https://schema.org/clipNumber"
+    },
+    "CHEBI_38298" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38298"
+    },
+    "ENVO_00000191" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00000191"
+    },
+    "HP_0000719" : {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0000719"
+    },
+    "GAZ_00002845" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002845"
+    },
+    "GAZ_00001105" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001105"
+    },
+    "CHEBI_36586" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36586"
+    },
+    "P2034" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P2034"
+    },
+    "C84361" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84361"
+    },
+    "D009519" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D009519"
+    },
+    "GO_0007281" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007281"
+    },
+    "CHEBI_35701" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35701"
+    },
+    "DOID_28" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_28"
+    },
+    "DOID_1612" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1612"
+    },
+    "SIO_000010" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000010"
+    },
+    "P27" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P27"
+    },
+    "GAZ_00000587" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000587"
+    },
+    "GO_0042004" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042004"
+    },
+    "CHEBI_32952" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_32952"
+    },
+    "DOID_5093" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_5093"
+    },
+    "CHEBI_38104" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38104"
+    },
+    "DOID_12849" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_12849"
+    },
+    "GO_0098577" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0098577"
+    },
+    "SIO_000091" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000091"
+    },
+    "GAZ_00000466" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000466"
+    },
+    "GAZ_00001093" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001093"
+    },
+    "P486" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P486"
+    },
+    "CHEBI_64600" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_64600"
+    },
+    "DOID_12139" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_12139"
+    },
+    "fma18318" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18318"
+    },
+    "CHEBI_61313" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_61313"
+    },
+    "D016454" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D016454"
+    },
+    "P1382" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1382"
+    },
+    "SIO_010376" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010376"
+    },
+    "honorificSuffix" : {
+      "@id" : "https://schema.org/honorificSuffix"
+    },
+    "GO_0008150" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0008150"
+    },
+    "GO_0060210" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060210"
+    },
+    "C37986" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37986"
+    },
+    "CHEBI_27958" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27958"
+    },
+    "BFO_0000023" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    },
+    "fma225816" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma225816"
+    },
+    "C16990" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16990"
+    },
+    "hasSynonymType" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType"
+    },
+    "foundingDate" : {
+      "@id" : "https://schema.org/foundingDate"
+    },
+    "GAZ_00070432" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00070432"
+    },
+    "CHEBI_36683" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36683"
+    },
+    "GAZ_00002943" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002943"
+    },
+    "UBERON_0008841" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0008841"
+    },
+    "hasAlternativeId" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"
+    },
+    "GAZ_00000554" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000554"
+    },
+    "P699" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P699"
+    },
+    "GO_0007308" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007308"
+    },
+    "IAO_0000027" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000027"
+    },
+    "fma63864" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma63864"
+    },
+    "P276" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P276"
+    },
+    "DOID_0060037" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060037"
+    },
+    "fma5898" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma5898"
+    },
+    "fma28606" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma28606"
+    },
+    "SIO_000831" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000831"
+    },
+    "P213" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P213"
+    },
+    "T168" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T168"
+    },
+    "GAZ_00003756" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003756"
+    },
+    "CHEBI_50996" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50996"
+    },
+    "GO_0019099" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0019099"
+    },
+    "SIO_000258" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000258"
+    },
+    "fma55662" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55662"
+    },
+    "DOID_229" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_229"
+    },
+    "DOID_3301" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_3301"
+    },
+    "CL_0000023" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000023"
+    },
+    "fma297481" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma297481"
+    },
+    "fma20009" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20009"
+    },
+    "C17857" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17857"
+    },
+    "UBERON_0005160" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0005160"
+    },
+    "UBERON_0005156" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0005156"
+    },
+    "fma14540" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma14540"
+    },
+    "NeuterGender" : {
+      "@id" : "http://purl.org/linguistics/gold/NeuterGender"
+    },
+    "CHEBI_60783" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_60783"
+    },
+    "P856" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P856"
+    },
+    "GO_0044848" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0044848"
+    },
+    "fma67771" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67771"
+    },
+    "SIO_000354" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000354"
+    },
+    "D006060" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006060"
+    },
+    "GAZ_00004525" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00004525"
+    },
+    "CHEBI_36885" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36885"
+    },
+    "UBERON_0006660" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006660"
+    },
+    "C478" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C478"
+    },
+    "fma78440" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma78440"
+    },
+    "GAZ_00002952" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002952"
+    },
+    "SIO_001354" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001354"
+    },
+    "GO_0060207" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060207"
+    },
+    "LifO_0000064" : {
+      "@id" : "http://purl.obolibrary.org/obo/LifO_0000064"
+    },
+    "streetAddress" : {
+      "@id" : "https://schema.org/streetAddress"
+    },
+    "SIO_000014" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000014"
+    },
+    "P156" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P156"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "fma55652" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55652"
+    },
+    "fma268896" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma268896"
+    },
+    "GO_0040022" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0040022"
+    },
+    "DOID_4908" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_4908"
+    },
+    "HP_0000735" : {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0000735"
+    },
+    "fma18377" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18377"
+    },
+    "issn" : {
+      "@id" : "https://schema.org/issn"
+    },
+    "SIO_000825" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000825"
+    },
+    "fma45636" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45636"
+    },
+    "GAZ_00002937" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002937"
+    },
+    "fma67165" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67165"
+    },
+    "UBERON_0034925" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0034925"
+    },
+    "GO_0007567" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007567"
+    },
+    "hasDefinition" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDefinition"
+    },
+    "dateSubmitted" : {
+      "@id" : "http://purl.org/dc/terms/dateSubmitted"
+    },
+    "C99754" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C99754"
+    },
+    "SIO_010046" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010046"
+    },
+    "CHEBI_62732" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_62732"
+    },
+    "UBERON_0034681" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0034681"
+    },
+    "GO_0046544" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0046544"
+    },
+    "GAZ_00002721" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002721"
+    },
+    "SIO_000107" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000107"
+    },
+    "isRequiredBy" : {
+      "@id" : "http://purl.org/dc/terms/isRequiredBy"
+    },
+    "C16669" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16669"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source"
+    },
+    "CHEBI_38001" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38001"
+    },
+    "fma323918" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma323918"
+    },
+    "award" : {
+      "@id" : "https://schema.org/award"
+    },
+    "GO_0048135" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048135"
+    },
+    "C38025" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38025"
+    },
+    "GO_0003008" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0003008"
+    },
+    "ProperNoun" : {
+      "@id" : "http://purl.org/linguistics/gold/ProperNoun"
+    },
+    "CHEBI_1391" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_1391"
+    },
+    "SIO_011125" : {
+      "@id" : "http://semanticscience.org/resource/SIO_011125"
+    },
+    "SIO_000315" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000315"
+    },
+    "DOID_593" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_593"
+    },
+    "CHEBI_77006" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77006"
+    },
+    "DOID_0060040" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060040"
+    },
+    "UBERON_0013759" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0013759"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type"
+    },
+    "fma9600" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9600"
+    },
+    "GO_0007276" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007276"
+    },
+    "C82847" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82847"
+    },
+    "P705" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P705"
+    },
+    "GO_0022602" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0022602"
+    },
+    "P780" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P780"
+    },
+    "birthDate" : {
+      "@id" : "https://schema.org/birthDate"
+    },
+    "D005431" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D005431"
+    },
+    "fma54326" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54326"
+    },
+    "CHEBI_26401" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26401"
+    },
+    "CHEBI_3090" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_3090"
+    },
+    "GO_0001197" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0001197"
+    },
+    "CHEBI_18379" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_18379"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "fma9669" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9669"
+    },
+    "C41075" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41075"
+    },
+    "C16542" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16542"
+    },
+    "P1694" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1694"
+    },
+    "SIO_000171" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000171"
+    },
+    "CommonNoun" : {
+      "@id" : "http://purl.org/linguistics/gold/CommonNoun"
+    },
+    "C51615" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51615"
+    },
+    "CHEBI_9463" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_9463"
+    },
+    "C25612" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25612"
+    },
+    "C93088" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C93088"
+    },
+    "CHEBI_36836" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36836"
+    },
+    "CHEBI_33853" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33853"
+    },
+    "GO_0000804" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0000804"
+    },
+    "datePublished" : {
+      "@id" : "https://schema.org/datePublished"
+    },
+    "fma14544" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma14544"
+    },
+    "GO_0001556" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0001556"
+    },
+    "fma85412" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma85412"
+    },
+    "UBERON_0010516" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0010516"
+    },
+    "D015925" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D015925"
+    },
+    "C25447" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25447"
+    },
+    "DOID_0080015" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0080015"
+    },
+    "C73432" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73432"
+    },
+    "GAZ_00000567" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000567"
+    },
+    "OAE_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/OAE_0000001"
+    },
+    "C26945" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26945"
+    },
+    "CHEBI_50112" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50112"
+    },
+    "SIO_001040" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001040"
+    },
+    "SIO_000082" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000082"
+    },
+    "BFO_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    },
+    "GO_0007292" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007292"
+    },
+    "GO_0071625" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0071625"
+    },
+    "DOID_305" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_305"
+    },
+    "D014592" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D014592"
+    },
+    "CHEBI_51277" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51277"
+    },
+    "SIO_000844" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000844"
+    },
+    "CHEBI_50837" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50837"
+    },
+    "C17598" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17598"
+    },
+    "UBERON_0016566" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0016566"
+    },
+    "fma24864" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24864"
+    },
+    "PossessivePronoun" : {
+      "@id" : "http://purl.org/linguistics/gold/PossessivePronoun"
+    },
+    "fma20247" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20247"
+    },
+    "UBERON_0013758" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0013758"
+    },
+    "ENVO_00000002" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00000002"
+    },
+    "IAO_0000310" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000310"
+    },
+    "C64262" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64262"
+    },
+    "fma322142" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma322142"
+    },
+    "D055747" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D055747"
+    },
+    "fma71012" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma71012"
+    },
+    "D011322" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D011322"
+    },
+    "fma83347" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma83347"
+    },
+    "P6694" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P6694"
+    },
+    "GAZ_00000588" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000588"
+    },
+    "DOID_3324" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_3324"
+    },
+    "SIO_000115" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000115"
+    },
+    "GAZ_00009188" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00009188"
+    },
+    "SIO_000150" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000150"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "UBERON_0035651" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0035651"
+    },
+    "CHEBI_33308" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33308"
+    },
+    "fma256135" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma256135"
+    },
+    "CHEBI_36963" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36963"
+    },
+    "C42610" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42610"
+    },
+    "C25464" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    },
+    "D003376" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003376"
+    },
+    "SIO_000182" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000182"
+    },
+    "GAZ_00004621" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00004621"
+    },
+    "fma19898" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19898"
+    },
+    "P509" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P509"
+    },
+    "SIO_000858" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000858"
+    },
+    "D006065" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006065"
+    },
+    "GAZ_00000906" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000906"
+    },
+    "C17465" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17465"
+    },
+    "CHEBI_36699" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36699"
+    },
+    "GAZ_00002951" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002951"
+    },
+    "SIO_000158" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000158"
+    },
+    "P361" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P361"
+    },
+    "C25745" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25745"
+    },
+    "GO_0007531" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007531"
+    },
+    "fma0328413" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0328413"
+    },
+    "D007858" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D007858"
+    },
+    "SIO_010035" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010035"
+    },
+    "P1549" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1549"
+    },
+    "CHEBI_24062" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24062"
+    },
+    "PATO_0002202" : {
+      "@id" : "http://purl.obolibrary.org/obo/PATO_0002202"
+    },
+    "GO_0007610" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007610"
+    },
+    "fma11337" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma11337"
+    },
+    "fma45642" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45642"
+    },
+    "GAZ_00281547" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00281547"
+    },
+    "C16840" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16840"
+    },
+    "GO_0007538" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007538"
+    },
+    "fma292313" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma292313"
+    },
+    "CHEBI_33695" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33695"
+    },
+    "GO_0007338" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007338"
+    },
+    "CHEBI_22527" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22527"
+    },
+    "isReferencedBy" : {
+      "@id" : "http://purl.org/dc/terms/isReferencedBy"
+    },
+    "C99103" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C99103"
+    },
+    "GO_0007547" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007547"
+    },
+    "LifO_0000014" : {
+      "@id" : "http://purl.obolibrary.org/obo/LifO_0000014"
+    },
+    "D027724" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D027724"
+    },
+    "DOID_0050922" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050922"
+    },
+    "C39769" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39769"
+    },
+    "accessRights" : {
+      "@id" : "http://purl.org/dc/terms/accessRights"
+    },
+    "GAZ_00003744" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003744"
+    },
+    "GAZ_00001102" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001102"
+    },
+    "GO_0022605" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0022605"
+    },
+    "fma242999" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma242999"
+    },
+    "D019215" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019215"
+    },
+    "C161601" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C161601"
+    },
+    "fma77055" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma77055"
+    },
+    "DOID_0050117" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050117"
+    },
+    "RO_0002577" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002577"
+    },
+    "logo" : {
+      "@id" : "https://schema.org/logo"
+    },
+    "fma25054" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma25054"
+    },
+    "GAZ_00002825" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002825"
+    },
+    "fma297484" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma297484"
+    },
+    "SIO_000179" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000179"
+    },
+    "D007360" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D007360"
+    },
+    "DOID_10935" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10935"
+    },
+    "fma14065" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma14065"
+    },
+    "D052180" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D052180"
+    },
+    "C74957" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74957"
+    },
+    "fma241863" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma241863"
+    },
+    "GO_0030238" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0030238"
+    },
+    "D013850" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D013850"
+    },
+    "MorphosyntacticProperty" : {
+      "@id" : "http://purl.org/linguistics/gold/MorphosyntacticProperty"
+    },
+    "GO_0042697" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042697"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "MF_0000021" : {
+      "@id" : "http://purl.obolibrary.org/obo/MF_0000021"
+    },
+    "alumniOf" : {
+      "@id" : "https://schema.org/alumniOf"
+    },
+    "SIO_000326" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000326"
+    },
+    "DOID_7" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_7"
+    },
+    "GAZ_00000458" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000458"
+    },
+    "fma45654" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45654"
+    },
+    "C79472" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C79472"
+    },
+    "fma45637" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45637"
+    },
+    "CHEBI_50114" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50114"
+    },
+    "isCyclic" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#isCyclic"
+    },
+    "P351" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P351"
+    },
+    "CHEBI_15734" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_15734"
+    },
+    "GAZ_00069209" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00069209"
+    },
+    "C25460" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25460"
+    },
+    "SIO_000080" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000080"
+    },
+    "D009633" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D009633"
+    },
+    "C95018" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C95018"
+    },
+    "CHEBI_50113" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50113"
+    },
+    "GAZ_02000355" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_02000355"
+    },
+    "replaces" : {
+      "@id" : "http://purl.org/dc/terms/replaces"
+    },
+    "fma24226" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24226"
+    },
+    "fma67538" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67538"
+    },
+    "CHEBI_23117" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23117"
+    },
+    "UBERON_0000456" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000456"
+    },
+    "GAZ_00000905" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000905"
+    },
+    "C28160" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28160"
+    },
+    "fma63887" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma63887"
+    },
+    "P175" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P175"
+    },
+    "D017699" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D017699"
+    },
+    "fma9577" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9577"
+    },
+    "GAZ_00000913" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000913"
+    },
+    "CHEBI_35915" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35915"
+    },
+    "EFO_0009629" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0009629"
+    },
+    "GAZ_00047678" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00047678"
+    },
+    "SIO_001066" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001066"
+    },
+    "fma296970" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma296970"
+    },
+    "D059785" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D059785"
+    },
+    "C156020" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C156020"
+    },
+    "D016417" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D016417"
+    },
+    "fma18309" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18309"
+    },
+    "GO_0042001" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042001"
+    },
+    "SIO_000429" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000429"
+    },
+    "UBERON_0001299" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001299"
+    },
+    "fma76910" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma76910"
+    },
+    "fma18252" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18252"
+    },
+    "D020034" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D020034"
+    },
+    "fma76446" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma76446"
+    },
+    "GO_0042712" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042712"
+    },
+    "SIO_000999" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000999"
+    },
+    "P704" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P704"
+    },
+    "P675" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P675"
+    },
+    "MFOMD_0000188" : {
+      "@id" : "http://purl.obolibrary.org/obo/MFOMD_0000188"
+    },
+    "fma54240" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54240"
+    },
+    "FirstPerson" : {
+      "@id" : "http://purl.org/linguistics/gold/FirstPerson"
+    },
+    "fma231430" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma231430"
+    },
+    "C43431" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43431"
+    },
+    "SIO_000111" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000111"
+    },
+    "CHEBI_36838" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36838"
+    },
+    "P742" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P742"
+    },
+    "C148291" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C148291"
+    },
+    "GAZ_00001101" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00001101"
+    },
+    "C26786" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26786"
+    },
+    "fma18305" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma18305"
+    },
+    "SIO_000614" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000614"
+    },
+    "CHEBI_135741" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_135741"
+    },
+    "P1683" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1683"
+    },
+    "C120192" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120192"
+    },
+    "SIO_001317" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001317"
+    },
+    "DOID_2059" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2059"
+    },
+    "D014424" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D014424"
+    },
+    "CHEBI_77175" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_77175"
+    },
+    "GO_0051704" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0051704"
+    },
+    "CHEBI_16422" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_16422"
+    },
+    "fma55661" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55661"
+    },
+    "GO_0045895" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0045895"
+    },
+    "DOID_0050688" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050688"
+    },
+    "UBERON_0008811" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0008811"
+    },
+    "C3245" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3245"
+    },
+    "C51977" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51977"
+    },
+    "ENVO_01001222" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01001222"
+    },
+    "CL_0000300" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000300"
+    },
+    "C120864" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120864"
+    },
+    "legislationDate" : {
+      "@id" : "https://schema.org/legislationDate"
+    },
+    "DOID_2377" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2377"
+    },
+    "CHEBI_35341" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35341"
+    },
+    "UBERON_0002530" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0002530"
+    },
+    "GO_0035803" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0035803"
+    },
+    "GAZ_00006886" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00006886"
+    },
+    "C14263" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14263"
+    },
+    "CHEBI_55370" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_55370"
+    },
+    "DOID_2789" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2789"
+    },
+    "P1889" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1889"
+    },
+    "C15354" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15354"
+    },
+    "DOID_1426" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1426"
+    },
+    "GO_0045136" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0045136"
+    },
+    "fma76509" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma76509"
+    },
+    "SIO_000852" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000852"
+    },
+    "D017516" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D017516"
+    },
+    "CL_0000017" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000017"
+    },
+    "CL_0000586" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000586"
+    },
+    "D062210" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D062210"
+    },
+    "CHEBI_25676" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25676"
+    },
+    "D052287" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D052287"
+    },
+    "P345" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P345"
+    },
+    "CHEBI_85278" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_85278"
+    },
+    "colleague" : {
+      "@id" : "https://schema.org/colleague"
+    },
+    "fma17561" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17561"
+    },
+    "GO_0042003" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042003"
+    },
+    "GO_0005623" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0005623"
+    },
+    "P352" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P352"
+    },
+    "HP_0008768" : {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0008768"
+    },
+    "fma46476" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma46476"
+    },
+    "UBERON_0010518" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0010518"
+    },
+    "SIO_001318" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001318"
+    },
+    "UBERON_0036215" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0036215"
+    },
+    "GO_0009653" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0009653"
+    },
+    "fma17559" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17559"
+    },
+    "P492" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P492"
+    },
+    "SIO_000259" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000259"
+    },
+    "C3439" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3439"
+    },
+    "C61388" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61388"
+    },
+    "GO_0050877" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0050877"
+    },
+    "fma323028" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma323028"
+    },
+    "GAZ_00003798" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003798"
+    },
+    "SIO_000812" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000812"
+    },
+    "CL_0000655" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000655"
+    },
+    "GO_0060206" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060206"
+    },
+    "D004505" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D004505"
+    },
+    "UBERON_0010000" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0010000"
+    },
+    "D008605" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D008605"
+    },
+    "fma277722" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma277722"
+    },
+    "hasBroadSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"
+    },
+    "GO_0060209" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060209"
+    },
+    "UBERON_0006314" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0006314"
+    },
+    "fma45655" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma45655"
+    },
+    "EFO_0001444" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0001444"
+    },
+    "D011209" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D011209"
+    },
+    "GAZ_00005283" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00005283"
+    },
+    "memberOf" : {
+      "@id" : "https://schema.org/memberOf"
+    },
+    "D000072438" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D000072438"
+    },
+    "P1323" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1323"
+    },
+    "C21480" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21480"
+    },
+    "C3492" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3492"
+    },
+    "fma17770" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17770"
+    },
+    "GO_0003006" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0003006"
+    },
+    "sameAs" : {
+      "@id" : "https://schema.org/sameAs"
+    },
+    "fma24208" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24208"
+    },
+    "GO_0019102" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0019102"
+    },
+    "LifO_0000062" : {
+      "@id" : "http://purl.obolibrary.org/obo/LifO_0000062"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "SIO_000026" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000026"
+    },
+    "C53292" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53292"
+    },
+    "GAZ_00002747" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002747"
+    },
+    "fma280558" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma280558"
+    },
+    "C54627" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54627"
+    },
+    "fma24199" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24199"
+    },
+    "GAZ_00002939" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002939"
+    },
+    "SIO_000836" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000836"
+    },
+    "CHEBI_50838" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50838"
+    },
+    "SIO_000256" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000256"
+    },
+    "fma78541" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma78541"
+    },
+    "fma19987" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19987"
+    },
+    "hasDbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+    },
+    "SIO_000412" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000412"
+    },
+    "ENVO_01000781" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000781"
+    },
+    "GAZ_00002464" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002464"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "fma54241" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54241"
+    },
+    "UBERON_0000473" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000473"
+    },
+    "GO_0007539" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007539"
+    },
+    "fma78586" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma78586"
+    },
+    "GO_0007595" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007595"
+    },
+    "DOID_0060041" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0060041"
+    },
+    "fma19995" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19995"
+    },
+    "SIO_000621" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000621"
+    },
+    "SIO_000956" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000956"
+    },
+    "DOID_0050686" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050686"
+    },
+    "GAZ_00004474" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00004474"
+    },
+    "P3962" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P3962"
+    },
+    "C38114" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38114"
+    },
+    "fma0329058" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0329058"
+    },
+    "GAZ_00002471" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002471"
+    },
+    "CHEBI_83565" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_83565"
+    },
+    "DOID_2745" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2745"
+    },
+    "ENVO_01000420" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_01000420"
+    },
+    "CHEBI_24471" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24471"
+    },
+    "DOID_1398" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1398"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "CHEBI_36043" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36043"
+    },
+    "CHEBI_23424" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23424"
+    },
+    "CHEBI_33304" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33304"
+    },
+    "UBERON_0000995" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000995"
+    },
+    "CL_0000025" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000025"
+    },
+    "C2910" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2910"
+    },
+    "GO_0030728" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0030728"
+    },
+    "D006473" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D006473"
+    },
+    "T072" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T072"
+    },
+    "SIO_000861" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000861"
+    },
+    "CHEBI_36587" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36587"
+    },
+    "SIO_000865" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000865"
+    },
+    "fma54393" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma54393"
+    },
+    "fma20346" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20346"
+    },
+    "SIO_000154" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000154"
+    },
+    "GO_0043084" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0043084"
+    },
+    "fma20221" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20221"
+    },
+    "GO_0007320" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007320"
+    },
+    "GO_0046879" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0046879"
+    },
+    "GAZ_00070431" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00070431"
+    },
+    "C61488" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61488"
+    },
+    "CHEBI_50047" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50047"
+    },
+    "requires" : {
+      "@id" : "http://purl.org/dc/terms/requires"
+    },
+    "GO_0048609" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048609"
+    },
+    "P703" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P703"
+    },
+    "SIO_010414" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010414"
+    },
+    "UBERON_0001008" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0001008"
+    },
+    "D005498" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D005498"
+    },
+    "CHEBI_27974" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27974"
+    },
+    "GAZ_22225221" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_22225221"
+    },
+    "SIO_000949" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000949"
+    },
+    "ReflexivePronoun" : {
+      "@id" : "http://purl.org/linguistics/gold/ReflexivePronoun"
+    },
+    "CHEBI_10110" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_10110"
+    },
+    "CHEBI_63533" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_63533"
+    },
+    "GeneticTaxon" : {
+      "@id" : "http://purl.org/linguistics/gold/GeneticTaxon"
+    },
+    "SIO_000114" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000114"
+    },
+    "C92760" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92760"
+    },
+    "SIO_000747" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000747"
+    },
+    "fma85278" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma85278"
+    },
+    "CHEBI_35789" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35789"
+    },
+    "ENVO_00000073" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00000073"
+    },
+    "SIO_000079" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000079"
+    },
+    "SIO_000912" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000912"
+    },
+    "fma61108" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma61108"
+    },
+    "SIO_000163" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000163"
+    },
+    "D015206" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D015206"
+    },
+    "fma0329094" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma0329094"
+    },
+    "SIO_000860" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000860"
+    },
+    "GO_0044849" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0044849"
+    },
+    "T096" : {
+      "@id" : "http://purl.bioontology.org/ontology/STY/T096"
+    },
+    "C35470" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35470"
+    },
+    "CHEBI_59792" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59792"
+    },
+    "D018847" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D018847"
+    },
+    "fma86168" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma86168"
+    },
+    "CHEBI_35352" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35352"
+    },
+    "P585" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P585"
+    },
+    "SIO_001331" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001331"
+    },
+    "CHEBI_34745" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_34745"
+    },
+    "available" : {
+      "@id" : "http://purl.org/dc/terms/available"
+    },
+    "nationality" : {
+      "@id" : "https://schema.org/nationality"
+    },
+    "DOID_0050687" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_0050687"
+    },
+    "DOID_331" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_331"
+    },
+    "GAZ_00000459" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000459"
+    },
+    "C77965" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C77965"
+    },
+    "P1748" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1748"
+    },
+    "GAZ_00000585" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000585"
+    },
+    "CHEBI_2679" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_2679"
+    },
+    "GAZ_00009088" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00009088"
+    },
+    "CHEBI_51060" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_51060"
+    },
+    "CHEBI_41922" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_41922"
+    },
+    "DOID_1510" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1510"
+    },
+    "CHEBI_59999" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_59999"
+    },
+    "fma17739" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma17739"
+    },
+    "CHEBI_24995" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24995"
+    },
+    "C155692" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C155692"
+    },
+    "C62263" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62263"
+    },
+    "CHEBI_36834" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36834"
+    },
+    "D010812" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D010812"
+    },
+    "endDate" : {
+      "@id" : "https://schema.org/endDate"
+    },
+    "UBERON_0002537" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0002537"
+    },
+    "conformsTo" : {
+      "@id" : "http://purl.org/dc/terms/conformsTo"
+    },
+    "alternative" : {
+      "@id" : "http://purl.org/dc/terms/alternative"
+    },
+    "D016437" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D016437"
+    },
+    "fma268893" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma268893"
+    },
+    "GAZ_00002640" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002640"
+    },
+    "CHEBI_35726" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35726"
+    },
+    "CHEBI_33670" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33670"
+    },
+    "fma67112" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67112"
+    },
+    "C92454" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92454"
+    },
+    "CHEBI_35343" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_35343"
+    },
+    "hasFormat" : {
+      "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "D060756" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D060756"
+    },
+    "fma86103" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma86103"
+    },
+    "SIO_000090" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000090"
+    },
+    "fma9664" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9664"
+    },
+    "SIO_010375" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010375"
+    },
+    "GO_0007589" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007589"
+    },
+    "D019502" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D019502"
+    },
+    "P5191" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P5191"
+    },
+    "DOID_1509" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1509"
+    },
+    "GO_0051234" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0051234"
+    },
+    "GAZ_00002650" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002650"
+    },
+    "CL_0000548" : {
+      "@id" : "http://purl.obolibrary.org/obo/CL_0000548"
+    },
+    "SIO_001183" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001183"
+    },
+    "SIO_000155" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000155"
+    },
+    "GO_0018993" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0018993"
+    },
+    "GAZ_00000915" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000915"
+    },
+    "UBERON_0000991" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000991"
+    },
+    "GAZ_00002945" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002945"
+    },
+    "C25755" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25755"
+    },
+    "fma78562" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma78562"
+    },
+    "C18071" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18071"
+    },
+    "ENVO_00000000" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00000000"
+    },
+    "fma62966" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma62966"
+    },
+    "GO_0001198" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0001198"
+    },
+    "D003259" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003259"
+    },
+    "GO_0022601" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0022601"
+    },
+    "D018436" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D018436"
+    },
+    "CHEBI_33635" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33635"
+    },
+    "SIO_000297" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000297"
+    },
+    "fma9601" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma9601"
+    },
+    "D004358" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D004358"
+    },
+    "CHEBI_78616" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_78616"
+    },
+    "fma66290" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma66290"
+    },
+    "GO_0044705" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0044705"
+    },
+    "CHEBI_33599" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_33599"
+    },
+    "GO_0097722" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0097722"
+    },
+    "alternateName" : {
+      "@id" : "https://schema.org/alternateName"
+    },
+    "fma82500" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma82500"
+    },
+    "additionalName" : {
+      "@id" : "https://schema.org/additionalName"
+    },
+    "GO_0051705" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0051705"
+    },
+    "GAZ_00002569" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002569"
+    },
+    "SIO_000950" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000950"
+    },
+    "D003075" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D003075"
+    },
+    "GO_0009987" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0009987"
+    },
+    "P663" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P663"
+    },
+    "GAZ_00000555" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00000555"
+    },
+    "C16269" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16269"
+    },
+    "fma72395" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma72395"
+    },
+    "HP_0000826" : {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0000826"
+    },
+    "DOID_3459" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_3459"
+    },
+    "GAZ_00002828" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002828"
+    },
+    "CHEBI_36684" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_36684"
+    },
+    "episodeNumber" : {
+      "@id" : "https://schema.org/episodeNumber"
+    },
+    "CHEBI_72695" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_72695"
+    },
+    "C156018" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C156018"
+    },
+    "GAZ_00003787" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003787"
+    },
+    "SIO_000851" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000851"
+    },
+    "C49165" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49165"
+    },
+    "OGMS_0000060" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000060"
+    },
+    "C42680" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42680"
+    },
+    "CHEBI_22680" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22680"
+    },
+    "GO_0048515" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0048515"
+    },
+    "ProForm" : {
+      "@id" : "http://purl.org/linguistics/gold/ProForm"
+    },
+    "fma67552" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67552"
+    },
+    "SIO_000602" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000602"
+    },
+    "D063508" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D063508"
+    },
+    "C120144" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120144"
+    },
+    "C15333" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15333"
+    },
+    "C17357" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17357"
+    },
+    "SIO_001353" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001353"
+    },
+    "fma20010" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20010"
+    },
+    "SIO_000017" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000017"
+    },
+    "isbn" : {
+      "@id" : "https://schema.org/isbn"
+    },
+    "fma67135" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma67135"
+    },
+    "weight" : {
+      "@id" : "https://schema.org/weight"
+    },
+    "SIO_000009" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000009"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "SIO_000832" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000832"
+    },
+    "GAZ_00002950" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002950"
+    },
+    "GAZ_00002946" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002946"
+    },
+    "C34470" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34470"
+    },
+    "SIO_000828" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000828"
+    },
+    "D057214" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D057214"
+    },
+    "GO_0007532" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007532"
+    },
+    "GO_0042695" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042695"
+    },
+    "SIO_000076" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000076"
+    },
+    "SIO_000873" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000873"
+    },
+    "D001522" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D001522"
+    },
+    "fma293325" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma293325"
+    },
+    "CHEBI_26764" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26764"
+    },
+    "P2699" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P2699"
+    },
+    "SIO_000834" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000834"
+    },
+    "GAZ_00162541" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00162541"
+    },
+    "SIO_010462" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010462"
+    },
+    "fma55672" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma55672"
+    },
+    "GO_0009914" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0009914"
+    },
+    "issueNumber" : {
+      "@id" : "https://schema.org/issueNumber"
+    },
+    "fma61109" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma61109"
+    },
+    "fma24218" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24218"
+    },
+    "fma20218" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma20218"
+    },
+    "fma19901" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19901"
+    },
+    "SIO_000716" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000716"
+    },
+    "OBI_1110122" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_1110122"
+    },
+    "DOID_10930" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10930"
+    },
+    "UBERON_0000061" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000061"
+    },
+    "CHEBI_5739" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_5739"
+    },
+    "D002947" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D002947"
+    },
+    "DOID_2468" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2468"
+    },
+    "UBERON_0000174" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0000174"
+    },
+    "GenderProperty" : {
+      "@id" : "http://purl.org/linguistics/gold/GenderProperty"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "OBI_0600015" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0600015"
+    },
+    "DOID_594" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_594"
+    },
+    "GAZ_00003727" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003727"
+    },
+    "C89773" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C89773"
+    },
+    "DOID_1564" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1564"
+    },
+    "relation" : {
+      "@id" : "http://purl.org/dc/elements/1.1/relation"
+    },
+    "GAZ_00003606" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003606"
+    },
+    "GAZ_00003923" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00003923"
+    },
+    "DOID_1094" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1094"
+    },
+    "D054525" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D054525"
+    },
+    "SIO_000113" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000113"
+    },
+    "P580" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P580"
+    },
+    "DOID_10933" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_10933"
+    },
+    "PartOfSpeechProperty" : {
+      "@id" : "http://purl.org/linguistics/gold/PartOfSpeechProperty"
+    },
+    "CHEBI_1722" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_1722"
+    },
+    "P1692" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P1692"
+    },
+    "ENVO_00002221" : {
+      "@id" : "http://purl.obolibrary.org/obo/ENVO_00002221"
+    },
+    "SIO_001026" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001026"
+    },
+    "GAZ_00002957" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002957"
+    },
+    "BFO_0000030" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
+    },
+    "D015144" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D015144"
+    },
+    "DOID_2519" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_2519"
+    },
+    "fma53669" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma53669"
+    },
+    "fma19656" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19656"
+    },
+    "UBERON_0003133" : {
+      "@id" : "http://purl.obolibrary.org/obo/UBERON_0003133"
+    },
+    "DOID_1115" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1115"
+    },
+    "volumeNumber" : {
+      "@id" : "https://schema.org/volumeNumber"
+    },
+    "C9305" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9305"
+    },
+    "D011314" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D011314"
+    },
+    "C16567" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16567"
+    },
+    "C25446" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"
+    },
+    "DOID_1909" : {
+      "@id" : "http://purl.obolibrary.org/obo/DOID_1909"
+    },
+    "EFO_0001799" : {
+      "@id" : "http://www.ebi.ac.uk/efo/EFO_0001799"
+    },
+    "GO_0007617" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0007617"
+    },
+    "C135383" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C135383"
+    },
+    "GO_0042713" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0042713"
+    },
+    "CHEBI_31622" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_31622"
+    },
+    "C107426" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C107426"
+    },
+    "fma320468" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma320468"
+    },
+    "P6680" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P6680"
+    },
+    "GO_0000805" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0000805"
+    },
+    "fma77053" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma77053"
+    },
+    "P724" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P724"
+    },
+    "CHEBI_50745" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_50745"
+    },
+    "CHEBI_37622" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_37622"
+    },
+    "GAZ_00002801" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00002801"
+    },
+    "fma24876" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma24876"
+    },
+    "C51776" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51776"
+    },
+    "D005859" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D005859"
+    },
+    "C42877" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42877"
+    },
+    "editor" : {
+      "@id" : "https://schema.org/editor"
+    },
+    "SIO_000162" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000162"
+    },
+    "C15187" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15187"
+    },
+    "fma19997" : {
+      "@id" : "http://purl.org/sig/ont/fma/fma19997"
+    },
+    "CHEBI_38304" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_38304"
+    },
+    "C21007" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21007"
+    },
+    "P138" : {
+      "@id" : "https://www.wikidata.org/wiki/Property:P138"
+    },
+    "GAZ_00008330" : {
+      "@id" : "http://purl.obolibrary.org/obo/GAZ_00008330"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    },
+    "C51306" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51306"
+    },
+    "C51775" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51775"
+    }
+  }
+}
