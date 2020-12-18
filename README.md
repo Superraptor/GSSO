@@ -6,13 +6,41 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 If you would like to use the raw OWL files here, it is recommended that you download the Protégé program [here](https://protege.stanford.edu/) and open it in that program. Alternatively you can access the system via the NCBO BioPortal API (explained below) or via our website: https://gsso.research.cchmc.org/. It is recommended to use the OWL format (which is RDF/XML from 2.0.5 onward).
 
+If you use the GSSO in your projects, we would really appreciate the citation! Please use the most recent publication under "Publications - GSSO Publications".
+
+### As An Educational Tool
+
+The GSSO's stand-alone website at CCHMC (https://gsso.research.cchmc.org/) is meant as the most accessible site for referencing individual terms for educational purposes. We are always accepting suggestions on how this interface can be improved, or collaborations we can contribute to!
+
+### As Subject Headings
+
+The GSSO has entered a pilot phase for usage at subject headings with the GLBT Museum & Archives. If you are interested in similar usage, please contact the author(s) are the email below!
+
+Generally, we recommend using the label or alternate name attributes, we the IRI in parenthetical afterward. This makes it easier to see during web scraping (if a centralized database is theoretically created) regardless of system used when entering subject heading guides.
+
+### As A Natural Language Processing (NLP) Instrument
+
+If you are planning on using the GSSO for NLP, please contact the authors! While the scripts are currently not available on the GitHub, we can share some of our scripts (written in Python3) via email if you would like!
+
+We recommend downplaying related synonyms and short names, for instance, as these are often ambiguous in nature.
+
+### Translating the GSSO
+
+If you are interested in translating the GSSO, please let us know! Contact the author(s) below if you are engaging in translation.
+
 ### Website
 
-TBD.
+The GSSO is separately available at Ontobee [here](http://www.ontobee.org/ontology/GSSO), at the NCBO BioPortal [here](https://bioportal.bioontology.org/ontologies/GSSO), EMBL-EBI OLS [here](https://www.ebi.ac.uk/ols/ontologies/gsso). However, there is also a stand-alone website hosted at Cincinnati Children's Hospital and Medical Center (CCHMC), [here](https://gsso.research.cchmc.org/).
+
+These sites update periodically based on this GitHub repository. This means that the GitHub is the only resource that is guaranteed to be up-to-date.
+
+At the stand-alone site, there is a [text annotation feature](https://gsso.research.cchmc.org/#!/detector). Other similar annotation features are available at the NCBO BioPortal and Ontobee.
 
 ### API Access
 
 The API for the GSSO can be accessed as part of the NCBO BioPortal's API. For more information, consult the NCBO BioPortal API documentation [here](http://data.bioontology.org/documentation). Note that first you must create an NCBO BioPortal account and obtain an API key, in order for most of these calls to work.
+
+The GSSO can also be accessed using Ontobee's SPARQL query interface [here](http://www.ontobee.org/sparql).
 
 #### Getting Instances for a Class
 
@@ -159,9 +187,11 @@ Versions 2.0.4 and 2.0.5 switch to OBO Foundry compliant PURLs, which will be ma
 
 Please feel free to contribute! If there is a term or terms that include unsatisfactory information, broken links, derogatory terminology that is not appropriately marked, please contact us! Additionally, we are attempting to include as much information from disparate archives as possible. If you or someone you know runs an LGBTQIA+ and/or sex archive with a controlled terminology, let us know!
 
-A very basic search/browse interface of version 1.0.0 is located [here](http://homepages.uc.edu/~kronkcj/gsso/) for the time being. This site has been deprecated as of 2020. A new demo site is available [here](https://gsso.research.cchmc.org/).
+A very basic search/browse interface of version 1.0.0 was located [here](http://homepages.uc.edu/~kronkcj/gsso/). This site has been deprecated as of 2020. A new demo site is available [here](https://gsso.research.cchmc.org/).
 
 An alpha version of 2.0.4 is also available on the NCBO BioPortal [here](http://bioportal.bioontology.org/ontologies/GSSO).
+
+There is also a survey going over various features of the GSSO [here](https://gsso.research.cchmc.org/#!/survey) if you have time to rate the GSSO!
 
 ## Authors
 
@@ -173,11 +203,24 @@ This project is currently bound by the Apache 2.0 License. All mapped ontologies
 
 ## Publications
 
+### GSSO Publications
+
 * Kronk C, Dexheimer J. "Development of the Gender, Sex, and Sexual Orientation Ontology: Evaluation and Workflow." _Journal of the American Medical Informatics Association_. 2020. DOI: [10.1093/jamia/ocaa061](https://doi.org/10.1093/jamia/ocaa061). PMID: [32548638](https://pubmed.ncbi.nlm.nih.gov/32548638/).
+
 * Kronk C, Tran G, Wu D. "Creating a Queer Ontology: Introduction of the Gender, Sex, and Sexual Orientation (GSSO) Ontology." _MEDINFO 2019: Health and Wellbeing e-Networks for All_. 2019:264. DOI: [10.3233/SHTI190213](https://doi.org/10.3233/SHTI190213). PMID: [31437915](https://www.ncbi.nlm.nih.gov/pubmed/31437915).
+
+### Publications Which Utilize/Cite the GSSO
+
+If you've published something that uses the GSSO, please contact us! We'd love to add your work here!
+
+* Lynch, K, Alba P, Patterson O, Viernes B, Coronado G, DuVall S. "The Utility of Clinical Notes for Sexual Minority Health Research." _American Journal of Preventive Medicine_. 2020. DOI: [10.1016/j.amepre.2020.05.026](https://doi.org/10.1016/j.amepre.2020.05.026). PMID: [33011005](https://pubmed.ncbi.nlm.nih.gov/33011005/)
+
+* Tai, J. "Cultural Humility as a Framework for Anti-Oppressive Archival Description." _Journal of Critical Library and Information Studies_. 2020. 
+
 
 ## Acknowledgments
 
 * Judith W. Dexheimer
+* Mark H. Eckman
 * Giao Q. Tran
 * Danny T. Y. Wu
