@@ -14,7 +14,7 @@ The GSSO's stand-alone website at CCHMC (https://gsso.research.cchmc.org/) is me
 
 ### As Subject Headings
 
-The GSSO has entered a pilot phase for usage at subject headings with the GLBT Museum & Archives. If you are interested in similar usage, please contact the author(s) are the email below!
+The GSSO has entered a pilot phase for usage at subject headings with the GLBT Museum & Archives. If you are interested in similar usage, please contact the author(s) at the email below!
 
 Generally, we recommend using the label or alternate name attributes, we the IRI in parenthetical afterward. This makes it easier to see during web scraping (if a centralized database is theoretically created) regardless of system used when entering subject heading guides.
 
