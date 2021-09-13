@@ -205,6 +205,8 @@ This project is currently bound by the Apache 2.0 License. All mapped ontologies
 
 ### GSSO Publications
 
+* Kronk C. ''Gender, Sex and Sexual Orientation in Medicine: A Linguistic Analysis'' (2021). University of Cincinnati School of Medicine. Ph.D. Thesis. Permalink: [ucin1617107411106107](http://rave.ohiolink.edu/etdc/view?acc_num=ucin1617107411106107).
+
 * Kronk C, Dexheimer J. "Development of the Gender, Sex, and Sexual Orientation Ontology: Evaluation and Workflow." _Journal of the American Medical Informatics Association_. 2020. DOI: [10.1093/jamia/ocaa061](https://doi.org/10.1093/jamia/ocaa061). PMID: [32548638](https://pubmed.ncbi.nlm.nih.gov/32548638/).
 
 * Kronk C, Tran G, Wu D. "Creating a Queer Ontology: Introduction of the Gender, Sex, and Sexual Orientation (GSSO) Ontology." _MEDINFO 2019: Health and Wellbeing e-Networks for All_. 2019:264. DOI: [10.3233/SHTI190213](https://doi.org/10.3233/SHTI190213). PMID: [31437915](https://www.ncbi.nlm.nih.gov/pubmed/31437915).
@@ -217,6 +219,17 @@ If you've published something that uses the GSSO, please contact us! We'd love t
 
 * Tai, J. "Cultural Humility as a Framework for Anti-Oppressive Archival Description." _Journal of Critical Library and Information Studies_. 2020. 
 
+## Projects
+
+### Projects Which Utilize/Cite the GSSO
+
+* [EMERSE (Electronic Medical Record Search Engine) Synonyms](https://project-emerse.org/synonyms.html)
+
+## Resources
+
+### Resources Which Link to the GSSO
+
+* [Dictionaries, Glossaries, Ontologies, and Guides at New York University (NYU) Libraries Gender and Sexuality Studies Research Guide](https://guides.nyu.edu/genderandsex/terminology)
 
 ## Acknowledgments
 
