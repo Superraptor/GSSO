@@ -228,6 +228,7 @@ If you've published something that uses the GSSO, please contact us! We'd love t
 ### Projects Which Utilize/Cite the GSSO
 
 * [EMERSE (Electronic Medical Record Search Engine) Synonyms](https://project-emerse.org/synonyms.html)
+* [GLBT Historical Society, Online Archive of California](https://oac.cdlib.org/institutions/GLBT+Historical+Society)
 
 ## Resources
 
