@@ -172,6 +172,8 @@ Versions 2.0.4 and onward switch to OBO Foundry compliant PURLs, which will be m
 
 Version 2.0.6 is an intermediate version, adding a number of terms from the backlog of needed additions, as well as touching up a number of existing entries. It is still a work-in-progress and do not yet contain full mappings to versions 1 and 3 of the Homosaurus.
 
+Version 2.0.7 is an alpha version, as the conversion to OBO format is not currently working. Please be patient as we attempt to fix the issue.
+
 * 1.0.0 (24 June 2019)
 * 1.0.1a (11 September 2019)
 * 1.0.1b (12 September 2019)
@@ -185,7 +187,7 @@ Version 2.0.6 is an intermediate version, adding a number of terms from the back
 * 2.0.4 (N/A)
 * 2.0.5 (N/A)
 * 2.0.6 (15 October 2021)
-* 2.0.7 (TBA)
+* 2.0.7 (22 December 2021)
 
 ## Contributing
 
