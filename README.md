@@ -174,6 +174,8 @@ Version 2.0.6 is an intermediate version, adding a number of terms from the back
 
 Version 2.0.7 is an alpha version, as the conversion to OBO format is not currently working. Please be patient as we attempt to fix the issue.
 
+Version 2.0.8 is also in alpha, with only a couple small changes based on reported issues. Conversion to JSON and OBO formats has not been possible, so those files are still version 2.0.7 as of 8 July 2022.
+
 * 1.0.0 (24 June 2019)
 * 1.0.1a (11 September 2019)
 * 1.0.1b (12 September 2019)
@@ -188,6 +190,8 @@ Version 2.0.7 is an alpha version, as the conversion to OBO format is not curren
 * 2.0.5 (N/A)
 * 2.0.6 (15 October 2021)
 * 2.0.7 (22 December 2021)
+* 2.0.8 (8 July 2022)
+* 2.0.9 (6 September 2022)
 
 ## Contributing
 
@@ -205,7 +209,7 @@ There is also a survey going over various features of the GSSO [here](https://gs
 
 ## License
 
-This project is currently bound by the Apache 2.0 License. All mapped ontologies within GSSO are within Creative Commons, but may require separate requirements. Please check with their respective creators before utilizing.
+This project and any associated software created as part of the GSSO system are currently bound by the Apache 2.0 License. The GSSO ontology itself is bound by the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license. All mapped ontologies within GSSO are within Creative Commons, but may require separate requirements. Please check with their respective creators before utilizing.
 
 ## Publications
 
