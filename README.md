@@ -192,6 +192,7 @@ Version 2.0.8 is also in alpha, with only a couple small changes based on report
 * 2.0.7 (22 December 2021)
 * 2.0.8 (8 July 2022)
 * 2.0.9 (6 September 2022)
+* 2.0.10 (8 September 2022)
 
 ## Contributing
 
