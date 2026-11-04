@@ -19,7 +19,7 @@ entries:
   replacement: https://github.com/Superraptor/GSSO/issues
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/Superraptor/GSSO/releases
+  replacement: https://raw.githubusercontent.com/Superraptor/GSSO/master/releases/
 
 - prefix: /about/
   replacement: http://www.ontobee.org/browser/rdf.php?o=GSSO&iri=http://purl.obolibrary.org/obo/
@@ -44,3 +44,25 @@ entries:
 
 - exact: /
   replacement: https://github.com/Superraptor/GSSO/
+
+license:
+  url: http://www.apache.org/licenses/LICENSE-2.0
+  label: Apache 2.0 License
+
+publications:
+- id: https://doi.org/10.1093/jamia/ocab095
+  title: "The Gender, Sex, and Sexual Orientation (GSSO) ontology: providing a modern terminology for LGBTQ+ health and research"
+
+usages:
+- user: https://github.com/monarch-initiative/mondo
+  description: Alignment of social determinants and demographic attributes.
+- user: https://github.com/EBISPOT/efo
+  description: Experimental Factor Ontology mapping for gender and sexual orientation concepts.
+- user: https://github.com/GenEpiO/genepio
+  description: Genomic Epidemiology Ontology reference terminology.
+- user: https://github.com/scdo-ontology/scdo-ontology
+  description: Sickle Cell Disease Ontology demographics.
+- user: https://github.com/pride-utilities/pride-ontology
+  description: PRIDE proteomics repository metadata vocabulary.
+- user: https://www.glbthistory.org/
+  description: GLBT Historical Society Museum and Archives cataloging and subject headings pilot.

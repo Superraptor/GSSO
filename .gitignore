@@ -1,0 +1,30 @@
+# ODK Intermediate build artifacts
+src/ontology/tmp/
+src/ontology/.tmp*
+src/ontology/*.tmp
+src/ontology/*.tmp.owl
+src/ontology/mirror/
+src/ontology/reports/
+src/ontology/report.tsv
+
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+.idea/
+.vscode/
+
+# Build and scratch output for conversion testing (do not commit GSSO 3.0.0 slim to repo yet)
+build/
+scratch/

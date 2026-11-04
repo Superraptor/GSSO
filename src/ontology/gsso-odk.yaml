@@ -1,0 +1,22 @@
+id: gsso
+title: Gender, Sex, and Sexual Orientation Ontology
+github_org: Superraptor
+repo: GSSO
+git_main_branch: master
+uribase: http://purl.obolibrary.org/obo
+edit_format: owl
+primary_release: full
+license: https://creativecommons.org/licenses/by/4.0/
+manage_import_declarations: false
+use_external_date: false
+export_formats:
+  - owl
+  - obo
+  - json
+release_artefacts:
+  - base
+  - full
+ci:
+  - github_actions
+workflows:
+  - qc

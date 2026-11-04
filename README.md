@@ -1,6 +1,10 @@
-Update, 13 June 2024: I am updating this repository to be compatible with the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit?) (ODK). This means major changes to the layout of this repository to be in-line with the ODK [template](https://github.com/INCATools/ontology-development-kit/tree/master/template) in order to not lose the Git history or require individuals to go to another page to find the GSSO. Please rest assured, I am working on getting everything up-to-date as soon as possible to prevent errors and confusion.
+Update, 4 November 2026:
+* **Ontology Development Kit (ODK) Compliance**: This repository has been updated to follow the standard [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit) layout (`src/ontology/`, `src/sparql/`, `.github/workflows/qc.yml`) while retaining full Git history, all canonical release paths, and backwards compatibility.
+* **Version 2.0.11 Release**: Resolves GitHub [Issue #12](https://github.com/Superraptor/GSSO/issues/12) (invalid language tags), achieves 100% OWL 2 DL profile compliance (resolving checks on [SchemaScope](https://www.schemascope.org/o/gsso/) and the OBO Dashboard), fixes PURL release redirection in OBO metadata (`metadata/gsso.yml`), and regenerates fully validated OBO (`gsso.obo`), OBO-JSON (`gsso.json`), and Manchester (`gsso_manchester.owl`) distribution files.
+* **Upcoming GSSO Version 3.0.0 & lgbtDB Integration**: We have established an initial automated conversion and validation backbone (`scripts/lgbtdb_to_gsso3/`) to transition [lgbtDB](https://lgbtdb.wikibase.cloud/) into GSSO version 3.0.0. Version 3.0.0 will initially be released as a class-only slim release. The new pipeline automatically maps existing GSSO terms, mints new identifiers, detects subclass hierarchy cycles, flags duplicate labels or missing definitions, and verifies logical consistency using the ELK reasoner so that constraint and reasoner adjustments can be made directly on lgbtDB before committing the full release to the repository. However, some more adjustments will be necessary before this version can be released, and it is recommended to use lgbtDB itself until then.
 
 Update, 24 October 2023: I have been engaging in efforts to expand the GSSO in a format more easily accessible to those without significant programming, database, or ontology experience. I have settled on using a Wikibase setup to attain these goals. So far I have been prototyping this structure [here](https://lgbtdb.wikibase.cloud/). I am still seeking a source of funding in order to work on the database and vocabulary full-time; please feel free to reach out to me if there are any suggestions you may have regarding full-time funding or positions in which I could continue this work full-time. This new work will include a complete mapping to all versions of the GSSO, meaning all usage of the current GSSO elements will remain intact. Please do not hesitate to reach out if you have any comments, questions, or concerns.
+
 
 # Gender, Sex, and Sexual Orientation
 
@@ -162,6 +166,50 @@ If you have a SNOMED-CT identifier, such as `302960008`, append it to `http://pu
 http://data.bioontology.org/search?q=http://purl.bioontology.org/ontology/SNOMEDCT/302960008&ontologies=GSSO&also_search_properties=true
 ```
 
+## Development & Pipeline Workflows
+
+### Ontology Development Kit (ODK) Setup
+
+GSSO now follows standard [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) conventions:
+* **`src/ontology/`**: Contains ontology source files, catalogs, and build scripts.
+  * `gsso-edit.owl`: The primary edit file for ontology maintainers when making changes directly via Protégé.
+  * `gsso-odk.yaml`: ODK configuration file specifying repository metadata, build targets, and QC rules.
+  * `catalog-v001.xml`: XML catalog file mapping URIs to local imports for offline editing.
+  * `run.sh` / `run.bat`: Shell wrappers to execute ROBOT and ODK commands.
+* **`src/sparql/`**: SPARQL quality-control queries that automatically check for invalid cross-references, missing definitions, misused obsolete labels, and structural constraints.
+* **`.github/workflows/qc.yml`**: GitHub Actions continuous integration workflow that automatically executes ROBOT quality control checks, reasoner validation, and OWL 2 DL profile tests on pull requests.
+
+### lgbtDB to GSSO 3.0.0 Conversion Backbone
+
+As part of the evolution toward GSSO 3.0.0, community curation is hosted at [lgbtDB](https://lgbtdb.wikibase.cloud/). We have implemented an automated conversion pipeline in `scripts/lgbtdb_to_gsso3/` (`scripts/convert_lgbtdb_to_gsso3.py`) to extract terms from lgbtDB and compile them into GSSO 3.0.0 releases.
+
+#### Pipeline Features:
+1. **Automated Extraction (`fetcher.py`)**: Connects to the lgbtDB MediaWiki Action API with batch querying, rate-limiting, and recursive ancestor retrieval to ensure complete subclass closures.
+2. **Deterministic ID Mapping (`mapper.py`)**:
+   * Maps existing terms containing property `P25` ("GSSO ID") directly back to their canonical GSSO V2 identifiers (e.g., `GSSO:000130`), ensuring complete backwards compatibility.
+   * Mints sequential, collision-free new identifiers starting at `GSSO:0012936` for new concepts introduced in lgbtDB.
+   * Extracts labels, definitions, aliases/synonyms, external database cross-references (`hasDbXref`), and subclass relationships (`wdt:P3` / `wdt:P2`).
+3. **Hierarchy & Cycle Validation (`validator.py`)**:
+   * Detects and flags any circular subclass dependencies using Tarjan's strongly connected components algorithm.
+   * Flags duplicate labels and missing textual definitions.
+   * Automatically runs the ROBOT ELK reasoner (`robot reason --reasoner ELK`) and OWL 2 DL profile validation to confirm that the generated ontology is logically consistent and satisfiable.
+4. **Multi-format Generation (`generator.py`)**:
+   * Emits valid, compliant OWL 2 DL RDF/XML (`gsso_3.0.0_slim.owl`), OBO format (`gsso_3.0.0_slim.obo`), and OBO-JSON (`gsso_3.0.0_slim.json`).
+   * Produces an automated Markdown constraint and audit report (`constraint_report.md`).
+
+#### Usage:
+To run a test conversion on a subset of entities:
+```bash
+python scripts/convert_lgbtdb_to_gsso3.py all --limit 150
+```
+
+To run a full conversion and validation build:
+```bash
+python scripts/convert_lgbtdb_to_gsso3.py all
+```
+
+Output files are generated in `build/gsso_3.0.0_slim/` (which is excluded from Git tracking via `.gitignore`). This allows maintainers and curators to inspect constraint reports and perform reasoner checks directly on lgbtDB before committing official 3.0.0 release artifacts to the repository.
+
 ## Versioning
 
 Note that versions with "rdf_xml" in the title are in RDF/XML format, while those without utilize Manchester OWL syntax.
@@ -180,6 +228,10 @@ Version 2.0.7 is an alpha version, as the conversion to OBO format is not curren
 
 Version 2.0.8 is also in alpha, with only a couple small changes based on reported issues. Conversion to JSON and OBO formats has not been possible, so those files are still version 2.0.7 as of 8 July 2022.
 
+Version 2.0.11 fixes Issue #12 (invalid `xml:lang="e"` tag in CHEBI_50112 annotation replaced with `xsd:integer`), corrects invalid language tags (`xml:lang="e"`/`"eb"` to `"en"`, `"jp"` to `"ja"`), achieves 100% OWL 2 DL profile compliance (resolving SchemaScope and OBO Dashboard issues), corrects PURL redirection for releases in OBO metadata, and restores fully regenerated, valid OBO (`gsso.obo`), OBO-JSON (`gsso.json`), and Manchester (`gsso_manchester.owl`) artifacts alongside RDF/XML (`gsso.owl`). Repository layout is now compliant with the Ontology Development Kit (ODK).
+
+Version 3.0.0 (upcoming) will transition GSSO to a continuous-integration pipeline pulling directly from [lgbtDB](https://lgbtdb.wikibase.cloud/). The first iteration of 3.0.0 will be released as a class-only slim release. An automated extraction, ID mapping, cycle-detection, and ELK reasoning validation framework has been created under `scripts/lgbtdb_to_gsso3/`. To ensure that any ontology constraints or reasoner-related considerations are thoroughly addressed and reviewed on lgbtDB first, the 3.0.0 artifacts remain in development and are not yet committed directly to the repository main branch.
+
 * 1.0.0 (24 June 2019)
 * 1.0.1a (11 September 2019)
 * 1.0.1b (12 September 2019)
@@ -197,6 +249,8 @@ Version 2.0.8 is also in alpha, with only a couple small changes based on report
 * 2.0.8 (8 July 2022)
 * 2.0.9 (6 September 2022)
 * 2.0.10 (8 September 2022)
+* 2.0.11 (4 November 2026)
+* 3.0.0 (Upcoming - Slim release in development)
 
 ## Contributing
 

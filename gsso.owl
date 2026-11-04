@@ -19,11 +19,13 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/gsso.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/gsso/releases/2.0.5/gsso.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/gsso/releases/2.0.11/gsso.owl"/>
+        <owl:versionInfo>2.0.11</owl:versionInfo>
         <dc:creator>Clair A. Kronk</dc:creator>
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO is the Gender, Sex, and Sex Orientation ontology, including terms related to gender identity and expression, sexual and romantic identity and orientation, and sexual and reproductive behavior.</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSSO - the Gender, Sex, and Sexual Orientation ontology</dc:title>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+        <terms:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
         <foaf:page rdf:resource="https://ontobee.org/ontology/GSSO"/>
     </owl:Ontology>
@@ -927,30 +929,6 @@
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#differentFrom -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#differentFrom">
-        <rdfs:label xml:lang="en">different from</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#equivalentProperty -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
-        <rdfs:label xml:lang="en">equivalent property</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#inverseOf -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#inverseOf">
-        <rdfs:label xml:lang="en">inverse of</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://xmlns.com/foaf/0.1/page -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/page"/>
@@ -1473,7 +1451,7 @@
     <owl:AnnotationProperty rdf:about="https://www.wikidata.org/wiki/Q1823134">
         <owlready_ontology:python_name xml:lang="en">library_of_congress_subject_headings</owlready_ontology:python_name>
         <rdfs:label xml:lang="en">Library of Congress Subject Headings</rdfs:label>
-        <owl:equivalentProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/dc/terms/LCSH</owl:equivalentProperty>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/dc/terms/LCSH</oboInOwl:hasDbXref>
         <Property:P214 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://viaf.org/viaf/174475040</Property:P214>
     </owl:AnnotationProperty>
     
@@ -12263,7 +12241,7 @@
         <owl:annotatedProperty rdf:resource="https://www.wikidata.org/wiki/Property:P1036"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">547.7343</owl:annotatedTarget>
         <rdfs:comment xml:lang="en">org. chem.</rdfs:comment>
-        <schema:bookEdition xml:lang="e">19</schema:bookEdition>
+        <schema:bookEdition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</schema:bookEdition>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50112"/>
@@ -54694,7 +54672,7 @@
         <obo:IAO_0000115 xml:lang="en">A type of hypogonadism in a person whose karyotype is 46,XY. People with Swyer syndrome are born with the appearance of a normal female in most anatomic respects except that the child has nonfunctional streak gonads instead of ovaries or testes. As their ovaries produce no important body changes before puberty, a defect of the reproductive system typically remains unsuspected until puberty fails to occur. They appear to be normal women and are generally considered so.</obo:IAO_0000115>
         <oboInOwl:hasSynonym xml:lang="en">Swyer&apos;s syndrome</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">Swyer syndrome</rdfs:label>
-        <owl:differentFrom xml:lang="en">Swyer-James syndrome</owl:differentFrom>
+        <rdfs:comment xml:lang="en">Not to be confused with Swyer-James syndrome.</rdfs:comment>
         <schema:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://homosaurus.org/v2/swyerSyndrome</schema:identifier>
         <Property:P138 rdf:resource="https://viaf.org/viaf/250593840"/>
         <Property:P486 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MESH/D006061</Property:P486>
@@ -72074,7 +72052,8 @@
         <obo:IAO_0000115 xml:lang="en">Any of various theories in the realm of biology which are considered defunct, disproven, and/or obsolete.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Obsolete_biological_theories</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">obsolete biology theory</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">obsolete biological theory</rdfs:label>
+        <rdfs:label xml:lang="en">outdated biological theory</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">obsolete biological theory</oboInOwl:hasExactSynonym>
         <schema:alternateName xml:lang="en">obsolete biological theories</schema:alternateName>
     </owl:Class>
     
@@ -141421,7 +141400,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Bukkake</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q207693</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">bukkake</rdfs:label>
-        <rdfs:label xml:lang="jp">ぶっかけ</rdfs:label>
+        <rdfs:label xml:lang="ja">ぶっかけ</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/GSSO_012818"/>
     </owl:Class>
     
@@ -183344,7 +183323,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_009604">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_003426"/>
         <obo:IAO_0000115 xml:lang="en">Software simulating environments in which players use text commands to control characters and influence the environment. Works in this form can be understood as literary narratives, either in the form of interactive narratives or interactive narrations. These works can also be understood as a form of video game, either in the form of an adventure game or role-playing game.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref xml:lang="en">IF</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">IF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Interactive_fiction</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Interactive_fiction</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q1143118</oboInOwl:hasDbXref>
@@ -186095,7 +186074,8 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q61915880</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym xml:lang="en">outdated medical term</oboInOwl:hasRelatedSynonym>
         <rdfs:comment xml:lang="en">A term is considered obsoleted if its usage no longer appears in mainstream medical terminologies (like the DSM or the ICD), especially if it has been replaced by newer terminology. Note that it is possible that an obsoleted term in medicine has not been obsoleted in general use or even in medical use. For instance, the term &quot;transsexualism&quot; may still be used by medical providers, but it is no longer part of current medical vocabularies (as of ICD-11) and is therefore considered obsoleted.</rdfs:comment>
-        <rdfs:label xml:lang="en">obsolete medical term</rdfs:label>
+        <rdfs:label xml:lang="en">outdated medical term</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">obsolete medical term</oboInOwl:hasExactSynonym>
         <schema:alternateName xml:lang="en">obsolete medical terms</schema:alternateName>
     </owl:Class>
     <owl:Axiom>
@@ -188533,7 +188513,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_009954"/>
         <obo:IAO_0000115 xml:lang="en">A term which was considered to be medical at some point, but is no longer used in legal practice at all.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym xml:lang="en">outdated legal term</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">obsolete legal term</rdfs:label>
+        <rdfs:label xml:lang="en">outdated legal term</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">obsolete legal term</oboInOwl:hasExactSynonym>
         <schema:alternateName xml:lang="en">obsolete legal terms</schema:alternateName>
     </owl:Class>
     <owl:Axiom>
@@ -188877,7 +188858,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_009972">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_009971"/>
-        <oboInOwl:hasDbXref xml:lang="en">A type of reproductive coercion which includes any behaviors intended to coerce or pressure a partner to become or not become pregnant. Pregnancy coercion involves various tactics, including verbal threats related to impregnation, coerced sex, refusal to use male-controlled contraception (i.e., condoms, withdrawal), interference with or pressure not to use female controlled contraception (i.e., hormonal methods), monitoring menstrual cycles or gynecological visits, pressure for or against sterilization, and monitoring of ovulation.</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">A type of reproductive coercion which includes any behaviors intended to coerce or pressure a partner to become or not become pregnant. Pregnancy coercion involves various tactics, including verbal threats related to impregnation, coerced sex, refusal to use male-controlled contraception (i.e., condoms, withdrawal), interference with or pressure not to use female controlled contraception (i.e., hormonal methods), monitoring menstrual cycles or gynecological visits, pressure for or against sterilization, and monitoring of ovulation.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Reproductive_coercion#Pregnancy_coercion</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">pregnancy coercion</rdfs:label>
     </owl:Class>
@@ -202862,7 +202843,7 @@ The field as a whole should be suspect, as should individuals claiming the label
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GSSO_011020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_005271"/>
-        <oboInOwl:hasDbXref xml:lang="en">The attempt to deny or minimize the scale and severity of an incidence of genocide.</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">The attempt to deny or minimize the scale and severity of an incidence of genocide.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Genocide_denial</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q339452</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym xml:lang="en">genocide denial</oboInOwl:hasRelatedSynonym>
@@ -234307,7 +234288,7 @@ The field as a whole should be suspect, as should individuals claiming the label
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
         <owl:annotatedTarget xml:lang="en">enterocoelomate</owl:annotatedTarget>
-        <schema:alternateName xml:lang="e">enterocoelomates</schema:alternateName>
+        <schema:alternateName xml:lang="en">enterocoelomates</schema:alternateName>
     </owl:Axiom>
     
 
@@ -261324,7 +261305,7 @@ Alice: I can tell she&apos;s a lesbo from across a football field.</owl:annotate
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GSSO_001408"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
         <owl:annotatedTarget xml:lang="en">glam butch</owl:annotatedTarget>
-        <schema:alternateName xml:lang="eb">glam butches</schema:alternateName>
+        <schema:alternateName xml:lang="en">glam butches</schema:alternateName>
     </owl:Axiom>
     
 
@@ -262905,7 +262886,7 @@ Alice: I can tell she&apos;s a lesbo from across a football field.</owl:annotate
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_000142"/>
         <terms:isReferencedBy rdf:resource="https://books.google.com/books/?id=TYyGAAAAIAAJ"/>
         <terms:isReferencedBy rdf:resource="https://catalog.hathitrust.org/Record/003517086"/>
-        <oboInOwl:hasDbXref xml:lang="en">A young gay man or a young-appearing gay man.</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">A young gay man or a young-appearing gay man.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Chicken_(gay_slang)</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q5096225</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">chicken</rdfs:label>
@@ -273497,7 +273478,7 @@ Alice: I can tell she&apos;s a lesbo from across a football field.</owl:annotate
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GSSO_004978">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_004976"/>
         <obo:IAO_0000115 xml:lang="en">Forced disappearances — secret abductions, imprisonment, torture — and extrajudicial killing by authorities targeting persons based on their perceived sexual orientation. An unknown number of people, who authorities detained on suspicion of being gay or bisexual, have reportedly died after being held in what human rights groups and eyewitnesses have called concentration camps.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref xml:lang="en">anti-gay purge in Chechnya</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">anti-gay purge in Chechnya</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Anti-gay_purges_in_Chechnya</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q29428404</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym xml:lang="en">Chechnyan anti-LGBT purge</oboInOwl:hasRelatedSynonym>

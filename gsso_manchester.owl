@@ -1,4 +1,3 @@
-Prefix: : <http://purl.obolibrary.org/obo/gsso.owl#>
 Prefix: Property: <https://www.wikidata.org/wiki/Property:>
 Prefix: dc: <http://purl.org/dc/elements/1.1/>
 Prefix: doap: <http://usefulinc.com/ns/doap#>
@@ -16,18 +15,21 @@ Prefix: terms: <http://purl.org/dc/terms/>
 Prefix: wiki: <https://www.wikidata.org/wiki/>
 Prefix: xml: <http://www.w3.org/XML/1998/namespace>
 Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: : <http://purl.obolibrary.org/obo/gsso.owl>
 
 
 
 Ontology: <http://purl.obolibrary.org/obo/gsso.owl>
-<http://purl.obolibrary.org/obo/gsso/releases/2.0.5/gsso.owl>
+<http://purl.obolibrary.org/obo/gsso/releases/2.0.11/gsso.owl>
 
 Annotations: 
     dc:creator "Clair A. Kronk",
-    dc:description "GSSO is the Gender, Sex, and Sex Orientation ontology, including terms related to gender identity and expression, sexual and romantic identity and orientation, and sexual and reproductive behavior."^^xsd:string,
-    dc:title "GSSO - the Gender, Sex, and Sexual Orientation ontology"^^xsd:string,
-    terms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/>,
+    dc:description "GSSO is the Gender, Sex, and Sex Orientation ontology, including terms related to gender identity and expression, sexual and romantic identity and orientation, and sexual and reproductive behavior.",
+    dc:title "GSSO - the Gender, Sex, and Sexual Orientation ontology",
+    terms:license <http://www.apache.org/licenses/LICENSE-2.0>,
+    terms:license <https://creativecommons.org/licenses/by/4.0/>,
     rdfs:isDefinedBy <http://purl.obolibrary.org/obo/gsso.owl>,
+    owl:versionInfo "2.0.11",
     foaf:page <https://ontobee.org/ontology/GSSO>
 
 AnnotationProperty: Property:P1036
@@ -1402,23 +1404,8 @@ AnnotationProperty: oboInOwl:savedBy
         rdfs:label "saved by"@en
     
     
-AnnotationProperty: owl:differentFrom
+AnnotationProperty: owl:versionInfo
 
-    Annotations: 
-        rdfs:label "different from"@en
-    
-    
-AnnotationProperty: owl:equivalentProperty
-
-    Annotations: 
-        rdfs:label "equivalent property"@en
-    
-    
-AnnotationProperty: owl:inverseOf
-
-    Annotations: 
-        rdfs:label "inverse of"@en
-    
     
 AnnotationProperty: owlready_ontology:python_name
 
@@ -2220,9 +2207,9 @@ AnnotationProperty: terms:type
 AnnotationProperty: wiki:Q1823134
 
     Annotations: 
+        oboInOwl:hasDbXref "http://purl.org/dc/terms/LCSH"^^xsd:anyURI,
         owlready_ontology:python_name "library_of_congress_subject_headings"@en,
         rdfs:label "Library of Congress Subject Headings"@en,
-        owl:equivalentProperty "http://purl.org/dc/terms/LCSH"^^xsd:anyURI,
         Property:P214 "https://viaf.org/viaf/174475040"^^xsd:anyURI
     
     
@@ -2242,6 +2229,9 @@ Datatype: xsd:decimal
 
     
 Datatype: xsd:integer
+
+    
+Datatype: xsd:string
 
     
 Class: <http://purl.bioontology.org/ontology/MESH/C536649>
@@ -3872,11 +3862,11 @@ Class: <http://purl.bioontology.org/ontology/MESH/D007713>
     Annotations: 
         obo:IAO_0000115 "The set of symptoms that result from two or more X chromosomes in males. The primary features are infertility and small testicles. Often, symptoms may be subtle and many people do not realize they are affected. Sometimes, symptoms are more prominent and may include weaker muscles, greater height, poor coordination, less body hair, breast growth, and less interest in sex."@en,
         
-            Annotations: terms:source <https://books.google.com/books?id=m2Mx9KyY-igC>
-        dc:identifier 101500,
-        
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         dc:identifier "http://homosaurus.org/v2/klinefelterSyndrome"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://books.google.com/books?id=m2Mx9KyY-igC>
+        dc:identifier 101500,
         terms:isReferencedBy <https://books.google.com/books/?id=ymkYAAAAIAAJ>,
         
             Annotations: Property:P4229 "Q98.1"
@@ -16525,9 +16515,9 @@ Class: obo:CHEBI_16330
         
             Annotations: Property:P1813 "DHT"@en
         oboInOwl:hasSynonym "dihydrotestosterone"@en,
+        oboInOwl:hasSynonym "stanolone"@en,
         oboInOwl:hasSynonym "https://en.wikipedia.org/wiki/Androstanolone"^^xsd:anyURI,
         oboInOwl:hasSynonym "https://www.wikidata.org/wiki/Q31686490"^^xsd:anyURI,
-        oboInOwl:hasSynonym "stanolone"@en,
         rdfs:label "17β-hydroxy-5α-androstan-3-one"@en,
         Property:P1748 "http://purl.obolibrary.org/obo/NCIT_C29619"^^xsd:anyURI,
         Property:P267 "A14AA01",
@@ -19262,13 +19252,13 @@ Class: obo:CHEBI_50112
         schema:alternateName "sex hormones"@en,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85061983"^^xsd:anyURI,
         
-            Annotations: rdfs:comment "org. chem."@en, 
-                         schema:bookEdition "19"@e
-        Property:P1036 547.7343,
-        
             Annotations: rdfs:comment "human phys."@en, 
                          schema:bookEdition 19
         Property:P1036 "612.61-.62",
+        
+            Annotations: rdfs:comment "org. chem."@en, 
+                         schema:bookEdition 19
+        Property:P1036 547.7343,
         Property:P1149 "QP572.S4",
         Property:P5806 "http://purl.bioontology.org/ontology/SNOMEDCT/312263009"^^xsd:anyURI,
         Property:P683 "http://purl.obolibrary.org/obo/CHEBI_50112"^^xsd:anyURI
@@ -40542,11 +40532,11 @@ Class: obo:GSSO_000521
         schema:identifier "http://homosaurus.org/v2/HIVAIDS"^^xsd:anyURI,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85002541"^^xsd:anyURI,
         
-            Annotations: schema:bookEdition 22
-        Property:P1036 362.196,
-        
             Annotations: schema:bookEdition 20
         Property:P1036 "362.196 979 2",
+        
+            Annotations: schema:bookEdition 22
+        Property:P1036 362.196,
         Property:P1149 "QR201.A37",
         Property:P1149 "RA643.75-RA643.86",
         Property:P1149 "RC606.5-RC606.65",
@@ -46082,8 +46072,8 @@ Class: obo:GSSO_000873
 
     Annotations: 
         obo:IAO_0000115 "Any form of multiple mating."@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Polygamy"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Polygamy",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Polygamy"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q272026"^^xsd:anyURI,
         rdfs:label "polygamy"@en,
         
@@ -46115,9 +46105,9 @@ Class: obo:GSSO_000875
 
     Annotations: 
         obo:IAO_0000115 "A form of polygamy in which one female has an exclusive relationship with two or more males."@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Polyandry_in_nature",
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Polyandry"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Polyandry"^^xsd:anyURI,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Polyandry_in_nature",
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q2102979"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q21856072"^^xsd:anyURI,
         rdfs:label "polyandry"@en
@@ -51243,11 +51233,11 @@ Class: obo:GSSO_001250
     Annotations: 
         obo:IAO_0000115 "A paraphilia involving a sexual fixation on non-human animals."@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
-        dc:identifier 302.10,
-        
             Annotations: terms:source <http://web.archive.org/web/20160404165237/https://homosaurus.org/terms>
         dc:identifier "https://homosaurus.org/terms/zoophilia"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
+        dc:identifier 302.10,
         terms:isReferencedBy <https://books.google.com/books/?id=ymkYAAAAIAAJ>,
         terms:isReferencedBy <https://books.google.com/books/?id=2VQkAQAAMAAJ>,
         terms:isReferencedBy <https://books.google.com/books?id=7qEG7CBOH_gC>,
@@ -51280,11 +51270,11 @@ Class: obo:GSSO_001251
     Annotations: 
         obo:IAO_0000115 "Sexual attraction to corpses."@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
-        dc:identifier 302.90,
-        
             Annotations: terms:source <http://web.archive.org/web/20160404165237/https://homosaurus.org/terms>
         dc:identifier "https://homosaurus.org/terms/necrophilia"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
+        dc:identifier 302.90,
         terms:isReferencedBy <https://books.google.com/books/?id=ymkYAAAAIAAJ>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Necrophilia"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q181843"^^xsd:anyURI,
@@ -51460,14 +51450,14 @@ Class: obo:GSSO_001261
         obo:IAO_0000115 "A paraphilia in which sexual excitement is associated with the sight or thought of urine or urination."@en,
         obo:IAO_0000115 "Undinism, a fetish for or sexual dependency on either the smell and/or taste of urine, or the sight and sound of someone urinating."@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
-        dc:identifier 302.90,
-        
             Annotations: terms:source <http://web.archive.org/web/20160404165237/https://homosaurus.org/terms>
         dc:identifier "https://homosaurus.org/terms/waterSports"^^xsd:anyURI,
         
             Annotations: terms:source <http://web.archive.org/web/20211009145526/https://homosaurus.org/v3>
         dc:identifier "https://homosaurus.org/v3/homoit0000597"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
+        dc:identifier 302.90,
         terms:isReferencedBy <https://books.google.com/books/?id=ymkYAAAAIAAJ>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Urolagnia"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q457251"^^xsd:anyURI,
@@ -52162,11 +52152,11 @@ Class: obo:GSSO_001307
     Annotations: 
         obo:IAO_0000115 "Traditionally, a sexual fixation on a nonliving object or nongenital body part. However, the term has been extended in common discourse to mean any sexual behavior pattern wherein an \"abnormal\" degree of gratification is linked to a particular object, activity, quality, etc."@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
-        dc:identifier 302.91,
-        
             Annotations: terms:source <http://web.archive.org/web/20160404165237/https://homosaurus.org/terms>
         dc:identifier "https://homosaurus.org/terms/fetishism"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
+        dc:identifier 302.91,
         terms:isReferencedBy <https://doi.org/10.1002/9781118663219>,
         terms:isReferencedBy <https://web.archive.org/web/20190218112152/https://www.vice.com/en_ca/article/xd59pa/how-to-have-a-non-monogomous-relationship-169>,
         terms:isReferencedBy <https://web.archive.org/web/20191009193327/https://ktci.education/kinky-glossary>,
@@ -53681,11 +53671,11 @@ Class: obo:GSSO_001389
         rdfs:label "masturbation"@en,
         rdfs:seeAlso <http://purl.obolibrary.org/obo/GSSO_000782>,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/894927963>
-        schema:identifier 317.1,
-        
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/masturbation"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/894927963>
+        schema:identifier 317.1,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85082015"^^xsd:anyURI,
         
             Annotations: schema:bookEdition 20
@@ -55468,8 +55458,8 @@ Class: obo:GSSO_001534
     Annotations: 
         obo:IAO_0000115 "A type of hypogonadism in a person whose karyotype is 46,XY. People with Swyer syndrome are born with the appearance of a normal female in most anatomic respects except that the child has nonfunctional streak gonads instead of ovaries or testes. As their ovaries produce no important body changes before puberty, a defect of the reproductive system typically remains unsuspected until puberty fails to occur. They appear to be normal women and are generally considered so."@en,
         oboInOwl:hasSynonym "Swyer's syndrome"@en,
+        rdfs:comment "Not to be confused with Swyer-James syndrome."@en,
         rdfs:label "Swyer syndrome"@en,
-        owl:differentFrom "Swyer-James syndrome"@en,
         
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/swyerSyndrome"^^xsd:anyURI,
@@ -69939,8 +69929,9 @@ Class: obo:GSSO_002359
     Annotations: 
         obo:IAO_0000115 "Any of various theories in the realm of biology which are considered defunct, disproven, and/or obsolete."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Obsolete_biological_theories"^^xsd:anyURI,
+        oboInOwl:hasExactSynonym "obsolete biological theory"@en,
         oboInOwl:hasSynonym "obsolete biology theory"@en,
-        rdfs:label "obsolete biological theory"@en,
+        rdfs:label "outdated biological theory"@en,
         schema:alternateName "obsolete biological theories"@en
     
     SubClassOf: 
@@ -72896,11 +72887,11 @@ Class: obo:GSSO_002816
         rdfs:label "misogyni"@da,
         rdfs:label "misogyny"@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/894927963>
-        schema:identifier 320.6,
-        
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         schema:identifier "http://homosaurus.org/v2/misogyny"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/894927963>
+        schema:identifier 320.6,
         wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85086002"^^xsd:anyURI,
         Property:P3095 "misogynist"@en
     
@@ -80509,11 +80500,11 @@ Class: obo:GSSO_003278
     Annotations: 
         obo:IAO_0000115 "Sexual pleasure derived from exposing one's normatively considered private parts of their body (genitalia, breasts, buttocks, etc.) typically in a public or semi-public context."@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
-        dc:identifier 302.40,
-        
             Annotations: terms:source <http://web.archive.org/web/20160404165237/https://homosaurus.org/terms>
         dc:identifier "https://homosaurus.org/terms/exhibitionism"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
+        dc:identifier 302.40,
         terms:isReferencedBy <https://books.google.com/books/?id=ymkYAAAAIAAJ>,
         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Exhibitionism"^^xsd:anyURI,
@@ -80550,14 +80541,14 @@ Class: obo:GSSO_003279
     Annotations: 
         obo:IAO_0000115 "The sexual interest in spying on people engaged in intimate behaviors, such as undressing, sexual activity, or other actions usually considered to be of a private nature."@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
-        dc:identifier 302.82,
-        
             Annotations: terms:source <http://web.archive.org/web/20160404165237/https://homosaurus.org/terms>
         dc:identifier "https://homosaurus.org/terms/voyeurism"^^xsd:anyURI,
         
             Annotations: terms:source <http://web.archive.org/web/20211009145526/https://homosaurus.org/v3>
         dc:identifier "https://homosaurus.org/v3/homoit0001257"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
+        dc:identifier 302.82,
         terms:isReferencedBy <https://books.google.com/books/?id=ymkYAAAAIAAJ>,
         terms:isReferencedBy <https://web.archive.org/web/20190716055032/https://rekink.com/terminology/glossary-of-kink-terminology-a-to-i/>,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Voyeurism"^^xsd:anyURI,
@@ -81597,8 +81588,8 @@ Class: obo:GSSO_003347
                          oboInOwl:hasSynonym "reproductive sterilization"@en, 
                          oboInOwl:hasSynonym "sexual sterilization"@en, 
                          wiki:Q1823134 "http://id.loc.gov/authorities/subjects/sh85128029"^^xsd:anyURI, 
-                         Property:P1692 63.70, 
                          Property:P1692 "V25.2", 
+                         Property:P1692 63.70, 
                          Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10054640"^^xsd:anyURI, 
                          Property:P3201 "http://purl.bioontology.org/ontology/MEDDRA/10062116"^^xsd:anyURI, 
                          Property:P4229 "Z30.2", 
@@ -105473,8 +105464,8 @@ Class: obo:GSSO_005099
 
     Annotations: 
         obo:IAO_0000115 "Clothing related to any of various sexual fetishes or kinks or designed to appeal to such practices."@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Fetish_clothing"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wiktionary.org/wiki/fetishwear#English"@en,
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Fetish_clothing"^^xsd:anyURI,
         oboInOwl:hasExactSynonym "fetish wear"@en,
         oboInOwl:hasSynonym "fetish clothing"@en,
         rdfs:label "fetishwear"@en
@@ -108475,8 +108466,8 @@ Class: obo:GSSO_005376
 
     Annotations: 
         obo:IAO_0000115 "A verbal or non-verbal hint or series of stimuli which guide social interactions."@en,
-        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Social_cue"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q7551030",
+        oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Social_cue"^^xsd:anyURI,
         rdfs:label "social cue"@en,
         schema:alternateName "social cues"@en
     
@@ -128988,7 +128979,7 @@ Class: obo:GSSO_006843
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Bukkake"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q207693"^^xsd:anyURI,
         rdfs:label "bukkake"@en,
-        rdfs:label "ぶっかけ"@jp,
+        rdfs:label "ぶっかけ"@ja,
         rdfs:seeAlso <http://purl.obolibrary.org/obo/GSSO_012818>
     
     SubClassOf: 
@@ -164361,10 +164352,10 @@ Class: obo:GSSO_009604
 
     Annotations: 
         obo:IAO_0000115 "Software simulating environments in which players use text commands to control characters and influence the environment. Works in this form can be understood as literary narratives, either in the form of interactive narratives or interactive narrations. These works can also be understood as a form of video game, either in the form of an adventure game or role-playing game."@en,
-        oboInOwl:hasDbXref "IF"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Category:Interactive_fiction"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Interactive_fiction"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1143118"^^xsd:anyURI,
+        oboInOwl:hasExactSynonym "IF"@en,
         rdfs:label "interactive fiction"@en
     
     SubClassOf: 
@@ -166780,11 +166771,12 @@ Class: obo:GSSO_009781
     Annotations: 
         obo:IAO_0000115 "A term which was considered to be medical at some point, but is no longer used in medicine at all."@en,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q61915880"^^xsd:anyURI,
+        oboInOwl:hasExactSynonym "obsolete medical term"@en,
         
             Annotations: schema:alternateName "outdated medical terms"@en
         oboInOwl:hasRelatedSynonym "outdated medical term"@en,
         rdfs:comment "A term is considered obsoleted if its usage no longer appears in mainstream medical terminologies (like the DSM or the ICD), especially if it has been replaced by newer terminology. Note that it is possible that an obsoleted term in medicine has not been obsoleted in general use or even in medical use. For instance, the term \"transsexualism\" may still be used by medical providers, but it is no longer part of current medical vocabularies (as of ICD-11) and is therefore considered obsoleted."@en,
-        rdfs:label "obsolete medical term"@en,
+        rdfs:label "outdated medical term"@en,
         schema:alternateName "obsolete medical terms"@en
     
     SubClassOf: 
@@ -168907,10 +168899,11 @@ Class: obo:GSSO_009955
 
     Annotations: 
         obo:IAO_0000115 "A term which was considered to be medical at some point, but is no longer used in legal practice at all."@en,
+        oboInOwl:hasExactSynonym "obsolete legal term"@en,
         
             Annotations: schema:alternateName "outdated legal terms"@en
         oboInOwl:hasRelatedSynonym "outdated legal term"@en,
-        rdfs:label "obsolete legal term"@en,
+        rdfs:label "outdated legal term"@en,
         schema:alternateName "obsolete legal terms"@en
     
     SubClassOf: 
@@ -169180,8 +169173,8 @@ Class: obo:GSSO_009971
 Class: obo:GSSO_009972
 
     Annotations: 
-        oboInOwl:hasDbXref "A type of reproductive coercion which includes any behaviors intended to coerce or pressure a partner to become or not become pregnant. Pregnancy coercion involves various tactics, including verbal threats related to impregnation, coerced sex, refusal to use male-controlled contraception (i.e., condoms, withdrawal), interference with or pressure not to use female controlled contraception (i.e., hormonal methods), monitoring menstrual cycles or gynecological visits, pressure for or against sterilization, and monitoring of ovulation."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Reproductive_coercion#Pregnancy_coercion"^^xsd:anyURI,
+        rdfs:comment "A type of reproductive coercion which includes any behaviors intended to coerce or pressure a partner to become or not become pregnant. Pregnancy coercion involves various tactics, including verbal threats related to impregnation, coerced sex, refusal to use male-controlled contraception (i.e., condoms, withdrawal), interference with or pressure not to use female controlled contraception (i.e., hormonal methods), monitoring menstrual cycles or gynecological visits, pressure for or against sterilization, and monitoring of ovulation."@en,
         rdfs:label "pregnancy coercion"@en
     
     SubClassOf: 
@@ -181744,10 +181737,10 @@ Class: obo:GSSO_011019
 Class: obo:GSSO_011020
 
     Annotations: 
-        oboInOwl:hasDbXref "The attempt to deny or minimize the scale and severity of an incidence of genocide."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Genocide_denial"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q339452"^^xsd:anyURI,
         oboInOwl:hasRelatedSynonym "genocide denial"@en,
+        rdfs:comment "The attempt to deny or minimize the scale and severity of an incidence of genocide."@en,
         rdfs:label "genocide denialism"@en
     
     SubClassOf: 
@@ -208924,7 +208917,7 @@ Class: obo:NCBITaxon_33511
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q150866"^^xsd:anyURI,
         oboInOwl:hasSynonym "Deuterostomia"@en,
         
-            Annotations: schema:alternateName "enterocoelomates"@e
+            Annotations: schema:alternateName "enterocoelomates"@en
         oboInOwl:hasSynonym "enterocoelomate"@en,
         rdfs:label "deuterostome"@en,
         schema:alternateName "deuterostomes"@en,
@@ -222888,8 +222881,8 @@ Individual: <https://books.google.com/books?id=oJBXswEACAAJ>
     Annotations: 
         dc:title "The Giant Ilonggo Phrasebook"@en,
         rdfs:label "The Giant Ilonggo Phrasebook"@en,
-        Property:P675 9781387223749,
-        Property:P675 "https://books.google.com/books?id=oJBXswEACAAJ"^^xsd:anyURI
+        Property:P675 "https://books.google.com/books?id=oJBXswEACAAJ"^^xsd:anyURI,
+        Property:P675 9781387223749
     
     
 Individual: <https://books.google.com/books?id=oSmBAAAAQBAJ>
@@ -227278,8 +227271,8 @@ Individual: <https://portal.issn.org/resource/issn/1527-2133>
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/American_Speech"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q4745138"^^xsd:anyURI,
         rdfs:label "American Speech"@en,
-        schema:issn "https://portal.issn.org/resource/issn/0003-1283"^^xsd:anyURI,
-        schema:issn "https://portal.issn.org/resource/issn/1527-2133"
+        schema:issn "https://portal.issn.org/resource/issn/1527-2133",
+        schema:issn "https://portal.issn.org/resource/issn/0003-1283"^^xsd:anyURI
     
     Types: 
         obo:GSSO_004607
@@ -227294,8 +227287,8 @@ Individual: <https://portal.issn.org/resource/issn/1527-9375>
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5513651"^^xsd:anyURI,
         rdfs:label "GLQ: A Journal of Lesbian and Gay Studies"@en,
         schema:dateCreated 1993,
-        schema:issn "https://portal.issn.org/resource/issn/1064-2684"^^xsd:anyURI,
         schema:issn "https://portal.issn.org/resource/issn/1527-9375",
+        schema:issn "https://portal.issn.org/resource/issn/1064-2684"^^xsd:anyURI,
         Property:P1055 9887086,
         Property:P1813 "GLQ"@en,
         Property:P2699 "http://glq.dukejournals.org/"^^xsd:anyURI
@@ -227325,8 +227318,8 @@ Individual: <https://portal.issn.org/resource/issn/1529-9724>
         dc:title "Journal of Bisexuality"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Journal_of_Bisexuality"^^xsd:anyURI,
         rdfs:label "Journal of Bisexuality"@en,
-        schema:issn "https://portal.issn.org/resource/issn/1529-9716"^^xsd:anyURI,
         schema:issn "https://portal.issn.org/resource/issn/1529-9724",
+        schema:issn "https://portal.issn.org/resource/issn/1529-9716"^^xsd:anyURI,
         Property:P5191 <http://semanticscience.org/resource/SIO_000160>
     
     Types: 
@@ -227420,8 +227413,8 @@ Individual: <https://portal.issn.org/resource/issn/1540-3602>
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q1514304"^^xsd:anyURI,
         rdfs:label "Journal of Homosexuality"@en,
         schema:dateCreated 1955,
-        schema:issn "https://portal.issn.org/resource/issn/0091-8369"^^xsd:anyURI,
         schema:issn "https://portal.issn.org/resource/issn/1540-3602",
+        schema:issn "https://portal.issn.org/resource/issn/0091-8369"^^xsd:anyURI,
         Property:P1055 "7502386"^^xsd:anyURI,
         Property:P5191 <http://semanticscience.org/resource/SIO_000160>
     
@@ -227441,8 +227434,8 @@ Individual: <https://portal.issn.org/resource/issn/1540-5907>
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q4744264"^^xsd:anyURI,
         rdfs:label "American Journal of Political Science"@en,
         schema:dateCreated 1956,
-        schema:issn "https://portal.issn.org/resource/issn/0092-5853"^^xsd:anyURI,
         schema:issn "https://portal.issn.org/resource/issn/1540-5907",
+        schema:issn "https://portal.issn.org/resource/issn/0092-5853"^^xsd:anyURI,
         Property:P1813 "AJPS"@en
     
     Types: 
@@ -227471,8 +227464,8 @@ Individual: <https://portal.issn.org/resource/issn/1541-0889>
         rdfs:label "Journal of Gay & Lesbian Issues in Education"@en,
         schema:dateCreated 2003,
         schema:dissolutionDate 2008,
-        schema:issn "https://portal.issn.org/resource/issn/1541-0870"^^xsd:anyURI,
         schema:issn "https://portal.issn.org/resource/issn/1541-0889",
+        schema:issn "https://portal.issn.org/resource/issn/1541-0870"^^xsd:anyURI,
         Property:P156 <https://portal.issn.org/resource/issn/1936-1653>,
         Property:P5191 <http://semanticscience.org/resource/SIO_000160>
     
@@ -234127,12 +234120,6 @@ Individual: obo:GSSO_001260
     Annotations: 
         obo:IAO_0000115 "A derogatory term referring to sexual practices differ from \"normal\" (or what is expected) within a given context."@en,
         
-            Annotations: terms:source <http://viaf.org/viaf/310617834>
-        dc:identifier 302,
-        
-            Annotations: terms:source <https://catalog.hathitrust.org/Record/001564136>
-        dc:identifier 302,
-        
             Annotations: terms:source <http://viaf.org/viaf/209185752>
         dc:identifier 320.6,
         
@@ -234141,6 +234128,12 @@ Individual: obo:GSSO_001260
         
             Annotations: terms:source <https://www.worldcat.org/oclc/894927963>
         dc:identifier 320.6,
+        
+            Annotations: terms:source <http://viaf.org/viaf/310617834>
+        dc:identifier 302,
+        
+            Annotations: terms:source <https://catalog.hathitrust.org/Record/001564136>
+        dc:identifier 302,
         terms:isReferencedBy <https://books.google.com/books/?id=TYyGAAAAIAAJ>,
         terms:isReplacedBy <http://purl.obolibrary.org/obo/GSSO_001234>,
         terms:replaces "psychopathic personality with pathologic sexuality"@en,
@@ -234499,11 +234492,11 @@ Individual: obo:GSSO_001283
     Annotations: 
         obo:IAO_0000115 "A pathologizing term referring to the practice of dressing in a style or manner traditionally associated with the opposite sex. The term should be replaced with the more modern and less pathologizing term \"cross-dressing\"."@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
-        dc:identifier 302.30,
-        
             Annotations: terms:source <https://web.archive.org/web/20190828104105/http://homosaurus.org/v2>
         dc:identifier "http://homosaurus.org/v2/transvestism"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
+        dc:identifier 302.30,
         terms:isReferencedBy <http://purl.obolibrary.org/obo/GSSO_001749>,
         terms:isReferencedBy <https://books.google.com/books/?id=TYyGAAAAIAAJ>,
         terms:isReferencedBy <https://doi.org/10.1002/9781118663219>,
@@ -234898,11 +234891,11 @@ Individual: obo:GSSO_001307
     Annotations: 
         obo:IAO_0000115 "Traditionally, a sexual fixation on a nonliving object or nongenital body part. However, the term has been extended in common discourse to mean any sexual behavior pattern wherein an \"abnormal\" degree of gratification is linked to a particular object, activity, quality, etc."@en,
         
-            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
-        dc:identifier 302.91,
-        
             Annotations: terms:source <http://web.archive.org/web/20160404165237/https://homosaurus.org/terms>
         dc:identifier "https://homosaurus.org/terms/fetishism"^^xsd:anyURI,
+        
+            Annotations: terms:source <https://www.worldcat.org/oclc/960936460>
+        dc:identifier 302.91,
         terms:isReferencedBy <https://doi.org/10.1002/9781118663219>,
         terms:isReferencedBy <https://web.archive.org/web/20190218112152/https://www.vice.com/en_ca/article/xd59pa/how-to-have-a-non-monogomous-relationship-169>,
         terms:isReferencedBy <https://web.archive.org/web/20191009193327/https://ktci.education/kinky-glossary>,
@@ -235490,7 +235483,7 @@ Individual: obo:GSSO_001408
         obo:IAO_0000115 "A butch lesbian who typically dresses in fine or fancy attire."@en,
         oboInOwl:hasRelatedSynonym <http://purl.obolibrary.org/obo/GSSO_004040>,
         
-            Annotations: schema:alternateName "glam butches"@eb
+            Annotations: schema:alternateName "glam butches"@en
         oboInOwl:hasSynonym "glam butch"@en,
         rdfs:label "glamour butch"@en,
         schema:alternateName "glamour butches"@en,
@@ -236724,9 +236717,9 @@ Individual: obo:GSSO_001760
     Annotations: 
         terms:isReferencedBy <https://books.google.com/books/?id=TYyGAAAAIAAJ>,
         terms:isReferencedBy <https://catalog.hathitrust.org/Record/003517086>,
-        oboInOwl:hasDbXref "A young gay man or a young-appearing gay man."@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Chicken_(gay_slang)"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q5096225"^^xsd:anyURI,
+        rdfs:comment "A young gay man or a young-appearing gay man."@en,
         rdfs:label "chicken"@en,
         schema:alternateName "chickens"@en
     
@@ -237157,7 +237150,7 @@ Individual: obo:GSSO_002037
     
     DifferentFrom: 
         obo:GSSO_011271,
-        _:genid2147494515
+        _:genid2147494516
     
     
 Individual: obo:GSSO_002040
@@ -243829,7 +243822,7 @@ Individual: obo:GSSO_004042
         obo:GSSO_000162
     
     DifferentFrom: 
-        _:genid2147494512
+        _:genid2147494513
     
     
 Individual: obo:GSSO_004043
@@ -246678,9 +246671,9 @@ Individual: obo:GSSO_004978
 
     Annotations: 
         obo:IAO_0000115 "Forced disappearances — secret abductions, imprisonment, torture — and extrajudicial killing by authorities targeting persons based on their perceived sexual orientation. An unknown number of people, who authorities detained on suspicion of being gay or bisexual, have reportedly died after being held in what human rights groups and eyewitnesses have called concentration camps."@en,
-        oboInOwl:hasDbXref "anti-gay purge in Chechnya"@en,
         oboInOwl:hasDbXref "https://en.wikipedia.org/wiki/Anti-gay_purges_in_Chechnya"^^xsd:anyURI,
         oboInOwl:hasDbXref "https://www.wikidata.org/wiki/Q29428404"^^xsd:anyURI,
+        oboInOwl:hasExactSynonym "anti-gay purge in Chechnya"@en,
         oboInOwl:hasRelatedSynonym "Chechnyan anti-LGBT purge"@en,
         oboInOwl:hasSynonym "Chechnya's gay purge"@en,
         oboInOwl:hasSynonym "Chechnyan anti-gay purge"@en,
@@ -250381,7 +250374,7 @@ Individual: obo:GSSO_007189
         schema:identifier "http://homosaurus.org/v2/homosociality"^^xsd:anyURI
     
     DifferentFrom: 
-        _:genid2147494511
+        _:genid2147494512
     
     
 Individual: obo:GSSO_007213
@@ -252625,8 +252618,8 @@ Individual: obo:GSSO_007532
     
     DifferentFrom: 
         obo:GSSO_000347,
-        _:genid2147494513,
-        _:genid2147494514
+        _:genid2147494514,
+        _:genid2147494515
     
     
 Individual: obo:GSSO_007533
@@ -261038,7 +261031,7 @@ Individual: obo:GSSO_012804
         obo:GSSO_004265
     
     DifferentFrom: 
-        _:genid2147494510
+        _:genid2147494517
     
     
 Individual: obo:GSSO_012806
@@ -262117,28 +262110,16 @@ Individual: wiki:Q9006342
         obo:GSSO_004612
     
     
-Individual: _:genid2147494510
-
-    DifferentFrom: 
-        obo:GSSO_012804
-    
-    
-Individual: _:genid2147494511
+Individual: _:genid2147494512
 
     DifferentFrom: 
         obo:GSSO_007189
     
     
-Individual: _:genid2147494512
-
-    DifferentFrom: 
-        obo:GSSO_004042
-    
-    
 Individual: _:genid2147494513
 
     DifferentFrom: 
-        obo:GSSO_007532
+        obo:GSSO_004042
     
     
 Individual: _:genid2147494514
@@ -262150,6 +262131,18 @@ Individual: _:genid2147494514
 Individual: _:genid2147494515
 
     DifferentFrom: 
+        obo:GSSO_007532
+    
+    
+Individual: _:genid2147494516
+
+    DifferentFrom: 
         obo:GSSO_002037
+    
+    
+Individual: _:genid2147494517
+
+    DifferentFrom: 
+        obo:GSSO_012804
     
     
