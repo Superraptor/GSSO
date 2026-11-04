@@ -28,10 +28,10 @@ entries:
     to: http://www.ontobee.org/browser/rdf.php?o=GSSO&iri=http://purl.obolibrary.org/obo/GSSO_000130
 
 - prefix: /web/
-  replacement: https://gsso.research.cchmc.org/#!/entry?iri=http://purl.obolibrary.org/obo/
+  replacement: https://superraptor.github.io/GSSO/#!/entry?iri=http://purl.obolibrary.org/obo/
   tests:
   - from: /about/GSSO_000130
-    to: https://gsso.research.cchmc.org/#!/entry?iri=http://purl.obolibrary.org/obo/GSSO_000130
+    to: https://superraptor.github.io/GSSO/#!/entry?iri=http://purl.obolibrary.org/obo/GSSO_000130
 
 - prefix: /subsets/
   replacement: https://raw.githubusercontent.com/Superraptor/GSSO/master/subsets/

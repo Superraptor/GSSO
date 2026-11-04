@@ -1,4 +1,5 @@
 Update, 4 November 2026:
+* **New GitHub Pages Web Portal**: To provide a permanent, reliable, and open replacement for the former CCHMC stand-alone site, we have launched an interactive web portal hosted directly from this repository at **[https://superraptor.github.io/GSSO/](https://superraptor.github.io/GSSO/)**. Located in the `www/` directory (fully isolated from ODK workflows), the portal provides instant client-side term search, the text annotation detector (`#!/detector`), an interactive hierarchy tree (`#!/tree`), cross-walk lookups (`#!/mappings`), and complete backward compatibility with PURL redirects and entry links (`#!/entry?iri=...`).
 * **Ontology Development Kit (ODK) Compliance**: This repository has been updated to follow the standard [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit) layout (`src/ontology/`, `src/sparql/`, `.github/workflows/qc.yml`) while retaining full Git history, all canonical release paths, and backwards compatibility.
 * **Version 2.0.11 Release**: Resolves GitHub [Issue #12](https://github.com/Superraptor/GSSO/issues/12) (invalid language tags), achieves 100% OWL 2 DL profile compliance (resolving checks on [SchemaScope](https://www.schemascope.org/o/gsso/) and the OBO Dashboard), fixes PURL release redirection in OBO metadata (`metadata/gsso.yml`), and regenerates fully validated OBO (`gsso.obo`), OBO-JSON (`gsso.json`), and Manchester (`gsso_manchester.owl`) distribution files.
 * **Upcoming GSSO Version 3.0.0 & lgbtDB Integration**: We have established an initial automated conversion and validation backbone (`scripts/lgbtdb_to_gsso3/`) to transition [lgbtDB](https://lgbtdb.wikibase.cloud/) into GSSO version 3.0.0. Version 3.0.0 will initially be released as a class-only slim release. The new pipeline automatically maps existing GSSO terms, mints new identifiers, detects subclass hierarchy cycles, flags duplicate labels or missing definitions, and verifies logical consistency using the ELK reasoner so that constraint and reasoner adjustments can be made directly on lgbtDB before committing the full release to the repository. However, some more adjustments will be necessary before this version can be released, and it is recommended to use lgbtDB itself until then.
@@ -12,13 +13,13 @@ The Gender, Sex, and Sexual Orientation (GSSO) ontology is an ontology which inc
 
 ## Usage
 
-If you would like to use the raw OWL files here, it is recommended that you download the Protégé program [here](https://protege.stanford.edu/) and open it in that program. Alternatively you can access the system via the NCBO BioPortal API (explained below) or via our website: https://gsso.research.cchmc.org/. It is recommended to use the OWL format (which is RDF/XML from 2.0.5 onward).
+If you would like to use the raw OWL files here, it is recommended that you download the Protégé program [here](https://protege.stanford.edu/) and open it in that program. Alternatively you can access the system via the NCBO BioPortal API (explained below) or via our new website: **[https://superraptor.github.io/GSSO/](https://superraptor.github.io/GSSO/)** (note, the previous host at `https://gsso.research.cchmc.org/` is no longer available and has been replaced by GitHub Pages). It is recommended to use the OWL format (which is RDF/XML from 2.0.5 onward).
 
 If you use the GSSO in your projects, we would really appreciate the citation! Please use the most recent publication under "Publications - GSSO Publications".
 
 ### As An Educational Tool
 
-The GSSO's stand-alone website at CCHMC (https://gsso.research.cchmc.org/) is meant as the most accessible site for referencing individual terms for educational purposes. We are always accepting suggestions on how this interface can be improved, or collaborations we can contribute to!
+The GSSO's official web portal is available at **[https://superraptor.github.io/GSSO/](https://superraptor.github.io/GSSO/)** (which replaces the previous stand-alone site at CCHMC). It is meant as the most accessible site for referencing individual terms for educational purposes. We are always accepting suggestions on how this interface can be improved, or collaborations we can contribute to!
 
 ### As Subject Headings
 
@@ -28,7 +29,7 @@ Generally, we recommend using the label or alternate name attributes, we the IRI
 
 ### As A Natural Language Processing (NLP) Instrument
 
-If you are planning on using the GSSO for NLP, please contact the authors! While the scripts are currently not available on the GitHub, we can share some of our scripts (written in Python3) via email if you would like!
+If you are planning on using the GSSO for NLP, please contact the authors! While the scripts are currently not available on the GitHub, we can share some of our scripts (written in Python3) via email if you would like! You can also use our interactive online **[Text Annotation & Concept Detector](https://superraptor.github.io/GSSO/#!/detector)**.
 
 We recommend downplaying related synonyms and short names, for instance, as these are often ambiguous in nature.
 
@@ -38,11 +39,17 @@ If you are interested in translating the GSSO, please let us know! Contact the a
 
 ### Website
 
-The GSSO is separately available at Ontobee [here](http://www.ontobee.org/ontology/GSSO), at the NCBO BioPortal [here](https://bioportal.bioontology.org/ontologies/GSSO), EMBL-EBI OLS [here](https://www.ebi.ac.uk/ols/ontologies/gsso). However, there is also a stand-alone website hosted at Cincinnati Children's Hospital and Medical Center (CCHMC), [here](https://gsso.research.cchmc.org/).
+The GSSO is separately available at Ontobee [here](http://www.ontobee.org/ontology/GSSO), at the NCBO BioPortal [here](https://bioportal.bioontology.org/ontologies/GSSO), and EMBL-EBI OLS [here](https://www.ebi.ac.uk/ols/ontologies/gsso).
 
-These sites update periodically based on this GitHub repository. This means that the GitHub is the only resource that is guaranteed to be up-to-date.
+**Official Web Portal (GitHub Pages):**
+Our new official web portal is live at **[https://superraptor.github.io/GSSO/](https://superraptor.github.io/GSSO/)**. Hosted directly from the `www/` directory without affecting ODK workflows, it provides:
+* **Interactive Term Explorer**: Browse all 12,700+ terms, definitions, comments, synonyms, and mappings. Supports canonical PURL hash routing (e.g. `https://superraptor.github.io/GSSO/#!/entry?iri=http://purl.obolibrary.org/obo/GSSO_000130`).
+* **Text Annotation Feature (`#!/detector`)**: Automatically identify, highlight, and annotate GSSO concepts in clinical notes, abstracts, and raw text.
+* **Hierarchy Tree (`#!/tree`)**: Expandable ontology tree browser for navigating classes and subclasses.
+* **Vocabulary Crosswalks (`#!/mappings`)**: Search across mappings to Homosaurus, Wikidata, MeSH, LCSH, NCIt, and SNOMED-CT.
+* **Downloads Hub (`#!/downloads`)**: Quick downloads for OWL, OBO, JSON, and Manchester distributions.
 
-At the stand-alone site, there is a [text annotation feature](https://gsso.research.cchmc.org/#!/detector). Other similar annotation features are available at the NCBO BioPortal and Ontobee.
+*Historical Note:* A stand-alone website was previously hosted at Cincinnati Children's Hospital and Medical Center (CCHMC) at `https://gsso.research.cchmc.org/`. That server is no longer active, and all features (including the text detector and term browsing) have been migrated to the new GitHub Pages portal.
 
 ### API Access
 
@@ -105,10 +112,10 @@ Note that if any of the following queries do not function, reattempt with just t
 For instance, the Homosaurus link mapping can be obtained using:
 
 ```
-https://gsso.research.cchmc.org/#!/entry?iri=http://homosaurus.org/v2/LGBTQPeople
+https://superraptor.github.io/GSSO/#!/entry?iri=http://homosaurus.org/v2/LGBTQPeople
 ```
 
-on the website.
+on the website (formerly `https://gsso.research.cchmc.org/#!/entry?iri=...`).
 
 #### Getting GSSO from Homosaurus
 
@@ -256,15 +263,15 @@ Version 3.0.0 (upcoming) will transition GSSO to a continuous-integration pipeli
 
 Please feel free to contribute! If there is a term or terms that include unsatisfactory information, broken links, derogatory terminology that is not appropriately marked, please contact us! Additionally, we are attempting to include as much information from disparate archives as possible. If you or someone you know runs an LGBTQIA+ and/or sex archive with a controlled terminology, let us know!
 
-A very basic search/browse interface of version 1.0.0 was located [here](http://homepages.uc.edu/~kronkcj/gsso/). This site has been deprecated as of 2020. A new demo site is available [here](https://gsso.research.cchmc.org/).
+A very basic search/browse interface of version 1.0.0 was located [here](http://homepages.uc.edu/~kronkcj/gsso/). This site has been deprecated as of 2020. A new demo site was available [here](https://gsso.research.cchmc.org/), but is no longer available.
 
 An alpha version of 2.0.4 is also available on the NCBO BioPortal [here](http://bioportal.bioontology.org/ontologies/GSSO).
 
-There is also a survey going over various features of the GSSO [here](https://gsso.research.cchmc.org/#!/survey) if you have time to rate the GSSO!
+There was also a survey going over various features of the GSSO [here](https://gsso.research.cchmc.org/#!/survey), although it is now closed.
 
 ## Authors
 
-* Clair Kronk (clair.kronk@gmail.com)
+* [Clair Kronk](https://orcid.org/0000-0001-8397-8810) (clair.kronk@gmail.com)
 
 ## License
 

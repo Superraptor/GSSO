@@ -1,0 +1,60 @@
+{
+  "title": "Gender, Sex, and Sexual Orientation (GSSO) Ontology",
+  "version": "2.0.11",
+  "date": "4 November 2026",
+  "total_terms": 12785,
+  "total_edges": 18195,
+  "featured_categories": [
+    {
+      "id": "GSSO_005835",
+      "name": "LGBTQ+ Persons & Communities",
+      "description": "Concepts, terms, and groups representing lesbian, gay, bisexual, transgender, queer, and allied communities.",
+      "icon": "users",
+      "term_label": "LGBTQ persons",
+      "subclass_count": 30
+    },
+    {
+      "id": "GSSO_011889",
+      "name": "Gender Identities & Presentation",
+      "description": "Terms describing personal gender identity, expressions, presentation, pronouns, and gender diversity.",
+      "icon": "sparkles",
+      "term_label": "persons organized in relationship to gender",
+      "subclass_count": 6
+    },
+    {
+      "id": "GSSO_000484",
+      "name": "Health & Affirming Care",
+      "description": "Health conditions, gender-affirming treatments, surgical procedures, and medical terminology.",
+      "icon": "heart-pulse",
+      "term_label": "health condition",
+      "subclass_count": 4
+    },
+    {
+      "id": "GSSO_000029",
+      "name": "Social & Cultural Concepts",
+      "description": "Sociological processes, historical movements, community spaces, slang, and cultural terminology.",
+      "icon": "landmark",
+      "term_label": "social process",
+      "subclass_count": 6
+    },
+    {
+      "id": "GSSO_000492",
+      "name": "Knowledge & Educational Entities",
+      "description": "Academic disciplines, literature, media, subject headings, and reference frameworks.",
+      "icon": "book-open",
+      "term_label": "knowledge content entity",
+      "subclass_count": 3
+    },
+    {
+      "id": "GSSO_000721",
+      "name": "Biological Interactions & Anatomy",
+      "description": "Biological sex characteristics, genetics, endocrine systems, and physiological concepts.",
+      "icon": "dna",
+      "term_label": "biological interaction",
+      "subclass_count": 1
+    }
+  ],
+  "purl_base": "http://purl.obolibrary.org/obo/GSSO_",
+  "github_url": "https://github.com/Superraptor/GSSO",
+  "lgbtdb_url": "https://lgbtdb.wikibase.cloud/"
+}

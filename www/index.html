@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official web portal for the Gender, Sex, and Sexual Orientation (GSSO) Ontology. Interactive term explorer, automated text detector, hierarchy browser, and cross-walk mappings.">
+  <meta name="keywords" content="GSSO, ontology, LGBTQ, gender identity, sexual orientation, sex characteristics, health informatics, OBO Foundry, ODK, Homosaurus">
+  <meta name="author" content="Clair Kronk">
+  <title>Gender, Sex, and Sexual Orientation (GSSO) Ontology Portal</title>
+
+  <!-- Canonical link -->
+  <link rel="canonical" href="https://superraptor.github.io/GSSO/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header" id="app-header">
+    <div class="header-container">
+      <a href="#!/" class="brand-wrapper" id="brand-link">
+        <div class="brand-icon">G</div>
+        <div class="brand-text">
+          <h1>GSSO <span class="brand-badge" id="header-version-badge">v2.0.11</span></h1>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="header-nav" id="main-nav" aria-label="Main Navigation">
+        <a href="#!/" class="nav-link active" id="nav-explorer">🔍 Explorer</a>
+        <a href="#!/detector" class="nav-link" id="nav-detector">📝 Text Detector</a>
+        <a href="#!/tree" class="nav-link" id="nav-tree">🌳 Hierarchy</a>
+        <a href="#!/mappings" class="nav-link" id="nav-mappings">🔄 Crosswalks</a>
+        <a href="#!/downloads" class="nav-link" id="nav-downloads">📦 Downloads</a>
+        <a href="#!/about" class="nav-link" id="nav-about">ℹ️ About</a>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Theme" title="Toggle theme">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <a href="https://github.com/Superraptor/GSSO" target="_blank" rel="noopener" class="github-link-btn" id="btn-github-repo" title="View Source on GitHub">
+          <span>GitHub</span> ↗
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero-section">
+    <div class="hero-pill">
+      <span>✨ ODK Compliant • 100% OWL 2 DL Profile • OBO Foundry</span>
+    </div>
+    <h2 class="hero-title">
+      Gender, Sex, & Sexual Orientation <br>
+      <span class="gradient-text">Ontology Portal</span>
+    </h2>
+    <p class="hero-subtitle">
+      A multidisciplinary, intersectional terminology system capturing gender identity, sexual orientation, health conditions, social concepts, and biological sex characteristics.
+    </p>
+
+    <!-- Global Instant Search -->
+    <div class="search-container" id="search-container">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          class="search-input" 
+          id="search-input" 
+          placeholder="Search 12,700+ terms, synonyms, or IDs (e.g. 'transgender', 'butch', 'GSSO_000130')..." 
+          autocomplete="off"
+          spellcheck="false"
+        >
+        <span class="search-shortcut-badge">/</span>
+      </div>
+      <!-- Instant Search Dropdown Results -->
+      <div class="search-results-dropdown" id="search-dropdown" role="listbox"></div>
+    </div>
+
+    <!-- Quick Exploration Pills -->
+    <div class="quick-pills-row" id="quick-pills">
+      <span style="font-size: 0.8rem; color: var(--text-muted); margin-right: 0.25rem;">Popular:</span>
+      <button class="quick-pill" data-search="transgender">transgender</button>
+      <button class="quick-pill" data-search="gender dysphoria">gender dysphoria</button>
+      <button class="quick-pill" data-search="nonbinary">nonbinary</button>
+      <button class="quick-pill" data-search="two-spirit">two-spirit</button>
+      <button class="quick-pill" data-search="pronouns">pronouns</button>
+      <button class="quick-pill" data-search="hormone therapy">hormone therapy</button>
+      <button class="quick-pill" data-search="homosaurus">homosaurus</button>
+    </div>
+  </section>
+
+  <!-- Stats Ribbon -->
+  <section class="stats-ribbon" id="stats-ribbon">
+    <div class="stat-card">
+      <div class="stat-value" id="stat-terms-count">12,785</div>
+      <div class="stat-label">Defined Concepts</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-edges-count">18,195</div>
+      <div class="stat-label">Hierarchical Relationships</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-version">v2.0.11</div>
+      <div class="stat-label">Current Release</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" style="color: var(--accent-emerald);">OWL 2 DL</div>
+      <div class="stat-label">Reasoning Profile Validated</div>
+    </div>
+  </section>
+
+  <!-- Main Views Container -->
+  <main class="app-main" id="app-main">
+
+    <!-- View 1: Explorer & Term Details (Default) -->
+    <section class="view-section active" id="view-explorer">
+      <!-- Target Container for Individual Term Details -->
+      <div id="term-detail-container" style="display: none;"></div>
+
+      <!-- Featured Root Branches -->
+      <div class="section-header">
+        <div>
+          <h3 class="section-title">Thematic Ontology Branches</h3>
+          <p class="section-subtitle">Explore core conceptual domains structured within the GSSO hierarchy.</p>
+        </div>
+      </div>
+      <div class="category-grid" id="featured-categories-grid"></div>
+    </section>
+
+    <!-- View 2: Text Annotation / Concept Detector -->
+    <section class="view-section" id="view-detector">
+      <div class="section-header">
+        <div>
+          <h3 class="section-title">Text Annotation & Concept Detector</h3>
+          <p class="section-subtitle">
+            Paste clinical notes, research abstracts, or educational text to automatically highlight and annotate GSSO concepts.
+          </p>
+        </div>
+      </div>
+
+      <div class="detector-container">
+        <!-- Input Panel -->
+        <div class="detector-panel">
+          <div class="detector-header">
+            <label for="detector-input" style="font-weight: 600; font-size: 0.95rem;">Input Text</label>
+            <button class="btn btn-primary" id="btn-run-detector" style="padding: 0.4rem 0.9rem;">
+              ⚡ Annotate Text
+            </button>
+          </div>
+          <textarea 
+            class="detector-textarea" 
+            id="detector-input" 
+            placeholder="Paste raw text here to identify GSSO terms, synonyms, and identifiers..."
+          ></textarea>
+
+          <div class="sample-buttons-row">
+            <span style="font-size: 0.75rem; color: var(--text-muted); align-self: center;">Try sample:</span>
+            <button class="sample-btn" data-sample="clinical">Clinical Intake Note</button>
+            <button class="sample-btn" data-sample="sociological">Sociological Qualitative Study</button>
+            <button class="sample-btn" data-sample="biomedical">Endocrine & Biological</button>
+          </div>
+        </div>
+
+        <!-- Output Panel -->
+        <div class="detector-panel">
+          <div class="detector-header">
+            <span style="font-weight: 600; font-size: 0.95rem;">Annotated Concept View</span>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Hover/click highlights for term cards</span>
+          </div>
+          <div class="detector-output-box" id="detector-output">
+            <span style="color: var(--text-muted); font-style: italic;">
+              Annotated text will appear here with clickable terms and definition tooltips.
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detected Terms Summary -->
+      <div class="detected-summary-box" id="detector-summary"></div>
+    </section>
+
+    <!-- View 3: Hierarchy Tree Browser -->
+    <section class="view-section" id="view-tree">
+      <div class="section-header">
+        <div>
+          <h3 class="section-title">Interactive Hierarchy Tree</h3>
+          <p class="section-subtitle">Navigate down through primary ontology classes and direct subclasses.</p>
+        </div>
+      </div>
+      <div class="tree-container" id="tree-view-container"></div>
+    </section>
+
+    <!-- View 4: Vocabulary Cross-Walks & Mappings -->
+    <section class="view-section" id="view-mappings">
+      <div class="section-header">
+        <div>
+          <h3 class="section-title">Vocabulary Cross-Walks & External Mappings</h3>
+          <p class="section-subtitle">Mappings linking GSSO to Homosaurus, Wikidata, MeSH, LCSH, NCIt, and SNOMED-CT.</p>
+        </div>
+      </div>
+
+      <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); overflow-x: auto; padding: 1rem;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem; text-align: left;">
+          <thead>
+            <tr style="border-bottom: 2px solid var(--border-medium); color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase;">
+              <th style="padding: 0.75rem 1rem;">GSSO ID</th>
+              <th style="padding: 0.75rem 1rem;">Concept Label</th>
+              <th style="padding: 0.75rem 1rem;">Target Vocabulary</th>
+              <th style="padding: 0.75rem 1rem;">Target Identifier / URI</th>
+            </tr>
+          </thead>
+          <tbody id="mappings-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- View 5: Downloads & Distribution Files -->
+    <section class="view-section" id="view-downloads">
+      <div class="section-header">
+        <div>
+          <h3 class="section-title">Downloads & Release Distributions</h3>
+          <p class="section-subtitle">Current stable release: <strong>Version 2.0.11</strong> (4 November 2026)</p>
+        </div>
+      </div>
+
+      <div class="downloads-grid">
+        <div class="download-card">
+          <div>
+            <span class="download-format-badge">OWL (RDF/XML)</span>
+            <h3>GSSO Primary OWL</h3>
+            <p>Canonical OWL 2 DL ontology format for Protégé, ROBOT, and semantic reasoners.</p>
+          </div>
+          <a href="https://raw.githubusercontent.com/Superraptor/GSSO/master/gsso.owl" download class="btn btn-primary" id="btn-dl-owl">
+            Download gsso.owl (21 MB)
+          </a>
+        </div>
+
+        <div class="download-card">
+          <div>
+            <span class="download-format-badge">OBO FORMAT</span>
+            <h3>GSSO OBO Flatfile</h3>
+            <p>Standard OBO flatfile format for BioPortal, OMA, and bio-ontological pipelines.</p>
+          </div>
+          <a href="https://raw.githubusercontent.com/Superraptor/GSSO/master/gsso.obo" download class="btn btn-secondary" id="btn-dl-obo">
+            Download gsso.obo (8 MB)
+          </a>
+        </div>
+
+        <div class="download-card">
+          <div>
+            <span class="download-format-badge">OBO-JSON</span>
+            <h3>GSSO JSON Graph</h3>
+            <p>Standard OBO Graphs JSON schema for programmatic API ingestion and web applications.</p>
+          </div>
+          <a href="https://raw.githubusercontent.com/Superraptor/GSSO/master/gsso.json" download class="btn btn-secondary" id="btn-dl-json">
+            Download gsso.json (18 MB)
+          </a>
+        </div>
+
+        <div class="download-card">
+          <div>
+            <span class="download-format-badge">MANCHESTER OWL</span>
+            <h3>Manchester Syntax</h3>
+            <p>Human-readable Manchester OWL syntax for text-based editing and inspection.</p>
+          </div>
+          <a href="https://raw.githubusercontent.com/Superraptor/GSSO/master/gsso_manchester.owl" download class="btn btn-secondary" id="btn-dl-manchester">
+            Download gsso_manchester.owl (12 MB)
+          </a>
+        </div>
+      </div>
+
+      <!-- Upcoming Version 3.0.0 Notice -->
+      <div style="background: var(--bg-surface); border: 1px solid var(--accent-purple); border-radius: var(--radius-lg); padding: 1.5rem; margin-bottom: 2.5rem;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+          <span class="brand-badge" style="background: rgba(139, 92, 246, 0.2);">Upcoming GSSO 3.0.0</span>
+          <span style="font-weight: 700; color: var(--text-primary);">Community Curation on lgbtDB</span>
+        </div>
+        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.6;">
+          Future releases of GSSO are being transitioned to a Wikibase-driven collaborative model hosted at 
+          <a href="https://lgbtdb.wikibase.cloud/" target="_blank" rel="noopener"><strong>lgbtDB</strong></a>.
+          Maintainers can run the conversion pipeline directly via <code>python scripts/convert_lgbtdb_to_gsso3.py all</code>.
+        </p>
+        <a href="https://lgbtdb.wikibase.cloud/" target="_blank" rel="noopener" class="btn btn-primary">
+          Explore lgbtDB ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- View 6: About & Citations -->
+    <section class="view-section" id="view-about">
+      <div class="section-header">
+        <div>
+          <h3 class="section-title">About the GSSO Ontology</h3>
+          <p class="section-subtitle">Origins, design methodology, publications, and citation guide.</p>
+        </div>
+      </div>
+
+      <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem; margin-bottom: 2rem;">
+        <h4 style="font-family: var(--font-heading); font-size: 1.25rem; margin-bottom: 0.75rem;">Project Background</h4>
+        <p style="color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.7;">
+          The Gender, Sex, and Sexual Orientation (GSSO) ontology is a comprehensive terminology designed to represent concepts across gender identity, gender expression, romantic orientation, sexual orientation, health conditions, clinical care, and social interactions. Its focus is on maintaining a multidisciplinary and intersectional approach.
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.7;">
+          The project originally hosted a stand-alone web resource at Cincinnati Children's Hospital and Medical Center (CCHMC). This modern GitHub Pages site serves as the official replacement portal, providing full term browsing, text annotation, and cross-reference lookups directly aligned with the open-source repository.
+        </p>
+
+        <h4 style="font-family: var(--font-heading); font-size: 1.25rem; margin-bottom: 0.75rem;">How to Cite</h4>
+        <div class="citation-box" style="margin-bottom: 1.5rem;">
+Kronk C, Dexheimer J. "Development of the Gender, Sex, and Sexual Orientation Ontology: Evaluation and Workflow."
+Journal of the American Medical Informatics Association (JAMIA). 2020.
+DOI: 10.1093/jamia/ocaa061. PMID: 32548638.
+        </div>
+
+        <h4 style="font-family: var(--font-heading); font-size: 1.25rem; margin-bottom: 0.75rem;">License & Rights</h4>
+        <p style="color: var(--text-secondary); line-height: 1.7;">
+          The GSSO ontology itself is bound by the <strong>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)</strong> license. Software tools, scripts, and build workflows are licensed under the <strong>Apache 2.0 License</strong>.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="app-footer" id="app-footer">
+    <div class="footer-container">
+      <div>
+        <strong>Gender, Sex, and Sexual Orientation (GSSO) Ontology</strong> • Version 2.0.11 (4 November 2026)
+        <br>
+        <span style="font-size: 0.8rem; color: var(--text-muted);">
+          Maintained by Clair Kronk (clair.kronk@gmail.com) • ODK Compliant
+        </span>
+      </div>
+      <div class="footer-links">
+        <a href="#!/about">About</a>
+        <a href="https://github.com/Superraptor/GSSO" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://lgbtdb.wikibase.cloud/" target="_blank" rel="noopener">lgbtDB</a>
+        <a href="http://www.ontobee.org/ontology/GSSO" target="_blank" rel="noopener">Ontobee</a>
+        <a href="https://bioportal.bioontology.org/ontologies/GSSO" target="_blank" rel="noopener">BioPortal</a>
+        <a href="https://www.ebi.ac.uk/ols/ontologies/gsso" target="_blank" rel="noopener">OLS</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/search.js"></script>
+  <script src="js/detector.js"></script>
+  <script src="js/tree.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
