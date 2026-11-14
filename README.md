@@ -287,26 +287,135 @@ This project and any associated software created as part of the GSSO system are 
 
 * Kronk C, Tran G, Wu D. "Creating a Queer Ontology: Introduction of the Gender, Sex, and Sexual Orientation (GSSO) Ontology." _MEDINFO 2019: Health and Wellbeing e-Networks for All_. 2019:264. DOI: [10.3233/SHTI190213](https://doi.org/10.3233/SHTI190213). PMID: [31437915](https://www.ncbi.nlm.nih.gov/pubmed/31437915).
 
-### Publications Which Utilize/Cite the GSSO
+### Publications Which Utilize/Cite the GSSO (or lgbtDB)
 
-If you've published something that uses the GSSO, please contact us! We'd love to add your work here!
+If you've published something that uses the GSSO or lgbtDB, please contact us! We'd love to add your work here!
 
-* Lynch, K, Alba P, Patterson O, Viernes B, Coronado G, DuVall S. "The Utility of Clinical Notes for Sexual Minority Health Research." _American Journal of Preventive Medicine_. 2020. DOI: [10.1016/j.amepre.2020.05.026](https://doi.org/10.1016/j.amepre.2020.05.026). PMID: [33011005](https://pubmed.ncbi.nlm.nih.gov/33011005/)
+* Hogenboom J, Gouthamchand V, Cairns C, Janssen SHM, Way KM, Dekker AL, et al. "Knowledge Representation of a Multicenter Adolescent and Young Adult Cancer Infrastructure: Development of the STRONG AYA Knowledge Graph." _JCO Clinical Cancer Informatics_. 2026. DOI: [10.1200/cci-25-00177](https://doi.org/10.1200/cci-25-00177). PMID: [41534005](https://pubmed.ncbi.nlm.nih.gov/41534005/).
 
-* Tai, J. "Cultural Humility as a Framework for Anti-Oppressive Archival Description." _Journal of Critical Library and Information Studies_. 2020. 
+* Lv F, Qian Q, Fan Z, Zhan Y, Zeng J, Xiao J. "PWAS Atlas: a comprehensive knowledgebase of proteome-wide association studies." _Nucleic Acids Research_. 2026. DOI: [10.1093/nar/gkag967](https://doi.org/10.1093/nar/gkag967). PMID: [42865327](https://pubmed.ncbi.nlm.nih.gov/42865327/).
+
+* Diksha, Sharma A, Dhar M. "Toward Inclusive Metadata: A Multilingual Framework for Representing Queer Identities in Indian Digital Repositories." _Cataloging & Classification Quarterly_. 2026. DOI: [10.1080/01639374.2026.2664520](https://doi.org/10.1080/01639374.2026.2664520).
+
+* Perchyk T, Hunt IDV, Nicholson BD, Mounce LTA, Sykes K, Lyratzopoulos G, et al. "How well are marginalised groups represented in electronic records? A codelist development project and cross-sectional analysis of UK electronic health records." _BMJ Open_. 2025. DOI: [10.1136/bmjopen-2024-098305](https://doi.org/10.1136/bmjopen-2024-098305). PMID: [40789724](https://pubmed.ncbi.nlm.nih.gov/40789724/).
+
+* Hochheiser H, Visweswaran S. "In defense of empathic informatics." _Journal of the American Medical Informatics Association_. 2025. DOI: [10.1093/jamia/ocaf107](https://doi.org/10.1093/jamia/ocaf107). PMID: [40644430](https://pubmed.ncbi.nlm.nih.gov/40644430/).
+
+* Zhang X, Lai H, Meng Q, Bos J. "OntoURL: A Benchmark for Evaluating Large Language Models on Symbolic Ontological Understanding, Reasoning and Learning." _arXiv preprint arXiv:2505.11031_. 2025. DOI: [10.48550/arxiv.2505.11031](https://doi.org/10.48550/arxiv.2505.11031).
+
+* Paletta P, Mosconi P, Bergamaschi R, Santucci C, Lepore V, Tavazzi E. "Sex and Gender Transition of People With Multiple Sclerosis: A Real‐World Perspective." _European Journal of Neurology_. 2025. DOI: [10.1111/ene.70409](https://doi.org/10.1111/ene.70409). PMID: [41288286](https://pubmed.ncbi.nlm.nih.gov/41288286/).
+
+* Veloso L, Hirlimann L, Zidar LM, Wicke P, Hofmann V, Schütze H. "SLAyiNG: A Diverse and Community-validated Dataset of Queer Slang." _arXiv preprint arXiv:2509.17449_. 2025. DOI: [10.48550/arxiv.2509.17449](https://doi.org/10.48550/arxiv.2509.17449).
+
+* Adamidou M, Wang S. "Towards Semi-automatic Construction of Multilingual LGBTQ+ Conceptual Models." _MDTT_. 2025. URL: [https://www.semanticscholar.org/paper/877f0156215fedf879647328631cb5db176f872b](https://www.semanticscholar.org/paper/877f0156215fedf879647328631cb5db176f872b).
+
+* Ruiz‐Serra V, Buslón N, Philippe O, Saby D, Morales MP, Pontes CFT, et al. "Analyzing sex imbalance in EGA and dbGaP biological databases: Recommendations for better practices." _iScience_. 2024. DOI: [10.1016/j.isci.2024.110831](https://doi.org/10.1016/j.isci.2024.110831). PMID: [39474070](https://pubmed.ncbi.nlm.nih.gov/39474070/).
+
+* Lobo P, Daga E, Alani H, Fernández M. "Enhancing Hate Speech Annotations with Background Semantics." _European Conference on Artificial Intelligence_. 2024. DOI: [10.3233/faia240957](https://doi.org/10.3233/faia240957).
+
+* Wang S, Adamidou M. "Examining LGBTQ+-Related Concepts in the Semantic Web: Link Discovery, Concept Drift, Ambiguity, and Multilingual Information Reuse." _Lecture Notes in Computer Science_. 2024. DOI: [10.1007/978-3-031-77792-9_1](https://doi.org/10.1007/978-3-031-77792-9_1).
+
+* Malatesta G, Marzoli D, Lucafò C, D’Anselmo A, Azzilonna T, Prete G, Tommasi L. "Functional lateralization in social-emotional processing: The influence of sexual orientation and gender identity on cradling preferences." _Early Human Development_. 2024. DOI: [10.1016/j.earlhumdev.2024.106049](https://doi.org/10.1016/j.earlhumdev.2024.106049). PMID: [38781713](https://pubmed.ncbi.nlm.nih.gov/38781713/).
+
+* Kim W, Donise KR, Brown KA, Cancilliere MK, Chen ES. "Identifying and Characterizing the Transgender and Nonbinary Population Presenting to Pediatric Psychiatry Emergency Services." _PubMed Central_. 2024. PMID: [38827092](https://pubmed.ncbi.nlm.nih.gov/38827092/).
+
+* Ho N, Williams A, Sun Z. "Improving radiology information systems for inclusivity of transgender and gender‐diverse patients: what are the problems and what are the solutions? A systematic review." _Journal of Medical Radiation Sciences_. 2024. DOI: [10.1002/jmrs.808](https://doi.org/10.1002/jmrs.808). PMID: [39030738](https://pubmed.ncbi.nlm.nih.gov/39030738/).
+
+* Becker RA, Walsh CG. "Prospective Validation of a Suicide Event Risk Model in Transgender Patients." _AMIA Annual Symposium Proceedings_. 2024. PMID: [41726488](https://pubmed.ncbi.nlm.nih.gov/41726488/).
+
+* Slater LT, Schofield PN, Wright J, Clift P, Irani A, Bradlow WM, Aziz F, Gkoutos GV. "Talking about diseases; developing a model of patient and public-prioritised disease phenotypes." _npj Digital Medicine_. 2024. DOI: [10.1038/s41746-024-01257-8](https://doi.org/10.1038/s41746-024-01257-8). PMID: [39349692](https://pubmed.ncbi.nlm.nih.gov/39349692/).
+
+* Ruggieri S, Álvarez JM, Pugnana A, State L, Turini F. "Can We Trust Fair-AI?." _Proceedings of the AAAI Conference on Artificial Intelligence_. 2023. DOI: [10.1609/aaai.v37i13.26798](https://doi.org/10.1609/aaai.v37i13.26798).
+
+* Lobo PR, Daga E, Alani H, Fernández M. "Knowledge-Grounded Target Group Language Recognition in Hate Speech." _Studies on the Semantic Web_. 2023. DOI: [10.3233/ssw230002](https://doi.org/10.3233/ssw230002).
+
+* Dhrangadhariya A, Müller H. "Not so weak PICO: leveraging weak supervision for participants, interventions, and outcomes recognition for systematic review automation." _JAMIA Open_. 2023. DOI: [10.1093/jamiaopen/ooac107](https://doi.org/10.1093/jamiaopen/ooac107). PMID: [36632329](https://pubmed.ncbi.nlm.nih.gov/36632329/).
+
+* Weathington K, Brubaker JR. "Queer Identities, Normative Databases: Challenges to Capturing Queerness On Wikidata." _Proc. ACM Hum. Comput. Interact_. 2023. DOI: [10.1145/3579517](https://doi.org/10.1145/3579517).
+
+* Buslón N, Cortés À, Catuara‐Solarz S, Cirillo D, Rementeria MJ. "Raising awareness of sex and gender bias in artificial intelligence and health." _Frontiers in Global Women's Health_. 2023. DOI: [10.3389/fgwh.2023.970312](https://doi.org/10.3389/fgwh.2023.970312). PMID: [37746321](https://pubmed.ncbi.nlm.nih.gov/37746321/).
+
+* Diller MA, Yin P, Brochhausen M, Bian J, Hu HZ, Hogan WR. "Representation of the External Exposome in Ontologies: A Scoping Review (Preprint)." 2023. DOI: [10.2196/preprints.49568](https://doi.org/10.2196/preprints.49568).
+
+* Waltemath D, Beelich H, Töpfer P, Bergelt C, Flöel A, Katsari E, et al. "Representing Sex and Gender Information in Biomedical Research." _Studies in Health Technology and Informatics_. 2023. DOI: [10.3233/shti230259](https://doi.org/10.3233/shti230259). PMID: [37203489](https://pubmed.ncbi.nlm.nih.gov/37203489/).
+
+* Slater KT, Schofield PN, Wright J, Clift P, Irani A, Bradlow W, Aziz F, Gkoutos GV. "Talking about diseases; developing a patient and public-centered phenotype model from social media data." _medRxiv_. 2023. DOI: [10.1101/2023.12.19.23300163](https://doi.org/10.1101/2023.12.19.23300163).
+
+* Hastings J. "Achieving Inclusivity by Design: Social and Contextual Information in Medical Knowledge." _Yearbook of Medical Informatics_. 2022. DOI: [10.1055/s-0042-1742509](https://doi.org/10.1055/s-0042-1742509). PMID: [35654426](https://pubmed.ncbi.nlm.nih.gov/35654426/).
+
+* Anderson EL, Eleazer JR, Kristensen Z, Amand CMS, Baker AM, Correro AN, et al. "Affirmative neuropsychological practice with transgender and gender diverse individuals and communities." _The Clinical Neuropsychologist_. 2022. DOI: [10.1080/13854046.2022.2073915](https://doi.org/10.1080/13854046.2022.2073915). PMID: [35642438](https://pubmed.ncbi.nlm.nih.gov/35642438/).
+
+* Diller M, Hogan W. "An Ontological Representation of Money with a View Toward Economic Determinants of Health." _International Conference on Biomedical Ontology_. 2022. URL: [https://www.semanticscholar.org/paper/6802f20c31cda53e017dcdfc49035d2f3accb533](https://www.semanticscholar.org/paper/6802f20c31cda53e017dcdfc49035d2f3accb533).
+
+* Goyer F, Fabry P, Barton A, Éthier J. "An Ontology for Healthcare Systems." _International Conference on Biomedical Ontology_. 2022. URL: [https://www.semanticscholar.org/paper/50b4c2ffbdb45388035cb01ab0823153a6c87ef9](https://www.semanticscholar.org/paper/50b4c2ffbdb45388035cb01ab0823153a6c87ef9).
+
+* Nabergoj Makovec U, Goetzinger C, Ribaut J, Barnestein-Fonseca P, Haupenthal F, Herdeiro MT, et al. "Developing a medication adherence technologies repository: proposed structure and protocol for an online real-time Delphi study." _BMJ Open_. 2022. DOI: [10.1136/bmjopen-2021-059674](https://doi.org/10.1136/bmjopen-2021-059674). PMID: [35459677](https://pubmed.ncbi.nlm.nih.gov/35459677/).
+
+* Tasker K, Taketa R, Macquarie C, Deardorff A. "Digital Archives and Data Science: Building Programs and Partnerships for Health Sciences Research." _Advances in Library and Information Science_. 2022. DOI: [10.4018/978-1-7998-9702-6.ch007](https://doi.org/10.4018/978-1-7998-9702-6.ch007).
+
+* Koehle H, Kronk CA, Lee YJ. "Digital Health Equity: Addressing Power, Usability, and Trust to Strengthen Health Systems." _Yearbook of Medical Informatics_. 2022. DOI: [10.1055/s-0042-1742512](https://doi.org/10.1055/s-0042-1742512). PMID: [36463865](https://pubmed.ncbi.nlm.nih.gov/36463865/).
+
+* Ladewig MS, Jacobsen JO, Wagner AH, Daniš D, Kassaby BE, Gargano MA, et al. "GA4GH Phenopackets: A Practical Introduction." _Advanced Genetics_. 2022. DOI: [10.1002/ggn2.202200016](https://doi.org/10.1002/ggn2.202200016). PMID: [36910590](https://pubmed.ncbi.nlm.nih.gov/36910590/).
+
+* Hong Y, Zeng M. "International Classification of Diseases (ICD)." _Knowledge Organization_. 2022. DOI: [10.5771/0943-7444-2022-7-496](https://doi.org/10.5771/0943-7444-2022-7-496).
+
+* Correro AN, Hinrichs KLM, Krishnan M, Cottingham ME, Trittschuh EH, Parmenter BA, Kang J, Stelmokas J. "Neuropsychological assessment with lesbian, gay, bisexual, transgender, and queer/questioning (LGBTQ+) individuals: Practice, education, and training survey." _The Clinical Neuropsychologist_. 2022. DOI: [10.1080/13854046.2022.2148379](https://doi.org/10.1080/13854046.2022.2148379). PMID: [36458596](https://pubmed.ncbi.nlm.nih.gov/36458596/).
+
+* Morska N. "Ontology of human rights in today's globalized world: the philosophical dimension." _Revista Amazonia Investiga_. 2022. DOI: [10.34069/ai/2022.60.12.27](https://doi.org/10.34069/ai/2022.60.12.27).
+
+* Crompton C. "SémantiQueer: Making Linked Data Work for Public History." _Springer_. 2022. DOI: [10.1007/978-3-031-11886-9_6](https://doi.org/10.1007/978-3-031-11886-9_6).
+
+* Reavis KM, Bisgaard N, Canlon B, Dubno JR, Frisina RD, Hertzano RP, et al. "Sex-Linked Biology and Gender-Related Research Is Essential to Advancing Hearing Health." _Ear and Hearing_. 2022. DOI: [10.1097/aud.0000000000001291](https://doi.org/10.1097/aud.0000000000001291). PMID: [36384870](https://pubmed.ncbi.nlm.nih.gov/36384870/).
+
+* Davison KS. "Standards Developments for Improving Care for Transgender People." _IntechOpen_. 2022. DOI: [10.5772/intechopen.101907](https://doi.org/10.5772/intechopen.101907).
+
+* Lobo PR, Daga E, Alani H. "Supporting Online Toxicity Detection with Knowledge Graphs." _Proceedings of the International AAAI Conference on Web and Social Media_. 2022. DOI: [10.1609/icwsm.v16i1.19398](https://doi.org/10.1609/icwsm.v16i1.19398).
+
+* Sineath RC, Blasdel G, Dy GW. "Addressing Urologic Health Disparities in Sexual and Gender Minority Communities Through Patient-Centered Outcomes Research." _Urology_. 2021. DOI: [10.1016/j.urology.2021.08.065](https://doi.org/10.1016/j.urology.2021.08.065). PMID: [34774931](https://pubmed.ncbi.nlm.nih.gov/34774931/).
+
+* Kronk CA, Dexheimer JW. "An ontology-based review of transgender literature: Revealing a history of medicalization and pathologization." _International Journal of Medical Informatics_. 2021. DOI: [10.1016/j.ijmedinf.2021.104601](https://doi.org/10.1016/j.ijmedinf.2021.104601). PMID: [34649111](https://pubmed.ncbi.nlm.nih.gov/34649111/).
+
+* Thompson HM, Kronk CA, Feasley K, Pachwicewicz P, Karnik NS. "Implementation of Gender Identity and Assigned Sex at Birth Data Collection in Electronic Health Records: Where Are We Now?." _International Journal of Environmental Research and Public Health_. 2021. DOI: [10.3390/ijerph18126599](https://doi.org/10.3390/ijerph18126599). PMID: [34205275](https://pubmed.ncbi.nlm.nih.gov/34205275/).
+
+* Coladangelo LP. "Organizing Controversy: Toward Cultural Hospitality in Controlled Vocabularies Through Semantic Annotation." _Knowledge Organization_. 2021. DOI: [10.5771/0943-7444-2021-3-195](https://doi.org/10.5771/0943-7444-2021-3-195).
+
+* Kloer C, Blasdel G, Morris MX, Zhao LC, Bluebond‐Langner R. "Overview of Gender Affirming Surgery for the Gynecologic Surgeon." _Journal of Gynecologic Surgery_. 2021. DOI: [10.1089/gyn.2021.0042](https://doi.org/10.1089/gyn.2021.0042).
+
+* Antonio MG, Lau F, Davison KS, Devor A, Queen R, Courtney KL. "Toward an inclusive digital health system for sexual and gender minorities in Canada." _Journal of the American Medical Informatics Association_. 2021. DOI: [10.1093/jamia/ocab183](https://doi.org/10.1093/jamia/ocab183). PMID: [34605910](https://pubmed.ncbi.nlm.nih.gov/34605910/).
+
+* Kronk CA, Everhart AR, Ashley F, Thompson HM, Schall TE, Goetz TG, et al. "Transgender data collection in the electronic health record: Current concepts and issues." _Journal of the American Medical Informatics Association_. 2021. DOI: [10.1093/jamia/ocab136](https://doi.org/10.1093/jamia/ocab136). PMID: [34486655](https://pubmed.ncbi.nlm.nih.gov/34486655/).
+
+* Ram A, Kronk CA, Eleazer JR, Goulet JL, Brandt C, Wang K. "Transphobia, encoded: an examination of trans-specific terminology in SNOMED CT and ICD-10-CM." _Journal of the American Medical Informatics Association_. 2021. DOI: [10.1093/jamia/ocab200](https://doi.org/10.1093/jamia/ocab200). PMID: [34569604](https://pubmed.ncbi.nlm.nih.gov/34569604/).
+
+* Lau F, Antonio MG, Davison KS, Queen R, Bryski K. "An Environmental Scan of Sex and Gender in Electronic Health Records: Analysis of Public Information Sources." _Journal of Medical Internet Research_. 2020. DOI: [10.2196/20050](https://doi.org/10.2196/20050). PMID: [33174858](https://pubmed.ncbi.nlm.nih.gov/33174858/).
+
+* Lynch KE, Alba PR, Patterson OV, Viernes B, Coronado G, DuVall SL. "The Utility of Clinical Notes for Sexual Minority Health Research." _American Journal of Preventive Medicine_. 2020. DOI: [10.1016/j.amepre.2020.05.026](https://doi.org/10.1016/j.amepre.2020.05.026). PMID: [33011005](https://pubmed.ncbi.nlm.nih.gov/33011005/).
+
+* Tai, J. "Cultural Humility as a Framework for Anti-Oppressive Archival Description." _Journal of Critical Library and Information Studies_. 2020.
 
 ## Projects
 
-### Projects Which Utilize/Cite the GSSO
+### Projects Which Utilize/Cite the GSSO (or lgbtDB)
 
-* [EMERSE (Electronic Medical Record Search Engine) Synonyms](https://project-emerse.org/synonyms.html)
-* [GLBT Historical Society, Online Archive of California](https://oac.cdlib.org/institutions/GLBT+Historical+Society)
+* [EMERSE (Electronic Medical Record Search Engine) Synonyms](https://project-emerse.org/synonyms.html) - Clinical text search engine utilizing GSSO terminology for sexual and gender minority synonym expansion.
+* [GLBT Historical Society, Online Archive of California](https://oac.cdlib.org/institutions/GLBT+Historical+Society) - Subject headings pilot integrating GSSO concepts into archival collection guides.
+* [Obsessive Compulsive Disorder Ontology (OCDO)](https://github.com/Aliaia/ocd-ontology) - Biomedical domain ontology that integrates and imports GSSO for equivalence linking and demographic representation.
+* [Sickle Cell Disease Ontology (SCDO)](https://github.com/scdodev/scdo-ontology) - Standardized sickle cell disease ontology utilizing GSSO cross-references in its official SSSOM mapping tables.
+* [SLAyiNG (Queer Slang Dataset)](https://github.com/leonorv/slaying-dataset) - Open-source NLP benchmark dataset (LMU Munich / MCML) utilizing lgbtDB (`lgbtdb.wikibase.cloud`) and GSSO for community-validated terminology and slang.
+* [Wikidata Property P9827 (GSSO ID)](https://www.wikidata.org/wiki/Property:P9827) - Dedicated Wikidata property with over 1,220 entities mapped to canonical GSSO identifiers, with claims utilizing GSSO as an authoritative reference source.
 
 ## Resources
 
 ### Resources Which Link to the GSSO
 
-* [Dictionaries, Glossaries, Ontologies, and Guides at New York University (NYU) Libraries Gender and Sexuality Studies Research Guide](https://guides.nyu.edu/genderandsex/terminology)
+* [BARTOC: Basel Register of Thesauri, Ontologies & Classifications](https://bartoc.org/en/node/20833) - University of Basel European registry entry for the Gender, Sex, and Sexual Orientation Ontology.
+* [Bioregistry (gsso)](https://bioregistry.io/registry/gsso) - Academic registry entry of biological prefixes, namespace schemas, and metadata for `gsso`.
+* [Dictionaries, Glossaries, Ontologies, and Guides at New York University (NYU) Libraries Gender and Sexuality Studies Research Guide](https://guides.nyu.edu/genderandsex/terminology) - NYU Libraries resource guide for gender and sexuality terminology.
+* [EMBL-EBI Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols4/ontologies/gsso) - European Bioinformatics Institute ontology browser and term hierarchy viewer.
+* [NCBO BioPortal](https://bioportal.bioontology.org/ontologies/GSSO) - National Center for Biomedical Ontology repository, visualization, and REST API access.
+* [OBO Foundry](https://obofoundry.org/ontology/gsso.html) - Official repository page and persistent URL resolver under the Open Biological and Biomedical Ontologies Foundry.
+* [Ontobee](https://ontobee.org/ontology/GSSO) - Linked open data server and SPARQL query endpoint for GSSO.
+* [SchemaScope](https://www.schemascope.org/o/gsso/) - Semantic web quality dashboard evaluating OWL 2 DL compliance, documentation, and structural metrics.
 
 ## Acknowledgments
 

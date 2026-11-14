@@ -28,3 +28,7 @@ Thumbs.db
 # Build and scratch output for conversion testing (do not commit GSSO 3.0.0 slim to repo yet)
 build/
 scratch/
+
+# Citation retrieval and analysis tools
+scripts/citations/
+
